@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-17T19:45:22.410Z",
-      "hash": "f2b09c3ce659ee635f0c0822a6948ab8b4013a949f8f7159232ac6968e30df50",
-      "etag": "W/\"9304e6c1fd04dd280403b8b934f336ce:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 6,
+      "fetchedAt": "2026-09-17T22:53:02.166Z",
+      "hash": "704d29b65a8d5d50779e0517a577b1d7e39f746af47cbdb825a2a69ad701c7cb",
+      "etag": "W/\"33a7f09d541527bf98b2f0531169e72b:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 7,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-17T19:45:22.410Z",
-      "hash": "e244a1276c051c8806a679ce8120d0be7ebaadb0e6355c635f44ab810a86f80d",
-      "etag": "W/\"dc9dc5f850a1587c5efd33d179503285:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-17T22:53:02.166Z",
+      "hash": "aca63ec137f077ab19c5da8e332442e5d9c2d8d99334a83fe9d2b71e6b963c15",
+      "etag": "W/\"49eb6198d30436ba02fd08cc86e34143:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 1,
       "changed": true
     },
@@ -543,8 +543,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-17T17:38:36.618Z",
-      "hash": "e350d35ef34468afb124497c8959ece2f0132b9476966c030638759f3ae7fcf6",
+      "fetchedAt": "2026-09-17T22:53:02.166Z",
+      "hash": "88a5903908dd11b952e8facd5ded49208009e9303f0497e0f7bb43c44113fe9b",
       "etag": null,
       "count": 1,
       "changed": true
@@ -623,7 +623,7 @@
       "title": "Heat Advisory issued September 17 at 10:53AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Heat index values up to 103-109 degrees can be expected. * WHERE...all of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ Sunday. * IMPACTS...Record to near record hot temperatures and high humidity may cause heat illnesses. * ADDITIONAL DETAILS",
       "observedAt": "2026-09-17T10:53:00-05:00",
-      "retrievedAt": "2026-09-17T19:45:22.410Z",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -760,7 +760,7 @@
       "title": "Heat Advisory issued September 17 at 10:05AM CDT until September 17 at 7:00PM CDT by NWS Lincoln IL",
       "summary": "Scott; Morgan; Sangamon; Christian; Shelby; Cumberland; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: * WHAT...Heat index values up to 103. * WHERE...Portions of central, east central, southeast, and west central Illinois. * WHEN...Until 7 PM CDT this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-17T10:05:00-05:00",
-      "retrievedAt": "2026-09-17T19:45:22.410Z",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -795,6 +795,272 @@
           "ILZ071",
           "ILZ072",
           "ILZ073"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e1d84d7286193cc78a2067a30f43e8a9d6b2aae8.001.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 17 at 2:39PM CDT until September 18 at 3:00PM CDT by NWS Chicago IL",
+      "summary": "Lake; Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves of 3 to 6 ft expected. * WHERE...Lake IL, Northern Cook and Central Cook Counties. * WHEN...From late tonight through Friday afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers. * ADDITIONAL DETAILS...An additional period of dangerous swimming conditions is expected Friday night into early next week.",
+      "observedAt": "2026-09-17T14:39:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-17T22:45:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5d1cd9969f75fec6383a57833f776eb9ec7fff1b.001.1",
+      "sourceId": "nws-il",
+      "title": "Hydrologic Outlook issued September 17 at 1:26PM CDT by NWS Chicago IL",
+      "summary": "Boone, IL; Cook, IL; De Kalb, IL; DuPage, IL; Grundy, IL; Kane, IL; Kendall, IL; Lake, IL; La Salle, IL; Lee, IL; McHenry, IL; Ogle, IL; Will, IL; Winnebago, IL; Lake, IN: ESFLOT Several rounds of showers and thunderstorms are possible starting late Friday night and continuing into Monday across southern Wisconsin, northern Illinois, and part of northwestern Indiana. High moisture content in the atmosphere will lead to torrential downpours where thunderstorms are most frequent, leading to the potential for several inches of rain on a widespread basis. The favored area for several rounds of showers and thunderstorms Friday night through Monday will be near and north of Interstate 80 where several inches of rain have fallen in the past 24 hours. The intersection of increasingly saturated soils and repeated downpours may lead to areas of flo",
+      "observedAt": "2026-09-17T13:26:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T01:00:00-05:00",
+      "severity": "Unknown",
+      "geocodes": {
+        "SAME": [
+          "017007",
+          "017031",
+          "017037",
+          "017043",
+          "017063",
+          "017089",
+          "017093",
+          "017097",
+          "017099",
+          "017103",
+          "017111",
+          "017141",
+          "017197",
+          "017201",
+          "018089"
+        ],
+        "UGC": [
+          "ILC007",
+          "ILC031",
+          "ILC037",
+          "ILC043",
+          "ILC063",
+          "ILC089",
+          "ILC093",
+          "ILC097",
+          "ILC099",
+          "ILC103",
+          "ILC111",
+          "ILC141",
+          "ILC197",
+          "ILC201",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.999191923db458d5e4ca1faead9e571b248dec70.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 17 at 2:16PM CDT until September 18 at 2:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 3 to 4 feet and dangerous currents are expected. * WHERE...Milwaukee, Racine and Kenosha Counties. * WHEN...From Friday morning through Friday afternoon. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-17T14:16:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-17T22:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.02723a0bc382da4b03865a3982466e2de580af2b.001.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 17 at 4:44PM CDT until September 18 at 8:00PM CDT by NWS St Louis MO",
+      "summary": "Greene; Macoupin; Montgomery; Fayette; Calhoun; Jersey; Boone; Callaway; Montgomery; Lincoln: * WHAT...Heat index values up to 103. * WHERE...In Illinois, Fayette IL, Montgomery IL, Calhoun IL, Greene IL, Jersey IL, and Macoupin IL Counties. In Missouri, Boone MO, Callaway MO, Lincoln MO, and Montgomery MO Counties. * WHEN...Until 8 PM CDT Friday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
+      "observedAt": "2026-09-17T16:44:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T07:45:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017061",
+          "017117",
+          "017135",
+          "017051",
+          "017013",
+          "017083",
+          "029019",
+          "029027",
+          "029139",
+          "029113"
+        ],
+        "UGC": [
+          "ILZ058",
+          "ILZ059",
+          "ILZ060",
+          "ILZ065",
+          "ILZ098",
+          "ILZ099",
+          "MOZ041",
+          "MOZ050",
+          "MOZ051",
+          "MOZ052"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.02723a0bc382da4b03865a3982466e2de580af2b.002.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 17 at 4:44PM CDT until September 19 at 8:00PM CDT by NWS St Louis MO",
+      "summary": "Bond; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Moniteau; Cole; Osage; Gasconade; Warren; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Heat index values up to 106. * WHERE...Portions of south central and southwest Illinois and central, east central, and southeast Missouri. * WHEN...Until 8 PM CDT Saturday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
+      "observedAt": "2026-09-17T16:44:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T07:45:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017005",
+          "017027",
+          "017121",
+          "017189",
+          "017157",
+          "017119",
+          "017163",
+          "017133",
+          "029135",
+          "029051",
+          "029151",
+          "029073",
+          "029219",
+          "029183",
+          "029071",
+          "029189",
+          "029510",
+          "029099",
+          "029055",
+          "029221",
+          "029187",
+          "029186",
+          "029093",
+          "029123",
+          "029179"
+        ],
+        "UGC": [
+          "ILZ064",
+          "ILZ069",
+          "ILZ070",
+          "ILZ074",
+          "ILZ079",
+          "ILZ100",
+          "ILZ101",
+          "ILZ102",
+          "MOZ047",
+          "MOZ048",
+          "MOZ049",
+          "MOZ059",
+          "MOZ060",
+          "MOZ061",
+          "MOZ062",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065",
+          "MOZ072",
+          "MOZ073",
+          "MOZ074",
+          "MOZ075",
+          "MOZ084",
+          "MOZ085",
+          "MOZ099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.04f34938ed2bd1d8c929780635c3f4bd569b9d90.001.1",
+      "sourceId": "nws-il",
+      "title": "Air Quality Alert issued September 17 at 3:27PM CDT by NWS St Louis MO",
+      "summary": "Madison; St. Clair; Monroe; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson: The St. Louis Clean Air Partnership has issued an air quality alert for the St. Louis metropolitan area from 10 AM to 8 PM CDT Friday. An Orange air quality forecast means that maximum ozone concentrations are expected to reach levels that pose a health risk. Adverse health effects increase as air quality deteriorates. Ground- level ozone is an air contaminant which can cause breathing difficulties for children, older adults, as well as persons with respiratory problems. Reducing outdoor physical activity is recommended. If it is a regularly scheduled work day you are urged to consider telecommuting, carpooling, or utilizing public transit. Avoid excessive idling and do not top off when refueling motor vehicles. The use of gasoline-powered lawn equipm",
+      "observedAt": "2026-09-17T15:27:00-05:00",
+      "retrievedAt": "2026-09-17T22:53:02.166Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T20:00:00-05:00",
+      "severity": "Unknown",
+      "geocodes": {
+        "SAME": [
+          "017119",
+          "017163",
+          "017133",
+          "029183",
+          "029071",
+          "029189",
+          "029510",
+          "029099"
+        ],
+        "UGC": [
+          "ILZ100",
+          "ILZ101",
+          "ILZ102",
+          "MOZ061",
+          "MOZ062",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -907,110 +1173,6 @@
           "MOZ084",
           "MOZ085",
           "MOZ099"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.e1d84d7286193cc78a2067a30f43e8a9d6b2aae8.001.1",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 17 at 2:39PM CDT until September 18 at 3:00PM CDT by NWS Chicago IL",
-      "summary": "Lake; Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves of 3 to 6 ft expected. * WHERE...Lake IL, Northern Cook and Central Cook Counties. * WHEN...From late tonight through Friday afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers. * ADDITIONAL DETAILS...An additional period of dangerous swimming conditions is expected Friday night into early next week.",
-      "observedAt": "2026-09-17T14:39:00-05:00",
-      "retrievedAt": "2026-09-17T19:45:22.410Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-17T22:45:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "017031"
-        ],
-        "UGC": [
-          "ILZ006",
-          "ILZ103",
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5d1cd9969f75fec6383a57833f776eb9ec7fff1b.001.1",
-      "sourceId": "nws-il",
-      "title": "Hydrologic Outlook issued September 17 at 1:26PM CDT by NWS Chicago IL",
-      "summary": "Boone, IL; Cook, IL; De Kalb, IL; DuPage, IL; Grundy, IL; Kane, IL; Kendall, IL; Lake, IL; La Salle, IL; Lee, IL; McHenry, IL; Ogle, IL; Will, IL; Winnebago, IL; Lake, IN: ESFLOT Several rounds of showers and thunderstorms are possible starting late Friday night and continuing into Monday across southern Wisconsin, northern Illinois, and part of northwestern Indiana. High moisture content in the atmosphere will lead to torrential downpours where thunderstorms are most frequent, leading to the potential for several inches of rain on a widespread basis. The favored area for several rounds of showers and thunderstorms Friday night through Monday will be near and north of Interstate 80 where several inches of rain have fallen in the past 24 hours. The intersection of increasingly saturated soils and repeated downpours may lead to areas of flo",
-      "observedAt": "2026-09-17T13:26:00-05:00",
-      "retrievedAt": "2026-09-17T19:45:22.410Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-18T01:00:00-05:00",
-      "severity": "Unknown",
-      "geocodes": {
-        "SAME": [
-          "017007",
-          "017031",
-          "017037",
-          "017043",
-          "017063",
-          "017089",
-          "017093",
-          "017097",
-          "017099",
-          "017103",
-          "017111",
-          "017141",
-          "017197",
-          "017201",
-          "018089"
-        ],
-        "UGC": [
-          "ILC007",
-          "ILC031",
-          "ILC037",
-          "ILC043",
-          "ILC063",
-          "ILC089",
-          "ILC093",
-          "ILC097",
-          "ILC099",
-          "ILC103",
-          "ILC111",
-          "ILC141",
-          "ILC197",
-          "ILC201",
-          "INC089"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.999191923db458d5e4ca1faead9e571b248dec70.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 17 at 2:16PM CDT until September 18 at 2:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 3 to 4 feet and dangerous currents are expected. * WHERE...Milwaukee, Racine and Kenosha Counties. * WHEN...From Friday morning through Friday afternoon. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
-      "observedAt": "2026-09-17T14:16:00-05:00",
-      "retrievedAt": "2026-09-17T19:45:22.410Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-17T22:30:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055079",
-          "055101",
-          "055059"
-        ],
-        "UGC": [
-          "WIZ066",
-          "WIZ071",
-          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1535,19 +1697,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
       "scope": "Separate proposed rules, enacted enforcement limits and final obligations"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:38:36.618Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "drought:page-change",
@@ -4001,13 +4150,13 @@
       "scope": "Robotics, machine vision, equipment and workforce developments"
     }
   ],
-  "attempted": 2,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-09-17T19:45:22.410Z",
+  "collectedAt": "2026-09-17T22:53:02.166Z",
   "history": [
     {
       "date": "2026-09-17",
-      "asOf": "2026-09-17T19:45:23.238Z",
+      "asOf": "2026-09-17T22:53:02.546Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
