@@ -1,0 +1,57 @@
+[
+  {
+    "id": "P01",
+    "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
+    "probability": 0.55,
+    "horizon": "2026-10-12",
+    "resolutionDue": "2026-10-16",
+    "confidence": "Low",
+    "outcome": null,
+    "sourceIds": [
+      "eia-diesel"
+    ],
+    "indicators": [
+      "S01"
+    ],
+    "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
+    "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
+    "createdAt": "2026-09-17"
+  },
+  {
+    "id": "P02",
+    "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
+    "probability": 0.6,
+    "horizon": "2026-10-09",
+    "resolutionDue": "2026-10-16",
+    "confidence": "Low",
+    "outcome": null,
+    "sourceIds": [
+      "wasde-sep"
+    ],
+    "indicators": [
+      "S02"
+    ],
+    "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
+    "rationale": "September forecast is below August, but the next revision is uncertain.",
+    "createdAt": "2026-09-17"
+  },
+  {
+    "id": "P03",
+    "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
+    "probability": 0.55,
+    "horizon": "2027-03-31",
+    "resolutionDue": "2027-04-07",
+    "confidence": "Low",
+    "outcome": null,
+    "sourceIds": [
+      "heartland-2026",
+      "deer-directory"
+    ],
+    "indicators": [
+      "S05"
+    ],
+    "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
+    "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
+    "createdAt": "2026-09-17"
+  }
+]

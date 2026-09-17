@@ -1,0 +1,32 @@
+name: Public intelligence collection
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    paths: ['data/sources.json', 'lib/collectors.mjs', 'scripts/collect.mjs', '.github/workflows/collect.yml']
+permissions:
+  contents: write
+concurrency:
+  group: public-intelligence-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/collect.mjs
+      - name: Save source health, candidates and genuine daily snapshots
+        run: |
+          git config user.name 'Watershed intelligence collector'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/runtime/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh public-source observations and health'
+            git push
+          fi

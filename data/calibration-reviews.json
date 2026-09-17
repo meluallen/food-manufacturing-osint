@@ -1,0 +1,7 @@
+{
+  "modelVersion": "1.0.0",
+  "reviews": [],
+  "reviewCadence": "Monthly and after a material miss",
+  "fields": ["reviewDate", "resolvedSampleSize", "brier", "falsePositives", "falseNegatives", "missedConfirmedEvents", "staleIndicators", "sourceConcentration", "overweightedSources", "underweightedSignals", "modelChanges", "rationale", "nextReview"],
+  "baselineLimitation": "No resolved forecasts yet; no empirical calibration claimed."
+}

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "S01",
+    "title": "Midwest diesel rises 5.1% in a week",
+    "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+    "category": "Transportation / logistics",
+    "direction": "Threat",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "eia-diesel"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 75,
+      "severity": 70,
+      "confidence": 70,
+      "persistence": 70,
+      "velocity": 80,
+      "dependency": 80,
+      "substitutability": 35
+    },
+    "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+    "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+    "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
+    "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
+    "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+    "roles": [
+      "CFO",
+      "Supply Chain",
+      "COO",
+      "Customer Experience"
+    ],
+    "observedAt": "2026-09-15",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-09-24",
+    "timeToImpact": "Near",
+    "impactDomains": [
+      "Transportation",
+      "Margin",
+      "Customer service / OTIF"
+    ],
+    "status": "reviewed",
+    "group": "fuel-cost",
+    "revision": 1
+  },
+  {
+    "id": "S02",
+    "title": "Grain outlook tightens; specialty basis still unknown",
+    "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+    "category": "Ingredient availability",
+    "direction": "Mixed",
+    "confidence": "Low",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "wasde-sep"
+    ],
+    "facilityIds": [
+      "deer-creek",
+      "gridley",
+      "wisconsin"
+    ],
+    "exposureIds": [
+      "X07"
+    ],
+    "factors": {
+      "exposure": 45,
+      "severity": 55,
+      "confidence": 45,
+      "persistence": 80,
+      "velocity": 45,
+      "dependency": 55,
+      "substitutability": 60
+    },
+    "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+    "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+    "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+    "action": "Track supplier quotations before changing coverage or formulations.",
+    "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+    "roles": [
+      "Supply Chain",
+      "CFO"
+    ],
+    "observedAt": "2026-09-11",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-12",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Ingredient availability",
+      "Ingredient cost",
+      "Margin"
+    ],
+    "status": "reviewed",
+    "group": "grain-balance",
+    "revision": 1
+  },
+  {
+    "id": "S03",
+    "title": "Traceability planning requires a product-form decision",
+    "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+    "category": "Food safety / regulatory",
+    "direction": "Mixed",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "fda-trace"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 55,
+      "severity": 65,
+      "confidence": 65,
+      "persistence": 90,
+      "velocity": 25,
+      "dependency": 70,
+      "substitutability": 60
+    },
+    "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+    "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+    "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+    "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+    "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+    "roles": [
+      "Quality / Food Safety",
+      "CISO / IT",
+      "COO"
+    ],
+    "observedAt": "2026-06-15",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-17",
+    "timeToImpact": "Strategic",
+    "impactDomains": [
+      "Regulatory",
+      "Quality / food safety"
+    ],
+    "status": "reviewed",
+    "group": "traceability",
+    "revision": 1
+  },
+  {
+    "id": "S04",
+    "title": "Pet formats offer a qualified commercial opening",
+    "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+    "category": "Growth opportunity",
+    "direction": "Opportunity",
+    "confidence": "Low",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "appa",
+      "ws-capabilities"
+    ],
+    "facilityIds": [
+      "gridley",
+      "wisconsin"
+    ],
+    "exposureIds": [
+      "X09",
+      "X13"
+    ],
+    "factors": {
+      "exposure": 70,
+      "severity": 60,
+      "confidence": 45,
+      "persistence": 85,
+      "velocity": 45,
+      "dependency": 65,
+      "substitutability": 65
+    },
+    "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+    "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+    "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+    "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+    "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+    "roles": [
+      "Sales / Business Development",
+      "R&D / Innovation",
+      "CEO"
+    ],
+    "observedAt": null,
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-12-17",
+    "timeToImpact": "Strategic",
+    "impactDomains": [
+      "Customer demand",
+      "Revenue",
+      "Growth opportunity"
+    ],
+    "status": "reviewed",
+    "group": "pet-demand",
+    "revision": 1,
+    "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day."
+  },
+  {
+    "id": "S05",
+    "title": "Popcorn expansion is an opportunity to verify",
+    "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+    "category": "Growth opportunity",
+    "direction": "Opportunity",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "deer-directory",
+      "heartland-2026"
+    ],
+    "facilityIds": [
+      "deer-creek"
+    ],
+    "exposureIds": [
+      "X07",
+      "X10",
+      "X11",
+      "X15"
+    ],
+    "factors": {
+      "exposure": 70,
+      "severity": 65,
+      "confidence": 60,
+      "persistence": 85,
+      "velocity": 40,
+      "dependency": 75,
+      "substitutability": 60
+    },
+    "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+    "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+    "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+    "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+    "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+    "roles": [
+      "COO",
+      "Sales / Business Development",
+      "Engineering",
+      "CEO"
+    ],
+    "observedAt": "2026-01-06",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-17",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Production capacity",
+      "Revenue",
+      "Growth opportunity",
+      "Equipment / maintenance"
+    ],
+    "status": "reviewed",
+    "group": "popcorn-expansion",
+    "revision": 1
+  },
+  {
+    "id": "S06",
+    "title": "Baby-food lead guidance has a material scope exclusion",
+    "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+    "category": "Food safety / regulatory",
+    "direction": "Mixed",
+    "confidence": "High",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "fda-lead"
+    ],
+    "facilityIds": [
+      "gridley"
+    ],
+    "exposureIds": [
+      "X01",
+      "X02",
+      "X03"
+    ],
+    "factors": {
+      "exposure": 70,
+      "severity": 70,
+      "confidence": 85,
+      "persistence": 90,
+      "velocity": 20,
+      "dependency": 75,
+      "substitutability": 50
+    },
+    "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+    "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+    "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+    "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+    "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+    "roles": [
+      "Quality / Food Safety",
+      "R&D / Innovation"
+    ],
+    "observedAt": "2025-01-06",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-12-17",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Quality / food safety",
+      "Regulatory",
+      "Customer demand"
+    ],
+    "status": "reviewed",
+    "group": "toddler-scope",
+    "revision": 1
+  }
+]

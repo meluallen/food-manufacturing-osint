@@ -1,0 +1,3687 @@
+{
+  "nodeTypes": [
+    "Company",
+    "Business Unit",
+    "Facility",
+    "Process",
+    "Production Line",
+    "Product Domain",
+    "Ingredient Class",
+    "Packaging",
+    "Utility",
+    "Equipment",
+    "Transportation Mode",
+    "Supplier Geography",
+    "Customer Segment",
+    "Regulatory Requirement",
+    "External Risk"
+  ],
+  "nodes": [
+    {
+      "id": "watershed",
+      "label": "Watershed Foods",
+      "type": "Company",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "manna",
+      "label": "The Manna Group LLC",
+      "type": "Company",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "human-unit",
+      "label": "Human nutrition",
+      "type": "Business Unit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "tracegains"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "pet-unit",
+      "label": "Pet nutrition",
+      "type": "Business Unit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "tracegains"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "topfox-unit",
+      "label": "Top Fox Snacks",
+      "type": "Business Unit",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "heartland-2026"
+      ],
+      "asOf": "2026-01-06",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "heartland-unit",
+      "label": "Heartland / Aunt Em’s",
+      "type": "Business Unit",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "heartland-2026"
+      ],
+      "asOf": "2026-01-06",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "gridley",
+      "label": "Gridley",
+      "type": "Facility",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "edge-2024",
+        "ws-careers"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "congerville",
+      "label": "Congerville / Top Fox",
+      "type": "Facility",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "deer-creek",
+      "label": "Deer Creek / Heartland",
+      "type": "Facility",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "deer-directory",
+        "heartland-2026"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "wisconsin",
+      "label": "Greater Milwaukee",
+      "type": "Facility",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "bloomington",
+      "label": "Bloomington-Normal",
+      "type": "Facility",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-linkedin"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Freeze-dried",
+      "label": "Freeze-dried",
+      "type": "Process",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Baked",
+      "label": "Baked",
+      "type": "Process",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Roasted",
+      "label": "Roasted",
+      "type": "Process",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Popped",
+      "label": "Popped",
+      "type": "Process",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "line-Depositing",
+      "label": "Depositing",
+      "type": "Production Line",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "line-Freezing",
+      "label": "Freezing",
+      "type": "Production Line",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "line-Traying",
+      "label": "Traying",
+      "type": "Production Line",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "line-Freeze dryer",
+      "label": "Freeze dryer",
+      "type": "Production Line",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "line-Packaging line",
+      "label": "Packaging line",
+      "type": "Production Line",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "Toddler nutrition",
+      "label": "Toddler nutrition",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Human snacks",
+      "label": "Human snacks",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Ingredients",
+      "label": "Ingredients",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Dietary supplements",
+      "label": "Dietary supplements",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Pet nutrition",
+      "label": "Pet nutrition",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Private label",
+      "label": "Private label",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "Contract manufacturing",
+      "label": "Contract manufacturing",
+      "type": "Product Domain",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities",
+        "ws-about"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X01",
+      "label": "Dairy / yogurt",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X02",
+      "label": "Fruit",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X03",
+      "label": "Vegetables",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X04",
+      "label": "Pumpkin / sunflower seeds",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "topfox"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X05",
+      "label": "Nuts",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X06",
+      "label": "Soy / edamame",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X07",
+      "label": "Grains / popcorn",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X08",
+      "label": "Chickpeas / legumes",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X09",
+      "label": "Proteins",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X10",
+      "label": "Oils",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X11",
+      "label": "Flavors / seasonings",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X12",
+      "label": "Sweeteners",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X13",
+      "label": "Cultures / probiotics",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X14",
+      "label": "Functional ingredients",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X15",
+      "label": "Film / cartons / labels / pallets",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "X16",
+      "label": "Sanitation / processing inputs",
+      "type": "Ingredient Class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "film",
+      "label": "Film",
+      "type": "Packaging",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "cartons",
+      "label": "Cartons",
+      "type": "Packaging",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "labels",
+      "label": "Labels",
+      "type": "Packaging",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "pallets",
+      "label": "Pallets",
+      "type": "Packaging",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "electricity",
+      "label": "Electricity",
+      "type": "Utility",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "gas",
+      "label": "Natural gas",
+      "type": "Utility",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "water",
+      "label": "Water",
+      "type": "Utility",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "vacuum",
+      "label": "Vacuum / refrigeration",
+      "type": "Equipment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "ovens",
+      "label": "Ovens / roasters",
+      "type": "Equipment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "controls",
+      "label": "PLC / HMI / SCADA",
+      "type": "Equipment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "packers",
+      "label": "Packaging machinery",
+      "type": "Equipment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "erp",
+      "label": "ERP / cloud / identity",
+      "type": "Equipment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "truck",
+      "label": "Truck",
+      "type": "Transportation Mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "reefer",
+      "label": "Refrigerated truck",
+      "type": "Transportation Mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "rail",
+      "label": "Rail / intermodal",
+      "type": "Transportation Mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean container",
+      "type": "Transportation Mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "barge",
+      "label": "Barge",
+      "type": "Transportation Mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "midwest-crops",
+      "label": "Midwest crops",
+      "type": "Supplier Geography",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "west-fruit",
+      "label": "Western U.S. fruit origins",
+      "type": "Supplier Geography",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "import-origin",
+      "label": "International ingredient origins",
+      "type": "Supplier Geography",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D01",
+      "label": "Global CPG / Fortune 500",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D02",
+      "label": "Cereal manufacturers",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D03",
+      "label": "Toddler / baby nutrition brands",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D04",
+      "label": "Healthy-snack companies",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D05",
+      "label": "Pet-food brands",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D06",
+      "label": "Pet-treat brands",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D07",
+      "label": "Supplements / functional nutrition",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D08",
+      "label": "Retail / private label",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D09",
+      "label": "Emerging CPG",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "D10",
+      "label": "International food manufacturers",
+      "type": "Customer Segment",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "pc-human",
+      "label": "Human-food preventive controls",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "pc-animal",
+      "label": "Animal-food preventive controls",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "allergens",
+      "label": "Allergen / labeling",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "traceability",
+      "label": "FSMA traceability",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "supplements",
+      "label": "Dietary supplement cGMP / claims",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "importer",
+      "label": "FSVP / import requirements",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "sqf",
+      "label": "SQF scope verification",
+      "type": "Regulatory Requirement",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-0",
+      "label": "Ingredient availability",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-1",
+      "label": "Ingredient cost",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-2",
+      "label": "Customer demand",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-3",
+      "label": "Transportation / logistics",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-4",
+      "label": "Energy / utilities",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-5",
+      "label": "Packaging",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-6",
+      "label": "Labor",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-7",
+      "label": "Food safety / regulatory",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-8",
+      "label": "Cyber / OT",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-9",
+      "label": "Facility / weather",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-10",
+      "label": "Geopolitical / trade",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "risk-11",
+      "label": "Growth opportunity",
+      "type": "External Risk",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "source": "watershed",
+      "target": "manna",
+      "relation": "Joint EDGE party",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "Ownership direction not established",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E002",
+      "source": "watershed",
+      "target": "human-unit",
+      "relation": "Advertised division",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "tracegains"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E003",
+      "source": "watershed",
+      "target": "pet-unit",
+      "relation": "Advertised division",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "tracegains"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E004",
+      "source": "watershed",
+      "target": "topfox-unit",
+      "relation": "Reported sister business",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "heartland-2026"
+      ],
+      "note": "",
+      "asOf": "2026-01-06",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E005",
+      "source": "watershed",
+      "target": "heartland-unit",
+      "relation": "Reported sister business",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "heartland-2026"
+      ],
+      "note": "",
+      "asOf": "2026-01-06",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E006",
+      "source": "watershed",
+      "target": "gridley",
+      "relation": "Public presence",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "edge-2024",
+        "ws-careers"
+      ],
+      "note": "Public facility address",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E007",
+      "source": "topfox-unit",
+      "target": "congerville",
+      "relation": "Public contact address",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "note": "Public business contact address",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E008",
+      "source": "heartland-unit",
+      "target": "deer-creek",
+      "relation": "Listed business address",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "deer-directory",
+        "heartland-2026"
+      ],
+      "note": "Village business directory",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E009",
+      "source": "watershed",
+      "target": "wisconsin",
+      "relation": "Public presence",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Region only",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E010",
+      "source": "watershed",
+      "target": "bloomington",
+      "relation": "Public presence",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-linkedin"
+      ],
+      "note": "Uncorroborated office lead",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E011",
+      "source": "watershed",
+      "target": "Freeze-dried",
+      "relation": "Advertises",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E012",
+      "source": "gridley",
+      "target": "Freeze-dried",
+      "relation": "Facility capability",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "edge-2024",
+        "ws-careers"
+      ],
+      "note": "Current throughput and full line allocation not verified",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E013",
+      "source": "watershed",
+      "target": "Baked",
+      "relation": "Advertises",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E014",
+      "source": "wisconsin",
+      "target": "Baked",
+      "relation": "Facility capability",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Current throughput and full line allocation not verified",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E015",
+      "source": "watershed",
+      "target": "Roasted",
+      "relation": "Advertises",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E016",
+      "source": "congerville",
+      "target": "Roasted",
+      "relation": "Site allocation hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "note": "Brand seed capability established; roasting at this contact address unverified.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E017",
+      "source": "watershed",
+      "target": "Popped",
+      "relation": "Advertises",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E018",
+      "source": "deer-creek",
+      "target": "Popped",
+      "relation": "Facility capability",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "deer-directory",
+        "heartland-2026"
+      ],
+      "note": "Current throughput and full line allocation not verified",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2026-01-06"
+    },
+    {
+      "id": "E019",
+      "source": "wisconsin",
+      "target": "Popped",
+      "relation": "Facility capability",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Current throughput and full line allocation not verified",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E020",
+      "source": "gridley",
+      "target": "line-Depositing",
+      "relation": "Proposed addition",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 project plan; not verified installed",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E021",
+      "source": "gridley",
+      "target": "line-Freezing",
+      "relation": "Proposed addition",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 project plan; not verified installed",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E022",
+      "source": "gridley",
+      "target": "line-Traying",
+      "relation": "Proposed addition",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 project plan; not verified installed",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E023",
+      "source": "gridley",
+      "target": "line-Freeze dryer",
+      "relation": "Proposed addition",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 project plan; not verified installed",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E024",
+      "source": "gridley",
+      "target": "line-Packaging line",
+      "relation": "Proposed addition",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 project plan; not verified installed",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E025",
+      "source": "Freeze-dried",
+      "target": "X01",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Advertised yogurt products",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E026",
+      "source": "Toddler nutrition",
+      "target": "X01",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E027",
+      "source": "Ingredients",
+      "target": "X01",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E028",
+      "source": "Freeze-dried",
+      "target": "X02",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Advertised fruit products",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E029",
+      "source": "Toddler nutrition",
+      "target": "X02",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E030",
+      "source": "Ingredients",
+      "target": "X02",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E031",
+      "source": "Human snacks",
+      "target": "X02",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E032",
+      "source": "Freeze-dried",
+      "target": "X03",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Advertised vegetables",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E033",
+      "source": "Ingredients",
+      "target": "X03",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E034",
+      "source": "Toddler nutrition",
+      "target": "X03",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E035",
+      "source": "Roasted",
+      "target": "X04",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "topfox"
+      ],
+      "note": "Top Fox products documented",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E036",
+      "source": "Human snacks",
+      "target": "X04",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "topfox"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E037",
+      "source": "Private label",
+      "target": "X04",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "topfox"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E038",
+      "source": "Roasted",
+      "target": "X05",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Capability advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E039",
+      "source": "Human snacks",
+      "target": "X05",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E040",
+      "source": "Roasted",
+      "target": "X06",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E041",
+      "source": "Baked",
+      "target": "X06",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E042",
+      "source": "Human snacks",
+      "target": "X06",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E043",
+      "source": "Pet nutrition",
+      "target": "X06",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E044",
+      "source": "Popped",
+      "target": "X07",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Popcorn and grain capabilities advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E045",
+      "source": "Baked",
+      "target": "X07",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Popcorn and grain capabilities advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E046",
+      "source": "Human snacks",
+      "target": "X07",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E047",
+      "source": "Pet nutrition",
+      "target": "X07",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E048",
+      "source": "Private label",
+      "target": "X07",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E049",
+      "source": "Roasted",
+      "target": "X08",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Capability advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E050",
+      "source": "Human snacks",
+      "target": "X08",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E051",
+      "source": "Freeze-dried",
+      "target": "X09",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Product domain documented; individual inputs unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E052",
+      "source": "Baked",
+      "target": "X09",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Product domain documented; individual inputs unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E053",
+      "source": "Pet nutrition",
+      "target": "X09",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E054",
+      "source": "Dietary supplements",
+      "target": "X09",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E055",
+      "source": "Roasted",
+      "target": "X10",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E056",
+      "source": "Popped",
+      "target": "X10",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E057",
+      "source": "Baked",
+      "target": "X10",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E058",
+      "source": "Human snacks",
+      "target": "X10",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E059",
+      "source": "Pet nutrition",
+      "target": "X10",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E060",
+      "source": "Roasted",
+      "target": "X11",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E061",
+      "source": "Popped",
+      "target": "X11",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E062",
+      "source": "Baked",
+      "target": "X11",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E063",
+      "source": "Human snacks",
+      "target": "X11",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E064",
+      "source": "Pet nutrition",
+      "target": "X11",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E065",
+      "source": "Freeze-dried",
+      "target": "X12",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E066",
+      "source": "Popped",
+      "target": "X12",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E067",
+      "source": "Baked",
+      "target": "X12",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Hypothesis",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E068",
+      "source": "Toddler nutrition",
+      "target": "X12",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E069",
+      "source": "Human snacks",
+      "target": "X12",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E070",
+      "source": "Freeze-dried",
+      "target": "X13",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Probiotic capability advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E071",
+      "source": "Toddler nutrition",
+      "target": "X13",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E072",
+      "source": "Dietary supplements",
+      "target": "X13",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E073",
+      "source": "Pet nutrition",
+      "target": "X13",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E074",
+      "source": "Freeze-dried",
+      "target": "X14",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Supplement capability advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E075",
+      "source": "Baked",
+      "target": "X14",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Supplement capability advertised",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E076",
+      "source": "Dietary supplements",
+      "target": "X14",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E077",
+      "source": "Pet nutrition",
+      "target": "X14",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E078",
+      "source": "Freeze-dried",
+      "target": "X15",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Packaging confirmed; materials inferred",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E079",
+      "source": "Baked",
+      "target": "X15",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Packaging confirmed; materials inferred",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E080",
+      "source": "Roasted",
+      "target": "X15",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Packaging confirmed; materials inferred",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E081",
+      "source": "Popped",
+      "target": "X15",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Packaging confirmed; materials inferred",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E082",
+      "source": "Private label",
+      "target": "X15",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E083",
+      "source": "Contract manufacturing",
+      "target": "X15",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E084",
+      "source": "Freeze-dried",
+      "target": "X16",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Necessary process hypotheses",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E085",
+      "source": "Baked",
+      "target": "X16",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Necessary process hypotheses",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E086",
+      "source": "Roasted",
+      "target": "X16",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Necessary process hypotheses",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E087",
+      "source": "Popped",
+      "target": "X16",
+      "relation": "Possible input",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Necessary process hypotheses",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E088",
+      "source": "Contract manufacturing",
+      "target": "X16",
+      "relation": "Potential exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E089",
+      "source": "X15",
+      "target": "film",
+      "relation": "Candidate material",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E090",
+      "source": "X15",
+      "target": "cartons",
+      "relation": "Candidate material",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E091",
+      "source": "X15",
+      "target": "labels",
+      "relation": "Candidate material",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E092",
+      "source": "X15",
+      "target": "pallets",
+      "relation": "Candidate material",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E093",
+      "source": "Freeze-dried",
+      "target": "electricity",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E094",
+      "source": "Baked",
+      "target": "electricity",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E095",
+      "source": "Roasted",
+      "target": "electricity",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E096",
+      "source": "Popped",
+      "target": "electricity",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E097",
+      "source": "Freeze-dried",
+      "target": "gas",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E098",
+      "source": "Baked",
+      "target": "gas",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E099",
+      "source": "Roasted",
+      "target": "gas",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E100",
+      "source": "Popped",
+      "target": "gas",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E101",
+      "source": "Freeze-dried",
+      "target": "water",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E102",
+      "source": "Baked",
+      "target": "water",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E103",
+      "source": "Roasted",
+      "target": "water",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E104",
+      "source": "Popped",
+      "target": "water",
+      "relation": "Potential dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E105",
+      "source": "watershed",
+      "target": "vacuum",
+      "relation": "Class-level hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E106",
+      "source": "watershed",
+      "target": "ovens",
+      "relation": "Class-level hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E107",
+      "source": "watershed",
+      "target": "controls",
+      "relation": "Class-level hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E108",
+      "source": "watershed",
+      "target": "packers",
+      "relation": "Class-level hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E109",
+      "source": "watershed",
+      "target": "erp",
+      "relation": "Class-level hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E110",
+      "source": "watershed",
+      "target": "truck",
+      "relation": "Potential lane exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E111",
+      "source": "watershed",
+      "target": "reefer",
+      "relation": "Potential lane exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E112",
+      "source": "watershed",
+      "target": "rail",
+      "relation": "Potential lane exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E113",
+      "source": "watershed",
+      "target": "ocean",
+      "relation": "Potential lane exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E114",
+      "source": "watershed",
+      "target": "barge",
+      "relation": "Potential lane exposure",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E115",
+      "source": "watershed",
+      "target": "midwest-crops",
+      "relation": "Unverified sourcing hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E116",
+      "source": "watershed",
+      "target": "west-fruit",
+      "relation": "Unverified sourcing hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E117",
+      "source": "watershed",
+      "target": "import-origin",
+      "relation": "Unverified sourcing hypothesis",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E118",
+      "source": "watershed",
+      "target": "D01",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E119",
+      "source": "watershed",
+      "target": "D02",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E120",
+      "source": "watershed",
+      "target": "D03",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E121",
+      "source": "watershed",
+      "target": "D04",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E122",
+      "source": "watershed",
+      "target": "D05",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E123",
+      "source": "watershed",
+      "target": "D06",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E124",
+      "source": "watershed",
+      "target": "D07",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E125",
+      "source": "watershed",
+      "target": "D08",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E126",
+      "source": "watershed",
+      "target": "D09",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E127",
+      "source": "watershed",
+      "target": "D10",
+      "relation": "Target archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E128",
+      "source": "watershed",
+      "target": "pc-human",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E129",
+      "source": "watershed",
+      "target": "pc-animal",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E130",
+      "source": "watershed",
+      "target": "allergens",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E131",
+      "source": "watershed",
+      "target": "traceability",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E132",
+      "source": "watershed",
+      "target": "supplements",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E133",
+      "source": "watershed",
+      "target": "importer",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E134",
+      "source": "watershed",
+      "target": "sqf",
+      "relation": "Applicability review required",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E135",
+      "source": "watershed",
+      "target": "risk-0",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E136",
+      "source": "watershed",
+      "target": "risk-1",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E137",
+      "source": "watershed",
+      "target": "risk-2",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E138",
+      "source": "watershed",
+      "target": "risk-3",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E139",
+      "source": "watershed",
+      "target": "risk-4",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E140",
+      "source": "watershed",
+      "target": "risk-5",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E141",
+      "source": "watershed",
+      "target": "risk-6",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E142",
+      "source": "watershed",
+      "target": "risk-7",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E143",
+      "source": "watershed",
+      "target": "risk-8",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E144",
+      "source": "watershed",
+      "target": "risk-9",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E145",
+      "source": "watershed",
+      "target": "risk-10",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E146",
+      "source": "watershed",
+      "target": "risk-11",
+      "relation": "Monitors",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E147",
+      "source": "human-unit",
+      "target": "gridley",
+      "relation": "Potential allocation",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E148",
+      "source": "pet-unit",
+      "target": "wisconsin",
+      "relation": "Potential allocation",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E149",
+      "source": "Freeze-dried",
+      "target": "line-Depositing",
+      "relation": "Planned process step",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E150",
+      "source": "line-Depositing",
+      "target": "Toddler nutrition",
+      "relation": "Planned product domain",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E151",
+      "source": "Freeze-dried",
+      "target": "line-Freezing",
+      "relation": "Planned process step",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E152",
+      "source": "line-Freezing",
+      "target": "Toddler nutrition",
+      "relation": "Planned product domain",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E153",
+      "source": "Freeze-dried",
+      "target": "line-Traying",
+      "relation": "Planned process step",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E154",
+      "source": "line-Traying",
+      "target": "Toddler nutrition",
+      "relation": "Planned product domain",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E155",
+      "source": "Freeze-dried",
+      "target": "line-Freeze dryer",
+      "relation": "Planned process step",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E156",
+      "source": "line-Freeze dryer",
+      "target": "Toddler nutrition",
+      "relation": "Planned product domain",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E157",
+      "source": "Freeze-dried",
+      "target": "line-Packaging line",
+      "relation": "Planned process step",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E158",
+      "source": "line-Packaging line",
+      "target": "Toddler nutrition",
+      "relation": "Planned product domain",
+      "evidenceClass": "HISTORICAL",
+      "sourceIds": [
+        "edge-2024"
+      ],
+      "note": "2024 proposal, not verified commissioned",
+      "asOf": "2024-04-18",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": "2024-04-18"
+    },
+    {
+      "id": "E159",
+      "source": "Freeze-dried",
+      "target": "Toddler nutrition",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E160",
+      "source": "Freeze-dried",
+      "target": "Ingredients",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E161",
+      "source": "Freeze-dried",
+      "target": "Pet nutrition",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E162",
+      "source": "Freeze-dried",
+      "target": "Dietary supplements",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E163",
+      "source": "Baked",
+      "target": "Pet nutrition",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E164",
+      "source": "Baked",
+      "target": "Human snacks",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E165",
+      "source": "Roasted",
+      "target": "Human snacks",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E166",
+      "source": "Popped",
+      "target": "Human snacks",
+      "relation": "Advertised capability fit",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "note": "Company capability statement; current sales mix unknown",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E167",
+      "source": "X02",
+      "target": "west-fruit",
+      "relation": "Potential origin",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E168",
+      "source": "X04",
+      "target": "midwest-crops",
+      "relation": "Potential origin",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E169",
+      "source": "X07",
+      "target": "midwest-crops",
+      "relation": "Potential origin",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E170",
+      "source": "X14",
+      "target": "import-origin",
+      "relation": "Potential origin",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E171",
+      "source": "west-fruit",
+      "target": "reefer",
+      "relation": "Possible inbound mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E172",
+      "source": "import-origin",
+      "target": "ocean",
+      "relation": "Possible inbound mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E173",
+      "source": "midwest-crops",
+      "target": "truck",
+      "relation": "Possible inbound mode",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E174",
+      "source": "X15",
+      "target": "film",
+      "relation": "Candidate package",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E175",
+      "source": "film",
+      "target": "packers",
+      "relation": "Potential equipment need",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E176",
+      "source": "cartons",
+      "target": "packers",
+      "relation": "Potential equipment need",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E177",
+      "source": "packers",
+      "target": "electricity",
+      "relation": "Utility dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E178",
+      "source": "vacuum",
+      "target": "electricity",
+      "relation": "Utility dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E179",
+      "source": "ovens",
+      "target": "gas",
+      "relation": "Potential utility",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E180",
+      "source": "controls",
+      "target": "erp",
+      "relation": "Potential shared digital dependency",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E181",
+      "source": "Freeze-dried",
+      "target": "vacuum",
+      "relation": "Process equipment class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E182",
+      "source": "Baked",
+      "target": "ovens",
+      "relation": "Process equipment class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E183",
+      "source": "Roasted",
+      "target": "ovens",
+      "relation": "Process equipment class",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E184",
+      "source": "truck",
+      "target": "risk-3",
+      "relation": "Transport disruption channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E185",
+      "source": "reefer",
+      "target": "risk-3",
+      "relation": "Transport disruption channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E186",
+      "source": "ocean",
+      "target": "risk-10",
+      "relation": "Trade/chokepoint channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E187",
+      "source": "west-fruit",
+      "target": "risk-0",
+      "relation": "Crop disruption channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E188",
+      "source": "midwest-crops",
+      "target": "risk-0",
+      "relation": "Crop disruption channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E189",
+      "source": "electricity",
+      "target": "risk-4",
+      "relation": "Energy channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E190",
+      "source": "controls",
+      "target": "risk-8",
+      "relation": "Cyber channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E191",
+      "source": "erp",
+      "target": "risk-8",
+      "relation": "Cyber channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E192",
+      "source": "film",
+      "target": "risk-5",
+      "relation": "Packaging constraint",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E193",
+      "source": "Toddler nutrition",
+      "target": "D03",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E194",
+      "source": "Pet nutrition",
+      "target": "D05",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E195",
+      "source": "Pet nutrition",
+      "target": "D06",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E196",
+      "source": "Ingredients",
+      "target": "D02",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E197",
+      "source": "Dietary supplements",
+      "target": "D07",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E198",
+      "source": "Private label",
+      "target": "D08",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E199",
+      "source": "Contract manufacturing",
+      "target": "D09",
+      "relation": "Customer archetype",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E200",
+      "source": "D03",
+      "target": "pc-human",
+      "relation": "Applicability review",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E201",
+      "source": "D05",
+      "target": "pc-animal",
+      "relation": "Applicability review",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E202",
+      "source": "D07",
+      "target": "supplements",
+      "relation": "Applicability review",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E203",
+      "source": "pc-human",
+      "target": "risk-7",
+      "relation": "Compliance channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E204",
+      "source": "pc-animal",
+      "target": "risk-7",
+      "relation": "Compliance channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E205",
+      "source": "traceability",
+      "target": "risk-7",
+      "relation": "Applicability channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E206",
+      "source": "import-origin",
+      "target": "importer",
+      "relation": "Importer applicability",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    },
+    {
+      "id": "E207",
+      "source": "importer",
+      "target": "risk-10",
+      "relation": "Border compliance channel",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [],
+      "note": "Dependency hypothesis; actual procurement, installed equipment, routing and applicability require verification.",
+      "asOf": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceDate": null
+    }
+  ]
+}

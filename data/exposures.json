@@ -1,0 +1,360 @@
+[
+  {
+    "id": "X01",
+    "ingredient": "Dairy / yogurt",
+    "platforms": [
+      "Freeze-dried"
+    ],
+    "markets": [
+      "Toddler nutrition",
+      "Ingredients"
+    ],
+    "basis": "Advertised yogurt products",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Upper Midwest and other milk basins",
+    "dependencies": "Milk solids, cultures, refrigeration, allergens",
+    "pathway": "Dairy quotes \u2192 solids cost \u2192 margin; verify pass-through and actual yogurt sourcing.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X02",
+    "ingredient": "Fruit",
+    "platforms": [
+      "Freeze-dried"
+    ],
+    "markets": [
+      "Toddler nutrition",
+      "Ingredients",
+      "Human snacks"
+    ],
+    "basis": "Advertised fruit products",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "California / Pacific Northwest / import origins are hypotheses",
+    "dependencies": "Irrigation, harvest, freezing, reefer freight",
+    "pathway": "Crop stress \u2192 grade/yield \u2192 qualified fruit availability; crop geography must be verified.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X03",
+    "ingredient": "Vegetables",
+    "platforms": [
+      "Freeze-dried"
+    ],
+    "markets": [
+      "Ingredients",
+      "Toddler nutrition"
+    ],
+    "basis": "Advertised vegetables",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "U.S. and international growing regions unverified",
+    "dependencies": "Water, crop disease, residue and contaminant controls",
+    "pathway": "Crop variability \u2192 specifications/rejections \u2192 ingredient availability.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X04",
+    "ingredient": "Pumpkin / sunflower seeds",
+    "platforms": [
+      "Roasted"
+    ],
+    "markets": [
+      "Human snacks",
+      "Private label"
+    ],
+    "basis": "Top Fox products documented",
+    "sourceIds": [
+      "topfox"
+    ],
+    "geography": "Central Illinois farming origin; other sourcing unknown",
+    "dependencies": "Crop region, drying, food-grade seed quality",
+    "pathway": "Seed harvest/quality \u2192 roasting yield and cost; no field-corn price proxy for pepitas.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X05",
+    "ingredient": "Nuts",
+    "platforms": [
+      "Roasted"
+    ],
+    "markets": [
+      "Human snacks"
+    ],
+    "basis": "Capability advertised",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "California and other origins are hypotheses",
+    "dependencies": "Water, allergen segregation, harvest labor",
+    "pathway": "Drought/quality \u2192 graded-nut cost and availability.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X06",
+    "ingredient": "Soy / edamame",
+    "platforms": [
+      "Roasted",
+      "Baked"
+    ],
+    "markets": [
+      "Human snacks",
+      "Pet nutrition"
+    ],
+    "basis": "Hypothesis",
+    "sourceIds": [],
+    "geography": "U.S. Midwest / imported specialty soy hypotheses",
+    "dependencies": "Identity preservation, allergen controls, processing",
+    "pathway": "Food-grade and non-GMO premiums may decouple from soybean futures.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X07",
+    "ingredient": "Grains / popcorn",
+    "platforms": [
+      "Popped",
+      "Baked"
+    ],
+    "markets": [
+      "Human snacks",
+      "Pet nutrition",
+      "Private label"
+    ],
+    "basis": "Popcorn and grain capabilities advertised",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Midwest food-grade growing regions; actual sources unknown",
+    "dependencies": "Variety, moisture, oils, packaging film",
+    "pathway": "Grain crop signals are contextual; popping-grade contracts require separate evidence.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X08",
+    "ingredient": "Chickpeas / legumes",
+    "platforms": [
+      "Roasted"
+    ],
+    "markets": [
+      "Human snacks"
+    ],
+    "basis": "Capability advertised",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Northern Plains / Canada / other origins hypotheses",
+    "dependencies": "Harvest moisture, protein quality, freight",
+    "pathway": "Legume availability \u2192 roasting program capacity and alternative-protein launches.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X09",
+    "ingredient": "Proteins",
+    "platforms": [
+      "Freeze-dried",
+      "Baked"
+    ],
+    "markets": [
+      "Pet nutrition",
+      "Dietary supplements"
+    ],
+    "basis": "Product domain documented; individual inputs unknown",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Animal and plant protein origins unverified",
+    "dependencies": "Validated pathogen controls, segregation, cold chain",
+    "pathway": "Protein disruptions \u2192 approved formulation options; no unvalidated substitution.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X10",
+    "ingredient": "Oils",
+    "platforms": [
+      "Roasted",
+      "Popped",
+      "Baked"
+    ],
+    "markets": [
+      "Human snacks",
+      "Pet nutrition"
+    ],
+    "basis": "Hypothesis",
+    "sourceIds": [],
+    "geography": "Soy/canola/sunflower regions hypotheses",
+    "dependencies": "Oilseed crush, refining, shipping, identity",
+    "pathway": "Oil benchmarks \u2192 recipe-dependent input costs; actual oil types unverified.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X11",
+    "ingredient": "Flavors / seasonings",
+    "platforms": [
+      "Roasted",
+      "Popped",
+      "Baked"
+    ],
+    "markets": [
+      "Human snacks",
+      "Pet nutrition"
+    ],
+    "basis": "Hypothesis",
+    "sourceIds": [],
+    "geography": "Domestic blenders and import origins unverified",
+    "dependencies": "Spices, dairy powders, allergens, import controls",
+    "pathway": "Spice/cheese powder disruptions \u2192 reformulation qualification lead time.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X12",
+    "ingredient": "Sweeteners",
+    "platforms": [
+      "Freeze-dried",
+      "Popped",
+      "Baked"
+    ],
+    "markets": [
+      "Toddler nutrition",
+      "Human snacks"
+    ],
+    "basis": "Hypothesis",
+    "sourceIds": [],
+    "geography": "Sugar/corn supply regions hypotheses",
+    "dependencies": "Sugar policy, specialty sweeteners, formulation",
+    "pathway": "Price or labeling changes \u2192 cost and claims review.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X13",
+    "ingredient": "Cultures / probiotics",
+    "platforms": [
+      "Freeze-dried"
+    ],
+    "markets": [
+      "Toddler nutrition",
+      "Dietary supplements",
+      "Pet nutrition"
+    ],
+    "basis": "Probiotic capability advertised",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Strain/IP owner and production country unknown",
+    "dependencies": "Viability, specialist fermentation, cold chain",
+    "pathway": "Supplier/strain dependency \u2192 product viability and qualification risk.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X14",
+    "ingredient": "Functional ingredients",
+    "platforms": [
+      "Freeze-dried",
+      "Baked"
+    ],
+    "markets": [
+      "Dietary supplements",
+      "Pet nutrition"
+    ],
+    "basis": "Supplement capability advertised",
+    "sourceIds": [
+      "ws-capabilities"
+    ],
+    "geography": "Unverified origins",
+    "dependencies": "Premix, testing, claims substantiation",
+    "pathway": "New claims or contaminant rules \u2192 testing and formulation work.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X15",
+    "ingredient": "Film / cartons / labels / pallets",
+    "platforms": [
+      "Freeze-dried",
+      "Baked",
+      "Roasted",
+      "Popped"
+    ],
+    "markets": [
+      "Private label",
+      "Contract manufacturing"
+    ],
+    "basis": "Packaging confirmed; materials inferred",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "geography": "Converter/resin/mill geography unverified",
+    "dependencies": "PE/PP/resin, paperboard, printing, freight",
+    "pathway": "Shared converter/resin dependencies \u2192 effective redundancy; validate food-contact and barrier specs.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  },
+  {
+    "id": "X16",
+    "ingredient": "Sanitation / processing inputs",
+    "platforms": [
+      "Freeze-dried",
+      "Baked",
+      "Roasted",
+      "Popped"
+    ],
+    "markets": [
+      "Contract manufacturing"
+    ],
+    "basis": "Necessary process hypotheses",
+    "sourceIds": [],
+    "geography": "Chemical and consumable origins unknown",
+    "dependencies": "Approved chemicals, water, filters, spare parts",
+    "pathway": "Approved-input disruption \u2192 sanitation schedule and release risk.",
+    "evidenceClass": "INFERRED",
+    "spendShare": null,
+    "volume": null,
+    "substitutability": "Uncalibrated; QA/customer approval required"
+  }
+]

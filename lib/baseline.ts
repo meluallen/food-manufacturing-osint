@@ -1,0 +1,14 @@
+import citations from '@/data/citations.json';
+import claims from '@/data/ground-truth.json';
+import facilities from '@/data/facilities.json';
+import graph from '@/data/graph.json';
+import sources from '@/data/sources.json';
+import signals from '@/data/signals.json';
+import categories from '@/data/categories.json';
+import exposures from '@/data/exposures.json';
+import demand from '@/data/demand.json';
+import competitors from '@/data/competitors.json';
+import hypotheses from '@/data/hypotheses.json';
+import forecasts from '@/data/forecasts.json';
+import failureDomains from '@/data/failure-domains.json';
+export const baseline={citations,claims,facilities,graph,sources,signals,categories,exposures,demand,competitors,hypotheses,forecasts,failureDomains};

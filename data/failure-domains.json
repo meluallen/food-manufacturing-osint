@@ -1,0 +1,59 @@
+[
+  {
+    "id": "FD01",
+    "name": "Common crop origin",
+    "path": "Two fruit vendors \u2192 same growing region \u2192 same drought/freeze",
+    "entities": [
+      "Unverified alternative A",
+      "Unverified alternative B"
+    ],
+    "evidenceClass": "INFERRED",
+    "verify": "Tier-2 origin by crop, season and lot; supplier names are not evidence of diversification."
+  },
+  {
+    "id": "FD02",
+    "name": "Packaging feedstock",
+    "path": "Two converters \u2192 same resin/mill \u2192 shared capacity constraint",
+    "entities": [
+      "Film alternative A",
+      "Film alternative B"
+    ],
+    "evidenceClass": "INFERRED",
+    "verify": "Resin producer, resin grade, backup tooling, converter and mill allocation."
+  },
+  {
+    "id": "FD03",
+    "name": "Transport chokepoint",
+    "path": "Two import origins \u2192 common port/canal/carrier \u2192 correlated delays",
+    "entities": [
+      "Import lane A",
+      "Import lane B"
+    ],
+    "evidenceClass": "INFERRED",
+    "verify": "Actual port pairs, service strings, transshipment, inland rail corridor."
+  },
+  {
+    "id": "FD04",
+    "name": "Regional operating footprint",
+    "path": "Central Illinois facilities \u2192 overlapping weather/labor region",
+    "entities": [
+      "gridley",
+      "congerville",
+      "deer-creek"
+    ],
+    "evidenceClass": "INFERRED",
+    "verify": "Facility overlap is public; utilities, labor pools and incident impact correlation require validation."
+  },
+  {
+    "id": "FD05",
+    "name": "Digital and equipment dependency",
+    "path": "Production / ERP / recovery \u2192 common identity or vendor service",
+    "entities": [
+      "Identity",
+      "ERP",
+      "OT support"
+    ],
+    "evidenceClass": "INFERRED",
+    "verify": "Authorized internal inventory and recovery tests. No public identification of installed systems is assumed."
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "gridley",
+    "name": "Gridley",
+    "entity": "Watershed Foods",
+    "location": "Gridley, Illinois \u00b7 McLean County",
+    "address": "202 North Ford Street",
+    "precision": "Public facility address",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "edge-2024",
+      "ws-careers"
+    ],
+    "platforms": [
+      "Freeze-dried"
+    ],
+    "context": "Core manufacturing; public expansion benchmark is 31 December 2026.",
+    "unknowns": [
+      "Expansion commissioning",
+      "Utility contracts and backup capacity",
+      "Inbound crop origins",
+      "Cold-storage capacity",
+      "Rail use and carrier allocation"
+    ]
+  },
+  {
+    "id": "congerville",
+    "name": "Congerville / Top Fox",
+    "entity": "Top Fox Snacks",
+    "location": "Congerville, Illinois \u00b7 Woodford County",
+    "address": "1781 US Highway 150",
+    "precision": "Public business contact address",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "topfox",
+      "heartland-2026"
+    ],
+    "platforms": [
+      "Roasted"
+    ],
+    "context": "Seed-snack brand and public Congerville presence; production footprint requires confirmation.",
+    "unknowns": [
+      "Exact production allocation",
+      "Seed origins and contracts",
+      "Roasting utilization",
+      "Utility provider"
+    ]
+  },
+  {
+    "id": "deer-creek",
+    "name": "Deer Creek / Heartland",
+    "entity": "Heartland Food Solutions / Aunt Em\u2019s",
+    "location": "Deer Creek, Illinois \u00b7 Tazewell County",
+    "address": "404 E. First Avenue",
+    "precision": "Village business directory",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "deer-directory",
+      "heartland-2026"
+    ],
+    "platforms": [
+      "Popped"
+    ],
+    "context": "Popcorn business; 2026 equipment transition and expansion announced.",
+    "unknowns": [
+      "Transaction close",
+      "Added shifts and lines commissioned",
+      "Expansion completion",
+      "Shipping contracts"
+    ]
+  },
+  {
+    "id": "wisconsin",
+    "name": "Greater Milwaukee",
+    "entity": "Watershed Wisconsin operation",
+    "location": "Greater Milwaukee, Wisconsin",
+    "address": null,
+    "precision": "Region only",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "platforms": [
+      "Baked",
+      "Popped"
+    ],
+    "context": "Company-described operation; regional weather and labor watch only.",
+    "unknowns": [
+      "Facility identity and municipality",
+      "Exact processes and line allocation",
+      "Legal operating entity",
+      "Utility and transport exposure"
+    ]
+  },
+  {
+    "id": "bloomington",
+    "name": "Bloomington-Normal",
+    "entity": "Watershed public-profile presence",
+    "location": "Bloomington-Normal, Illinois",
+    "address": null,
+    "precision": "Uncorroborated office lead",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "ws-linkedin"
+    ],
+    "platforms": [],
+    "context": "Do not model as additional manufacturing capacity.",
+    "unknowns": [
+      "Current headquarters designation",
+      "Office or operating function",
+      "Facility status"
+    ]
+  }
+]

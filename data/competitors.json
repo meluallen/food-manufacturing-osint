@@ -1,0 +1,82 @@
+[
+  {
+    "id": "C01",
+    "name": "Thrive Freeze Dry / Mercer",
+    "platform": "Freeze-dried",
+    "overlap": "Fruit, proteins, pet, probiotics; consolidation",
+    "sourceIds": [
+      "thrive",
+      "thrive-mercer",
+      "thrive-oak"
+    ],
+    "capacityStatus": "Oak Creek expansion announced in January 2023; current utilization unverified.",
+    "watch": "Watch operating milestones, pricing, and geographic consolidation. Do not count Mercer separately.",
+    "evidenceClass": "CONFIRMED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  },
+  {
+    "id": "C02",
+    "name": "Van Drunen Farms",
+    "platform": "Freeze-dried",
+    "overlap": "Fruit/vegetable powders, blending, drying alternatives",
+    "sourceIds": [
+      "vdf"
+    ],
+    "capacityStatus": "Current advertised capability; no new expansion verified.",
+    "watch": "Watch ingredient innovation, capacity and customer substitution among drying methods.",
+    "evidenceClass": "CONFIRMED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  },
+  {
+    "id": "C03",
+    "name": "European Freeze Dry",
+    "platform": "Freeze-dried",
+    "overlap": "Ingredients, contract drying, pet treats",
+    "sourceIds": [
+      "efd"
+    ],
+    "capacityStatus": "Current advertised capability; capacity volumes unverified.",
+    "watch": "Watch European energy, capex, export access and toll-drying programs.",
+    "evidenceClass": "CONFIRMED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  },
+  {
+    "id": "C04",
+    "name": "Barrett Petfood",
+    "platform": "Freeze-dried; Baked-adjacent",
+    "overlap": "Premium kibble, inclusions, pet manufacturing",
+    "sourceIds": [
+      "barrett"
+    ],
+    "capacityStatus": "Extrusion and freeze-dried capabilities advertised. Do not equate extrusion with oven baking.",
+    "watch": "Watch pet capacity, qualification lead times, new plants and contract wins.",
+    "evidenceClass": "CONFIRMED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  },
+  {
+    "id": "C05",
+    "name": "Weaver Popcorn Manufacturing",
+    "platform": "Popped",
+    "overlap": "Ready-to-eat and microwave private label/co-manufacturing",
+    "sourceIds": [
+      "weaver"
+    ],
+    "capacityStatus": "Current capability advertisement; no current utilization verified.",
+    "watch": "Watch RTE line additions, formats and private-label bids.",
+    "evidenceClass": "CONFIRMED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  },
+  {
+    "id": "C06",
+    "name": "Flagstone Foods",
+    "platform": "Roasted",
+    "overlap": "Private-label snack nuts and mixes",
+    "sourceIds": [
+      "flagstone"
+    ],
+    "capacityStatus": "Company description indexed; full-page verification pending.",
+    "watch": "Watch roasting, plant consolidation, packaging formats, WARN notices and acquisitions.",
+    "evidenceClass": "INFERRED",
+    "relationship": "Capability overlap; no supplier/customer relationship asserted"
+  }
+]
