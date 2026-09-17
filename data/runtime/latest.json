@@ -618,6 +618,345 @@
   ],
   "candidates": [
     {
+      "id": "osm-wisconsin-corridors:geographic-snapshot",
+      "sourceId": "osm-wisconsin-corridors",
+      "title": "OpenStreetMap Milwaukee reference corridors: mapped corridor update",
+      "summary": "434 mapped elements in the fixed public regional query. Review mapping changes before changing the saved geography. This is not a traffic or facility incident.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T18:10:17.332Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%29%24%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3B%29%3Bout+tags+geom%3B",
+      "mapDatabaseAt": "2026-09-17T18:03:16Z",
+      "dateType": "OSM database timestamp is not an event date",
+      "scope": "OpenStreetMap community observations. Nearby roads or rail do not establish company use, legal truck access, current condition or route independence."
+    },
+    {
+      "id": "osm-illinois-corridors:geographic-snapshot",
+      "sourceId": "osm-illinois-corridors",
+      "title": "OpenStreetMap Central Illinois corridors: mapped corridor update",
+      "summary": "1137 mapped elements in the fixed public regional query. Review mapping changes before changing the saved geography. This is not a traffic or facility incident.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T18:10:17.321Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%7Cprimary%29%24%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3B%29%3Bout+tags+geom%3B",
+      "mapDatabaseAt": "2026-09-17T18:00:06Z",
+      "dateType": "OSM database timestamp is not an event date",
+      "scope": "OpenStreetMap community observations. Nearby roads or rail do not establish company use, legal truck access, current condition or route independence."
+    },
+    {
+      "id": "gis-ir:page-change",
+      "sourceId": "gis-ir",
+      "title": "General Mills, Inc. - Financial News",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:38.296Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://investors.generalmills.com/press-releases/",
+      "scope": "Public CPG/cereal/snack/pet archetype; no Watershed account relationship asserted. Check organic volume, price/mix and divestiture effects."
+    },
+    {
+      "id": "eia-steo:page-change",
+      "sourceId": "eia-steo",
+      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:38.295Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://www.eia.gov/outlooks/steo/",
+      "scope": "Distinguish agency forecasts and assumptions from observed conditions. Connect chokepoints through oil/distillates to fuel costs; actual routes unknown."
+    },
+    {
+      "id": "bls-paperboard-api:WPU0914:2026-08",
+      "sourceId": "bls-paperboard-api",
+      "title": "Paperboard · 2026-08",
+      "summary": "United States: 373.349 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-08; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:38.294Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "measurement": {
+        "id": "WPU0914:2026-08",
+        "label": "Paperboard",
+        "seriesCode": "WPU0914",
+        "referencePeriod": "2026-08",
+        "unit": "index, 1982=100",
+        "value": 373.349,
+        "comparison": "index level; not a transaction price",
+        "seasonalAdjustment": "NSA",
+        "geography": "United States",
+        "preliminary": true,
+        "history": [
+          {
+            "period": "2026-08",
+            "value": 373.349,
+            "preliminary": true
+          },
+          {
+            "period": "2026-07",
+            "value": 365.103,
+            "preliminary": true
+          },
+          {
+            "period": "2026-06",
+            "value": 361.011,
+            "preliminary": true
+          },
+          {
+            "period": "2026-05",
+            "value": 360.182,
+            "preliminary": true
+          },
+          {
+            "period": "2026-04",
+            "value": 353.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-03",
+            "value": 353.904,
+            "preliminary": false
+          },
+          {
+            "period": "2026-02",
+            "value": 354.541,
+            "preliminary": false
+          },
+          {
+            "period": "2026-01",
+            "value": 356.681,
+            "preliminary": false
+          },
+          {
+            "period": "2025-12",
+            "value": 356.438,
+            "preliminary": false
+          },
+          {
+            "period": "2025-11",
+            "value": 356.324,
+            "preliminary": false
+          },
+          {
+            "period": "2025-10",
+            "value": 357.05,
+            "preliminary": false
+          },
+          {
+            "period": "2025-09",
+            "value": 354.549,
+            "preliminary": false
+          },
+          {
+            "period": "2025-08",
+            "value": 355.341,
+            "preliminary": false
+          },
+          {
+            "period": "2025-07",
+            "value": 355.658,
+            "preliminary": false
+          },
+          {
+            "period": "2025-06",
+            "value": 358.893,
+            "preliminary": false
+          },
+          {
+            "period": "2025-05",
+            "value": 353.878,
+            "preliminary": false
+          },
+          {
+            "period": "2025-04",
+            "value": 352.675,
+            "preliminary": false
+          },
+          {
+            "period": "2025-03",
+            "value": 348.748,
+            "preliminary": false
+          },
+          {
+            "period": "2025-02",
+            "value": 346.547,
+            "preliminary": false
+          },
+          {
+            "period": "2025-01",
+            "value": 346.383,
+            "preliminary": false
+          },
+          {
+            "period": "2024-12",
+            "value": 343.626,
+            "preliminary": false
+          },
+          {
+            "period": "2024-11",
+            "value": 343.856,
+            "preliminary": false
+          },
+          {
+            "period": "2024-10",
+            "value": 343.106,
+            "preliminary": false
+          },
+          {
+            "period": "2024-09",
+            "value": 340.929,
+            "preliminary": false
+          },
+          {
+            "period": "2024-08",
+            "value": 339.666,
+            "preliminary": false
+          },
+          {
+            "period": "2024-07",
+            "value": 334.017,
+            "preliminary": false
+          },
+          {
+            "period": "2024-06",
+            "value": 332.43,
+            "preliminary": false
+          },
+          {
+            "period": "2024-05",
+            "value": 330.954,
+            "preliminary": false
+          },
+          {
+            "period": "2024-04",
+            "value": 329.951,
+            "preliminary": false
+          },
+          {
+            "period": "2024-03",
+            "value": 328.448,
+            "preliminary": false
+          },
+          {
+            "period": "2024-02",
+            "value": 327.928,
+            "preliminary": false
+          },
+          {
+            "period": "2024-01",
+            "value": 328.547,
+            "preliminary": false
+          }
+        ]
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "eia-industrial:Illinois:2026-06",
+      "sourceId": "eia-industrial",
+      "title": "Industrial electricity average price · 2026-06",
+      "summary": "Illinois: 10.65 cents/kWh. same month previous year; NSA. Reference period 2026-06; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:28.574Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "measurement": {
+        "id": "Illinois:2026-06",
+        "label": "Industrial electricity average price",
+        "referencePeriod": "2026-06",
+        "previousPeriod": "2025-06",
+        "unit": "cents/kWh",
+        "value": 10.65,
+        "previousValue": 9.65,
+        "yearOverYear": 10.362694300518127,
+        "comparison": "same month previous year",
+        "seasonalAdjustment": "NSA",
+        "geography": "Illinois",
+        "preliminary": true
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "eia-industrial:Wisconsin:2026-06",
+      "sourceId": "eia-industrial",
+      "title": "Industrial electricity average price · 2026-06",
+      "summary": "Wisconsin: 9.95 cents/kWh. same month previous year; NSA. Reference period 2026-06; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:28.574Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "measurement": {
+        "id": "Wisconsin:2026-06",
+        "label": "Industrial electricity average price",
+        "referencePeriod": "2026-06",
+        "previousPeriod": "2025-06",
+        "unit": "cents/kWh",
+        "value": 9.95,
+        "previousValue": 9.62,
+        "yearOverYear": 3.4303534303534278,
+        "comparison": "same month previous year",
+        "seasonalAdjustment": "NSA",
+        "geography": "Wisconsin",
+        "preliminary": true
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "thrive:page-change",
+      "sourceId": "thrive",
+      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:28.573Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.thrivefreezedry.com/",
+      "scope": "Group aliases de-duplicated; announcement is not commissioning"
+    },
+    {
+      "id": "fda-fsma:page-change",
+      "sourceId": "fda-fsma",
+      "title": "Food Safety Modernization Act (FSMA) | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:10.678Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
+      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
+    },
+    {
+      "id": "fda-cvm:page-change",
+      "sourceId": "fda-cvm",
+      "title": "Animal Foods &amp; Feeds | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T17:46:10.677Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
+      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
+    },
+    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.45eb8975d0d91c4646ef32f0cdddd29c446814dc.001.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 17 at 10:53AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
@@ -3556,354 +3895,15 @@
       "category": "Growth opportunity",
       "sourceUrl": "https://www.pmmi.org/",
       "scope": "Robotics, machine vision, equipment and workforce developments"
-    },
-    {
-      "id": "fda-cvm:page-change",
-      "sourceId": "fda-cvm",
-      "title": "Animal Foods &amp; Feeds | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:10.677Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
-      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
-    },
-    {
-      "id": "fda-fsma:page-change",
-      "sourceId": "fda-fsma",
-      "title": "Food Safety Modernization Act (FSMA) | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:10.678Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
-      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
-    },
-    {
-      "id": "thrive:page-change",
-      "sourceId": "thrive",
-      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:28.573Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.thrivefreezedry.com/",
-      "scope": "Group aliases de-duplicated; announcement is not commissioning"
-    },
-    {
-      "id": "eia-industrial:Illinois:2026-06",
-      "sourceId": "eia-industrial",
-      "title": "Industrial electricity average price · 2026-06",
-      "summary": "Illinois: 10.65 cents/kWh. same month previous year; NSA. Reference period 2026-06; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:28.574Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
-      "measurement": {
-        "id": "Illinois:2026-06",
-        "label": "Industrial electricity average price",
-        "referencePeriod": "2026-06",
-        "previousPeriod": "2025-06",
-        "unit": "cents/kWh",
-        "value": 10.65,
-        "previousValue": 9.65,
-        "yearOverYear": 10.362694300518127,
-        "comparison": "same month previous year",
-        "seasonalAdjustment": "NSA",
-        "geography": "Illinois",
-        "preliminary": true
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "eia-industrial:Wisconsin:2026-06",
-      "sourceId": "eia-industrial",
-      "title": "Industrial electricity average price · 2026-06",
-      "summary": "Wisconsin: 9.95 cents/kWh. same month previous year; NSA. Reference period 2026-06; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:28.574Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
-      "measurement": {
-        "id": "Wisconsin:2026-06",
-        "label": "Industrial electricity average price",
-        "referencePeriod": "2026-06",
-        "previousPeriod": "2025-06",
-        "unit": "cents/kWh",
-        "value": 9.95,
-        "previousValue": 9.62,
-        "yearOverYear": 3.4303534303534278,
-        "comparison": "same month previous year",
-        "seasonalAdjustment": "NSA",
-        "geography": "Wisconsin",
-        "preliminary": true
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "bls-paperboard-api:WPU0914:2026-08",
-      "sourceId": "bls-paperboard-api",
-      "title": "Paperboard · 2026-08",
-      "summary": "United States: 373.349 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-08; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:38.294Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
-      "measurement": {
-        "id": "WPU0914:2026-08",
-        "label": "Paperboard",
-        "seriesCode": "WPU0914",
-        "referencePeriod": "2026-08",
-        "unit": "index, 1982=100",
-        "value": 373.349,
-        "comparison": "index level; not a transaction price",
-        "seasonalAdjustment": "NSA",
-        "geography": "United States",
-        "preliminary": true,
-        "history": [
-          {
-            "period": "2026-08",
-            "value": 373.349,
-            "preliminary": true
-          },
-          {
-            "period": "2026-07",
-            "value": 365.103,
-            "preliminary": true
-          },
-          {
-            "period": "2026-06",
-            "value": 361.011,
-            "preliminary": true
-          },
-          {
-            "period": "2026-05",
-            "value": 360.182,
-            "preliminary": true
-          },
-          {
-            "period": "2026-04",
-            "value": 353.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-03",
-            "value": 353.904,
-            "preliminary": false
-          },
-          {
-            "period": "2026-02",
-            "value": 354.541,
-            "preliminary": false
-          },
-          {
-            "period": "2026-01",
-            "value": 356.681,
-            "preliminary": false
-          },
-          {
-            "period": "2025-12",
-            "value": 356.438,
-            "preliminary": false
-          },
-          {
-            "period": "2025-11",
-            "value": 356.324,
-            "preliminary": false
-          },
-          {
-            "period": "2025-10",
-            "value": 357.05,
-            "preliminary": false
-          },
-          {
-            "period": "2025-09",
-            "value": 354.549,
-            "preliminary": false
-          },
-          {
-            "period": "2025-08",
-            "value": 355.341,
-            "preliminary": false
-          },
-          {
-            "period": "2025-07",
-            "value": 355.658,
-            "preliminary": false
-          },
-          {
-            "period": "2025-06",
-            "value": 358.893,
-            "preliminary": false
-          },
-          {
-            "period": "2025-05",
-            "value": 353.878,
-            "preliminary": false
-          },
-          {
-            "period": "2025-04",
-            "value": 352.675,
-            "preliminary": false
-          },
-          {
-            "period": "2025-03",
-            "value": 348.748,
-            "preliminary": false
-          },
-          {
-            "period": "2025-02",
-            "value": 346.547,
-            "preliminary": false
-          },
-          {
-            "period": "2025-01",
-            "value": 346.383,
-            "preliminary": false
-          },
-          {
-            "period": "2024-12",
-            "value": 343.626,
-            "preliminary": false
-          },
-          {
-            "period": "2024-11",
-            "value": 343.856,
-            "preliminary": false
-          },
-          {
-            "period": "2024-10",
-            "value": 343.106,
-            "preliminary": false
-          },
-          {
-            "period": "2024-09",
-            "value": 340.929,
-            "preliminary": false
-          },
-          {
-            "period": "2024-08",
-            "value": 339.666,
-            "preliminary": false
-          },
-          {
-            "period": "2024-07",
-            "value": 334.017,
-            "preliminary": false
-          },
-          {
-            "period": "2024-06",
-            "value": 332.43,
-            "preliminary": false
-          },
-          {
-            "period": "2024-05",
-            "value": 330.954,
-            "preliminary": false
-          },
-          {
-            "period": "2024-04",
-            "value": 329.951,
-            "preliminary": false
-          },
-          {
-            "period": "2024-03",
-            "value": 328.448,
-            "preliminary": false
-          },
-          {
-            "period": "2024-02",
-            "value": 327.928,
-            "preliminary": false
-          },
-          {
-            "period": "2024-01",
-            "value": 328.547,
-            "preliminary": false
-          }
-        ]
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "eia-steo:page-change",
-      "sourceId": "eia-steo",
-      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:38.295Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://www.eia.gov/outlooks/steo/",
-      "scope": "Distinguish agency forecasts and assumptions from observed conditions. Connect chokepoints through oil/distillates to fuel costs; actual routes unknown."
-    },
-    {
-      "id": "gis-ir:page-change",
-      "sourceId": "gis-ir",
-      "title": "General Mills, Inc. - Financial News",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:46:38.296Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://investors.generalmills.com/press-releases/",
-      "scope": "Public CPG/cereal/snack/pet archetype; no Watershed account relationship asserted. Check organic volume, price/mix and divestiture effects."
-    },
-    {
-      "id": "osm-illinois-corridors:geographic-snapshot",
-      "sourceId": "osm-illinois-corridors",
-      "title": "OpenStreetMap Central Illinois corridors: mapped corridor update",
-      "summary": "1137 mapped elements in the fixed public regional query. Review mapping changes before changing the saved geography. This is not a traffic or facility incident.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T18:10:17.321Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%7Cprimary%29%24%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3B%29%3Bout+tags+geom%3B",
-      "mapDatabaseAt": "2026-09-17T18:00:06Z",
-      "dateType": "OSM database timestamp is not an event date",
-      "scope": "OpenStreetMap community observations. Nearby roads or rail do not establish company use, legal truck access, current condition or route independence."
-    },
-    {
-      "id": "osm-wisconsin-corridors:geographic-snapshot",
-      "sourceId": "osm-wisconsin-corridors",
-      "title": "OpenStreetMap Milwaukee reference corridors: mapped corridor update",
-      "summary": "434 mapped elements in the fixed public regional query. Review mapping changes before changing the saved geography. This is not a traffic or facility incident.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T18:10:17.332Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%29%24%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3B%29%3Bout+tags+geom%3B",
-      "mapDatabaseAt": "2026-09-17T18:03:16Z",
-      "dateType": "OSM database timestamp is not an event date",
-      "scope": "OpenStreetMap community observations. Nearby roads or rail do not establish company use, legal truck access, current condition or route independence."
     }
   ],
-  "attempted": 11,
+  "attempted": 0,
   "remaining": 0,
-  "collectedAt": "2026-09-17T18:07:04.086760+00:00",
+  "collectedAt": "2026-09-17T18:16:51.182Z",
   "history": [
     {
       "date": "2026-09-17",
-      "asOf": "2026-09-17T18:14:36.788Z",
+      "asOf": "2026-09-17T18:16:51.183Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
