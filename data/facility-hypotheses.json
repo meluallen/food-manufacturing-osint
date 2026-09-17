@@ -1,0 +1,514 @@
+[
+  {
+    "id": "FH01",
+    "facilityId": "gridley",
+    "area": "Potential ingredient inputs",
+    "items": [
+      "Yogurt or dairy preparations / milk solids",
+      "Fruit and vegetable pieces, purees or powders",
+      "Cultures, flavors and functional ingredients when specified",
+      "Protein ingredients for qualified pet or functional products"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Gridley freeze-drying is established; company-level offerings include yogurt melts, fruit/vegetables and nutrition products. Product-to-site allocation and whether inputs arrive premixed are not verified.",
+    "sourceIds": [
+      "ws-careers",
+      "ws-capabilities",
+      "tracegains"
+    ],
+    "alternative": "Some ingredients may arrive as customer-supplied finished preparations; dairy culturing and all advertised product families need not occur at Gridley.",
+    "verify": "Site product list, approved formulas and receiving specifications; remove any category absent from current production.",
+    "exposureIds": [
+      "X01",
+      "X02",
+      "X03",
+      "X09",
+      "X11",
+      "X13",
+      "X14"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi",
+      "ams-dairy"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH02",
+    "facilityId": "gridley",
+    "area": "Expected processing equipment categories",
+    "items": [
+      "Freeze-drying systems with refrigeration and vacuum functions",
+      "Blending and product handling",
+      "Depositing / forming and trays where the proposed process is used",
+      "Packaging and process inspection equipment"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Freeze-drying and supporting activities are described in recruiting; the 2024 state agreement proposed depositing, freezing, traying and packaging additions. Category-level equipment expectations do not establish installed makes, models or quantities.",
+    "sourceIds": [
+      "ws-careers",
+      "edge-2024"
+    ],
+    "alternative": "The proposed additions may not be commissioned; contract partners or existing equipment may perform some steps.",
+    "verify": "Commissioning announcement or authorized high-level asset list; retain proposed equipment as historical until corroborated.",
+    "exposureIds": [],
+    "monitorSourceIds": [
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH03",
+    "facilityId": "gridley",
+    "area": "Likely packaging and logistics",
+    "items": [
+      "Moisture-barrier film or pouches for moisture-sensitive products",
+      "Cartons, labels and pallets",
+      "Truck inbound/outbound movements",
+      "Conditional temperature-controlled receipt or staging of perishable inputs"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Advertised freeze-dried products and shipment coordination support these practical hypotheses; storage design, owned fleets, truckload/LTL mix and actual package structures are unknown.",
+    "sourceIds": [
+      "ws-capabilities",
+      "ws-careers"
+    ],
+    "alternative": "Some product may move in bulk lined containers or customer packaging; shelf-stable finished products do not imply refrigerated outbound shipments.",
+    "verify": "Packaging specifications, receiving temperature requirements and mode summary; do not infer a separate cold-storage facility.",
+    "exposureIds": [
+      "X15"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi",
+      "eia-diesel"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH04",
+    "facilityId": "gridley",
+    "area": "Likely process utilities and consumables",
+    "items": [
+      "Electricity for refrigeration, vacuum and handling",
+      "Water and sanitation/processing inputs appropriate to the food process",
+      "Thermal energy where applicable; fuel source unresolved"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "These are process requirements inferred from freeze-drying and food handling, not named utility connections or measured usage.",
+    "sourceIds": [
+      "ws-careers",
+      "ws-capabilities"
+    ],
+    "alternative": "Thermal requirements may be electric or supplied by another system; cleaning method and consumables depend on validated processes.",
+    "verify": "Authorized utility category and consumption summary, with no facility-security configuration needed.",
+    "exposureIds": [
+      "X16"
+    ],
+    "monitorSourceIds": [
+      "eia-industrial",
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH05",
+    "facilityId": "gridley",
+    "area": "Possible roasting allocation",
+    "items": [
+      "Roasting activity and seed/legume handling may be allocated here"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Low",
+    "basis": "The company describes Illinois freeze-drying and roasting but does not name Gridley in that sentence.",
+    "sourceIds": [
+      "ws-careers",
+      "topfox"
+    ],
+    "alternative": "Roasting may occur at another Illinois site, a related business or a contract location.",
+    "verify": "Explicit current site/process statement; do not treat this scenario as installed Gridley roasting capacity.",
+    "exposureIds": [
+      "X04",
+      "X06",
+      "X08"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH06",
+    "facilityId": "congerville",
+    "area": "Potential seed-snack inputs",
+    "items": [
+      "Pumpkin and other seeds consistent with the marketed range",
+      "Oils, salt and seasonings where specified",
+      "Other nuts or legumes only if included in the active product range"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Top Fox establishes a seed-snack business and Congerville contact presence; company-wide roasted offerings support category hypotheses. Physical processing at the contact address is not confirmed.",
+    "sourceIds": [
+      "topfox",
+      "ws-capabilities"
+    ],
+    "alternative": "Products may be made at another Watershed or contract location; ingredients can differ by SKU.",
+    "verify": "Current ingredient panels and explicit manufacturing-site evidence; supplier identities and origins remain unknown.",
+    "exposureIds": [
+      "X04",
+      "X05",
+      "X06",
+      "X08",
+      "X10",
+      "X11"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH07",
+    "facilityId": "congerville",
+    "area": "Conditional roasting equipment and utilities",
+    "items": [
+      "Roasting/thermal equipment",
+      "Seasoning and mixing equipment",
+      "Electricity and thermal energy if manufacturing occurs here"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Low",
+    "basis": "Expected equipment classes if the brand’s roasted production is physically allocated to Congerville; that allocation is unresolved.",
+    "sourceIds": [
+      "topfox",
+      "ws-capabilities"
+    ],
+    "alternative": "The location may function primarily as business/contact or distribution premises.",
+    "verify": "Public facility-purpose confirmation or authorized site capability summary before adding capacity or utility loads.",
+    "exposureIds": [],
+    "monitorSourceIds": [
+      "eia-industrial"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH08",
+    "facilityId": "congerville",
+    "area": "Likely brand packaging and distribution",
+    "items": [
+      "Retail snack film/pouches, labels and cartons",
+      "Palletized storage and truck distribution where handled locally"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "A packaged seed-snack business implies these supply-chain needs, but handling location and ownership are uncertain.",
+    "sourceIds": [
+      "topfox"
+    ],
+    "alternative": "Packaging and distribution may occur at a partner site; local business presence is not evidence of a warehouse.",
+    "verify": "Current packaging and fulfillment arrangements; confirm location before attributing weather/utility exposure.",
+    "exposureIds": [
+      "X15"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi",
+      "eia-diesel"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH09",
+    "facilityId": "deer-creek",
+    "area": "Potential popcorn ingredient inputs",
+    "items": [
+      "Food-grade popping corn",
+      "Oils, salt and seasonings for relevant recipes",
+      "Sweeteners or dairy/cheese flavor preparations only for applicable recipes"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Aunt Em’s / Heartland is publicly associated with popcorn operations. Exact recipes and the 2026 transition status are unverified.",
+    "sourceIds": [
+      "deer-directory",
+      "heartland-2026"
+    ],
+    "alternative": "Some products may be unflavored; some seasoning or finished product may be supplied by partners.",
+    "verify": "Current product ingredient panels and receiving specifications; generic corn benchmarks do not establish popping-corn costs.",
+    "exposureIds": [
+      "X07",
+      "X10",
+      "X11",
+      "X12"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH10",
+    "facilityId": "deer-creek",
+    "area": "Expected popcorn equipment categories",
+    "items": [
+      "Popping equipment",
+      "Seasoning/coating and product handling",
+      "Packing and inspection equipment",
+      "Electricity and thermal process energy"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Public reporting describes a popcorn equipment transition and expansion. These are expected categories, not evidence that new lines have been commissioned.",
+    "sourceIds": [
+      "heartland-2026",
+      "wcbu-heartland"
+    ],
+    "alternative": "Existing lines, temporary production or external capacity may serve orders during transition.",
+    "verify": "Closing and commissioning evidence, announced operating milestones, and current high-level capability confirmation.",
+    "exposureIds": [],
+    "monitorSourceIds": [
+      "eia-industrial",
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH11",
+    "facilityId": "deer-creek",
+    "area": "Likely packaging and logistics",
+    "items": [
+      "Snack bags/film or other product-specific containers",
+      "Cartons, labels, pallets and dry finished-goods storage",
+      "Truck distribution"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Ready-to-eat popcorn normally requires packaging and distribution; the business context supports a working model without known volumes or lanes.",
+    "sourceIds": [
+      "heartland-2026",
+      "deer-directory"
+    ],
+    "alternative": "Package formats and storage may differ by retail, foodservice and contract product; external warehouses may be used.",
+    "verify": "Actual format mix, inventory locations at city level and contracted shipping modes.",
+    "exposureIds": [
+      "X15"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi",
+      "eia-diesel"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH12",
+    "facilityId": "wisconsin",
+    "area": "Potential baked and popped inputs",
+    "items": [
+      "Grains/flours and popping corn according to product allocation",
+      "Oils, proteins and functional ingredients for applicable baked products",
+      "Flavor/seasoning preparations and sweeteners where specified"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Low",
+    "basis": "Company recruiting confirms greater-Milwaukee baking/popping, while company-wide offerings include baked pet products and popcorn. Assigning those exact products to this region remains a hypothesis.",
+    "sourceIds": [
+      "ws-careers",
+      "ws-capabilities"
+    ],
+    "alternative": "Regional lines may serve a narrower or different human/pet product mix; ingredients may arrive premixed.",
+    "verify": "A current regional product/capability statement or authorized product allocation; no exact facility is assumed.",
+    "exposureIds": [
+      "X07",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X14"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH13",
+    "facilityId": "wisconsin",
+    "area": "Expected processing categories",
+    "items": [
+      "Ovens and associated handling for baking",
+      "Popping equipment for the advertised popping operation",
+      "Mixing/forming/seasoning where product specifications require",
+      "Electricity and process heat with fuel type unresolved"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Baking and popping are explicitly described at the regional level. Equipment categories follow those processes; manufacturers, models, capacities and locations are unknown.",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "alternative": "Some preparation and packing stages may be elsewhere; a regional operation can encompass more than one site.",
+    "verify": "Public site identification and capability statement; use only regional weather/energy context meanwhile.",
+    "exposureIds": [],
+    "monitorSourceIds": [
+      "eia-industrial",
+      "bls-milwaukee"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH14",
+    "facilityId": "wisconsin",
+    "area": "Likely packaging and logistics",
+    "items": [
+      "Food-grade bags/film or bulk packaging",
+      "Cartons, labels and pallets",
+      "Truck shipments and dry storage where production is located"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Medium",
+    "basis": "Packaged baked/popped products imply packaging and shipping needs; this is a regional process model, not a confirmed site inventory.",
+    "sourceIds": [
+      "ws-careers",
+      "ws-capabilities"
+    ],
+    "alternative": "Customer-supplied packaging and third-party storage/distribution may reduce direct purchasing or local handling.",
+    "verify": "Actual product formats and regional shipping summary; retain city-level precision until location is established.",
+    "exposureIds": [
+      "X15"
+    ],
+    "monitorSourceIds": [
+      "bls-ppi",
+      "eia-diesel"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  },
+  {
+    "id": "FH15",
+    "facilityId": "bloomington",
+    "area": "Possible office support function",
+    "items": [
+      "Office-based administration, commercial or coordination activity"
+    ],
+    "evidenceClass": "INFERRED",
+    "confidence": "Low",
+    "basis": "A public company profile provides an office/headquarters lead, without current primary corroboration of function.",
+    "sourceIds": [
+      "ws-linkedin"
+    ],
+    "alternative": "The address may be outdated, a mailing address or another function. No manufacturing or ingredient use is inferred.",
+    "verify": "Current official contact page or filing confirming office purpose; downgrade the lead if superseded.",
+    "exposureIds": [],
+    "monitorSourceIds": [
+      "bls-labor"
+    ],
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "reviewDue": "2026-12-17",
+    "status": "Working best guess",
+    "actualPurchasesVerified": false,
+    "installedEquipmentVerified": false,
+    "quantity": null,
+    "capacity": null
+  }
+]

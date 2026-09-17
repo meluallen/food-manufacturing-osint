@@ -238,5 +238,101 @@
     "kind": "Primary case administrator",
     "retrievedAt": "2026-09-17",
     "limitation": "Notice retains proposed-approval language and an elapsed hearing date. Current docket disposition was not verified. Allegations are disputed, not findings."
+  },
+  {
+    "id": "bls-ppi",
+    "title": "BLS: August 2026 commodity Producer Price Index table",
+    "url": "https://www.bls.gov/news.release/ppi.t02.htm",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Preliminary broad U.S. price indices; footnote 2 is NSA. No company purchase price or recipe weight is established."
+  },
+  {
+    "id": "eia-industrial",
+    "title": "EIA: June 2026 state industrial electricity prices",
+    "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Preliminary state sector averages, not Watershed rates. Comparison is June 2025, not the previous month."
+  },
+  {
+    "id": "bls-labor",
+    "title": "BLS: Bloomington metro labor indicators",
+    "url": "https://www.bls.gov/regions/midwest/il_bloomington_msa.htm",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "July 2026 preliminary NSA metro estimates; not a company hiring or wage survey."
+  },
+  {
+    "id": "bls-peoria",
+    "title": "BLS: Peoria metro labor indicators",
+    "url": "https://www.bls.gov/regions/midwest/il_peoria_msa.htm",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "July 2026 preliminary NSA metro estimates; no actual commuting pattern is assumed."
+  },
+  {
+    "id": "bls-milwaukee",
+    "title": "BLS: Milwaukee-Waukesha metro labor indicators",
+    "url": "https://www.bls.gov/regions/midwest/wi_milwaukee_msa.htm",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "July 2026 preliminary NSA metro estimates; exact Watershed Wisconsin site remains unknown."
+  },
+  {
+    "id": "bls-paperboard-api",
+    "title": "BLS API: Paperboard PPI, WPU0914",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "NSA index, 1982=100; annual averages excluded; not actual packaging purchase prices."
+  },
+  {
+    "id": "eia-steo",
+    "title": "EIA: September 2026 Short-Term Energy Outlook",
+    "url": "https://www.eia.gov/outlooks/steo/",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Agency scenarios and forecasts, completed September 3 and published September 9; not realized outcomes or Watershed import routes."
+  },
+  {
+    "id": "fda-cvm",
+    "title": "FDA: Animal Foods & Feeds",
+    "url": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Animal product classification depends on intended use; DSHEA does not establish an animal dietary-supplement category."
+  },
+  {
+    "id": "gis-20260908",
+    "title": "General Mills: September 8, 2026 business update",
+    "url": "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reaffirms-Annual-Guidance-and-Provides-Business-Update-at-2026-Barclays-Global-Consumer-Staples-Conference/default.aspx",
+    "kind": "Company",
+    "retrievedAt": "2026-09-17",
+    "limitation": "One company as a global CPG/category proxy. No Watershed customer relationship; management commentary is attributed, not independent category growth evidence."
+  },
+  {
+    "id": "osm-illinois-corridors",
+    "title": "OpenStreetMap: Central Illinois public corridor extract",
+    "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%7Cprimary%29%24%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3B%29%3Bout+tags+geom%3B",
+    "kind": "OpenStreetMap",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Community map snapshot, not verified facility access or company routing. © OpenStreetMap contributors; ODbL 1.0."
+  },
+  {
+    "id": "osm-wisconsin-corridors",
+    "title": "OpenStreetMap: Milwaukee reference public corridor extract",
+    "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%29%24%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3B%29%3Bout+tags+geom%3B",
+    "kind": "OpenStreetMap",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Community map snapshot, not verified facility access or company routing. © OpenStreetMap contributors; ODbL 1.0."
+  },
+  {
+    "id": "osm-places",
+    "title": "OpenStreetMap municipality references and attribution",
+    "url": "https://www.openstreetmap.org/copyright",
+    "kind": "OpenStreetMap",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Town/city reference coordinates, not facility coordinates. Individual OSM object links are in data/osm-context.json."
   }
 ]

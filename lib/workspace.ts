@@ -27,12 +27,13 @@ export async function loadWorkspace(){
    db.prepare("SELECT kind,payload FROM records WHERE kind='public-snapshot' ORDER BY updated_at DESC LIMIT 400")]);
   const groups:Record<string,any[]>={};for(const batch of batches)for(const row of batch.results){const r=row as {kind:string,payload:string};(groups[r.kind]??=[]).push(JSON.parse(r.payload));}
   const merge=(kind:string,seed:any[])=>[...new Map([...seed,...(groups[kind]??[])].map(v=>[v.id,v])).values()];
-  const signals=merge('signal',merge('public-signal',baseline.signals));
-  const citations=merge('citation',merge('public-citation',baseline.citations)),knownSources=new Set([...citations,...baseline.sources].map(c=>c.id));
+  const published=(kind:string,seed:any[])=>{const values=new Map(seed.map(v=>[v.id,v]));for(const v of groups[kind]??[]){const old=values.get(v.id);const stamp=(r:any)=>r.updatedAt??r.reviewedAt??r.retrievedAt??r.asOf??'';if(!old||(v.revision??1)>(old.revision??1)||((v.revision??1)===(old.revision??1)&&stamp(v)>stamp(old)))values.set(v.id,v);}return [...values.values()];};
+  const signals=merge('signal',published('public-signal',baseline.signals));
+  const citations=merge('citation',published('public-citation',baseline.citations)),knownSources=new Set([...citations,...baseline.sources].map(c=>c.id));
   const assessment=assess(signals,baseline.categories,new Date(),knownSources);
-  const states=[...new Map([...initialRuntime.states,...(groups.source??[])].map(s=>[s.sourceId,s])).values()];
+  const states=[...new Map([...initialRuntime.states,...(groups.source??[])].sort((a,b)=>a.fetchedAt.localeCompare(b.fetchedAt)).map(s=>[s.sourceId,s])).values()];
   const candidates=merge('candidate',initialRuntime.candidates);
-  return {...baseline,signals,claims:merge('claim',merge('public-claim',baseline.claims)),citations,hypotheses:merge('hypothesis',merge('public-hypothesis',baseline.hypotheses)),forecasts:merge('forecast',merge('public-forecast',baseline.forecasts)),states,candidates,history:(groups.snapshot??[]).sort((a,b)=>a.date.localeCompare(b.date)),publicHistory:(groups['public-snapshot']??initialRuntime.history??[]).sort((a,b)=>a.date.localeCompare(b.date)),assessment,sync:groups.sync?.[0]??null,persistence:'Connected'};
+  return {...baseline,signals,claims:merge('claim',published('public-claim',baseline.claims)),citations,hypotheses:merge('hypothesis',published('public-hypothesis',baseline.hypotheses)),forecasts:merge('forecast',published('public-forecast',baseline.forecasts)),states,candidates,history:(groups.snapshot??[]).sort((a,b)=>a.date.localeCompare(b.date)),publicHistory:(groups['public-snapshot']??initialRuntime.history??[]).sort((a,b)=>a.date.localeCompare(b.date)),assessment,sync:groups.sync?.[0]??null,persistence:'Connected'};
 }
 export async function recordSnapshot(workspace:any){
   const a=workspace.assessment;

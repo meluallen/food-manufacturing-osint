@@ -78,16 +78,131 @@
       "finding": "Recent vendor vulnerability records were collected successfully.",
       "decision": "Authorized IT staff must match vendor, product and version before estimating company exposure. An empty company match is not a cyber clearance.",
       "status": "applicability-unverified"
+    },
+    {
+      "id": "D20260917-S08",
+      "title": "Ingredient benchmarks diverge: grains up, dairy down",
+      "sourceIds": [
+        "bls-ppi",
+        "ws-capabilities"
+      ],
+      "observedAt": "2026-09-10",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+      "assessmentIds": [
+        "S08"
+      ],
+      "finding": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+      "decision": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+      "status": "assessed-conditional-exposure"
+    },
+    {
+      "id": "D20260917-S09",
+      "title": "Metro labor context remains mixed",
+      "sourceIds": [
+        "bls-labor",
+        "bls-peoria",
+        "bls-milwaukee",
+        "ws-careers"
+      ],
+      "observedAt": null,
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+      "assessmentIds": [
+        "S09"
+      ],
+      "finding": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+      "decision": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+      "status": "assessed-conditional-exposure"
+    },
+    {
+      "id": "D20260917-S10",
+      "title": "Latest industrial electricity benchmark is higher year over year",
+      "sourceIds": [
+        "eia-industrial",
+        "ws-capabilities"
+      ],
+      "observedAt": "2026-08-26",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
+      "assessmentIds": [
+        "S10"
+      ],
+      "finding": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+      "decision": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
+      "status": "assessed-conditional-exposure"
+    },
+    {
+      "id": "D20260917-S11",
+      "title": "Packaging signals split between paperboard and plastics",
+      "sourceIds": [
+        "bls-ppi",
+        "bls-paperboard-api"
+      ],
+      "observedAt": "2026-09-10",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+      "assessmentIds": [
+        "S11"
+      ],
+      "finding": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+      "decision": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+      "status": "assessed-conditional-exposure"
+    },
+    {
+      "id": "D20260917-S12",
+      "title": "Global CPG proxy retains cautious sales outlook",
+      "sourceIds": [
+        "gis-20260908",
+        "ws-markets"
+      ],
+      "observedAt": "2026-09-08",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
+      "assessmentIds": [
+        "S12"
+      ],
+      "finding": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+      "decision": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
+      "status": "assessed-conditional-exposure"
+    },
+    {
+      "id": "D20260917-S13",
+      "title": "EIA’s export-constraint scenario supports a fuel watch",
+      "sourceIds": [
+        "eia-steo",
+        "eia-diesel"
+      ],
+      "observedAt": "2026-09-09",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "INFERRED",
+      "sourceScope": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+      "assessmentIds": [
+        "S13"
+      ],
+      "finding": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+      "decision": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+      "status": "assessed-conditional-exposure"
     }
   ],
   "reviewNotes": [
     "Intelligence: separated retrieval dates from publication and event dates; no inferred supplier/customer links.",
-    "Operations research: scored only reviewed applicability hypotheses, kept seven unassessed domains null, and preserved the exact normalized equation.",
+    "Operations research: six additional domains now have reviewed conditional benchmarks; Cyber / OT remains null. Price proxies are not actual spend, and the same fuel mechanism is not counted twice.",
     "Supply chain: fuel surcharges and truck dependence remain contract-dependent assumptions.",
     "Industrial engineering: county outlook does not establish plant interruption, exact Top Fox production allocation or Wisconsin site exposure.",
     "Food science/quality: sector recalls were retained as verification leads without asserting contaminated Watershed inputs or relaxing safety controls.",
     "Information security: KEV additions require authorized inventory matching; no installed products inferred.",
-    "Continuity: outlooks are not warnings; actual applicable emergencies require approved response and explicit escalation."
+    "Continuity: outlooks are not warnings; actual applicable emergencies require approved response and explicit escalation.",
+    "Coverage review: guarded parsers preserve units, release/reference periods, SA/NSA footnotes, exact series and preliminary status. A 403 response remains blocked despite a successful manual primary-source read.",
+    "Company evidence: Illinois roasting language does not prove Gridley site allocation. Public Paycom recruiting links do not prove internal payroll/ERP use.",
+    "Demand review: General Mills is an archetype proxy only. Its external guidance and EIA scenarios are attributed forecasts; no Watershed customer or self-scored forecast is created.",
+    "Quality review: human supplement Part 111 scope must not be silently applied to pet products; FDA states DSHEA does not create an animal dietary-supplement category.",
+    "Geographic review: OSM markers are municipality references, Milwaukee is not the confirmed plant city, and mapped corridors do not establish actual routes or rail use. All 15 facility input/equipment models remain INFERRED with alternatives and verification steps."
   ],
   "baselineNote": "First dated assessment. No yesterday or 30/90/365-day backfill; older evidence is not a newly occurring event.",
   "rechecks": [
@@ -98,6 +213,19 @@
       "newCandidates": 2,
       "materialChanges": [],
       "recordPath": "data/runs/2026-09-17T16-37-58-924Z.json"
+    },
+    {
+      "runId": "2026-09-17T18-12-01.676Z",
+      "reviewedAt": "2026-09-17T18:12:01.676141+00:00",
+      "disposition": "COVERAGE EXPANDED",
+      "newCandidates": null,
+      "materialChanges": [
+        "Added six conditional benchmark assessments S08–S13",
+        "Added explicit facility best guesses and OSM geographic context"
+      ],
+      "recordPath": "data/runs/2026-09-17T18-12-01.676Z.json",
+      "note": "Coverage expansion is not a newly occurring deterioration. Overall score remains 47; Cyber / OT remains unassessed. No forecast resolved."
     }
-  ]
+  ],
+  "executiveSummary": "The leading scored pressure remains Midwest diesel: verify actual carrier surcharges and pass-through. Coverage now includes ingredient costs, packaging, industrial energy, metro labor, a global CPG demand proxy and the fuel-related geopolitical channel. Mixed benchmark signals should be checked against quotes and contracts before acting. Cyber remains unassessed pending authorized inventory matching. The additional coverage does not establish a new Watershed disruption or a rise in overall posture."
 }

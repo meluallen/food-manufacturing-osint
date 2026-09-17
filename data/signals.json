@@ -365,5 +365,330 @@
     "group": "central-il-weather",
     "revision": 1,
     "dateNote": "NWS issued 04:29 CDT on 17 September. Recheck within 24 hours; expiry prevents retaining this outlook as a standing condition."
+  },
+  {
+    "id": "S08",
+    "title": "Ingredient benchmarks diverge: grains up, dairy down",
+    "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+    "category": "Ingredient cost",
+    "direction": "Mixed",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "bls-ppi",
+      "ws-capabilities"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [
+      "X01",
+      "X04",
+      "X06",
+      "X07"
+    ],
+    "factors": {
+      "exposure": 60,
+      "severity": 50,
+      "confidence": 60,
+      "persistence": 65,
+      "velocity": 50,
+      "dependency": 65,
+      "substitutability": 65
+    },
+    "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+    "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+    "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+    "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+    "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+    "roles": [
+      "Supply Chain",
+      "CFO",
+      "R&D / Innovation"
+    ],
+    "observedAt": "2026-09-10",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-09",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Ingredient cost",
+      "Margin"
+    ],
+    "status": "reviewed",
+    "group": "ingredient-benchmark",
+    "revision": 1,
+    "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+  },
+  {
+    "id": "S09",
+    "title": "Metro labor context remains mixed",
+    "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+    "category": "Labor",
+    "direction": "Mixed",
+    "confidence": "Low",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "bls-labor",
+      "bls-peoria",
+      "bls-milwaukee",
+      "ws-careers"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 65,
+      "severity": 45,
+      "confidence": 45,
+      "persistence": 65,
+      "velocity": 30,
+      "dependency": 65,
+      "substitutability": 65
+    },
+    "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+    "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+    "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+    "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+    "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+    "roles": [
+      "HR / Talent",
+      "Plant Manager",
+      "COO"
+    ],
+    "observedAt": null,
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-09",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Labor",
+      "Production capacity"
+    ],
+    "status": "reviewed",
+    "group": "regional-labor",
+    "revision": 1,
+    "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+  },
+  {
+    "id": "S10",
+    "title": "Latest industrial electricity benchmark is higher year over year",
+    "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+    "category": "Energy / utilities",
+    "direction": "Threat",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "eia-industrial",
+      "ws-capabilities"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 80,
+      "severity": 60,
+      "confidence": 65,
+      "persistence": 80,
+      "velocity": 35,
+      "dependency": 90,
+      "substitutability": 40
+    },
+    "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+    "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
+    "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
+    "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
+    "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+    "roles": [
+      "Plant Manager",
+      "Engineering",
+      "CFO"
+    ],
+    "observedAt": "2026-08-26",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-09-25",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Energy",
+      "Margin",
+      "Production capacity"
+    ],
+    "status": "reviewed",
+    "group": "industrial-energy",
+    "revision": 1,
+    "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+  },
+  {
+    "id": "S11",
+    "title": "Packaging signals split between paperboard and plastics",
+    "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+    "category": "Packaging",
+    "direction": "Mixed",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "bls-ppi",
+      "bls-paperboard-api"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [
+      "X15"
+    ],
+    "factors": {
+      "exposure": 65,
+      "severity": 55,
+      "confidence": 60,
+      "persistence": 65,
+      "velocity": 45,
+      "dependency": 65,
+      "substitutability": 60
+    },
+    "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+    "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+    "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+    "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+    "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+    "roles": [
+      "Supply Chain",
+      "CFO",
+      "Engineering"
+    ],
+    "observedAt": "2026-09-10",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-09",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Packaging",
+      "Margin"
+    ],
+    "status": "reviewed",
+    "group": "packaging-benchmark",
+    "revision": 1,
+    "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+  },
+  {
+    "id": "S12",
+    "title": "Global CPG proxy retains cautious sales outlook",
+    "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+    "category": "Customer demand",
+    "direction": "Mixed",
+    "confidence": "Low",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "gis-20260908",
+      "ws-markets"
+    ],
+    "facilityIds": [],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 50,
+      "severity": 40,
+      "confidence": 45,
+      "persistence": 65,
+      "velocity": 30,
+      "dependency": 50,
+      "substitutability": 70
+    },
+    "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+    "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
+    "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
+    "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
+    "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+    "roles": [
+      "Sales / Business Development",
+      "CEO",
+      "R&D / Innovation"
+    ],
+    "observedAt": "2026-09-08",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-09-24",
+    "timeToImpact": "Tactical",
+    "impactDomains": [
+      "Customer demand",
+      "Revenue",
+      "Growth opportunity"
+    ],
+    "status": "reviewed",
+    "group": "cpg-demand",
+    "revision": 1,
+    "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+  },
+  {
+    "id": "S13",
+    "title": "EIA’s export-constraint scenario supports a fuel watch",
+    "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+    "category": "Geopolitical / trade",
+    "direction": "Threat",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "eia-steo",
+      "eia-diesel"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek",
+      "wisconsin"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 65,
+      "severity": 70,
+      "confidence": 60,
+      "persistence": 80,
+      "velocity": 65,
+      "dependency": 75,
+      "substitutability": 50
+    },
+    "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+    "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+    "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+    "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+    "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+    "roles": [
+      "CFO",
+      "Supply Chain",
+      "COO"
+    ],
+    "observedAt": "2026-09-09",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-10-07",
+    "timeToImpact": "Near",
+    "impactDomains": [
+      "Transportation",
+      "Energy",
+      "Margin"
+    ],
+    "status": "reviewed",
+    "group": "fuel-cost",
+    "revision": 1,
+    "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+    "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
   }
 ]

@@ -222,6 +222,22 @@ As-of denotes the scheduled approval hearing, not notice publication. The page s
 
 As of 2026-08-05; retrieved 2026-09-17; review due 2026-09-24. [Tasker v. Watershed Foods: settlement-administrator FAQ](https://www.watershedgipasettlement.com/faq/) (retrieved 2026-09-17)
 
+## F28 · Illinois processing allocation
+
+**CONFIRMED** — Watershed’s careers page describes its Illinois facility as the heart of its freeze-drying and roasting operations.
+
+The cited sentence does not name Gridley. Preserve Gridley freeze-drying as established; exact roasting allocation across Illinois sites remains unresolved.
+
+As of 2026-09-17; retrieved 2026-09-17; review due 2026-12-17. [Watershed: Careers](https://watershedfoods.com/careers) (retrieved 2026-09-17)
+
+## F29 · Public recruiting dependency
+
+**CONFIRMED** — Watershed’s careers page links two application portals on the paycomonline.net domain.
+
+This confirms public recruiting links only. It does not establish payroll, HRIS, ERP, identity, internal cloud architecture, a vulnerability, or an outage.
+
+As of 2026-09-17; retrieved 2026-09-17; review due 2026-12-17. [Watershed: Careers](https://watershedfoods.com/careers) (retrieved 2026-09-17)
+
 ## Open ground-truth questions
 
 - Exact ownership/capital relationships among Watershed, The Manna Group, Top Fox and Heartland; no directional ownership is assumed from shared grant paperwork or executives.

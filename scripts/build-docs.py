@@ -155,7 +155,8 @@ Public capability claims justify an applicability review, not a determination th
 
 - [21 CFR Part 117](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117): human-food manufacturing cGMP and preventive-control applicability/exemptions.
 - [21 CFR Part 507](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-E/part-507): animal-food cGMP and preventive-control scope.
-- [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111): supplement manufacturing, packaging, labeling and holding, when the product classification makes it applicable.
+- [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111): human dietary-supplement manufacturing, packaging, labeling and holding, when the product classification makes it applicable.
+- [FDA Animal Foods & Feeds](https://www.fda.gov/animal-veterinary/products/animal-foods-feeds): DSHEA does not create an animal dietary-supplement category. Intended use can determine animal-food versus new-animal-drug classification; do not apply human supplement assumptions to pet products.
 - [FDA FSVP](https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-foreign-supplier-verification-programs-fsvp-importers-food-humans-and-animals): importer-specific responsibilities; importing is not established merely from international marketing.
 - [FDA traceability](https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods): distinguish proposed date extension from Congressional non-enforcement direction; identify listed food, form and exemptions.
 - [FDA January 2025 lead guidance](https://www.fda.gov/media/164684/download): nonbinding guidance excludes specified snack forms including freeze-dried snacks. Exclusion neither proves product safety nor removes other obligations/customer specifications.
@@ -163,3 +164,50 @@ Public capability claims justify an applicability review, not a determination th
 Review allergen declarations/cross-contact, labels, registration, sanitation, validation, state food licenses, infant/toddler versus conventional versus supplement classification, and pet-food labeling against actual site/product activities. Verify SQF/GFSI certificate scope and expiry with the issuer; a company marketing statement does not establish an independently verified current certificate.
 ''')
 print('Generated maintained A–I deliverables, regulatory scope and review record.')
+
+# Additional maintained deliverables: public measurements and explicit best-guess facility models.
+benchmarks=read('benchmarks');guesses=read('facility-hypotheses');gaps=read('coverage-gaps');geo=read('osm-context')
+facility_names={f['id']:f['name'] for f in facilities}
+write('coverage-expansion.md','# OSINT coverage expansion · 17 September 2026\n\n'+'''The executive model now has conditional assessments in **11 of 12 domains**, up from five. Cyber / OT remains unassessed because no installed product/version inventory is established. Overall posture remains **Elevated, provisional: 47/100**, led by diesel. More assessed domains do not mean that company exposure or financial impact is measured.
+
+Collection repairs increased successful latest fetches from 21 to 57. The registry now contains 83 sources: 57 successful latest fetches, 17 blocked/error endpoints, and nine manual/key-required sources at this review. Manual reads can support evidence while automated retrieval remains blocked. Generic page retrieval is discovery coverage, not automatic interpretation of every indicator.
+
+## What the added evidence changes
+
+- Ingredient costs are mixed: August grain/oilseed benchmarks rose while dairy eased. Do not net these into a company basket without actual weights.
+- Packaging benchmarks diverge: paperboard increased; monthly resin/film changes eased. The film category is broader than food packaging.
+- The latest published Illinois industrial electricity average was 10.4% above its year-earlier month; Wisconsin was 3.4% higher. These lagged June averages are not actual facility tariffs.
+- Metro labor series provide hiring context, not proof of a Watershed shortage. Seasonal adjustment, geography and preliminary status are explicit.
+- General Mills is a global CPG archetype proxy, not an identified customer. Its guidance does not determine Watershed orders.
+- EIA's attributed export/distillate scenario supports the existing fuel pathway. S13 and S01 share one issue group and do not create additive geopolitical losses.
+
+## Reviewed public benchmark ledger
+
+Values below are public measurements. Company applicability is inferred. The reference period is not the retrieval date. All records were reviewed/retrieved September 17. Exact labor release days remain unverified.
+
+'''+table(['Benchmark / geography','Value / unit','Comparison / adjustment','Reference / release','Source'],[(b['label']+' / '+b['geography'],str(b['value'])+' '+b['unit'],b['comparison']+'; monthly/current '+b['seasonalAdjustment']+(('; year-over-year '+str(round(b['yearOverYear'],3))+'% NSA') if b.get('yearOverYear') is not None else ''),b['referencePeriod']+' / '+str(b.get('releaseDate') or 'exact day unverified'),refs([b['sourceId']])) for b in benchmarks])+'''
+## Facility best guesses
+
+The user requested useful representations based on OSINT and standard expectations when precise operating data is unavailable. These hypotheses describe plausible ingredient/equipment categories and dependencies; they do not assert purchases, suppliers, recipes, installed models, quantities or capacity. Confidence is qualitative. Alternatives and falsification steps prevent repetition from turning a guess into fact.
+
+'''+ '\n\n'.join('### '+h['id']+' · '+facility_names[h['facilityId']]+' · '+h['area']+'\n\n**INFERRED · '+h['confidence']+' confidence.**\n\n'+ '; '.join(h['items'])+'.\n\nBasis: '+h['basis']+'\n\nAlternative: '+h['alternative']+'\n\nVerify or disprove: '+h['verify']+'\n\n'+refs(h['sourceIds']) for h in guesses)+'''
+
+## OpenStreetMap context
+
+The facility views show selected major roads and main rail from two fixed regional extracts. All five markers are municipality references, not plant geocodes. Milwaukee is only a reference city for the publicly described greater-Milwaukee operation. The extracts omit many local roads and branch rail; they cannot establish legal truck access, current conditions, actual carrier routes or effective redundancy.
+
+Nearby I-74 mapping supports a possible shared-corridor hypothesis for Congerville and Deer Creek, subject to actual route verification. It does not establish a shared shipping lane or add a numerical risk score. Distances displayed in the dashboard are approximate straight-line distances from town/city reference points to simplified geometry, not plant or driving distances.
+
+'''+table(['Reference','Precision','OSM object'],[(p['displayName'],p['precision'],f"[{p['name']}]({p['url']})") for p in geo['places']])+'''
+© OpenStreetMap contributors. Geographic data is available under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/); retain [attribution and usage notes](../data/OSM-LICENSE.md). Fixed queries, object IDs, dates and portable geometry are in [`data/osm-context.json`](../data/osm-context.json). Cached, rate-limited municipality lookups are not offered as a generic live geocoding service.
+
+## Remaining gaps and how to close them
+
+'''+ '\n\n'.join('### '+g['id']+' · '+g['topic']+'\n\n**'+g['status']+'.** '+g['currentBasis']+'\n\nPublic next step: '+g['publicNextStep']+'\n\nCompany verification: '+g['internalVerification']+'\n\nInterpretation limit: '+g['boundary']+'\n\n'+refs(g['sourceIds']) for g in gaps)+'''
+
+## Maintaining the distinction
+
+Public benchmark parsers preserve exact series, units, comparison periods, seasonal adjustment and preliminary status. They produce unreviewed candidates. Mapping changes likewise enter review before replacing a saved map. Monthly corridor checks do not repeatedly call Nominatim. No automatic collection promotes a best guess to confirmed company fact.
+
+The private professional review corrected the PPI annual adjustment labels, broad film/maintenance categories, Illinois roasting allocation and the interpretation of public recruiting links. Human and pet supplement classifications remain separate. Original forecast probabilities are unchanged; open forecasts are not scored as successful. The live source-health view and next dated review supersede the static counts in this document.
+''')

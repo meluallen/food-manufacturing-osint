@@ -4,7 +4,7 @@ on:
     - cron: '17 * * * *'
   workflow_dispatch:
   push:
-    paths: ['data/sources.json', 'lib/collectors.mjs', 'scripts/collect.mjs', '.github/workflows/collect.yml']
+    paths: ['data/sources.json', 'lib/collectors.mjs', 'lib/benchmarks.mjs', 'scripts/collect.mjs', '.github/workflows/collect.yml']
 permissions:
   contents: write
 concurrency:

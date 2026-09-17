@@ -9,6 +9,8 @@ Baseline researched 17 September 2026. Every relationship retains its evidence c
 | Transport chokepoint · INFERRED | Two import origins → common port/canal/carrier → correlated delays | Actual port pairs, service strings, transshipment, inland rail corridor. |
 | Regional operating footprint · INFERRED | Central Illinois facilities → overlapping weather/labor region | Facility overlap is public; utilities, labor pools and incident impact correlation require validation. |
 | Digital and equipment dependency · INFERRED | Production / ERP / recovery → common identity or vendor service | Authorized internal inventory and recovery tests. No public identification of installed systems is assumed. |
+| Shared public recruiting provider · INFERRED | Two company-linked application portals → same Paycom public recruiting domain → potential common application-access dependency | Verify recruiting continuity with authorized HR/IT. Do not infer payroll, HRIS, identity or ERP use. Provider-level correlation and effective redundancy remain unmeasured. |
+| Potential shared Central Illinois highway corridor · INFERRED | Congerville and Deer Creek regional road context → potential I-74 routing overlap → correlated transport disruption if routes are shared | Check actual origin/destination lanes and carrier routing. Nearby mapped highways do not prove use or redundancy; no quantified company correlation is assigned. |
 
 ## Failure Domain Correlation Score
 

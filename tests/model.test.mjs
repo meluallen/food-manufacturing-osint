@@ -38,8 +38,10 @@ test('Brier scoring excludes unresolved forecasts and rejects invalid probabilit
 test('yesterday must really exist; no nearest-day substitution',()=>{
  assert.equal(yesterdaySnapshot([{date:'2026-09-15'}],now),null);assert.equal(yesterdaySnapshot([{date:'2026-09-16'}],now).date,'2026-09-16');
 });
-test('persona review includes distinct quality and commercial decisions',()=>{
- const p=personas(assess(signals,categories,now));assert.ok(p.length>=3&&p.length<=5);assert.ok(p.some(v=>v.role==='Quality / Food Safety'));assert.ok(p.some(v=>v.role==='Sales / Business Development'||v.role==='CEO'));
+test('persona selection follows ranked evidence with unique roles and issue groups',()=>{
+ const p=personas(assess(signals,categories,now));assert.ok(p.length>=3&&p.length<=5);
+ assert.equal(new Set(p.map(v=>v.role)).size,p.length);assert.equal(new Set(p.map(v=>v.signal.group)).size,p.length);
+ assert.equal(p[0].signal.id,'S01');assert.ok(!p.some(v=>v.signal.id==='S13'));
  assert.ok(p.filter(v=>v.signal.id==='S04').every(v=>v.label!=='NEW ISSUE'));
 });
 test('NWS parsing keeps regional candidates separate from facility facts',()=>{

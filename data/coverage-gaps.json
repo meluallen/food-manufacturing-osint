@@ -1,0 +1,173 @@
+[
+  {
+    "id": "G01",
+    "topic": "Facility inputs and equipment",
+    "status": "Working hypotheses added",
+    "currentBasis": "15 facility-specific hypotheses cover likely inputs, equipment categories, packaging, utilities and logistics.",
+    "publicNextStep": "Maintain official capabilities, product labels, public recruiting and project/permit milestones; use contrary evidence to revise allocations.",
+    "internalVerification": "Site product allocation and high-level approved ingredient/equipment categories.",
+    "boundary": "No named supplier, model, capacity, purchase or actual bill of materials is inferred as fact.",
+    "sourceIds": [
+      "ws-careers",
+      "ws-capabilities",
+      "edge-2024"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G02",
+    "topic": "Cyber / OT exposure",
+    "status": "Unassessed",
+    "currentBasis": "CISA KEV and ICS advisories can be collected; installed inventory is unknown.",
+    "publicNextStep": "Match new advisories only when primary public evidence establishes an applicable product/version; watch official vendor incidents.",
+    "internalVerification": "Authorized product/version inventory and critical vendor/service dependencies.",
+    "boundary": "No active company scanning. Public recruiting-provider links do not identify internal ERP, payroll or identity systems.",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G03",
+    "topic": "Current customers and demand",
+    "status": "Category proxy available",
+    "currentBasis": "General Mills is a global CPG archetype; APPA is a pet-industry proxy.",
+    "publicNextStep": "Watch direct investor releases, qualified product launches and independently corroborated category evidence.",
+    "internalVerification": "Customer-segment revenue/order mix and qualified opportunity briefs, retained privately.",
+    "boundary": "No monitored company becomes a customer. One earnings release cannot measure category-wide demand.",
+    "sourceIds": [
+      "gis-20260908",
+      "appa"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G04",
+    "topic": "Ingredient quantities and suppliers",
+    "status": "Benchmark coverage expanded",
+    "currentBasis": "Dairy, grains, oilseeds, produce and oils have public price proxies.",
+    "publicNextStep": "Maintain USDA/BLS series and crop conditions by commodity; look for official sourcing statements and product labels.",
+    "internalVerification": "Approved ingredient basket, volume, origins, quote basis and pass-through.",
+    "boundary": "Labels suggest recipe ingredients, not supplier identity or procurement volume. No weighted company inflation without weights.",
+    "sourceIds": [
+      "bls-ppi"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G05",
+    "topic": "Packaging structure and tier-2 dependencies",
+    "status": "Benchmarks available",
+    "currentBasis": "Resin, film, paperboard and converted-paper indices now have dated observations.",
+    "publicNextStep": "Maintain BLS commodity series and publicly documented packaging capacity events.",
+    "internalVerification": "Film structure, carton specifications, vendor feedstock origins and price formulas.",
+    "boundary": "Broad film series includes non-food shapes. Vendors may share feedstock producers; redundancy remains unknown.",
+    "sourceIds": [
+      "bls-ppi",
+      "bls-paperboard-api"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G06",
+    "topic": "Energy tariffs and process intensity",
+    "status": "State benchmark available",
+    "currentBasis": "June industrial electricity averages are available for Illinois and Wisconsin.",
+    "publicNextStep": "Track EIA monthly state prices and official utility/grid notices when territory is reliably established.",
+    "internalVerification": "Facility tariff, demand charges, process consumption and contract resets.",
+    "boundary": "No named utility, actual bill or backup arrangement is inferred.",
+    "sourceIds": [
+      "eia-industrial"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G07",
+    "topic": "Local workforce exposure",
+    "status": "Metro context available",
+    "currentBasis": "Preliminary July metro unemployment and manufacturing employment are available.",
+    "publicNextStep": "Maintain BLS metro releases and official company job postings, preserving posting dates and role/site specificity.",
+    "internalVerification": "Vacancy duration, accepted pay, turnover, overtime and skill coverage.",
+    "boundary": "NSA metro data cannot prove a company shortage or commuting pattern.",
+    "sourceIds": [
+      "bls-labor",
+      "bls-peoria",
+      "bls-milwaukee"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G08",
+    "topic": "Wisconsin site and Illinois process allocation",
+    "status": "Region / address limits retained",
+    "currentBasis": "Wisconsin baking/popping is regional; Top Fox address is contact evidence; Illinois roasting is not explicitly allocated to Gridley.",
+    "publicNextStep": "Use cached OSM municipal context alongside official contact/careers pages, permits and development announcements; cross-check legal entity and dates. OSM business/address tags alone do not prove occupancy.",
+    "internalVerification": "Current facility/capability roster at non-sensitive granularity.",
+    "boundary": "Do not borrow a competitor address, count an office as a plant or assume a planned line is operating.",
+    "sourceIds": [
+      "ws-careers",
+      "topfox",
+      "edge-2024"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G09",
+    "topic": "Ownership and project commissioning",
+    "status": "Current status unresolved",
+    "currentBasis": "Joint state project documents and dated sister-company descriptions establish associations, not complete ownership.",
+    "publicNextStep": "Review public state entity filings and authoritative company/municipal project milestones.",
+    "internalVerification": "Legal entity chart and current commissioning status.",
+    "boundary": "Shared executives and joint grant paperwork do not establish equity percentages or closing.",
+    "sourceIds": [
+      "edge-2024",
+      "heartland-2026"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G10",
+    "topic": "Transport lanes and effective redundancy",
+    "status": "Fuel pathway supported",
+    "currentBasis": "EIA diesel/STEO support conditional fuel exposure; OSM regional corridors now support route-dependency hypotheses, not company lane assignments.",
+    "publicNextStep": "Track domestic fuel, DOT disruptions and public chokepoint conditions; elevate routes only after relevance is known.",
+    "internalVerification": "Carrier and lane mix, surcharge contracts, ports/crop regions and shared dependencies.",
+    "boundary": "No international route, direct import or real redundancy score is assumed.",
+    "sourceIds": [
+      "eia-diesel",
+      "eia-steo",
+      "osm-illinois-corridors",
+      "osm-wisconsin-corridors"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G11",
+    "topic": "Food safety and certification scope",
+    "status": "Applicability review required",
+    "currentBasis": "Public capabilities and FDA guidance support product-specific checks.",
+    "publicNextStep": "Review current FDA notices and public certificate records using legal entity/site identifiers when available.",
+    "internalVerification": "Current certificates and actual product classifications, allergen profiles and approved control plans.",
+    "boundary": "Marketing is not independent certificate verification; pet products are not automatically human dietary supplements.",
+    "sourceIds": [
+      "ws-home",
+      "fda-cvm",
+      "fda-lead",
+      "fda-trace"
+    ],
+    "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "G12",
+    "topic": "Blocked and manual sources",
+    "status": "Failures remain visible",
+    "currentBasis": "57 sources last fetched successfully; 17 automated sources currently fail or block; 9 are manual/key-required. Geographic context now includes two reviewed public OSM extracts and a cached municipality source.",
+    "publicNextStep": "Retain canonical endpoints and documented agency alternatives; retry on cadence. Manual primary-source reads stay independently dated.",
+    "internalVerification": "Optional authorized API credentials for key-required sources; no credential scraping.",
+    "boundary": "A fetch success is not an assessment, and a blocked source is not proof of no risk.",
+    "sourceIds": [
+      "bls-ppi"
+    ],
+    "reviewedAt": "2026-09-17"
+  }
+]

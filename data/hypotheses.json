@@ -3,17 +3,19 @@
     "id": "H1",
     "title": "Higher dairy prices threaten yogurt-melt margins.",
     "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
-    "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
+    "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown. August 2026 dairy PPI fell 1.0% month over month (NSA), which argues against immediate broad dairy-price pressure; it does not falsify the conditional margin mechanism.",
     "sourceIds": [
-      "ws-capabilities"
+      "ws-capabilities",
+      "bls-ppi"
     ],
     "confidence": 45,
     "indicators": "Milk/solids quotes; product contribution; pass-through lag",
     "falsification": "No material margin change across two sustained >10% input-price moves.",
     "outcome": "OPEN",
     "failCount": 0,
-    "revision": 1,
-    "updatedAt": "2026-09-17"
+    "revision": 2,
+    "updatedAt": "2026-09-17",
+    "reviewNote": "Added disconfirming evidence for current urgency. Confidence remains 45; the hypothesis cannot be resolved without actual purchase and margin data."
   },
   {
     "id": "H2",

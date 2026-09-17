@@ -2,7 +2,7 @@
   {
     "id": "FD01",
     "name": "Common crop origin",
-    "path": "Two fruit vendors \u2192 same growing region \u2192 same drought/freeze",
+    "path": "Two fruit vendors → same growing region → same drought/freeze",
     "entities": [
       "Unverified alternative A",
       "Unverified alternative B"
@@ -13,7 +13,7 @@
   {
     "id": "FD02",
     "name": "Packaging feedstock",
-    "path": "Two converters \u2192 same resin/mill \u2192 shared capacity constraint",
+    "path": "Two converters → same resin/mill → shared capacity constraint",
     "entities": [
       "Film alternative A",
       "Film alternative B"
@@ -24,7 +24,7 @@
   {
     "id": "FD03",
     "name": "Transport chokepoint",
-    "path": "Two import origins \u2192 common port/canal/carrier \u2192 correlated delays",
+    "path": "Two import origins → common port/canal/carrier → correlated delays",
     "entities": [
       "Import lane A",
       "Import lane B"
@@ -35,7 +35,7 @@
   {
     "id": "FD04",
     "name": "Regional operating footprint",
-    "path": "Central Illinois facilities \u2192 overlapping weather/labor region",
+    "path": "Central Illinois facilities → overlapping weather/labor region",
     "entities": [
       "gridley",
       "congerville",
@@ -47,7 +47,7 @@
   {
     "id": "FD05",
     "name": "Digital and equipment dependency",
-    "path": "Production / ERP / recovery \u2192 common identity or vendor service",
+    "path": "Production / ERP / recovery → common identity or vendor service",
     "entities": [
       "Identity",
       "ERP",
@@ -55,5 +55,40 @@
     ],
     "evidenceClass": "INFERRED",
     "verify": "Authorized internal inventory and recovery tests. No public identification of installed systems is assumed."
+  },
+  {
+    "id": "FD06",
+    "name": "Shared public recruiting provider",
+    "path": "Two company-linked application portals → same Paycom public recruiting domain → potential common application-access dependency",
+    "entities": [
+      "Public application portal A",
+      "Public application portal B"
+    ],
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "retrievedAt": "2026-09-17",
+    "basis": "Company HTML confirms two public links to paycomonline.net; distinct internal systems and provider infrastructure are not established.",
+    "verify": "Verify recruiting continuity with authorized HR/IT. Do not infer payroll, HRIS, identity or ERP use. Provider-level correlation and effective redundancy remain unmeasured.",
+    "correlationScore": null,
+    "effectiveRedundancy": null
+  },
+  {
+    "id": "FD07",
+    "name": "Potential shared Central Illinois highway corridor",
+    "path": "Congerville and Deer Creek regional road context → potential I-74 routing overlap → correlated transport disruption if routes are shared",
+    "entities": [
+      "Congerville operating-presence hypothesis",
+      "Deer Creek operating-presence hypothesis"
+    ],
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "osm-illinois-corridors"
+    ],
+    "retrievedAt": "2026-09-17",
+    "verify": "Check actual origin/destination lanes and carrier routing. Nearby mapped highways do not prove use or redundancy; no quantified company correlation is assigned.",
+    "correlationScore": null,
+    "effectiveRedundancy": null
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "runId": "2026-09-17T18-12-01.676Z",
+  "asOf": "2026-09-17T18:12:01.676141+00:00",
+  "disposition": "COVERAGE EXPANDED",
+  "evidenceDate": "2026-09-17",
+  "before": {
+    "assessedDomains": 5,
+    "successfulFetches": 21
+  },
+  "after": {
+    "assessedDomains": 11,
+    "successfulFetches": 57,
+    "sources": 83,
+    "benchmarks": 25,
+    "facilityHypotheses": 15,
+    "osmRegionalExtracts": 2
+  },
+  "materialChanges": [
+    "Added six conditional benchmark assessments S08\u2013S13",
+    "Added explicit facility best guesses and OSM geographic context"
+  ],
+  "postureChange": false,
+  "note": "Coverage expansion is not a newly occurring deterioration. Overall score remains 47; Cyber / OT remains unassessed. No forecast resolved.",
+  "verification": "20 automated tests and type checking passed. Production build passed; final packaging will use the same committed source. Browser visual QA remains unavailable in the preview environment."
+}

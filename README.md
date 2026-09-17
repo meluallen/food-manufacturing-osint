@@ -38,7 +38,7 @@ The same data is browsable in the executive workspace. JSON under `data/` is the
 ## Persistent operation
 
 - The GitHub Actions collector runs hourly and on workflow changes, respecting the source-specific cadences in the maintained catalog. Scheduled jobs can be delayed by GitHub; inactivity may disable schedules in public repositories. Confirm runs in Actions and use manual dispatch if needed.
-- Structured adapters cover NWS, FDA enforcement, Federal Register and CISA KEV. Page adapters record changes for analyst review; they do not parse every commodity release into reliable numeric observations. API-key/manual sources remain explicit gaps.
+- Structured adapters cover NWS, FDA enforcement, Federal Register, CISA KEV, selected BLS PPI/labor tables and the BLS paperboard API, EIA state industrial electricity, and fixed OpenStreetMap corridor extracts. Page adapters record changes for analyst review; they do not parse every commodity release into reliable numeric observations. API-key/manual sources remain explicit gaps.
 - Public observations, fetch errors, content hashes and genuine baseline history persist in `data/runtime/latest.json` via normal commits. A blocked endpoint is not treated as no risk.
 - The private Site stores reviewed assessments, claims/citations, hypotheses, forecast resolutions, local snapshots and audit records in D1. The dashboard synchronizes the public feed on opening when its last synchronization is over an hour old; **Sync repository** also runs it on demand. It imports public observations, reviewed public claims/assessments and separate public history; private reviews take precedence. **Check due sources** checks up to 12 due endpoints per invocation.
 - Scheduled analyst review maintains the public model separately from automatic discovery. It must verify primary sources before changing a score, retain dates/evidence classes, falsify hypotheses and resolve forecasts only after the measurement window closes.
@@ -74,6 +74,24 @@ The generator requires today's documented review, saves a dated brief and machin
 The hosted workspace is intended to remain owner-private. Platform identity protects APIs; mutation requests require same-origin checks. Local development authorization is compiled out of production. Do not broaden Site access without reviewing who may see/edit all workspace records. Fetch targets come from the checked-in source catalog, with no user-supplied target fetching, redirect following or source-content execution.
 
 No sensitive facility-security details, private workforce information or inferred installed systems are collected. Urgent safety/continuity response is a separate evidenced override: a low multiplicative score is never operational clearance.
+
+## Filling gaps with OSINT and working hypotheses
+
+The **Benchmarks & gaps** view contains 25 reviewed measurements and a resolution ledger. Six additional domains have conditional assessments; Cyber / OT remains unassessed pending product/version matching. Scores remain provisional and do not measure company spend or actual orders.
+
+The **Facilities** view contains 15 explicitly INFERRED working hypotheses: likely ingredient categories, equipment classes, packaging, process utilities and logistics based on public capabilities and standard process expectations. Each has a qualitative confidence, alternative explanation and verification/falsification step. This follows the requested best-guess representation without converting estimates into purchases or installed assets.
+
+OpenStreetMap supplies cached municipality references and selected regional road/main-rail geometry. Markers are town/city points, not factory coordinates. A nearby corridor does not establish company use; no truck routing or access decision should rely on the diagram. The Milwaukee map is a city reference, not a verified Watershed site. See [data attribution and usage](data/OSM-LICENSE.md). Fixed Overpass queries are in `data/osm-context.json` and checked monthly for mapping changes; map snapshots are updated after analyst review. Nominatim is not a live generic geocoder in this application. Retain the ODbL notice when redistributing map data.
+
+The collector automatically honors configured proxy settings where the Node runtime supports `--use-env-proxy`. Proxy values never enter logs or the public feed. To retry all cataloged automatic sources deliberately:
+
+```sh
+node scripts/collect.mjs --force
+```
+
+Guarded benchmark parsers reject missing periods, reordered sectors, missing required commodity rows and conflicting duplicate observations. Monthly and annual changes, SA/NSA treatment, preliminary status and reference periods remain distinct. Parsed candidates do not automatically create scores. Blocked endpoints remain blocked even when a manual primary-source read supports a dated observation.
+
+Read [coverage expansion and facility hypotheses](docs/coverage-expansion.md) for the current evidence and remaining verification needs.
 
 ## Known baseline gaps
 

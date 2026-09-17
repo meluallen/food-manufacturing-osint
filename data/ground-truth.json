@@ -348,5 +348,31 @@
     "retrievedAt": "2026-09-17",
     "note": "As-of denotes the scheduled approval hearing, not notice publication. The page still describes conditional approval; final disposition and payment are unverified. Newly discovered historical evidence, not a new September incident. HR/legal should verify the current docket before drawing operational conclusions.",
     "reviewDue": "2026-09-24"
+  },
+  {
+    "id": "F28",
+    "topic": "Illinois processing allocation",
+    "statement": "Watershed’s careers page describes its Illinois facility as the heart of its freeze-drying and roasting operations.",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "asOf": "2026-09-17",
+    "retrievedAt": "2026-09-17",
+    "note": "The cited sentence does not name Gridley. Preserve Gridley freeze-drying as established; exact roasting allocation across Illinois sites remains unresolved.",
+    "reviewDue": "2026-12-17"
+  },
+  {
+    "id": "F29",
+    "topic": "Public recruiting dependency",
+    "statement": "Watershed’s careers page links two application portals on the paycomonline.net domain.",
+    "evidenceClass": "CONFIRMED",
+    "sourceIds": [
+      "ws-careers"
+    ],
+    "asOf": "2026-09-17",
+    "retrievedAt": "2026-09-17",
+    "note": "This confirms public recruiting links only. It does not establish payroll, HRIS, ERP, identity, internal cloud architecture, a vulnerability, or an outage.",
+    "reviewDue": "2026-12-17"
   }
 ]

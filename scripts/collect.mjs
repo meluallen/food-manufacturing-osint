@@ -1,10 +1,18 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import {collectDue} from '../lib/collectors.mjs';
 import {assess} from '../lib/model.mjs';
+// Respect the runtime's configured proxy. No proxy values or credentials enter the feed.
+if((process.env.HTTPS_PROXY||process.env.HTTP_PROXY)&&process.allowedNodeEnvironmentFlags.has('--use-env-proxy')&&!process.execArgv.includes('--use-env-proxy')&&process.env.NODE_USE_ENV_PROXY!=='1'){
+ const child=spawnSync(process.execPath,['--use-env-proxy',...process.execArgv,fileURLToPath(import.meta.url),...process.argv.slice(2)],{stdio:'inherit'});
+ if(child.error)throw child.error;process.exit(child.status??1);
+}
 const read=async (name,fallback)=>{try{return JSON.parse(await readFile(new URL('../data/'+name,import.meta.url),'utf8'));}catch{return fallback;}};
 const sources=await read('sources.json',[]), signals=await read('signals.json',[]), categories=await read('categories.json',[]);
 const previous=await read('runtime/latest.json',{states:[],candidates:[],history:[]});
-const result=await collectDue(sources,previous.states,{limit:80});
+const force=process.argv.includes('--force');
+const result=await collectDue(sources,previous.states,{limit:100,force});
 const candidates=new Map(previous.candidates.map(c=>[c.id,c]));
 for(const c of result.candidates)candidates.set(c.id,c);
 const assessment=assess(signals,categories),day=assessment.asOf.slice(0,10);
