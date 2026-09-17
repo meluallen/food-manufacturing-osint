@@ -37,7 +37,7 @@ The same data is browsable in the executive workspace. JSON under `data/` is the
 
 ## Persistent operation
 
-- The GitHub Actions collector runs hourly and on workflow changes, respecting 72 source-specific cadences. Scheduled jobs can be delayed by GitHub; inactivity may disable schedules in public repositories. Confirm runs in Actions and use manual dispatch if needed.
+- The GitHub Actions collector runs hourly and on workflow changes, respecting the source-specific cadences in the maintained catalog. Scheduled jobs can be delayed by GitHub; inactivity may disable schedules in public repositories. Confirm runs in Actions and use manual dispatch if needed.
 - Structured adapters cover NWS, FDA enforcement, Federal Register and CISA KEV. Page adapters record changes for analyst review; they do not parse every commodity release into reliable numeric observations. API-key/manual sources remain explicit gaps.
 - Public observations, fetch errors, content hashes and genuine baseline history persist in `data/runtime/latest.json` via normal commits. A blocked endpoint is not treated as no risk.
 - The private Site stores reviewed assessments, claims/citations, hypotheses, forecast resolutions, local snapshots and audit records in D1. The dashboard synchronizes the public feed on opening when its last synchronization is over an hour old; **Sync repository** also runs it on demand. It imports public observations, reviewed public claims/assessments and separate public history; private reviews take precedence. **Check due sources** checks up to 12 due endpoints per invocation.
@@ -58,6 +58,14 @@ Generate dossier documents after editing the maintained JSON:
 ```sh
 python scripts/build-docs.py
 ```
+
+After the daily primary-source review, save its observations and review notes in `data/daily-observations/YYYY-MM-DD.json`, update the maintained evidence and assessments, then run:
+
+```sh
+node scripts/daily-report.mjs
+```
+
+The generator requires today's documented review, saves a dated brief and machine-readable assessment, and updates the public feed with a genuine snapshot. It does not research sources or invent prior-day history. Read the [17 September 2026 assessment](docs/daily/2026-09-17.md); subsequent briefs are in `docs/daily/`.
 
 `seed-data.py` is the reproducible initial research seed, not a refresh script. Do not run it over maintained data. If deliberately reconstructing the original baseline, follow it with `refine-baseline.py` and `build-docs.py` to retain red-team corrections.
 

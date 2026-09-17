@@ -53,6 +53,11 @@ test('collection failure is persisted, never read as no risks',async()=>{
  assert.equal(blocked.state.status,'blocked');assert.equal(blocked.candidates.length,0);
  const error=await collectOne({...source,adapter:'nws'},{},async()=>new Response('{}',{status:200}),now);assert.equal(error.state.status,'error');
 });
+test('FDA dates render as ISO while distinguishing report and recall initiation',()=>{
+ const source={id:'fda-recalls',adapter:'fda',url:'https://api.fda.gov'};
+ const [record,bad]=parseSource(source,JSON.stringify({results:[{recall_number:'A',report_date:'20260909',recall_initiation_date:'20260820'},{recall_number:'B',report_date:'20260230'}]}));
+ assert.equal(record.observedAt,'2026-09-09');assert.equal(record.recallInitiationDate,'2026-08-20');assert.equal(record.dateType,'FDA enforcement report date');assert.equal(bad.observedAt,null);assert.equal(record.status,'candidate');
+});
 test('cadence avoids repeated fetching and page changes never publish scores',async()=>{
  const s={id:'x',adapter:'page',url:'https://example.com',cadenceHours:24,priority:1};let calls=0;
  const result=await collectDue([s],[{sourceId:'x',status:'ok',fetchedAt:now.toISOString()}],{now,fetcher:async()=>{calls++;return new Response('okay')}});

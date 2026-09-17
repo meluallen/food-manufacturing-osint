@@ -312,5 +312,58 @@
     "status": "reviewed",
     "group": "toddler-scope",
     "revision": 1
+  },
+  {
+    "id": "S07",
+    "title": "Central Illinois storm outlook reaches three facility counties",
+    "summary": "NWS includes McLean, Woodford and Tazewell counties in today’s thunderstorm/heavy-rain outlook, with localized flooding possible and some severe-storm potential Saturday. No facility disruption is established.",
+    "category": "Facility / weather",
+    "direction": "Threat",
+    "confidence": "Medium",
+    "evidenceClass": "INFERRED",
+    "sourceIds": [
+      "nws-ilx-outlook"
+    ],
+    "facilityIds": [
+      "gridley",
+      "congerville",
+      "deer-creek"
+    ],
+    "exposureIds": [],
+    "factors": {
+      "exposure": 85,
+      "severity": 55,
+      "confidence": 80,
+      "persistence": 40,
+      "velocity": 80,
+      "dependency": 70,
+      "substitutability": 70
+    },
+    "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+    "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+    "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+    "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+    "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+    "roles": [
+      "Plant Manager",
+      "Supply Chain",
+      "COO",
+      "HR / Talent"
+    ],
+    "observedAt": "2026-09-17",
+    "retrievedAt": "2026-09-17",
+    "reviewedAt": "2026-09-17",
+    "expiresAt": "2026-09-18",
+    "timeToImpact": "Immediate",
+    "impactDomains": [
+      "Transportation",
+      "Production capacity",
+      "Labor",
+      "Customer service / OTIF"
+    ],
+    "status": "reviewed",
+    "group": "central-il-weather",
+    "revision": 1,
+    "dateNote": "NWS issued 04:29 CDT on 17 September. Recheck within 24 hours; expiry prevents retaining this outlook as a standing condition."
   }
 ]

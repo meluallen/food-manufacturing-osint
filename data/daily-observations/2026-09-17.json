@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-17",
+  "reviewedAt": "2026-09-17",
+  "observations": [
+    {
+      "id": "D20260917-01",
+      "title": "New county-matched weather outlook",
+      "sourceIds": [
+        "nws-ilx-outlook"
+      ],
+      "observedAt": "2026-09-17",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "sourceScope": "Regional NWS forecast; no observed Watershed disruption.",
+      "assessmentIds": [
+        "S07"
+      ],
+      "finding": "The relevant Illinois zone group covers all three known Illinois operating-presence counties. The separate southern Illinois heat-advisory zone is not attributed to these facilities.",
+      "decision": "Recheck local warnings and route conditions before shifts and dispatch.",
+      "status": "assessed"
+    },
+    {
+      "id": "D20260917-02",
+      "title": "Pet-supplement ingredient recall discovery",
+      "sourceIds": [
+        "fda-fi-20260908"
+      ],
+      "observedAt": "2026-09-08",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "sourceScope": "FDA-hosted company announcement; source publication precedes today.",
+      "assessmentIds": [],
+      "finding": "Fi recalled dog supplements after a supplied ingredient raised potential Salmonella concerns.",
+      "decision": "Quality may compare applicable materials and supplier controls. A Watershed relationship or affected material is not established; do not treat this as a Watershed recall.",
+      "status": "applicability-unverified"
+    },
+    {
+      "id": "D20260917-03",
+      "title": "Cashew-inclusion hard-material recall discovery",
+      "sourceIds": [
+        "fda-cashew-20260915"
+      ],
+      "observedAt": "2026-09-15",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "sourceScope": "Specific So Delicious frozen-dessert recall, not the whole cashew market.",
+      "assessmentIds": [],
+      "finding": "The company reported the potential presence of stones or other hard material in cashew inclusions in one recalled frozen-dessert product.",
+      "decision": "Use as a foreign-material control review lead for relevant nut inclusions only. No Watershed supplier, manufacturing or customer connection is established.",
+      "status": "applicability-unverified"
+    },
+    {
+      "id": "D20260917-04",
+      "title": "Historical company litigation notice discovered",
+      "sourceIds": [
+        "ws-gipa-notice"
+      ],
+      "observedAt": null,
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "HISTORICAL",
+      "sourceScope": "Administrator notice, not a current docket disposition.",
+      "assessmentIds": [],
+      "finding": "See company-ground-truth claim F27. The notice’s scheduled approval hearing has elapsed, while the page still uses conditional language.",
+      "decision": "HR/legal should verify the current disposition. Do not infer liability, final approval, payment or a new incident.",
+      "status": "current-status-unverified"
+    },
+    {
+      "id": "D20260917-05",
+      "title": "New KEV records await installed-inventory matching",
+      "sourceIds": [
+        "cisa-kev"
+      ],
+      "observedAt": "2026-09-16",
+      "retrievedAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "sourceScope": "CISA catalog additions; no installed Watershed systems identified.",
+      "assessmentIds": [],
+      "finding": "Recent vendor vulnerability records were collected successfully.",
+      "decision": "Authorized IT staff must match vendor, product and version before estimating company exposure. An empty company match is not a cyber clearance.",
+      "status": "applicability-unverified"
+    }
+  ],
+  "reviewNotes": [
+    "Intelligence: separated retrieval dates from publication and event dates; no inferred supplier/customer links.",
+    "Operations research: scored only reviewed applicability hypotheses, kept seven unassessed domains null, and preserved the exact normalized equation.",
+    "Supply chain: fuel surcharges and truck dependence remain contract-dependent assumptions.",
+    "Industrial engineering: county outlook does not establish plant interruption, exact Top Fox production allocation or Wisconsin site exposure.",
+    "Food science/quality: sector recalls were retained as verification leads without asserting contaminated Watershed inputs or relaxing safety controls.",
+    "Information security: KEV additions require authorized inventory matching; no installed products inferred.",
+    "Continuity: outlooks are not warnings; actual applicable emergencies require approved response and explicit escalation."
+  ],
+  "baselineNote": "First dated assessment. No yesterday or 30/90/365-day backfill; older evidence is not a newly occurring event."
+}

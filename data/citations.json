@@ -69,7 +69,7 @@
     "url": "https://www.deercreekillinois.org/businesses.html",
     "kind": "Government",
     "retrievedAt": "2026-09-17",
-    "limitation": "Lists Aunt Em\u2019s / Heartland at one address; does not prove transaction closing or throughput."
+    "limitation": "Lists Aunt Em’s / Heartland at one address; does not prove transaction closing or throughput."
   },
   {
     "id": "wcbu-heartland",
@@ -109,7 +109,7 @@
     "url": "https://www.eia.gov/petroleum/gasdiesel/",
     "kind": "Government",
     "retrievedAt": "2026-09-17",
-    "limitation": "Regional retail on-highway diesel benchmark, not Watershed\u2019s contracted fuel or freight rate."
+    "limitation": "Regional retail on-highway diesel benchmark, not Watershed’s contracted fuel or freight rate."
   },
   {
     "id": "wasde-sep",
@@ -206,5 +206,37 @@
     "kind": "Company",
     "retrievedAt": "2026-09-17",
     "limitation": "Indexed company description supports private-label snacks; full-page fetch timed out."
+  },
+  {
+    "id": "nws-ilx-outlook",
+    "title": "NWS Lincoln hazardous weather outlook, 17 September 2026",
+    "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "kind": "Government",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Issued 04:29 CDT. Match the McLean, Woodford and Tazewell Illinois zone group. Outlook is not a warning or observed facility disruption; this live URL changes."
+  },
+  {
+    "id": "fda-fi-20260908",
+    "title": "FDA: Fi dog-supplement recall",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fi-recalls-supplements-dogs-because-possible-salmonella-contamination",
+    "kind": "Government-hosted company recall",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Company announcement 3 September; FDA publication 8 September. No Watershed manufacturing, supplier or customer relationship established."
+  },
+  {
+    "id": "fda-cashew-20260915",
+    "title": "FDA: So Delicious frozen-dessert recall",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/so-delicious-dairy-freer-issues-voluntary-recall-salted-caramel-cluster-non-dairy-frozen-dessert",
+    "kind": "Government-hosted company recall",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Published 15 September. Product-specific potential hard-material contamination in cashew inclusions; no Watershed relationship established."
+  },
+  {
+    "id": "ws-gipa-notice",
+    "title": "Tasker v. Watershed Foods: settlement-administrator FAQ",
+    "url": "https://www.watershedgipasettlement.com/faq/",
+    "kind": "Primary case administrator",
+    "retrievedAt": "2026-09-17",
+    "limitation": "Notice retains proposed-approval language and an elapsed hearing date. Current docket disposition was not verified. Allegations are disputed, not findings."
   }
 ]

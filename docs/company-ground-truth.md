@@ -214,6 +214,14 @@ No claim that every seed is grown on one farm or in one country.
 
 As of 2026-09-17; retrieved 2026-09-17; review due 2026-12-17. [Top Fox: About](https://topfoxsnacks.com/pages/about) (retrieved 2026-09-17)
 
+## F27 · Historical employment litigation notice
+
+**HISTORICAL** — A court-authorized administrator notice describes a proposed settlement in Tasker v. Watershed Foods, LLC, McLean County case 2024CH000013, concerning alleged employment-related genetic-information requests. Watershed denies wrongdoing and liability.
+
+As-of denotes the scheduled approval hearing, not notice publication. The page still describes conditional approval; final disposition and payment are unverified. Newly discovered historical evidence, not a new September incident. HR/legal should verify the current docket before drawing operational conclusions.
+
+As of 2026-08-05; retrieved 2026-09-17; review due 2026-09-24. [Tasker v. Watershed Foods: settlement-administrator FAQ](https://www.watershedgipasettlement.com/faq/) (retrieved 2026-09-17)
+
 ## Open ground-truth questions
 
 - Exact ownership/capital relationships among Watershed, The Manna Group, Top Fox and Heartland; no directional ownership is assumed from shared grant paperwork or executives.

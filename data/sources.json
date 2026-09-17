@@ -1150,5 +1150,37 @@
     "retrievedAt": null,
     "access": "Public",
     "mode": "Page change / analyst review"
+  },
+  {
+    "id": "nws-ilx-outlook",
+    "name": "NWS Lincoln hazardous weather outlook",
+    "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "endpoint": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "adapter": "page",
+    "cadenceHours": 3,
+    "staleHours": 6,
+    "category": "Facility / weather",
+    "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings.",
+    "priority": 1,
+    "validation": "Primary outlook read on 17 September 2026",
+    "retrievedAt": "2026-09-17",
+    "access": "Public",
+    "mode": "Page change / analyst review"
+  },
+  {
+    "id": "ws-gipa-notice",
+    "name": "Watershed historical litigation status review",
+    "url": "https://www.watershedgipasettlement.com/faq/",
+    "endpoint": null,
+    "adapter": "manual",
+    "cadenceHours": 168,
+    "staleHours": 336,
+    "category": "Labor",
+    "scope": "Verify current court disposition; allegations remain disputed. Do not infer an employment practice from an old settlement notice.",
+    "priority": 2,
+    "validation": "Administrator notice reviewed; current docket unresolved",
+    "retrievedAt": "2026-09-17",
+    "access": "Public / manual court-status review",
+    "mode": "Manual review"
   }
 ]

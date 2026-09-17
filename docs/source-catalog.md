@@ -80,6 +80,8 @@ The hourly GitHub workflow checks due sources in batches, respecting the cadence
 | cisa-kev · [CISA exploited vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | Cross-reference authorized software inventory; catalog presence does not prove exposure | 6 / 24 | Structured · Public · Endpoint validation pending |
 | cisa-ics · [CISA ICS advisories](https://www.cisa.gov/news-events/ics-advisories) | ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities | 6 / 24 | Page change / analyst review · Public · Endpoint validation pending |
 | cisa-ransom · [CISA StopRansomware](https://www.cisa.gov/stopransomware) | Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways | 24 / 48 | Page change / analyst review · Public · Endpoint validation pending |
+| nws-ilx-outlook · [NWS Lincoln hazardous weather outlook](https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook) | Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings. | 3 / 6 | Page change / analyst review · Public · Primary outlook read on 17 September 2026 |
+| ws-gipa-notice · [Watershed historical litigation status review](https://www.watershedgipasettlement.com/faq/) | Verify current court disposition; allegations remain disputed. Do not infer an employment practice from an old settlement notice. | 168 / 336 | Manual review · Public / manual court-status review · Administrator notice reviewed; current docket unresolved |
 
 ## Release and interpretation rules
 
