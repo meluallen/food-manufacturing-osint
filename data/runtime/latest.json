@@ -681,13 +681,13 @@
       "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
     }
   ],
-  "attempted": 65,
+  "attempted": 0,
   "remaining": 0,
-  "collectedAt": "2026-09-17T15:40:47.365Z",
+  "collectedAt": "2026-09-17T15:54:34.573Z",
   "history": [
     {
       "date": "2026-09-17",
-      "asOf": "2026-09-17T15:43:58.364Z",
+      "asOf": "2026-09-17T15:54:34.574Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -1419,7 +1419,164 @@
       "revision": 1
     }
   ],
-  "baselineRevision": "2026-09-17-v1",
+  "forecasts": [
+    {
+      "id": "P01",
+      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
+      "probability": 0.55,
+      "horizon": "2026-10-12",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "eia-diesel"
+      ],
+      "indicators": [
+        "S01"
+      ],
+      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
+      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P02",
+      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
+      "probability": 0.6,
+      "horizon": "2026-10-09",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "wasde-sep"
+      ],
+      "indicators": [
+        "S02"
+      ],
+      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
+      "rationale": "September forecast is below August, but the next revision is uncertain.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P03",
+      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
+      "probability": 0.55,
+      "horizon": "2027-03-31",
+      "resolutionDue": "2027-04-07",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "indicators": [
+        "S05"
+      ],
+      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
+      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
+      "createdAt": "2026-09-17"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Higher dairy prices threaten yogurt-melt margins.",
+      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
+      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 45,
+      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
+      "falsification": "No material margin change across two sustained >10% input-price moves.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H2",
+      "title": "Premium pet spending increases demand for freeze-dried toppers.",
+      "evidenceFor": "Advertised toppers align with a substantial pet category.",
+      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
+      "sourceIds": [
+        "ws-capabilities",
+        "appa"
+      ],
+      "confidence": 45,
+      "indicators": "Segment units; launches; briefs; conversion to orders",
+      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H3",
+      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
+      "evidenceFor": "Fruit processing establishes a possible channel.",
+      "evidenceAgainst": "No key source region or inventory cover is verified.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 25,
+      "indicators": "Verified origin; drought; crop yield; contracted cover",
+      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H4",
+      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
+      "evidenceFor": "Announced popcorn transition and process growth.",
+      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "confidence": 60,
+      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
+      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H5",
+      "title": "Top Fox creates differentiated seed and roasting exposure.",
+      "evidenceFor": "Seed products and the brand’s farming origin are public.",
+      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "confidence": 65,
+      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
+      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H6",
+      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
+      "evidenceFor": "Maintenance and engineering are public capabilities.",
+      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "confidence": 40,
+      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
+      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    }
+  ],
   "citations": [
     {
       "id": "ws-about",
@@ -1969,162 +2126,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "forecasts": [
-    {
-      "id": "P01",
-      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
-      "probability": 0.55,
-      "horizon": "2026-10-12",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "eia-diesel"
-      ],
-      "indicators": [
-        "S01"
-      ],
-      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
-      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P02",
-      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
-      "probability": 0.6,
-      "horizon": "2026-10-09",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "wasde-sep"
-      ],
-      "indicators": [
-        "S02"
-      ],
-      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
-      "rationale": "September forecast is below August, but the next revision is uncertain.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P03",
-      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
-      "probability": 0.55,
-      "horizon": "2027-03-31",
-      "resolutionDue": "2027-04-07",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "indicators": [
-        "S05"
-      ],
-      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
-      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
-      "createdAt": "2026-09-17"
-    }
-  ],
-  "hypotheses": [
-    {
-      "id": "H1",
-      "title": "Higher dairy prices threaten yogurt-melt margins.",
-      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
-      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 45,
-      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
-      "falsification": "No material margin change across two sustained >10% input-price moves.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H2",
-      "title": "Premium pet spending increases demand for freeze-dried toppers.",
-      "evidenceFor": "Advertised toppers align with a substantial pet category.",
-      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
-      "sourceIds": [
-        "ws-capabilities",
-        "appa"
-      ],
-      "confidence": 45,
-      "indicators": "Segment units; launches; briefs; conversion to orders",
-      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H3",
-      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
-      "evidenceFor": "Fruit processing establishes a possible channel.",
-      "evidenceAgainst": "No key source region or inventory cover is verified.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 25,
-      "indicators": "Verified origin; drought; crop yield; contracted cover",
-      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H4",
-      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
-      "evidenceFor": "Announced popcorn transition and process growth.",
-      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "confidence": 60,
-      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
-      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H5",
-      "title": "Top Fox creates differentiated seed and roasting exposure.",
-      "evidenceFor": "Seed products and the brand’s farming origin are public.",
-      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
-      "sourceIds": [
-        "topfox",
-        "heartland-2026"
-      ],
-      "confidence": 65,
-      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
-      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H6",
-      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
-      "evidenceFor": "Maintenance and engineering are public capabilities.",
-      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
-      "sourceIds": [
-        "ws-careers"
-      ],
-      "confidence": 40,
-      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
-      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    }
-  ]
+  "baselineRevision": "2026-09-17-v1"
 }
