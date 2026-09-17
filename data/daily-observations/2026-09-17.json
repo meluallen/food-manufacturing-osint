@@ -89,5 +89,15 @@
     "Information security: KEV additions require authorized inventory matching; no installed products inferred.",
     "Continuity: outlooks are not warnings; actual applicable emergencies require approved response and explicit escalation."
   ],
-  "baselineNote": "First dated assessment. No yesterday or 30/90/365-day backfill; older evidence is not a newly occurring event."
+  "baselineNote": "First dated assessment. No yesterday or 30/90/365-day backfill; older evidence is not a newly occurring event.",
+  "rechecks": [
+    {
+      "runId": "2026-09-17T16-37-58-924Z",
+      "reviewedAt": "2026-09-17T16:38:56.833195+00:00",
+      "disposition": "GUIDANCE STABLE",
+      "newCandidates": 2,
+      "materialChanges": [],
+      "recordPath": "data/runs/2026-09-17T16-37-58-924Z.json"
+    }
+  ]
 }

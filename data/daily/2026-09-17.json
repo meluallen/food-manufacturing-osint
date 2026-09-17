@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "asOf": "2026-09-17T16:12:56.540Z",
+  "asOf": "2026-09-17T16:38:56.947Z",
   "modelVersion": "1.0.0",
   "posture": "Elevated",
   "provisional": true,
@@ -657,8 +657,8 @@
       "Blocked": 5,
       "Manual review": 6
     },
-    "latestCollectionAt": "2026-09-17T16:09:10.542Z",
-    "pendingCandidates": 132,
+    "latestCollectionAt": "2026-09-17T16:37:58.924Z",
+    "pendingCandidates": 134,
     "records": [
       {
         "id": "nws-il",
@@ -1254,5 +1254,13 @@
       "retrievedAt": "2026-09-17",
       "limitation": "Notice retains proposed-approval language and an elapsed hearing date. Current docket disposition was not verified. Allegations are disputed, not findings."
     }
-  ]
+  ],
+  "latestRecheck": {
+    "runId": "2026-09-17T16-37-58-924Z",
+    "completedAt": "2026-09-17T16:37:58.924Z",
+    "disposition": "GUIDANCE STABLE",
+    "newCandidates": 2,
+    "materialChanges": [],
+    "scoreChangeSincePriorRun": 0
+  }
 }

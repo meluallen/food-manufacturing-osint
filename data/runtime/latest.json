@@ -3,484 +3,471 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "hash": "754b2e0d3a9c32f0b0d6ee891ad5d0ee3e8ea9c157c60aebd1554ecc5dfa9726",
-      "etag": "W/\"beeb516facf73700da1928f3e7ec34c4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-17T16:37:47.381Z",
+      "hash": "8f8ae94829eba9ae2dee90fad116ceb023f03c09877bf29653db4ee552fce408",
+      "etag": "W/\"91990082b6115267abeaf21a2acaa133:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 6,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "hash": "2dc84d7bd649a099f5544708c0dec4572a84de166175b9e580c82449d9cb3106",
-      "etag": "W/\"e18eaa26871eeab185c2028c72785b36:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-17T16:37:47.392Z",
+      "hash": "69c9d3a47b3a838af7b539bf350a306a7e9821ac160df670b5257f1ff9603935",
+      "etag": "W/\"28737ef57eb155e18edac7e5c25b8d31:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:58:47.009Z",
       "sourceId": "eia-diesel",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "fda-recalls",
-      "status": "ok",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "hash": "f78f885bc160be3b485ef22e31154381593d112bc3734e113f0c535138953765",
-      "etag": "W/\"24f98-b+UToiOF4BzHhVBmj4vdbdV72f4\"",
+      "changed": true,
       "count": 60,
-      "changed": true
+      "etag": "W/\"24f98-b+UToiOF4BzHhVBmj4vdbdV72f4\"",
+      "fetchedAt": "2026-09-17T16:37:47.394Z",
+      "hash": "f78f885bc160be3b485ef22e31154381593d112bc3734e113f0c535138953765",
+      "sourceId": "fda-recalls",
+      "status": "ok"
     },
     {
-      "sourceId": "fda-trace",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "sourceId": "fda-trace",
+      "status": "error"
     },
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
+      "fetchedAt": "2026-09-17T16:37:47.395Z",
       "hash": "72b4e3489021d2ad50c4f9b8ddddd1608a9e6b87dd7beedc126f6341ea98f105",
       "etag": "\"1a5df0-65b9e1aab4bd0\"",
-      "count": 47,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "drought",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "noaa-cpc",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "river",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "usgs",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": "W/\"16346-1774286899152-gzip\"",
       "fetchedAt": "2026-09-17T15:58:47.009Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286899152-gzip\"",
-      "count": 1,
-      "changed": true
+      "sourceId": "usgs",
+      "status": "ok"
     },
     {
-      "sourceId": "ams-dairy",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "sourceId": "ams-dairy",
+      "status": "error"
     },
     {
-      "sourceId": "ams-specialty",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "d41cf34991353fe46fb77fc63cdfa8ef9b1fbd4d99b25cdcfba6c0a8f392a2a2",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "ams-specialty",
+      "status": "ok"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "nass",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "HTTP 403",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "wasde",
-      "status": "blocked",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 403"
+      "status": "blocked"
     },
     {
+      "error": "fetch failed",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fas",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "fetch failed"
+      "status": "error"
     },
     {
-      "sourceId": "eia-energy",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "a1bf9de04716d5fcfd363440c9d3c5d3f699873d050da4f19803d6bd4a09c2c7",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "eia-energy",
+      "status": "ok"
     },
     {
-      "sourceId": "miso",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "3b9a558b3444281f3bd88bb0bfa0f8e79f3db22ac62aff96722bb0b07400e15e",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "miso",
+      "status": "ok"
     },
     {
-      "sourceId": "usda-transport",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "e421e0fe13af68d03e14058dd10bc6fc93215a2933e4c2a0dcc8881e05896236",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "usda-transport",
+      "status": "ok"
     },
     {
+      "error": "HTTP 403",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "bts",
-      "status": "blocked",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 403"
+      "status": "blocked"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "stb",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "HTTP 403",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "usace",
-      "status": "blocked",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 403"
+      "status": "blocked"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "marad",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "panama",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "3db1005625613c8eeefeb47d1cc695c259695a2b6061004c7ccc37688f70bd9d",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "panama",
+      "status": "ok"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "port-la",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fda-alerts",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fda-warning",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fda-import",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fda-fsma",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "HTTP 404",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fda-cvm",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 404"
+      "status": "error"
     },
     {
-      "sourceId": "fda-toddler",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": "\"1789612665\"",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "1a17798e7a91e950065fb3fa9f5bc3446c3c0ae1da935c64390f003b7d84e112",
-      "etag": "\"1789612665\"",
-      "count": 1,
-      "changed": true
+      "sourceId": "fda-toddler",
+      "status": "ok"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:58:47.009Z",
       "sourceId": "cdc",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "fsis",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "idph",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "widatcp",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "sqfi",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "federal-register",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "sourceId": "federal-register",
+      "status": "error"
     },
     {
-      "sourceId": "cbp",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": "\"1789657722\"",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "6686ed50dc109e021491c3f78f74c5d698034aa4888095dd54e9d0c69e97bf1c",
-      "etag": "\"1789657722\"",
-      "count": 1,
-      "changed": true
+      "sourceId": "cbp",
+      "status": "ok"
     },
     {
-      "sourceId": "usitc",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "sourceId": "usitc",
+      "status": "error"
     },
     {
-      "sourceId": "ustr",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": "\"1789659674-gzip\"",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "73fee4472024e5a26c19ed1f6d3f5f6d501439e9e1052db04578b25d62a60132",
-      "etag": "\"1789659674-gzip\"",
-      "count": 1,
-      "changed": true
+      "sourceId": "ustr",
+      "status": "ok"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "ofac",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "bls-ppi",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "afpa",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "bls-labor",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "ides",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "widwd",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:58:47.009Z",
       "hash": "d84644768b5f24cad4d812b2d75a86a935605929bcf16ac8594132e93d1237da",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "widwd",
+      "status": "ok"
     },
     {
+      "error": "HTTP 403",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "dol",
-      "status": "blocked",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 403"
+      "status": "blocked"
     },
     {
+      "error": "HTTP 403",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "sec",
-      "status": "blocked",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 403"
+      "status": "blocked"
     },
     {
-      "sourceId": "appa",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "c500deae6b2240cc37139f0a2b060e35003bb7a316b0738d552e9b216492cb59",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "appa",
+      "status": "ok"
     },
     {
-      "sourceId": "plma",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "6dcdca0633ee51f89953544fefde356dfc08e693e365b7484186056eca87437a",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "plma",
+      "status": "ok"
     },
     {
-      "sourceId": "ws-careers",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "9f3241281d9466435a2c6a88e92fd66b5fdbfec7a22aaeb0e61f0d0161e9272d",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "ws-careers",
+      "status": "ok"
     },
     {
-      "sourceId": "ws-about",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "sourceId": "ws-about",
+      "status": "error"
     },
     {
-      "sourceId": "topfox",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": "\"page_cache:31738888237:IndexController:66c407deabaad15f1e7a7f5281a2163c\"",
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "5fb3de086542f7352164bd9823b54fbb9c7425b7cf0e325de37d9a0352cd1aa0",
-      "etag": "\"page_cache:31738888237:IndexController:66c407deabaad15f1e7a7f5281a2163c\"",
-      "count": 1,
-      "changed": true
+      "sourceId": "topfox",
+      "status": "ok"
     },
     {
+      "error": "fetch failed",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "deer-creek",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "fetch failed"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "gridley-local",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "thrive",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T15:58:47.009Z",
-      "error": "This operation was aborted"
+      "sourceId": "thrive",
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "vdf",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "efd",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "barrett",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "weaver",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "HTTP 502",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "flagstone",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "HTTP 502"
+      "status": "error"
     },
     {
-      "sourceId": "pmmi",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "99d1e43632d455ca4ea7dc68cb661754ff6bcaa0bd9154a68b81c8b97401f552",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "pmmi",
+      "status": "ok"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "gea",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
+      "error": "This operation was aborted",
+      "fetchedAt": "2026-09-17T15:40:47.365Z",
       "sourceId": "rockwell",
-      "status": "error",
-      "fetchedAt": "2026-09-17T15:40:47.365Z",
-      "error": "This operation was aborted"
+      "status": "error"
     },
     {
-      "sourceId": "cisa-ics",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "5b80190db0eb1fe6b147eddfd8786c99a94b4698a21251ea181787ec0d0f7732",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "cisa-ics",
+      "status": "ok"
     },
     {
-      "sourceId": "cisa-ransom",
-      "status": "ok",
+      "changed": true,
+      "count": 1,
+      "etag": null,
       "fetchedAt": "2026-09-17T15:40:47.365Z",
       "hash": "65069b1dd21a18014fa991890b39a13b3a9f519533e7d5c204ae563e7d0a7b2b",
-      "etag": null,
-      "count": 1,
-      "changed": true
+      "sourceId": "cisa-ransom",
+      "status": "ok"
     },
     {
-      "sourceId": "nws-ilx-outlook",
-      "status": "error",
+      "error": "This operation was aborted",
       "fetchedAt": "2026-09-17T16:08:58.535Z",
-      "error": "This operation was aborted"
+      "sourceId": "nws-ilx-outlook",
+      "status": "error"
     }
   ],
   "candidates": [
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.45eb8975d0d91c4646ef32f0cdddd29c446814dc.001.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 17 at 10:53AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Heat index values up to 103-109 degrees can be expected. * WHERE...all of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ Sunday. * IMPACTS...Record to near record hot temperatures and high humidity may cause heat illnesses. * ADDITIONAL DETAILS",
       "observedAt": "2026-09-17T10:53:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -617,7 +604,7 @@
       "title": "Heat Advisory issued September 17 at 10:05AM CDT until September 17 at 7:00PM CDT by NWS Lincoln IL",
       "summary": "Scott; Morgan; Sangamon; Christian; Shelby; Cumberland; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: * WHAT...Heat index values up to 103. * WHERE...Portions of central, east central, southeast, and west central Illinois. * WHEN...Until 7 PM CDT this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-17T10:05:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -657,70 +644,12 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.265d524c3cb91df161a8ab4e295a623ca145280e.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Advisory issued September 17 at 9:40AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
-      "summary": "Cook, IL; DuPage, IL; Kendall, IL; Will, IL; Lake, IN: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern Cook County in northeastern Illinois... Southeastern DuPage County in northeastern Illinois... Kendall County in northeastern Illinois... Northern Will County in northeastern Illinois... Northern Lake IN County in northwestern Indiana... * WHEN...Until 1145 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. High water may recede slowly from flooded areas. * ADDITIONAL DETAILS... - At 939 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is occurring in the advisory area. Between 1.5 and 3 inches of rain have fallen. - Heavy rain has ended, though light rain showers may persist through ",
-      "observedAt": "2026-09-17T09:40:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
-      "expiresAt": "2026-09-17T11:45:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "017031",
-          "017043",
-          "017093",
-          "017197",
-          "018089"
-        ],
-        "UGC": [
-          "ILC031",
-          "ILC043",
-          "ILC093",
-          "ILC197",
-          "INC089"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.f887c0b3351112ac0242947363c96a262a5d94b5.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Advisory issued September 17 at 9:33AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
-      "summary": "De Kalb, IL; La Salle, IL; Lee, IL: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern De Kalb County in north central Illinois... Northern La Salle County in north central Illinois... Southeastern Lee County in north central Illinois... * WHEN...Until 1145 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. High water may recede slowly from flooded areas. * ADDITIONAL DETAILS... - At 931 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms from earlier this morning. Minor flooding is occurring in the advisory area. Between 2 and 5 inches of rain have fallen. - Some locations that will experience flooding include... Sandwich, Lake Holiday, Somonauk, Earlville, Leland, Paw Paw, Sublette and West Brooklyn. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-17T09:33:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
-      "expiresAt": "2026-09-17T11:45:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "017037",
-          "017099",
-          "017103"
-        ],
-        "UGC": [
-          "ILC037",
-          "ILC099",
-          "ILC103"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.5647f1ca48e3d56caf082ad16a36eb2d821020a0.001.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 17 at 2:19AM CDT until September 18 at 8:00PM CDT by NWS St Louis MO",
       "summary": "Greene; Macoupin; Montgomery; Fayette; Calhoun; Jersey; Boone; Callaway; Montgomery; Lincoln: * WHAT...Heat index values up to 105. * WHERE...In Illinois, Fayette IL, Montgomery IL, Calhoun IL, Greene IL, Jersey IL, and Macoupin IL Counties. In Missouri, Boone MO, Callaway MO, Lincoln MO, and Montgomery MO Counties. * WHEN...Until 8 PM CDT Friday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-17T02:19:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -761,7 +690,7 @@
       "title": "Heat Advisory issued September 17 at 2:19AM CDT until September 19 at 8:00PM CDT by NWS St Louis MO",
       "summary": "Bond; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Moniteau; Cole; Osage; Gasconade; Warren; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Heat index values up to 106. * WHERE...Portions of south central and southwest Illinois and central, east central, and southeast Missouri. * WHEN...Until 8 PM CDT Saturday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-17T02:19:00-05:00",
-      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -822,6 +751,135 @@
           "MOZ084",
           "MOZ085",
           "MOZ099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.4e50c9a7fba596a41f5551646cd2ffb589dd2d27.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 11:36AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "Cook, IL; DuPage, IL; Kendall, IL; Will, IL; Lake, IN: The Flood Advisory will expire at 1145 AM CDT this morning for portions of northeast Illinois, including the following areas, Cook, DuPage, Kendall and Will and northwest Indiana, including the following area, Lake IN. Flood waters have receded. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures.",
+      "observedAt": "2026-09-17T11:36:00-05:00",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:46:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017043",
+          "017093",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILC031",
+          "ILC043",
+          "ILC093",
+          "ILC197",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6f167fb82ddd1aaa7082ff597f61ecbc0d48e4c4.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 11:35AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "De Kalb, IL; La Salle, IL; Lee, IL: The Flood Advisory will expire at 1145 AM CDT this morning for a portion of north central Illinois, including the following areas, De Kalb, La Salle and Lee. Flood waters have receded. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures.",
+      "observedAt": "2026-09-17T11:35:00-05:00",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:45:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017037",
+          "017099",
+          "017103"
+        ],
+        "UGC": [
+          "ILC037",
+          "ILC099",
+          "ILC103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.265d524c3cb91df161a8ab4e295a623ca145280e.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 9:40AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "Cook, IL; DuPage, IL; Kendall, IL; Will, IL; Lake, IN: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern Cook County in northeastern Illinois... Southeastern DuPage County in northeastern Illinois... Kendall County in northeastern Illinois... Northern Will County in northeastern Illinois... Northern Lake IN County in northwestern Indiana... * WHEN...Until 1145 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. High water may recede slowly from flooded areas. * ADDITIONAL DETAILS... - At 939 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms. Minor flooding is occurring in the advisory area. Between 1.5 and 3 inches of rain have fallen. - Heavy rain has ended, though light rain showers may persist through ",
+      "observedAt": "2026-09-17T09:40:00-05:00",
+      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:45:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017043",
+          "017093",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILC031",
+          "ILC043",
+          "ILC093",
+          "ILC197",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f887c0b3351112ac0242947363c96a262a5d94b5.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 9:33AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "De Kalb, IL; La Salle, IL; Lee, IL: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Southern De Kalb County in north central Illinois... Northern La Salle County in north central Illinois... Southeastern Lee County in north central Illinois... * WHEN...Until 1145 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. High water may recede slowly from flooded areas. * ADDITIONAL DETAILS... - At 931 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms from earlier this morning. Minor flooding is occurring in the advisory area. Between 2 and 5 inches of rain have fallen. - Some locations that will experience flooding include... Sandwich, Lake Holiday, Somonauk, Earlville, Leland, Paw Paw, Sublette and West Brooklyn. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-17T09:33:00-05:00",
+      "retrievedAt": "2026-09-17T15:58:47.009Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:45:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017037",
+          "017099",
+          "017103"
+        ],
+        "UGC": [
+          "ILC037",
+          "ILC099",
+          "ILC103"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -2512,13 +2570,13 @@
       "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
     }
   ],
-  "attempted": 0,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-09-17T16:14:41.172Z",
+  "collectedAt": "2026-09-17T16:37:58.924Z",
   "history": [
     {
       "date": "2026-09-17",
-      "asOf": "2026-09-17T16:14:41.173Z",
+      "asOf": "2026-09-17T16:38:56.947Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -3358,164 +3416,7 @@
       "dateNote": "NWS issued 04:29 CDT on 17 September. Recheck within 24 hours; expiry prevents retaining this outlook as a standing condition."
     }
   ],
-  "forecasts": [
-    {
-      "id": "P01",
-      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
-      "probability": 0.55,
-      "horizon": "2026-10-12",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "eia-diesel"
-      ],
-      "indicators": [
-        "S01"
-      ],
-      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
-      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P02",
-      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
-      "probability": 0.6,
-      "horizon": "2026-10-09",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "wasde-sep"
-      ],
-      "indicators": [
-        "S02"
-      ],
-      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
-      "rationale": "September forecast is below August, but the next revision is uncertain.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P03",
-      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
-      "probability": 0.55,
-      "horizon": "2027-03-31",
-      "resolutionDue": "2027-04-07",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "indicators": [
-        "S05"
-      ],
-      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
-      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
-      "createdAt": "2026-09-17"
-    }
-  ],
-  "hypotheses": [
-    {
-      "id": "H1",
-      "title": "Higher dairy prices threaten yogurt-melt margins.",
-      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
-      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 45,
-      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
-      "falsification": "No material margin change across two sustained >10% input-price moves.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H2",
-      "title": "Premium pet spending increases demand for freeze-dried toppers.",
-      "evidenceFor": "Advertised toppers align with a substantial pet category.",
-      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
-      "sourceIds": [
-        "ws-capabilities",
-        "appa"
-      ],
-      "confidence": 45,
-      "indicators": "Segment units; launches; briefs; conversion to orders",
-      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H3",
-      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
-      "evidenceFor": "Fruit processing establishes a possible channel.",
-      "evidenceAgainst": "No key source region or inventory cover is verified.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 25,
-      "indicators": "Verified origin; drought; crop yield; contracted cover",
-      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H4",
-      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
-      "evidenceFor": "Announced popcorn transition and process growth.",
-      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "confidence": 60,
-      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
-      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H5",
-      "title": "Top Fox creates differentiated seed and roasting exposure.",
-      "evidenceFor": "Seed products and the brand’s farming origin are public.",
-      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
-      "sourceIds": [
-        "topfox",
-        "heartland-2026"
-      ],
-      "confidence": 65,
-      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
-      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H6",
-      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
-      "evidenceFor": "Maintenance and engineering are public capabilities.",
-      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
-      "sourceIds": [
-        "ws-careers"
-      ],
-      "confidence": 40,
-      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
-      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    }
-  ],
+  "baselineRevision": "2026-09-17-reviewed",
   "citations": [
     {
       "id": "ws-about",
@@ -4110,5 +4011,162 @@
       "reviewDue": "2026-09-24"
     }
   ],
-  "baselineRevision": "2026-09-17-reviewed"
+  "forecasts": [
+    {
+      "id": "P01",
+      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
+      "probability": 0.55,
+      "horizon": "2026-10-12",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "eia-diesel"
+      ],
+      "indicators": [
+        "S01"
+      ],
+      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
+      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P02",
+      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
+      "probability": 0.6,
+      "horizon": "2026-10-09",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "wasde-sep"
+      ],
+      "indicators": [
+        "S02"
+      ],
+      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
+      "rationale": "September forecast is below August, but the next revision is uncertain.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P03",
+      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
+      "probability": 0.55,
+      "horizon": "2027-03-31",
+      "resolutionDue": "2027-04-07",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "indicators": [
+        "S05"
+      ],
+      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
+      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
+      "createdAt": "2026-09-17"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Higher dairy prices threaten yogurt-melt margins.",
+      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
+      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 45,
+      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
+      "falsification": "No material margin change across two sustained >10% input-price moves.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H2",
+      "title": "Premium pet spending increases demand for freeze-dried toppers.",
+      "evidenceFor": "Advertised toppers align with a substantial pet category.",
+      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
+      "sourceIds": [
+        "ws-capabilities",
+        "appa"
+      ],
+      "confidence": 45,
+      "indicators": "Segment units; launches; briefs; conversion to orders",
+      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H3",
+      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
+      "evidenceFor": "Fruit processing establishes a possible channel.",
+      "evidenceAgainst": "No key source region or inventory cover is verified.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 25,
+      "indicators": "Verified origin; drought; crop yield; contracted cover",
+      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H4",
+      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
+      "evidenceFor": "Announced popcorn transition and process growth.",
+      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "confidence": 60,
+      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
+      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H5",
+      "title": "Top Fox creates differentiated seed and roasting exposure.",
+      "evidenceFor": "Seed products and the brand’s farming origin are public.",
+      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "confidence": 65,
+      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
+      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H6",
+      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
+      "evidenceFor": "Maintenance and engineering are public capabilities.",
+      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "confidence": 40,
+      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
+      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    }
+  ]
 }

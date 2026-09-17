@@ -1,0 +1,134 @@
+{
+  "id": "2026-09-17T16-37-58-924Z",
+  "startedAt": "2026-09-17T16:37:47.380Z",
+  "completedAt": "2026-09-17T16:37:58.924Z",
+  "priorAssessmentAt": "2026-09-17T16:12:56.540Z",
+  "dueAttempts": 0,
+  "requestedFreshChecks": 4,
+  "newCandidates": 2,
+  "fetches": [
+    {
+      "sourceId": "nws-il",
+      "status": "ok",
+      "count": 6,
+      "error": null
+    },
+    {
+      "sourceId": "nws-wi",
+      "status": "ok",
+      "count": 0,
+      "error": null
+    },
+    {
+      "sourceId": "fda-recalls",
+      "status": "ok",
+      "count": 0,
+      "error": null
+    },
+    {
+      "sourceId": "cisa-kev",
+      "status": "ok",
+      "count": 0,
+      "error": null
+    }
+  ],
+  "changedCandidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.4e50c9a7fba596a41f5551646cd2ffb589dd2d27.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 11:36AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "Cook, IL; DuPage, IL; Kendall, IL; Will, IL; Lake, IN: The Flood Advisory will expire at 1145 AM CDT this morning for portions of northeast Illinois, including the following areas, Cook, DuPage, Kendall and Will and northwest Indiana, including the following area, Lake IN. Flood waters have receded. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures.",
+      "observedAt": "2026-09-17T11:36:00-05:00",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:46:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017043",
+          "017093",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILC031",
+          "ILC043",
+          "ILC093",
+          "ILC197",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6f167fb82ddd1aaa7082ff597f61ecbc0d48e4c4.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 17 at 11:35AM CDT until September 17 at 11:45AM CDT by NWS Chicago IL",
+      "summary": "De Kalb, IL; La Salle, IL; Lee, IL: The Flood Advisory will expire at 1145 AM CDT this morning for a portion of north central Illinois, including the following areas, De Kalb, La Salle and Lee. Flood waters have receded. Flooding is no longer expected to pose a threat. Please continue to heed remaining road closures.",
+      "observedAt": "2026-09-17T11:35:00-05:00",
+      "retrievedAt": "2026-09-17T16:37:47.381Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://www.weather.gov/documentation/services-web-api",
+      "expiresAt": "2026-09-17T11:45:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017037",
+          "017099",
+          "017103"
+        ],
+        "UGC": [
+          "ILC037",
+          "ILC099",
+          "ILC103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    }
+  ],
+  "reviewedAt": "2026-09-17T16:38:56.833195+00:00",
+  "disposition": "GUIDANCE STABLE",
+  "materialChanges": [],
+  "reviewFindings": [
+    {
+      "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
+      "retrievedAt": "2026-09-17T16:38:56.833195+00:00",
+      "finding": "Latest diesel release remains 15 September, with Midwest benchmark $6.250/gal for 14 September. No new release was found on the page."
+    },
+    {
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "retrievedAt": "2026-09-17T16:38:56.833195+00:00",
+      "finding": "The relevant outlook is still the 04:29 CDT issuance covering McLean, Woodford and Tazewell counties. Assessment unchanged."
+    },
+    {
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "retrievedAt": "2026-09-17T16:38:56.833195+00:00",
+      "finding": "The visible current index still leads with 15 September notices. It is not an exhaustive recall list; no new company applicability was established."
+    },
+    {
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "retrievedAt": "2026-09-17T16:37:58.924Z",
+      "finding": "Two new flood-advisory expiration notices concern other Illinois counties and northwest Indiana. Their county codes do not match the three known Illinois facility counties. No actual shipping-lane exposure is established."
+    }
+  ],
+  "reviewNotes": [
+    "New NWS records were checked for event time, expiry, county identity and operational applicability.",
+    "Potential lane exposure is unknown; no notice was promoted to a facility incident.",
+    "Scoring factors, assessment expiry, hypothesis confidence and initial forecast probabilities remain unchanged.",
+    "This is an intraday comparison with the prior run, not a fabricated yesterday score."
+  ],
+  "priorPosture": "Elevated",
+  "posture": "Elevated",
+  "observedScore": 47,
+  "scoreChangeSincePriorRun": 0,
+  "coverage": {
+    "assessed": 5,
+    "total": 12
+  }
+}
