@@ -475,227 +475,6 @@
       "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
-      "id": "ams-dairy:page-change",
-      "sourceId": "ams-dairy",
-      "title": "Dairy | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
-      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
-    },
-    {
-      "id": "ams-specialty:page-change",
-      "sourceId": "ams-specialty",
-      "title": "Specialty Crops | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
-      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
-    },
-    {
-      "id": "eia-energy:page-change",
-      "sourceId": "eia-energy",
-      "title": "Opendata - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/opendata/",
-      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "usda-transport:page-change",
-      "sourceId": "usda-transport",
-      "title": "Grain Transportation Report | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.ams.usda.gov/services/transportation-analysis/gtr",
-      "scope": "Weekly truck, rail, barge and ocean context, not Watershed lane pricing"
-    },
-    {
-      "id": "panama:page-change",
-      "sourceId": "panama",
-      "title": "Maritime Services - Autoridad del Canal de Panamá",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://pancanal.com/en/maritime-services/",
-      "scope": "Transit capacity and restrictions; no assumed route"
-    },
-    {
-      "id": "fda-toddler:page-change",
-      "sourceId": "fda-toddler",
-      "title": "Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods",
-      "scope": "Product forms, age groups, state rules and guidance scope must be checked"
-    },
-    {
-      "id": "cbp:page-change",
-      "sourceId": "cbp",
-      "title": "Trade | U.S. Customs and Border Protection",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://www.cbp.gov/trade",
-      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
-    },
-    {
-      "id": "ustr:page-change",
-      "sourceId": "ustr",
-      "title": "Home | United States Trade Representative",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://ustr.gov/",
-      "scope": "Retaliation, import/export policy and official implementation details"
-    },
-    {
-      "id": "appa:page-change",
-      "sourceId": "appa",
-      "title": "Pet Industry Market Size, Trends &amp; Pet Industry Statistics from APPA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://americanpetproducts.org/industry-trends-and-stats",
-      "scope": "Annual estimates/projected value; not premium segment units"
-    },
-    {
-      "id": "plma:page-change",
-      "sourceId": "plma",
-      "title": "Private Label Manufacturers Association | PLMA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://plma.com/",
-      "scope": "Private label, retailer commentary; some data licensed"
-    },
-    {
-      "id": "ws-careers:page-change",
-      "sourceId": "ws-careers",
-      "title": "Careers",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Labor",
-      "sourceUrl": "https://watershedfoods.com/careers",
-      "scope": "Role/capability changes; vacancies alone do not establish shortage"
-    },
-    {
-      "id": "ws-about:page-change",
-      "sourceId": "ws-about",
-      "title": "About",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://watershedfoods.com/about",
-      "scope": "Leadership, scope and market changes; revalidate ownership claims quarterly"
-    },
-    {
-      "id": "topfox:page-change",
-      "sourceId": "topfox",
-      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://topfoxsnacks.com/",
-      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
-    },
-    {
-      "id": "pmmi:page-change",
-      "sourceId": "pmmi",
-      "title": "PMMI, The Association for Packaging and Processing Technologies",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.pmmi.org/",
-      "scope": "Robotics, machine vision, equipment and workforce developments"
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
-      "id": "cisa-ransom:page-change",
-      "sourceId": "cisa-ransom",
-      "title": "Stop Ransomware | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T15:40:47.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/stopransomware",
-      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.45eb8975d0d91c4646ef32f0cdddd29c446814dc.001.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 17 at 10:53AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
@@ -2510,15 +2289,236 @@
       "category": "Labor",
       "sourceUrl": "https://dwd.wisconsin.gov/press/lmi-release-dates.htm",
       "scope": "Greater Milwaukee employment/wages until municipality is verified"
+    },
+    {
+      "id": "ams-dairy:page-change",
+      "sourceId": "ams-dairy",
+      "title": "Dairy | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
+      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
+    },
+    {
+      "id": "ams-specialty:page-change",
+      "sourceId": "ams-specialty",
+      "title": "Specialty Crops | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
+      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
+    },
+    {
+      "id": "eia-energy:page-change",
+      "sourceId": "eia-energy",
+      "title": "Opendata - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/opendata/",
+      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usda-transport:page-change",
+      "sourceId": "usda-transport",
+      "title": "Grain Transportation Report | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.ams.usda.gov/services/transportation-analysis/gtr",
+      "scope": "Weekly truck, rail, barge and ocean context, not Watershed lane pricing"
+    },
+    {
+      "id": "panama:page-change",
+      "sourceId": "panama",
+      "title": "Maritime Services - Autoridad del Canal de Panamá",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://pancanal.com/en/maritime-services/",
+      "scope": "Transit capacity and restrictions; no assumed route"
+    },
+    {
+      "id": "fda-toddler:page-change",
+      "sourceId": "fda-toddler",
+      "title": "Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods",
+      "scope": "Product forms, age groups, state rules and guidance scope must be checked"
+    },
+    {
+      "id": "cbp:page-change",
+      "sourceId": "cbp",
+      "title": "Trade | U.S. Customs and Border Protection",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://www.cbp.gov/trade",
+      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
+    },
+    {
+      "id": "ustr:page-change",
+      "sourceId": "ustr",
+      "title": "Home | United States Trade Representative",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://ustr.gov/",
+      "scope": "Retaliation, import/export policy and official implementation details"
+    },
+    {
+      "id": "appa:page-change",
+      "sourceId": "appa",
+      "title": "Pet Industry Market Size, Trends &amp; Pet Industry Statistics from APPA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://americanpetproducts.org/industry-trends-and-stats",
+      "scope": "Annual estimates/projected value; not premium segment units"
+    },
+    {
+      "id": "plma:page-change",
+      "sourceId": "plma",
+      "title": "Private Label Manufacturers Association | PLMA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://plma.com/",
+      "scope": "Private label, retailer commentary; some data licensed"
+    },
+    {
+      "id": "ws-careers:page-change",
+      "sourceId": "ws-careers",
+      "title": "Careers",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Labor",
+      "sourceUrl": "https://watershedfoods.com/careers",
+      "scope": "Role/capability changes; vacancies alone do not establish shortage"
+    },
+    {
+      "id": "ws-about:page-change",
+      "sourceId": "ws-about",
+      "title": "About",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://watershedfoods.com/about",
+      "scope": "Leadership, scope and market changes; revalidate ownership claims quarterly"
+    },
+    {
+      "id": "topfox:page-change",
+      "sourceId": "topfox",
+      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://topfoxsnacks.com/",
+      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
+    },
+    {
+      "id": "pmmi:page-change",
+      "sourceId": "pmmi",
+      "title": "PMMI, The Association for Packaging and Processing Technologies",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.pmmi.org/",
+      "scope": "Robotics, machine vision, equipment and workforce developments"
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "cisa-ransom:page-change",
+      "sourceId": "cisa-ransom",
+      "title": "Stop Ransomware | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-17T15:40:47.365Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/stopransomware",
+      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
     }
   ],
-  "attempted": 13,
+  "attempted": 0,
   "remaining": 0,
-  "collectedAt": "2026-09-17T16:09:10.542Z",
+  "collectedAt": "2026-09-17T16:14:41.172Z",
   "history": [
     {
       "date": "2026-09-17",
-      "asOf": "2026-09-17T16:12:56.540Z",
+      "asOf": "2026-09-17T16:14:41.173Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -3358,7 +3358,164 @@
       "dateNote": "NWS issued 04:29 CDT on 17 September. Recheck within 24 hours; expiry prevents retaining this outlook as a standing condition."
     }
   ],
-  "baselineRevision": "2026-09-17-reviewed",
+  "forecasts": [
+    {
+      "id": "P01",
+      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
+      "probability": 0.55,
+      "horizon": "2026-10-12",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "eia-diesel"
+      ],
+      "indicators": [
+        "S01"
+      ],
+      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
+      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P02",
+      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
+      "probability": 0.6,
+      "horizon": "2026-10-09",
+      "resolutionDue": "2026-10-16",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "wasde-sep"
+      ],
+      "indicators": [
+        "S02"
+      ],
+      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
+      "rationale": "September forecast is below August, but the next revision is uncertain.",
+      "createdAt": "2026-09-17"
+    },
+    {
+      "id": "P03",
+      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
+      "probability": 0.55,
+      "horizon": "2027-03-31",
+      "resolutionDue": "2027-04-07",
+      "confidence": "Low",
+      "outcome": null,
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "indicators": [
+        "S05"
+      ],
+      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
+      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
+      "createdAt": "2026-09-17"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Higher dairy prices threaten yogurt-melt margins.",
+      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
+      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 45,
+      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
+      "falsification": "No material margin change across two sustained >10% input-price moves.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H2",
+      "title": "Premium pet spending increases demand for freeze-dried toppers.",
+      "evidenceFor": "Advertised toppers align with a substantial pet category.",
+      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
+      "sourceIds": [
+        "ws-capabilities",
+        "appa"
+      ],
+      "confidence": 45,
+      "indicators": "Segment units; launches; briefs; conversion to orders",
+      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H3",
+      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
+      "evidenceFor": "Fruit processing establishes a possible channel.",
+      "evidenceAgainst": "No key source region or inventory cover is verified.",
+      "sourceIds": [
+        "ws-capabilities"
+      ],
+      "confidence": 25,
+      "indicators": "Verified origin; drought; crop yield; contracted cover",
+      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H4",
+      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
+      "evidenceFor": "Announced popcorn transition and process growth.",
+      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
+      "sourceIds": [
+        "heartland-2026",
+        "deer-directory"
+      ],
+      "confidence": 60,
+      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
+      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H5",
+      "title": "Top Fox creates differentiated seed and roasting exposure.",
+      "evidenceFor": "Seed products and the brand’s farming origin are public.",
+      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
+      "sourceIds": [
+        "topfox",
+        "heartland-2026"
+      ],
+      "confidence": 65,
+      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
+      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    },
+    {
+      "id": "H6",
+      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
+      "evidenceFor": "Maintenance and engineering are public capabilities.",
+      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
+      "sourceIds": [
+        "ws-careers"
+      ],
+      "confidence": 40,
+      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
+      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
+      "outcome": "OPEN",
+      "failCount": 0,
+      "revision": 1,
+      "updatedAt": "2026-09-17"
+    }
+  ],
   "citations": [
     {
       "id": "ws-about",
@@ -3953,162 +4110,5 @@
       "reviewDue": "2026-09-24"
     }
   ],
-  "forecasts": [
-    {
-      "id": "P01",
-      "question": "Will Midwest on-highway diesel exceed $6.250/gal for the week of 12 October 2026?",
-      "probability": 0.55,
-      "horizon": "2026-10-12",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "eia-diesel"
-      ],
-      "indicators": [
-        "S01"
-      ],
-      "resolutionRule": "Use the first EIA release reporting the week of 2026-10-12; strict greater-than $6.250. Missing/delayed release stays unresolved.",
-      "rationale": "Recent benchmark momentum; no fitted forecasting model. Baseline judgment, not a commodity trade recommendation.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P02",
-      "question": "Will October WASDE project U.S. total-grain ending stocks below 65.03 Mt for 2026/27?",
-      "probability": 0.6,
-      "horizon": "2026-10-09",
-      "resolutionDue": "2026-10-16",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "wasde-sep"
-      ],
-      "indicators": [
-        "S02"
-      ],
-      "resolutionRule": "Compare the October 2026 WASDE 2026/27 U.S. total-grain ending-stocks forecast in million metric tons with 65.03. Do not substitute corn-only data.",
-      "rationale": "September forecast is below August, but the next revision is uncertain.",
-      "createdAt": "2026-09-17"
-    },
-    {
-      "id": "P03",
-      "question": "Will a primary public source confirm the Deer Creek equipment transition is operational by 31 March 2027?",
-      "probability": 0.55,
-      "horizon": "2027-03-31",
-      "resolutionDue": "2027-04-07",
-      "confidence": "Low",
-      "outcome": null,
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "indicators": [
-        "S05"
-      ],
-      "resolutionRule": "Outcome 1 requires a dated company/government statement explicitly confirming operational completion by the horizon. Outcome 0 is failure of public confirmation by the horizon, not proof the project failed.",
-      "rationale": "Announced intent and directory evidence support progress, but no commissioning record was found.",
-      "createdAt": "2026-09-17"
-    }
-  ],
-  "hypotheses": [
-    {
-      "id": "H1",
-      "title": "Higher dairy prices threaten yogurt-melt margins.",
-      "evidenceFor": "Advertised yogurt products create a plausible solids-cost channel.",
-      "evidenceAgainst": "Pass-through, contracted inputs and actual category contribution are unknown.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 45,
-      "indicators": "Milk/solids quotes; product contribution; pass-through lag",
-      "falsification": "No material margin change across two sustained >10% input-price moves.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H2",
-      "title": "Premium pet spending increases demand for freeze-dried toppers.",
-      "evidenceFor": "Advertised toppers align with a substantial pet category.",
-      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
-      "sourceIds": [
-        "ws-capabilities",
-        "appa"
-      ],
-      "confidence": 45,
-      "indicators": "Segment units; launches; briefs; conversion to orders",
-      "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H3",
-      "title": "Drought in a key fruit origin affects Watershed within 60 days.",
-      "evidenceFor": "Fruit processing establishes a possible channel.",
-      "evidenceAgainst": "No key source region or inventory cover is verified.",
-      "sourceIds": [
-        "ws-capabilities"
-      ],
-      "confidence": 25,
-      "indicators": "Verified origin; drought; crop yield; contracted cover",
-      "falsification": "Verified sourcing lies elsewhere or contracted supply/cover prevents a measurable 60-day effect.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H4",
-      "title": "Popcorn expansion adds corn, oils, cheese-powder, film and promotion exposures.",
-      "evidenceFor": "Announced popcorn transition and process growth.",
-      "evidenceAgainst": "Commissioning, actual formulas and customer terms remain unknown.",
-      "sourceIds": [
-        "heartland-2026",
-        "deer-directory"
-      ],
-      "confidence": 60,
-      "indicators": "Operating milestone; formulas; packaging specifications; retail promotion orders",
-      "falsification": "No production transition or relevant ingredients/formats in the confirmed portfolio.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H5",
-      "title": "Top Fox creates differentiated seed and roasting exposure.",
-      "evidenceFor": "Seed products and the brand’s farming origin are public.",
-      "evidenceAgainst": "Origins, owned vs bought inputs and manufacturing allocation are unknown.",
-      "sourceIds": [
-        "topfox",
-        "heartland-2026"
-      ],
-      "confidence": 65,
-      "indicators": "Food-grade seed harvest; origin concentration; roasting yield",
-      "falsification": "Verified production and input model has no incremental seed/roasting exposure.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    },
-    {
-      "id": "H6",
-      "title": "Automation lowers labor exposure but raises OT and specialized-maintenance dependency.",
-      "evidenceFor": "Maintenance and engineering are public capabilities.",
-      "evidenceAgainst": "Automation intensity and measured labor productivity are unknown.",
-      "sourceIds": [
-        "ws-careers"
-      ],
-      "confidence": 40,
-      "indicators": "Labor hours/unit; maintenance delays; software inventory; vendor dependency",
-      "falsification": "Automation adds no measurable labor saving or dependency after controlled comparison.",
-      "outcome": "OPEN",
-      "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
-    }
-  ]
+  "baselineRevision": "2026-09-17-reviewed"
 }
