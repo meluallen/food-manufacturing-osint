@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-18",
+  "completedAt": "2026-09-18T16:09:26.452Z",
+  "repositoryBase": "4a7d94aa50e7878f166feebc4799ee8ed9f53378",
+  "disposition": "GUIDANCE STABLE",
+  "changes": [
+    "S07 current outlook citation/date/expiry refreshed without changing guidance or factors.",
+    "FDA publication with unresolved initiation-date conflict and state labor release retained as unscored leads.",
+    "Undated EIA correction recorded as source-quality caveat, not a new event.",
+    "Monthly calibration baseline recorded with zero resolved forecasts and no estimated performance.",
+    "Daily report corrected to show real prior-day markers and suppress repeated first-day change text."
+  ],
+  "unchanged": [
+    "Company ground truth, A–I dossier, graph, facilities, ingredient/exposure model, source catalog and regulatory scope: no supported material new facts.",
+    "All seven factors, actions, triggers, directions and confidence across the 13 reviewed signals.",
+    "Hypothesis evidence/failure counts/history and original forecast probabilities/horizons/outcomes.",
+    "Private Site identity, audience, notes and published build."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-18T15:59:44.869Z",
+    "attempted": 12,
+    "states": [
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "wasde",
+        "status": "blocked"
+      },
+      {
+        "error": "fetch failed",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "fas",
+        "status": "error"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "bts",
+        "status": "blocked"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "usace",
+        "status": "blocked"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-18T15:59:44.869Z",
+        "sourceId": "marad",
+        "status": "blocked"
+      },
+      {
+        "error": "fetch failed",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "port-la",
+        "status": "error"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-18T15:59:44.869Z",
+        "sourceId": "fsis",
+        "status": "blocked"
+      },
+      {
+        "error": "HTTP 404",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "widatcp",
+        "status": "error"
+      },
+      {
+        "sourceId": "bls-ppi",
+        "status": "blocked",
+        "fetchedAt": "2026-09-17T17:46:10.663Z",
+        "error": "HTTP 403"
+      },
+      {
+        "sourceId": "bls-labor",
+        "status": "blocked",
+        "fetchedAt": "2026-09-17T17:46:10.675Z",
+        "error": "HTTP 403"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "dol",
+        "status": "blocked"
+      },
+      {
+        "error": "HTTP 403",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "sec",
+        "status": "blocked"
+      },
+      {
+        "error": "fetch failed",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "deer-creek",
+        "status": "error"
+      },
+      {
+        "error": "HTTP 502",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "flagstone",
+        "status": "error"
+      },
+      {
+        "error": "Payload exceeds 3 MB safety limit",
+        "fetchedAt": "2026-09-17T17:38:36.618Z",
+        "sourceId": "rockwell",
+        "status": "error"
+      },
+      {
+        "sourceId": "bls-peoria",
+        "status": "blocked",
+        "fetchedAt": "2026-09-17T17:46:28.575Z",
+        "error": "HTTP 403"
+      },
+      {
+        "sourceId": "bls-milwaukee",
+        "status": "blocked",
+        "fetchedAt": "2026-09-17T17:46:28.575Z",
+        "error": "HTTP 403"
+      }
+    ],
+    "candidateCount": 232,
+    "history": [
+      {
+        "date": "2026-09-17",
+        "asOf": "2026-09-17T22:53:02.546Z"
+      },
+      {
+        "date": "2026-09-18",
+        "asOf": "2026-09-18T16:07:53.904Z"
+      }
+    ],
+    "posture": "Elevated",
+    "observedScore": 47,
+    "coverage": {
+      "assessed": 11,
+      "total": 12
+    },
+    "sourceHealth": {
+      "Current": 57,
+      "Key required": 2,
+      "Blocked": 11,
+      "Fetch error": 6,
+      "Manual review": 7
+    },
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "Supply Chain",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S07",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "regression": "Second-day report uses a real prior-day snapshot and stable guidance.",
+    "publicOnly": true,
+    "noSeedRerun": true,
+    "siteBuildRequired": false
+  },
+  "reviewPath": "data/daily-observations/2026-09-18.json",
+  "calibrationPath": "data/calibration-reviews.json",
+  "siteSync": "Reviewed public feed updates automatically on opening/sync; no replacement or publication change."
+}

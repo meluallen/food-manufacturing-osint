@@ -1,0 +1,467 @@
+{
+  "date": "2026-09-18",
+  "reviewedAt": "2026-09-18",
+  "completedAt": "2026-09-18T16:07:35.521Z",
+  "executiveSummary": "Guidance is stable: provisional Elevated 47/100, with no supported change to the seven materiality factors or urgent safety/continuity override. Today's county-matched storm outlook refreshes S07. A newly published FDA soy-allergen announcement and August state labor release are contextual verification leads, not Watershed incidents or staffing findings.",
+  "baselineNote": "Only genuine 17 and 18 September snapshots are available; a two-day series is not a 30/90/365-day trend. Company exposure remains provisional and Cyber / OT remains unassessed.",
+  "observations": [
+    {
+      "id": "O-20260918-weather",
+      "title": "County-matched weather outlook refreshed; guidance stable",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Reviewed; existing S07 guidance unchanged",
+      "assessmentIds": [
+        "S07"
+      ],
+      "sourceIds": [
+        "nws-ilx-20260918"
+      ],
+      "observedAt": "2026-09-18",
+      "publishedAt": "2026-09-18T04:29:00-05:00",
+      "retrievedAt": "2026-09-18",
+      "eventWindow": {
+        "start": "2026-09-18",
+        "end": "2026-09-21"
+      },
+      "finding": "NWS retains isolated-storm and localized-flooding potential for McLean, Woodford and Tazewell counties, with some severe-storm potential Saturday, September 19.",
+      "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+      "sourceScope": "County-level outlook only; not a warning, actual route closure, facility damage or Wisconsin site match.",
+      "decision": "Refresh S07 evidence vintage and 24-hour expiry; retain seven factors, action, trigger and guidance revision.",
+      "expiresAt": "2026-09-19"
+    },
+    {
+      "id": "O-20260918-soy",
+      "title": "New FDA publication: undeclared soy in a seasoned snack",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored; Watershed applicability unverified",
+      "assessmentIds": [],
+      "sourceIds": [
+        "fda-soy-20260918"
+      ],
+      "observedAt": "2026-09-18",
+      "dateType": "FDA publication, not recall initiation",
+      "publishedAt": "2026-09-18",
+      "eventAt": null,
+      "companyAnnouncementAt": "2026-09-16",
+      "retrievedAt": "2026-09-18",
+      "finding": "FDA published Saratoga's J. HIGGS seasoned-potato-chip soy-allergen announcement. Its header dates the announcement September 16, 2026, while the body states recall initiation September 15, 2025; that inconsistency remains unresolved.",
+      "causalPath": "Seasoned-snack allergen/label mismatch mechanism → conditional relevance to baked, roasted or popped formulations → label/formula-control verification only if internally applicable.",
+      "sourceScope": "No Watershed manufacturer, ingredient, customer or supplier connection established. Publication is confirmed; initiation date is not. No company product hold or recall is inferred.",
+      "decision": "Retain as a verification lead for Quality, not an alert or score increase. Escalate only upon a verified ingredient/lot/product match or an applicable regulator direction.",
+      "impactDomains": [
+        "Quality / food safety",
+        "Regulatory"
+      ],
+      "direction": "Threat",
+      "confidence": "Low",
+      "timeToImpact": "Immediate",
+      "decisionOwners": [
+        "Quality / Food Safety"
+      ],
+      "expiresAt": "2026-09-25",
+      "factors": null
+    },
+    {
+      "id": "O-20260918-labor",
+      "title": "August state labor release adds context, not a company staffing signal",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored contextual update; S09 unchanged",
+      "assessmentIds": [],
+      "sourceIds": [
+        "bls-state-20260918",
+        "bls-state-table-20260918"
+      ],
+      "observedAt": "2026-09-18",
+      "publishedAt": "2026-09-18",
+      "referencePeriod": "2026-08",
+      "retrievedAt": "2026-09-18",
+      "finding": "Preliminary seasonally adjusted unemployment was 4.7% in Illinois (July 4.9%) and 3.2% in Wisconsin (July 3.3%). BLS does not identify either monthly rate change as statistically significant. Wisconsin total nonfarm payrolls rose 11,800 (+0.4%).",
+      "causalPath": "Regional labor-market conditions → possible recruiting competition → conditional staffing/cost exposure; company vacancy, retention and wage evidence absent.",
+      "sourceScope": "Statewide, all-industry context. Not manufacturing-only, plant headcount or local hiring results. Do not splice August state SA data into July metro NSA benchmarks.",
+      "decision": "Retain S09 factors and guidance. Await the September 30 August metro release and actual recruitment evidence before changing local staffing judgments.",
+      "impactDomains": [
+        "Labor"
+      ],
+      "direction": "Mixed",
+      "confidence": "Low",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "HR / Talent"
+      ],
+      "expiresAt": "2026-10-20",
+      "factors": null
+    },
+    {
+      "id": "O-20260918-energy-correction",
+      "title": "Undated EIA table correction is a source-vintage note, not a new shock",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Source-quality note; S01 and S13 unchanged",
+      "assessmentIds": [],
+      "sourceIds": [
+        "eia-steo-recheck-20260918"
+      ],
+      "observedAt": null,
+      "publishedAt": "2026-09-09",
+      "eventAt": null,
+      "retrievedAt": "2026-09-18",
+      "finding": "EIA's September outlook carries a correction notice for its distillate-crack-spread table. The correction date is not supplied. Existing S13 uses the qualitative distillate constraint scenario, not the corrected numerical spread.",
+      "causalPath": "Petroleum/distillate outlook → potential truck-fuel costs → conditional delivered-cost exposure already represented by the shared fuel-cost issue group.",
+      "sourceScope": "Agency forecast completed September 3, not a realized operational event. Discovery today cannot date the correction.",
+      "decision": "Record the correction caveat; do not create a new geopolitical event, duplicate the fuel signal, alter factors or resolve a forecast.",
+      "expiresAt": "2026-10-07"
+    }
+  ],
+  "reviewNotes": [
+    {
+      "lens": "Intelligence analysis",
+      "challenge": "Separate publication, initiation and retrieval dates; corroborate company applicability.",
+      "revision": "Preserved the FDA 2025/2026 date conflict. No named company relationship added. Undated EIA correction is not a new event."
+    },
+    {
+      "lens": "Operations research",
+      "challenge": "Avoid score rescaling, correlated fuel double-counting and false precision.",
+      "revision": "All seven factors retained for all 13 signals. Max aggregation and the shared S01/S13 issue group remain; monthly review reports zero resolved sample, not predictive accuracy."
+    },
+    {
+      "lens": "Supply chain management",
+      "challenge": "Do public alerts establish actual lanes, purchasing or common suppliers?",
+      "revision": "No route or sourcing match established. Statewide weather candidates and external recalls stay separate from company exposure; no nominal vendor count interpreted as redundancy."
+    },
+    {
+      "lens": "Industrial engineering",
+      "challenge": "Distinguish advertised processes and announced expansion from commissioned plant equipment/capacity.",
+      "revision": "No new commissioning evidence established for Deer Creek; Wisconsin remains region-only. No installed machinery, utility supplier or throughput inferred."
+    },
+    {
+      "lens": "Food science / quality",
+      "challenge": "Does an external allergen announcement warrant company-specific intervention?",
+      "revision": "No verified product, ingredient or lot match. Retain a verification lead without recommending a hold or implying a Watershed recall."
+    },
+    {
+      "lens": "Information security analysis",
+      "challenge": "Do generic vulnerabilities and current retrieval gaps demonstrate installed-asset applicability?",
+      "revision": "No installed technology evidence or matched incident. CISA manual-check access failure is a review gap; Cyber / OT stays null."
+    },
+    {
+      "lens": "Emergency management / continuity",
+      "challenge": "Are warnings correctly geocoded and operationally relevant?",
+      "revision": "Use NWS Illinois county/zone matches; do not confuse McLean Kentucky with McLean Illinois. Beach hazards and distant county watches do not establish plant disruption. No verified condition activates the separate urgent override."
+    }
+  ],
+  "factorReview": [
+    {
+      "signalId": "S01",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 75,
+        "severity": 70,
+        "confidence": 70,
+        "persistence": 70,
+        "velocity": 80,
+        "dependency": 80,
+        "substitutability": 35
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-09-24"
+    },
+    {
+      "signalId": "S02",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 45,
+        "severity": 55,
+        "confidence": 45,
+        "persistence": 80,
+        "velocity": 45,
+        "dependency": 55,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-12"
+    },
+    {
+      "signalId": "S03",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 55,
+        "severity": 65,
+        "confidence": 65,
+        "persistence": 90,
+        "velocity": 25,
+        "dependency": 70,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-17"
+    },
+    {
+      "signalId": "S04",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 70,
+        "severity": 60,
+        "confidence": 45,
+        "persistence": 85,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-12-17"
+    },
+    {
+      "signalId": "S05",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 70,
+        "severity": 65,
+        "confidence": 60,
+        "persistence": 85,
+        "velocity": 40,
+        "dependency": 75,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-17"
+    },
+    {
+      "signalId": "S06",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 70,
+        "severity": 70,
+        "confidence": 85,
+        "persistence": 90,
+        "velocity": 20,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-12-17"
+    },
+    {
+      "signalId": "S07",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 85,
+        "severity": 55,
+        "confidence": 80,
+        "persistence": 40,
+        "velocity": 80,
+        "dependency": 70,
+        "substitutability": 70
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-09-19"
+    },
+    {
+      "signalId": "S08",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 60,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 50,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S09",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 65,
+        "severity": 45,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S10",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 80,
+        "severity": 60,
+        "confidence": 65,
+        "persistence": 80,
+        "velocity": 35,
+        "dependency": 90,
+        "substitutability": 40
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-09-25"
+    },
+    {
+      "signalId": "S11",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 65,
+        "severity": 55,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S12",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 50,
+        "severity": 40,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 50,
+        "substitutability": 70
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-09-24"
+    },
+    {
+      "signalId": "S13",
+      "reviewedAt": "2026-09-18",
+      "factors": {
+        "exposure": 65,
+        "severity": 70,
+        "confidence": 60,
+        "persistence": 80,
+        "velocity": 65,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+      "scopeLimitation": "Judgment review is not new source publication or measured company exposure. Existing expiry, impact domains, direction, confidence, owner, action and trigger retained except the documented S07 freshness renewal.",
+      "expiresAt": "2026-10-07"
+    }
+  ],
+  "hypothesisReview": {
+    "reviewedAt": "2026-09-18",
+    "ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "disposition": "No new measured company outcome or sourcing/capacity evidence supports changing confidence, evidence balance or failure count. Existing falsification criteria and history retained. Missing evidence is not a failed prediction.",
+    "downgradeAfterFailures": 2,
+    "retireAfterFailures": 3
+  },
+  "forecastReview": {
+    "reviewedAt": "2026-09-18",
+    "ids": [
+      "P01",
+      "P02",
+      "P03"
+    ],
+    "disposition": "All measurement windows remain open. Original probabilities, horizons, outcomes and resolution rules unchanged; no Brier performance claim.",
+    "resolvedSampleSize": 0
+  },
+  "manualChecks": [
+    {
+      "sourceId": "eia-diesel",
+      "retrievedAt": "2026-09-18",
+      "publicationAt": "2026-09-15",
+      "referenceAt": "2026-09-14",
+      "result": "Same Midwest diesel benchmark $6.250/gal; next indicated release September 22. Not a new price observation."
+    },
+    {
+      "sourceId": "eia-industrial",
+      "retrievedAt": "2026-09-18",
+      "referencePeriod": "2026-06",
+      "result": "June industrial-rate table remains the current observed vintage; no Watershed tariff/bill inferred."
+    },
+    {
+      "sourceId": "bls-ppi",
+      "retrievedAt": "2026-09-18",
+      "referencePeriod": "2026-08",
+      "result": "August PPI table remains available manually; automated endpoint remains blocked. Packaging subseries must not replace the 09-14 aggregate."
+    },
+    {
+      "sourceId": "fda-trace",
+      "retrievedAt": "2026-09-18",
+      "result": "No newly verified scope/deadline change. Proposed extension and congressional non-enforcement timing remain distinct from a final rule amendment."
+    },
+    {
+      "sourceId": "ws-careers",
+      "retrievedAt": "2026-09-18",
+      "publicationAt": null,
+      "result": "Same Illinois and greater-Milwaukee capability descriptions; no exact Wisconsin site, installed assets or headcount established."
+    },
+    {
+      "sourceId": "heartland-2026",
+      "retrievedAt": "2026-09-18",
+      "publicationAt": "2026-01-06",
+      "result": "Dated announcement remains an announcement; no commissioning milestone verified."
+    },
+    {
+      "sourceId": "thrive",
+      "retrievedAt": "2026-09-18",
+      "publicationAt": null,
+      "result": "Homepage read did not establish a newly dated capacity milestone; not an exhaustive competitor search."
+    },
+    {
+      "url": "https://droughtmonitor.unl.edu/CurrentMap.aspx",
+      "retrievedAt": "2026-09-18",
+      "publicationAt": "2026-09-17",
+      "result": "Current release date verified; no verified Watershed ingredient origin permits a company drought exposure claim."
+    }
+  ],
+  "reviewGaps": [
+    "CISA ICS/catalog/JSON manual web checks were inaccessible; no fresh asset-applicability conclusion.",
+    "General Mills investor release index returned navigation rather than a usable current list; absence of a new release is not established.",
+    "USDA September WASDE text was inaccessible in today's manual check; retained dated evidence is not represented as newly retrieved.",
+    "Seventeen automated endpoints remain blocked/error; nine catalog sources require manual review or keys. Only 12 due sources were attempted; inherited failure dates are retained.",
+    "No corroborated replacement endpoint was found; no source catalog repair claimed."
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-09-18T16:07:35.521Z",
+      "disposition": "Completed public-evidence review; factors and executive guidance stable",
+      "note": "Fresh weather vintage and unscored FDA/BLS findings recorded; source failures remain explicit.",
+      "recordPath": "data/runs/2026-09-18-review.json"
+    }
+  ]
+}

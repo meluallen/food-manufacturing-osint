@@ -1,7 +1,53 @@
 {
   "modelVersion": "1.0.0",
-  "reviews": [],
+  "reviews": [
+    {
+      "reviewDate": "2026-09-18",
+      "reviewType": "Monthly baseline / no resolved outcomes",
+      "resolvedSampleSize": 0,
+      "brier": null,
+      "falsePositives": null,
+      "falseNegatives": null,
+      "missedConfirmedEvents": null,
+      "staleIndicators": [],
+      "sourceConcentration": {
+        "method": "Count of reviewed signals referencing each hostname; multi-source signals can count toward multiple hosts. Not weights or probabilities.",
+        "counts": {
+          "www.eia.gov": 3,
+          "www.usda.gov": 1,
+          "www.fda.gov": 2,
+          "americanpetproducts.org": 1,
+          "watershedfoods.com": 5,
+          "www.deercreekillinois.org": 1,
+          "www.foodbusinessnews.net": 1,
+          "forecast.weather.gov": 1,
+          "www.bls.gov": 3,
+          "api.bls.gov": 1,
+          "investors.generalmills.com": 1
+        }
+      },
+      "overweightedSources": "Not empirically estimable. S01 and S13 share EIA/fuel dependence and are not additive.",
+      "underweightedSignals": "Not empirically estimable. Cyber/OT remains unassessed; failed endpoints are coverage gaps, not zero-risk findings.",
+      "modelChanges": [],
+      "rationale": "No measurement window has closed. No empirical recalibration is justified. Reviewed expiry dates; S07 refreshed from today's dated NWS outlook. Zero stale eligible signals is not proof of complete coverage or no missed events.",
+      "nextReview": "2026-10-18"
+    }
+  ],
   "reviewCadence": "Monthly and after a material miss",
-  "fields": ["reviewDate", "resolvedSampleSize", "brier", "falsePositives", "falseNegatives", "missedConfirmedEvents", "staleIndicators", "sourceConcentration", "overweightedSources", "underweightedSignals", "modelChanges", "rationale", "nextReview"],
+  "fields": [
+    "reviewDate",
+    "resolvedSampleSize",
+    "brier",
+    "falsePositives",
+    "falseNegatives",
+    "missedConfirmedEvents",
+    "staleIndicators",
+    "sourceConcentration",
+    "overweightedSources",
+    "underweightedSignals",
+    "modelChanges",
+    "rationale",
+    "nextReview"
+  ],
   "baselineLimitation": "No resolved forecasts yet; no empirical calibration claimed."
 }

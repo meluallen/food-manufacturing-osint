@@ -334,5 +334,60 @@
     "kind": "OpenStreetMap",
     "retrievedAt": "2026-09-17",
     "limitation": "Town/city reference coordinates, not facility coordinates. Individual OSM object links are in data/osm-context.json."
+  },
+  {
+    "retrievedAt": "2026-09-18",
+    "evidenceClass": "CONFIRMED",
+    "id": "nws-ilx-20260918",
+    "title": "NWS Lincoln: 18 September 2026 hazardous weather outlook",
+    "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "kind": "Government",
+    "publishedAt": "2026-09-18T04:29:00-05:00",
+    "limitation": "Rolling outlook, not a warning or facility impact. Includes McLean, Woodford and Tazewell counties; 18 September isolated storms and 19 September severe-storm potential."
+  },
+  {
+    "retrievedAt": "2026-09-18",
+    "evidenceClass": "CONFIRMED",
+    "id": "fda-soy-20260918",
+    "title": "FDA-posted Saratoga Potato Chips undeclared-soy announcement",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saratoga-potato-chips-issues-allergy-alert-undeclared-soy-j-higgs-loaded-bacon-and-cheddar-potato",
+    "kind": "Regulator / company announcement",
+    "publishedAt": "2026-09-18",
+    "eventAt": null,
+    "companyAnnouncementAt": "2026-09-16",
+    "limitation": "No Watershed link established. Header announcement/publication dates are 2026; body states initiation September 15, 2025. Initiation date remains unresolved; do not silently correct or treat retrieval as initiation."
+  },
+  {
+    "retrievedAt": "2026-09-18",
+    "evidenceClass": "CONFIRMED",
+    "id": "bls-state-20260918",
+    "title": "BLS August 2026 state employment and unemployment release",
+    "url": "https://www.bls.gov/news.release/laus.nr0.htm",
+    "kind": "Government",
+    "publishedAt": "2026-09-18",
+    "referencePeriod": "2026-08",
+    "limitation": "Statewide preliminary seasonally adjusted estimates; not manufacturing-only or Watershed staffing. IL/WI monthly unemployment changes are not identified as statistically significant."
+  },
+  {
+    "retrievedAt": "2026-09-18",
+    "evidenceClass": "CONFIRMED",
+    "id": "bls-state-table-20260918",
+    "title": "BLS August 2026 state unemployment table 1",
+    "url": "https://www.bls.gov/news.release/laus.t01.htm",
+    "kind": "Government",
+    "publishedAt": "2026-09-18",
+    "referencePeriod": "2026-08",
+    "limitation": "Statewide residence-based, seasonally adjusted, preliminary August estimates. Do not splice into July non-seasonally-adjusted metro series."
+  },
+  {
+    "retrievedAt": "2026-09-18",
+    "evidenceClass": "CONFIRMED",
+    "id": "eia-steo-recheck-20260918",
+    "title": "EIA September STEO and undated correction notice, rechecked 18 September",
+    "url": "https://www.eia.gov/outlooks/steo/",
+    "kind": "Government",
+    "publishedAt": "2026-09-09",
+    "correctionPublishedAt": null,
+    "limitation": "Forecast completed September 3. Distillate-crack-spread table correction is visible, but correction date is unknown. Not a new September 18 geopolitical event or realized outcome."
   }
 ]
