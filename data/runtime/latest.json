@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-19T14:29:18.381Z",
-      "hash": "2d74b014fb194a0aa7898f2a9de0ca7e4db38f6755b9c1f624d02b1d297d60e2",
-      "etag": "W/\"3a0f2fac192cb9e403a6477ac30cf638:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 10,
+      "fetchedAt": "2026-09-19T17:06:34.175Z",
+      "hash": "9b73fa0c70a0a97e685c7b031f781b5ad13580ffc322c2a00595237e95fe8bbf",
+      "etag": "W/\"f466d27208ce8ecf2e55f6ba7354c4b9:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 14,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-19T14:29:18.381Z",
-      "hash": "7cf3a6ed5bd8e02c692890fc80eaf87278e8e63b5c4ae1ee789168ee9c63279c",
-      "etag": "W/\"39e06de8e6c6f0830d79fe4dfdffcb0f:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 6,
+      "fetchedAt": "2026-09-19T17:06:34.175Z",
+      "hash": "58a46216a746864f34a0886cfc80e046698ccce3aad8af0a362bdf050e711b27",
+      "etag": "W/\"7533bcb78118902764ff6ce583bbc064:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 10,
       "changed": true
     },
     {
@@ -627,54 +627,12 @@
   ],
   "candidates": [
     {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-19T17:04:29.527Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.f25644787aeb2b94f247e97865c0949d6a94e4f9.001.1",
-      "sourceId": "nws-il",
-      "title": "Flash Flood Warning issued September 19 at 5:54AM CDT until September 19 at 10:15AM CDT by NWS Quad Cities IA IL",
-      "summary": "Dubuque, IA; Jackson, IA; Jo Daviess, IL; Stephenson, IL: At 554 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen with the heaviest amounts occurring in central Jo Daviess county between Schapville and Woodbine. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Dubuque, Freeport, Galena, Asbury, Dyersville, Lena, Bellevue, Cascade, Stockton, Epworth, East Dubuque, Farley, Warren, Peosta, H",
-      "observedAt": "2026-09-19T05:54:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T10:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019061",
-          "019097",
-          "017085",
-          "017177"
-        ],
-        "UGC": [
-          "IAC061",
-          "IAC097",
-          "ILC085",
-          "ILC177"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.d502b7e1c66885740c65c0bd10825e8f2aea0ad4.001.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 19 at 4:15AM CDT until September 19 at 8:00PM CDT by NWS St Louis MO",
       "summary": "Bond; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Moniteau; Cole; Osage; Gasconade; Warren; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Heat index values up to 101. * WHERE...Portions of south central and southwest Illinois and central, east central, and southeast Missouri. * WHEN...Until 8 PM CDT this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-19T04:15:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -735,6 +693,824 @@
           "MOZ084",
           "MOZ085",
           "MOZ099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.e5b038027c8cac932d2621e6afd3d79cb9760b94.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 19 at 5:03AM CDT until September 19 at 9:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From 10 AM CDT this morning through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-19T05:03:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T21:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.62f3f073c2a677996d3ce775a39a520cd0cbd677.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 19 at 3:15AM CDT until September 19 at 10:00PM CDT by NWS Green Bay WI",
+      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...Through this evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
+      "observedAt": "2026-09-19T03:15:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T17:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d116809d80eb1d476a4aaa818bf155c25a9d2b84.002.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 19 at 9:22AM CDT until September 19 at 3:00PM CDT by NWS Chicago IL",
+      "summary": "Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 6 ft expected. * WHERE...Northern Cook and Central Cook Counties. * WHEN...Until 3 PM CDT this afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-19T09:22:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T15:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d116809d80eb1d476a4aaa818bf155c25a9d2b84.001.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 19 at 9:22AM CDT until September 19 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 6 ft expected. * WHERE...Lake County IL. * WHEN...Until 7 PM CDT this evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-19T09:22:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T17:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ad451546fb09ecca4c401957b4be91891ec63ac1.002.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 8:58AM CDT until September 20 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Iowa; Dane; Jefferson; Waukesha; Milwaukee; Lafayette; Green; Rock; Walworth; Racine; Kenosha: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of south central and southeast Wisconsin, including the following counties, in south central Wisconsin, Dane, Green, Iowa, Lafayette and Rock. In southeast Wisconsin, Jefferson, Kenosha, Milwaukee, Racine, Walworth and Waukesha. * WHEN...Through Sunday morning. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. * ADDITIONAL DETAILS... - Newest guidance is suggestive of moderate to heavy rain with potential for storms later tonight into Sunday morning. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T08:58:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T17:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055049",
+          "055025",
+          "055055",
+          "055133",
+          "055079",
+          "055065",
+          "055045",
+          "055105",
+          "055127",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ062",
+          "WIZ063",
+          "WIZ064",
+          "WIZ065",
+          "WIZ066",
+          "WIZ067",
+          "WIZ068",
+          "WIZ069",
+          "WIZ070",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.98ed9e7474e148ad0b514b74630abfc6bb33230e.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 11:36AM CDT until September 20 at 7:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Buchanan; Delaware; Dubuque; Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Muscatine; Scott; Washington; Louisa; Jo Daviess; Stephenson; Carroll; Whiteside; Rock Island; Mercer: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of northwest Illinois, including the following counties, Carroll, Jo Daviess, Mercer, Rock Island, Stephenson and Whiteside and Iowa, including the following counties, Benton, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Johnson, Jones, Linn, Louisa, Muscatine, Scott and Washington. * WHEN...Through Sunday morning. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Widespread showers and stor",
+      "observedAt": "2026-09-19T11:36:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T07:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019019",
+          "019055",
+          "019061",
+          "019011",
+          "019113",
+          "019105",
+          "019097",
+          "019095",
+          "019103",
+          "019031",
+          "019045",
+          "019139",
+          "019163",
+          "019183",
+          "019115",
+          "017085",
+          "017177",
+          "017015",
+          "017195",
+          "017161",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ040",
+          "IAZ041",
+          "IAZ042",
+          "IAZ051",
+          "IAZ052",
+          "IAZ053",
+          "IAZ054",
+          "IAZ063",
+          "IAZ064",
+          "IAZ065",
+          "IAZ066",
+          "IAZ067",
+          "IAZ068",
+          "IAZ077",
+          "IAZ078",
+          "ILZ001",
+          "ILZ002",
+          "ILZ007",
+          "ILZ009",
+          "ILZ015",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.cae5ec79914e610b53719c596cc2a6100ee1c665.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:34AM CDT until September 20 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Boone; Lake; Ogle; Lee; De Kalb; Kane; DuPage; Kendall; Northern Cook; Central Cook; Southern Cook; Northern Will; Lake; Porter: * WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Illinois, including the following areas, Boone, Central Cook, De Kalb, DuPage, Kane, Kendall, Lake IL, Lee, Northern Cook, Northern Will, Ogle and Southern Cook and northwest Indiana, including the following areas, Lake IN and Porter. * WHEN...Through early Sunday morning. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Roads and streets may be flooded. * ADDITIONAL DETAILS... - An additional round of showers and thunderstorms, some with very heavy rainfall, are expected this evening and overnight which may result in areas of flash flooding, particu",
+      "observedAt": "2026-09-19T10:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T18:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017007",
+          "017097",
+          "017141",
+          "017103",
+          "017037",
+          "017089",
+          "017043",
+          "017093",
+          "017031",
+          "017197",
+          "018089",
+          "018127"
+        ],
+        "UGC": [
+          "ILZ004",
+          "ILZ006",
+          "ILZ008",
+          "ILZ010",
+          "ILZ011",
+          "ILZ012",
+          "ILZ013",
+          "ILZ020",
+          "ILZ103",
+          "ILZ104",
+          "ILZ105",
+          "ILZ106",
+          "INZ001",
+          "INZ002"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.cae5ec79914e610b53719c596cc2a6100ee1c665.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:34AM CDT until September 20 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Winnebago; McHenry: * WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of north central and northeast Illinois, including the following counties, in north central Illinois, Winnebago. In northeast Illinois, McHenry. * WHEN...Through early Sunday morning. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Roads and streets may be flooded. * ADDITIONAL DETAILS... - An additional round of showers and thunderstorms, some with very heavy rainfall, are expected this evening and overnight which may result in areas of flash flooding, particularly over urban or areas of poor drainage. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T10:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T18:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017201",
+          "017111"
+        ],
+        "UGC": [
+          "ILZ003",
+          "ILZ005"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9ee7f8c9e3c533adb6a68bf04c5b11ff255c2621.001.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 19 at 10:19AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
+      "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Peak Heat Index values up to around 100 degrees this weekend. * WHERE...All of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ Sunday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses. * ADDITIONAL DETAILS...The Heat Advis",
+      "observedAt": "2026-09-19T10:19:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T04:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017081",
+          "017191",
+          "017047",
+          "017185",
+          "017145",
+          "017055",
+          "017065",
+          "017193",
+          "017077",
+          "017199",
+          "017165",
+          "017059",
+          "017181",
+          "017087",
+          "017151",
+          "017069",
+          "017003",
+          "017153",
+          "017127",
+          "018051",
+          "018125",
+          "018129",
+          "018163",
+          "018173",
+          "018147",
+          "021075",
+          "021105",
+          "021039",
+          "021007",
+          "021145",
+          "021083",
+          "021139",
+          "021157",
+          "021035",
+          "021055",
+          "021143",
+          "021221",
+          "021033",
+          "021225",
+          "021233",
+          "021107",
+          "021047",
+          "021101",
+          "021059",
+          "021149",
+          "021177",
+          "021219",
+          "029157",
+          "029017",
+          "029031",
+          "029223",
+          "029035",
+          "029181",
+          "029023",
+          "029207",
+          "029201",
+          "029133",
+          "029143"
+        ],
+        "UGC": [
+          "ILZ075",
+          "ILZ076",
+          "ILZ077",
+          "ILZ078",
+          "ILZ080",
+          "ILZ081",
+          "ILZ082",
+          "ILZ083",
+          "ILZ084",
+          "ILZ085",
+          "ILZ086",
+          "ILZ087",
+          "ILZ088",
+          "ILZ089",
+          "ILZ090",
+          "ILZ091",
+          "ILZ092",
+          "ILZ093",
+          "ILZ094",
+          "INZ081",
+          "INZ082",
+          "INZ085",
+          "INZ086",
+          "INZ087",
+          "INZ088",
+          "KYZ001",
+          "KYZ002",
+          "KYZ003",
+          "KYZ004",
+          "KYZ005",
+          "KYZ006",
+          "KYZ007",
+          "KYZ008",
+          "KYZ009",
+          "KYZ010",
+          "KYZ011",
+          "KYZ012",
+          "KYZ013",
+          "KYZ014",
+          "KYZ015",
+          "KYZ016",
+          "KYZ017",
+          "KYZ018",
+          "KYZ019",
+          "KYZ020",
+          "KYZ021",
+          "KYZ022",
+          "MOZ076",
+          "MOZ086",
+          "MOZ087",
+          "MOZ100",
+          "MOZ107",
+          "MOZ108",
+          "MOZ109",
+          "MOZ110",
+          "MOZ111",
+          "MOZ112",
+          "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a09c9b21cf0177f8e36571499aa3f5764017e97b.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:41AM CDT until September 24 at 9:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Rock Island; Henry: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois... Rock River near Joslin affecting Henry IL, Rock Island and Whiteside zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River at Moline. * WHEN...From Tuesday evening to Thursday evening. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 9.0 feet and steady. - Forecast...Flood stage may be reached late Tuesday evening. - Flood stage is 12.0 feet.",
+      "observedAt": "2026-09-19T09:41:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T09:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017161",
+          "017073"
+        ],
+        "UGC": [
+          "ILZ015",
+          "ILZ016"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a09c9b21cf0177f8e36571499aa3f5764017e97b.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:41AM CDT until September 25 at 3:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Whiteside; Rock Island; Henry: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois... Rock River near Joslin affecting Henry IL, Rock Island and Whiteside zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River near Joslin. * WHEN...From late Monday night to late Thursday night. * ADDITIONAL DETAILS... - At 8:45 AM CDT Saturday the stage was 5.8 feet and steady. - Forecast...Flood stage may be reached early Tuesday morning. - Flood stage is 12.0 feet.",
+      "observedAt": "2026-09-19T09:41:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T09:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017195",
+          "017161",
+          "017073"
+        ],
+        "UGC": [
+          "ILZ009",
+          "ILZ015",
+          "ILZ016"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:38AM CDT until September 22 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Central Cook: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending o",
+      "observedAt": "2026-09-19T09:38:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:38AM CDT by NWS Chicago IL",
+      "summary": "Northern Cook; Central Cook: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the ba",
+      "observedAt": "2026-09-19T09:38:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:38AM CDT by NWS Chicago IL",
+      "summary": "Lake; Northern Cook: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depe",
+      "observedAt": "2026-09-19T09:38:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:38AM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ul",
+      "observedAt": "2026-09-19T09:38:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:38AM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ul",
+      "observedAt": "2026-09-19T09:38:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.a9895fe777ef8aee26b3f6e21e3fd5f23efdeaeb.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 19 at 11:47AM CDT until September 22 at 7:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 4 to 8 feet and dangerous currents are expected. * WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha Counties. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-19T11:47:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T20:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055089",
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ060",
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.efff5b9c7b749b568213196484324339913bd09a.002.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 11:03AM CDT until September 19 at 1:00PM CDT by NWS La Crosse WI",
+      "summary": "Mitchell; Howard; Winneshiek; Allamakee; Floyd; Chickasaw; Mower; Fillmore; Houston; Vernon: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Iowa, including the following counties, Allamakee, Chickasaw, Floyd, Howard, Mitchell and Winneshiek, southeast Minnesota, including the following counties, Fillmore, Houston and Mower, and southwest Wisconsin, including the following county, Vernon. * WHEN...Until 1 PM CDT this afternoon. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Widespread rain will continue through today with additional rainfall amounts of up to 2 inches possible. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T11:03:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T13:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019131",
+          "019089",
+          "019191",
+          "019005",
+          "019067",
+          "019037",
+          "027099",
+          "027045",
+          "027055",
+          "055123"
+        ],
+        "UGC": [
+          "IAZ008",
+          "IAZ009",
+          "IAZ010",
+          "IAZ011",
+          "IAZ018",
+          "IAZ019",
+          "MNZ094",
+          "MNZ095",
+          "MNZ096",
+          "WIZ053"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.efff5b9c7b749b568213196484324339913bd09a.003.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 11:03AM CDT until September 19 at 7:00PM CDT by NWS La Crosse WI",
+      "summary": "Clayton; Crawford; Richland; Grant: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of northeast Iowa, including the following county, Clayton and southwest Wisconsin, including the following counties, Crawford, Grant and Richland. * WHEN...Until 7 PM CDT this evening. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. * ADDITIONAL DETAILS... - Widespread rainfall overnight has resulted in saturated ground over much of the region. Additional heavy rainfall with any storms this afternoon may result in rainfall totals as high as 2 to 4 inches which may lead to flooding. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T11:03:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T19:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019043",
+          "055023",
+          "055103",
+          "055043"
+        ],
+        "UGC": [
+          "IAZ030",
+          "WIZ054",
+          "WIZ055",
+          "WIZ061"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.03bcbd24e86b501a9c3e74d221b6b448385aadbf.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 9:34AM CDT until September 21 at 7:00PM CDT by NWS La Crosse WI",
+      "summary": "Crawford: ...The National Weather Service in La Crosse has issued a Flood Watch for the following rivers in Wisconsin... Kickapoo River at Soldiers Grove affecting Crawford County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Flooding is possible. * WHERE...Kickapoo River at Soldiers Grove. * WHEN...From Monday morning to Monday evening. * ADDITIONAL DETAILS... - At 8:43 AM CDT Saturday the stage was 7.3 feet. - Forecast...Flood stage may be reached Monday morning. - Flood stage is 13.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T09:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T00:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055023"
+        ],
+        "UGC": [
+          "WIZ054"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.003.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 22 at 5:00AM CDT by NWS La Crosse WI",
+      "summary": "Vernon, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Readstown. * WHEN...From late tonight to late Monday night. * IMPACTS...At 12.0 feet, The park along the river experiences significant flooding. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage late tonight to a crest of 11.5 feet tomorrow evening.",
+      "observedAt": "2026-09-19T09:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T00:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055123"
+        ],
+        "UGC": [
+          "WIC123"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 23 at 2:00PM CDT by NWS La Crosse WI",
+      "summary": "Crawford, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Gays Mills. * WHEN...From this morning to Wednesday afternoon. * IMPACTS...At 13.0 feet, Water begins to cover roads near the river, including Sand Hill Road near Bell Center. Minor flooding occurs in areas adjacent to the river, including Robb Park in Gays Mills. * ADDITIONAL DETAILS... - At 8:00 AM CDT Saturday the stage was 12.8 feet. - Bankfull",
+      "observedAt": "2026-09-19T09:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T00:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055023"
+        ],
+        "UGC": [
+          "WIC023"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.002.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 24 at 3:00AM CDT by NWS La Crosse WI",
+      "summary": "Crawford, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Steuben. * WHEN...From late tonight to late Wednesday night. * IMPACTS...At 12.5 feet, Water reaches the bottom support beams of the bridge. * ADDITIONAL DETAILS... - At 8:45 AM CDT Saturday the stage was 8.9 feet. - Bankfull stage is 10.0 feet. - Forecast...The river will rise above flood stage late tonight to 12.3 feet early Monday morning. It wi",
+      "observedAt": "2026-09-19T09:34:00-05:00",
+      "retrievedAt": "2026-09-19T17:06:34.175Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T00:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055023"
+        ],
+        "UGC": [
+          "WIC023"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-19T17:04:29.527Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f25644787aeb2b94f247e97865c0949d6a94e4f9.001.1",
+      "sourceId": "nws-il",
+      "title": "Flash Flood Warning issued September 19 at 5:54AM CDT until September 19 at 10:15AM CDT by NWS Quad Cities IA IL",
+      "summary": "Dubuque, IA; Jackson, IA; Jo Daviess, IL; Stephenson, IL: At 554 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 3 inches of rain have fallen with the heaviest amounts occurring in central Jo Daviess county between Schapville and Woodbine. Additional rainfall amounts of 1 to 2 inches are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Dubuque, Freeport, Galena, Asbury, Dyersville, Lena, Bellevue, Cascade, Stockton, Epworth, East Dubuque, Farley, Warren, Peosta, H",
+      "observedAt": "2026-09-19T05:54:00-05:00",
+      "retrievedAt": "2026-09-19T14:29:18.381Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T10:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019061",
+          "019097",
+          "017085",
+          "017177"
+        ],
+        "UGC": [
+          "IAC061",
+          "IAC097",
+          "ILC085",
+          "ILC177"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1021,32 +1797,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.e5b038027c8cac932d2621e6afd3d79cb9760b94.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 19 at 5:03AM CDT until September 19 at 9:00PM CDT by NWS Duluth MN",
-      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From 10 AM CDT this morning through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
-      "observedAt": "2026-09-19T05:03:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-19T21:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "027017",
-          "027137",
-          "055031"
-        ],
-        "UGC": [
-          "MNZ037",
-          "WIZ001"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.a2efe8192dd5ed45488dbec407ed5a389115267f.002.1",
       "sourceId": "nws-wi",
       "title": "Flood Watch issued September 19 at 4:10AM CDT until September 19 at 1:00PM CDT by NWS La Crosse WI",
@@ -1150,31 +1900,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.62f3f073c2a677996d3ce775a39a520cd0cbd677.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 19 at 3:15AM CDT until September 19 at 10:00PM CDT by NWS Green Bay WI",
-      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...Through this evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
-      "observedAt": "2026-09-19T03:15:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-19T17:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055061",
-          "055071"
-        ],
-        "UGC": [
-          "WIZ040",
-          "WIZ050"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "Midcontinent Independent System Operator (MISO)",
@@ -1201,53 +1926,6 @@
       "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d116809d80eb1d476a4aaa818bf155c25a9d2b84.002.1",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 19 at 9:22AM CDT until September 19 at 3:00PM CDT by NWS Chicago IL",
-      "summary": "Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 6 ft expected. * WHERE...Northern Cook and Central Cook Counties. * WHEN...Until 3 PM CDT this afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-19T09:22:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T15:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017031"
-        ],
-        "UGC": [
-          "ILZ103",
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d116809d80eb1d476a4aaa818bf155c25a9d2b84.001.1",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 19 at 9:22AM CDT until September 19 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 6 ft expected. * WHERE...Lake County IL. * WHEN...Until 7 PM CDT this evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-19T09:22:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T17:30:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.110dab712814e6d68f82d9df3d7951aa694f569b.001.1",
       "sourceId": "nws-il",
       "title": "Flood Advisory issued September 19 at 8:46AM CDT until September 19 at 11:00AM CDT by NWS Chicago IL",
@@ -1270,49 +1948,6 @@
           "ILC007",
           "ILC111",
           "ILC201"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ad451546fb09ecca4c401957b4be91891ec63ac1.002.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Watch issued September 19 at 8:58AM CDT until September 20 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Iowa; Dane; Jefferson; Waukesha; Milwaukee; Lafayette; Green; Rock; Walworth; Racine; Kenosha: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of south central and southeast Wisconsin, including the following counties, in south central Wisconsin, Dane, Green, Iowa, Lafayette and Rock. In southeast Wisconsin, Jefferson, Kenosha, Milwaukee, Racine, Walworth and Waukesha. * WHEN...Through Sunday morning. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. * ADDITIONAL DETAILS... - Newest guidance is suggestive of moderate to heavy rain with potential for storms later tonight into Sunday morning. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-19T08:58:00-05:00",
-      "retrievedAt": "2026-09-19T14:29:18.381Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-19T17:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055049",
-          "055025",
-          "055055",
-          "055133",
-          "055079",
-          "055065",
-          "055045",
-          "055105",
-          "055127",
-          "055101",
-          "055059"
-        ],
-        "UGC": [
-          "WIZ062",
-          "WIZ063",
-          "WIZ064",
-          "WIZ065",
-          "WIZ066",
-          "WIZ067",
-          "WIZ068",
-          "WIZ069",
-          "WIZ070",
-          "WIZ071",
-          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -7031,9 +7666,9 @@
       "scope": "Robotics, machine vision, equipment and workforce developments"
     }
   ],
-  "attempted": 13,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-09-19T14:29:18.381Z",
+  "collectedAt": "2026-09-19T17:06:34.175Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -8655,7 +9290,7 @@
     },
     {
       "date": "2026-09-19",
-      "asOf": "2026-09-19T17:04:56.162Z",
+      "asOf": "2026-09-19T17:06:34.684Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
