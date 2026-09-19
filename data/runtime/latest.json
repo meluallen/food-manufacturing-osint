@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-18T22:38:20.946Z",
-      "hash": "053f84ce47adccbd04c6008dbdc478cf4ee3704d33174aa2d1303f09cd6e0784",
-      "etag": "W/\"808b516791572444cea7bdda27a57c04:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 10,
+      "fetchedAt": "2026-09-19T01:14:49.964Z",
+      "hash": "fdcc45c285c1fe3c14f6970ea9b91dc06611984fe9797bf628398534dc180cbb",
+      "etag": "W/\"e7c6f5d8d0dd3135aa831e6f1ee5f7b4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 8,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-18T22:38:20.946Z",
-      "hash": "a42380042c1cddaada842510972eea32fa1709aaa81483bf10314dc445c59b2c",
-      "etag": "W/\"3e2ade9b7d0e4d438eef26d3015dc628:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 8,
+      "fetchedAt": "2026-09-19T01:14:49.964Z",
+      "hash": "3dd2896ac035a6da319d54c4b24983b5e5cea8f485c8420ca2b44d9f151beef6",
+      "etag": "W/\"53e0a45c34bb813a30a72b7b21168013:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 6,
       "changed": true
     },
     {
@@ -624,49 +624,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.04f34938ed2bd1d8c929780635c3f4bd569b9d90.001.1",
-      "sourceId": "nws-il",
-      "title": "Air Quality Alert issued September 17 at 3:27PM CDT by NWS St Louis MO",
-      "summary": "Madison; St. Clair; Monroe; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson: The St. Louis Clean Air Partnership has issued an air quality alert for the St. Louis metropolitan area from 10 AM to 8 PM CDT Friday. An Orange air quality forecast means that maximum ozone concentrations are expected to reach levels that pose a health risk. Adverse health effects increase as air quality deteriorates. Ground- level ozone is an air contaminant which can cause breathing difficulties for children, older adults, as well as persons with respiratory problems. Reducing outdoor physical activity is recommended. If it is a regularly scheduled work day you are urged to consider telecommuting, carpooling, or utilizing public transit. Avoid excessive idling and do not top off when refueling motor vehicles. The use of gasoline-powered lawn equipm",
-      "observedAt": "2026-09-17T15:27:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-18T20:00:00-05:00",
-      "severity": "Unknown",
-      "geocodes": {
-        "SAME": [
-          "017119",
-          "017163",
-          "017133",
-          "029183",
-          "029071",
-          "029189",
-          "029510",
-          "029099"
-        ],
-        "UGC": [
-          "ILZ100",
-          "ILZ101",
-          "ILZ102",
-          "MOZ061",
-          "MOZ062",
-          "MOZ063",
-          "MOZ064",
-          "MOZ065"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.dd1cd46cf9d48297cac2744afcabadbec40d4aca.002.1",
       "sourceId": "nws-wi",
       "title": "Flood Watch issued September 18 at 11:00AM CDT until September 19 at 1:00PM CDT by NWS La Crosse WI",
       "summary": "Mitchell; Howard; Winneshiek; Allamakee; Dodge; Olmsted; Winona; Mower; Fillmore; Houston; La Crosse; Monroe; Vernon; Crawford; Richland; Grant: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Iowa, including the following counties, Allamakee, Howard, Mitchell and Winneshiek, southeast Minnesota, including the following counties, Dodge, Fillmore, Houston, Mower, Olmsted and Winona, and Wisconsin, including the following counties, Crawford, Grant, La Crosse, Monroe, Richland and Vernon. * WHEN...From 7 PM CDT this evening through Saturday afternoon. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Widespread rain has developed across the region today and will continue into the day Saturday. The heaviest r",
       "observedAt": "2026-09-18T11:00:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -719,7 +682,7 @@
       "title": "Flood Watch issued September 18 at 11:00AM CDT until September 19 at 1:00PM CDT by NWS La Crosse WI",
       "summary": "Floyd; Chickasaw; Fayette; Clayton; Wabasha; Buffalo; Trempealeau; Jackson; Juneau; Adams: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Iowa, including the following counties, Chickasaw, Clayton, Fayette and Floyd, southeast Minnesota, including the following county, Wabasha, and Wisconsin, including the following counties, Adams, Buffalo, Jackson, Juneau and Trempealeau. * WHEN...From 7 PM CDT this evening through Saturday afternoon. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Widespread rain has developed across the region today and will continue into the day Saturday. The heaviest rainfall will occur from Friday evening through Saturday morning. Some locations may see multiple inches of rainfa",
       "observedAt": "2026-09-18T11:00:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -755,53 +718,12 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.6a14db25b9252b3576a3f1faedb67b5d6c28c5c5.001.1",
-      "sourceId": "nws-il",
-      "title": "Heat Advisory issued September 18 at 2:00PM CDT until September 18 at 8:00PM CDT by NWS St Louis MO",
-      "summary": "Greene; Macoupin; Montgomery; Fayette; Calhoun; Jersey; Boone; Callaway; Montgomery; Lincoln: * WHAT...Heat index values up to 105. * WHERE...In Illinois, Fayette IL, Montgomery IL, Calhoun IL, Greene IL, Jersey IL, and Macoupin IL Counties. In Missouri, Boone MO, Callaway MO, Lincoln MO, and Montgomery MO Counties. * WHEN...Until 8 PM CDT this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
-      "observedAt": "2026-09-18T14:00:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-18T20:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017061",
-          "017117",
-          "017135",
-          "017051",
-          "017013",
-          "017083",
-          "029019",
-          "029027",
-          "029139",
-          "029113"
-        ],
-        "UGC": [
-          "ILZ058",
-          "ILZ059",
-          "ILZ060",
-          "ILZ065",
-          "ILZ098",
-          "ILZ099",
-          "MOZ041",
-          "MOZ050",
-          "MOZ051",
-          "MOZ052"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6a14db25b9252b3576a3f1faedb67b5d6c28c5c5.002.1",
       "sourceId": "nws-il",
       "title": "Heat Advisory issued September 18 at 2:00PM CDT until September 19 at 8:00PM CDT by NWS St Louis MO",
       "summary": "Bond; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Moniteau; Cole; Osage; Gasconade; Warren; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Heat index values up to 105. * WHERE...Portions of south central and southwest Illinois and central, east central, and southeast Missouri. * WHEN...Until 8 PM CDT Saturday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
       "observedAt": "2026-09-18T14:00:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -872,7 +794,7 @@
       "title": "Flood Watch issued September 18 at 1:56PM CDT until September 19 at 7:00PM CDT by NWS Quad Cities IA IL",
       "summary": "Buchanan; Delaware; Dubuque; Jackson; Jo Daviess; Stephenson; Carroll: * WHAT...Flooding and flash flooding caused by excessive rainfall is possible. * WHERE...Portions of northwest Illinois, including the following counties, Carroll, Jo Daviess and Stephenson and Iowa, including the following counties, Buchanan, Delaware, Dubuque and Jackson. * WHEN...From 1 AM CDT Saturday through Saturday evening. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Rounds of showers and storms are expected from late tonight through Saturday. These storms will be capable of rainfall rates between 1 to 2 inches per hour. Rainfall totals of 1 to 3 inches are likely in the hardest hit areas through Saturd",
       "observedAt": "2026-09-18T13:56:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -907,7 +829,7 @@
       "title": "Flood Watch issued September 18 at 1:56PM CDT until September 19 at 7:00PM CDT by NWS Quad Cities IA IL",
       "summary": "Jones; Clinton; Whiteside: * WHAT...Flooding and flash flooding caused by excessive rainfall is possible. * WHERE...Portions of northwest Illinois, including the following county, Whiteside and east central Iowa, including the following counties, Clinton and Jones. * WHEN...From 1 AM CDT Saturday through Saturday evening. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Rounds of showers and storms are expected from late tonight through Saturday. These storms will be capable of rainfall rates between 1 to 2 inches per hour. Rainfall totals of 1 to 3 inches are likely in the hardest hit areas through Saturday evening with the potential for localized areas of 3+ inches.",
       "observedAt": "2026-09-18T13:56:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -934,7 +856,7 @@
       "title": "Flood Watch issued September 18 at 1:47PM CDT until September 19 at 1:00PM CDT by NWS Chicago IL",
       "summary": "Winnebago; Boone; McHenry; Ogle: * WHAT...Flash flooding caused by excessive rainfall is possible. * WHERE...Portions of north central and northeast Illinois, including the following counties, in north central Illinois, Boone, Ogle and Winnebago. In northeast Illinois, McHenry. * WHEN...From 1 AM CDT Saturday through Saturday morning. * IMPACTS...Creeks and streams may rise out of their banks. Roads and streets may be flooded. * ADDITIONAL DETAILS... - Showers and thunderstorms overnight into Saturday morning may produce widespread rainfall rates up to 2 inches per hour that could lead to flash flooding. Additional thunderstorms Saturday evening into early Sunday morning have the potential to produce torrential rainfall that results in flash flooding, though the exact placement of this rainfall remains unclear. A second Flood Watch for fl",
       "observedAt": "2026-09-18T13:47:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -963,7 +885,7 @@
       "title": "Flood Watch issued September 18 at 1:47PM CDT until September 19 at 1:00PM CDT by NWS Chicago IL",
       "summary": "Lake; Lee; De Kalb; Kane; DuPage; Kendall; Northern Cook; Central Cook; Southern Cook; Northern Will; Lake; Porter: * WHAT...Flash flooding caused by excessive rainfall is possible. * WHERE...Portions of Illinois, including the following areas, Cook, De Kalb, DuPage, Kane, Kendall, Lake, Lee, and Northern Will and northwest Indiana, including the following areas, Lake and Porter. * WHEN...From late tonight through Saturday morning. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Roads and streets may be flooded. * ADDITIONAL DETAILS... - Showers and thunderstorms late tonight through Saturday morning may produce widespread rainfall rates up to 2 inches per hour that could lead to flash flooding, particularly over urban areas. Additional thunderstorms Saturday evening into ea",
       "observedAt": "2026-09-18T13:47:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -996,6 +918,411 @@
           "ILZ106",
           "INZ001",
           "INZ002"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ce6dc2b29b9058a24ca059b4b779f864e1c15415.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 18 at 1:30PM CDT until September 19 at 9:00PM CDT by NWS Green Bay WI",
+      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...From late tonight through Saturday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
+      "observedAt": "2026-09-18T13:30:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-18T21:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3e4b00f1b35304fb458c1b9ad0370da34224955c.002.2",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 18 at 3:02PM CDT until September 19 at 3:00PM CDT by NWS Chicago IL",
+      "summary": "Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 3 to 6 ft expected. * WHERE...Northern Cook and Central Cook Counties. * WHEN...From 10 PM CDT this evening through Saturday afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-18T15:02:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T23:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3e4b00f1b35304fb458c1b9ad0370da34224955c.001.2",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 18 at 3:02PM CDT until September 19 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 7 ft expected. * WHERE...Lake County IL. * WHEN...From 10 PM CDT this evening through Saturday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-18T15:02:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T23:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5db85f9e9e22b7764ffbdc14079fabf26fb4ed6d.001.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 18 at 2:41PM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
+      "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Heat index values up to around 105 degrees can be expected. * WHERE...all of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ Sunday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
+      "observedAt": "2026-09-18T14:41:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T05:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017081",
+          "017191",
+          "017047",
+          "017185",
+          "017145",
+          "017055",
+          "017065",
+          "017193",
+          "017077",
+          "017199",
+          "017165",
+          "017059",
+          "017181",
+          "017087",
+          "017151",
+          "017069",
+          "017003",
+          "017153",
+          "017127",
+          "018051",
+          "018125",
+          "018129",
+          "018163",
+          "018173",
+          "018147",
+          "021075",
+          "021105",
+          "021039",
+          "021007",
+          "021145",
+          "021083",
+          "021139",
+          "021157",
+          "021035",
+          "021055",
+          "021143",
+          "021221",
+          "021033",
+          "021225",
+          "021233",
+          "021107",
+          "021047",
+          "021101",
+          "021059",
+          "021149",
+          "021177",
+          "021219",
+          "029157",
+          "029017",
+          "029031",
+          "029223",
+          "029035",
+          "029181",
+          "029023",
+          "029207",
+          "029201",
+          "029133",
+          "029143"
+        ],
+        "UGC": [
+          "ILZ075",
+          "ILZ076",
+          "ILZ077",
+          "ILZ078",
+          "ILZ080",
+          "ILZ081",
+          "ILZ082",
+          "ILZ083",
+          "ILZ084",
+          "ILZ085",
+          "ILZ086",
+          "ILZ087",
+          "ILZ088",
+          "ILZ089",
+          "ILZ090",
+          "ILZ091",
+          "ILZ092",
+          "ILZ093",
+          "ILZ094",
+          "INZ081",
+          "INZ082",
+          "INZ085",
+          "INZ086",
+          "INZ087",
+          "INZ088",
+          "KYZ001",
+          "KYZ002",
+          "KYZ003",
+          "KYZ004",
+          "KYZ005",
+          "KYZ006",
+          "KYZ007",
+          "KYZ008",
+          "KYZ009",
+          "KYZ010",
+          "KYZ011",
+          "KYZ012",
+          "KYZ013",
+          "KYZ014",
+          "KYZ015",
+          "KYZ016",
+          "KYZ017",
+          "KYZ018",
+          "KYZ019",
+          "KYZ020",
+          "KYZ021",
+          "KYZ022",
+          "MOZ076",
+          "MOZ086",
+          "MOZ087",
+          "MOZ100",
+          "MOZ107",
+          "MOZ108",
+          "MOZ109",
+          "MOZ110",
+          "MOZ111",
+          "MOZ112",
+          "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.48ee90fe5eb16dc03651feb4f1d0a11dafa7f08f.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 18 at 5:22PM CDT until September 18 at 10:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...Until 10 PM CDT this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-18T17:22:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-18T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c40a2d29537d89671267ac424860e1eb7fff62ec.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 18 at 6:13PM CDT until September 20 at 1:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 5 to 7 feet and dangerous currents are expected. * WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha Counties. * WHEN...From 10 PM CDT this evening through late Saturday night. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-18T18:13:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T02:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055089",
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ060",
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.461362554624d80843135be3dbc191bae0e92d78.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 18 at 6:11PM CDT until September 19 at 1:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Marquette; Green Lake; Fond Du Lac; Sheboygan; Sauk; Columbia; Dodge; Washington; Ozaukee; Iowa; Dane; Jefferson; Waukesha; Milwaukee; Lafayette; Green; Rock; Walworth; Racine; Kenosha: * WHAT...Flooding and flash flooding caused by excessive rainfall are possible. * WHERE...Portions of east central, south central, and southeast Wisconsin, including the following counties, in east central Wisconsin, Fond du Lac and Sheboygan. In south central Wisconsin, Columbia, Dane, Green, Green Lake, Iowa, Lafayette, Marquette, Rock and Sauk. In southeast Wisconsin, Dodge, Jefferson, Kenosha, Milwaukee, Ozaukee, Racine, Walworth, Washington and Waukesha. * WHEN...From 1 AM CDT Saturday through Saturday afternoon. * IMPACTS...Excessive runoff may result in flooding and flash flooding of rivers, creeks, streams, and other low-lying and flood-prone locat",
+      "observedAt": "2026-09-18T18:11:00-05:00",
+      "retrievedAt": "2026-09-19T01:14:49.964Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T07:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055077",
+          "055047",
+          "055039",
+          "055117",
+          "055111",
+          "055021",
+          "055027",
+          "055131",
+          "055089",
+          "055049",
+          "055025",
+          "055055",
+          "055133",
+          "055079",
+          "055065",
+          "055045",
+          "055105",
+          "055127",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ046",
+          "WIZ047",
+          "WIZ051",
+          "WIZ052",
+          "WIZ056",
+          "WIZ057",
+          "WIZ058",
+          "WIZ059",
+          "WIZ060",
+          "WIZ062",
+          "WIZ063",
+          "WIZ064",
+          "WIZ065",
+          "WIZ066",
+          "WIZ067",
+          "WIZ068",
+          "WIZ069",
+          "WIZ070",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.04f34938ed2bd1d8c929780635c3f4bd569b9d90.001.1",
+      "sourceId": "nws-il",
+      "title": "Air Quality Alert issued September 17 at 3:27PM CDT by NWS St Louis MO",
+      "summary": "Madison; St. Clair; Monroe; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson: The St. Louis Clean Air Partnership has issued an air quality alert for the St. Louis metropolitan area from 10 AM to 8 PM CDT Friday. An Orange air quality forecast means that maximum ozone concentrations are expected to reach levels that pose a health risk. Adverse health effects increase as air quality deteriorates. Ground- level ozone is an air contaminant which can cause breathing difficulties for children, older adults, as well as persons with respiratory problems. Reducing outdoor physical activity is recommended. If it is a regularly scheduled work day you are urged to consider telecommuting, carpooling, or utilizing public transit. Avoid excessive idling and do not top off when refueling motor vehicles. The use of gasoline-powered lawn equipm",
+      "observedAt": "2026-09-17T15:27:00-05:00",
+      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T20:00:00-05:00",
+      "severity": "Unknown",
+      "geocodes": {
+        "SAME": [
+          "017119",
+          "017163",
+          "017133",
+          "029183",
+          "029071",
+          "029189",
+          "029510",
+          "029099"
+        ],
+        "UGC": [
+          "ILZ100",
+          "ILZ101",
+          "ILZ102",
+          "MOZ061",
+          "MOZ062",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6a14db25b9252b3576a3f1faedb67b5d6c28c5c5.001.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 18 at 2:00PM CDT until September 18 at 8:00PM CDT by NWS St Louis MO",
+      "summary": "Greene; Macoupin; Montgomery; Fayette; Calhoun; Jersey; Boone; Callaway; Montgomery; Lincoln: * WHAT...Heat index values up to 105. * WHERE...In Illinois, Fayette IL, Montgomery IL, Calhoun IL, Greene IL, Jersey IL, and Macoupin IL Counties. In Missouri, Boone MO, Callaway MO, Lincoln MO, and Montgomery MO Counties. * WHEN...Until 8 PM CDT this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
+      "observedAt": "2026-09-18T14:00:00-05:00",
+      "retrievedAt": "2026-09-18T22:38:20.946Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-18T20:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017061",
+          "017117",
+          "017135",
+          "017051",
+          "017013",
+          "017083",
+          "029019",
+          "029027",
+          "029139",
+          "029113"
+        ],
+        "UGC": [
+          "ILZ058",
+          "ILZ059",
+          "ILZ060",
+          "ILZ065",
+          "ILZ098",
+          "ILZ099",
+          "MOZ041",
+          "MOZ050",
+          "MOZ051",
+          "MOZ052"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1130,31 +1457,6 @@
           "WIZ070",
           "WIZ071",
           "WIZ072"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ce6dc2b29b9058a24ca059b4b779f864e1c15415.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 18 at 1:30PM CDT until September 19 at 9:00PM CDT by NWS Green Bay WI",
-      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...From late tonight through Saturday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
-      "observedAt": "2026-09-18T13:30:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-18T21:30:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055061",
-          "055071"
-        ],
-        "UGC": [
-          "WIZ040",
-          "WIZ050"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1795,216 +2097,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3e4b00f1b35304fb458c1b9ad0370da34224955c.002.2",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 18 at 3:02PM CDT until September 19 at 3:00PM CDT by NWS Chicago IL",
-      "summary": "Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 3 to 6 ft expected. * WHERE...Northern Cook and Central Cook Counties. * WHEN...From 10 PM CDT this evening through Saturday afternoon. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-18T15:02:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-18T23:15:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017031"
-        ],
-        "UGC": [
-          "ILZ103",
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3e4b00f1b35304fb458c1b9ad0370da34224955c.001.2",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 18 at 3:02PM CDT until September 19 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 7 ft expected. * WHERE...Lake County IL. * WHEN...From 10 PM CDT this evening through Saturday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-18T15:02:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-18T23:15:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5db85f9e9e22b7764ffbdc14079fabf26fb4ed6d.001.1",
-      "sourceId": "nws-il",
-      "title": "Heat Advisory issued September 18 at 2:41PM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
-      "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Heat index values up to around 105 degrees can be expected. * WHERE...all of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ Sunday. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
-      "observedAt": "2026-09-18T14:41:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T05:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017081",
-          "017191",
-          "017047",
-          "017185",
-          "017145",
-          "017055",
-          "017065",
-          "017193",
-          "017077",
-          "017199",
-          "017165",
-          "017059",
-          "017181",
-          "017087",
-          "017151",
-          "017069",
-          "017003",
-          "017153",
-          "017127",
-          "018051",
-          "018125",
-          "018129",
-          "018163",
-          "018173",
-          "018147",
-          "021075",
-          "021105",
-          "021039",
-          "021007",
-          "021145",
-          "021083",
-          "021139",
-          "021157",
-          "021035",
-          "021055",
-          "021143",
-          "021221",
-          "021033",
-          "021225",
-          "021233",
-          "021107",
-          "021047",
-          "021101",
-          "021059",
-          "021149",
-          "021177",
-          "021219",
-          "029157",
-          "029017",
-          "029031",
-          "029223",
-          "029035",
-          "029181",
-          "029023",
-          "029207",
-          "029201",
-          "029133",
-          "029143"
-        ],
-        "UGC": [
-          "ILZ075",
-          "ILZ076",
-          "ILZ077",
-          "ILZ078",
-          "ILZ080",
-          "ILZ081",
-          "ILZ082",
-          "ILZ083",
-          "ILZ084",
-          "ILZ085",
-          "ILZ086",
-          "ILZ087",
-          "ILZ088",
-          "ILZ089",
-          "ILZ090",
-          "ILZ091",
-          "ILZ092",
-          "ILZ093",
-          "ILZ094",
-          "INZ081",
-          "INZ082",
-          "INZ085",
-          "INZ086",
-          "INZ087",
-          "INZ088",
-          "KYZ001",
-          "KYZ002",
-          "KYZ003",
-          "KYZ004",
-          "KYZ005",
-          "KYZ006",
-          "KYZ007",
-          "KYZ008",
-          "KYZ009",
-          "KYZ010",
-          "KYZ011",
-          "KYZ012",
-          "KYZ013",
-          "KYZ014",
-          "KYZ015",
-          "KYZ016",
-          "KYZ017",
-          "KYZ018",
-          "KYZ019",
-          "KYZ020",
-          "KYZ021",
-          "KYZ022",
-          "MOZ076",
-          "MOZ086",
-          "MOZ087",
-          "MOZ100",
-          "MOZ107",
-          "MOZ108",
-          "MOZ109",
-          "MOZ110",
-          "MOZ111",
-          "MOZ112",
-          "MOZ114"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.48ee90fe5eb16dc03651feb4f1d0a11dafa7f08f.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 18 at 5:22PM CDT until September 18 at 10:00PM CDT by NWS Duluth MN",
-      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...Until 10 PM CDT this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
-      "observedAt": "2026-09-18T17:22:00-05:00",
-      "retrievedAt": "2026-09-18T22:38:20.946Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-18T22:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "027017",
-          "027137",
-          "055031"
-        ],
-        "UGC": [
-          "MNZ037",
-          "WIZ001"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "cisa-kev:CVE-2025-39682",
@@ -5712,9 +5804,9 @@
       "scope": "Robotics, machine vision, equipment and workforce developments"
     }
   ],
-  "attempted": 13,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-09-18T22:38:20.946Z",
+  "collectedAt": "2026-09-19T01:14:49.964Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -6528,6 +6620,815 @@
     {
       "date": "2026-09-18",
       "asOf": "2026-09-18T22:38:23.226Z",
+      "modelVersion": "1.0.0",
+      "indicators": [
+        {
+          "category": "Ingredient availability",
+          "score": 3.7,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S02"
+          ]
+        },
+        {
+          "category": "Ingredient cost",
+          "score": 5.9,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S08"
+          ]
+        },
+        {
+          "category": "Customer demand",
+          "score": 1.3,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S12"
+          ]
+        },
+        {
+          "category": "Transportation / logistics",
+          "score": 47,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S01"
+          ]
+        },
+        {
+          "category": "Energy / utilities",
+          "score": 19.7,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S10"
+          ]
+        },
+        {
+          "category": "Packaging",
+          "score": 6.8,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S11"
+          ]
+        },
+        {
+          "category": "Labor",
+          "score": 2.6,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S09"
+          ]
+        },
+        {
+          "category": "Food safety / regulatory",
+          "score": 11.2,
+          "confidence": "High",
+          "direction": "Mixed",
+          "componentIds": [
+            "S06",
+            "S03"
+          ]
+        },
+        {
+          "category": "Cyber / OT",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Facility / weather",
+          "score": 12,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S07"
+          ]
+        },
+        {
+          "category": "Geopolitical / trade",
+          "score": 21.3,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S13"
+          ]
+        },
+        {
+          "category": "Growth opportunity",
+          "score": 11.6,
+          "confidence": "Medium",
+          "direction": "Opportunity",
+          "componentIds": [
+            "S05",
+            "S04"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "S01",
+          "title": "Midwest diesel rises 5.1% in a week",
+          "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+          "category": "Transportation / logistics",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 75,
+            "severity": 70,
+            "confidence": 70,
+            "persistence": 70,
+            "velocity": 80,
+            "dependency": 80,
+            "substitutability": 35
+          },
+          "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+          "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+          "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
+          "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
+          "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO",
+            "Customer Experience"
+          ],
+          "observedAt": "2026-09-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-24",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Margin",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1
+        },
+        {
+          "id": "S02",
+          "title": "Grain outlook tightens; specialty basis still unknown",
+          "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+          "category": "Ingredient availability",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "wasde-sep"
+          ],
+          "facilityIds": [
+            "deer-creek",
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X07"
+          ],
+          "factors": {
+            "exposure": 45,
+            "severity": 55,
+            "confidence": 45,
+            "persistence": 80,
+            "velocity": 45,
+            "dependency": 55,
+            "substitutability": 60
+          },
+          "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+          "action": "Track supplier quotations before changing coverage or formulations.",
+          "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+          "roles": [
+            "Supply Chain",
+            "CFO"
+          ],
+          "observedAt": "2026-09-11",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-12",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient availability",
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "grain-balance",
+          "revision": 1
+        },
+        {
+          "id": "S03",
+          "title": "Traceability planning requires a product-form decision",
+          "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-trace"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 55,
+            "severity": 65,
+            "confidence": 65,
+            "persistence": 90,
+            "velocity": 25,
+            "dependency": 70,
+            "substitutability": 60
+          },
+          "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+          "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+          "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+          "roles": [
+            "Quality / Food Safety",
+            "CISO / IT",
+            "COO"
+          ],
+          "observedAt": "2026-06-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Regulatory",
+            "Quality / food safety"
+          ],
+          "status": "reviewed",
+          "group": "traceability",
+          "revision": 1
+        },
+        {
+          "id": "S04",
+          "title": "Pet formats offer a qualified commercial opening",
+          "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "appa",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X09",
+            "X13"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 60,
+            "confidence": 45,
+            "persistence": 85,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+          "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+          "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+          "roles": [
+            "Sales / Business Development",
+            "R&D / Innovation",
+            "CEO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "pet-demand",
+          "revision": 1,
+          "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day."
+        },
+        {
+          "id": "S05",
+          "title": "Popcorn expansion is an opportunity to verify",
+          "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "deer-directory",
+            "heartland-2026"
+          ],
+          "facilityIds": [
+            "deer-creek"
+          ],
+          "exposureIds": [
+            "X07",
+            "X10",
+            "X11",
+            "X15"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 65,
+            "confidence": 60,
+            "persistence": 85,
+            "velocity": 40,
+            "dependency": 75,
+            "substitutability": 60
+          },
+          "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+          "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+          "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+          "roles": [
+            "COO",
+            "Sales / Business Development",
+            "Engineering",
+            "CEO"
+          ],
+          "observedAt": "2026-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Production capacity",
+            "Revenue",
+            "Growth opportunity",
+            "Equipment / maintenance"
+          ],
+          "status": "reviewed",
+          "group": "popcorn-expansion",
+          "revision": 1
+        },
+        {
+          "id": "S06",
+          "title": "Baby-food lead guidance has a material scope exclusion",
+          "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "High",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-lead"
+          ],
+          "facilityIds": [
+            "gridley"
+          ],
+          "exposureIds": [
+            "X01",
+            "X02",
+            "X03"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 70,
+            "confidence": 85,
+            "persistence": 90,
+            "velocity": 20,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+          "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+          "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+          "roles": [
+            "Quality / Food Safety",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2025-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Quality / food safety",
+            "Regulatory",
+            "Customer demand"
+          ],
+          "status": "reviewed",
+          "group": "toddler-scope",
+          "revision": 1
+        },
+        {
+          "id": "S07",
+          "title": "Central Illinois storm outlook reaches three facility counties",
+          "summary": "The 18 September NWS outlook includes McLean, Woodford and Tazewell counties: isolated storms and localized flooding possible today, with some severe-storm potential on Saturday, 19 September. No facility disruption is established.",
+          "category": "Facility / weather",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "nws-ilx-20260918"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 85,
+            "severity": 55,
+            "confidence": 80,
+            "persistence": 40,
+            "velocity": 80,
+            "dependency": 70,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+          "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+          "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+          "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+          "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+          "roles": [
+            "Plant Manager",
+            "Supply Chain",
+            "COO",
+            "HR / Talent"
+          ],
+          "observedAt": "2026-09-18",
+          "retrievedAt": "2026-09-18",
+          "reviewedAt": "2026-09-18",
+          "expiresAt": "2026-09-19",
+          "timeToImpact": "Immediate",
+          "impactDomains": [
+            "Transportation",
+            "Production capacity",
+            "Labor",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "central-il-weather",
+          "revision": 1,
+          "dateNote": "NWS issued 04:29 CDT on 18 September. Recheck within 24 hours. Freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+        },
+        {
+          "id": "S08",
+          "title": "Ingredient benchmarks diverge: grains up, dairy down",
+          "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+          "category": "Ingredient cost",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X01",
+            "X04",
+            "X06",
+            "X07"
+          ],
+          "factors": {
+            "exposure": 60,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 50,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+          "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+          "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+          "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+          "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "ingredient-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S09",
+          "title": "Metro labor context remains mixed",
+          "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+          "category": "Labor",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-labor",
+            "bls-peoria",
+            "bls-milwaukee",
+            "ws-careers"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 45,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+          "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+          "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+          "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+          "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+          "roles": [
+            "HR / Talent",
+            "Plant Manager",
+            "COO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Labor",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "regional-labor",
+          "revision": 1,
+          "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S10",
+          "title": "Latest industrial electricity benchmark is higher year over year",
+          "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+          "category": "Energy / utilities",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-industrial",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 80,
+            "severity": 60,
+            "confidence": 65,
+            "persistence": 80,
+            "velocity": 35,
+            "dependency": 90,
+            "substitutability": 40
+          },
+          "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+          "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
+          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
+          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
+          "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+          "roles": [
+            "Plant Manager",
+            "Engineering",
+            "CFO"
+          ],
+          "observedAt": "2026-08-26",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-25",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Energy",
+            "Margin",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "industrial-energy",
+          "revision": 1,
+          "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S11",
+          "title": "Packaging signals split between paperboard and plastics",
+          "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+          "category": "Packaging",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "bls-paperboard-api"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X15"
+          ],
+          "factors": {
+            "exposure": 65,
+            "severity": 55,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 60
+          },
+          "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+          "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+          "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+          "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+          "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "Engineering"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Packaging",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "packaging-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S12",
+          "title": "Global CPG proxy retains cautious sales outlook",
+          "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+          "category": "Customer demand",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "gis-20260908",
+            "ws-markets"
+          ],
+          "facilityIds": [],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 50,
+            "severity": 40,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 50,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+          "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
+          "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
+          "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
+          "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+          "roles": [
+            "Sales / Business Development",
+            "CEO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-08",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-24",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "cpg-demand",
+          "revision": 1,
+          "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S13",
+          "title": "EIA’s export-constraint scenario supports a fuel watch",
+          "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+          "category": "Geopolitical / trade",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-steo",
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 70,
+            "confidence": 60,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+          "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+          "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+          "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+          "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO"
+          ],
+          "observedAt": "2026-09-09",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-07",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Energy",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1,
+          "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "asOf": "2026-09-19T01:14:50.379Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
