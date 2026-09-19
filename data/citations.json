@@ -389,5 +389,69 @@
     "publishedAt": "2026-09-09",
     "correctionPublishedAt": null,
     "limitation": "Forecast completed September 3. Distillate-crack-spread table correction is visible, but correction date is unknown. Not a new September 18 geopolitical event or realized outcome."
+  },
+  {
+    "id": "nws-ilx-20260919",
+    "title": "NWS Lincoln: 19 September 2026 hazardous weather outlook",
+    "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "kind": "Government",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": "2026-09-19T04:03:00-05:00",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "County-level outlook, not a warning or facility impact. McLean, Woodford and Tazewell are included; no active alert matched their Illinois SAME codes at the 16:59 UTC review."
+  },
+  {
+    "id": "nws-mke-flood-20260919",
+    "title": "NWS Milwaukee/Sullivan: southeast Wisconsin Flood Watch update",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad451546fb09ecca4c401957b4be91891ec63ac1.002.1",
+    "kind": "Government API",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": "2026-09-19T08:58:00-05:00",
+    "eventEndsAt": "2026-09-20T07:00:00-05:00",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "Regional watch includes Milwaukee County but Watershed discloses only a greater-Milwaukee presence. Exact facility municipality, route and site effects are unverified."
+  },
+  {
+    "id": "fda-wheat-20260918",
+    "title": "FDA-posted GF Blends undeclared-wheat recall announcement",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
+    "kind": "Regulator / company announcement",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": "2026-09-18",
+    "eventAt": "2026-09-17",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "No Watershed, customer or supplier connection established. FDA posts the company's announcement; the described plantain-flour supplier and affected products must not be attributed to Watershed."
+  },
+  {
+    "id": "wi-datcp-news-20260919",
+    "title": "Wisconsin DATCP current news-release index",
+    "url": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+    "kind": "State government",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": null,
+    "evidenceClass": "CONFIRMED",
+    "limitation": "Rolling agency index, not a company-specific compliance record. Used to replace a legacy DATCP URL returning HTTP 404; individual releases require separate event dates and applicability review."
+  },
+  {
+    "id": "weaver-aua-history",
+    "title": "Weaver Popcorn Manufacturing: company history and AUA partnership",
+    "url": "https://www.weaverpopcorn.com/about-us",
+    "kind": "Company",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": null,
+    "eventAt": "2024",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "Current company statement says a 2024 partnership with AUA Private Equity Partners. It does not disclose ownership percentage, control, investment amount, capacity added, utilization or a Watershed relationship."
+  },
+  {
+    "id": "wi-datcp-hpai-20260915",
+    "title": "Wisconsin DATCP: HPAI confirmed in Barron County commercial poultry flock",
+    "url": "https://datcp.wi.gov/Pages/HighlyPathogenicAvianInfluenzaConfirmedinBarronCounty.aspx",
+    "kind": "State government",
+    "retrievedAt": "2026-09-19",
+    "publishedAt": "2026-09-15",
+    "eventAt": "2026-09-15",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "One quarantined commercial poultry flock; birds will not enter the food system. No Watershed poultry sourcing, supplier, recipe, Barron County dependency or affected lot is established."
   }
 ]

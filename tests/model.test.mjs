@@ -81,4 +81,5 @@ test('baseline graph is referentially consistent and keeps contact-site allocati
  for(const e of g.edges){assert.ok(ids.has(e.source)&&ids.has(e.target),e.id);for(const id of e.sourceIds)assert.ok(citations.has(id),id);}
  assert.equal(g.edges.find(e=>e.id==='E016').evidenceClass,'INFERRED');assert.equal(g.edges.find(e=>e.id==='E007').source,'topfox-unit');
  for(const h of data('hypotheses'))for(const id of h.sourceIds)assert.ok(citations.has(id));
+ for(const competitor of data('competitors'))for(const id of competitor.sourceIds)assert.ok(citations.has(id),`Unknown competitor citation ${id}`);
 });

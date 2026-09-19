@@ -1,0 +1,1997 @@
+{
+  "date": "2026-09-19",
+  "asOf": "2026-09-19T17:04:56.162Z",
+  "modelVersion": "1.0.0",
+  "posture": "Elevated",
+  "provisional": true,
+  "observedScore": 47,
+  "coverage": {
+    "assessed": 11,
+    "total": 12
+  },
+  "indicators": [
+    {
+      "category": "Ingredient availability",
+      "score": 3.7,
+      "confidence": "Low",
+      "direction": "Mixed",
+      "componentIds": [
+        "S02"
+      ],
+      "yesterday": 3.7,
+      "delta": 0
+    },
+    {
+      "category": "Ingredient cost",
+      "score": 5.9,
+      "confidence": "Medium",
+      "direction": "Mixed",
+      "componentIds": [
+        "S08"
+      ],
+      "yesterday": 5.9,
+      "delta": 0
+    },
+    {
+      "category": "Customer demand",
+      "score": 1.3,
+      "confidence": "Low",
+      "direction": "Mixed",
+      "componentIds": [
+        "S12"
+      ],
+      "yesterday": 1.3,
+      "delta": 0
+    },
+    {
+      "category": "Transportation / logistics",
+      "score": 47,
+      "confidence": "Medium",
+      "direction": "Threat",
+      "componentIds": [
+        "S01"
+      ],
+      "yesterday": 47,
+      "delta": 0
+    },
+    {
+      "category": "Energy / utilities",
+      "score": 19.7,
+      "confidence": "Medium",
+      "direction": "Threat",
+      "componentIds": [
+        "S10"
+      ],
+      "yesterday": 19.7,
+      "delta": 0
+    },
+    {
+      "category": "Packaging",
+      "score": 6.8,
+      "confidence": "Medium",
+      "direction": "Mixed",
+      "componentIds": [
+        "S11"
+      ],
+      "yesterday": 6.8,
+      "delta": 0
+    },
+    {
+      "category": "Labor",
+      "score": 2.6,
+      "confidence": "Low",
+      "direction": "Mixed",
+      "componentIds": [
+        "S09"
+      ],
+      "yesterday": 2.6,
+      "delta": 0
+    },
+    {
+      "category": "Food safety / regulatory",
+      "score": 11.2,
+      "confidence": "High",
+      "direction": "Mixed",
+      "componentIds": [
+        "S06",
+        "S03"
+      ],
+      "yesterday": 11.2,
+      "delta": 0
+    },
+    {
+      "category": "Cyber / OT",
+      "score": null,
+      "confidence": "Unassessed",
+      "direction": null,
+      "componentIds": [],
+      "yesterday": null,
+      "delta": null
+    },
+    {
+      "category": "Facility / weather",
+      "score": 12,
+      "confidence": "Medium",
+      "direction": "Threat",
+      "componentIds": [
+        "S07"
+      ],
+      "yesterday": 12,
+      "delta": 0
+    },
+    {
+      "category": "Geopolitical / trade",
+      "score": 21.3,
+      "confidence": "Medium",
+      "direction": "Threat",
+      "componentIds": [
+        "S13"
+      ],
+      "yesterday": 21.3,
+      "delta": 0
+    },
+    {
+      "category": "Growth opportunity",
+      "score": 11.6,
+      "confidence": "Medium",
+      "direction": "Opportunity",
+      "componentIds": [
+        "S05",
+        "S04"
+      ],
+      "yesterday": 11.6,
+      "delta": 0
+    }
+  ],
+  "components": [
+    {
+      "id": "S01",
+      "title": "Midwest diesel rises 5.1% in a week",
+      "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+      "category": "Transportation / logistics",
+      "direction": "Threat",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "eia-diesel"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 75,
+        "severity": 70,
+        "confidence": 70,
+        "persistence": 70,
+        "velocity": 80,
+        "dependency": 80,
+        "substitutability": 35
+      },
+      "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+      "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+      "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
+      "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
+      "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+      "roles": [
+        "CFO",
+        "Supply Chain",
+        "COO",
+        "Customer Experience"
+      ],
+      "observedAt": "2026-09-15",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-09-24",
+      "timeToImpact": "Near",
+      "impactDomains": [
+        "Transportation",
+        "Margin",
+        "Customer service / OTIF"
+      ],
+      "status": "reviewed",
+      "group": "fuel-cost",
+      "revision": 1,
+      "score": 47,
+      "raw": 4704000000,
+      "uncapped": 47.04,
+      "flags": []
+    },
+    {
+      "id": "S02",
+      "title": "Grain outlook tightens; specialty basis still unknown",
+      "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+      "category": "Ingredient availability",
+      "direction": "Mixed",
+      "confidence": "Low",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "wasde-sep"
+      ],
+      "facilityIds": [
+        "deer-creek",
+        "gridley",
+        "wisconsin"
+      ],
+      "exposureIds": [
+        "X07"
+      ],
+      "factors": {
+        "exposure": 45,
+        "severity": 55,
+        "confidence": 45,
+        "persistence": 80,
+        "velocity": 45,
+        "dependency": 55,
+        "substitutability": 60
+      },
+      "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+      "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+      "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+      "action": "Track supplier quotations before changing coverage or formulations.",
+      "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+      "roles": [
+        "Supply Chain",
+        "CFO"
+      ],
+      "observedAt": "2026-09-11",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-12",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Ingredient availability",
+        "Ingredient cost",
+        "Margin"
+      ],
+      "status": "reviewed",
+      "group": "grain-balance",
+      "revision": 1,
+      "score": 3.7,
+      "raw": 367537500,
+      "uncapped": 3.6753749999999994,
+      "flags": []
+    },
+    {
+      "id": "S03",
+      "title": "Traceability planning requires a product-form decision",
+      "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+      "category": "Food safety / regulatory",
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "fda-trace"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 55,
+        "severity": 65,
+        "confidence": 65,
+        "persistence": 90,
+        "velocity": 25,
+        "dependency": 70,
+        "substitutability": 60
+      },
+      "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+      "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+      "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+      "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+      "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+      "roles": [
+        "Quality / Food Safety",
+        "CISO / IT",
+        "COO"
+      ],
+      "observedAt": "2026-06-15",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-17",
+      "timeToImpact": "Strategic",
+      "impactDomains": [
+        "Regulatory",
+        "Quality / food safety"
+      ],
+      "status": "reviewed",
+      "group": "traceability",
+      "revision": 1,
+      "score": 6.1,
+      "raw": 609984375,
+      "uncapped": 6.099843750000001,
+      "flags": []
+    },
+    {
+      "id": "S04",
+      "title": "Pet formats offer a qualified commercial opening",
+      "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+      "category": "Growth opportunity",
+      "direction": "Opportunity",
+      "confidence": "Low",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "appa",
+        "ws-capabilities"
+      ],
+      "facilityIds": [
+        "gridley",
+        "wisconsin"
+      ],
+      "exposureIds": [
+        "X09",
+        "X13"
+      ],
+      "factors": {
+        "exposure": 70,
+        "severity": 60,
+        "confidence": 45,
+        "persistence": 85,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+      "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+      "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+      "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+      "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+      "roles": [
+        "Sales / Business Development",
+        "R&D / Innovation",
+        "CEO"
+      ],
+      "observedAt": null,
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-12-17",
+      "timeToImpact": "Strategic",
+      "impactDomains": [
+        "Customer demand",
+        "Revenue",
+        "Growth opportunity"
+      ],
+      "status": "reviewed",
+      "group": "pet-demand",
+      "revision": 1,
+      "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day.",
+      "score": 7.2,
+      "raw": 722925000,
+      "uncapped": 7.229249999999999,
+      "flags": []
+    },
+    {
+      "id": "S05",
+      "title": "Popcorn expansion is an opportunity to verify",
+      "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+      "category": "Growth opportunity",
+      "direction": "Opportunity",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "deer-directory",
+        "heartland-2026"
+      ],
+      "facilityIds": [
+        "deer-creek"
+      ],
+      "exposureIds": [
+        "X07",
+        "X10",
+        "X11",
+        "X15"
+      ],
+      "factors": {
+        "exposure": 70,
+        "severity": 65,
+        "confidence": 60,
+        "persistence": 85,
+        "velocity": 40,
+        "dependency": 75,
+        "substitutability": 60
+      },
+      "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+      "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+      "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+      "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+      "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+      "roles": [
+        "COO",
+        "Sales / Business Development",
+        "Engineering",
+        "CEO"
+      ],
+      "observedAt": "2026-01-06",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-17",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Production capacity",
+        "Revenue",
+        "Growth opportunity",
+        "Equipment / maintenance"
+      ],
+      "status": "reviewed",
+      "group": "popcorn-expansion",
+      "revision": 1,
+      "score": 11.6,
+      "raw": 1160250000,
+      "uncapped": 11.602500000000001,
+      "flags": []
+    },
+    {
+      "id": "S06",
+      "title": "Baby-food lead guidance has a material scope exclusion",
+      "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+      "category": "Food safety / regulatory",
+      "direction": "Mixed",
+      "confidence": "High",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "fda-lead"
+      ],
+      "facilityIds": [
+        "gridley"
+      ],
+      "exposureIds": [
+        "X01",
+        "X02",
+        "X03"
+      ],
+      "factors": {
+        "exposure": 70,
+        "severity": 70,
+        "confidence": 85,
+        "persistence": 90,
+        "velocity": 20,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+      "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+      "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+      "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+      "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+      "roles": [
+        "Quality / Food Safety",
+        "R&D / Innovation"
+      ],
+      "observedAt": "2025-01-06",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-12-17",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Quality / food safety",
+        "Regulatory",
+        "Customer demand"
+      ],
+      "status": "reviewed",
+      "group": "toddler-scope",
+      "revision": 1,
+      "score": 11.2,
+      "raw": 1124550000,
+      "uncapped": 11.2455,
+      "flags": []
+    },
+    {
+      "id": "S07",
+      "title": "Central Illinois storm outlook reaches three facility counties",
+      "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
+      "category": "Facility / weather",
+      "direction": "Threat",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "nws-ilx-20260919"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 85,
+        "severity": 55,
+        "confidence": 80,
+        "persistence": 40,
+        "velocity": 80,
+        "dependency": 70,
+        "substitutability": 70
+      },
+      "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+      "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+      "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+      "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+      "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+      "roles": [
+        "Plant Manager",
+        "Supply Chain",
+        "COO",
+        "HR / Talent"
+      ],
+      "observedAt": "2026-09-19",
+      "retrievedAt": "2026-09-19",
+      "reviewedAt": "2026-09-19",
+      "expiresAt": "2026-09-20",
+      "timeToImpact": "Immediate",
+      "impactDomains": [
+        "Transportation",
+        "Production capacity",
+        "Labor",
+        "Customer service / OTIF"
+      ],
+      "status": "reviewed",
+      "group": "central-il-weather",
+      "revision": 1,
+      "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1.",
+      "score": 12,
+      "raw": 1196800000,
+      "uncapped": 11.968000000000005,
+      "flags": []
+    },
+    {
+      "id": "S08",
+      "title": "Ingredient benchmarks diverge: grains up, dairy down",
+      "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+      "category": "Ingredient cost",
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "bls-ppi",
+        "ws-capabilities"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [
+        "X01",
+        "X04",
+        "X06",
+        "X07"
+      ],
+      "factors": {
+        "exposure": 60,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 50,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+      "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+      "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+      "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+      "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+      "roles": [
+        "Supply Chain",
+        "CFO",
+        "R&D / Innovation"
+      ],
+      "observedAt": "2026-09-10",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-09",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Ingredient cost",
+        "Margin"
+      ],
+      "status": "reviewed",
+      "group": "ingredient-benchmark",
+      "revision": 1,
+      "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 5.9,
+      "raw": 585000000,
+      "uncapped": 5.85,
+      "flags": []
+    },
+    {
+      "id": "S09",
+      "title": "Metro labor context remains mixed",
+      "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+      "category": "Labor",
+      "direction": "Mixed",
+      "confidence": "Low",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "bls-labor",
+        "bls-peoria",
+        "bls-milwaukee",
+        "ws-careers"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 65,
+        "severity": 45,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+      "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+      "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+      "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+      "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+      "roles": [
+        "HR / Talent",
+        "Plant Manager",
+        "COO"
+      ],
+      "observedAt": null,
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-09",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Labor",
+        "Production capacity"
+      ],
+      "status": "reviewed",
+      "group": "regional-labor",
+      "revision": 1,
+      "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 2.6,
+      "raw": 256668750,
+      "uncapped": 2.5666874999999996,
+      "flags": []
+    },
+    {
+      "id": "S10",
+      "title": "Latest industrial electricity benchmark is higher year over year",
+      "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+      "category": "Energy / utilities",
+      "direction": "Threat",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "eia-industrial",
+        "ws-capabilities"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 80,
+        "severity": 60,
+        "confidence": 65,
+        "persistence": 80,
+        "velocity": 35,
+        "dependency": 90,
+        "substitutability": 40
+      },
+      "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+      "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
+      "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
+      "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
+      "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+      "roles": [
+        "Plant Manager",
+        "Engineering",
+        "CFO"
+      ],
+      "observedAt": "2026-08-26",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-09-25",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Energy",
+        "Margin",
+        "Production capacity"
+      ],
+      "status": "reviewed",
+      "group": "industrial-energy",
+      "revision": 1,
+      "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 19.7,
+      "raw": 1965600000,
+      "uncapped": 19.656000000000002,
+      "flags": []
+    },
+    {
+      "id": "S11",
+      "title": "Packaging signals split between paperboard and plastics",
+      "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+      "category": "Packaging",
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "bls-ppi",
+        "bls-paperboard-api"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [
+        "X15"
+      ],
+      "factors": {
+        "exposure": 65,
+        "severity": 55,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 60
+      },
+      "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+      "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+      "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+      "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+      "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+      "roles": [
+        "Supply Chain",
+        "CFO",
+        "Engineering"
+      ],
+      "observedAt": "2026-09-10",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-09",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Packaging",
+        "Margin"
+      ],
+      "status": "reviewed",
+      "group": "packaging-benchmark",
+      "revision": 1,
+      "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 6.8,
+      "raw": 679696875,
+      "uncapped": 6.7969687500000004,
+      "flags": []
+    },
+    {
+      "id": "S12",
+      "title": "Global CPG proxy retains cautious sales outlook",
+      "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+      "category": "Customer demand",
+      "direction": "Mixed",
+      "confidence": "Low",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "gis-20260908",
+        "ws-markets"
+      ],
+      "facilityIds": [],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 50,
+        "severity": 40,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 50,
+        "substitutability": 70
+      },
+      "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+      "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
+      "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
+      "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
+      "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+      "roles": [
+        "Sales / Business Development",
+        "CEO",
+        "R&D / Innovation"
+      ],
+      "observedAt": "2026-09-08",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-09-24",
+      "timeToImpact": "Tactical",
+      "impactDomains": [
+        "Customer demand",
+        "Revenue",
+        "Growth opportunity"
+      ],
+      "status": "reviewed",
+      "group": "cpg-demand",
+      "revision": 1,
+      "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 1.3,
+      "raw": 125357142.85714285,
+      "uncapped": 1.2535714285714286,
+      "flags": []
+    },
+    {
+      "id": "S13",
+      "title": "EIA’s export-constraint scenario supports a fuel watch",
+      "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+      "category": "Geopolitical / trade",
+      "direction": "Threat",
+      "confidence": "Medium",
+      "evidenceClass": "INFERRED",
+      "sourceIds": [
+        "eia-steo",
+        "eia-diesel"
+      ],
+      "facilityIds": [
+        "gridley",
+        "congerville",
+        "deer-creek",
+        "wisconsin"
+      ],
+      "exposureIds": [],
+      "factors": {
+        "exposure": 65,
+        "severity": 70,
+        "confidence": 60,
+        "persistence": 80,
+        "velocity": 65,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+      "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+      "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+      "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+      "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+      "roles": [
+        "CFO",
+        "Supply Chain",
+        "COO"
+      ],
+      "observedAt": "2026-09-09",
+      "retrievedAt": "2026-09-17",
+      "reviewedAt": "2026-09-17",
+      "expiresAt": "2026-10-07",
+      "timeToImpact": "Near",
+      "impactDomains": [
+        "Transportation",
+        "Energy",
+        "Margin"
+      ],
+      "status": "reviewed",
+      "group": "fuel-cost",
+      "revision": 1,
+      "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day.",
+      "score": 21.3,
+      "raw": 2129400000,
+      "uncapped": 21.294000000000004,
+      "flags": []
+    }
+  ],
+  "personas": [
+    {
+      "role": "CFO",
+      "label": "GUIDANCE STABLE",
+      "signalId": "S01",
+      "baseline": false
+    },
+    {
+      "role": "Plant Manager",
+      "label": "GUIDANCE STABLE",
+      "signalId": "S10",
+      "baseline": false
+    },
+    {
+      "role": "Supply Chain",
+      "label": "GUIDANCE STABLE",
+      "signalId": "S07",
+      "baseline": false
+    },
+    {
+      "role": "COO",
+      "label": "GUIDANCE STABLE",
+      "signalId": "S05",
+      "baseline": false
+    },
+    {
+      "role": "Quality / Food Safety",
+      "label": "GUIDANCE STABLE",
+      "signalId": "S06",
+      "baseline": false
+    }
+  ],
+  "observations": [
+    {
+      "id": "O-20260919-il-weather",
+      "title": "Central Illinois storm outlook refreshed; facility-county guidance remains stable",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Reviewed; existing S07 guidance and factors unchanged",
+      "assessmentIds": [
+        "S07"
+      ],
+      "sourceIds": [
+        "nws-ilx-20260919"
+      ],
+      "observedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T04:03:00-05:00",
+      "retrievedAt": "2026-09-19",
+      "eventWindow": {
+        "start": "2026-09-19",
+        "end": "2026-09-20"
+      },
+      "finding": "NWS includes McLean, Woodford and Tazewell in today's central Illinois outlook. Isolated to scattered storms, locally heavy rain and possible damaging winds remain possible, with more storms Sunday. At 16:59 UTC, no active alert matched those three Illinois county SAME codes.",
+      "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+      "sourceScope": "County/zone outlook and active-alert API check only; absence of an active alert is not an operating clearance or proof of site conditions.",
+      "decision": "Refresh S07 evidence vintage and 24-hour expiry; retain all seven factors, action, trigger and guidance revision.",
+      "expiresAt": "2026-09-20"
+    },
+    {
+      "id": "O-20260919-wi-flood",
+      "title": "Southeast Wisconsin flood watch overlaps the disclosed greater-Milwaukee region",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored regional verification lead; exact Watershed location unknown",
+      "assessmentIds": [],
+      "sourceIds": [
+        "nws-mke-flood-20260919"
+      ],
+      "observedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T08:58:00-05:00",
+      "retrievedAt": "2026-09-19",
+      "eventWindow": {
+        "start": "2026-09-19",
+        "end": "2026-09-20T07:00:00-05:00"
+      },
+      "finding": "NWS extended a Flood Watch through Sunday morning for 11 south-central and southeast Wisconsin counties, including Milwaukee County.",
+      "causalPath": "Regional heavy rain → possible road, workforce or utility interruption → conditional baking/popping continuity exposure if the unspecified Watershed operation is within an affected area.",
+      "sourceScope": "Watershed publicly identifies only a greater-Milwaukee presence. Exact municipality, building, routes, utility and any impact are unverified; the watch cannot be assigned to a facility.",
+      "decision": "Retain as a location-verification lead without changing Facility / weather factors. Escalate only if an operating location matches an applicable warning or verified disruption.",
+      "impactDomains": [
+        "Facility / weather",
+        "Transportation",
+        "Labor",
+        "Production capacity",
+        "Customer service / OTIF"
+      ],
+      "direction": "Threat",
+      "confidence": "Low",
+      "timeToImpact": "Immediate",
+      "decisionOwners": [
+        "Plant Manager",
+        "Supply Chain",
+        "COO"
+      ],
+      "expiresAt": "2026-09-20",
+      "factors": null
+    },
+    {
+      "id": "O-20260919-hpai",
+      "title": "Wisconsin confirms HPAI in one Barron County commercial poultry flock",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored ingredient-category lead; Watershed sourcing unverified",
+      "assessmentIds": [],
+      "sourceIds": [
+        "wi-datcp-hpai-20260915"
+      ],
+      "observedAt": "2026-09-15",
+      "publishedAt": "2026-09-15",
+      "retrievedAt": "2026-09-19",
+      "finding": "Wisconsin DATCP reports one commercial poultry flock quarantined and depopulated in Barron County; birds from that flock will not enter the food system.",
+      "causalPath": "Poultry disease/control measures → possible regional animal-protein availability or price effects → conditional pet-nutrition input exposure if Watershed uses affected species or sourcing geography.",
+      "sourceScope": "Watershed advertises freeze-dried proteins but public evidence does not establish poultry use, Barron County sourcing, a supplier, an affected lot, or a company food-safety incident.",
+      "decision": "Monitor official outbreak scope and verify actual animal-protein species/geography internally before scoring, changing procurement guidance or inferring product impact.",
+      "impactDomains": [
+        "Ingredient availability",
+        "Ingredient cost",
+        "Quality / food safety"
+      ],
+      "direction": "Threat",
+      "confidence": "Low",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Supply Chain",
+        "Quality / Food Safety",
+        "R&D / Innovation"
+      ],
+      "expiresAt": "2026-10-03",
+      "factors": null
+    },
+    {
+      "id": "O-20260919-wheat",
+      "title": "FDA-posted recall illustrates supplier-certificate and incoming-test failure mode",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored; no Watershed product, ingredient or supplier link",
+      "assessmentIds": [],
+      "sourceIds": [
+        "fda-wheat-20260918"
+      ],
+      "observedAt": "2026-09-17",
+      "publishedAt": "2026-09-18",
+      "retrievedAt": "2026-09-19",
+      "finding": "GF Blends recalled flour and baking mixes after third-party testing found gluten in plantain flour represented as gluten-free; the announcement reports no adverse effects as of September 17.",
+      "causalPath": "Incorrect supplier allergen representation → incoming ingredient/formula and label mismatch → conditional allergen-control risk in blending or baking if an applicable ingredient/supplier match exists.",
+      "sourceScope": "The named supplier, brands, plantain flour and affected lots are external. No Watershed relationship or use is established; FDA is posting the company's announcement.",
+      "decision": "Use as a supplier-documentation/incoming-verification lead for Quality only if applicable. No product hold, recall or score increase is warranted without a verified match.",
+      "impactDomains": [
+        "Quality / food safety",
+        "Regulatory",
+        "Ingredient availability"
+      ],
+      "direction": "Threat",
+      "confidence": "Low",
+      "timeToImpact": "Immediate",
+      "decisionOwners": [
+        "Quality / Food Safety",
+        "Supply Chain"
+      ],
+      "expiresAt": "2026-10-03",
+      "factors": null
+    },
+    {
+      "id": "O-20260919-weaver",
+      "title": "Weaver watchlist gains historical private-equity partnership context",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Historical dossier improvement; not a new 19 September event",
+      "assessmentIds": [],
+      "sourceIds": [
+        "weaver-aua-history"
+      ],
+      "observedAt": null,
+      "eventYear": 2024,
+      "publishedAt": null,
+      "retrievedAt": "2026-09-19",
+      "finding": "Weaver's current company-history page states that it partnered with AUA Private Equity Partners in 2024 and describes a continuing focus on investment in people, processes and capabilities.",
+      "causalPath": "Financial sponsor relationship → potential capital and capability investment → possible future popcorn/private-label competitive capacity; no realized change is measured.",
+      "sourceScope": "Publication date, ownership percentage, control, investment amount, capacity additions and utilization are not disclosed. No Watershed relationship is inferred.",
+      "decision": "Add the 2024 relationship to the competitor watchlist as confirmed company-stated history; watch for dated capex or operating milestones before changing competitive-capacity guidance.",
+      "impactDomains": [
+        "Growth opportunity",
+        "Customer demand",
+        "Production capacity"
+      ],
+      "direction": "Mixed",
+      "confidence": "Low",
+      "timeToImpact": "Strategic",
+      "decisionOwners": [
+        "CEO",
+        "Sales / Business Development"
+      ],
+      "expiresAt": "2027-03-19",
+      "factors": null
+    }
+  ],
+  "reviewNotes": [
+    {
+      "lens": "Intelligence analysis",
+      "challenge": "Distinguish event, publication and discovery dates and prevent historical discovery from becoming a new event.",
+      "revision": "The 2024 Weaver/AUA relationship is explicitly historical with unknown publication date. FDA and DATCP event/publication dates are separate from 19 September retrieval."
+    },
+    {
+      "lens": "Operations research",
+      "challenge": "Do new articles change any of the seven factors or create correlated duplicates?",
+      "revision": "No factor changed. S01/S13 remain one fuel-cost issue group; unverified weather, HPAI and allergen applicability remain outside the score."
+    },
+    {
+      "lens": "Supply chain management",
+      "challenge": "Does regional disease, weather or a named external ingredient prove Watershed exposure?",
+      "revision": "No. Poultry species/source, Wisconsin municipality/routes and plantain-flour supplier relationships remain unknown. The leads identify verification questions only."
+    },
+    {
+      "lens": "Industrial engineering",
+      "challenge": "Does sponsor language or regional weather establish installed capacity or production interruption?",
+      "revision": "No capacity, commissioning, utilization, equipment or outage inference was added. Weaver history changes only competitor context."
+    },
+    {
+      "lens": "Food science / quality",
+      "challenge": "Does the GF Blends recall warrant a Watershed hold or prove a control failure?",
+      "revision": "No matched ingredient, supplier, formula or lot exists publicly. The mechanism is retained as a conditional supplier-documentation/incoming-test lead."
+    },
+    {
+      "lens": "Information security analysis",
+      "challenge": "Can current CISA material be matched to installed assets?",
+      "revision": "CISA primary pages/feed remained inaccessible through the review path and no Watershed asset inventory is public. Cyber / OT remains null rather than zero."
+    },
+    {
+      "lens": "Emergency management / continuity",
+      "challenge": "Are weather references precisely geocoded and actionable?",
+      "revision": "Illinois active alerts were matched by SAME codes, avoiding the McLean Kentucky false match. The Milwaukee County watch is not assigned to the unspecified greater-Milwaukee Watershed site."
+    }
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-09-19T17:04:29.527Z",
+      "disposition": "Completed public-evidence review; posture, factors and executive guidance stable",
+      "note": "Refreshed S07; recorded unscored regional weather, HPAI and allergen leads; repaired and collector-validated the DATCP endpoint.",
+      "recordPath": "data/runs/2026-09-19-review.json"
+    }
+  ],
+  "latestRecheck": {
+    "reviewedAt": "2026-09-19T17:04:29.527Z",
+    "disposition": "Completed public-evidence review; posture, factors and executive guidance stable",
+    "note": "Refreshed S07; recorded unscored regional weather, HPAI and allergen leads; repaired and collector-validated the DATCP endpoint.",
+    "recordPath": "data/runs/2026-09-19-review.json"
+  },
+  "sourceHealth": {
+    "total": 83,
+    "counts": {
+      "Current": 55,
+      "Key required": 2,
+      "Blocked": 12,
+      "Fetch error": 7,
+      "Manual review": 7
+    },
+    "latestCollectionAt": "2026-09-19T14:29:18.381Z",
+    "pendingCandidates": 295,
+    "records": [
+      {
+        "id": "nws-il",
+        "health": "Current"
+      },
+      {
+        "id": "nws-wi",
+        "health": "Current"
+      },
+      {
+        "id": "drought",
+        "health": "Current"
+      },
+      {
+        "id": "noaa-cpc",
+        "health": "Current"
+      },
+      {
+        "id": "river",
+        "health": "Current"
+      },
+      {
+        "id": "usgs",
+        "health": "Current"
+      },
+      {
+        "id": "ams-dairy",
+        "health": "Current"
+      },
+      {
+        "id": "ams-specialty",
+        "health": "Current"
+      },
+      {
+        "id": "nass",
+        "health": "Current"
+      },
+      {
+        "id": "nass-quickstats",
+        "health": "Key required"
+      },
+      {
+        "id": "wasde",
+        "health": "Blocked"
+      },
+      {
+        "id": "fas",
+        "health": "Fetch error"
+      },
+      {
+        "id": "cme",
+        "health": "Manual review"
+      },
+      {
+        "id": "eia-diesel",
+        "health": "Current"
+      },
+      {
+        "id": "eia-energy",
+        "health": "Current"
+      },
+      {
+        "id": "eia-api",
+        "health": "Key required"
+      },
+      {
+        "id": "miso",
+        "health": "Current"
+      },
+      {
+        "id": "ameren",
+        "health": "Manual review"
+      },
+      {
+        "id": "we-energies",
+        "health": "Manual review"
+      },
+      {
+        "id": "usda-transport",
+        "health": "Current"
+      },
+      {
+        "id": "bts",
+        "health": "Blocked"
+      },
+      {
+        "id": "stb",
+        "health": "Current"
+      },
+      {
+        "id": "illinois-roads",
+        "health": "Manual review"
+      },
+      {
+        "id": "wisconsin-roads",
+        "health": "Manual review"
+      },
+      {
+        "id": "usace",
+        "health": "Blocked"
+      },
+      {
+        "id": "marad",
+        "health": "Blocked"
+      },
+      {
+        "id": "panama",
+        "health": "Current"
+      },
+      {
+        "id": "port-la",
+        "health": "Fetch error"
+      },
+      {
+        "id": "fda-recalls",
+        "health": "Current"
+      },
+      {
+        "id": "fda-alerts",
+        "health": "Current"
+      },
+      {
+        "id": "fda-warning",
+        "health": "Current"
+      },
+      {
+        "id": "fda-import",
+        "health": "Fetch error"
+      },
+      {
+        "id": "fda-fsma",
+        "health": "Current"
+      },
+      {
+        "id": "fda-trace",
+        "health": "Current"
+      },
+      {
+        "id": "fda-cvm",
+        "health": "Current"
+      },
+      {
+        "id": "fda-toddler",
+        "health": "Current"
+      },
+      {
+        "id": "cdc",
+        "health": "Current"
+      },
+      {
+        "id": "fsis",
+        "health": "Blocked"
+      },
+      {
+        "id": "idph",
+        "health": "Current"
+      },
+      {
+        "id": "widatcp",
+        "health": "Current"
+      },
+      {
+        "id": "sqfi",
+        "health": "Current"
+      },
+      {
+        "id": "federal-register",
+        "health": "Current"
+      },
+      {
+        "id": "cbp",
+        "health": "Current"
+      },
+      {
+        "id": "usitc",
+        "health": "Current"
+      },
+      {
+        "id": "ustr",
+        "health": "Current"
+      },
+      {
+        "id": "ofac",
+        "health": "Current"
+      },
+      {
+        "id": "bls-ppi",
+        "health": "Blocked"
+      },
+      {
+        "id": "afpa",
+        "health": "Current"
+      },
+      {
+        "id": "bls-labor",
+        "health": "Blocked"
+      },
+      {
+        "id": "ides",
+        "health": "Current"
+      },
+      {
+        "id": "widwd",
+        "health": "Current"
+      },
+      {
+        "id": "dol",
+        "health": "Blocked"
+      },
+      {
+        "id": "sec",
+        "health": "Blocked"
+      },
+      {
+        "id": "appa",
+        "health": "Current"
+      },
+      {
+        "id": "plma",
+        "health": "Current"
+      },
+      {
+        "id": "ws-careers",
+        "health": "Current"
+      },
+      {
+        "id": "ws-about",
+        "health": "Current"
+      },
+      {
+        "id": "topfox",
+        "health": "Current"
+      },
+      {
+        "id": "deer-creek",
+        "health": "Fetch error"
+      },
+      {
+        "id": "gridley-local",
+        "health": "Blocked"
+      },
+      {
+        "id": "thrive",
+        "health": "Current"
+      },
+      {
+        "id": "vdf",
+        "health": "Current"
+      },
+      {
+        "id": "efd",
+        "health": "Current"
+      },
+      {
+        "id": "barrett",
+        "health": "Current"
+      },
+      {
+        "id": "weaver",
+        "health": "Current"
+      },
+      {
+        "id": "flagstone",
+        "health": "Fetch error"
+      },
+      {
+        "id": "pmmi",
+        "health": "Current"
+      },
+      {
+        "id": "gea",
+        "health": "Current"
+      },
+      {
+        "id": "rockwell",
+        "health": "Fetch error"
+      },
+      {
+        "id": "cisa-kev",
+        "health": "Current"
+      },
+      {
+        "id": "cisa-ics",
+        "health": "Current"
+      },
+      {
+        "id": "cisa-ransom",
+        "health": "Current"
+      },
+      {
+        "id": "nws-ilx-outlook",
+        "health": "Current"
+      },
+      {
+        "id": "ws-gipa-notice",
+        "health": "Manual review"
+      },
+      {
+        "id": "eia-industrial",
+        "health": "Fetch error"
+      },
+      {
+        "id": "bls-peoria",
+        "health": "Blocked"
+      },
+      {
+        "id": "bls-milwaukee",
+        "health": "Blocked"
+      },
+      {
+        "id": "bls-paperboard-api",
+        "health": "Current"
+      },
+      {
+        "id": "eia-steo",
+        "health": "Current"
+      },
+      {
+        "id": "gis-ir",
+        "health": "Current"
+      },
+      {
+        "id": "osm-illinois-corridors",
+        "health": "Current"
+      },
+      {
+        "id": "osm-wisconsin-corridors",
+        "health": "Current"
+      },
+      {
+        "id": "osm-places",
+        "health": "Manual review"
+      }
+    ]
+  },
+  "forecastCalibration": {
+    "resolved": 0,
+    "unresolved": 3,
+    "brier": null,
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "bins": [
+      {
+        "range": [
+          0,
+          0.2
+        ],
+        "n": 0,
+        "predicted": null,
+        "observed": null
+      },
+      {
+        "range": [
+          0.2,
+          0.4
+        ],
+        "n": 0,
+        "predicted": null,
+        "observed": null
+      },
+      {
+        "range": [
+          0.4,
+          0.6000000000000001
+        ],
+        "n": 0,
+        "predicted": null,
+        "observed": null
+      },
+      {
+        "range": [
+          0.6,
+          0.8
+        ],
+        "n": 0,
+        "predicted": null,
+        "observed": null
+      },
+      {
+        "range": [
+          0.8,
+          1
+        ],
+        "n": 0,
+        "predicted": null,
+        "observed": null
+      }
+    ]
+  },
+  "limits": "Only genuine 17, 18 and 19 September snapshots are available; three points are not a 30/90/365-day trend. Company exposure remains provisional and Cyber / OT remains unassessed.",
+  "citations": [
+    {
+      "id": "ws-about",
+      "title": "Watershed: About",
+      "url": "https://watershedfoods.com/about",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Current company statement; not a registry of beneficial ownership."
+    },
+    {
+      "id": "ws-capabilities",
+      "title": "Watershed: Capabilities",
+      "url": "https://watershedfoods.com/capabilities",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Advertised capability does not establish installed capacity or current production of every example."
+    },
+    {
+      "id": "ws-markets",
+      "title": "Watershed: Verticals",
+      "url": "https://watershedfoods.com/verticals",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Market positioning, not customer contracts or category growth measurement."
+    },
+    {
+      "id": "ws-careers",
+      "title": "Watershed: Careers",
+      "url": "https://watershedfoods.com/careers",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Public roles and regional facility descriptions; postings do not establish staffing levels."
+    },
+    {
+      "id": "ws-home",
+      "title": "Watershed: Food-safety statement",
+      "url": "https://watershedfoods.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "SQF and safety-history claims are self-reported; certificate scope and expiry not inspected."
+    },
+    {
+      "id": "edge-2024",
+      "title": "Illinois DCEO: 2024 EDGE agreement",
+      "url": "https://dceo.illinois.gov/content/dam/soi/en/web/dceo/expandrelocate/incentives/edge_agreements/2024-watershed-foods-llc-and-the-manna-group-llc-edge-agreement-redacted.pdf",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Dated agreement; planned investments and employment commitments are not proof of completion."
+    },
+    {
+      "id": "topfox",
+      "title": "Top Fox: About",
+      "url": "https://topfoxsnacks.com/pages/about",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Brand ownership statement and contact location; no exhaustive supplier list."
+    },
+    {
+      "id": "heartland-2026",
+      "title": "Food Business News: Heartland transition",
+      "url": "https://www.foodbusinessnews.net/articles/29579-watershed-foods-to-enter-popcorn-market-via-new-business-unit",
+      "kind": "Industry reporting",
+      "retrievedAt": "2026-09-17",
+      "limitation": "6 January 2026 interview; acquisition and expansion described as plans."
+    },
+    {
+      "id": "deer-directory",
+      "title": "Village of Deer Creek: Businesses",
+      "url": "https://www.deercreekillinois.org/businesses.html",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Lists Aunt Em’s / Heartland at one address; does not prove transaction closing or throughput."
+    },
+    {
+      "id": "wcbu-heartland",
+      "title": "WCBU: Deer Creek grant",
+      "url": "https://www.wcbu.org/local-news/2025-12-30/company-gets-1m-grant-to-expand-into-the-popcorn-business-in-deer-creek",
+      "kind": "Public media",
+      "retrievedAt": "2026-09-17",
+      "limitation": "30 December 2025; distinguish jobs created or retained from wholly new employment."
+    },
+    {
+      "id": "ws-linkedin",
+      "title": "Watershed public company profile",
+      "url": "https://www.linkedin.com/company/watershed-foods",
+      "kind": "Company profile",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Self-reported office location and founding year. Social profile is a discovery lead requiring verification."
+    },
+    {
+      "id": "pantagraph-2009",
+      "title": "Pantagraph: Watershed history",
+      "url": "https://pantagraph.com/news/watershed-foods-success-driven-by-need-to-help-others/article_7a0f23b0-6f49-11de-8ec6-001cc4c03286.html",
+      "kind": "Historical reporting",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Indexed excerpt retrieved; full article inaccessible. Historical customer only."
+    },
+    {
+      "id": "tracegains",
+      "title": "TraceGains: Watershed listing",
+      "url": "https://gather.tracegains.com/market/supplier/587d731a-9c1a-42ef-bf2b-2d0d288df80a",
+      "kind": "Supplier directory",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Document titles are not document contents, certificate validation, or evidence of a customer relationship."
+    },
+    {
+      "id": "eia-diesel",
+      "title": "EIA: Gasoline and Diesel Fuel Update",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Regional retail on-highway diesel benchmark, not Watershed’s contracted fuel or freight rate."
+    },
+    {
+      "id": "wasde-sep",
+      "title": "USDA: September 2026 WASDE tables",
+      "url": "https://www.usda.gov/oce/commodity/wasde/wasde0926.txt",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Forecast revisions; total grain figures are not popcorn- or food-grade ingredient quotations."
+    },
+    {
+      "id": "fda-trace",
+      "title": "FDA: Food Traceability Rule",
+      "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "FDA describes a proposed date extension and a congressional non-enforcement direction; determine food/form/exemption applicability."
+    },
+    {
+      "id": "fda-lead",
+      "title": "FDA: Lead guidance, final PDF",
+      "url": "https://www.fda.gov/media/164684/download",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "January 2025 nonbinding guidance; footnote 2 excludes grain-based and freeze-dried snack foods."
+    },
+    {
+      "id": "appa",
+      "title": "APPA: Industry Trends and Stats",
+      "url": "https://americanpetproducts.org/industry-trends-and-stats",
+      "kind": "Trade association",
+      "retrievedAt": "2026-09-17",
+      "limitation": "2026 figures are projections. Page has inconsistent prior-year headings; do not compute year-on-year growth from them."
+    },
+    {
+      "id": "thrive",
+      "title": "Thrive Freeze Dry",
+      "url": "https://www.thrivefreezedry.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Competitor capability statement; no market-share estimate."
+    },
+    {
+      "id": "thrive-oak",
+      "title": "Thrive: Oak Creek announcement",
+      "url": "https://www.thrivefreezedry.com/thrive-foods-sets-up-one-of-the-largest-freeze-drying-facilities-in-north-america-to-further-enhance-capabilities/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "4 January 2023 announcement; commissioning and current utilization require re-verification."
+    },
+    {
+      "id": "thrive-mercer",
+      "title": "Thrive: Mercer combination",
+      "url": "https://www.thrivefreezedry.com/entrepreneurial-equity-partners-and-mubadala-capital-private-equity-invest-in-mercer-foods-and-thrive-foods/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Historical combination announcement; do not count Mercer as an independent alternative."
+    },
+    {
+      "id": "vdf",
+      "title": "Van Drunen Farms",
+      "url": "https://www.vandrunenfarms.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Advertised ingredient processing and blending capabilities."
+    },
+    {
+      "id": "efd",
+      "title": "European Freeze Dry",
+      "url": "https://europeanfreezedry.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Advertised food ingredients, contract drying and pet offerings."
+    },
+    {
+      "id": "barrett",
+      "title": "Barrett Petfood",
+      "url": "https://barrettpetfood.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Advertised petfood, freeze-dried and kibble capabilities."
+    },
+    {
+      "id": "weaver",
+      "title": "Weaver Popcorn Manufacturing",
+      "url": "https://www.weaverpopcorn.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Public popcorn co-manufacturing and private-label capabilities."
+    },
+    {
+      "id": "flagstone",
+      "title": "Flagstone Foods",
+      "url": "https://flagstonefoods.com/",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Indexed company description supports private-label snacks; full-page fetch timed out."
+    },
+    {
+      "id": "nws-ilx-outlook",
+      "title": "NWS Lincoln hazardous weather outlook, 17 September 2026",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Issued 04:29 CDT. Match the McLean, Woodford and Tazewell Illinois zone group. Outlook is not a warning or observed facility disruption; this live URL changes."
+    },
+    {
+      "id": "fda-fi-20260908",
+      "title": "FDA: Fi dog-supplement recall",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fi-recalls-supplements-dogs-because-possible-salmonella-contamination",
+      "kind": "Government-hosted company recall",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Company announcement 3 September; FDA publication 8 September. No Watershed manufacturing, supplier or customer relationship established."
+    },
+    {
+      "id": "fda-cashew-20260915",
+      "title": "FDA: So Delicious frozen-dessert recall",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/so-delicious-dairy-freer-issues-voluntary-recall-salted-caramel-cluster-non-dairy-frozen-dessert",
+      "kind": "Government-hosted company recall",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Published 15 September. Product-specific potential hard-material contamination in cashew inclusions; no Watershed relationship established."
+    },
+    {
+      "id": "ws-gipa-notice",
+      "title": "Tasker v. Watershed Foods: settlement-administrator FAQ",
+      "url": "https://www.watershedgipasettlement.com/faq/",
+      "kind": "Primary case administrator",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Notice retains proposed-approval language and an elapsed hearing date. Current docket disposition was not verified. Allegations are disputed, not findings."
+    },
+    {
+      "id": "bls-ppi",
+      "title": "BLS: August 2026 commodity Producer Price Index table",
+      "url": "https://www.bls.gov/news.release/ppi.t02.htm",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Preliminary broad U.S. price indices; footnote 2 is NSA. No company purchase price or recipe weight is established."
+    },
+    {
+      "id": "eia-industrial",
+      "title": "EIA: June 2026 state industrial electricity prices",
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Preliminary state sector averages, not Watershed rates. Comparison is June 2025, not the previous month."
+    },
+    {
+      "id": "bls-labor",
+      "title": "BLS: Bloomington metro labor indicators",
+      "url": "https://www.bls.gov/regions/midwest/il_bloomington_msa.htm",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "July 2026 preliminary NSA metro estimates; not a company hiring or wage survey."
+    },
+    {
+      "id": "bls-peoria",
+      "title": "BLS: Peoria metro labor indicators",
+      "url": "https://www.bls.gov/regions/midwest/il_peoria_msa.htm",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "July 2026 preliminary NSA metro estimates; no actual commuting pattern is assumed."
+    },
+    {
+      "id": "bls-milwaukee",
+      "title": "BLS: Milwaukee-Waukesha metro labor indicators",
+      "url": "https://www.bls.gov/regions/midwest/wi_milwaukee_msa.htm",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "July 2026 preliminary NSA metro estimates; exact Watershed Wisconsin site remains unknown."
+    },
+    {
+      "id": "bls-paperboard-api",
+      "title": "BLS API: Paperboard PPI, WPU0914",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "NSA index, 1982=100; annual averages excluded; not actual packaging purchase prices."
+    },
+    {
+      "id": "eia-steo",
+      "title": "EIA: September 2026 Short-Term Energy Outlook",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Agency scenarios and forecasts, completed September 3 and published September 9; not realized outcomes or Watershed import routes."
+    },
+    {
+      "id": "fda-cvm",
+      "title": "FDA: Animal Foods & Feeds",
+      "url": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
+      "kind": "Government",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Animal product classification depends on intended use; DSHEA does not establish an animal dietary-supplement category."
+    },
+    {
+      "id": "gis-20260908",
+      "title": "General Mills: September 8, 2026 business update",
+      "url": "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reaffirms-Annual-Guidance-and-Provides-Business-Update-at-2026-Barclays-Global-Consumer-Staples-Conference/default.aspx",
+      "kind": "Company",
+      "retrievedAt": "2026-09-17",
+      "limitation": "One company as a global CPG/category proxy. No Watershed customer relationship; management commentary is attributed, not independent category growth evidence."
+    },
+    {
+      "id": "osm-illinois-corridors",
+      "title": "OpenStreetMap: Central Illinois public corridor extract",
+      "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%7Cprimary%29%24%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2840.40%2C-89.45%2C40.84%2C-88.65%29%3B%29%3Bout+tags+geom%3B",
+      "kind": "OpenStreetMap",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Community map snapshot, not verified facility access or company routing. © OpenStreetMap contributors; ODbL 1.0."
+    },
+    {
+      "id": "osm-wisconsin-corridors",
+      "title": "OpenStreetMap: Milwaukee reference public corridor extract",
+      "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%28way%5B%22highway%22~%22%5E%28motorway%7Ctrunk%29%24%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3Bway%5B%22railway%22%3D%22rail%22%5D%5B%22usage%22%3D%22main%22%5D%2843.00%2C-88.00%2C43.10%2C-87.88%29%3B%29%3Bout+tags+geom%3B",
+      "kind": "OpenStreetMap",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Community map snapshot, not verified facility access or company routing. © OpenStreetMap contributors; ODbL 1.0."
+    },
+    {
+      "id": "osm-places",
+      "title": "OpenStreetMap municipality references and attribution",
+      "url": "https://www.openstreetmap.org/copyright",
+      "kind": "OpenStreetMap",
+      "retrievedAt": "2026-09-17",
+      "limitation": "Town/city reference coordinates, not facility coordinates. Individual OSM object links are in data/osm-context.json."
+    },
+    {
+      "retrievedAt": "2026-09-18",
+      "evidenceClass": "CONFIRMED",
+      "id": "nws-ilx-20260918",
+      "title": "NWS Lincoln: 18 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Government",
+      "publishedAt": "2026-09-18T04:29:00-05:00",
+      "limitation": "Rolling outlook, not a warning or facility impact. Includes McLean, Woodford and Tazewell counties; 18 September isolated storms and 19 September severe-storm potential."
+    },
+    {
+      "retrievedAt": "2026-09-18",
+      "evidenceClass": "CONFIRMED",
+      "id": "fda-soy-20260918",
+      "title": "FDA-posted Saratoga Potato Chips undeclared-soy announcement",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saratoga-potato-chips-issues-allergy-alert-undeclared-soy-j-higgs-loaded-bacon-and-cheddar-potato",
+      "kind": "Regulator / company announcement",
+      "publishedAt": "2026-09-18",
+      "eventAt": null,
+      "companyAnnouncementAt": "2026-09-16",
+      "limitation": "No Watershed link established. Header announcement/publication dates are 2026; body states initiation September 15, 2025. Initiation date remains unresolved; do not silently correct or treat retrieval as initiation."
+    },
+    {
+      "retrievedAt": "2026-09-18",
+      "evidenceClass": "CONFIRMED",
+      "id": "bls-state-20260918",
+      "title": "BLS August 2026 state employment and unemployment release",
+      "url": "https://www.bls.gov/news.release/laus.nr0.htm",
+      "kind": "Government",
+      "publishedAt": "2026-09-18",
+      "referencePeriod": "2026-08",
+      "limitation": "Statewide preliminary seasonally adjusted estimates; not manufacturing-only or Watershed staffing. IL/WI monthly unemployment changes are not identified as statistically significant."
+    },
+    {
+      "retrievedAt": "2026-09-18",
+      "evidenceClass": "CONFIRMED",
+      "id": "bls-state-table-20260918",
+      "title": "BLS August 2026 state unemployment table 1",
+      "url": "https://www.bls.gov/news.release/laus.t01.htm",
+      "kind": "Government",
+      "publishedAt": "2026-09-18",
+      "referencePeriod": "2026-08",
+      "limitation": "Statewide residence-based, seasonally adjusted, preliminary August estimates. Do not splice into July non-seasonally-adjusted metro series."
+    },
+    {
+      "retrievedAt": "2026-09-18",
+      "evidenceClass": "CONFIRMED",
+      "id": "eia-steo-recheck-20260918",
+      "title": "EIA September STEO and undated correction notice, rechecked 18 September",
+      "url": "https://www.eia.gov/outlooks/steo/",
+      "kind": "Government",
+      "publishedAt": "2026-09-09",
+      "correctionPublishedAt": null,
+      "limitation": "Forecast completed September 3. Distillate-crack-spread table correction is visible, but correction date is unknown. Not a new September 18 geopolitical event or realized outcome."
+    },
+    {
+      "id": "nws-ilx-20260919",
+      "title": "NWS Lincoln: 19 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T04:03:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "County-level outlook, not a warning or facility impact. McLean, Woodford and Tazewell are included; no active alert matched their Illinois SAME codes at the 16:59 UTC review."
+    },
+    {
+      "id": "nws-mke-flood-20260919",
+      "title": "NWS Milwaukee/Sullivan: southeast Wisconsin Flood Watch update",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad451546fb09ecca4c401957b4be91891ec63ac1.002.1",
+      "kind": "Government API",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T08:58:00-05:00",
+      "eventEndsAt": "2026-09-20T07:00:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Regional watch includes Milwaukee County but Watershed discloses only a greater-Milwaukee presence. Exact facility municipality, route and site effects are unverified."
+    },
+    {
+      "id": "fda-wheat-20260918",
+      "title": "FDA-posted GF Blends undeclared-wheat recall announcement",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
+      "kind": "Regulator / company announcement",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-18",
+      "eventAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "No Watershed, customer or supplier connection established. FDA posts the company's announcement; the described plantain-flour supplier and affected products must not be attributed to Watershed."
+    },
+    {
+      "id": "wi-datcp-news-20260919",
+      "title": "Wisconsin DATCP current news-release index",
+      "url": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "kind": "State government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": null,
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Rolling agency index, not a company-specific compliance record. Used to replace a legacy DATCP URL returning HTTP 404; individual releases require separate event dates and applicability review."
+    },
+    {
+      "id": "weaver-aua-history",
+      "title": "Weaver Popcorn Manufacturing: company history and AUA partnership",
+      "url": "https://www.weaverpopcorn.com/about-us",
+      "kind": "Company",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": null,
+      "eventAt": "2024",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Current company statement says a 2024 partnership with AUA Private Equity Partners. It does not disclose ownership percentage, control, investment amount, capacity added, utilization or a Watershed relationship."
+    },
+    {
+      "id": "wi-datcp-hpai-20260915",
+      "title": "Wisconsin DATCP: HPAI confirmed in Barron County commercial poultry flock",
+      "url": "https://datcp.wi.gov/Pages/HighlyPathogenicAvianInfluenzaConfirmedinBarronCounty.aspx",
+      "kind": "State government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-15",
+      "eventAt": "2026-09-15",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "One quarantined commercial poultry flock; birds will not enter the food system. No Watershed poultry sourcing, supplier, recipe, Barron County dependency or affected lot is established."
+    }
+  ]
+}

@@ -279,12 +279,6 @@
       "changed": true
     },
     {
-      "error": "HTTP 404",
-      "fetchedAt": "2026-09-18T19:41:21.869Z",
-      "sourceId": "widatcp",
-      "status": "error"
-    },
-    {
       "sourceId": "sqfi",
       "status": "ok",
       "fetchedAt": "2026-09-17T17:38:36.618Z",
@@ -620,9 +614,31 @@
       "count": 1,
       "changed": true,
       "retrievalMethod": "Reviewed direct public API request"
+    },
+    {
+      "sourceId": "widatcp",
+      "status": "ok",
+      "fetchedAt": "2026-09-19T17:04:29.527Z",
+      "hash": "274d6d5c35f31f47c9f1a67f30c532e308b7cde705d15324110e43f2ea9509dd",
+      "etag": null,
+      "count": 1,
+      "changed": true
     }
   ],
   "candidates": [
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-19T17:04:29.527Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.f25644787aeb2b94f247e97865c0949d6a94e4f9.001.1",
       "sourceId": "nws-il",
@@ -8639,7 +8655,7 @@
     },
     {
       "date": "2026-09-19",
-      "asOf": "2026-09-19T14:29:19.798Z",
+      "asOf": "2026-09-19T17:04:56.162Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -9069,13 +9085,13 @@
         {
           "id": "S07",
           "title": "Central Illinois storm outlook reaches three facility counties",
-          "summary": "The 18 September NWS outlook includes McLean, Woodford and Tazewell counties: isolated storms and localized flooding possible today, with some severe-storm potential on Saturday, 19 September. No facility disruption is established.",
+          "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
           "category": "Facility / weather",
           "direction": "Threat",
           "confidence": "Medium",
           "evidenceClass": "INFERRED",
           "sourceIds": [
-            "nws-ilx-20260918"
+            "nws-ilx-20260919"
           ],
           "facilityIds": [
             "gridley",
@@ -9103,10 +9119,10 @@
             "COO",
             "HR / Talent"
           ],
-          "observedAt": "2026-09-18",
-          "retrievedAt": "2026-09-18",
-          "reviewedAt": "2026-09-18",
-          "expiresAt": "2026-09-19",
+          "observedAt": "2026-09-19",
+          "retrievedAt": "2026-09-19",
+          "reviewedAt": "2026-09-19",
+          "expiresAt": "2026-09-20",
           "timeToImpact": "Immediate",
           "impactDomains": [
             "Transportation",
@@ -9117,7 +9133,7 @@
           "status": "reviewed",
           "group": "central-il-weather",
           "revision": 1,
-          "dateNote": "NWS issued 04:29 CDT on 18 September. Recheck within 24 hours. Freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+          "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
         },
         {
           "id": "S08",
@@ -9765,13 +9781,13 @@
     {
       "id": "S07",
       "title": "Central Illinois storm outlook reaches three facility counties",
-      "summary": "The 18 September NWS outlook includes McLean, Woodford and Tazewell counties: isolated storms and localized flooding possible today, with some severe-storm potential on Saturday, 19 September. No facility disruption is established.",
+      "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
       "category": "Facility / weather",
       "direction": "Threat",
       "confidence": "Medium",
       "evidenceClass": "INFERRED",
       "sourceIds": [
-        "nws-ilx-20260918"
+        "nws-ilx-20260919"
       ],
       "facilityIds": [
         "gridley",
@@ -9799,10 +9815,10 @@
         "COO",
         "HR / Talent"
       ],
-      "observedAt": "2026-09-18",
-      "retrievedAt": "2026-09-18",
-      "reviewedAt": "2026-09-18",
-      "expiresAt": "2026-09-19",
+      "observedAt": "2026-09-19",
+      "retrievedAt": "2026-09-19",
+      "reviewedAt": "2026-09-19",
+      "expiresAt": "2026-09-20",
       "timeToImpact": "Immediate",
       "impactDomains": [
         "Transportation",
@@ -9813,7 +9829,7 @@
       "status": "reviewed",
       "group": "central-il-weather",
       "revision": 1,
-      "dateNote": "NWS issued 04:29 CDT on 18 September. Recheck within 24 hours. Freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+      "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
     },
     {
       "id": "S08",
@@ -10692,6 +10708,70 @@
       "publishedAt": "2026-09-09",
       "correctionPublishedAt": null,
       "limitation": "Forecast completed September 3. Distillate-crack-spread table correction is visible, but correction date is unknown. Not a new September 18 geopolitical event or realized outcome."
+    },
+    {
+      "id": "nws-ilx-20260919",
+      "title": "NWS Lincoln: 19 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T04:03:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "County-level outlook, not a warning or facility impact. McLean, Woodford and Tazewell are included; no active alert matched their Illinois SAME codes at the 16:59 UTC review."
+    },
+    {
+      "id": "nws-mke-flood-20260919",
+      "title": "NWS Milwaukee/Sullivan: southeast Wisconsin Flood Watch update",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ad451546fb09ecca4c401957b4be91891ec63ac1.002.1",
+      "kind": "Government API",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T08:58:00-05:00",
+      "eventEndsAt": "2026-09-20T07:00:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Regional watch includes Milwaukee County but Watershed discloses only a greater-Milwaukee presence. Exact facility municipality, route and site effects are unverified."
+    },
+    {
+      "id": "fda-wheat-20260918",
+      "title": "FDA-posted GF Blends undeclared-wheat recall announcement",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
+      "kind": "Regulator / company announcement",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-18",
+      "eventAt": "2026-09-17",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "No Watershed, customer or supplier connection established. FDA posts the company's announcement; the described plantain-flour supplier and affected products must not be attributed to Watershed."
+    },
+    {
+      "id": "wi-datcp-news-20260919",
+      "title": "Wisconsin DATCP current news-release index",
+      "url": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "kind": "State government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": null,
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Rolling agency index, not a company-specific compliance record. Used to replace a legacy DATCP URL returning HTTP 404; individual releases require separate event dates and applicability review."
+    },
+    {
+      "id": "weaver-aua-history",
+      "title": "Weaver Popcorn Manufacturing: company history and AUA partnership",
+      "url": "https://www.weaverpopcorn.com/about-us",
+      "kind": "Company",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": null,
+      "eventAt": "2024",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Current company statement says a 2024 partnership with AUA Private Equity Partners. It does not disclose ownership percentage, control, investment amount, capacity added, utilization or a Watershed relationship."
+    },
+    {
+      "id": "wi-datcp-hpai-20260915",
+      "title": "Wisconsin DATCP: HPAI confirmed in Barron County commercial poultry flock",
+      "url": "https://datcp.wi.gov/Pages/HighlyPathogenicAvianInfluenzaConfirmedinBarronCounty.aspx",
+      "kind": "State government",
+      "retrievedAt": "2026-09-19",
+      "publishedAt": "2026-09-15",
+      "eventAt": "2026-09-15",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "One quarantined commercial poultry flock; birds will not enter the food system. No Watershed poultry sourcing, supplier, recipe, Barron County dependency or affected lot is established."
     }
   ],
   "claims": [
@@ -11072,5 +11152,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "baselineRevision": "2026-09-18-reviewed"
+  "baselineRevision": "2026-09-19-reviewed"
 }

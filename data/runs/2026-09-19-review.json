@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-19",
+  "completedAt": "2026-09-19T17:05:22.705Z",
+  "repositoryBase": "0123141a9660240e48701103d340181f021a2dcc",
+  "disposition": "GUIDANCE STABLE",
+  "changes": [
+    "Refreshed S07 from the 19 September NWS Lincoln outlook and extended its 24-hour expiry without changing factors, guidance or revision.",
+    "Recorded a southeast Wisconsin Flood Watch as an unscored greater-Milwaukee location-verification lead; exact Watershed municipality and impact remain unknown.",
+    "Recorded Wisconsin's 15 September Barron County HPAI event as an unscored animal-protein sourcing lead; no poultry use or sourcing relationship is inferred.",
+    "Recorded FDA's GF Blends undeclared-wheat announcement as an unscored supplier-certificate/incoming-test failure mode; no Watershed ingredient, supplier or lot match exists.",
+    "Added Weaver's company-stated 2024 AUA Private Equity partnership to the competitor watchlist as historical context with ownership/capacity limitations.",
+    "Replaced the Wisconsin DATCP legacy HTTP 404 endpoint with the current official news-release index and collector-validated it successfully."
+  ],
+  "unchanged": [
+    "Overall posture Elevated, provisional 47/100; 11 of 12 domains assessed and Cyber / OT null.",
+    "All seven materiality factors, urgent override state, impact domains, directions, confidence, decision owners, actions and stronger-response triggers.",
+    "Company ground truth, facility graph, exposures, failure domains, ingredient model, regulatory scope and all non-Weaver competitor records.",
+    "Six hypotheses, failure counts and evidence histories; all three forecast initial probabilities, horizons and outcomes remain open.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-19T14:29:18.381Z",
+    "attempted": 13,
+    "stateCounts": {
+      "ok": 55,
+      "blocked": 12,
+      "error": 7
+    },
+    "candidateCount": 295,
+    "history": [
+      {
+        "date": "2026-09-17",
+        "asOf": "2026-09-17T22:53:02.546Z"
+      },
+      {
+        "date": "2026-09-18",
+        "asOf": "2026-09-18T22:38:23.226Z"
+      },
+      {
+        "date": "2026-09-19",
+        "asOf": "2026-09-19T17:04:56.162Z"
+      }
+    ],
+    "widatcp": {
+      "sourceId": "widatcp",
+      "status": "ok",
+      "fetchedAt": "2026-09-19T17:04:29.527Z",
+      "hash": "274d6d5c35f31f47c9f1a67f30c532e308b7cde705d15324110e43f2ea9509dd",
+      "etag": null,
+      "count": 1,
+      "changed": true
+    },
+    "posture": "Elevated",
+    "score": 47,
+    "coverage": {
+      "assessed": 11,
+      "total": 12
+    },
+    "sourceHealth": {
+      "Current": 55,
+      "Key required": 2,
+      "Blocked": 12,
+      "Fetch error": 7,
+      "Manual review": 7
+    },
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "Supply Chain",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S07",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "competitorCitationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public data/catalog/dossier records changed; the existing private Site synchronizes these records without application or embedded graph changes.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-19.json",
+  "dailyPath": "data/daily/2026-09-19.json",
+  "reportPath": "docs/daily/2026-09-19.md",
+  "siteSync": "Existing private Site and audience retained; no replacement or publication change."
+}
