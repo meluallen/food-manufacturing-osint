@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
-      "hash": "c450042dfbdb2a3d24aa6217a1b6598fdfdc89f3eebd6d47854de32ed5f727b4",
-      "etag": "W/\"365ae28f068f6f684409a3717bb1cf4d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 28,
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
+      "hash": "feadcd8e11f2a38c605e5bf549d67bb518cfc82636a0cb291982ccb6fed0f3c4",
+      "etag": "W/\"3f626aa8706e8b593719a3e5c5f286ec:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 29,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
-      "hash": "d2c207beae7d6dde2ad95fbe80dfdd217574a31f934d3fcdd3fe105bb184cb56",
-      "etag": "W/\"4ade2d67a1f3469a26dd56f738470fc2:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 14,
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
+      "hash": "716f1a47ccfc4b4b7592a00624502ae42cbcb7c1e66f4099871de6c23e4bcbf7",
+      "etag": "W/\"53e64f71c9404392c6b7b9055345a3ee:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 11,
       "changed": true
     },
     {
@@ -31,7 +31,7 @@
       "changed": true,
       "count": 60,
       "etag": "W/\"24f98-b+UToiOF4BzHhVBmj4vdbdV72f4\"",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "f78f885bc160be3b485ef22e31154381593d112bc3734e113f0c535138953765",
       "sourceId": "fda-recalls",
       "status": "ok"
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "7b770a6f5eb1d47a7176ef2f1428594551399912c8f3b5d2bf0f562b7e745e06",
       "etag": "\"1a7ad9-65bc682215638\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "a1e947b0ea895b8534ed1baa7f266742eaedea5f821e445490b7cca676531d49",
       "etag": null,
       "count": 0,
@@ -84,7 +84,7 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
       "etag": "W/\"16346-1774286901967-gzip\"",
       "count": 0,
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
-      "hash": "53c56572af02d0619863c324bf4720314f9f0228d4f3070d053aa9c25767e0e5",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
+      "hash": "372947bc30355706ef91019e177e83e35ac2a56644cbe7da6e45cb5ede179156",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,11 +201,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "081b25c4725775f7413d0db324e7d6e904a0cc9e671d4dbbd84dc576eff4225a",
       "etag": "\"1789849751\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "72e4aefc37cf6b5f1c94f31ed1d3d2af1f958f0e5f31be2ffc06a8eb5ffd55a5",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -523,7 +523,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
       "hash": "7ea75fd6b5cdda542f59fcfac303a962a49ede6606dc18138e603e51b9043101",
       "etag": null,
       "count": 0,
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-20T06:25:30.427Z",
-      "hash": "840def53d2404cda4f2dcf639b55788ee55faaf204cbb6df3dcc11ddc8576d6f",
+      "fetchedAt": "2026-09-20T12:27:31.700Z",
+      "hash": "93527f9557217ce0a9cae3b9d7ff85ebe37d6bc2e6eac65709128d25f9749c32",
       "etag": null,
       "count": 1,
       "changed": true
@@ -624,6 +624,1258 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 22 at 9:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Winnebago; Green; Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Sugar River at Brodhead. * WHEN...From late tonight to Tuesday evening. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 1.7 feet. - Forecast...Flood stage may be reached l",
+      "observedAt": "2026-09-19T12:27:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-19T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017201",
+          "055045",
+          "055105"
+        ],
+        "UGC": [
+          "ILZ003",
+          "WIZ068",
+          "WIZ069"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 22 at 9:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Winnebago; Green; Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Sugar River at Brodhead. * WHEN...From late tonight to Tuesday evening. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 1.7 feet. - Forecast...Flood stage may be reached l",
+      "observedAt": "2026-09-19T12:27:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017201",
+          "055045",
+          "055105"
+        ],
+        "UGC": [
+          "ILZ003",
+          "WIZ068",
+          "WIZ069"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.003.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 21 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Turtle Creek near Clinton. * WHEN...From late tonight to Monday afternoon. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 4.8 feet. - Forecast...Flood stage may be reached late tonight. - ",
+      "observedAt": "2026-09-19T12:27:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-19T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055105"
+        ],
+        "UGC": [
+          "WIZ069"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.006.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 24 at 6:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Muscatine; Rock Island: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is ",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019139",
+          "017161"
+        ],
+        "UGC": [
+          "IAZ067",
+          "ILZ015"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.008.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 2:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Hancock; Clark: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017067",
+          "029045"
+        ],
+        "UGC": [
+          "ILZ034",
+          "MOZ010"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 11:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines; Henderson: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is p",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "017071"
+        ],
+        "UGC": [
+          "IAZ089",
+          "ILZ025"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.007.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 5:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines; Lee; Henderson; Hancock: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT..",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "019111",
+          "017071",
+          "017067"
+        ],
+        "UGC": [
+          "IAZ089",
+          "IAZ099",
+          "ILZ025",
+          "ILZ034"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 3:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Louisa; Des Moines; Mercer; Henderson: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019115",
+          "019057",
+          "017131",
+          "017071"
+        ],
+        "UGC": [
+          "IAZ078",
+          "IAZ089",
+          "ILZ024",
+          "ILZ025"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 25 at 1:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Louisa; Mercer: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019115",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ078",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 25 at 3:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Muscatine; Louisa; Rock Island; Mercer: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHA",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019139",
+          "019115",
+          "017161",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ067",
+          "IAZ078",
+          "ILZ015",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 24 at 9:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Muscatine; Scott; Rock Island: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flood",
+      "observedAt": "2026-09-19T22:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T22:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019139",
+          "019163",
+          "017161"
+        ],
+        "UGC": [
+          "IAZ067",
+          "IAZ068",
+          "ILZ015"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.591f25fbe25c9fcc3c1a9ffe9ee62f5fdcad40b6.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 19 at 10:10PM CDT until September 22 at 9:00PM CDT by NWS Chicago IL",
+      "summary": "La Salle, IL: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. * WHAT...Moderate flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...From Sunday afternoon to Tuesday evening. * IMPACTS...At 14.5 feet, Low-lying agricultural land inundated near Norway. * ADDITIONAL DETAILS... - At 8:45 PM CDT Saturday the stage was 7.6 feet. - Forecast...The river is expected to rise above flood stage early Sunday afternoon to a crest of 14.9 feet Monday morning. It will then fall below flood stage Tuesday afternoon. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T22:10:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017099"
+        ],
+        "UGC": [
+          "ILC099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b790a0ecb3abbbc57d34f765b0863988b7a8f3c9.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:06PM CDT until September 21 at 1:00AM CDT by NWS Chicago IL",
+      "summary": "Northern Will; Southern Will: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Du Page River at Shorewood affecting Southern Will and Northern Will zones. * WHAT...Flooding is possible. * WHERE...Du Page River from IL-59 in Plainfield downstream to confluence with Des Plaines River, including the Shorewood gauge. * WHEN...From Sunday afternoon to late Sunday night. * IMPACTS...At 16.0 feet, Clark Drive threatened in Shorewood. * ADDITIONAL DETAILS... - At 8:45 PM CDT Saturday the stage was 12.6 feet. - Forecast...Flood stage may be reached tomorrow afternoon. - Flood stage is 15.5 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-19T22:06:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017197"
+        ],
+        "UGC": [
+          "ILZ106",
+          "ILZ107"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
+      "summary": "Lake; Northern Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin dependin",
+      "observedAt": "2026-09-19T22:03:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:03PM CDT until September 22 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Central Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on th",
+      "observedAt": "2026-09-19T22:03:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
+      "summary": "Northern Cook; Central Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin ",
+      "observedAt": "2026-09-19T22:03:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ultima",
+      "observedAt": "2026-09-19T22:03:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ultima",
+      "observedAt": "2026-09-19T22:03:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.8a599957a22ce882c9a943a24c60028db8785aef.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:12PM CDT until September 25 at 3:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Rock Island; Henry: ...Forecast flooding changed from Minor to Moderate severity and increased in duration for the following rivers in Illinois... Rock River near Joslin affecting Rock Island, Whiteside and Henry IL zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River at Moline. * WHEN...From Monday afternoon to Friday afternoon. * ADDITIONAL DETAILS... - At 8:30 PM CDT Saturday the stage was 8.9 feet. - Forecast...Flood stage may be reached Monday afternoon. - Flood stage is 12.0 feet.",
+      "observedAt": "2026-09-19T21:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T21:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017161",
+          "017073"
+        ],
+        "UGC": [
+          "ILZ015",
+          "ILZ016"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.8a599957a22ce882c9a943a24c60028db8785aef.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 19 at 9:12PM CDT until September 25 at 9:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Whiteside; Rock Island; Henry: ...Forecast flooding changed from Minor to Moderate severity and increased in duration for the following rivers in Illinois... Rock River near Joslin affecting Rock Island, Whiteside and Henry IL zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River near Joslin. * WHEN...From late Sunday night to Friday morning. * ADDITIONAL DETAILS... - At 7:45 PM CDT Saturday the stage was 5.9 feet. - Forecast...Flood stage may be reached early Monday morning. - Flood stage is 12.0 feet.",
+      "observedAt": "2026-09-19T21:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T21:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017195",
+          "017161",
+          "017073"
+        ],
+        "UGC": [
+          "ILZ009",
+          "ILZ015",
+          "ILZ016"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.c9ee179fe7eea40ca0b5ebfbe70617485e1247ea.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 19 at 9:05PM CDT until September 21 at 3:00AM CDT by NWS Chicago IL",
+      "summary": "Cook, IL; Lake, IN: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois...Indiana... Little Calumet River at Munster (Hohman Avenue) affecting Lake IN and Cook Counties. * WHAT...Minor flooding is forecast. * WHERE...Little Calumet River from IN-912 in Hammond downstream to confluence with Thorn Creek in South Holland, including the Munster (Hohman Avenue) gauge. * WHEN...From early Sunday morning to late Sunday night. * IMPACTS...At 12.5 feet, Most areas outside of the levee-protected area are inundated in Hammond and Munster. * ADDITIONAL DETAILS... - At 8:00 PM CDT Saturday the stage was 6.7 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning to a crest of 13.8 feet early tomorrow afternoon. It will then fall below flood stage late tomorrow eveni",
+      "observedAt": "2026-09-19T21:05:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T13:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "018089"
+        ],
+        "UGC": [
+          "ILC031",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.7fa2b2175645bcc77f08f45ab5d26204b954de58.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 20 at 7:04AM CDT until September 20 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "Cook, IL; DuPage, IL; Kane, IL; Kendall, IL; Will, IL: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...East Central Cook County in northeastern Illinois... Southern DuPage County in northeastern Illinois... Southern Kane County in northeastern Illinois... Northern Kendall County in northeastern Illinois... Northwestern Will County in northeastern Illinois... * WHEN...Until 1000 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. * ADDITIONAL DETAILS... - At 701 AM CDT, Doppler radar and automated rain gauges indicated heavy rain due to thunderstorms earlier this morning. Minor flooding is ongoing in the advisory area. Up to 2 inches of rain have fallen. - Though heavy rain has ended, creeks and streams may continue to rise and will remain elevated this morning. - Some locations that will experience floo",
+      "observedAt": "2026-09-20T07:04:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T10:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017043",
+          "017089",
+          "017093",
+          "017197"
+        ],
+        "UGC": [
+          "ILC031",
+          "ILC043",
+          "ILC089",
+          "ILC093",
+          "ILC197"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f638f8b5f62b48bea0e850e7f2bb57dabc5e3ac0.001.1",
+      "sourceId": "nws-il",
+      "title": "Flash Flood Warning issued September 20 at 5:45AM CDT until September 20 at 11:15AM CDT by NWS Quad Cities IA IL",
+      "summary": "Delaware, IA; Dubuque, IA; Jackson, IA; Jones, IA; Jo Daviess, IL: At 545 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2.5 inches of rain have fallen. Additional rainfall amounts of 0.5 to 1 inch are possible in the warned area. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Dubuque, Asbury, Dyersville, Monticello, Bellevue, Cascade, Epworth, East Dubuque, Farley, Peosta, Earlville, Hopkinton, New Vienna, Colesburg, Worthington, Holy Cross, La Motte, Luxemburg and Rickardsville.",
+      "observedAt": "2026-09-20T05:45:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T11:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019055",
+          "019061",
+          "019097",
+          "019105",
+          "017085"
+        ],
+        "UGC": [
+          "IAC055",
+          "IAC061",
+          "IAC097",
+          "IAC105",
+          "ILC085"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9187f19ef153f7bf87c1933c9607e3ec98c347ef.001.1",
+      "sourceId": "nws-il",
+      "title": "Flash Flood Warning issued September 20 at 5:09AM CDT until September 20 at 8:00AM CDT by NWS Chicago IL",
+      "summary": "De Kalb, IL; La Salle, IL; Lee, IL: At 509 AM CDT, Doppler radar indicated thunderstorms produced heavy rain across the warned area. Between 3 and 6 inches of rain have fallen with the highest amounts across Lee County. While the heavy rain has ended, additional heavy rain is possible later this morning. Flash flooding is ongoing or expected to begin shortly. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Rapid-onset flooding of creeks, streams, drainage ditches, streets, underpasses, low-lying areas, and other poor drainage areas. Some locations that will experience flash flooding include... Sandwich, Mendota, Amboy, Sheridan, Shabbona, Lake Holiday, Hinckley, Somonauk, Earlville, Waterman, Serena, Leland, Paw Paw, Sublette, Woodhaven Lakes, Millington, Lee, Compton, Troy Grove, Nelson, West Brooklyn,",
+      "observedAt": "2026-09-20T05:09:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T08:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017037",
+          "017099",
+          "017103"
+        ],
+        "UGC": [
+          "ILC037",
+          "ILC099",
+          "ILC103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.8c1a218f27a7e50e9da9176f59e6741e526b2ac2.001.1",
+      "sourceId": "nws-il",
+      "title": "Flash Flood Warning issued September 20 at 5:00AM CDT until September 20 at 7:30AM CDT by NWS Quad Cities IA IL",
+      "summary": "Clinton, IA; Muscatine, IA; Scott, IA; Bureau, IL; Henry, IL; Mercer, IL; Rock Island, IL; Whiteside, IL: At 500 AM CDT, Doppler radar indicated a large area of light to moderate rain was occurring across the warned area. Heavy rain producing storms earlier brought rainfall of 1 to 3.5 inches across the warned area. Flash flooding is either ongoing or expected to begin shortly due to runoff from the earlier heavy rain combined with the steady rain falling. HAZARD...Flash flooding caused by thunderstorms. SOURCE...Radar indicated. IMPACT...Flash flooding of small creeks and streams, urban areas, highways, streets and underpasses as well as other poor drainage and low-lying areas. Some locations that will experience flash flooding include... Davenport, Moline, Rock Island, Bettendorf, Muscatine, East Moline, Kewanee, Aledo, Cambridge, Silvi",
+      "observedAt": "2026-09-20T05:00:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T07:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019045",
+          "019139",
+          "019163",
+          "017011",
+          "017073",
+          "017131",
+          "017161",
+          "017195"
+        ],
+        "UGC": [
+          "IAC045",
+          "IAC139",
+          "IAC163",
+          "ILC011",
+          "ILC073",
+          "ILC131",
+          "ILC161",
+          "ILC195"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6ef72082cf405d32fc52fa7f501c5b96ed7d324c.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued September 20 at 4:30AM CDT until September 20 at 8:00AM CDT by NWS Chicago IL",
+      "summary": "Boone, IL; McHenry, IL; Winnebago, IL: * WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Boone County in north central Illinois... Winnebago County in north central Illinois... McHenry County in northeastern Illinois... * WHEN...Until 800 AM CDT. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Roads and streets may be flooded. * ADDITIONAL DETAILS... - At 428 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Up to 1 inch of rain has fallen. - Additional rainfall amounts of 1 to 2 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Rockford, Crystal Lake, Algonquin, Lake in ",
+      "observedAt": "2026-09-20T04:30:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T08:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017007",
+          "017111",
+          "017201"
+        ],
+        "UGC": [
+          "ILC007",
+          "ILC111",
+          "ILC201"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.61fe3161668ca263c23e72d9f61248de176573e6.001.1",
+      "sourceId": "nws-il",
+      "title": "Heat Advisory issued September 20 at 4:20AM CDT until September 20 at 7:00PM CDT by NWS Paducah KY",
+      "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Heat index values up to 102 degrees are expected. * WHERE...all of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...Until 7 PM CDT /8 PM EDT/ this evening. * IMPACTS...Hot temperatures and high humidity may cause heat illnesses.",
+      "observedAt": "2026-09-20T04:20:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T19:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017081",
+          "017191",
+          "017047",
+          "017185",
+          "017145",
+          "017055",
+          "017065",
+          "017193",
+          "017077",
+          "017199",
+          "017165",
+          "017059",
+          "017181",
+          "017087",
+          "017151",
+          "017069",
+          "017003",
+          "017153",
+          "017127",
+          "018051",
+          "018125",
+          "018129",
+          "018163",
+          "018173",
+          "018147",
+          "021075",
+          "021105",
+          "021039",
+          "021007",
+          "021145",
+          "021083",
+          "021139",
+          "021157",
+          "021035",
+          "021055",
+          "021143",
+          "021221",
+          "021033",
+          "021225",
+          "021233",
+          "021107",
+          "021047",
+          "021101",
+          "021059",
+          "021149",
+          "021177",
+          "021219",
+          "029157",
+          "029017",
+          "029031",
+          "029223",
+          "029035",
+          "029181",
+          "029023",
+          "029207",
+          "029201",
+          "029133",
+          "029143"
+        ],
+        "UGC": [
+          "ILZ075",
+          "ILZ076",
+          "ILZ077",
+          "ILZ078",
+          "ILZ080",
+          "ILZ081",
+          "ILZ082",
+          "ILZ083",
+          "ILZ084",
+          "ILZ085",
+          "ILZ086",
+          "ILZ087",
+          "ILZ088",
+          "ILZ089",
+          "ILZ090",
+          "ILZ091",
+          "ILZ092",
+          "ILZ093",
+          "ILZ094",
+          "INZ081",
+          "INZ082",
+          "INZ085",
+          "INZ086",
+          "INZ087",
+          "INZ088",
+          "KYZ001",
+          "KYZ002",
+          "KYZ003",
+          "KYZ004",
+          "KYZ005",
+          "KYZ006",
+          "KYZ007",
+          "KYZ008",
+          "KYZ009",
+          "KYZ010",
+          "KYZ011",
+          "KYZ012",
+          "KYZ013",
+          "KYZ014",
+          "KYZ015",
+          "KYZ016",
+          "KYZ017",
+          "KYZ018",
+          "KYZ019",
+          "KYZ020",
+          "KYZ021",
+          "KYZ022",
+          "MOZ076",
+          "MOZ086",
+          "MOZ087",
+          "MOZ100",
+          "MOZ107",
+          "MOZ108",
+          "MOZ109",
+          "MOZ110",
+          "MOZ111",
+          "MOZ112",
+          "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.29c8040e59b8823d26681aad9c672dd99231e453.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 4:12AM CDT until September 24 at 7:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The Flood Watch continues for the following river in Illinois... Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this afternoon to Thursday evening. * ADDITIONAL DETAILS... - At 3:00 AM CDT Sunday the stage was 9.0 feet. - Forecast...Flood stage may be reached late this afternoon. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T04:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T12:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.be3d207cebbaa4863c74bbcdeb0b0585143bfe9e.001.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 20 at 3:17AM CDT until September 22 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake; Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 7 to 10 feet expected. * WHERE...Lake IL, Northern Cook and Central Cook Counties. * WHEN...From 7 AM CDT this morning through Tuesday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-20T03:17:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T11:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5031f89eca654afa3fbf8159e6c677416586b8ea.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 1:44AM CDT until September 20 at 1:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Buchanan; Delaware; Dubuque; Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Muscatine; Scott; Keokuk; Washington; Louisa; Jo Daviess; Stephenson; Carroll; Whiteside; Rock Island; Henry; Bureau; Putnam; Mercer: * WHAT...Flooding and flash flooding caused by excessive rainfall is possible. * WHERE...Portions of Illinois, including the following areas, Bureau, Carroll, Henry IL, Jo Daviess, Mercer, Putnam, Rock Island, Stephenson and Whiteside and Iowa, including the following areas, Benton, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Johnson, Jones, Keokuk, Linn, Louisa, Muscatine, Scott and Washington. * WHEN...Until 1 PM CDT this afternoon. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Flooding may occur in poor drainage and urba",
+      "observedAt": "2026-09-20T01:44:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T13:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019019",
+          "019055",
+          "019061",
+          "019011",
+          "019113",
+          "019105",
+          "019097",
+          "019095",
+          "019103",
+          "019031",
+          "019045",
+          "019139",
+          "019163",
+          "019107",
+          "019183",
+          "019115",
+          "017085",
+          "017177",
+          "017015",
+          "017195",
+          "017161",
+          "017073",
+          "017011",
+          "017155",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ040",
+          "IAZ041",
+          "IAZ042",
+          "IAZ051",
+          "IAZ052",
+          "IAZ053",
+          "IAZ054",
+          "IAZ063",
+          "IAZ064",
+          "IAZ065",
+          "IAZ066",
+          "IAZ067",
+          "IAZ068",
+          "IAZ076",
+          "IAZ077",
+          "IAZ078",
+          "ILZ001",
+          "ILZ002",
+          "ILZ007",
+          "ILZ009",
+          "ILZ015",
+          "ILZ016",
+          "ILZ017",
+          "ILZ018",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.31742031bd4a052d05f9fee6fbb381278b39fc0f.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 1:33AM CDT until September 20 at 1:00PM CDT by NWS Chicago IL",
+      "summary": "Winnebago; Boone; McHenry; Lake; Ogle; Lee; De Kalb; Kane; DuPage; La Salle; Kendall; Grundy; Kankakee; Northern Cook; Central Cook; Southern Cook; Northern Will; Southern Will; Eastern Will; Lake; Porter: * WHAT...Flash flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Illinois, including the following areas, Boone, Central Cook, De Kalb, DuPage, Eastern Will, Grundy, Kane, Kankakee, Kendall, La Salle, Lake IL, Lee, McHenry, Northern Cook, Northern Will, Ogle, Southern Cook, Southern Will and Winnebago and northwest Indiana, including the following areas, Lake IN and Porter. * WHEN...Until 1 PM CDT this afternoon. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Underpasses may be flooded. Roads and streets may be flooded. Basement floodin",
+      "observedAt": "2026-09-20T01:33:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T09:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017201",
+          "017007",
+          "017111",
+          "017097",
+          "017141",
+          "017103",
+          "017037",
+          "017089",
+          "017043",
+          "017099",
+          "017093",
+          "017063",
+          "017091",
+          "017031",
+          "017197",
+          "018089",
+          "018127"
+        ],
+        "UGC": [
+          "ILZ003",
+          "ILZ004",
+          "ILZ005",
+          "ILZ006",
+          "ILZ008",
+          "ILZ010",
+          "ILZ011",
+          "ILZ012",
+          "ILZ013",
+          "ILZ019",
+          "ILZ020",
+          "ILZ021",
+          "ILZ023",
+          "ILZ103",
+          "ILZ104",
+          "ILZ105",
+          "ILZ106",
+          "ILZ107",
+          "ILZ108",
+          "INZ001",
+          "INZ002"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.efb916cd924c222a4cdf54745b27ae7b332c4ff7.002.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 20 at 6:35AM CDT until September 21 at 7:00AM CDT by NWS La Crosse WI",
+      "summary": "Vernon, WI: ...The Flood Warning continues for the following rivers in Wisconsin... Kickapoo River at Readstown affecting Vernon County. Kickapoo River at Gays Mills affecting Crawford County. ...The Flood Warning is cancelled for the following rivers in Wisconsin... Kickapoo River at Steuben affecting Crawford County. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Readstown. * WHEN...Until Monday morning. * IMPACTS...At 10.0 feet, The park along the river begins to flood. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise to a crest of 11.0 feet this evening. - Flood stage is 11.0 feet. - Flood History...This crest compares to a previous crest of 11.4 feet on 06/02/2014. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T06:35:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T21:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055123"
+        ],
+        "UGC": [
+          "WIC123"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f482b5534d8369a9a73babfb3c3657d8893311f3.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 20 at 6:35AM CDT until September 21 at 7:00PM CDT by NWS La Crosse WI",
+      "summary": "Crawford: ...The Flood Watch continues for the following rivers in Wisconsin... Kickapoo River at Soldiers Grove affecting Crawford County. * WHAT...Flooding is possible. * WHERE...Kickapoo River at Soldiers Grove. * WHEN...From Monday morning to Monday evening. * ADDITIONAL DETAILS... - There is no current observed data. - Forecast...Rises on the river are possible over the next few days. The river may reach flood stage. - Flood stage is 13.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T06:35:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T21:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055023"
+        ],
+        "UGC": [
+          "WIZ054"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.efb916cd924c222a4cdf54745b27ae7b332c4ff7.003.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 20 at 6:35AM CDT until September 22 at 4:00PM CDT by NWS La Crosse WI",
+      "summary": "Crawford, WI: ...The Flood Warning continues for the following rivers in Wisconsin... Kickapoo River at Readstown affecting Vernon County. Kickapoo River at Gays Mills affecting Crawford County. ...The Flood Warning is cancelled for the following rivers in Wisconsin... Kickapoo River at Steuben affecting Crawford County. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Gays Mills. * WHEN...Until Tuesday afternoon. * IMPACTS...At 13.0 feet, Water begins to cover roads near the river, including Sand Hill Road near Bell Center. Minor flooding occurs in areas adjacent to the river, including Robb Park in Gays Mills. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 13.0 feet. - Forecast...The river is expected to fall below flood stage early Tuesday morning and continue falling to 7.4 feet Saturd",
+      "observedAt": "2026-09-20T06:35:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T21:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055023"
+        ],
+        "UGC": [
+          "WIC023"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.5393289933e38517bc9daad2608c16e0b4b3feac.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 6:30AM CDT until September 22 at 7:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 5 to 11 feet and dangerous currents are expected. * WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha Counties. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-20T06:30:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T14:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055089",
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ060",
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.331037c7fbe29bd7782978eeb1e829443decc805.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 4:20AM CDT until September 20 at 10:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From 10 AM CDT this morning through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-20T04:20:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.29c8040e59b8823d26681aad9c672dd99231e453.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued September 20 at 4:12AM CDT until September 24 at 7:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The Flood Watch continues for the following river in Illinois... Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this afternoon to Thursday evening. * ADDITIONAL DETAILS... - At 3:00 AM CDT Sunday the stage was 9.0 feet. - Forecast...Flood stage may be reached late this afternoon. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T04:12:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T12:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f4ccfa8873309fd3956392ef6fd903a4bf2a6994.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 20 at 4:08AM CDT until September 21 at 2:42AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lafayette, WI: ...The Flood Warning continues for the following river in Wisconsin... East Branch Pecatonica River Near Blanchardville affecting Lafayette County. * WHAT...Minor flooding is forecast. * WHERE...East Branch Pecatonica River near Blanchardville. * WHEN...Until late tonight. * IMPACTS...At 11.0 feet, Floodwaters cover a portion of Highway H and floodwaters are into McKellar Park in Blanchardville. * ADDITIONAL DETAILS... - At 3:00 AM CDT Sunday the stage was 10.8 feet. - Bankfull stage is 9.0 feet. - Forecast...The river is expected to rise above flood stage early this morning to a crest of 11.4 feet this morning. It will then fall below flood stage this afternoon. - Flood stage is 11.0 feet. - Flood History...This crest compares to a previous crest of 11.4 feet on 04/12/2008. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T04:08:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055065"
+        ],
+        "UGC": [
+          "WIC065"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f1423132058c465b9e854d7a7df7b76d56134e9d.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 2:58AM CDT until September 21 at 1:00PM CDT by NWS Green Bay WI",
+      "summary": "Door: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Door County. * WHEN...From 6 AM CDT Sunday through 1 PM CDT Monday. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Rock Island State Beach, Baileys Harbor beaches and Whitefish Dunes Beach in Door County.",
+      "observedAt": "2026-09-20T02:58:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T11:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055029"
+        ],
+        "UGC": [
+          "WIZ022"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f1423132058c465b9e854d7a7df7b76d56134e9d.002.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 2:58AM CDT until September 22 at 7:00PM CDT by NWS Green Bay WI",
+      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...From 6 AM CDT Sunday through 7 PM CDT Tuesday. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
+      "observedAt": "2026-09-20T02:58:00-05:00",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T11:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.9ee7f8c9e3c533adb6a68bf04c5b11ff255c2621.001.1",
       "sourceId": "nws-il",
@@ -762,83 +2014,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 22 at 9:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Winnebago; Green; Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Sugar River at Brodhead. * WHEN...From late tonight to Tuesday evening. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 1.7 feet. - Forecast...Flood stage may be reached l",
-      "observedAt": "2026-09-19T12:27:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T20:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017201",
-          "055045",
-          "055105"
-        ],
-        "UGC": [
-          "ILZ003",
-          "WIZ068",
-          "WIZ069"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.001.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 22 at 9:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Winnebago; Green; Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Sugar River at Brodhead. * WHEN...From late tonight to Tuesday evening. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 1.7 feet. - Forecast...Flood stage may be reached l",
-      "observedAt": "2026-09-19T12:27:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-19T20:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017201",
-          "055045",
-          "055105"
-        ],
-        "UGC": [
-          "ILZ003",
-          "WIZ068",
-          "WIZ069"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.003.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Watch issued September 19 at 12:27PM CDT until September 21 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Rock: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. Pecatonica River At Martintown affecting Green County. Root River At Franklin affecting Milwaukee County. Root River Canal At Raymond affecting Racine County. Sugar River At Brodhead affecting Rock, Winnebago and Green Counties. Turtle Creek Near Clinton affecting Rock County. Additional information is available at www.weather.gov. The next statement will be issued this evening at 830 PM CDT. * WHAT...Flooding is possible. * WHERE...Turtle Creek near Clinton. * WHEN...From late tonight to Monday afternoon. * ADDITIONAL DETAILS... - At 12:00 PM CDT Saturday the stage was 4.8 feet. - Forecast...Flood stage may be reached late tonight. - ",
-      "observedAt": "2026-09-19T12:27:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-19T20:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055105"
-        ],
-        "UGC": [
-          "WIZ069"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.eb25b1babe3c01c9ef14577bb08ebc2ef7c23303.001.1",
       "sourceId": "nws-il",
       "title": "Flood Watch issued September 19 at 8:00PM CDT until September 20 at 7:00AM CDT by NWS Quad Cities IA IL",
@@ -958,32 +2133,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "fda-alerts:page-change",
       "sourceId": "fda-alerts",
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
@@ -1067,267 +2216,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.006.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 24 at 6:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Muscatine; Rock Island: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is ",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019139",
-          "017161"
-        ],
-        "UGC": [
-          "IAZ067",
-          "ILZ015"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.008.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 2:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Hancock; Clark: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017067",
-          "029045"
-        ],
-        "UGC": [
-          "ILZ034",
-          "MOZ010"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.004.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 11:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines; Henderson: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is p",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "017071"
-        ],
-        "UGC": [
-          "IAZ089",
-          "ILZ025"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.007.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 5:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines; Lee; Henderson; Hancock: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT..",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "019111",
-          "017071",
-          "017067"
-        ],
-        "UGC": [
-          "IAZ089",
-          "IAZ099",
-          "ILZ025",
-          "ILZ034"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.005.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 26 at 3:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Louisa; Des Moines; Mercer; Henderson: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019115",
-          "019057",
-          "017131",
-          "017071"
-        ],
-        "UGC": [
-          "IAZ078",
-          "IAZ089",
-          "ILZ024",
-          "ILZ025"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 25 at 1:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Louisa; Mercer: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019115",
-          "017131"
-        ],
-        "UGC": [
-          "IAZ078",
-          "ILZ024"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 25 at 3:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Muscatine; Louisa; Rock Island; Mercer: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHA",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019139",
-          "019115",
-          "017161",
-          "017131"
-        ],
-        "UGC": [
-          "IAZ067",
-          "IAZ078",
-          "ILZ015",
-          "ILZ024"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b5a3bd3fb5308f085e822a2a6a283861b6b47227.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:12PM CDT until September 24 at 9:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Muscatine; Scott; Rock Island: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flood",
-      "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T22:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019139",
-          "019163",
-          "017161"
-        ],
-        "UGC": [
-          "IAZ067",
-          "IAZ068",
-          "ILZ015"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.591f25fbe25c9fcc3c1a9ffe9ee62f5fdcad40b6.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 19 at 10:10PM CDT until September 22 at 9:00PM CDT by NWS Chicago IL",
-      "summary": "La Salle, IL: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. * WHAT...Moderate flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...From Sunday afternoon to Tuesday evening. * IMPACTS...At 14.5 feet, Low-lying agricultural land inundated near Norway. * ADDITIONAL DETAILS... - At 8:45 PM CDT Saturday the stage was 7.6 feet. - Forecast...The river is expected to rise above flood stage early Sunday afternoon to a crest of 14.9 feet Monday morning. It will then fall below flood stage Tuesday afternoon. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-19T22:10:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017099"
-        ],
-        "UGC": [
-          "ILC099"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b790a0ecb3abbbc57d34f765b0863988b7a8f3c9.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:06PM CDT until September 21 at 1:00AM CDT by NWS Chicago IL",
-      "summary": "Northern Will; Southern Will: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Du Page River at Shorewood affecting Southern Will and Northern Will zones. * WHAT...Flooding is possible. * WHERE...Du Page River from IL-59 in Plainfield downstream to confluence with Des Plaines River, including the Shorewood gauge. * WHEN...From Sunday afternoon to late Sunday night. * IMPACTS...At 16.0 feet, Clark Drive threatened in Shorewood. * ADDITIONAL DETAILS... - At 8:45 PM CDT Saturday the stage was 12.6 feet. - Forecast...Flood stage may be reached tomorrow afternoon. - Flood stage is 15.5 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-19T22:06:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017197"
-        ],
-        "UGC": [
-          "ILZ106",
-          "ILZ107"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.f9bf8c8706d22c0d00e6dea240c728a905060b49.001.1",
       "sourceId": "nws-il",
       "title": "Beach Hazards Statement issued September 19 at 10:06PM CDT until September 22 at 7:00PM CDT by NWS Chicago IL",
@@ -1349,201 +2237,6 @@
           "ILZ006",
           "ILZ103",
           "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.005.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
-      "summary": "Lake; Northern Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin dependin",
-      "observedAt": "2026-09-19T22:03:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "017031"
-        ],
-        "UGC": [
-          "ILZ006",
-          "ILZ103"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.004.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:03PM CDT until September 22 at 7:00AM CDT by NWS Chicago IL",
-      "summary": "Central Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on th",
-      "observedAt": "2026-09-19T22:03:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017031"
-        ],
-        "UGC": [
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
-      "summary": "Northern Cook; Central Cook: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin ",
-      "observedAt": "2026-09-19T22:03:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017031"
-        ],
-        "UGC": [
-          "ILZ103",
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
-      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ultima",
-      "observedAt": "2026-09-19T22:03:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3f48c69f17fc286c554dc0a442788ebc950a4c87.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 10:03PM CDT by NWS Chicago IL",
-      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL zone. Des Plaines River near Des Plaines affecting Northern Cook and Central Cook zones. Des Plaines River near Gurnee affecting Lake IL zone. Des Plaines River at Riverside affecting Central Cook zone. Des Plaines River at Lincolnshire affecting Northern Cook and Lake IL zones. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ultima",
-      "observedAt": "2026-09-19T22:03:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.8a599957a22ce882c9a943a24c60028db8785aef.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 9:12PM CDT until September 25 at 3:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Rock Island; Henry: ...Forecast flooding changed from Minor to Moderate severity and increased in duration for the following rivers in Illinois... Rock River near Joslin affecting Rock Island, Whiteside and Henry IL zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River at Moline. * WHEN...From Monday afternoon to Friday afternoon. * ADDITIONAL DETAILS... - At 8:30 PM CDT Saturday the stage was 8.9 feet. - Forecast...Flood stage may be reached Monday afternoon. - Flood stage is 12.0 feet.",
-      "observedAt": "2026-09-19T21:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T21:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017161",
-          "017073"
-        ],
-        "UGC": [
-          "ILZ015",
-          "ILZ016"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.8a599957a22ce882c9a943a24c60028db8785aef.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 9:12PM CDT until September 25 at 9:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Whiteside; Rock Island; Henry: ...Forecast flooding changed from Minor to Moderate severity and increased in duration for the following rivers in Illinois... Rock River near Joslin affecting Rock Island, Whiteside and Henry IL zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River near Joslin. * WHEN...From late Sunday night to Friday morning. * ADDITIONAL DETAILS... - At 7:45 PM CDT Saturday the stage was 5.9 feet. - Forecast...Flood stage may be reached early Monday morning. - Flood stage is 12.0 feet.",
-      "observedAt": "2026-09-19T21:12:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T21:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017195",
-          "017161",
-          "017073"
-        ],
-        "UGC": [
-          "ILZ009",
-          "ILZ015",
-          "ILZ016"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.c9ee179fe7eea40ca0b5ebfbe70617485e1247ea.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 19 at 9:05PM CDT until September 21 at 3:00AM CDT by NWS Chicago IL",
-      "summary": "Cook, IL; Lake, IN: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois...Indiana... Little Calumet River at Munster (Hohman Avenue) affecting Lake IN and Cook Counties. * WHAT...Minor flooding is forecast. * WHERE...Little Calumet River from IN-912 in Hammond downstream to confluence with Thorn Creek in South Holland, including the Munster (Hohman Avenue) gauge. * WHEN...From early Sunday morning to late Sunday night. * IMPACTS...At 12.5 feet, Most areas outside of the levee-protected area are inundated in Hammond and Munster. * ADDITIONAL DETAILS... - At 8:00 PM CDT Saturday the stage was 6.7 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning to a crest of 13.8 feet early tomorrow afternoon. It will then fall below flood stage late tomorrow eveni",
-      "observedAt": "2026-09-19T21:05:00-05:00",
-      "retrievedAt": "2026-09-20T06:25:30.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T13:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017031",
-          "018089"
-        ],
-        "UGC": [
-          "ILC031",
-          "INC089"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -9384,7 +10077,7 @@
   ],
   "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-09-20T06:25:30.427Z",
+  "collectedAt": "2026-09-20T12:27:31.700Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -11815,7 +12508,7 @@
     },
     {
       "date": "2026-09-20",
-      "asOf": "2026-09-20T06:25:32.534Z",
+      "asOf": "2026-09-20T12:27:33.379Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
