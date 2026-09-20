@@ -453,5 +453,27 @@
     "eventAt": "2026-09-15",
     "evidenceClass": "CONFIRMED",
     "limitation": "One quarantined commercial poultry flock; birds will not enter the food system. No Watershed poultry sourcing, supplier, recipe, Barron County dependency or affected lot is established."
+  },
+  {
+    "id": "nws-ilx-20260920",
+    "title": "NWS Lincoln: 20 September 2026 hazardous weather outlook",
+    "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+    "kind": "Federal government",
+    "retrievedAt": "2026-09-20",
+    "publishedAt": "2026-09-20T03:36:00-05:00",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "County/zone outlook includes McLean, Woodford and Tazewell but does not establish conditions at a Watershed site, route, utility or shift. Active-alert absence in the 12:27 UTC collection snapshot is not an operating clearance."
+  },
+  {
+    "id": "nws-mke-river-flood-20260919",
+    "title": "NWS Milwaukee/Sullivan: Root River at Franklin Flood Watch",
+    "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.006.1",
+    "kind": "Federal government API",
+    "retrievedAt": "2026-09-20",
+    "publishedAt": "2026-09-19T12:27:00-05:00",
+    "eventStartsAt": "2026-09-20T19:00:00-05:00",
+    "eventEndsAt": "2026-09-21T07:00:00-05:00",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "The watch is for the Root River at Franklin in Milwaukee County. Watershed publicly identifies only a greater-Milwaukee presence; exact municipality, site, route, utility and operational impact are unverified."
   }
 ]

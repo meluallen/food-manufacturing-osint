@@ -1,0 +1,424 @@
+{
+  "date": "2026-09-20",
+  "reviewedAt": "2026-09-20",
+  "completedAt": "2026-09-20T16:30:38.132Z",
+  "executiveSummary": "Guidance remains stable at provisional Elevated 47/100. Central Illinois has a same-day heavy-rain and thunderstorm outlook, but the latest collection snapshot contains no active alert matched to the three confirmed Illinois facility counties and no disruption is established. A Milwaukee County river-flood watch remains an unscored location-verification lead because Watershed's exact Wisconsin municipality is not public.",
+  "baselineNote": "Only genuine 17, 18, 19 and 20 September snapshots are available; four points are not a 30/90/365-day trend. Company exposure remains provisional and Cyber / OT remains unassessed.",
+  "observations": [
+    {
+      "id": "O-20260920-il-weather",
+      "title": "Central Illinois outlook adds locally heavy rain; facility-county guidance remains stable",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Reviewed; existing S07 guidance and factors unchanged",
+      "assessmentIds": [
+        "S07"
+      ],
+      "sourceIds": [
+        "nws-ilx-20260920"
+      ],
+      "observedAt": "2026-09-20",
+      "publishedAt": "2026-09-20T03:36:00-05:00",
+      "retrievedAt": "2026-09-20",
+      "eventWindow": {
+        "start": "2026-09-20",
+        "end": "2026-09-20"
+      },
+      "finding": "NWS includes McLean, Woodford and Tazewell in the 20 September central Illinois outlook. Periodic showers and thunderstorms may produce locally heavy rain and low-lying or poor-drainage flooding; stronger severe storms are mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes.",
+      "causalPath": "County-matched heavy rain and thunderstorms → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+      "sourceScope": "County/zone outlook plus the latest collection snapshot only; absence of a matched active alert is not an operating clearance or proof of site conditions.",
+      "decision": "Refresh S07 evidence vintage and 24-hour expiry; retain all seven factors, action, trigger and guidance revision.",
+      "expiresAt": "2026-09-21"
+    },
+    {
+      "id": "O-20260920-wi-river-watch",
+      "title": "Milwaukee County river-flood watch extends the regional Wisconsin verification lead",
+      "evidenceClass": "CONFIRMED",
+      "companyExposureClass": "INFERRED",
+      "status": "Unscored regional verification lead; exact Watershed location unknown",
+      "assessmentIds": [],
+      "sourceIds": [
+        "nws-mke-river-flood-20260919"
+      ],
+      "observedAt": "2026-09-19",
+      "publishedAt": "2026-09-19T12:27:00-05:00",
+      "retrievedAt": "2026-09-20",
+      "eventWindow": {
+        "start": "2026-09-20T19:00:00-05:00",
+        "end": "2026-09-21T07:00:00-05:00"
+      },
+      "finding": "NWS issued a Flood Watch for the Root River at Franklin in Milwaukee County, with flooding possible Sunday evening into Monday morning. This is a 19 September publication retrieved on 20 September, not a newly published 20 September event.",
+      "causalPath": "River rise in Milwaukee County → possible local road or workforce access interruption → conditional baking/popping continuity exposure if the unspecified Watershed operation is within an affected area.",
+      "sourceScope": "Watershed publicly identifies only a greater-Milwaukee presence. Exact municipality, building, routes, utility and any impact are unverified; the watch cannot be assigned to a facility.",
+      "decision": "Retain as a location-verification lead without changing Facility / weather factors. Escalate only if an operating location matches an applicable warning or verified disruption.",
+      "impactDomains": [
+        "Facility / weather",
+        "Transportation",
+        "Labor",
+        "Production capacity",
+        "Customer service / OTIF"
+      ],
+      "direction": "Threat",
+      "confidence": "Low",
+      "timeToImpact": "Immediate",
+      "decisionOwners": [
+        "Plant Manager",
+        "Supply Chain",
+        "COO"
+      ],
+      "expiresAt": "2026-09-21",
+      "factors": null
+    }
+  ],
+  "reviewNotes": [
+    {
+      "lens": "Intelligence analysis",
+      "challenge": "Separate publication, event and retrieval dates and reject name collisions.",
+      "revision": "The Milwaukee river watch is dated to its 19 September issuance despite 20 September retrieval. McLean County, Kentucky heat-advisory matches were rejected and not attributed to McLean County, Illinois."
+    },
+    {
+      "lens": "Operations research",
+      "challenge": "Do today's observations justify changing any of the seven factors or the 47/100 posture?",
+      "revision": "No measured facility effect, alert match or new economic release supports rescaling. S07 receives only a source-vintage and expiry refresh; all other factors remain unchanged."
+    },
+    {
+      "lens": "Supply chain management",
+      "challenge": "Does regional flooding establish a route, supplier or facility interruption?",
+      "revision": "No. The causal channel is recorded, but exact Wisconsin location and all route, supplier and utility dependencies remain unknown."
+    },
+    {
+      "lens": "Industrial engineering",
+      "challenge": "Does weather potential establish lost production capacity or an equipment constraint?",
+      "revision": "No outage, downtime, utility interruption, route closure or production loss is public. No capacity inference is added."
+    },
+    {
+      "lens": "Food science / quality",
+      "challenge": "Did the FDA page change establish a Watershed-relevant food-safety event?",
+      "revision": "No new dated, applicable Watershed ingredient, supplier, customer, product or lot match was established. No food-safety score or hold guidance is changed."
+    },
+    {
+      "lens": "Information security analysis",
+      "challenge": "Can current cyber advisories be matched to installed Watershed assets?",
+      "revision": "CISA primary pages/feed remained inaccessible through the review path and no installed asset inventory is public. Cyber / OT stays null rather than zero."
+    },
+    {
+      "lens": "Emergency management / continuity",
+      "challenge": "Are weather observations geocoded and tied to an actionable escalation trigger?",
+      "revision": "Illinois outlook counties are explicit; alert matching uses Illinois SAME codes. The Wisconsin watch is restricted to a region-level lead. Existing triggers remain a matched warning, verified route closure, utility interruption or reported site impact."
+    }
+  ],
+  "factorReview": [
+    {
+      "signalId": "S01",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 75,
+        "severity": 70,
+        "confidence": 70,
+        "persistence": 70,
+        "velocity": 80,
+        "dependency": 80,
+        "substitutability": 35
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-09-24"
+    },
+    {
+      "signalId": "S02",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 45,
+        "severity": 55,
+        "confidence": 45,
+        "persistence": 80,
+        "velocity": 45,
+        "dependency": 55,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-12"
+    },
+    {
+      "signalId": "S03",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 55,
+        "severity": 65,
+        "confidence": 65,
+        "persistence": 90,
+        "velocity": 25,
+        "dependency": 70,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-17"
+    },
+    {
+      "signalId": "S04",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 70,
+        "severity": 60,
+        "confidence": 45,
+        "persistence": 85,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-12-17"
+    },
+    {
+      "signalId": "S05",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 70,
+        "severity": 65,
+        "confidence": 60,
+        "persistence": 85,
+        "velocity": 40,
+        "dependency": 75,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-17"
+    },
+    {
+      "signalId": "S06",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 70,
+        "severity": 70,
+        "confidence": 85,
+        "persistence": 90,
+        "velocity": 20,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-12-17"
+    },
+    {
+      "signalId": "S07",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 85,
+        "severity": 55,
+        "confidence": 80,
+        "persistence": 40,
+        "velocity": 80,
+        "dependency": 70,
+        "substitutability": 70
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+      "scopeLimitation": "Today's primary outlook changes the weather description and evidence date but not verified company impact. Existing impact domains, direction, confidence, owners, action, trigger and all seven factors remain unchanged.",
+      "expiresAt": "2026-09-21"
+    },
+    {
+      "signalId": "S08",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 60,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 50,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S09",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 65,
+        "severity": 45,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S10",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 80,
+        "severity": 60,
+        "confidence": 65,
+        "persistence": 80,
+        "velocity": 35,
+        "dependency": 90,
+        "substitutability": 40
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-09-25"
+    },
+    {
+      "signalId": "S11",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 65,
+        "severity": 55,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-09"
+    },
+    {
+      "signalId": "S12",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 50,
+        "severity": 40,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 50,
+        "substitutability": 70
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-09-24"
+    },
+    {
+      "signalId": "S13",
+      "reviewedAt": "2026-09-20",
+      "factors": {
+        "exposure": 65,
+        "severity": 70,
+        "confidence": 60,
+        "persistence": 80,
+        "velocity": 65,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+      "scopeLimitation": "New public evidence did not establish additional company exposure, severity, persistence, velocity, dependency or substitution. Existing impact domains, direction, confidence, owners, action and trigger remain unchanged.",
+      "expiresAt": "2026-10-07"
+    }
+  ],
+  "hypothesisReview": {
+    "reviewedAt": "2026-09-20",
+    "ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "disposition": "No measured Watershed outcome or sourcing/capacity fact supports changing confidence, evidence balance or failure count. The weather observations do not test any hypothesis outcome.",
+    "downgradeAfterFailures": 2,
+    "retireAfterFailures": 3
+  },
+  "forecastReview": {
+    "reviewedAt": "2026-09-20",
+    "ids": [
+      "P01",
+      "P02",
+      "P03"
+    ],
+    "disposition": "All measurement windows remain open. Initial probabilities, horizons, outcomes and resolution rules are unchanged; no Brier score is available.",
+    "resolvedSampleSize": 0
+  },
+  "manualChecks": [
+    {
+      "sourceId": "nws-ilx-outlook",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": "2026-09-20T03:36:00-05:00",
+      "result": "Primary NWS outlook includes McLean, Woodford and Tazewell; heavy rain and thunderstorms are possible today, with the stronger severe risk mainly along and south of I-72."
+    },
+    {
+      "sourceId": "nws-il",
+      "retrievedAt": "2026-09-20T12:27:31.700Z",
+      "result": "Latest collector snapshot contained no active alert matched to Illinois SAME codes 017113, 017203 or 017179. Paducah-office heat-advisory text mentioning McLean referred to Kentucky and was rejected."
+    },
+    {
+      "sourceId": "nws-wi",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": "2026-09-19T12:27:00-05:00",
+      "result": "Root River at Franklin Flood Watch was retained as a Milwaukee County regional lead only; exact Watershed location and impact remain unknown."
+    },
+    {
+      "sourceId": "fda-alerts",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": null,
+      "result": "The rolling page changed, but no newly dated company-applicable food recall or alert was established during review; page-change detection alone is not an event."
+    },
+    {
+      "sourceId": "widatcp",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": "2026-09-18",
+      "result": "Current DATCP index still lists 18 September as the latest release; no later dated relevant state event was established."
+    },
+    {
+      "sourceId": "eia-diesel",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": "2026-09-15",
+      "result": "EIA still reports the 15 September diesel release and schedules the next release for 22 September; S01 is unchanged."
+    },
+    {
+      "sourceId": "miso",
+      "retrievedAt": "2026-09-20",
+      "publicationAt": null,
+      "result": "Collector detected a page change, but the primary operations page did not expose a dated operating event in the readable review path; no grid condition is inferred."
+    }
+  ],
+  "reviewGaps": [
+    "Eighteen collector states remain blocked/error (12 blocked, 6 fetch/parser errors); successful manual reads do not erase those failures.",
+    "CISA advisory and KEV pages/feed remained inaccessible through the review path; no current installed-asset applicability conclusion.",
+    "USDA WASDE/FAS, BTS/USACE/MARAD, FDA import, FSIS, DOL/SEC, local Gridley/Deer Creek, Flagstone, Rockwell and BLS automated gaps remain visible.",
+    "No public evidence identifies Watershed's exact Wisconsin municipality, named current supplier/customer, installed OT, production volumes or commissioned Deer Creek capacity."
+  ],
+  "systemMaintenance": [
+    {
+      "id": "SM-20260920-health",
+      "change": "The scheduled collector now reports the EIA industrial source as healthy, reducing fetch/parser errors from seven to six; no source URL or assessment factor changed.",
+      "evidenceSourceIds": [],
+      "validation": "Current runtime has 56 healthy, 12 blocked and 6 error states; the repaired DATCP endpoint remains healthy.",
+      "nextCheck": "Continue on configured cadence; do not treat endpoint recovery as new market evidence."
+    }
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-09-20T16:30:38.132Z",
+      "disposition": "Completed public-evidence review; posture, factors and executive guidance stable",
+      "note": "Refreshed S07 with the 20 September NWS outlook; retained the Milwaukee County river watch as an unscored regional lead; no food-safety, utility or cyber applicability was established.",
+      "recordPath": "data/runs/2026-09-20-review.json"
+    }
+  ],
+  "urgentOverride": null
+}

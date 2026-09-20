@@ -316,13 +316,13 @@
   {
     "id": "S07",
     "title": "Central Illinois storm outlook reaches three facility counties",
-    "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
+    "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
     "category": "Facility / weather",
     "direction": "Threat",
     "confidence": "Medium",
     "evidenceClass": "INFERRED",
     "sourceIds": [
-      "nws-ilx-20260919"
+      "nws-ilx-20260920"
     ],
     "facilityIds": [
       "gridley",
@@ -350,10 +350,10 @@
       "COO",
       "HR / Talent"
     ],
-    "observedAt": "2026-09-19",
-    "retrievedAt": "2026-09-19",
-    "reviewedAt": "2026-09-19",
-    "expiresAt": "2026-09-20",
+    "observedAt": "2026-09-20",
+    "retrievedAt": "2026-09-20",
+    "reviewedAt": "2026-09-20",
+    "expiresAt": "2026-09-21",
     "timeToImpact": "Immediate",
     "impactDomains": [
       "Transportation",
@@ -364,7 +364,7 @@
     "status": "reviewed",
     "group": "central-il-weather",
     "revision": 1,
-    "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+    "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
   },
   {
     "id": "S08",

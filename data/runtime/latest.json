@@ -12508,7 +12508,7 @@
     },
     {
       "date": "2026-09-20",
-      "asOf": "2026-09-20T12:27:33.379Z",
+      "asOf": "2026-09-20T16:30:41.980Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -12938,13 +12938,13 @@
         {
           "id": "S07",
           "title": "Central Illinois storm outlook reaches three facility counties",
-          "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
+          "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
           "category": "Facility / weather",
           "direction": "Threat",
           "confidence": "Medium",
           "evidenceClass": "INFERRED",
           "sourceIds": [
-            "nws-ilx-20260919"
+            "nws-ilx-20260920"
           ],
           "facilityIds": [
             "gridley",
@@ -12972,10 +12972,10 @@
             "COO",
             "HR / Talent"
           ],
-          "observedAt": "2026-09-19",
-          "retrievedAt": "2026-09-19",
-          "reviewedAt": "2026-09-19",
-          "expiresAt": "2026-09-20",
+          "observedAt": "2026-09-20",
+          "retrievedAt": "2026-09-20",
+          "reviewedAt": "2026-09-20",
+          "expiresAt": "2026-09-21",
           "timeToImpact": "Immediate",
           "impactDomains": [
             "Transportation",
@@ -12986,7 +12986,7 @@
           "status": "reviewed",
           "group": "central-il-weather",
           "revision": 1,
-          "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+          "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
         },
         {
           "id": "S08",
@@ -13634,13 +13634,13 @@
     {
       "id": "S07",
       "title": "Central Illinois storm outlook reaches three facility counties",
-      "summary": "The 19 September NWS outlook includes McLean, Woodford and Tazewell counties, with isolated to scattered storms, possible damaging winds and locally heavy rain today; more storms are possible Sunday. No active alert matched those three Illinois county SAME codes at review time, and no facility disruption is established.",
+      "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
       "category": "Facility / weather",
       "direction": "Threat",
       "confidence": "Medium",
       "evidenceClass": "INFERRED",
       "sourceIds": [
-        "nws-ilx-20260919"
+        "nws-ilx-20260920"
       ],
       "facilityIds": [
         "gridley",
@@ -13668,10 +13668,10 @@
         "COO",
         "HR / Talent"
       ],
-      "observedAt": "2026-09-19",
-      "retrievedAt": "2026-09-19",
-      "reviewedAt": "2026-09-19",
-      "expiresAt": "2026-09-20",
+      "observedAt": "2026-09-20",
+      "retrievedAt": "2026-09-20",
+      "reviewedAt": "2026-09-20",
+      "expiresAt": "2026-09-21",
       "timeToImpact": "Immediate",
       "impactDomains": [
         "Transportation",
@@ -13682,7 +13682,7 @@
       "status": "reviewed",
       "group": "central-il-weather",
       "revision": 1,
-      "dateNote": "NWS issued 04:03 CDT on 19 September. The active-alert check at 16:59 UTC found no Illinois SAME-code match for McLean, Woodford or Tazewell. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+      "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
     },
     {
       "id": "S08",
@@ -14625,6 +14625,28 @@
       "eventAt": "2026-09-15",
       "evidenceClass": "CONFIRMED",
       "limitation": "One quarantined commercial poultry flock; birds will not enter the food system. No Watershed poultry sourcing, supplier, recipe, Barron County dependency or affected lot is established."
+    },
+    {
+      "id": "nws-ilx-20260920",
+      "title": "NWS Lincoln: 20 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-20",
+      "publishedAt": "2026-09-20T03:36:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "County/zone outlook includes McLean, Woodford and Tazewell but does not establish conditions at a Watershed site, route, utility or shift. Active-alert absence in the 12:27 UTC collection snapshot is not an operating clearance."
+    },
+    {
+      "id": "nws-mke-river-flood-20260919",
+      "title": "NWS Milwaukee/Sullivan: Root River at Franklin Flood Watch",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2bba340b6d806299111c8f5f2c376f89fc27e65e.006.1",
+      "kind": "Federal government API",
+      "retrievedAt": "2026-09-20",
+      "publishedAt": "2026-09-19T12:27:00-05:00",
+      "eventStartsAt": "2026-09-20T19:00:00-05:00",
+      "eventEndsAt": "2026-09-21T07:00:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "The watch is for the Root River at Franklin in Milwaukee County. Watershed publicly identifies only a greater-Milwaukee presence; exact municipality, site, route, utility and operational impact are unverified."
     }
   ],
   "claims": [
@@ -15005,5 +15027,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "baselineRevision": "2026-09-19-reviewed"
+  "baselineRevision": "2026-09-20-reviewed"
 }

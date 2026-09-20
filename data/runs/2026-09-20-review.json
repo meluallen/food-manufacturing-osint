@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-20",
+  "completedAt": "2026-09-20T16:30:38.132Z",
+  "repositoryBase": "d03c3e69d56351d903efb6efc7ffdc1ac9d63cc4",
+  "disposition": "GUIDANCE STABLE",
+  "changes": [
+    "Refreshed S07 from the 20 September NWS Lincoln outlook and extended its 24-hour expiry without changing factors, score, guidance or revision.",
+    "Recorded the Root River at Franklin Flood Watch as an unscored greater-Milwaukee location-verification lead; its 19 September publication date is preserved and exact Watershed location/impact remain unknown.",
+    "Rejected Paducah-office heat-advisory matches for McLean County, Kentucky rather than attributing them to McLean County, Illinois.",
+    "Recorded EIA industrial-source recovery in current collector health; no source URL, score or market conclusion changed."
+  ],
+  "unchanged": [
+    "Overall posture Elevated, provisional 47/100; 11 of 12 domains assessed and Cyber / OT null.",
+    "All seven materiality factors, urgent override state, impact domains, directions, confidence, decision owners, actions and stronger-response triggers.",
+    "Company ground truth, facility graph, exposures, failure domains, ingredient model, regulatory scope and competitor watchlist.",
+    "Six hypotheses, failure counts and evidence histories; all three forecast initial probabilities, horizons and outcomes remain open.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-20T12:27:31.700Z",
+    "attempted": 13,
+    "stateCounts": {
+      "ok": 56,
+      "blocked": 12,
+      "error": 6
+    },
+    "sourceHealth": {
+      "Stale": 2,
+      "Current": 54,
+      "Key required": 2,
+      "Blocked": 12,
+      "Fetch error": 6,
+      "Manual review": 7
+    },
+    "candidateCount": 392,
+    "history": [
+      {
+        "date": "2026-09-17",
+        "asOf": "2026-09-17T22:53:02.546Z"
+      },
+      {
+        "date": "2026-09-18",
+        "asOf": "2026-09-18T22:38:23.226Z"
+      },
+      {
+        "date": "2026-09-19",
+        "asOf": "2026-09-19T23:11:59.728Z"
+      },
+      {
+        "date": "2026-09-20",
+        "asOf": "2026-09-20T16:30:38.132Z"
+      }
+    ],
+    "posture": "Elevated",
+    "score": 47,
+    "coverage": {
+      "assessed": 11,
+      "total": 12
+    },
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "Supply Chain",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S07",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "citationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public data/dossier records changed; the existing private Site synchronizes these records without application or embedded graph changes.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-20.json",
+  "dailyPath": "data/daily/2026-09-20.json",
+  "reportPath": "docs/daily/2026-09-20.md",
+  "siteSync": "Existing private Site and audience retained; no replacement or publication change."
+}
