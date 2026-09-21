@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-20T22:31:31.451Z",
-      "hash": "828de1a1bd353073a540d4600db8882d766ac8f51c1796f1083198472855025f",
-      "etag": "W/\"fe096b1a4d22f61db1af638c9b328186:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 24,
+      "fetchedAt": "2026-09-21T01:11:28.229Z",
+      "hash": "fc0d1258e8f013eb8b36111fda12bf8045dd720aa7c74ca99d46c05f41a48dd1",
+      "etag": "W/\"9aa98a01e85202409cc1a332a5fa87ad:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 23,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-20T22:31:31.451Z",
-      "hash": "ac0495d827fc6433332f2754380158f751ddf76a08c6167cc41f2c11d3c94fd7",
-      "etag": "W/\"cbde458cd25751c8e36090d3f587cd33:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-21T01:11:28.229Z",
+      "hash": "f7b39c1f96d721f6713694ae898222ac587bd140fd48cc0ef2118e9ba58accc6",
+      "etag": "W/\"524c7302609b4d2d915409a4de296cee:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 6,
       "changed": true
     },
@@ -630,7 +630,7 @@
       "title": "Flood Watch issued September 19 at 10:12PM CDT until September 25 at 1:00PM CDT by NWS Quad Cities IA IL",
       "summary": "Louisa; Mercer: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois...Iowa...Missouri... Mississippi River at Rock Island LD15 affecting Scott, Muscatine and Rock Island zones. Mississippi River at Muscatine affecting Mercer, Muscatine, Rock Island and Louisa Counties. Mississippi River at New Boston LD17 affecting Mercer and Louisa Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Keithsburg affecting Henderson, Des Moines, Louisa and Mercer Counties. Mississippi River at Ill. City LD16 affecting Muscatine and Rock Island zones. Mississippi River at Burlington affecting Hancock, Des Moines, Henderson and Lee Counties. Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible",
       "observedAt": "2026-09-19T22:12:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -645,6 +645,713 @@
         "UGC": [
           "IAZ078",
           "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.331037c7fbe29bd7782978eeb1e829443decc805.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 4:20AM CDT until September 20 at 10:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From 10 AM CDT this morning through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-20T04:20:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 3:00AM CDT by NWS St Louis MO",
+      "summary": "Adams, IL; Lewis, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at LaGrange. * WHEN...From Wednesday evening to late Saturday night. * IMPACTS...At 18.0 feet, The entrance to the lower parking lot at the Mark Twain Casino begins flooding near this height, requiring the use of an alternate entrance. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 8.6 feet. - Forecast...The river is expected to rise ",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017001",
+          "029111"
+        ],
+        "UGC": [
+          "ILC001",
+          "MOC111"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Wednesday afternoon until further notice. * IMPACTS...At 29.0 feet, Water enters the parking lot entrance at the Clarksville Riverfront Park. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 17.8 feet. - Forecast...The river is expected to rise above flood stage early Wednesday afternoon and continue risin",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 12:00PM CDT by NWS St Louis MO",
+      "summary": "Adams, IL; Lewis, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From Wednesday morning to Sunday afternoon. * IMPACTS...At 16.6 feet, Front Street leading to the campground and Corps park campgrounds flood at this height. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 7.0 feet. - Forecast...The river is expected to rise above flood stage late Wednesday morning to a crest of 16.",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017001",
+          "029111"
+        ],
+        "UGC": [
+          "ILC001",
+          "MOC111"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 1:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Marion, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Wednesday evening to Sunday afternoon. * IMPACTS...At 18.0 feet, The northern end of Southside Recreation #2 Park along Bear Creek begins flooding at this height. Gate wells are shut down to prevent the sewers from backing up. Also at this level pumps are set to standby. * ADDITIONAL DETAILS... - At 11:15 AM CDT Sunday the ",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029127"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC127"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.006.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Lincoln, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Thursday afternoon until further notice. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 18.0 feet. - Forecast...The river is expected ",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029113"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC113"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 9:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Ralls, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Wednesday afternoon to Sunday evening. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 7.7 feet. - Forecast...The river is expected to rise above flood stage early Wednesda",
+      "observedAt": "2026-09-20T11:48:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-22T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029173"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC173"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3b4172b3da4220c160c946889c2c5a920e5992e7.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 11:44AM CDT until September 26 at 2:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Hancock; Clark: ...The Flood Watch continues for the following rivers in Missouri... Illinois... Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Tuesday afternoon to Saturday afternoon. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 7.8 feet and steady. - Forecast...Rises on the river are likely through the first half of this week. The river may reach flood stage. - Flood stage is 15.0 feet.",
+      "observedAt": "2026-09-20T11:44:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017067",
+          "029045"
+        ],
+        "UGC": [
+          "ILZ034",
+          "MOZ010"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1402cca7c1031f208750fdc9af54f11894c50b87.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 11:26AM CDT until September 24 at 9:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Muscatine; Scott; Rock Island: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Rock Island LD15 affecting Rock Island, Scott and Muscatine zones. .Rainfall that fell Saturday night into early this morning was aligned more with tributaries that flow into the Mississippi south of the Quad Cities. This has resulted in a lower forecast for the Mississippi River in this area. Observational trends will continue to be monitored through this afternoon and evening, and may result in the Watch being cancelled this evening. * WHAT...Flooding is possible. * WHERE...Mississippi River at Rock Island LD15. * WHEN...From Monday evening to Thursday morning. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 9.5 feet and slowly rising. - Forecast...Rises on the river will continue through at lea",
+      "observedAt": "2026-09-20T11:26:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019139",
+          "019163",
+          "017161"
+        ],
+        "UGC": [
+          "IAZ067",
+          "IAZ068",
+          "ILZ015"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 26 at 4:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines; Henderson: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From late Tuesday night to late Friday night. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 4.7 feet and rising. - Forecast...Flood stage may be reached ",
+      "observedAt": "2026-09-20T11:18:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "017071"
+        ],
+        "UGC": [
+          "IAZ089",
+          "ILZ025"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 25 at 1:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines; Lee; Henderson; Hancock: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Burlington. * WHEN...From Wednesday morning to Friday afternoon. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 10.0 feet and rising. - Forecast...Flood stage may be",
+      "observedAt": "2026-09-20T11:18:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "019111",
+          "017071",
+          "017067"
+        ],
+        "UGC": [
+          "IAZ089",
+          "IAZ099",
+          "ILZ025",
+          "ILZ034"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 25 at 10:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Louisa; Des Moines; Mercer; Henderson: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Keithsburg. * WHEN...From Tuesday evening to Friday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Sunday the stage was 8.9 feet and rising. - Forecast...Flood stage may be re",
+      "observedAt": "2026-09-20T11:18:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019115",
+          "019057",
+          "017131",
+          "017071"
+        ],
+        "UGC": [
+          "IAZ078",
+          "IAZ089",
+          "ILZ024",
+          "ILZ025"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.116107305967b40c33162630a47659776803043b.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 10:20AM CDT until September 23 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "Bureau; Putnam; La Salle: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Illinois River at La Salle affecting Putnam, La Salle and Bureau counties. For the Illinois River (Upper)...including Morris, Ottawa, La Salle...flooding is possible. * WHAT...Flooding is possible. * WHERE...Illinois River from Starved Rock Lock and Dam downstream to confluence with Big Bureau Creek, including the La Salle gauge. * WHEN...From Monday morning to Wednesday morning. * ADDITIONAL DETAILS... - At 9:45 AM CDT Sunday the stage was 13.4 feet. - Forecast...Flood stage may be reached Monday afternoon. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T10:20:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T04:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017011",
+          "017155",
+          "017099"
+        ],
+        "UGC": [
+          "ILZ017",
+          "ILZ018",
+          "ILZ019"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f1cfa38f00c794713fcddf4f5019abefb9c4c385.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 9:28AM CDT until September 23 at 1:00AM CDT by NWS Chicago IL",
+      "summary": "La Salle, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. * WHAT...Moderate flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...From this afternoon to late Tuesday night. * IMPACTS...At 14.5 feet, Low-lying agricultural land inundated near Norway. * ADDITIONAL DETAILS... - At 8:45 AM CDT Sunday the stage was 9.6 feet. - Forecast...The river is expected to rise above flood stage this afternoon to a crest of 14.9 feet Monday morning. It will then fall below flood stage Tuesday afternoon. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T09:28:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T03:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017099"
+        ],
+        "UGC": [
+          "ILC099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.8fbad13d091c48f5b8e253596a6738490a8f6c56.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 9:28AM CDT until September 21 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Northern Will; Southern Will: ...The Flood Watch is extended for the following rivers in Illinois... Du Page River at Shorewood affecting Will County. For the Du Page River...including Shorewood...flooding is possible. * WHAT...Flooding is possible. * WHERE...Du Page River from IL-59 in Plainfield downstream to confluence with Des Plaines River, including the Shorewood gauge. * WHEN...From late this afternoon to Monday evening. * IMPACTS...At 16.0 feet, Clark Drive threatened in Shorewood. * ADDITIONAL DETAILS... - At 8:45 AM CDT Sunday the stage was 13.8 feet. - Forecast...Flood stage may be reached based on the latest forecast information. - Flood stage is 15.5 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T09:28:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T03:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017197"
+        ],
+        "UGC": [
+          "ILZ106",
+          "ILZ107"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.17fc4d914e2741a6e86e1309b1903635a9b435da.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 20 at 9:14AM CDT until September 25 at 4:00AM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The Flood Watch is replaced with a River Flood Warning for the following rivers in Illinois... Des Plaines River near Russell affecting Lake County. ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake County. ...The Flood Watch is has been cancelled for the following rivers in Illinois... Des Plaines River at Lincolnshire affecting Lake and Cook County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. * WHAT...Flooding is possible. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until late Thursday night. * ADDITIONAL DETAILS... - At 8:30 AM CDT Sunday the stage was 5.2 feet. - Forecast...Flood stage may be reached early Mond",
+      "observedAt": "2026-09-20T09:14:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T03:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.023d56d87685b261f608048266eb5ead72063253.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 9:14AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois... Des Plaines River near Russell affecting Lake County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...From this afternoon until further notice. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Sunday the stage was 6.5 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 8.2 feet early Tuesday morning. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T09:14:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T03:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.42f788c9af9ceb4e3237ebc522d59671dbbcf630.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 1:17PM CDT until September 22 at 7:00PM CDT by NWS Green Bay WI",
+      "summary": "Door: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Door County. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Rock Island State Beach, Baileys Harbor beaches and Whitefish Dunes Beach in Door County.",
+      "observedAt": "2026-09-20T13:17:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T21:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055029"
+        ],
+        "UGC": [
+          "WIZ022"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.42f788c9af9ceb4e3237ebc522d59671dbbcf630.002.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 1:17PM CDT until September 22 at 7:00PM CDT by NWS Green Bay WI",
+      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
+      "observedAt": "2026-09-20T13:17:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-20T21:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 23 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this evening to Wednesday afternoon. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 11.9 feet early tomorrow afternoon. It will then fall below flood stage late Wedn",
+      "observedAt": "2026-09-20T15:35:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.97f76372252a10ae3e638f636048ea9242e9ce19.001.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 20 at 2:55PM CDT until September 23 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake; Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 6 to 9 ft expected. * WHERE...Lake IL, Northern Cook and Central Cook Counties. * WHEN...Through Wednesday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-20T14:55:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T23:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 22 at 2:30AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Racine, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Root River Canal at Raymond. * WHEN...Until late Monday night. * IMPACTS...At 9.0 feet, Water floods Koerber Park on 6 Mile Road. Flooding of rural land and agricultural land. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 9.3 feet. - Bankfull stage is 7.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 3:00 PM CDT Sunday was 9.3 feet. - Forecast...The river is expected to rise to a crest of 9.6 feet this evening. It will then fall below flood stage early tomorrow afternoon. - Flood stage is 9.0 feet. - F",
+      "observedAt": "2026-09-20T15:35:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-21T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055101"
+        ],
+        "UGC": [
+          "WIC101"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.002.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 23 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this evening to Wednesday afternoon. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 11.9 feet early tomorrow afternoon. It will then fall below flood stage late Wedn",
+      "observedAt": "2026-09-20T15:35:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-21T03:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.438d304e6ca32c4365c116436b23acd1db0b1105.002.1",
+      "sourceId": "nws-il",
+      "title": "Tornado Warning issued September 20 at 8:00PM CDT until September 20 at 8:30PM CDT by NWS Lincoln IL",
+      "summary": "Richland, IL: At 759 PM CDT, a severe thunderstorm capable of producing a tornado was located near Olney Noble Airport, or 7 miles west of Olney, moving southeast at 25 mph. HAZARD...Tornado and quarter size hail. SOURCE...Radar indicated rotation. IMPACT...Flying debris will be dangerous to those caught without shelter. Mobile homes will be damaged or destroyed. Damage to roofs, windows, and vehicles will occur. Tree damage is likely. This dangerous storm will be near... Olney, Noble, and Olney Noble Airport around 805 PM CDT. Other locations impacted by this tornadic thunderstorm include Calhoun.",
+      "observedAt": "2026-09-20T20:00:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-20T20:30:00-05:00",
+      "severity": "Extreme",
+      "geocodes": {
+        "SAME": [
+          "017159"
+        ],
+        "UGC": [
+          "ILC159"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9b5aa4b907ab1be9b718ea177d393f997ef1ae86.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 7:47PM CDT until September 24 at 9:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Henry, IL; Rock Island, IL; Whiteside, IL: ...The Flood Warning is extended for the following rivers in Illinois... Rock River near Joslin affecting Whiteside, Rock Island and Henry IL Counties. ...The Flood Warning continues for the following rivers in Illinois... Rock River at Moline affecting Rock Island and Henry IL Counties. * WHAT...Minor flooding is forecast. * WHERE...Rock River near Joslin. * WHEN...From Monday morning to Thursday morning. * IMPACTS...At 13.7 feet, Water affects Barstow Road between Barstow and Osborn. * ADDITIONAL DETAILS... - At 6:45 PM CDT Sunday the stage was 8.6 feet. - Forecast...The river is expected to rise above flood stage late tomorrow morning to a crest of 13.4 feet Tuesday morning. It will then fall below flood stage early Thursday morning. - Flood stage is 12.0 feet.",
+      "observedAt": "2026-09-20T19:47:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T20:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017073",
+          "017161",
+          "017195"
+        ],
+        "UGC": [
+          "ILC073",
+          "ILC161",
+          "ILC195"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9b5aa4b907ab1be9b718ea177d393f997ef1ae86.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 7:47PM CDT until September 25 at 12:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Henry, IL; Rock Island, IL: ...The Flood Warning is extended for the following rivers in Illinois... Rock River near Joslin affecting Whiteside, Rock Island and Henry IL Counties. ...The Flood Warning continues for the following rivers in Illinois... Rock River at Moline affecting Rock Island and Henry IL Counties. * WHAT...Moderate flooding is forecast. * WHERE...Rock River at Moline. * WHEN...From Monday evening to late Thursday night. * IMPACTS...At 13.2 feet, Water affects 60th Street south of John Deere Road in Moline and 56th Ave from Green Valley Park 48th St. Water is on Canal Road in Big Island. Smith's Island is affected by flood waters. * ADDITIONAL DETAILS... - At 7:30 PM CDT Sunday the stage was 9.9 feet. - Forecast...The river is expected to rise above flood stage tomorrow evening to a crest of 13.2 feet Tuesday evening. It ",
+      "observedAt": "2026-09-20T19:47:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T20:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017073",
+          "017161"
+        ],
+        "UGC": [
+          "ILC073",
+          "ILC161"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b7169c37789138a85156d5b571a2e61bf3f1859f.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 20 at 7:10PM CDT until September 21 at 11:00AM CDT by NWS Chicago IL",
+      "summary": "Lee, IL: * WHAT...Flooding caused by excessive rainfall on the Green River and nearby tributaries continues. * WHERE...Portions of Lee County in north central Illinois... * WHEN...Until 1100 AM CDT Monday. * IMPACTS...Creeks and streams have risen out of their banks. Roads and streets are flooded. Flooding of structures is occurring. High water may be slow to recede from flooded areas. * ADDITIONAL DETAILS... - At 654 PM CDT, emergency management officials reported that flooding was ongoing along the Green River. Multiple structures at and near O'Connell's RV Campground remain surrounded by flood waters as of 700 PM CDT on Sunday, September 20th, and some roads in the area are still flooded as well. - Some locations that will experience flooding include... Amboy. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-20T19:10:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-21T11:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017103"
+        ],
+        "UGC": [
+          "ILC103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.beed5dad77d8bd9e10b2ff6ad11ebf12fdc69439.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 20 at 6:21PM CDT until September 23 at 7:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 7 to 10 feet tonight into Monday morning, becoming 5 to 7 feet for Monday afternoon through Wednesday. Dangerous currents are expected. * WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha Counties. * WHEN...Through Wednesday evening. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-20T18:21:00-05:00",
+      "retrievedAt": "2026-09-21T01:11:28.229Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-21T02:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055089",
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ060",
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -787,344 +1494,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.331037c7fbe29bd7782978eeb1e829443decc805.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 20 at 4:20AM CDT until September 20 at 10:00PM CDT by NWS Duluth MN",
-      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From 10 AM CDT this morning through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
-      "observedAt": "2026-09-20T04:20:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T22:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "027017",
-          "027137",
-          "055031"
-        ],
-        "UGC": [
-          "MNZ037",
-          "WIZ001"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.004.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 3:00AM CDT by NWS St Louis MO",
-      "summary": "Adams, IL; Lewis, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at LaGrange. * WHEN...From Wednesday evening to late Saturday night. * IMPACTS...At 18.0 feet, The entrance to the lower parking lot at the Mark Twain Casino begins flooding near this height, requiring the use of an alternate entrance. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 8.6 feet. - Forecast...The river is expected to rise ",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017001",
-          "029111"
-        ],
-        "UGC": [
-          "ILC001",
-          "MOC111"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Wednesday afternoon until further notice. * IMPACTS...At 29.0 feet, Water enters the parking lot entrance at the Clarksville Riverfront Park. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 17.8 feet. - Forecast...The river is expected to rise above flood stage early Wednesday afternoon and continue risin",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029163"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 12:00PM CDT by NWS St Louis MO",
-      "summary": "Adams, IL; Lewis, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From Wednesday morning to Sunday afternoon. * IMPACTS...At 16.6 feet, Front Street leading to the campground and Corps park campgrounds flood at this height. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 7.0 feet. - Forecast...The river is expected to rise above flood stage late Wednesday morning to a crest of 16.",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017001",
-          "029111"
-        ],
-        "UGC": [
-          "ILC001",
-          "MOC111"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.005.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 1:00PM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Marion, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Wednesday evening to Sunday afternoon. * IMPACTS...At 18.0 feet, The northern end of Southside Recreation #2 Park along Bear Creek begins flooding at this height. Gate wells are shut down to prevent the sewers from backing up. Also at this level pumps are set to standby. * ADDITIONAL DETAILS... - At 11:15 AM CDT Sunday the ",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029127"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC127"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.006.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Lincoln, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Thursday afternoon until further notice. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 18.0 feet. - Forecast...The river is expected ",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029113"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC113"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.69f21065f710f8bae810d299e7ce775146e3c0f9.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 11:48AM CDT until September 27 at 9:00PM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Ralls, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Canton. Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at LaGrange. Mississippi River at Hannibal. Mississippi River at Winfield. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Wednesday afternoon to Sunday evening. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 7.7 feet. - Forecast...The river is expected to rise above flood stage early Wednesda",
-      "observedAt": "2026-09-20T11:48:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-22T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029173"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC173"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3b4172b3da4220c160c946889c2c5a920e5992e7.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 11:44AM CDT until September 26 at 2:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Hancock; Clark: ...The Flood Watch continues for the following rivers in Missouri... Illinois... Mississippi River at Gregory Landing affecting Hancock and Clark Counties. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Tuesday afternoon to Saturday afternoon. * ADDITIONAL DETAILS... - At 11:30 AM CDT Sunday the stage was 7.8 feet and steady. - Forecast...Rises on the river are likely through the first half of this week. The river may reach flood stage. - Flood stage is 15.0 feet.",
-      "observedAt": "2026-09-20T11:44:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T11:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017067",
-          "029045"
-        ],
-        "UGC": [
-          "ILZ034",
-          "MOZ010"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.1402cca7c1031f208750fdc9af54f11894c50b87.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 11:26AM CDT until September 24 at 9:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Muscatine; Scott; Rock Island: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Rock Island LD15 affecting Rock Island, Scott and Muscatine zones. .Rainfall that fell Saturday night into early this morning was aligned more with tributaries that flow into the Mississippi south of the Quad Cities. This has resulted in a lower forecast for the Mississippi River in this area. Observational trends will continue to be monitored through this afternoon and evening, and may result in the Watch being cancelled this evening. * WHAT...Flooding is possible. * WHERE...Mississippi River at Rock Island LD15. * WHEN...From Monday evening to Thursday morning. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 9.5 feet and slowly rising. - Forecast...Rises on the river will continue through at lea",
-      "observedAt": "2026-09-20T11:26:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T11:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019139",
-          "019163",
-          "017161"
-        ],
-        "UGC": [
-          "IAZ067",
-          "IAZ068",
-          "ILZ015"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 26 at 4:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines; Henderson: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From late Tuesday night to late Friday night. * ADDITIONAL DETAILS... - At 11:00 AM CDT Sunday the stage was 4.7 feet and rising. - Forecast...Flood stage may be reached ",
-      "observedAt": "2026-09-20T11:18:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T11:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "017071"
-        ],
-        "UGC": [
-          "IAZ089",
-          "ILZ025"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 25 at 1:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines; Lee; Henderson; Hancock: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Burlington. * WHEN...From Wednesday morning to Friday afternoon. * ADDITIONAL DETAILS... - At 10:00 AM CDT Sunday the stage was 10.0 feet and rising. - Forecast...Flood stage may be",
-      "observedAt": "2026-09-20T11:18:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T11:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "019111",
-          "017071",
-          "017067"
-        ],
-        "UGC": [
-          "IAZ089",
-          "IAZ099",
-          "ILZ025",
-          "ILZ034"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaa0840df4af88466423d58a92549a7ebd22bd66.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 11:18AM CDT until September 25 at 10:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Louisa; Des Moines; Mercer; Henderson: ...The Flood Watch continues for the following rivers in Illinois... Iowa... Mississippi River at Keithsburg affecting Louisa, Des Moines, Mercer and Henderson Counties. Mississippi River at Gladstone LD18 affecting Des Moines and Henderson Counties. Mississippi River at Burlington affecting Hancock, Des Moines, Lee and Henderson Counties. .Additional rainfall from today through Monday night is expected to be considerably lighter than what fell Thursday through Saturday night. This helps provide higher confidence in these river forecasts compared to 24 hours ago. * WHAT...Flooding is possible. * WHERE...Mississippi River at Keithsburg. * WHEN...From Tuesday evening to Friday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Sunday the stage was 8.9 feet and rising. - Forecast...Flood stage may be re",
-      "observedAt": "2026-09-20T11:18:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T11:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019115",
-          "019057",
-          "017131",
-          "017071"
-        ],
-        "UGC": [
-          "IAZ078",
-          "IAZ089",
-          "ILZ024",
-          "ILZ025"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.116107305967b40c33162630a47659776803043b.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 10:20AM CDT until September 23 at 10:00AM CDT by NWS Chicago IL",
-      "summary": "Bureau; Putnam; La Salle: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Illinois River at La Salle affecting Putnam, La Salle and Bureau counties. For the Illinois River (Upper)...including Morris, Ottawa, La Salle...flooding is possible. * WHAT...Flooding is possible. * WHERE...Illinois River from Starved Rock Lock and Dam downstream to confluence with Big Bureau Creek, including the La Salle gauge. * WHEN...From Monday morning to Wednesday morning. * ADDITIONAL DETAILS... - At 9:45 AM CDT Sunday the stage was 13.4 feet. - Forecast...Flood stage may be reached Monday afternoon. - Flood stage is 20.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-20T10:20:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T04:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017011",
-          "017155",
-          "017099"
-        ],
-        "UGC": [
-          "ILZ017",
-          "ILZ018",
-          "ILZ019"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.1573778a6d0328ec822e155acee41b4d3151f0e5.001.1",
       "sourceId": "nws-il",
       "title": "Flood Warning issued September 20 at 10:10AM CDT until September 20 at 7:15PM CDT by NWS Chicago IL",
@@ -1143,53 +1512,6 @@
         ],
         "UGC": [
           "ILC103"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.f1cfa38f00c794713fcddf4f5019abefb9c4c385.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 9:28AM CDT until September 23 at 1:00AM CDT by NWS Chicago IL",
-      "summary": "La Salle, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. * WHAT...Moderate flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...From this afternoon to late Tuesday night. * IMPACTS...At 14.5 feet, Low-lying agricultural land inundated near Norway. * ADDITIONAL DETAILS... - At 8:45 AM CDT Sunday the stage was 9.6 feet. - Forecast...The river is expected to rise above flood stage this afternoon to a crest of 14.9 feet Monday morning. It will then fall below flood stage Tuesday afternoon. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-20T09:28:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T03:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017099"
-        ],
-        "UGC": [
-          "ILC099"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.8fbad13d091c48f5b8e253596a6738490a8f6c56.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 9:28AM CDT until September 21 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Northern Will; Southern Will: ...The Flood Watch is extended for the following rivers in Illinois... Du Page River at Shorewood affecting Will County. For the Du Page River...including Shorewood...flooding is possible. * WHAT...Flooding is possible. * WHERE...Du Page River from IL-59 in Plainfield downstream to confluence with Des Plaines River, including the Shorewood gauge. * WHEN...From late this afternoon to Monday evening. * IMPACTS...At 16.0 feet, Clark Drive threatened in Shorewood. * ADDITIONAL DETAILS... - At 8:45 AM CDT Sunday the stage was 13.8 feet. - Forecast...Flood stage may be reached based on the latest forecast information. - Flood stage is 15.5 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-20T09:28:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T03:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017197"
-        ],
-        "UGC": [
-          "ILZ106",
-          "ILZ107"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1247,52 +1569,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.17fc4d914e2741a6e86e1309b1903635a9b435da.005.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 20 at 9:14AM CDT until September 25 at 4:00AM CDT by NWS Chicago IL",
-      "summary": "Lake: ...The Flood Watch is replaced with a River Flood Warning for the following rivers in Illinois... Des Plaines River near Russell affecting Lake County. ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake County. ...The Flood Watch is has been cancelled for the following rivers in Illinois... Des Plaines River at Lincolnshire affecting Lake and Cook County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. * WHAT...Flooding is possible. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until late Thursday night. * ADDITIONAL DETAILS... - At 8:30 AM CDT Sunday the stage was 5.2 feet. - Forecast...Flood stage may be reached early Mond",
-      "observedAt": "2026-09-20T09:14:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T03:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.023d56d87685b261f608048266eb5ead72063253.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 9:14AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The National Weather Service in Chicago has issued a Flood Warning for the following rivers in Illinois... Des Plaines River near Russell affecting Lake County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...From this afternoon until further notice. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Sunday the stage was 6.5 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 8.2 feet early Tuesday morning. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-20T09:14:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T03:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.63d21555618989153e1922ba5cf7355515775cc6.001.1",
       "sourceId": "nws-il",
       "title": "Flood Advisory issued September 20 at 1:28PM CDT until September 20 at 7:30PM CDT by NWS Chicago IL",
@@ -1342,54 +1618,6 @@
           "WIZ066",
           "WIZ071",
           "WIZ072"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.42f788c9af9ceb4e3237ebc522d59671dbbcf630.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 20 at 1:17PM CDT until September 22 at 7:00PM CDT by NWS Green Bay WI",
-      "summary": "Door: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Door County. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Rock Island State Beach, Baileys Harbor beaches and Whitefish Dunes Beach in Door County.",
-      "observedAt": "2026-09-20T13:17:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T21:30:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055029"
-        ],
-        "UGC": [
-          "WIZ022"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.42f788c9af9ceb4e3237ebc522d59671dbbcf630.002.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 20 at 1:17PM CDT until September 22 at 7:00PM CDT by NWS Green Bay WI",
-      "summary": "Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Kewaunee and Manitowoc Counties. * WHEN...Through Tuesday evening. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
-      "observedAt": "2026-09-20T13:17:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T21:30:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055061",
-          "055071"
-        ],
-        "UGC": [
-          "WIZ040",
-          "WIZ050"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -2082,105 +2310,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/18/2026-19132/self-regulatory-organizations-nyse-american-llc-notice-of-filing-of-a-proposed-rule-change-to-permit",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 23 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this evening to Wednesday afternoon. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 11.9 feet early tomorrow afternoon. It will then fall below flood stage late Wedn",
-      "observedAt": "2026-09-20T15:35:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-21T03:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILC097",
-          "WIC059"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.97f76372252a10ae3e638f636048ea9242e9ce19.001.1",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 20 at 2:55PM CDT until September 23 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake; Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 6 to 9 ft expected. * WHERE...Lake IL, Northern Cook and Central Cook Counties. * WHEN...Through Wednesday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-20T14:55:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T23:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "017031"
-        ],
-        "UGC": [
-          "ILZ006",
-          "ILZ103",
-          "ILZ104"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.001.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 22 at 2:30AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Racine, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Root River Canal at Raymond. * WHEN...Until late Monday night. * IMPACTS...At 9.0 feet, Water floods Koerber Park on 6 Mile Road. Flooding of rural land and agricultural land. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 9.3 feet. - Bankfull stage is 7.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 3:00 PM CDT Sunday was 9.3 feet. - Forecast...The river is expected to rise to a crest of 9.6 feet this evening. It will then fall below flood stage early tomorrow afternoon. - Flood stage is 9.0 feet. - F",
-      "observedAt": "2026-09-20T15:35:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-21T03:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055101"
-        ],
-        "UGC": [
-          "WIC101"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ba5468cad89bb448c63c8b92f42ded5067564e42.002.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 20 at 3:35PM CDT until September 23 at 3:00PM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Root River Canal At Raymond affecting Racine County. Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this evening to Wednesday afternoon. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 3:00 PM CDT Sunday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 11.9 feet early tomorrow afternoon. It will then fall below flood stage late Wedn",
-      "observedAt": "2026-09-20T15:35:00-05:00",
-      "retrievedAt": "2026-09-20T22:31:31.451Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-21T03:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILC097",
-          "WIC059"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "federal-register:2026-19284",
@@ -11231,9 +11360,9 @@
       "scope": "Robotics, machine vision, equipment and workforce developments"
     }
   ],
-  "attempted": 42,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-09-20T22:31:31.451Z",
+  "collectedAt": "2026-09-21T01:11:28.229Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -13665,6 +13794,815 @@
     {
       "date": "2026-09-20",
       "asOf": "2026-09-20T22:31:51.628Z",
+      "modelVersion": "1.0.0",
+      "indicators": [
+        {
+          "category": "Ingredient availability",
+          "score": 3.7,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S02"
+          ]
+        },
+        {
+          "category": "Ingredient cost",
+          "score": 5.9,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S08"
+          ]
+        },
+        {
+          "category": "Customer demand",
+          "score": 1.3,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S12"
+          ]
+        },
+        {
+          "category": "Transportation / logistics",
+          "score": 47,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S01"
+          ]
+        },
+        {
+          "category": "Energy / utilities",
+          "score": 19.7,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S10"
+          ]
+        },
+        {
+          "category": "Packaging",
+          "score": 6.8,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S11"
+          ]
+        },
+        {
+          "category": "Labor",
+          "score": 2.6,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S09"
+          ]
+        },
+        {
+          "category": "Food safety / regulatory",
+          "score": 11.2,
+          "confidence": "High",
+          "direction": "Mixed",
+          "componentIds": [
+            "S06",
+            "S03"
+          ]
+        },
+        {
+          "category": "Cyber / OT",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Facility / weather",
+          "score": 12,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S07"
+          ]
+        },
+        {
+          "category": "Geopolitical / trade",
+          "score": 21.3,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S13"
+          ]
+        },
+        {
+          "category": "Growth opportunity",
+          "score": 11.6,
+          "confidence": "Medium",
+          "direction": "Opportunity",
+          "componentIds": [
+            "S05",
+            "S04"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "S01",
+          "title": "Midwest diesel rises 5.1% in a week",
+          "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+          "category": "Transportation / logistics",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 75,
+            "severity": 70,
+            "confidence": 70,
+            "persistence": 70,
+            "velocity": 80,
+            "dependency": 80,
+            "substitutability": 35
+          },
+          "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+          "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
+          "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
+          "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
+          "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO",
+            "Customer Experience"
+          ],
+          "observedAt": "2026-09-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-24",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Margin",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1
+        },
+        {
+          "id": "S02",
+          "title": "Grain outlook tightens; specialty basis still unknown",
+          "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+          "category": "Ingredient availability",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "wasde-sep"
+          ],
+          "facilityIds": [
+            "deer-creek",
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X07"
+          ],
+          "factors": {
+            "exposure": 45,
+            "severity": 55,
+            "confidence": 45,
+            "persistence": 80,
+            "velocity": 45,
+            "dependency": 55,
+            "substitutability": 60
+          },
+          "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+          "action": "Track supplier quotations before changing coverage or formulations.",
+          "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+          "roles": [
+            "Supply Chain",
+            "CFO"
+          ],
+          "observedAt": "2026-09-11",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-12",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient availability",
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "grain-balance",
+          "revision": 1
+        },
+        {
+          "id": "S03",
+          "title": "Traceability planning requires a product-form decision",
+          "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-trace"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 55,
+            "severity": 65,
+            "confidence": 65,
+            "persistence": 90,
+            "velocity": 25,
+            "dependency": 70,
+            "substitutability": 60
+          },
+          "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+          "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+          "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+          "roles": [
+            "Quality / Food Safety",
+            "CISO / IT",
+            "COO"
+          ],
+          "observedAt": "2026-06-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Regulatory",
+            "Quality / food safety"
+          ],
+          "status": "reviewed",
+          "group": "traceability",
+          "revision": 1
+        },
+        {
+          "id": "S04",
+          "title": "Pet formats offer a qualified commercial opening",
+          "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "appa",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X09",
+            "X13"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 60,
+            "confidence": 45,
+            "persistence": 85,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+          "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+          "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+          "roles": [
+            "Sales / Business Development",
+            "R&D / Innovation",
+            "CEO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "pet-demand",
+          "revision": 1,
+          "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day."
+        },
+        {
+          "id": "S05",
+          "title": "Popcorn expansion is an opportunity to verify",
+          "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "deer-directory",
+            "heartland-2026"
+          ],
+          "facilityIds": [
+            "deer-creek"
+          ],
+          "exposureIds": [
+            "X07",
+            "X10",
+            "X11",
+            "X15"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 65,
+            "confidence": 60,
+            "persistence": 85,
+            "velocity": 40,
+            "dependency": 75,
+            "substitutability": 60
+          },
+          "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+          "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+          "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+          "roles": [
+            "COO",
+            "Sales / Business Development",
+            "Engineering",
+            "CEO"
+          ],
+          "observedAt": "2026-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Production capacity",
+            "Revenue",
+            "Growth opportunity",
+            "Equipment / maintenance"
+          ],
+          "status": "reviewed",
+          "group": "popcorn-expansion",
+          "revision": 1
+        },
+        {
+          "id": "S06",
+          "title": "Baby-food lead guidance has a material scope exclusion",
+          "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "High",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-lead"
+          ],
+          "facilityIds": [
+            "gridley"
+          ],
+          "exposureIds": [
+            "X01",
+            "X02",
+            "X03"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 70,
+            "confidence": 85,
+            "persistence": 90,
+            "velocity": 20,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+          "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+          "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+          "roles": [
+            "Quality / Food Safety",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2025-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Quality / food safety",
+            "Regulatory",
+            "Customer demand"
+          ],
+          "status": "reviewed",
+          "group": "toddler-scope",
+          "revision": 1
+        },
+        {
+          "id": "S07",
+          "title": "Central Illinois storm outlook reaches three facility counties",
+          "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
+          "category": "Facility / weather",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "nws-ilx-20260920"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 85,
+            "severity": 55,
+            "confidence": 80,
+            "persistence": 40,
+            "velocity": 80,
+            "dependency": 70,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
+          "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
+          "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+          "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+          "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+          "roles": [
+            "Plant Manager",
+            "Supply Chain",
+            "COO",
+            "HR / Talent"
+          ],
+          "observedAt": "2026-09-20",
+          "retrievedAt": "2026-09-20",
+          "reviewedAt": "2026-09-20",
+          "expiresAt": "2026-09-21",
+          "timeToImpact": "Immediate",
+          "impactDomains": [
+            "Transportation",
+            "Production capacity",
+            "Labor",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "central-il-weather",
+          "revision": 1,
+          "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+        },
+        {
+          "id": "S08",
+          "title": "Ingredient benchmarks diverge: grains up, dairy down",
+          "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+          "category": "Ingredient cost",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X01",
+            "X04",
+            "X06",
+            "X07"
+          ],
+          "factors": {
+            "exposure": 60,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 50,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+          "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+          "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+          "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+          "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "ingredient-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S09",
+          "title": "Metro labor context remains mixed",
+          "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+          "category": "Labor",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-labor",
+            "bls-peoria",
+            "bls-milwaukee",
+            "ws-careers"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 45,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+          "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+          "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+          "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+          "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+          "roles": [
+            "HR / Talent",
+            "Plant Manager",
+            "COO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Labor",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "regional-labor",
+          "revision": 1,
+          "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S10",
+          "title": "Latest industrial electricity benchmark is higher year over year",
+          "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+          "category": "Energy / utilities",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-industrial",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 80,
+            "severity": 60,
+            "confidence": 65,
+            "persistence": 80,
+            "velocity": 35,
+            "dependency": 90,
+            "substitutability": 40
+          },
+          "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
+          "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
+          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
+          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
+          "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+          "roles": [
+            "Plant Manager",
+            "Engineering",
+            "CFO"
+          ],
+          "observedAt": "2026-08-26",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-25",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Energy",
+            "Margin",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "industrial-energy",
+          "revision": 1,
+          "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S11",
+          "title": "Packaging signals split between paperboard and plastics",
+          "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+          "category": "Packaging",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "bls-paperboard-api"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X15"
+          ],
+          "factors": {
+            "exposure": 65,
+            "severity": 55,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 60
+          },
+          "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+          "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+          "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+          "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+          "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "Engineering"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Packaging",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "packaging-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S12",
+          "title": "Global CPG proxy retains cautious sales outlook",
+          "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+          "category": "Customer demand",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "gis-20260908",
+            "ws-markets"
+          ],
+          "facilityIds": [],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 50,
+            "severity": 40,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 50,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
+          "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
+          "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
+          "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
+          "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+          "roles": [
+            "Sales / Business Development",
+            "CEO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-08",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-09-24",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "cpg-demand",
+          "revision": 1,
+          "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S13",
+          "title": "EIA’s export-constraint scenario supports a fuel watch",
+          "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+          "category": "Geopolitical / trade",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-steo",
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 70,
+            "confidence": 60,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+          "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+          "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+          "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+          "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO"
+          ],
+          "observedAt": "2026-09-09",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-07",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Energy",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1,
+          "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "asOf": "2026-09-21T01:11:28.753Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
