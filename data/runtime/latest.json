@@ -15271,7 +15271,7 @@
     },
     {
       "date": "2026-09-21",
-      "asOf": "2026-09-21T14:16:59.080Z",
+      "asOf": "2026-09-21T16:09:54.641Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -15356,7 +15356,7 @@
         },
         {
           "category": "Facility / weather",
-          "score": 12,
+          "score": 3.4,
           "confidence": "Medium",
           "direction": "Threat",
           "componentIds": [
@@ -15700,14 +15700,14 @@
         },
         {
           "id": "S07",
-          "title": "Central Illinois storm outlook reaches three facility counties",
-          "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
+          "title": "Central Illinois storm risk is tapering; no facility-county alert matched",
+          "summary": "The 21 September NWS outlook includes McLean, Woodford and Tazewell counties, but says showers and thunderstorms are concentrated especially near and south of I-72, will taper by early afternoon, and are not expected to become severe. Lightning remains possible. The 14:16 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
           "category": "Facility / weather",
           "direction": "Threat",
           "confidence": "Medium",
           "evidenceClass": "INFERRED",
           "sourceIds": [
-            "nws-ilx-20260920"
+            "nws-ilx-20260921"
           ],
           "facilityIds": [
             "gridley",
@@ -15716,18 +15716,18 @@
           ],
           "exposureIds": [],
           "factors": {
-            "exposure": 85,
-            "severity": 55,
+            "exposure": 60,
+            "severity": 35,
             "confidence": 80,
-            "persistence": 40,
+            "persistence": 25,
             "velocity": 80,
             "dependency": 70,
             "substitutability": 70
           },
-          "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
-          "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
-          "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
-          "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+          "factorRationale": "Exposure falls from 85 to 60 because the county-zone outlook includes the three public municipalities while activity is concentrated especially near and south of I-72, south of the confirmed municipalities; severity falls from 55 to 35 because NWS says severe storms are not expected but lightning remains possible; confidence remains 80 because the primary outlook and SAME-code check are current while site impact is unknown; persistence falls from 40 to 25 because storms are expected to taper by early afternoon and no hazards are expected Tuesday through Sunday; velocity remains 80 because any effect is same-day; dependency and substitutability remain 70/70 pending actual shift, route and scheduling information. These are provisional judgments, not measured disruption.",
+          "causalPath": "County-zone showers and lightning → possible brief local road, workforce or outdoor-activity interruption → dispatch and production continuity. The forecast concentration is south of the confirmed municipalities, and actual route, utility and site effects remain unverified.",
+          "verify": "Current county warnings, lightning proximity, verified route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+          "action": "No additional response is supported beyond normal weather procedures and checking current site and route conditions before affected dispatch or outdoor work.",
           "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
           "roles": [
             "Plant Manager",
@@ -15735,10 +15735,10 @@
             "COO",
             "HR / Talent"
           ],
-          "observedAt": "2026-09-20",
-          "retrievedAt": "2026-09-20",
-          "reviewedAt": "2026-09-20",
-          "expiresAt": "2026-09-21",
+          "observedAt": "2026-09-21",
+          "retrievedAt": "2026-09-21",
+          "reviewedAt": "2026-09-21",
+          "expiresAt": "2026-09-22",
           "timeToImpact": "Immediate",
           "impactDomains": [
             "Transportation",
@@ -15748,8 +15748,8 @@
           ],
           "status": "reviewed",
           "group": "central-il-weather",
-          "revision": 1,
-          "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+          "revision": 2,
+          "dateNote": "NWS issued 04:07 CDT on 21 September. The 14:16 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. Factors changed only where the new forecast supports lower exposure, severity and persistence; guidance is improving without an operating-clearance claim."
         },
         {
           "id": "S08",
@@ -16396,14 +16396,14 @@
     },
     {
       "id": "S07",
-      "title": "Central Illinois storm outlook reaches three facility counties",
-      "summary": "The 20 September NWS outlook includes McLean, Woodford and Tazewell counties, with periodic showers and thunderstorms today and tonight. Locally heavy rain could flood low-lying or poor-drainage areas; the strongest severe-storm risk is mainly along and south of I-72. The 12:27 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
+      "title": "Central Illinois storm risk is tapering; no facility-county alert matched",
+      "summary": "The 21 September NWS outlook includes McLean, Woodford and Tazewell counties, but says showers and thunderstorms are concentrated especially near and south of I-72, will taper by early afternoon, and are not expected to become severe. Lightning remains possible. The 14:16 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
       "category": "Facility / weather",
       "direction": "Threat",
       "confidence": "Medium",
       "evidenceClass": "INFERRED",
       "sourceIds": [
-        "nws-ilx-20260920"
+        "nws-ilx-20260921"
       ],
       "facilityIds": [
         "gridley",
@@ -16412,18 +16412,18 @@
       ],
       "exposureIds": [],
       "factors": {
-        "exposure": 85,
-        "severity": 55,
+        "exposure": 60,
+        "severity": 35,
         "confidence": 80,
-        "persistence": 40,
+        "persistence": 25,
         "velocity": 80,
         "dependency": 70,
         "substitutability": 70
       },
-      "factorRationale": "Exposure 85 reflects matched public locations, not confirmed damage; severity 55 assumes potentially manageable access/delivery interruption; confidence 80 reflects the primary regional outlook with uncertain site impact; persistence 40 is short-duration; velocity 80 is immediate; dependency 70 and substitutability 70 assume road/workforce reliance and scheduling flexibility, pending verification. All are provisional judgments.",
-      "causalPath": "County-matched storm potential → possible local road or workforce access interruption → dispatch and production continuity. Actual route, utility and site effects remain unverified.",
-      "verify": "Current county warnings, confirmed route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
-      "action": "Plant and logistics leaders should check the current outlook before shifts and dispatch, following existing weather procedures.",
+      "factorRationale": "Exposure falls from 85 to 60 because the county-zone outlook includes the three public municipalities while activity is concentrated especially near and south of I-72, south of the confirmed municipalities; severity falls from 55 to 35 because NWS says severe storms are not expected but lightning remains possible; confidence remains 80 because the primary outlook and SAME-code check are current while site impact is unknown; persistence falls from 40 to 25 because storms are expected to taper by early afternoon and no hazards are expected Tuesday through Sunday; velocity remains 80 because any effect is same-day; dependency and substitutability remain 70/70 pending actual shift, route and scheduling information. These are provisional judgments, not measured disruption.",
+      "causalPath": "County-zone showers and lightning → possible brief local road, workforce or outdoor-activity interruption → dispatch and production continuity. The forecast concentration is south of the confirmed municipalities, and actual route, utility and site effects remain unverified.",
+      "verify": "Current county warnings, lightning proximity, verified route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+      "action": "No additional response is supported beyond normal weather procedures and checking current site and route conditions before affected dispatch or outdoor work.",
       "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
       "roles": [
         "Plant Manager",
@@ -16431,10 +16431,10 @@
         "COO",
         "HR / Talent"
       ],
-      "observedAt": "2026-09-20",
-      "retrievedAt": "2026-09-20",
-      "reviewedAt": "2026-09-20",
-      "expiresAt": "2026-09-21",
+      "observedAt": "2026-09-21",
+      "retrievedAt": "2026-09-21",
+      "reviewedAt": "2026-09-21",
+      "expiresAt": "2026-09-22",
       "timeToImpact": "Immediate",
       "impactDomains": [
         "Transportation",
@@ -16444,8 +16444,8 @@
       ],
       "status": "reviewed",
       "group": "central-il-weather",
-      "revision": 1,
-      "dateNote": "NWS issued 03:36 CDT on 20 September. The 12:27 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. This is a freshness/source-vintage update only; all factors and guidance remain unchanged, so guidance revision stays 1."
+      "revision": 2,
+      "dateNote": "NWS issued 04:07 CDT on 21 September. The 14:16 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. Factors changed only where the new forecast supports lower exposure, severity and persistence; guidance is improving without an operating-clearance claim."
     },
     {
       "id": "S08",
@@ -17410,6 +17410,16 @@
       "eventEndsAt": "2026-09-21T07:00:00-05:00",
       "evidenceClass": "CONFIRMED",
       "limitation": "The watch is for the Root River at Franklin in Milwaukee County. Watershed publicly identifies only a greater-Milwaukee presence; exact municipality, site, route, utility and operational impact are unverified."
+    },
+    {
+      "id": "nws-ilx-20260921",
+      "title": "NWS Lincoln: 21 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-21",
+      "publishedAt": "2026-09-21T04:07:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "County/zone outlook includes McLean, Woodford and Tazewell. It says activity is concentrated especially near and south of I-72 and severe storms are not expected; it does not establish site, route, utility or shift conditions. The 14:16 UTC alert check is not an operating clearance."
     }
   ],
   "claims": [
@@ -17790,5 +17800,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "baselineRevision": "2026-09-20-reviewed"
+  "baselineRevision": "2026-09-21-reviewed"
 }
