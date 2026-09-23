@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-23T17:10:29.874Z",
-      "hash": "fe80c88fdcb733be48313a46086610fac2fd2f873c14bef6d3eaf990c7fc1937",
-      "etag": "W/\"e67919aed70f7e6da8ba632dfc53e8f0:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-23T20:27:47.004Z",
+      "hash": "4ec6d90d05645819deff210a8daf5ed92d6449fa427955f1220791a32dd43ecf",
+      "etag": "W/\"29d1941ec450311e01a9047e94c7ec05:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 14,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-23T17:10:29.874Z",
-      "hash": "7a64d7bbbb7bda7645f3b82a52b6145bb1fb96c8a8198c966ce2a9dfe1bef881",
-      "etag": "W/\"4a10530ea15f400b858a0e25e8fea38f:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-23T20:27:47.004Z",
+      "hash": "a2077dbf74e95944bdf485575bbc32f5a366465ec06687df98af951e589c0385",
+      "etag": "W/\"84846d4b8796a74ff953b59b40132920:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 3,
       "changed": true
     },
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-23T17:10:29.874Z",
-      "hash": "86543e8bd907375732f0dad4cdc1f06dde52798826d010dbd36193a8b99c0279",
+      "fetchedAt": "2026-09-23T20:27:47.004Z",
+      "hash": "924bb706965e93aad7655b861add59979112a6bcdc87746f49ab4dae6699720f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -630,7 +630,7 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -643,7 +643,7 @@
       "title": "Beach Hazards Statement issued September 23 at 3:25AM CDT until September 23 at 10:00PM CDT by NWS Duluth MN",
       "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From noon CDT today through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
       "observedAt": "2026-09-23T03:25:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -659,6 +659,409 @@
         "UGC": [
           "MNZ037",
           "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 26 at 7:00PM CDT by NWS St Louis MO",
+      "summary": "Adams, IL; Lewis, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From Friday morning to Saturday evening. * IMPACTS...At 14.0 feet, Both banks begin to overflow. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.7 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet Friday morning. It will then fall below flood stage early Friday afternoon. - ",
+      "observedAt": "2026-09-23T12:06:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017001",
+          "029111"
+        ],
+        "UGC": [
+          "ILC001",
+          "MOC111"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 27 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Marion, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Friday afternoon to late Saturday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Wednesday the stage was 15.7 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet early Friday a",
+      "observedAt": "2026-09-23T12:06:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029127"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC127"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 27 at 7:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Ralls, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Friday morning to Sunday evening. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 13.7 feet. - Forecast...The river is expected to rise above flood stage Fr",
+      "observedAt": "2026-09-23T12:06:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029173"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC173"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.005.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 28 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Lincoln, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Friday evening to late Sunday night. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 22.9 feet. - Forecast...The river ",
+      "observedAt": "2026-09-23T12:06:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029113"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC113"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 29 at 5:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Thursday afternoon to late Monday night. * IMPACTS...At 27.2 feet, Silo Park just northwest of Clarksville off Highway 79 begins flooding. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 23.6 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a c",
+      "observedAt": "2026-09-23T12:06:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.586ec95e709c73ec76aa208a5146c81e0056b30a.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:53AM CDT until September 28 at 10:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From Thursday afternoon to Monday evening. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 13.9 feet. - Forecast...The river is expected to rise above flood stage tomorrow afternoon to a crest of 15.9 feet Friday evening. It will then fall below flood stage Sunday afternoon. - Flood stage is 15.0 feet.",
+      "observedAt": "2026-09-23T11:53:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-25T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a19c3b34911b3f7ee96bf38cb64eed7c94cff02f.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:20AM CDT until September 27 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Sunday morning. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 7.5 feet. - Forecast...The river is expected to rise to a crest of 8.1 feet early tomorrow afternoon. It will then fall below flood stage early Sunday morning. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-23T11:20:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-24T05:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.a19c3b34911b3f7ee96bf38cb64eed7c94cff02f.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:20AM CDT until September 29 at 1:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Tuesday afternoon. * IMPACTS...At 9.5 feet, Residential structures threatened along Russell Road between the river and Kilbourne Road. Industrial parking lots threatened along Kilbourne Road. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 9.3 feet. - Forecast...The river is expected to fall below flood stage Tuesday morning and continue falling to 6.8 feet Wednesday, September 30. - Flood stage is 7.0 feet. - http://www.weather.gov",
+      "observedAt": "2026-09-23T11:20:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-24T05:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 25 at 7:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines, IA; Lee, IA; Hancock, IL; Henderson, IL: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Burlington. * WHEN...From Thursday morning to Friday evening. * IMPACTS...At 15.0 feet, agricultural flooding occurs. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 14.6 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet tomorrow morning. It will then fall below flood stage Frid",
+      "observedAt": "2026-09-23T11:05:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-24T11:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "019111",
+          "017067",
+          "017071"
+        ],
+        "UGC": [
+          "IAC057",
+          "IAC111",
+          "ILC067",
+          "ILC071"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 26 at 10:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Des Moines, IA; Henderson, IL: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From this evening to Saturday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 9.7 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 10.3 feet tomorrow afternoon. It will then fall below flood stage Friday afternoon. - Flood stage is 10.0 feet.",
+      "observedAt": "2026-09-23T11:05:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-24T11:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019057",
+          "017071"
+        ],
+        "UGC": [
+          "IAC057",
+          "ILC071"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 26 at 1:00PM CDT by NWS Quad Cities IA IL",
+      "summary": "Hancock, IL; Clark, MO: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Friday morning to Saturday afternoon. * IMPACTS...At 16.0 feet, water affects buildings in unprotected low areas. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 13.2 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet Friday morning. It will then fall below flood stage Friday e",
+      "observedAt": "2026-09-23T11:05:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-24T11:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017067",
+          "029045"
+        ],
+        "UGC": [
+          "ILC067",
+          "MOC045"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.7e0ab5cf1df7e79ed708215414049eb184763853.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 23 at 10:31AM CDT until September 26 at 4:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until late Friday night. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:00 AM CDT Wednesday was 12.3 feet. - Forecast...The river is expected to fall below flood stage late Friday evening and continue f",
+      "observedAt": "2026-09-23T10:31:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-23T22:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7e0ab5cf1df7e79ed708215414049eb184763853.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued September 23 at 10:31AM CDT until September 26 at 4:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until late Friday night. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:00 AM CDT Wednesday was 12.3 feet. - Forecast...The river is expected to fall below flood stage late Friday evening and continue f",
+      "observedAt": "2026-09-23T10:31:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-23T22:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d952ff70d13ee7d13d20515d0659e37eb0ecfed3.002.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 23 at 2:41PM CDT until September 23 at 10:00PM CDT by NWS Chicago IL",
+      "summary": "Northern Cook; Central Cook: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 3 to 6 ft expected. * WHERE...Northern Cook and Central Cook Counties. * WHEN...Until 10 PM CDT this evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-23T14:41:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-23T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017031"
+        ],
+        "UGC": [
+          "ILZ103",
+          "ILZ104"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d952ff70d13ee7d13d20515d0659e37eb0ecfed3.001.1",
+      "sourceId": "nws-il",
+      "title": "Beach Hazards Statement issued September 23 at 2:41PM CDT until September 24 at 12:00PM CDT by NWS Chicago IL",
+      "summary": "Lake: * WHAT...High wave action and dangerous currents expected at Lake Michigan beaches. Waves 4 to 6 ft expected. * WHERE...Lake County IL. * WHEN...Through Thursday morning. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
+      "observedAt": "2026-09-23T14:41:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-23T22:45:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.24bf209c44ddec98986e4d02c97f57f30ce24f44.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 23 at 2:36PM CDT until September 24 at 1:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Ozaukee; Milwaukee; Racine; Kenosha: * WHAT...Life threatening waves of 3 to 5 feet and dangerous currents are expected. * WHERE...Sheboygan, Ozaukee, Milwaukee, Racine and Kenosha Counties. * WHEN...Through early Thursday afternoon. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-23T14:36:00-05:00",
+      "retrievedAt": "2026-09-23T20:27:47.004Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-23T22:45:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055089",
+          "055079",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ060",
+          "WIZ066",
+          "WIZ071",
+          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1314,306 +1717,6 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 26 at 7:00PM CDT by NWS St Louis MO",
-      "summary": "Adams, IL; Lewis, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Canton. * WHEN...From Friday morning to Saturday evening. * IMPACTS...At 14.0 feet, Both banks begin to overflow. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.7 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet Friday morning. It will then fall below flood stage early Friday afternoon. - ",
-      "observedAt": "2026-09-23T12:06:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017001",
-          "029111"
-        ],
-        "UGC": [
-          "ILC001",
-          "MOC111"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.004.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 27 at 1:00AM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Marion, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...From Friday afternoon to late Saturday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Wednesday the stage was 15.7 feet. - Forecast...The river is expected to rise to a crest of 17.0 feet early Friday a",
-      "observedAt": "2026-09-23T12:06:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029127"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC127"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 27 at 7:00PM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Ralls, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Saverton. * WHEN...From Friday morning to Sunday evening. * IMPACTS...At 15.5 feet, An access road to riverside raised homes on the riverward side of the Sny levee begins to flood near this level. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 13.7 feet. - Forecast...The river is expected to rise above flood stage Fr",
-      "observedAt": "2026-09-23T12:06:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029173"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC173"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.005.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 28 at 1:00AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Lincoln, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Winfield. * WHEN...From Friday evening to late Sunday night. * IMPACTS...At 27.5 feet, At this stage, Lock and Dam 25 will stockpile 200 tons of sand, 12,000 sandbags, and 10,000 square feet of polyethylene plastic as a precaution. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 22.9 feet. - Forecast...The river ",
-      "observedAt": "2026-09-23T12:06:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029113"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC113"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a34c99144c691c91d914a70d1cf8238934859904.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 12:06PM CDT until September 29 at 5:00AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. Mississippi River at Saverton. Mississippi River at Hannibal. Mississippi River at Winfield. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Canton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Thursday afternoon to late Monday night. * IMPACTS...At 27.2 feet, Silo Park just northwest of Clarksville off Highway 79 begins flooding. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 23.6 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a c",
-      "observedAt": "2026-09-23T12:06:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029163"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.586ec95e709c73ec76aa208a5146c81e0056b30a.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:53AM CDT until September 28 at 10:00PM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From Thursday afternoon to Monday evening. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:30 AM CDT Wednesday the stage was 13.9 feet. - Forecast...The river is expected to rise above flood stage tomorrow afternoon to a crest of 15.9 feet Friday evening. It will then fall below flood stage Sunday afternoon. - Flood stage is 15.0 feet.",
-      "observedAt": "2026-09-23T11:53:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-25T00:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029163"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a19c3b34911b3f7ee96bf38cb64eed7c94cff02f.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:20AM CDT until September 27 at 10:00AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Sunday morning. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 7.5 feet. - Forecast...The river is expected to rise to a crest of 8.1 feet early tomorrow afternoon. It will then fall below flood stage early Sunday morning. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-23T11:20:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-24T05:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a19c3b34911b3f7ee96bf38cb64eed7c94cff02f.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:20AM CDT until September 29 at 1:00PM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Moderate flooding is occurring and moderate flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Tuesday afternoon. * IMPACTS...At 9.5 feet, Residential structures threatened along Russell Road between the river and Kilbourne Road. Industrial parking lots threatened along Kilbourne Road. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 9.3 feet. - Forecast...The river is expected to fall below flood stage Tuesday morning and continue falling to 6.8 feet Wednesday, September 30. - Flood stage is 7.0 feet. - http://www.weather.gov",
-      "observedAt": "2026-09-23T11:20:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-24T05:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 25 at 7:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines, IA; Lee, IA; Hancock, IL; Henderson, IL: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Burlington. * WHEN...From Thursday morning to Friday evening. * IMPACTS...At 15.0 feet, agricultural flooding occurs. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 14.6 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet tomorrow morning. It will then fall below flood stage Frid",
-      "observedAt": "2026-09-23T11:05:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-24T11:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "019111",
-          "017067",
-          "017071"
-        ],
-        "UGC": [
-          "IAC057",
-          "IAC111",
-          "ILC067",
-          "ILC071"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 26 at 10:00AM CDT by NWS Quad Cities IA IL",
-      "summary": "Des Moines, IA; Henderson, IL: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gladstone LD18. * WHEN...From this evening to Saturday morning. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 9.7 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 10.3 feet tomorrow afternoon. It will then fall below flood stage Friday afternoon. - Flood stage is 10.0 feet.",
-      "observedAt": "2026-09-23T11:05:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-24T11:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "019057",
-          "017071"
-        ],
-        "UGC": [
-          "IAC057",
-          "ILC071"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.6520a607ace3281dcdb7d754412046359c27b8a6.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 11:05AM CDT until September 26 at 1:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Hancock, IL; Clark, MO: ...The Flood Warning continues for the following rivers in Illinois...Iowa... Mississippi River at Gladstone LD18 affecting Henderson and Des Moines Counties. Mississippi River at Burlington affecting Henderson, Lee, Des Moines and Hancock Counties. ...The Flood Warning is extended for the following rivers in Missouri...Illinois... Mississippi River at Gregory Landing affecting Clark and Hancock Counties. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Gregory Landing. * WHEN...From Friday morning to Saturday afternoon. * IMPACTS...At 16.0 feet, water affects buildings in unprotected low areas. * ADDITIONAL DETAILS... - At 10:30 AM CDT Wednesday the stage was 13.2 feet. - Forecast...The river is expected to rise to a crest of 15.0 feet Friday morning. It will then fall below flood stage Friday e",
-      "observedAt": "2026-09-23T11:05:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-24T11:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017067",
-          "029045"
-        ],
-        "UGC": [
-          "ILC067",
-          "MOC045"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.7e0ab5cf1df7e79ed708215414049eb184763853.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 23 at 10:31AM CDT until September 26 at 4:00AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until late Friday night. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:00 AM CDT Wednesday was 12.3 feet. - Forecast...The river is expected to fall below flood stage late Friday evening and continue f",
-      "observedAt": "2026-09-23T10:31:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-23T22:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILC097",
-          "WIC059"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.b9493701595f70c98740a2d021ddc62d4f9ee818.003.1",
       "sourceId": "nws-il",
       "title": "Beach Hazards Statement issued September 23 at 10:01AM CDT until September 23 at 10:00PM CDT by NWS Chicago IL",
@@ -1656,31 +1759,6 @@
         ],
         "UGC": [
           "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7e0ab5cf1df7e79ed708215414049eb184763853.001.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 23 at 10:31AM CDT until September 26 at 4:00AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until late Friday night. * IMPACTS...At 12.0 feet, Water is up to the first floor levels of some homes in the Town of Wheatland, Silver Lake and Village of Salem Lakes area along Riverside Drive and Shorewood Drive. Hoosier Creek Rd floods. * ADDITIONAL DETAILS... - At 10:00 AM CDT Wednesday the stage was 12.0 feet. - Bankfull stage is 10.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 10:00 AM CDT Wednesday was 12.3 feet. - Forecast...The river is expected to fall below flood stage late Friday evening and continue f",
-      "observedAt": "2026-09-23T10:31:00-05:00",
-      "retrievedAt": "2026-09-23T17:10:29.874Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-23T22:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILC097",
-          "WIC059"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -15583,9 +15661,9 @@
       "scope": "Robotics, machine vision, equipment and workforce developments"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-09-23T17:10:29.874Z",
+  "collectedAt": "2026-09-23T20:27:47.004Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -20443,7 +20521,7 @@
     },
     {
       "date": "2026-09-23",
-      "asOf": "2026-09-23T17:10:31.024Z",
+      "asOf": "2026-09-23T20:27:47.298Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
