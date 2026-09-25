@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-25T18:41:58.658Z",
-      "hash": "a587a7762a48887bb92ac47979d2f60ddf371a95de31930d6a2e1f3c852104e2",
-      "etag": "W/\"68de51a5d5cfc66cd51da77fa6b050b3:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 6,
+      "fetchedAt": "2026-09-25T22:27:02.780Z",
+      "hash": "fc6592f7edd3b27e8833343d96c9dadd29932f8101573679bd88086893a7ffd8",
+      "etag": "W/\"b9ba2d044abfe040dab33e6c4d9020ef:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 5,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-25T18:41:58.658Z",
-      "hash": "a7d6281e7aff5dff16729b062c8940590b8ba944c07cd8a58091c7e89d002d40",
-      "etag": "W/\"c89e50634d2519ab5e08c210edc4f45b:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 1,
+      "fetchedAt": "2026-09-25T22:27:02.780Z",
+      "hash": "0e3df0d28ce8c9f938f8eb09dbb219109177067f308bb78d1eed2768a216e563",
+      "etag": "W/\"4edfbe1b268c6486cb7abd614dfa8105:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 0,
       "changed": true
     },
     {
@@ -541,7 +541,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-25T18:41:58.658Z",
+      "fetchedAt": "2026-09-25T22:27:02.780Z",
       "hash": "6e3b6548f1f9a191c74db9c649452b6ffb9e1147c28bbfaef6b223ded5aa601c",
       "etag": null,
       "count": 0,
@@ -626,6 +626,127 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.004.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 28 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Marion, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...Until late Sunday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Friday the stage was 17.0 feet. - Forecast...The river is expected to rise above",
+      "observedAt": "2026-09-25T12:14:00-05:00",
+      "retrievedAt": "2026-09-25T22:27:02.780Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029127"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC127"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 29 at 5:00AM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until late Monday night. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 12:00 PM CDT Friday the stage was 15.5 feet. - R",
+      "observedAt": "2026-09-25T12:14:00-05:00",
+      "retrievedAt": "2026-09-25T22:27:02.780Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.003.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 29 at 7:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until Tuesday morning. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 12:00 PM CDT Friday the stage was 25.2 feet. - Recent Activity...The maximu",
+      "observedAt": "2026-09-25T12:14:00-05:00",
+      "retrievedAt": "2026-09-25T22:27:02.780Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T00:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e74fe38c273b0bba1814a01038b588aa79958106.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 25 at 9:14AM CDT until September 28 at 1:00AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until late Sunday night. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 8:30 AM CDT Friday the stage was 8.3 feet. - Forecast...The river is expected to fall below flood stage by Sunday night. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-25T09:14:00-05:00",
+      "retrievedAt": "2026-09-25T22:27:02.780Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-26T03:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e74fe38c273b0bba1814a01038b588aa79958106.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 25 at 9:14AM CDT until September 30 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Wednesday evening. * IMPACTS...At 9.5 feet, Residential structures threatened along Russell Road between the river and Kilbourne Road. Industrial parking lots threatened along Kilbourne Road. * ADDITIONAL DETAILS... - At 8:30 AM CDT Friday the stage was 8.8 feet. - Forecast...The river is expected to fall below flood stage by the middle of next week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-25T09:14:00-05:00",
+      "retrievedAt": "2026-09-25T22:27:02.780Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-26T03:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -1277,81 +1398,6 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.004.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 28 at 1:00AM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Marion, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...Until late Sunday night. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 11:15 AM CDT Friday the stage was 17.0 feet. - Forecast...The river is expected to rise above",
-      "observedAt": "2026-09-25T12:14:00-05:00",
-      "retrievedAt": "2026-09-25T18:41:58.658Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-27T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029127"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC127"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 29 at 5:00AM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until late Monday night. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 12:00 PM CDT Friday the stage was 15.5 feet. - R",
-      "observedAt": "2026-09-25T12:14:00-05:00",
-      "retrievedAt": "2026-09-25T18:41:58.658Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-27T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029163"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.1c58aa4c348f9d7088b05ced2914169d0dd5239b.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 25 at 12:14PM CDT until September 29 at 7:00AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. ...The Flood Warning is cancelled for the following rivers in Illinois...Missouri... Mississippi River at Saverton. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until Tuesday morning. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 12:00 PM CDT Friday the stage was 25.2 feet. - Recent Activity...The maximu",
-      "observedAt": "2026-09-25T12:14:00-05:00",
-      "retrievedAt": "2026-09-25T18:41:58.658Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-27T00:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029163"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.1433c9e936a6d0ce5bc651c98a52421446dbdc00.001.1",
       "sourceId": "nws-il",
       "title": "Flood Warning issued September 25 at 9:23AM CDT until September 25 at 4:00PM CDT by NWS Milwaukee/Sullivan WI",
@@ -1372,52 +1418,6 @@
         "UGC": [
           "ILC097",
           "WIC059"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.e74fe38c273b0bba1814a01038b588aa79958106.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 25 at 9:14AM CDT until September 28 at 1:00AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until late Sunday night. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 8:30 AM CDT Friday the stage was 8.3 feet. - Forecast...The river is expected to fall below flood stage by Sunday night. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-25T09:14:00-05:00",
-      "retrievedAt": "2026-09-25T18:41:58.658Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-26T03:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.e74fe38c273b0bba1814a01038b588aa79958106.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 25 at 9:14AM CDT until September 30 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Wednesday evening. * IMPACTS...At 9.5 feet, Residential structures threatened along Russell Road between the river and Kilbourne Road. Industrial parking lots threatened along Kilbourne Road. * ADDITIONAL DETAILS... - At 8:30 AM CDT Friday the stage was 8.8 feet. - Forecast...The river is expected to fall below flood stage by the middle of next week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-25T09:14:00-05:00",
-      "retrievedAt": "2026-09-25T18:41:58.658Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-26T03:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -17497,9 +17497,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-09-25T18:41:58.658Z",
+  "collectedAt": "2026-09-25T22:27:02.780Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -23971,7 +23971,7 @@
     },
     {
       "date": "2026-09-25",
-      "asOf": "2026-09-25T18:41:59.862Z",
+      "asOf": "2026-09-25T22:27:03.132Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
