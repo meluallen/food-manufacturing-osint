@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-26T17:14:57.877Z",
-      "hash": "43d418f41d22177c2d73e545aebb4b126d71fb0cdaf47116ee6eba99467f4d61",
-      "etag": "W/\"11af9e5ea7d203302db0477be2afdecf:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 5,
+      "fetchedAt": "2026-09-26T19:56:49.038Z",
+      "hash": "c70142e34d27558fd1e7e0aec4d03ced160c72eb828b98f104db5b7f4e3816b1",
+      "etag": "W/\"47b327dc6111cb325b97d3298ddb8221:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 4,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-26T17:14:57.877Z",
-      "hash": "80118cd216067967c37e6b3baab2f8e5fe3182b711f86f12a0a5f5b156e0de89",
-      "etag": "W/\"dd35b9cd3f8734970dd31d472c97a17c:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-26T19:56:49.038Z",
+      "hash": "4c115a740687dd36a96de0bed5b800849bf97de21feeb729a76b9d7f1ae42794",
+      "etag": "W/\"a706e75451d1a62c57da046aaf9a40c2:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 1,
       "changed": true
     },
@@ -629,6 +629,128 @@
   ],
   "candidates": [
     {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.92cffd6c4470d390810eaba5e08458c0fb51533e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 26 at 1:40AM CDT until September 26 at 10:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From noon CDT today through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-26T01:40:00-05:00",
+      "retrievedAt": "2026-09-26T19:56:49.038Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-26T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 10:47AM CDT until September 28 at 1:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Monday afternoon. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Saturday the stage was 8.0 feet. - Recent Activity...The river crested yesterday and continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Monday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-26T10:47:00-05:00",
+      "retrievedAt": "2026-09-26T19:56:49.038Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T05:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 10:47AM CDT until October 1 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday morning. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 8.5 feet. - Recent Activity...The river continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Thursday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-26T10:47:00-05:00",
+      "retrievedAt": "2026-09-26T19:56:49.038Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T05:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e798a5a94fee0eae2c11a36fb3778e4b5435f3aa.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 1:00PM CDT until September 28 at 3:00PM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until Monday afternoon. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 12:30 PM CDT Saturday the stage was 25.4 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 12:30 PM CDT Saturday was 25.5 feet. - Forecast...The river is expected to rise to a crest of 25.5 feet this afternoon. It will then fall below flood stage late tomorrow morning. - Flood s",
+      "observedAt": "2026-09-26T13:00:00-05:00",
+      "retrievedAt": "2026-09-26T19:56:49.038Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-28T01:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e798a5a94fee0eae2c11a36fb3778e4b5435f3aa.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 1:00PM CDT until September 28 at 5:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until Monday afternoon. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 12:30 PM CDT Saturday the stage was 15.6 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 12:30 PM CDT Saturday was 15.7 feet. - Forecast...The river is expected to fall below flood stage late tomorrow morning and continue falling to 12.5 feet by Wednes",
+      "observedAt": "2026-09-26T13:00:00-05:00",
+      "retrievedAt": "2026-09-26T19:56:49.038Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-28T01:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6eabce08a63d99dc9a91dba81a34c8821ca53ec9.002.1",
       "sourceId": "nws-il",
       "title": "Flood Warning issued September 25 at 8:50PM CDT until September 27 at 7:00PM CDT by NWS St Louis MO",
@@ -704,32 +826,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.92cffd6c4470d390810eaba5e08458c0fb51533e.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 26 at 1:40AM CDT until September 26 at 10:00PM CDT by NWS Duluth MN",
-      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From noon CDT today through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
-      "observedAt": "2026-09-26T01:40:00-05:00",
-      "retrievedAt": "2026-09-26T17:14:57.877Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-26T22:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "027017",
-          "027137",
-          "055031"
-        ],
-        "UGC": [
-          "MNZ037",
-          "WIZ001"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "Midcontinent Independent System Operator (MISO)",
@@ -741,52 +837,6 @@
       "category": "Energy / utilities",
       "sourceUrl": "https://www.misoenergy.org/",
       "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 26 at 10:47AM CDT until September 28 at 1:00PM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Monday afternoon. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Saturday the stage was 8.0 feet. - Recent Activity...The river crested yesterday and continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Monday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-26T10:47:00-05:00",
-      "retrievedAt": "2026-09-26T17:14:57.877Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-27T05:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 26 at 10:47AM CDT until October 1 at 7:00AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday morning. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 8.5 feet. - Recent Activity...The river continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Thursday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-26T10:47:00-05:00",
-      "retrievedAt": "2026-09-26T17:14:57.877Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-27T05:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.951759a5df5a3425be1df9eaeca8ef446b499430.001.1",
@@ -17770,9 +17820,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-09-26T17:14:57.877Z",
+  "collectedAt": "2026-09-26T19:56:49.038Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -25047,7 +25097,7 @@
     },
     {
       "date": "2026-09-26",
-      "asOf": "2026-09-26T17:14:59.686Z",
+      "asOf": "2026-09-26T19:56:50.189Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
