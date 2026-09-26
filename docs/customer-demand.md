@@ -19,6 +19,18 @@ No individual current customer is verified. Historical Kellogg reporting remains
 
 Opportunity qualification: primary demand evidence → customer problem → process/platform fit → technically feasible formulation/format → qualified commercial brief → capacity, safety, specification and margin review. Track qualified briefs and conversion, not just media volume. Public industry spend projections are not orders or premium-unit growth.
 
+## 23 September 2026 global CPG / pet archetype update
+
+General Mills reported North America Pet sales flat in its fiscal 2027 first quarter: pet treats grew low single digits, cat food grew double digits, dog food declined high single digits, and retailer inventory was a modest headwind. North America Retail organic sales declined 3%, U.S. Snacks declined mid-single digits, and the company retained a cautious annual outlook while emphasizing protein, fiber and pet humanization in innovation.
+
+This is **CONFIRMED** General Mills evidence and **INFERRED** Watershed relevance. It does not establish a current customer relationship, Watershed orders, category-wide results, available capacity or a production commitment. The mixed pattern supports category-specific pipeline verification rather than a broad demand conclusion.
+
+Verify: qualified briefs and conversion by pet treats, dog food, snacks, protein/fiber and other formats; retailer-inventory effects; capacity, safety and margin fit.
+
+Trigger: a verified customer order change, two additional primary archetypes corroborating the same move, or a qualified brief matched to available capacity and validated controls.
+
+[General Mills fiscal 2027 first-quarter results](https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reports-Fiscal-2027-First-quarter-Results-and-Reaffirms-Full-year-Outlook/default.aspx) (published 2026-09-23; retrieved 2026-09-26)
+
 ## Pet formats offer a qualified commercial opening
 
 APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.

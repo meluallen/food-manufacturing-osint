@@ -108,8 +108,11 @@
     "title": "EIA: Gasoline and Diesel Fuel Update",
     "url": "https://www.eia.gov/petroleum/gasdiesel/",
     "kind": "Government",
-    "retrievedAt": "2026-09-17",
-    "limitation": "Regional retail on-highway diesel benchmark, not Watershed’s contracted fuel or freight rate."
+    "retrievedAt": "2026-09-26",
+    "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed’s contracted fuel, lane mix, carrier surcharge, freight rate or realized cost.",
+    "publishedAt": "2026-09-22",
+    "referencePeriod": "2026-09-21",
+    "evidenceClass": "CONFIRMED"
   },
   {
     "id": "wasde-sep",
@@ -485,5 +488,38 @@
     "publishedAt": "2026-09-21T04:07:00-05:00",
     "evidenceClass": "CONFIRMED",
     "limitation": "County/zone outlook includes McLean, Woodford and Tazewell. It says activity is concentrated especially near and south of I-72 and severe storms are not expected; it does not establish site, route, utility or shift conditions. The 14:16 UTC alert check is not an operating clearance."
+  },
+  {
+    "id": "eia-electricity-20260924",
+    "title": "EIA Electricity Monthly Update: July 2026 end use",
+    "url": "https://www.eia.gov/electricity/monthly/update/end-use.php",
+    "kind": "Federal government",
+    "retrievedAt": "2026-09-26",
+    "publishedAt": "2026-09-24",
+    "referencePeriod": "2026-07",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "National industrial average revenue per kWh is a price proxy, not an Illinois, Wisconsin or Watershed tariff, bill, contract, interval load or facility cost."
+  },
+  {
+    "id": "gis-20260923",
+    "title": "General Mills fiscal 2027 first-quarter results",
+    "url": "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reports-Fiscal-2027-First-quarter-Results-and-Reaffirms-Full-year-Outlook/default.aspx",
+    "kind": "Company investor relations",
+    "retrievedAt": "2026-09-26",
+    "publishedAt": "2026-09-23",
+    "referencePeriod": "Quarter ended 2026-08-30",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "One public CPG/pet archetype. It does not establish a Watershed customer relationship, order, segment mix, production plan, supplier exposure or category-wide result."
+  },
+  {
+    "id": "fda-recalls-index-20260926",
+    "title": "FDA recalls, market withdrawals and safety alerts index",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+    "kind": "Federal regulator",
+    "retrievedAt": "2026-09-26",
+    "publishedAt": null,
+    "referencePeriod": "Index rows dated 2026-09-22 through 2026-09-25",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "Rolling and incomplete FDA index of public notices. Row dates are not treated as incident onset dates. No Watershed ingredient, supplier, customer, SKU, lot or facility match is established."
   }
 ]

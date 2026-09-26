@@ -5,12 +5,12 @@ import {assess,materiality,eligible,failureCorrelation,calibration,yesterdaySnap
 import {parseSource,collectOne,collectDue} from '../lib/collectors.mjs';
 import {validateSignal,validateFeed} from '../lib/validation.mjs';
 const data=name=>JSON.parse(readFileSync(new URL('../data/'+name+'.json',import.meta.url)));
-const signals=data('signals'),categories=data('categories'),now=new Date('2026-09-17T12:00:00Z');
+const signals=data('signals'),categories=data('categories'),now=new Date('2026-09-26T12:00:00Z');
 test('requested multiplicative formula is normalized, floored and bounded',()=>{
  const factors={exposure:100,severity:100,confidence:100,persistence:100,velocity:100,dependency:100,substitutability:100};
  assert.equal(materiality(factors).score,100);assert.equal(materiality({...factors,severity:50}).score,50);assert.equal(materiality({...factors,severity:0}).score,0);
  assert.equal(materiality({...factors,substitutability:0}).score,100);assert.equal(materiality({...factors,severity:null}).score,null);
- assert.equal(materiality(signals[0].factors).score,47);
+ assert.equal(materiality(signals[0].factors).score,61.4);
 });
 test('expired, unreviewed, future-dated and unsupported signals never score',()=>{
  const s=signals[0];assert.ok(eligible(s,now));assert.ok(!eligible({...s,expiresAt:'2026-09-16'},now));assert.ok(!eligible({...s,status:'candidate'},now));assert.ok(!eligible({...s,observedAt:'2027-01-01'},now));assert.ok(!eligible(s,now,new Set(['not-this-source'])));
@@ -36,7 +36,7 @@ test('Brier scoring excludes unresolved forecasts and rejects invalid probabilit
  assert.equal(stats.resolved,2);assert.ok(Math.abs(stats.brier-.265)<.0001);assert.equal(stats.falseNegatives,1);assert.throws(()=>calibration([{probability:1.5,outcome:1}]));
 });
 test('yesterday must really exist; no nearest-day substitution',()=>{
- assert.equal(yesterdaySnapshot([{date:'2026-09-15'}],now),null);assert.equal(yesterdaySnapshot([{date:'2026-09-16'}],now).date,'2026-09-16');
+ assert.equal(yesterdaySnapshot([{date:'2026-09-24'}],now),null);assert.equal(yesterdaySnapshot([{date:'2026-09-25'}],now).date,'2026-09-25');
 });
 test('persona selection follows ranked evidence with unique roles and issue groups',()=>{
  const p=personas(assess(signals,categories,now));assert.ok(p.length>=3&&p.length<=5);
@@ -67,9 +67,9 @@ test('cadence avoids repeated fetching and page changes never publish scores',as
 });
 test('publication rejects unsafe shapes and preserves actual retrieval provenance',()=>{
  const w={categories,signals,citations:data('citations'),facilities:data('facilities'),candidates:[],states:[]};
- const s={...signals[0],reviewedAt:'2026-09-17'};
+ const s={...signals[0],reviewedAt:'2026-09-26'};
  assert.throws(()=>validateSignal({...s,roles:[{}]},w,now));assert.throws(()=>validateSignal({...s,expiresAt:'2026-02-30'},w,now));assert.throws(()=>validateSignal({...s,sourceIds:['uncollected']},w,now));
- assert.equal(validateSignal(s,w,new Date('2026-09-18')).retrievedAt,'2026-09-17');assert.equal(isoDate('2026-02-30'),false);
+ assert.equal(validateSignal(s,w,new Date('2026-09-27')).retrievedAt,'2026-09-26');assert.equal(isoDate('2026-02-30'),false);
 });
 test('repository import cannot downgrade newer collection or import malformed observations',()=>{
  const w={sources:[{id:'x'}],states:[{sourceId:'x',fetchedAt:'2026-09-17'}],categories};

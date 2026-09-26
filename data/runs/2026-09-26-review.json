@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-26",
+  "completedAt": "2026-09-26T16:54:23.187Z",
+  "repositoryBase": "468249e2b0beb076658b345e7c47456e07e30c30",
+  "disposition": "POSTURE HIGH / DIESEL GUIDANCE CHANGED",
+  "changes": [
+    "Updated S01 from EIA’s 22 September release: Midwest diesel $6.680/gal for 21 September, +$0.430 or 6.9% week over week; increased severity 70→80 and persistence 70→80, score 47.0→61.4 and revision 1→2.",
+    "Refreshed S10 from EIA’s 24 September national industrial benchmark at 9.77 cents/kWh, +4.7% year over year; retained explicit non-comparability with the expired state series.",
+    "Refreshed S12 from General Mills’ 23 September quarter; recorded mixed pet/snack demand and inventory pressure without inferring a customer relationship.",
+    "Expanded H2 evidence for and against from the same archetype; confidence remains 45, outcome OPEN and fail count 0.",
+    "Recorded recent FDA food-recall index entries as an unscored lead with no Watershed product, ingredient, supplier, customer or lot match.",
+    "Updated the H customer-demand dossier with the dated archetype evidence."
+  ],
+  "unchanged": [
+    "Company ground truth, facility graph, facility hypotheses, ingredient exposures, failure domains, regulatory scope and competitor watchlist.",
+    "S02–S06, S08–S09, S11 and S13 factor scores and guidance; S07 remains expired with no supported facility-specific refresh.",
+    "Urgent safety/continuity override remains null; Facility / weather and Cyber / OT remain unassessed.",
+    "All three forecast initial probabilities, horizons and outcomes remain unresolved; no Brier result is available.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-26T13:10:53.675Z",
+    "stateCounts": {
+      "ok": 54,
+      "blocked": 13,
+      "error": 7
+    },
+    "sourceHealth": {
+      "Stale": 2,
+      "Current": 52,
+      "Blocked": 13,
+      "Key required": 2,
+      "Fetch error": 7,
+      "Manual review": 7
+    },
+    "candidateCount": 705,
+    "posture": "High",
+    "score": 61.4,
+    "coverage": {
+      "assessed": 10,
+      "total": 12
+    },
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "CHANGED GUIDANCE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "CHANGED GUIDANCE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "Sales / Business Development",
+        "label": "CHANGED GUIDANCE",
+        "signalId": "S12",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "citationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public evidence, hypothesis balance, dossier text and dated assessment records changed; the existing private Site synchronizes these public records without application, graph, facility, exposure, source-catalog or methodology changes.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-26.json",
+  "dailyPath": "data/daily/2026-09-26.json",
+  "reportPath": "docs/daily/2026-09-26.md",
+  "siteSync": "Existing private Site project and audience retained; no replacement or publication change."
+}

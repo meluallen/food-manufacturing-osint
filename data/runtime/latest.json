@@ -25001,7 +25001,7 @@
     },
     {
       "date": "2026-09-26",
-      "asOf": "2026-09-26T13:11:20.830Z",
+      "asOf": "2026-09-26T16:54:23.187Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -25024,24 +25024,30 @@
         },
         {
           "category": "Customer demand",
-          "score": null,
-          "confidence": "Unassessed",
-          "direction": null,
-          "componentIds": []
+          "score": 2.8,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S12"
+          ]
         },
         {
           "category": "Transportation / logistics",
-          "score": null,
-          "confidence": "Unassessed",
-          "direction": null,
-          "componentIds": []
+          "score": 61.4,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S01"
+          ]
         },
         {
           "category": "Energy / utilities",
-          "score": null,
-          "confidence": "Unassessed",
-          "direction": null,
-          "componentIds": []
+          "score": 13.2,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S10"
+          ]
         },
         {
           "category": "Packaging",
@@ -25108,8 +25114,8 @@
       "signals": [
         {
           "id": "S01",
-          "title": "Midwest diesel rises 5.1% in a week",
-          "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+          "title": "Midwest diesel rises 6.9% in a second consecutive weekly jump",
+          "summary": "EIA’s 21 September Midwest diesel benchmark is $6.680/gal, up $0.430 from $6.250 (+6.9%) after the prior week’s 5.1% rise. The prior public escalation trigger was crossed; Watershed’s actual carrier surcharge, lane mix and pass-through remain unknown.",
           "category": "Transportation / logistics",
           "direction": "Threat",
           "confidence": "Medium",
@@ -25126,28 +25132,28 @@
           "exposureIds": [],
           "factors": {
             "exposure": 75,
-            "severity": 70,
+            "severity": 80,
             "confidence": 70,
-            "persistence": 70,
+            "persistence": 80,
             "velocity": 80,
             "dependency": 80,
             "substitutability": 35
           },
-          "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
-          "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
-          "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
-          "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
-          "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+          "factorRationale": "Exposure 75: public facility geography makes truck freight plausible, but mode and miles are unmeasured. Severity 80: the benchmark reached $6.680/gal and rose 6.9% in one week. Confidence 70: primary EIA measurement, with no company contract or invoice. Persistence 80: two consecutive weekly increases above 5%, supported by the separate EIA distillate-constraint scenario. Velocity 80: weekly repricing can reach surcharges quickly. Dependency 80 and substitutability 35: road freight is operationally important and near-term fuel substitution is limited, but actual carrier terms are unknown.",
+          "causalPath": "Regional retail diesel benchmark ↑ → applicable carrier fuel surcharge or freight quote ↑ → delivered input/outbound cost and conditional margin or service pressure.",
+          "verify": "Current carrier surcharge tables and invoices, contract lag, lane and mode mix, outbound miles, customer pass-through and any tender or service refusal.",
+          "action": "CFO and Supply Chain should reconcile current carrier surcharge tables and invoices, estimate next-cycle margin and OTIF exposure, and confirm customer pass-through before new commitments.",
+          "trigger": "A third consecutive >5% weekly rise, actual contracted transport cost >5% above plan, a tender/service refusal, or a verified customer-service impact.",
           "roles": [
             "CFO",
             "Supply Chain",
             "COO",
             "Customer Experience"
           ],
-          "observedAt": "2026-09-15",
-          "retrievedAt": "2026-09-17",
-          "reviewedAt": "2026-09-17",
-          "expiresAt": "2026-09-24",
+          "observedAt": "2026-09-22",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-01",
           "timeToImpact": "Near",
           "impactDomains": [
             "Transportation",
@@ -25156,7 +25162,9 @@
           ],
           "status": "reviewed",
           "group": "fuel-cost",
-          "revision": 1
+          "revision": 2,
+          "dateNote": "EIA released the data on 22 September 2026; the price reference week is 21 September. This is a regional retail benchmark, not a Watershed freight rate or realized loss.",
+          "coverageChange": "Crossed the prior public trigger: a second consecutive weekly rise above 5%. Guidance changes to immediate invoice/contract verification; no realized company loss or urgent continuity event is asserted."
         },
         {
           "id": "S02",
@@ -25588,14 +25596,14 @@
         },
         {
           "id": "S10",
-          "title": "Latest industrial electricity benchmark is higher year over year",
-          "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+          "title": "National industrial electricity benchmark rises 4.7% year over year",
+          "summary": "EIA’s 24 September release reports a July 2026 U.S. industrial average revenue of 9.77 cents/kWh, 4.7% above July 2025. This national proxy replaces an expired June state snapshot for coverage; it is not a Watershed tariff, bill or state-level comparison.",
           "category": "Energy / utilities",
           "direction": "Threat",
           "confidence": "Medium",
           "evidenceClass": "INFERRED",
           "sourceIds": [
-            "eia-industrial",
+            "eia-electricity-20260924",
             "ws-capabilities"
           ],
           "facilityIds": [
@@ -25607,27 +25615,27 @@
           "exposureIds": [],
           "factors": {
             "exposure": 80,
-            "severity": 60,
-            "confidence": 65,
-            "persistence": 80,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 70,
             "velocity": 35,
             "dependency": 90,
             "substitutability": 40
           },
-          "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
-          "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
-          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
-          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
-          "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+          "factorRationale": "Exposure 80: Watershed advertises energy-dependent processing platforms, but kWh and tariffs are unknown. Severity 50: the national industrial benchmark is 4.7% higher year over year. Confidence 60: primary EIA data, discounted because a national average does not establish Illinois, Wisconsin or facility billing. Persistence 70: monthly cost-planning relevance without proof of contract reset. Velocity 35: lagged July data. Dependency 90: process energy is necessary. Substitutability 40: near-term process-energy alternatives may be limited, while tariff and efficiency options are unverified.",
+          "causalPath": "National industrial electricity benchmark ↑ → possible applicable tariff or supply-contract reset → conditional processing and handling cost for freeze-dried, baked, roasted and popped platforms.",
+          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, effective cents/kWh, kWh per product and reset dates; no utility provider is assumed.",
+          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; use the national series only as a screening benchmark.",
+          "trigger": "Actual effective energy cost exceeds plan by >10% for two billing periods or an applicable utility/grid notice creates a verified continuity concern.",
           "roles": [
             "Plant Manager",
             "Engineering",
             "CFO"
           ],
-          "observedAt": "2026-08-26",
-          "retrievedAt": "2026-09-17",
-          "reviewedAt": "2026-09-17",
-          "expiresAt": "2026-09-25",
+          "observedAt": "2026-09-24",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-25",
           "timeToImpact": "Tactical",
           "impactDomains": [
             "Energy",
@@ -25636,9 +25644,9 @@
           ],
           "status": "reviewed",
           "group": "industrial-energy",
-          "revision": 1,
-          "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
-          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+          "revision": 2,
+          "dateNote": "EIA released July 2026 data on 24 September; national industrial average revenue per kWh is a price proxy. This revision is not directly comparable with the prior Illinois/Wisconsin June values.",
+          "coverageChange": "A new national July benchmark restores energy coverage after the state snapshot expired. The measurement basis changed, so the lower model score is not evidence that Watershed energy exposure improved."
         },
         {
           "id": "S11",
@@ -25697,41 +25705,41 @@
         },
         {
           "id": "S12",
-          "title": "Global CPG proxy retains cautious sales outlook",
-          "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+          "title": "Global CPG proxy shows mixed pet and snack demand with inventory pressure",
+          "summary": "General Mills’ 23 September quarter reported North America Pet sales flat: pet treats grew low single digits, cat food double digits, dog food fell high single digits, and retailer inventory was a modest headwind. North America Retail organic sales fell 3% and U.S. Snacks declined mid-single digits. The company retained a cautious annual outlook while emphasizing protein, fiber and pet humanization. This is one archetype, not a Watershed customer or order signal.",
           "category": "Customer demand",
           "direction": "Mixed",
           "confidence": "Low",
           "evidenceClass": "INFERRED",
           "sourceIds": [
-            "gis-20260908",
+            "gis-20260923",
             "ws-markets"
           ],
           "facilityIds": [],
           "exposureIds": [],
           "factors": {
             "exposure": 50,
-            "severity": 40,
-            "confidence": 45,
-            "persistence": 65,
-            "velocity": 30,
+            "severity": 45,
+            "confidence": 70,
+            "persistence": 70,
+            "velocity": 35,
             "dependency": 50,
             "substitutability": 70
           },
-          "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
-          "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
-          "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
-          "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
-          "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+          "factorRationale": "Exposure 50: a relevant global CPG/pet archetype with no established Watershed account relationship. Severity 45: mixed category results and inventory pressure, not a confirmed order change. Confidence 70: primary quarterly disclosure, discounted for single-company and portfolio mismatch. Persistence 70: full-year outlook and inventory commentary. Velocity 35: quarterly evidence. Dependency 50: actual customer mix is unknown. Substitutability 70: multiple customer segments and platforms may diversify demand. Factors remain intentionally low for company impact.",
+          "causalPath": "Archetype brand volumes, retailer inventories and innovation priorities → possible launch briefs, outsourcing appetite and order cadence → conditional Watershed sales pipeline.",
+          "verify": "Actual customer segmentation; qualified briefs by pet treats, dog food, snacks, protein/fiber and other formats; retailer-inventory effects; pipeline stage; capacity and margin fit.",
+          "action": "Sales and R&D should compare current qualified briefs with the mixed archetype signals, emphasizing validated pet-treat and protein/fiber problems while testing for snack or dog-food inventory drag before allocating capacity.",
+          "trigger": "A verified customer changes orders, two additional primary archetypes corroborate the same volume/inventory move, or a qualified launch brief matches available capacity and validated controls.",
           "roles": [
             "Sales / Business Development",
             "CEO",
             "R&D / Innovation"
           ],
-          "observedAt": "2026-09-08",
-          "retrievedAt": "2026-09-17",
-          "reviewedAt": "2026-09-17",
-          "expiresAt": "2026-09-24",
+          "observedAt": "2026-09-23",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-22",
           "timeToImpact": "Tactical",
           "impactDomains": [
             "Customer demand",
@@ -25740,9 +25748,9 @@
           ],
           "status": "reviewed",
           "group": "cpg-demand",
-          "revision": 1,
-          "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
-          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+          "revision": 2,
+          "dateNote": "General Mills reported results on 23 September for the quarter ended 30 August 2026. Reported sales, organic sales and segment commentary are company-specific; no current Watershed customer relationship is inferred.",
+          "coverageChange": "The scheduled quarterly recheck produced mixed demand evidence and specific innovation themes. Guidance changes from a generic cautious watch to category-by-category pipeline verification."
         },
         {
           "id": "S13",
@@ -25804,8 +25812,8 @@
   "signals": [
     {
       "id": "S01",
-      "title": "Midwest diesel rises 5.1% in a week",
-      "summary": "EIA’s 14 September Midwest diesel benchmark is $6.250/gal, up $0.304 from $5.946. Watershed’s actual surcharge exposure is unknown.",
+      "title": "Midwest diesel rises 6.9% in a second consecutive weekly jump",
+      "summary": "EIA’s 21 September Midwest diesel benchmark is $6.680/gal, up $0.430 from $6.250 (+6.9%) after the prior week’s 5.1% rise. The prior public escalation trigger was crossed; Watershed’s actual carrier surcharge, lane mix and pass-through remain unknown.",
       "category": "Transportation / logistics",
       "direction": "Threat",
       "confidence": "Medium",
@@ -25822,28 +25830,28 @@
       "exposureIds": [],
       "factors": {
         "exposure": 75,
-        "severity": 70,
+        "severity": 80,
         "confidence": 70,
-        "persistence": 70,
+        "persistence": 80,
         "velocity": 80,
         "dependency": 80,
         "substitutability": 35
       },
-      "factorRationale": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
-      "causalPath": "Retail diesel ↑ → carrier fuel surcharges → delivered costs. Exposure 75 assumes truck reliance; severity 70 reflects a 5.1% weekly move. Confidence 70, persistence 70, velocity 80, dependency 80 and substitutability 35 are provisional analyst judgments.",
-      "verify": "Freight contracts, surcharge lag, outbound miles and customer pass-through.",
-      "action": "Ask logistics and finance to quantify surcharge sensitivity for the next shipping cycle.",
-      "trigger": "Another >5% weekly rise or contracted transport costs >5% above plan.",
+      "factorRationale": "Exposure 75: public facility geography makes truck freight plausible, but mode and miles are unmeasured. Severity 80: the benchmark reached $6.680/gal and rose 6.9% in one week. Confidence 70: primary EIA measurement, with no company contract or invoice. Persistence 80: two consecutive weekly increases above 5%, supported by the separate EIA distillate-constraint scenario. Velocity 80: weekly repricing can reach surcharges quickly. Dependency 80 and substitutability 35: road freight is operationally important and near-term fuel substitution is limited, but actual carrier terms are unknown.",
+      "causalPath": "Regional retail diesel benchmark ↑ → applicable carrier fuel surcharge or freight quote ↑ → delivered input/outbound cost and conditional margin or service pressure.",
+      "verify": "Current carrier surcharge tables and invoices, contract lag, lane and mode mix, outbound miles, customer pass-through and any tender or service refusal.",
+      "action": "CFO and Supply Chain should reconcile current carrier surcharge tables and invoices, estimate next-cycle margin and OTIF exposure, and confirm customer pass-through before new commitments.",
+      "trigger": "A third consecutive >5% weekly rise, actual contracted transport cost >5% above plan, a tender/service refusal, or a verified customer-service impact.",
       "roles": [
         "CFO",
         "Supply Chain",
         "COO",
         "Customer Experience"
       ],
-      "observedAt": "2026-09-15",
-      "retrievedAt": "2026-09-17",
-      "reviewedAt": "2026-09-17",
-      "expiresAt": "2026-09-24",
+      "observedAt": "2026-09-22",
+      "retrievedAt": "2026-09-26",
+      "reviewedAt": "2026-09-26",
+      "expiresAt": "2026-10-01",
       "timeToImpact": "Near",
       "impactDomains": [
         "Transportation",
@@ -25852,7 +25860,9 @@
       ],
       "status": "reviewed",
       "group": "fuel-cost",
-      "revision": 1
+      "revision": 2,
+      "dateNote": "EIA released the data on 22 September 2026; the price reference week is 21 September. This is a regional retail benchmark, not a Watershed freight rate or realized loss.",
+      "coverageChange": "Crossed the prior public trigger: a second consecutive weekly rise above 5%. Guidance changes to immediate invoice/contract verification; no realized company loss or urgent continuity event is asserted."
     },
     {
       "id": "S02",
@@ -26284,14 +26294,14 @@
     },
     {
       "id": "S10",
-      "title": "Latest industrial electricity benchmark is higher year over year",
-      "summary": "EIA June industrial prices: Illinois 10.65 cents/kWh versus 9.65 a year earlier (+10.4%); Wisconsin 9.95 versus 9.62 (+3.4%). These are preliminary state averages, not Watershed tariffs or bills.",
+      "title": "National industrial electricity benchmark rises 4.7% year over year",
+      "summary": "EIA’s 24 September release reports a July 2026 U.S. industrial average revenue of 9.77 cents/kWh, 4.7% above July 2025. This national proxy replaces an expired June state snapshot for coverage; it is not a Watershed tariff, bill or state-level comparison.",
       "category": "Energy / utilities",
       "direction": "Threat",
       "confidence": "Medium",
       "evidenceClass": "INFERRED",
       "sourceIds": [
-        "eia-industrial",
+        "eia-electricity-20260924",
         "ws-capabilities"
       ],
       "facilityIds": [
@@ -26303,27 +26313,27 @@
       "exposureIds": [],
       "factors": {
         "exposure": 80,
-        "severity": 60,
-        "confidence": 65,
-        "persistence": 80,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 70,
         "velocity": 35,
         "dependency": 90,
         "substitutability": 40
       },
-      "factorRationale": "Exposure 80: energy-dependent processing platforms, actual kWh unknown. Severity 60: Illinois benchmark +10.4% year over year. Confidence 65: government data with tariff/billing mismatch. Persistence 80: sustained cost-planning relevance; velocity 35: lagged June data. Dependency 90: process energy necessity; substitutability 40: limited near-term process alternatives. Not a measured cost allocation.",
-      "causalPath": "Industrial electricity benchmark → applicable tariff or contract reset → energy cost for freeze-drying, baking, roasting and associated handling.",
-      "verify": "Facility tariffs, demand charges, supply contracts, interval usage, kWh per product and any contract reset dates; no utility provider is assumed.",
-      "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; prioritize measured efficiency opportunities.",
-      "trigger": "Actual effective energy cost is >10% above plan for two billing periods or an applicable supply/utility alert creates a verified continuity concern.",
+      "factorRationale": "Exposure 80: Watershed advertises energy-dependent processing platforms, but kWh and tariffs are unknown. Severity 50: the national industrial benchmark is 4.7% higher year over year. Confidence 60: primary EIA data, discounted because a national average does not establish Illinois, Wisconsin or facility billing. Persistence 70: monthly cost-planning relevance without proof of contract reset. Velocity 35: lagged July data. Dependency 90: process energy is necessary. Substitutability 40: near-term process-energy alternatives may be limited, while tariff and efficiency options are unverified.",
+      "causalPath": "National industrial electricity benchmark ↑ → possible applicable tariff or supply-contract reset → conditional processing and handling cost for freeze-dried, baked, roasted and popped platforms.",
+      "verify": "Facility tariffs, demand charges, supply contracts, interval usage, effective cents/kWh, kWh per product and reset dates; no utility provider is assumed.",
+      "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; use the national series only as a screening benchmark.",
+      "trigger": "Actual effective energy cost exceeds plan by >10% for two billing periods or an applicable utility/grid notice creates a verified continuity concern.",
       "roles": [
         "Plant Manager",
         "Engineering",
         "CFO"
       ],
-      "observedAt": "2026-08-26",
-      "retrievedAt": "2026-09-17",
-      "reviewedAt": "2026-09-17",
-      "expiresAt": "2026-09-25",
+      "observedAt": "2026-09-24",
+      "retrievedAt": "2026-09-26",
+      "reviewedAt": "2026-09-26",
+      "expiresAt": "2026-10-25",
       "timeToImpact": "Tactical",
       "impactDomains": [
         "Energy",
@@ -26332,9 +26342,9 @@
       ],
       "status": "reviewed",
       "group": "industrial-energy",
-      "revision": 1,
-      "dateNote": "Reference June 2026; comparison June 2025. Released August 26; next EIA release scheduled September 24. Lagged data does not describe today’s spot rate.",
-      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+      "revision": 2,
+      "dateNote": "EIA released July 2026 data on 24 September; national industrial average revenue per kWh is a price proxy. This revision is not directly comparable with the prior Illinois/Wisconsin June values.",
+      "coverageChange": "A new national July benchmark restores energy coverage after the state snapshot expired. The measurement basis changed, so the lower model score is not evidence that Watershed energy exposure improved."
     },
     {
       "id": "S11",
@@ -26393,41 +26403,41 @@
     },
     {
       "id": "S12",
-      "title": "Global CPG proxy retains cautious sales outlook",
-      "summary": "General Mills reaffirmed fiscal 2027 organic net sales guidance of -1.5% to +0.5% on September 8. Management described improving retail trends and innovation response. This is one archetype observation, not evidence of Watershed customer orders or category-wide growth.",
+      "title": "Global CPG proxy shows mixed pet and snack demand with inventory pressure",
+      "summary": "General Mills’ 23 September quarter reported North America Pet sales flat: pet treats grew low single digits, cat food double digits, dog food fell high single digits, and retailer inventory was a modest headwind. North America Retail organic sales fell 3% and U.S. Snacks declined mid-single digits. The company retained a cautious annual outlook while emphasizing protein, fiber and pet humanization. This is one archetype, not a Watershed customer or order signal.",
       "category": "Customer demand",
       "direction": "Mixed",
       "confidence": "Low",
       "evidenceClass": "INFERRED",
       "sourceIds": [
-        "gis-20260908",
+        "gis-20260923",
         "ws-markets"
       ],
       "facilityIds": [],
       "exposureIds": [],
       "factors": {
         "exposure": 50,
-        "severity": 40,
-        "confidence": 45,
-        "persistence": 65,
-        "velocity": 30,
+        "severity": 45,
+        "confidence": 70,
+        "persistence": 70,
+        "velocity": 35,
         "dependency": 50,
         "substitutability": 70
       },
-      "factorRationale": "Exposure 50: relevant global CPG archetype with no account relationship. Severity 40: a near-flat sales range, not unit orders. Confidence 45: single company and mix mismatch. Persistence 65: annual outlook; velocity 30: reaffirmation rather than acceleration. Dependency 50: unknown customer mix; substitutability 70: multiple potential segments. Deliberately low, uncalibrated company-impact weight.",
-      "causalPath": "Archetype brand sales and innovation priorities → potential launch briefs, inventory posture and outsourcing demand → conditional Watershed sales pipeline.",
-      "verify": "Actual customer segmentation, qualified opportunity briefs, customer inventory signals and Watershed pipeline stage; distinguish value, volume and mix.",
-      "action": "Sales should map verified customer briefs to freeze-dried, baked, roasted and popped capabilities, and review the September 23 earnings update when published.",
-      "trigger": "A verified customer changes orders or a qualified launch brief matches available capacity; corroborated category evidence materially changes the demand view.",
+      "factorRationale": "Exposure 50: a relevant global CPG/pet archetype with no established Watershed account relationship. Severity 45: mixed category results and inventory pressure, not a confirmed order change. Confidence 70: primary quarterly disclosure, discounted for single-company and portfolio mismatch. Persistence 70: full-year outlook and inventory commentary. Velocity 35: quarterly evidence. Dependency 50: actual customer mix is unknown. Substitutability 70: multiple customer segments and platforms may diversify demand. Factors remain intentionally low for company impact.",
+      "causalPath": "Archetype brand volumes, retailer inventories and innovation priorities → possible launch briefs, outsourcing appetite and order cadence → conditional Watershed sales pipeline.",
+      "verify": "Actual customer segmentation; qualified briefs by pet treats, dog food, snacks, protein/fiber and other formats; retailer-inventory effects; pipeline stage; capacity and margin fit.",
+      "action": "Sales and R&D should compare current qualified briefs with the mixed archetype signals, emphasizing validated pet-treat and protein/fiber problems while testing for snack or dog-food inventory drag before allocating capacity.",
+      "trigger": "A verified customer changes orders, two additional primary archetypes corroborate the same volume/inventory move, or a qualified launch brief matches available capacity and validated controls.",
       "roles": [
         "Sales / Business Development",
         "CEO",
         "R&D / Innovation"
       ],
-      "observedAt": "2026-09-08",
-      "retrievedAt": "2026-09-17",
-      "reviewedAt": "2026-09-17",
-      "expiresAt": "2026-09-24",
+      "observedAt": "2026-09-23",
+      "retrievedAt": "2026-09-26",
+      "reviewedAt": "2026-09-26",
+      "expiresAt": "2026-10-22",
       "timeToImpact": "Tactical",
       "impactDomains": [
         "Customer demand",
@@ -26436,9 +26446,9 @@
       ],
       "status": "reviewed",
       "group": "cpg-demand",
-      "revision": 1,
-      "dateNote": "Fiscal 2027 guidance is an external company forecast, not Watershed revenue guidance. Next quarterly release is scheduled September 23; no future result is assumed.",
-      "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+      "revision": 2,
+      "dateNote": "General Mills reported results on 23 September for the quarter ended 30 August 2026. Reported sales, organic sales and segment commentary are company-specific; no current Watershed customer relationship is inferred.",
+      "coverageChange": "The scheduled quarterly recheck produced mixed demand evidence and specific innovation themes. Guidance changes from a generic cautious watch to category-by-category pipeline verification."
     },
     {
       "id": "S13",
@@ -26574,19 +26584,20 @@
     {
       "id": "H2",
       "title": "Premium pet spending increases demand for freeze-dried toppers.",
-      "evidenceFor": "Advertised toppers align with a substantial pet category.",
-      "evidenceAgainst": "Dollar spend can reflect inflation; premium units and Watershed order mix are unknown.",
+      "evidenceFor": "Watershed advertises pet toppers. General Mills’ 23 September quarter reported pet treats up low single digits, cat food up double digits and continued innovation around pet humanization.",
+      "evidenceAgainst": "General Mills North America Pet sales were flat, dog food fell high single digits and retailer inventory was a modest headwind. One archetype does not establish premium freeze-dried units, Watershed briefs or orders.",
       "sourceIds": [
         "ws-capabilities",
-        "appa"
+        "appa",
+        "gis-20260923"
       ],
       "confidence": 45,
       "indicators": "Segment units; launches; briefs; conversion to orders",
       "falsification": "Three periods of segment growth with no comparable qualified lead/order response.",
       "outcome": "OPEN",
       "failCount": 0,
-      "revision": 1,
-      "updatedAt": "2026-09-17"
+      "revision": 2,
+      "updatedAt": "2026-09-26"
     },
     {
       "id": "H3",
@@ -26765,8 +26776,11 @@
       "title": "EIA: Gasoline and Diesel Fuel Update",
       "url": "https://www.eia.gov/petroleum/gasdiesel/",
       "kind": "Government",
-      "retrievedAt": "2026-09-17",
-      "limitation": "Regional retail on-highway diesel benchmark, not Watershed’s contracted fuel or freight rate."
+      "retrievedAt": "2026-09-26",
+      "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed’s contracted fuel, lane mix, carrier surcharge, freight rate or realized cost.",
+      "publishedAt": "2026-09-22",
+      "referencePeriod": "2026-09-21",
+      "evidenceClass": "CONFIRMED"
     },
     {
       "id": "wasde-sep",
@@ -27142,6 +27156,39 @@
       "publishedAt": "2026-09-21T04:07:00-05:00",
       "evidenceClass": "CONFIRMED",
       "limitation": "County/zone outlook includes McLean, Woodford and Tazewell. It says activity is concentrated especially near and south of I-72 and severe storms are not expected; it does not establish site, route, utility or shift conditions. The 14:16 UTC alert check is not an operating clearance."
+    },
+    {
+      "id": "eia-electricity-20260924",
+      "title": "EIA Electricity Monthly Update: July 2026 end use",
+      "url": "https://www.eia.gov/electricity/monthly/update/end-use.php",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-26",
+      "publishedAt": "2026-09-24",
+      "referencePeriod": "2026-07",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "National industrial average revenue per kWh is a price proxy, not an Illinois, Wisconsin or Watershed tariff, bill, contract, interval load or facility cost."
+    },
+    {
+      "id": "gis-20260923",
+      "title": "General Mills fiscal 2027 first-quarter results",
+      "url": "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reports-Fiscal-2027-First-quarter-Results-and-Reaffirms-Full-year-Outlook/default.aspx",
+      "kind": "Company investor relations",
+      "retrievedAt": "2026-09-26",
+      "publishedAt": "2026-09-23",
+      "referencePeriod": "Quarter ended 2026-08-30",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "One public CPG/pet archetype. It does not establish a Watershed customer relationship, order, segment mix, production plan, supplier exposure or category-wide result."
+    },
+    {
+      "id": "fda-recalls-index-20260926",
+      "title": "FDA recalls, market withdrawals and safety alerts index",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "kind": "Federal regulator",
+      "retrievedAt": "2026-09-26",
+      "publishedAt": null,
+      "referencePeriod": "Index rows dated 2026-09-22 through 2026-09-25",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Rolling and incomplete FDA index of public notices. Row dates are not treated as incident onset dates. No Watershed ingredient, supplier, customer, SKU, lot or facility match is established."
     }
   ],
   "claims": [
@@ -27522,5 +27569,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "baselineRevision": "2026-09-21-reviewed"
+  "baselineRevision": "2026-09-26-reviewed"
 }
