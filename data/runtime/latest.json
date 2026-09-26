@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-26T13:10:53.675Z",
-      "hash": "743d8f5bf3479d24538e544d27ce745496989195c8d9c4c0360a261c4bdfd5e2",
-      "etag": "W/\"6afe3de4eb896a3cbd15565118bbc67d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
+      "hash": "43d418f41d22177c2d73e545aebb4b126d71fb0cdaf47116ee6eba99467f4d61",
+      "etag": "W/\"11af9e5ea7d203302db0477be2afdecf:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 5,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-26T13:10:53.675Z",
-      "hash": "9a3b046d3e3154cf4b9f3237b41a2e9102b1d8941b753dcff6f383b025fcade7",
-      "etag": "W/\"41fd8e57601a70eb23638fe4cdb901e7:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
+      "hash": "80118cd216067967c37e6b3baab2f8e5fe3182b711f86f12a0a5f5b156e0de89",
+      "etag": "W/\"dd35b9cd3f8734970dd31d472c97a17c:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 1,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "40a70be3ee0a8c1b9781ffe4256d28efaeeee3a49db127ea3b73e8427d054ada",
       "etag": "W/\"24d72-NqCCBm4HjuaefjKjgsDcCW4PDWQ\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "8a41e76a385f304a9f436f33640ed6bec1ca94d9dee699a4e9ecb908c9d51395",
       "etag": "\"1abf00-65c534c8b3b50\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286899152-gzip\"",
+      "etag": "W/\"16346-1774286896958-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
-      "hash": "d8ab3c49a4f669d0b798969f15abc0bdb80302cd0fb1940b8260348ee0f45650",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
+      "hash": "371c4072db5c1046139931c90422d6ed514720fcfe559b0563c2e6ffd550f221",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,11 +203,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "9f0dcc1fa3d7fad981418f7b0dad021263d2f77cc67c2ebdd695db782249423e",
-      "etag": "\"1790376331\"",
-      "count": 1,
-      "changed": true
+      "etag": "\"1790376042\"",
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -259,7 +259,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "b7978e2beeab4839b2abdf71e0a7424220adf0e018af2939e98a3b72c2a4e848",
       "etag": null,
       "count": 0,
@@ -267,7 +267,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -525,7 +525,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-09-26T07:48:37.111Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "29dff298fbba82f845701b621cea81151c7aa0ac523b6bcd7d5a9be1c5a4a1ae",
       "etag": null,
       "count": 0,
@@ -543,11 +543,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-26T13:10:53.675Z",
+      "fetchedAt": "2026-09-26T17:14:57.877Z",
       "hash": "9f21a0aad893a206f3aef75e2f9a72c8cd57ba71c1bb46fcf61c8e28626b60e1",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -634,7 +634,7 @@
       "title": "Flood Warning issued September 25 at 8:50PM CDT until September 27 at 7:00PM CDT by NWS St Louis MO",
       "summary": "Pike, IL; Marion, MO: ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Hannibal. * WHEN...Until Sunday evening. * IMPACTS...At 17.0 feet, John Hay Recreation Area on east side (inside the Illinois Sny Levee) begins flooding. * ADDITIONAL DETAILS... - At 8:15 PM CDT Friday the stage was 17.0 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:15 PM CDT Friday was 17.0 feet. - Forecast...The river is expected to rise to a crest of 17.1 feet just after midnight tonight. It will then fall be",
       "observedAt": "2026-09-25T20:50:00-05:00",
-      "retrievedAt": "2026-09-26T13:10:53.675Z",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -659,7 +659,7 @@
       "title": "Flood Warning issued September 25 at 8:50PM CDT until September 29 at 1:00AM CDT by NWS St Louis MO",
       "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until late Monday night. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 8:30 PM CDT Friday the stage was 15.6 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 PM CDT Friday was 15.6 feet. - Forecast...The river is expected to rise to a crest of 15.7 feet just after midnight tonight. It w",
       "observedAt": "2026-09-25T20:50:00-05:00",
-      "retrievedAt": "2026-09-26T13:10:53.675Z",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -684,7 +684,7 @@
       "title": "Flood Warning issued September 25 at 8:50PM CDT until September 29 at 3:00AM CDT by NWS St Louis MO",
       "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Illinois...Missouri... Mississippi River at Louisiana. Mississippi River at Hannibal. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until late Monday night. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 8:30 PM CDT Friday the stage was 25.5 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 PM CDT Friday was 25.5 feet. - Forecast...The river is expected to rise to a crest of 25.6 feet tomorrow morning. It will then fall below flood stage late",
       "observedAt": "2026-09-25T20:50:00-05:00",
-      "retrievedAt": "2026-09-26T13:10:53.675Z",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -699,6 +699,91 @@
         "UGC": [
           "ILC013",
           "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.92cffd6c4470d390810eaba5e08458c0fb51533e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 26 at 1:40AM CDT until September 26 at 10:00PM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From noon CDT today through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
+      "observedAt": "2026-09-26T01:40:00-05:00",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-26T22:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 10:47AM CDT until September 28 at 1:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Monday afternoon. * IMPACTS...At 9.0 feet, Kilbourne Road and Emerald Avenue threatened near Grand Avenue in Gurnee. * ADDITIONAL DETAILS... - At 10:30 AM CDT Saturday the stage was 8.0 feet. - Recent Activity...The river crested yesterday and continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Monday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-26T10:47:00-05:00",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T05:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2c71983bc69c0792c2e2b1d190550fcb3236095d.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 26 at 10:47AM CDT until October 1 at 7:00AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday morning. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 8.5 feet. - Recent Activity...The river continues a gradual fall. - Forecast...The river is expected to fall below flood stage on Thursday. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-26T10:47:00-05:00",
+      "retrievedAt": "2026-09-26T17:14:57.877Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-27T05:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -745,32 +830,6 @@
         ],
         "UGC": [
           "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.92cffd6c4470d390810eaba5e08458c0fb51533e.001.1",
-      "sourceId": "nws-wi",
-      "title": "Beach Hazards Statement issued September 26 at 1:40AM CDT until September 26 at 10:00PM CDT by NWS Duluth MN",
-      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Dangerous swimming conditions are expected along the Lake Superior shoreline due to high wave action and strong rip currents. * WHERE...Minnesota Park Point and Wisconsin Point Beaches. * WHEN...From noon CDT today through this evening. * IMPACTS...Life-threatening waves and rip currents are expected. Stay out of the water and stay away from dangerous areas like piers and breakwalls.",
-      "observedAt": "2026-09-26T01:40:00-05:00",
-      "retrievedAt": "2026-09-26T13:10:53.675Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-26T22:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "027017",
-          "027137",
-          "055031"
-        ],
-        "UGC": [
-          "MNZ037",
-          "WIZ001"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1567,19 +1626,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19658/filing-of-color-additive-petition-from-doehler-gmbh-request-to-amend-the-color-additive-regulations",
       "ruleStage": "Proposed Rule"
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-26T07:48:37.111Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
     },
     {
       "id": "fda-alerts:page-change",
@@ -17724,9 +17770,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 42,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-09-26T13:10:53.675Z",
+  "collectedAt": "2026-09-26T17:14:57.877Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -25001,7 +25047,7 @@
     },
     {
       "date": "2026-09-26",
-      "asOf": "2026-09-26T16:54:23.187Z",
+      "asOf": "2026-09-26T17:14:59.686Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
