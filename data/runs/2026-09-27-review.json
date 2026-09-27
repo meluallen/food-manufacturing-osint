@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-27",
+  "completedAt": "2026-09-27T16:56:28.692Z",
+  "repositoryBase": "6ef00f49e807f3787b22140f1822cac367325599",
+  "disposition": "GUIDANCE STABLE / POSTURE HIGH",
+  "changes": [
+    "Published the 27 September reviewed snapshot and daily brief; all twelve indicator values are unchanged from the genuine 26 September snapshot.",
+    "Added the exact FDA-posted Mezzetta recall page and corrected the rolling index reference period through 26 September; the item remains an unscored lead with no Watershed match.",
+    "Recorded collector recovery for USDA NASS and Wisconsin DATCP, reducing failed states from 20 to 18 relative to the prior review."
+  ],
+  "unchanged": [
+    "Overall posture High, provisional 61.4/100; S01 remains the leading threat and all seven materiality factors for every signal are unchanged.",
+    "Urgent safety/continuity override remains null; Facility / weather and Cyber / OT remain unassessed.",
+    "Company ground truth, facility and capability graph, ontology, source catalog endpoints, failure domains, ingredient exposures, customer-demand model, competitor watchlist and regulatory scope.",
+    "All six hypothesis confidence values, fail counts and outcomes; all three forecast initial probabilities, horizons and unresolved outcomes.",
+    "Calibration review remains unchanged because no forecast measurement window has closed and no Brier outcome exists.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-27T14:44:01.647Z",
+    "stateCounts": {
+      "ok": 56,
+      "blocked": 12,
+      "error": 6
+    },
+    "sourceHealth": {
+      "Current": 56,
+      "Key required": 2,
+      "Blocked": 12,
+      "Fetch error": 6,
+      "Manual review": 7
+    },
+    "candidateCount": 715,
+    "posture": "High",
+    "score": 61.4,
+    "coverage": {
+      "assessed": 10,
+      "total": 12
+    },
+    "recovered": [
+      "nass",
+      "widatcp"
+    ],
+    "failures": [
+      "wasde",
+      "fas",
+      "bts",
+      "usace",
+      "marad",
+      "port-la",
+      "fda-import",
+      "fsis",
+      "bls-ppi",
+      "bls-labor",
+      "dol",
+      "sec",
+      "deer-creek",
+      "gridley-local",
+      "flagstone",
+      "rockwell",
+      "bls-peoria",
+      "bls-milwaukee"
+    ],
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      },
+      {
+        "role": "Sales / Business Development",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S04",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "citationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public citation provenance and dated assessment records changed; no graph, facility, exposure, source-catalog, methodology or application code changed.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-27.json",
+  "dailyPath": "data/daily/2026-09-27.json",
+  "reportPath": "docs/daily/2026-09-27.md",
+  "siteSync": "Existing private Site project and audience retained; no replacement or publication change."
+}
+
