@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-27T14:44:01.647Z",
-      "hash": "164446a1620d0c8f57cb013e311a30c0e8328cd89a7a2bdc073ba76c8caf4230",
-      "etag": "W/\"7dab29d9aa96ba3d146ac6d297898f13:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 4,
+      "fetchedAt": "2026-09-27T19:00:54.638Z",
+      "hash": "52a797f6c924fc64f3f2e8f99af9d77250c2dcd8c52ca9fd643c68190768494c",
+      "etag": "W/\"6b0e34e9b2740e448a22c2a624972f74:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-27T14:44:01.647Z",
-      "hash": "f3b75b6910f631aa06f4ddc453adfb6929b70047cc789f879ed9a2396f4b8b10",
-      "etag": "W/\"93cb38c7eef09bb0e24edfb595ecc2f6:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 2,
+      "fetchedAt": "2026-09-27T19:00:54.638Z",
+      "hash": "6a769f9d93c7fd787eaa7087c686b656c237f505a6a0f4dea60b45bb5d0a1771",
+      "etag": "W/\"cf119dcbbc690a5063ee71a457058857:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 0,
       "changed": true
     },
     {
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-27T14:44:01.647Z",
-      "hash": "2d1623b98e92c3b9f65240b03652745b73c0dd3a80cbac341cbccf84545e6c46",
+      "fetchedAt": "2026-09-27T19:00:54.638Z",
+      "hash": "488a5af5afce33160e5af107526bd1772dc006d4437f0bfa0a49b21c134d5da2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -625,6 +625,90 @@
   ],
   "candidates": [
     {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-27T19:00:54.638Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.8df76a553dddde68e97bad6b53fa4d68cfbc6b10.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 27 at 1:24PM CDT until September 28 at 8:23PM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning is extended for the following rivers in Illinois...Missouri... Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 24 hours. * WHAT...Minor flooding is occurring. * WHERE...Mississippi River at Clarksville. * WHEN...Until Monday evening. * ADDITIONAL DETAILS... - At 1:00 PM CDT Sunday the stage was 25.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 1:00 PM CDT Sunday was 25.5 feet. - Forecast...The river is expected to fall below flood stage this afternoon and continue falling to 18.5 feet Sunday, October 04. - Flood stage is 25.0 feet.",
+      "observedAt": "2026-09-27T13:24:00-05:00",
+      "retrievedAt": "2026-09-27T19:00:54.638Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-28T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6efc3f4a6f6c9132e07e564bedb6f2c0ab4e8141.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 27 at 10:28AM CDT until September 28 at 4:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...Until Monday afternoon. * IMPACTS...At 7.0 feet, Forest land inundated near the river in Gurnee. * ADDITIONAL DETAILS... - At 9:30 AM CDT Sunday the stage was 7.6 feet. - Recent Activity...The river continues a gradual fall. - Forecast...The river is expected to fall below flood stage tomorrow. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-27T10:28:00-05:00",
+      "retrievedAt": "2026-09-27T19:00:54.638Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-28T04:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6efc3f4a6f6c9132e07e564bedb6f2c0ab4e8141.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 27 at 10:28AM CDT until October 1 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday evening. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Sunday the stage was 8.1 feet. - Recent Activity...The river continues a gradual fall. - Forecast...The river is expected to fall below flood stage later this week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-27T10:28:00-05:00",
+      "retrievedAt": "2026-09-27T19:00:54.638Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-28T04:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "Midcontinent Independent System Operator (MISO)",
@@ -636,19 +720,6 @@
       "category": "Energy / utilities",
       "sourceUrl": "https://www.misoenergy.org/",
       "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-27T14:44:01.647Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.8142b6734fa1399e2866f4b56b499ee6c5ec159f.001.1",
@@ -17996,9 +18067,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 52,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-09-27T14:44:01.647Z",
+  "collectedAt": "2026-09-27T19:00:54.638Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -26082,7 +26153,7 @@
     },
     {
       "date": "2026-09-27",
-      "asOf": "2026-09-27T16:56:28.692Z",
+      "asOf": "2026-09-27T19:00:55.348Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
