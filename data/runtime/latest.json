@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-28T17:41:59.989Z",
-      "hash": "ea0386ef9c00ac38ec2daa28b1f400e9d677db1dbcfb0f5404528e4cb0e7c043",
-      "etag": "W/\"5b967b5ec81101afeff733e4a2edfbfb:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 2,
+      "fetchedAt": "2026-09-28T23:20:51.081Z",
+      "hash": "69fc74396c331cf805d9dca67391ab2ef3ebf42eaf5cbe8b5352aa4c2a4e71bf",
+      "etag": "W/\"716912fd07c17cce44c0a9e15fe187b5:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-28T17:41:59.989Z",
-      "hash": "76d256d9de30336aecd5b9203c26f1670b9b5254cdc5cb275f3700cf13cc47ae",
-      "etag": "W/\"0803639dca3fd64c3401f614564dbe0d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-28T23:20:51.081Z",
+      "hash": "2fe6d57ad63e8b97218efaf4b4ba990723cffff518a12be47fcc635388c36151",
+      "etag": "W/\"34798dc876f33044adba5cd04b60aac7:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-28T17:41:59.989Z",
-      "hash": "bc5b52649f77a4384bd4c268083c6e7fcdb5e4bdddf0a73fa480468770afb268",
+      "fetchedAt": "2026-09-28T23:20:51.081Z",
+      "hash": "16227c46cc8b768b4b06f4b139f767e9c2108e3d9b0d4f33f2048dcd1dd5a44b",
       "etag": null,
       "count": 1,
       "changed": true
@@ -632,12 +632,35 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-09-28T17:41:59.989Z",
+      "retrievedAt": "2026-09-28T23:20:51.081Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8ad1939b714543f020f6037cf2cfd7a8705ba90.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 28 at 8:37AM CDT until October 1 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday evening. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 7:30 AM CDT Monday the stage was 7.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 AM CDT Monday was 8.1 feet. - Forecast...The river is expected to fall below flood stage early Thursday afternoon. - Flood stage is 7.0 feet. - Flood History...This ",
+      "observedAt": "2026-09-28T08:37:00-05:00",
+      "retrievedAt": "2026-09-28T23:20:51.081Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-29T02:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "miso:page-change",
@@ -963,29 +986,6 @@
       "category": "Facility / weather",
       "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
       "expiresAt": "2026-09-28T19:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8ad1939b714543f020f6037cf2cfd7a8705ba90.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 28 at 8:37AM CDT until October 1 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday evening. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 7:30 AM CDT Monday the stage was 7.8 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 AM CDT Monday was 8.1 feet. - Forecast...The river is expected to fall below flood stage early Thursday afternoon. - Flood stage is 7.0 feet. - Flood History...This ",
-      "observedAt": "2026-09-28T08:37:00-05:00",
-      "retrievedAt": "2026-09-28T17:41:59.989Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-29T02:45:00-05:00",
       "severity": "Severe",
       "geocodes": {
         "SAME": [
@@ -18599,9 +18599,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 52,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-09-28T17:41:59.989Z",
+  "collectedAt": "2026-09-28T23:20:51.081Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -27494,7 +27494,7 @@
     },
     {
       "date": "2026-09-28",
-      "asOf": "2026-09-28T17:42:26.143Z",
+      "asOf": "2026-09-28T23:20:51.360Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
