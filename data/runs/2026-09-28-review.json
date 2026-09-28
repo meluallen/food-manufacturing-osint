@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-28",
+  "completedAt": "2026-09-28T16:55:00.000Z",
+  "repositoryBase": "7202e0bbb330c6e41a9800399241aeb54c95c1f8",
+  "disposition": "GUIDANCE STABLE / POSTURE HIGH",
+  "changes": [
+    "Published the 28 September reviewed snapshot and daily brief; all twelve indicator values are unchanged from the genuine 27 September snapshot.",
+    "Added dated NWS, CISA KEV and USDA NASS schedule evidence. The two Citrix NetScaler KEV entries remain unscored inventory-match leads; the NASS Crop Progress release was still pending at review time.",
+    "Recorded Wisconsin DATCP collection regression; failed collection states increased from 18 to 19 while authoritative manual checks preserved source visibility."
+  ],
+  "unchanged": [
+    "Overall posture High, provisional 61.4/100; S01 remains the leading threat and all seven materiality factors for every signal are unchanged.",
+    "Urgent safety/continuity override remains null; Facility / weather and Cyber / OT remain unassessed.",
+    "Company ground truth, facility and capability graph, ontology, source catalog endpoints, failure domains, ingredient exposures, customer-demand model, competitor watchlist and regulatory scope.",
+    "All six hypothesis confidence values, fail counts and outcomes; all three forecast initial probabilities, horizons and unresolved outcomes.",
+    "Calibration review remains unchanged because no forecast measurement window has closed and no Brier outcome exists.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-28T08:45:42.210Z",
+    "stateCounts": {
+      "ok": 55,
+      "blocked": 11,
+      "error": 8
+    },
+    "sourceHealth": {
+      "Stale": 3,
+      "Current": 52,
+      "Key required": 2,
+      "Blocked": 11,
+      "Fetch error": 8,
+      "Manual review": 7
+    },
+    "candidateCount": 729,
+    "posture": "High",
+    "score": 61.4,
+    "coverage": {
+      "assessed": 10,
+      "total": 12
+    },
+    "recovered": [],
+    "regressed": [
+      "widatcp"
+    ],
+    "failures": [
+      "wasde",
+      "fas",
+      "bts",
+      "usace",
+      "marad",
+      "port-la",
+      "fda-import",
+      "fsis",
+      "bls-ppi",
+      "bls-labor",
+      "dol",
+      "sec",
+      "deer-creek",
+      "gridley-local",
+      "flagstone",
+      "rockwell",
+      "bls-peoria",
+      "bls-milwaukee",
+      "widatcp"
+    ],
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      },
+      {
+        "role": "Sales / Business Development",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S04",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "citationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public citation provenance and dated assessment records changed; no graph, facility, exposure, source-catalog, methodology or application code changed.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-28.json",
+  "dailyPath": "data/daily/2026-09-28.json",
+  "reportPath": "docs/daily/2026-09-28.md",
+  "siteSync": "Existing private Site project and audience retained; no replacement or publication change."
+}

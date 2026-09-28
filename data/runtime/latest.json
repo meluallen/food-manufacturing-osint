@@ -27448,7 +27448,7 @@
     },
     {
       "date": "2026-09-28",
-      "asOf": "2026-09-28T08:46:03.866Z",
+      "asOf": "2026-09-28T16:52:36.761Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
@@ -29220,11 +29220,11 @@
     },
     {
       "id": "eia-diesel",
-      "title": "EIA: Gasoline and Diesel Fuel Update",
-      "url": "https://www.eia.gov/petroleum/gasdiesel/",
-      "kind": "Government",
-      "retrievedAt": "2026-09-26",
-      "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed’s contracted fuel, lane mix, carrier surcharge, freight rate or realized cost.",
+      "title": "EIA: Midwest weekly on-highway diesel prices",
+      "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=EMD_EPD2D_PTE_R20_DPG",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-28",
+      "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed contracted fuel, lane mix, carrier surcharge, freight rate or realized cost. Next release shown as 2026-09-29.",
       "publishedAt": "2026-09-22",
       "referencePeriod": "2026-09-21",
       "evidenceClass": "CONFIRMED"
@@ -29647,6 +29647,38 @@
       "eventAt": "2026-09-26",
       "evidenceClass": "CONFIRMED",
       "limitation": "The notice identifies one Mezzetta product and lot and reports no illness or injury. No Watershed ingredient, supplier, customer, SKU, lot, process or facility connection is established; the recall must not be attributed to Watershed."
+    },
+    {
+      "id": "nws-ilx-20260928",
+      "title": "NWS Lincoln: 28 September 2026 hazardous weather outlook",
+      "url": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-28",
+      "publishedAt": "2026-09-28T06:28:00-05:00",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Rolling county-zone outlook. It includes McLean, Woodford and Tazewell but does not establish site, route, utility or shift conditions; absence of a hazard today is not an operating clearance."
+    },
+    {
+      "id": "cisa-kev-20260927",
+      "title": "CISA Known Exploited Vulnerabilities feed: Citrix NetScaler additions",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "kind": "Federal government structured feed",
+      "retrievedAt": "2026-09-28",
+      "publishedAt": "2026-09-27",
+      "referencePeriod": "CVE-2026-88771 and CVE-2026-88772 dateAdded 2026-09-27",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Catalog inclusion establishes known exploitation, not Watershed use, affected version, internet exposure, compromise, production connectivity or operational impact. Authorized inventory matching is required."
+    },
+    {
+      "id": "nass-calendar-20260928",
+      "title": "USDA NASS September 2026 reports-by-date calendar",
+      "url": "https://www.nass.usda.gov/Publications/Calendar/reports_by_date.php?month=09&view=l&year=2026",
+      "kind": "Federal government",
+      "retrievedAt": "2026-09-28",
+      "publishedAt": null,
+      "referencePeriod": "Crop Progress scheduled 2026-09-28 at 4:00 p.m. ET; pending at review time",
+      "evidenceClass": "CONFIRMED",
+      "limitation": "Calendar timing only; no crop observation, ingredient specification, supplier geography or Watershed exposure."
     }
   ],
   "claims": [
@@ -30027,5 +30059,5 @@
       "reviewDue": "2026-12-17"
     }
   ],
-  "baselineRevision": "2026-09-27-reviewed"
+  "baselineRevision": "2026-09-28-reviewed"
 }
