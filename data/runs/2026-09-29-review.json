@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-29",
+  "completedAt": "2026-09-29T16:56:00.000Z",
+  "repositoryBase": "dbaaa8f1ec70677f49e485bf504bfb563d72d681",
+  "disposition": "POSTURE IMPROVING TO ELEVATED / CHANGED GUIDANCE",
+  "changes": [
+    "Published the 29 September reviewed snapshot and daily brief; the provisional posture improves from High 61.4/100 to Elevated 49.9/100.",
+    "Reduced only S01 velocity from 80 to 65 after EIA reported Midwest diesel at $6.526/gal for 28 September, down 2.3% week over week but still 9.8% above 7 September; all other materiality factors remain unchanged.",
+    "Recorded the FDA raw-milk cheese recall/outbreak notice and USDA Crop Progress release as unscored verification leads; neither establishes a Watershed exposure.",
+    "Wisconsin DATCP collection recovered; failed collection states declined from 19 to 18."
+  ],
+  "unchanged": [
+    "Urgent safety/continuity override remains null; Facility / weather and Cyber / OT remain unassessed.",
+    "Company ground truth, facility and capability graph, ontology, source catalog endpoints, failure domains, ingredient exposures, customer-demand model, competitor watchlist and regulatory scope.",
+    "All six hypothesis confidence values, fail counts and outcomes; all three forecast initial probabilities, horizons and unresolved outcomes.",
+    "Calibration review remains unchanged because no forecast measurement window has closed and no Brier outcome exists.",
+    "Private Site identity, audience and private analyst notes."
+  ],
+  "collection": {
+    "collectedAt": "2026-09-29T13:01:41.635Z",
+    "stateCounts": {
+      "ok": 56,
+      "blocked": 12,
+      "error": 6
+    },
+    "sourceHealth": {
+      "Stale": 2,
+      "Current": 54,
+      "Key required": 2,
+      "Blocked": 12,
+      "Fetch error": 6,
+      "Manual review": 7
+    },
+    "candidateCount": 784,
+    "posture": "Elevated",
+    "score": 49.9,
+    "coverage": {
+      "assessed": 10,
+      "total": 12
+    },
+    "recovered": [
+      "widatcp"
+    ],
+    "regressed": [],
+    "failures": [
+      "wasde",
+      "fas",
+      "bts",
+      "usace",
+      "marad",
+      "port-la",
+      "fda-import",
+      "fsis",
+      "bls-ppi",
+      "bls-labor",
+      "dol",
+      "sec",
+      "deer-creek",
+      "gridley-local",
+      "flagstone",
+      "rockwell",
+      "bls-peoria",
+      "bls-milwaukee"
+    ],
+    "personas": [
+      {
+        "role": "CFO",
+        "label": "IMPROVING",
+        "signalId": "S01",
+        "baseline": false
+      },
+      {
+        "role": "Plant Manager",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S10",
+        "baseline": false
+      },
+      {
+        "role": "COO",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S05",
+        "baseline": false
+      },
+      {
+        "role": "Quality / Food Safety",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S06",
+        "baseline": false
+      },
+      {
+        "role": "Sales / Business Development",
+        "label": "GUIDANCE STABLE",
+        "signalId": "S04",
+        "baseline": false
+      }
+    ]
+  },
+  "validation": {
+    "testsPassed": 21,
+    "testsFailed": 0,
+    "citationIntegrity": true,
+    "dailyHistoryPreserved": true,
+    "runtimeArraysSynchronized": true,
+    "siteBuildRequired": false,
+    "siteBuildReason": "Only public evidence, reviewed signal scoring and dated assessment records changed; no graph, facility, exposure, source-catalog, methodology or application code changed.",
+    "noSeedRerun": true
+  },
+  "reviewPath": "data/daily-observations/2026-09-29.json",
+  "dailyPath": "data/daily/2026-09-29.json",
+  "reportPath": "docs/daily/2026-09-29.md",
+  "siteSync": "Existing private Site project and audience retained; no replacement or publication change."
+}

@@ -1,0 +1,518 @@
+{
+  "date": "2026-09-29",
+  "reviewedAt": "2026-09-29",
+  "completedAt": "2026-09-29T16:56:00.000Z",
+  "executiveSummary": "The provisional posture improves from High to Elevated, 49.9/100. EIA reports Midwest diesel at $6.526/gal for 28 September, down 2.3% week over week after two increases above 5%. Only S01 velocity changes, from 80 to 65; the other six factors remain unchanged because the benchmark is still 9.8% above 7 September and Watershed carrier terms are unknown. Continue invoice and surcharge verification, but do not treat the regional decline as realized company savings. No public evidence activates the urgent safety/continuity override.",
+  "baselineNote": "S01 falls from 61.4 to 49.9 solely because velocity declines from 80 to 65 on the dated EIA reversal. All other eligible components and factors are unchanged. Facility / weather and Cyber / OT remain null because current public evidence does not establish company-specific applicability; the urgent override remains inactive.",
+  "observations": [
+    {
+      "id": "O-20260929-eia-diesel",
+      "title": "Midwest diesel declines 2.3% after two weekly jumps above 5%",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-09-29",
+      "status": "Scored component update; posture improving",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "eia-diesel"
+      ],
+      "assessmentIds": [
+        "S01"
+      ],
+      "finding": "EIA reports $6.526/gal for the week of 28 September, down $0.154 (-2.3%) from $6.680 on 21 September but still $0.580 (+9.8%) above $5.946 on 7 September.",
+      "decision": "Reduce S01 velocity from 80 to 65 and retain the other six factors. The component falls to 49.9/100 and the overall posture improves from High to Elevated. Retain verification of actual carrier surcharges, invoices and pass-through.",
+      "sourceScope": "Midwest regional retail benchmark. It does not establish Watershed lanes, contracted surcharge formulas, carrier behavior, invoices, customer pass-through, realized cost or realized savings. Release, reference and retrieval dates remain separate."
+    },
+    {
+      "id": "O-20260929-fda-raw-milk-cheese",
+      "title": "FDA posts nationwide raw-milk cheese recall associated with an outbreak",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-09-29",
+      "status": "Unscored food-safety lead; no Watershed match",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "fda-sierra-nevada-20260929"
+      ],
+      "assessmentIds": [],
+      "finding": "FDA posted Sierra Nevada Cheese Company’s 28 September announcement on 29 September. The company recalls listed Graziers raw-milk cheeses nationwide while FDA and CDC investigate 13 illnesses epidemiologically associated with the medium cheddar; no specific lot, production date or contamination source had been identified.",
+      "decision": "Do not change S06, create a Watershed recall assessment or activate the urgent override. Quality should use ordinary internal supplier/SKU/lot matching; stronger action is warranted only if an actual Watershed input, product, customer or lot link is established.",
+      "sourceScope": "Regulator-posted announcement for another company’s raw-milk cheese. It does not establish a Watershed supplier, ingredient, customer, product, facility, process or outbreak link and is not a dairy-price signal."
+    },
+    {
+      "id": "O-20260929-nass-crop-progress",
+      "title": "USDA publishes the 28 September Crop Progress report",
+      "observedAt": "2026-09-28",
+      "retrievedAt": "2026-09-29",
+      "status": "Unscored agriculture context; origin and specification unmatched",
+      "evidenceClass": "CONFIRMED",
+      "sourceIds": [
+        "nass-crop-progress-20260928"
+      ],
+      "assessmentIds": [],
+      "finding": "USDA’s Economics, Statistics, and Market Information System lists the National Agricultural Statistics Service Crop Progress report released 28 September, covering state-level crop progress and condition during the growing season.",
+      "decision": "Do not change ingredient availability, cost, H3 or H5 from a general harvest-progress release. Resolve actual commodity specification, supplier geography, contract basis and inventory cover before translating crop conditions into company exposure.",
+      "sourceScope": "Government crop-progress context, not popping-grade corn, food-grade seed, fruit-origin, supplier-quote, contract, purchase or inventory evidence for Watershed."
+    }
+  ],
+  "reviewNotes": [
+    {
+      "lens": "Intelligence analysis",
+      "challenge": "Does one weekly diesel decline prove the fuel issue is over?",
+      "revision": "No. It directly supports lower velocity, not zero exposure or severity. The level remains 9.8% above 7 September and company freight terms remain unknown."
+    },
+    {
+      "lens": "Operations research",
+      "challenge": "Should multiple factors be reduced to make the posture improve?",
+      "revision": "No. Only velocity has new direct evidence. Exposure, severity, confidence, persistence, dependency and substitutability retain their prior values, producing 49.9/100 without target-driven rescaling."
+    },
+    {
+      "lens": "Supply chain management",
+      "challenge": "Can the regional diesel decline be treated as invoice relief?",
+      "revision": "No. Surcharge formulas, lags, lanes, carrier terms and customer pass-through are unverified. Continue reconciliation until realized company data confirm the pathway."
+    },
+    {
+      "lens": "Industrial engineering",
+      "challenge": "Did MISO page changes or weather candidates establish a production constraint?",
+      "revision": "No. No applicable outage, emergency operating condition, verified facility-county warning or site impact was found. Energy and facility domains remain unchanged."
+    },
+    {
+      "lens": "Food science / quality",
+      "challenge": "Does the raw-milk cheese outbreak implicate Watershed’s dairy or yogurt activity?",
+      "revision": "No public supplier, ingredient, product, lot, customer or facility match exists. The recall remains an external verification lead, not a Watershed event."
+    },
+    {
+      "lens": "Information security analysis",
+      "challenge": "Did current CISA evidence establish installed IT or OT exposure?",
+      "revision": "No. CISA KEV and ICS collectors showed no new content, and no authorized asset match is public. Cyber / OT remains null rather than zero."
+    },
+    {
+      "lens": "Emergency management / continuity",
+      "challenge": "Does either the outbreak notice or regional fog activate the urgent override?",
+      "revision": "No. Neither is matched to a Watershed product, facility, route or operating condition. The urgent safety/continuity override remains null."
+    }
+  ],
+  "factorReview": [
+    {
+      "signalId": "S01",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 75,
+        "severity": 80,
+        "confidence": 70,
+        "persistence": 80,
+        "velocity": 65,
+        "dependency": 80,
+        "substitutability": 35
+      },
+      "disposition": "Improving; velocity reduced from 80 to 65",
+      "rationale": "Exposure 75: public facility geography makes truck freight plausible, but mode and miles are unmeasured. Severity 80: $6.526/gal remains 9.8% above 7 September and only 2.3% below the prior peak. Confidence 70: primary EIA measurement, with no company contract or invoice. Persistence 80: the benchmark has remained at or above $6.250 for three weekly observations, supported by the separate EIA distillate-constraint scenario. Velocity falls from 80 to 65 because the latest weekly move reversed from +6.9% to -2.3%, while the three-week level remains materially higher. Dependency 80 and substitutability 35: road freight is operationally important and near-term fuel substitution is limited, but actual carrier terms are unknown.",
+      "scopeLimitation": "EIA reports a 2.3% weekly decline, but the regional benchmark remains 9.8% above 7 September. No carrier contract, invoice, lane, customer pass-through, service impact or realized saving is public.",
+      "expiresAt": "2026-10-06",
+      "impactDomains": [
+        "Transportation",
+        "Margin",
+        "Customer service / OTIF"
+      ],
+      "direction": "Threat",
+      "confidence": "Medium",
+      "timeToImpact": "Near",
+      "decisionOwners": [
+        "CFO",
+        "Supply Chain",
+        "COO",
+        "Customer Experience"
+      ],
+      "prudentAction": "CFO and Supply Chain should continue reconciling current carrier surcharge tables and invoices, but should not treat the regional benchmark decline as realized savings until contract lag, invoices and customer pass-through are verified.",
+      "strongerResponseTrigger": "A weekly rebound above 5%, a new benchmark above $6.680/gal, actual contracted transport cost more than 5% above plan, a tender or service refusal, or a verified customer-service impact."
+    },
+    {
+      "signalId": "S02",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 45,
+        "severity": 55,
+        "confidence": 45,
+        "persistence": 80,
+        "velocity": 45,
+        "dependency": 55,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-12",
+      "impactDomains": [
+        "Ingredient availability",
+        "Ingredient cost",
+        "Margin"
+      ],
+      "direction": "Mixed",
+      "confidence": "Low",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Supply Chain",
+        "CFO"
+      ],
+      "prudentAction": "Track supplier quotations before changing coverage or formulations.",
+      "strongerResponseTrigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold."
+    },
+    {
+      "signalId": "S03",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 55,
+        "severity": 65,
+        "confidence": 65,
+        "persistence": 90,
+        "velocity": 25,
+        "dependency": 70,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-17",
+      "impactDomains": [
+        "Regulatory",
+        "Quality / food safety"
+      ],
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "timeToImpact": "Strategic",
+      "decisionOwners": [
+        "Quality / Food Safety",
+        "CISO / IT",
+        "COO"
+      ],
+      "prudentAction": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+      "strongerResponseTrigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process."
+    },
+    {
+      "signalId": "S04",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 70,
+        "severity": 60,
+        "confidence": 45,
+        "persistence": 85,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-12-17",
+      "impactDomains": [
+        "Customer demand",
+        "Revenue",
+        "Growth opportunity"
+      ],
+      "direction": "Opportunity",
+      "confidence": "Low",
+      "timeToImpact": "Strategic",
+      "decisionOwners": [
+        "Sales / Business Development",
+        "R&D / Innovation",
+        "CEO"
+      ],
+      "prudentAction": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+      "strongerResponseTrigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls."
+    },
+    {
+      "signalId": "S05",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 70,
+        "severity": 65,
+        "confidence": 60,
+        "persistence": 85,
+        "velocity": 40,
+        "dependency": 75,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-17",
+      "impactDomains": [
+        "Production capacity",
+        "Revenue",
+        "Growth opportunity",
+        "Equipment / maintenance"
+      ],
+      "direction": "Opportunity",
+      "confidence": "Medium",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "COO",
+        "Sales / Business Development",
+        "Engineering",
+        "CEO"
+      ],
+      "prudentAction": "Confirm the production milestone before offering new formats or delivery commitments.",
+      "strongerResponseTrigger": "Verified commissioned capacity plus a qualified customer opportunity."
+    },
+    {
+      "signalId": "S06",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 70,
+        "severity": 70,
+        "confidence": 85,
+        "persistence": 90,
+        "velocity": 20,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-12-17",
+      "impactDomains": [
+        "Quality / food safety",
+        "Regulatory",
+        "Customer demand"
+      ],
+      "direction": "Mixed",
+      "confidence": "High",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Quality / Food Safety",
+        "R&D / Innovation"
+      ],
+      "prudentAction": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+      "strongerResponseTrigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process."
+    },
+    {
+      "signalId": "S07",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 60,
+        "severity": 35,
+        "confidence": 80,
+        "persistence": 25,
+        "velocity": 80,
+        "dependency": 70,
+        "substitutability": 70
+      },
+      "disposition": "Expired; no supported facility-specific refresh",
+      "rationale": "Exposure falls from 85 to 60 because the county-zone outlook includes the three public municipalities while activity is concentrated especially near and south of I-72, south of the confirmed municipalities; severity falls from 55 to 35 because NWS says severe storms are not expected but lightning remains possible; confidence remains 80 because the primary outlook and SAME-code check are current while site impact is unknown; persistence falls from 40 to 25 because storms are expected to taper by early afternoon and no hazards are expected Tuesday through Sunday; velocity remains 80 because any effect is same-day; dependency and substitutability remain 70/70 pending actual shift, route and scheduling information. These are provisional judgments, not measured disruption.",
+      "scopeLimitation": "Current Illinois fog alerts cover counties outside McLean, Woodford and Tazewell, and the Wisconsin presence remains region-only. No site, route, utility or shift impact is established.",
+      "expiresAt": "2026-09-22",
+      "impactDomains": [
+        "Transportation",
+        "Production capacity",
+        "Labor",
+        "Customer service / OTIF"
+      ],
+      "direction": "Threat",
+      "confidence": "Medium",
+      "timeToImpact": "Immediate",
+      "decisionOwners": [
+        "Plant Manager",
+        "Supply Chain",
+        "COO",
+        "HR / Talent"
+      ],
+      "prudentAction": "No additional response is supported beyond normal weather procedures and checking current site and route conditions before affected dispatch or outdoor work.",
+      "strongerResponseTrigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response."
+    },
+    {
+      "signalId": "S08",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 60,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 50,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-09",
+      "impactDomains": [
+        "Ingredient cost",
+        "Margin"
+      ],
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Supply Chain",
+        "CFO",
+        "R&D / Innovation"
+      ],
+      "prudentAction": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+      "strongerResponseTrigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase."
+    },
+    {
+      "signalId": "S09",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 65,
+        "severity": 45,
+        "confidence": 45,
+        "persistence": 65,
+        "velocity": 30,
+        "dependency": 65,
+        "substitutability": 65
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-09",
+      "impactDomains": [
+        "Labor",
+        "Production capacity"
+      ],
+      "direction": "Mixed",
+      "confidence": "Low",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "HR / Talent",
+        "Plant Manager",
+        "COO"
+      ],
+      "prudentAction": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+      "strongerResponseTrigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan."
+    },
+    {
+      "signalId": "S10",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 80,
+        "severity": 50,
+        "confidence": 60,
+        "persistence": 70,
+        "velocity": 35,
+        "dependency": 90,
+        "substitutability": 40
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 80: Watershed advertises energy-dependent processing platforms, but kWh and tariffs are unknown. Severity 50: the national industrial benchmark is 4.7% higher year over year. Confidence 60: primary EIA data, discounted because a national average does not establish Illinois, Wisconsin or facility billing. Persistence 70: monthly cost-planning relevance without proof of contract reset. Velocity 35: lagged July data. Dependency 90: process energy is necessary. Substitutability 40: near-term process-energy alternatives may be limited, while tariff and efficiency options are unverified.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-25",
+      "impactDomains": [
+        "Energy",
+        "Margin",
+        "Production capacity"
+      ],
+      "direction": "Threat",
+      "confidence": "Medium",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Plant Manager",
+        "Engineering",
+        "CFO"
+      ],
+      "prudentAction": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; use the national series only as a screening benchmark.",
+      "strongerResponseTrigger": "Actual effective energy cost exceeds plan by >10% for two billing periods or an applicable utility/grid notice creates a verified continuity concern."
+    },
+    {
+      "signalId": "S11",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 65,
+        "severity": 55,
+        "confidence": 60,
+        "persistence": 65,
+        "velocity": 45,
+        "dependency": 65,
+        "substitutability": 60
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-09",
+      "impactDomains": [
+        "Packaging",
+        "Margin"
+      ],
+      "direction": "Mixed",
+      "confidence": "Medium",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Supply Chain",
+        "CFO",
+        "Engineering"
+      ],
+      "prudentAction": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+      "strongerResponseTrigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase."
+    },
+    {
+      "signalId": "S12",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 50,
+        "severity": 45,
+        "confidence": 70,
+        "persistence": 70,
+        "velocity": 35,
+        "dependency": 50,
+        "substitutability": 70
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 50: a relevant global CPG/pet archetype with no established Watershed account relationship. Severity 45: mixed category results and inventory pressure, not a confirmed order change. Confidence 70: primary quarterly disclosure, discounted for single-company and portfolio mismatch. Persistence 70: full-year outlook and inventory commentary. Velocity 35: quarterly evidence. Dependency 50: actual customer mix is unknown. Substitutability 70: multiple customer segments and platforms may diversify demand. Factors remain intentionally low for company impact.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-22",
+      "impactDomains": [
+        "Customer demand",
+        "Revenue",
+        "Growth opportunity"
+      ],
+      "direction": "Mixed",
+      "confidence": "Low",
+      "timeToImpact": "Tactical",
+      "decisionOwners": [
+        "Sales / Business Development",
+        "CEO",
+        "R&D / Innovation"
+      ],
+      "prudentAction": "Sales and R&D should compare current qualified briefs with the mixed archetype signals, emphasizing validated pet-treat and protein/fiber problems while testing for snack or dog-food inventory drag before allocating capacity.",
+      "strongerResponseTrigger": "A verified customer changes orders, two additional primary archetypes corroborate the same volume/inventory move, or a qualified launch brief matches available capacity and validated controls."
+    },
+    {
+      "signalId": "S13",
+      "reviewedAt": "2026-09-29",
+      "factors": {
+        "exposure": 65,
+        "severity": 70,
+        "confidence": 60,
+        "persistence": 80,
+        "velocity": 65,
+        "dependency": 75,
+        "substitutability": 50
+      },
+      "disposition": "Retained; no supported change",
+      "rationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+      "scopeLimitation": "No new primary evidence changed company exposure, severity, confidence, persistence, velocity, dependency or substitutability. Existing direction, confidence label, impact domains, owners, action and stronger-response trigger remain unchanged.",
+      "expiresAt": "2026-10-07",
+      "impactDomains": [
+        "Transportation",
+        "Energy",
+        "Margin"
+      ],
+      "direction": "Threat",
+      "confidence": "Medium",
+      "timeToImpact": "Near",
+      "decisionOwners": [
+        "CFO",
+        "Supply Chain",
+        "COO"
+      ],
+      "prudentAction": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+      "strongerResponseTrigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes."
+    }
+  ],
+  "rechecks": [
+    {
+      "reviewedAt": "2026-09-29T16:56:00.000Z",
+      "disposition": "POSTURE IMPROVING TO ELEVATED / CHANGED GUIDANCE",
+      "note": "Rechecked the new EIA diesel release, USDA crop progress, NWS facility-region alerts, FDA recalls, Wisconsin DATCP, MISO and CISA. Only S01 velocity changed; all other factors, hypotheses and forecast probabilities remain unchanged. Wisconsin DATCP collection recovered.",
+      "recordPath": "data/runs/2026-09-29-review.json"
+    }
+  ]
+}

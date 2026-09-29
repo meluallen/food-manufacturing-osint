@@ -108,10 +108,10 @@
     "title": "EIA: Midwest weekly on-highway diesel prices",
     "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=EMD_EPD2D_PTE_R20_DPG",
     "kind": "Federal government",
-    "retrievedAt": "2026-09-28",
-    "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed contracted fuel, lane mix, carrier surcharge, freight rate or realized cost. Next release shown as 2026-09-29.",
-    "publishedAt": "2026-09-22",
-    "referencePeriod": "2026-09-21",
+    "retrievedAt": "2026-09-29",
+    "limitation": "Midwest regional retail on-highway diesel benchmark, not Watershed contracted fuel, lane mix, carrier surcharge, freight rate, invoice, realized cost or realized saving. Next release shown as 2026-10-06.",
+    "publishedAt": "2026-09-29",
+    "referencePeriod": "2026-09-28",
     "evidenceClass": "CONFIRMED"
   },
   {
@@ -564,5 +564,27 @@
     "referencePeriod": "Crop Progress scheduled 2026-09-28 at 4:00 p.m. ET; pending at review time",
     "evidenceClass": "CONFIRMED",
     "limitation": "Calendar timing only; no crop observation, ingredient specification, supplier geography or Watershed exposure."
+  },
+  {
+    "id": "fda-sierra-nevada-20260929",
+    "title": "FDA-posted Sierra Nevada Graziers raw-milk cheese recall announcement",
+    "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sierra-nevada-cheese-company-recalls-graziers-raw-milk-cheese-because-possible-health-risk",
+    "kind": "Regulator-posted company announcement",
+    "retrievedAt": "2026-09-29",
+    "publishedAt": "2026-09-29",
+    "eventAt": "2026-09-28",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "Another company’s nationwide recall and associated outbreak investigation. No Watershed supplier, ingredient, customer, SKU, lot, facility, process or illness connection is established."
+  },
+  {
+    "id": "nass-crop-progress-20260928",
+    "title": "USDA NASS Crop Progress, 28 September 2026",
+    "url": "https://release.nass.usda.gov/reports/prog3926.pdf",
+    "kind": "Federal government",
+    "retrievedAt": "2026-09-29",
+    "publishedAt": "2026-09-28",
+    "referencePeriod": "Week ending 2026-09-27",
+    "evidenceClass": "CONFIRMED",
+    "limitation": "State and national crop-progress context. It does not identify Watershed commodity specifications, supplier origin, contract basis, quotes, purchases or inventory."
   }
 ]
