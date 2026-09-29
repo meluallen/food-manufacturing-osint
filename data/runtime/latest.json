@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
-      "hash": "b81148b8f9d139e4c6d9d76fe6767278f7deb3d5a62a48cde20f55067add2281",
-      "etag": "W/\"e02e2bb9939d127c2ccaffdee1659531:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 1,
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "c134130f901b2923a90a21e27ec308750d5512ad49b14c136d0e8a0660ebe9db",
+      "etag": "W/\"ee5fca4965f3349bea5f78338463d404:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
-      "hash": "fad7d763f6086fc21edc9c91f2992806e3acff2d9dc11f1f8d4171457aad9927",
-      "etag": "W/\"e92e3b088c82180f17e718872a59c4c5:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 0,
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "01597d35c6bf9d938aa5b38e6723b708c52101fe8f483cfaedcdffa407be4d82",
+      "etag": "W/\"20bcea11b502ac9897634559c5278a2d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 2,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "7ee966628399b8a2fc128e660a8104d37eba9f7cd61dce067fab2fd4e72f756f",
       "etag": "W/\"20e6c-URm8f4bkGRqcFvw/QK3j8qCP1ZU\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "164f2f100c3a2a810745500f49a8dd9041d59f9542c0ac1316d71578f25cb80b",
       "etag": "\"1ad04e-65c7da8f4d930\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286901967-gzip\"",
+      "etag": "W/\"16346-1774286896958-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
-      "hash": "d89cdf100fc066fa20a1efef2de45690d808b87a6b9301959a8833e626b9e412",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "783ed98c45147f0a695fa114fe0e8dccacfcc4b5823706ad9bb209d208be9132",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
-      "hash": "63f53fc7d5f14cda2c315c21a2a9daeaed724a0078ce42af5503901c5facd4bc",
-      "etag": "\"1790605519\"",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "987aababf9e9988efec1efc2bf1a908eeaf257d4082f6ad08b246407aac821ee",
+      "etag": "\"1790683604\"",
       "count": 1,
       "changed": true
     },
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "b7978e2beeab4839b2abdf71e0a7424220adf0e018af2939e98a3b72c2a4e848",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -523,11 +523,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
       "hash": "d473c383f3d6f460f14a271fe2532b33a0d984d345367963e39c4f0122b8d7d0",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -541,11 +541,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-29T05:50:05.349Z",
-      "hash": "16227c46cc8b768b4b06f4b139f767e9c2108e3d9b0d4f33f2048dcd1dd5a44b",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "fbd60214bf4e9ed583a7196be83ad741d40bc1bd156a44dc8dd603c3c175db2d",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -615,14 +615,12 @@
     },
     {
       "sourceId": "widatcp",
-      "status": "error",
-      "fetchedAt": "2026-09-28T08:45:42.210Z",
-      "hash": "937037205ff42be591f70a887d4c5d80251c6c1be0375572318bae2ca5a7d004",
+      "status": "ok",
+      "fetchedAt": "2026-09-29T13:01:41.635Z",
+      "hash": "299ddad658121e01ddb47c1d890a17d9dc0810256e95e4c2d7b2db7b34927aa9",
       "etag": null,
       "count": 1,
-      "changed": true,
-      "lastSuccessAt": "2026-09-27T08:18:08.304Z",
-      "error": "fetch failed"
+      "changed": true
     }
   ],
   "candidates": [
@@ -632,7 +630,7 @@
       "title": "Midcontinent Independent System Operator (MISO)",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-09-29T05:50:05.349Z",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -645,12 +643,212 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-09-29T05:50:05.349Z",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1bd7a692872d5f7d5a57fe045d6480d86be5a18d.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 28 at 9:00PM CDT until October 1 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...Observed flooding changed from Minor to Moderate severity for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday evening. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 PM CDT Monday the stage was 7.6 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 PM CDT Monday was 7.9 feet. - Forecast...The river will slowly fall below flood stage towards the end of the week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-28T21:00:00-05:00",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-29T15:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.08a69e56188aaefc0c4f6c3e83c139df2de92b6f.001.1",
+      "sourceId": "nws-il",
+      "title": "Special Weather Statement issued September 29 at 7:14AM CDT by NWS Chicago IL",
+      "summary": "Boone; De Kalb; Kendall; Grundy; Kankakee; Iroquois; Central Cook; Southern Cook; Northern Will; Southern Will; Eastern Will; Lake; Porter; Newton; Jasper; Benton: Areas of fog, including patches of locally dense fog, will occur in portions of northeast Illinois and northwest Indiana through mid-morning, including during the morning commute. Expect rapid changes in visibility over short distances, with visibility reduced down to one quarter mile or less in spots. Increase following distance, slow down, and use low beam headlights if dense fog is encountered while driving.",
+      "observedAt": "2026-09-29T07:14:00-05:00",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-29T09:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017007",
+          "017037",
+          "017093",
+          "017063",
+          "017091",
+          "017075",
+          "017031",
+          "017197",
+          "018089",
+          "018127",
+          "018111",
+          "018073",
+          "018007"
+        ],
+        "UGC": [
+          "ILZ004",
+          "ILZ011",
+          "ILZ020",
+          "ILZ021",
+          "ILZ023",
+          "ILZ033",
+          "ILZ104",
+          "ILZ105",
+          "ILZ106",
+          "ILZ107",
+          "ILZ108",
+          "INZ001",
+          "INZ002",
+          "INZ010",
+          "INZ011",
+          "INZ019"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.05ef4342b19a9b309c5397a51101c6c28372d930.001.1",
+      "sourceId": "nws-il",
+      "title": "Dense Fog Advisory issued September 29 at 6:07AM CDT until September 29 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "McHenry; Lake; Kane; DuPage; Northern Cook: * WHAT...Visibility of one quarter mile or less in dense fog. * WHERE...DuPage, Kane, Lake IL, McHenry, and Northern Cook Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous during the morning commute.",
+      "observedAt": "2026-09-29T06:07:00-05:00",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-29T10:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017111",
+          "017097",
+          "017089",
+          "017043",
+          "017031"
+        ],
+        "UGC": [
+          "ILZ005",
+          "ILZ006",
+          "ILZ012",
+          "ILZ013",
+          "ILZ103"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.b3c46cd748a7aba927bbc11797ff33c807cc3210.001.2",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued September 29 at 6:28AM CDT until September 29 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Walworth; Racine; Kenosha: * WHAT...Visibility 2 to 3 miles in dense fog. * WHERE...Kenosha, Racine, and Walworth Counties. * WHEN.... * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-09-29T06:28:00-05:00",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-29T10:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055127",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ070",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.5454b15d980808e955bb66fedc68bfdcc44fb17e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Special Weather Statement issued September 29 at 4:23AM CDT by NWS La Crosse WI",
+      "summary": "Allamakee; Clayton; Wabasha; Winona; Houston; Buffalo; Trempealeau; La Crosse; Vernon; Crawford; Grant: If traveling through river valleys this morning, be prepared for fog that could suddenly reduce visibilities to 1/4 mile or less. Expect the fog to dissipate around 9 AM. Slow down and allow extra time to reach your destination.",
+      "observedAt": "2026-09-29T04:23:00-05:00",
+      "retrievedAt": "2026-09-29T13:01:41.635Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-29T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "019005",
+          "019043",
+          "027157",
+          "027169",
+          "027055",
+          "055011",
+          "055121",
+          "055063",
+          "055123",
+          "055023",
+          "055043"
+        ],
+        "UGC": [
+          "IAZ011",
+          "IAZ030",
+          "MNZ079",
+          "MNZ088",
+          "MNZ096",
+          "WIZ032",
+          "WIZ033",
+          "WIZ041",
+          "WIZ053",
+          "WIZ054",
+          "WIZ061"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "cisa-ics:page-change",
@@ -844,29 +1042,6 @@
       "dateType": "FDA enforcement report date",
       "recallInitiationDate": "2026-08-14",
       "scope": "Industry recall; report date is not recall initiation. No Watershed product/customer relationship asserted."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.1bd7a692872d5f7d5a57fe045d6480d86be5a18d.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 28 at 9:00PM CDT until October 1 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...Observed flooding changed from Minor to Moderate severity for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until Thursday evening. * IMPACTS...At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 PM CDT Monday the stage was 7.6 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 8:30 PM CDT Monday was 7.9 feet. - Forecast...The river will slowly fall below flood stage towards the end of the week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-28T21:00:00-05:00",
-      "retrievedAt": "2026-09-29T05:50:05.349Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-29T15:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "fda-recalls:H-1339-2026",
@@ -1587,19 +1762,6 @@
       "dateType": "FDA enforcement report date",
       "recallInitiationDate": "2026-08-22",
       "scope": "Industry recall; report date is not recall initiation. No Watershed product/customer relationship asserted."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-28T23:20:51.081Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.b8ad1939b714543f020f6037cf2cfd7a8705ba90.002.1",
@@ -3707,19 +3869,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-27T08:18:08.304Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.92cffd6c4470d390810eaba5e08458c0fb51533e.001.1",
@@ -19342,9 +19491,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 14,
   "remaining": 0,
-  "collectedAt": "2026-09-29T05:50:05.349Z",
+  "collectedAt": "2026-09-29T13:01:41.635Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -29046,7 +29195,7 @@
     },
     {
       "date": "2026-09-29",
-      "asOf": "2026-09-29T05:50:07.949Z",
+      "asOf": "2026-09-29T13:01:47.087Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
