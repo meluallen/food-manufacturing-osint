@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-09-30T02:09:53.870Z",
-      "hash": "bf22084c7d516241b66cb20e7ce7851e2b5bbcb9be96caeeb8a0af6c8dfad377",
-      "etag": "W/\"9d8d4aaef010866e30caa182f4fa5f45:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 2,
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
+      "hash": "82044cb38a296ad2591e2c252ce2236b4cf20e0e78182fb3fa2e0442e9c3f61c",
+      "etag": "W/\"51c531bf14d507c20c80f5e101efe05d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-09-30T02:09:53.870Z",
-      "hash": "f7efab6cb565884cfc90ed2465d4088dd5f9f450b09c65bea9a285cae8a75e4b",
-      "etag": "W/\"222c978541ffb2e904d264496051a3c4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
+      "hash": "b95c4faf246aa5c64395b43939cb1d3c752a94a91356903f3681faaa193ce585",
+      "etag": "W/\"4499c24444a99793f8f2f4d52b2cc6c2:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 2,
       "changed": true
     },
@@ -32,7 +32,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "7ee966628399b8a2fc128e660a8104d37eba9f7cd61dce067fab2fd4e72f756f",
       "etag": "W/\"20e6c-URm8f4bkGRqcFvw/QK3j8qCP1ZU\"",
       "count": 60,
@@ -50,11 +50,11 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "62c798bffe1334f5ad43853a7ee9d6eb6969e5b98b6755a6e1c901a1b1ae8f5c",
       "etag": "\"1ad6c6-65c9f7b007558\"",
-      "count": 44,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "drought",
@@ -77,7 +77,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -86,9 +86,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286899152-gzip\"",
+      "etag": "W/\"16346-1774286896958-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
-      "hash": "b366f60be19c856558f483f39a260e00937ee47d11556316962bfbe3d2fd455b",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
+      "hash": "beb4e459a9b5d04f8f96db7b5c3d9c5839fcd6314468ee397e2103f3bca9127a",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
-      "hash": "f88675bc6021acf1501484b970ca774579a9d56af42b2931fc3ef12bba618525",
-      "etag": "\"1790712525\"",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
+      "hash": "3a01fd4ae96e53bd2a669b32970b960c191fe49376c35a62e30268c57ff37164",
+      "etag": "\"1790712524\"",
       "count": 1,
       "changed": true
     },
@@ -259,15 +259,15 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "dab65bbef32417e89d608297d5598caa1efd67ca389b38f1533d03f20dd311b3",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -525,11 +525,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-09-29T23:00:02.565Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "5ace538e0bbd19477bd8ede69ee3949d67318dbdf6e2fedf91daff6a14b85c93",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -543,7 +543,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-09-30T02:09:53.870Z",
+      "fetchedAt": "2026-09-30T08:39:49.203Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 0,
@@ -634,7 +634,7 @@
       "title": "Hydrologic Outlook issued September 29 at 2:48PM CDT by NWS Chicago IL",
       "summary": "Boone, IL; Cook, IL; De Kalb, IL; DuPage, IL; Grundy, IL; Kane, IL; Kendall, IL; Lake, IL; La Salle, IL; Lee, IL; McHenry, IL; Ogle, IL; Will, IL; Winnebago, IL; Lake, IN; Porter, IN: ESFLOT Several waves of rain, and possibly a few thunderstorms, are likely starting early Wednesday morning and persisting through Thursday night. High moisture content in the atmosphere will lead to periods of torrential downpours, and the threat for 1 to 3 inches of rainfall on a widespread basis through Thursday night. Repeated rounds of rain over saturated soils may lead to areas of flooding and rises in river levels, including along the Rock, Fox, DuPage, and Illinois rivers. This outlook means that elevated water levels and potential impacts are possible, but not yet certain. Persons should closely monitor forecasts including the possibility of flood w",
       "observedAt": "2026-09-29T14:48:00-05:00",
-      "retrievedAt": "2026-09-30T02:09:53.870Z",
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -682,6 +682,170 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.02043728e34be9dceb115afaf22cf807e986d176.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued September 29 at 8:47PM CDT until October 1 at 1:00AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until late Wednesday night. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 PM CDT Tuesday the stage was 7.3 feet. - Forecast...The river is expected to fall below flood stage Wednesday evening. However, expectations for additional rainfall later this week may lead to river levels remaining near or rising back above flood stage. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-29T20:47:00-05:00",
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-09-30T15:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.128ed965277b2c7532411e7a8aea4ea426971a18.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 30 at 1:46AM CDT until October 2 at 1:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Muscatine; Scott; Keokuk; Washington; Louisa; Jefferson; Henry; Des Moines; Van Buren; Carroll; Whiteside; Rock Island; Henry; Mercer: * WHAT...Flooding caused by excessive rainfall is possible. * WHERE...Portions of northwest Illinois, including the following areas, Carroll, Henry IL, Mercer, Rock Island and Whiteside and Iowa, including the following areas, Benton, Cedar, Clinton, Des Moines, Henry IA, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Muscatine, Scott, Van Buren and Washington. * WHEN...Through late Thursday night. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. * ADDIT",
+      "observedAt": "2026-09-30T01:46:00-05:00",
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T02:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019011",
+          "019113",
+          "019105",
+          "019097",
+          "019095",
+          "019103",
+          "019031",
+          "019045",
+          "019139",
+          "019163",
+          "019107",
+          "019183",
+          "019115",
+          "019101",
+          "019087",
+          "019057",
+          "019177",
+          "017015",
+          "017195",
+          "017161",
+          "017073",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ051",
+          "IAZ052",
+          "IAZ053",
+          "IAZ054",
+          "IAZ063",
+          "IAZ064",
+          "IAZ065",
+          "IAZ066",
+          "IAZ067",
+          "IAZ068",
+          "IAZ076",
+          "IAZ077",
+          "IAZ078",
+          "IAZ087",
+          "IAZ088",
+          "IAZ089",
+          "IAZ098",
+          "ILZ007",
+          "ILZ009",
+          "ILZ015",
+          "ILZ016",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.449284d988c271245f287506c4085a4b6691450a.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 30 at 3:00AM CDT until October 1 at 4:00AM CDT by NWS Green Bay WI",
+      "summary": "Door; Kewaunee; Manitowoc: * WHAT...High waves and dangerous currents expected. * WHERE...Beaches along Lake Michigan in Door, Kewaunee, and Manitowoc Counties. * WHEN...Through late tonight. * IMPACTS...Dangerous swimming conditions are expected. Strong currents can pull swimmers into deeper water and high waves can sweep people off piers. * ADDITIONAL DETAILS...Several beaches that will be most susceptible to the dangerous swimming conditions include... Rock Island State Beach, Baileys Harbor beaches and Whitefish Dunes Beach in Door County. Cresent Beach and City of Kewaunee Beach in Kewaunee County. Point Beach, Neshotah Beach and Red Arrow Beach in Manitowoc County.",
+      "observedAt": "2026-09-30T03:00:00-05:00",
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-30T11:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055029",
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ022",
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.b2537a326618046a0204dd4ec61e8049e2787156.001.1",
+      "sourceId": "nws-wi",
+      "title": "Beach Hazards Statement issued September 29 at 10:56PM CDT until September 30 at 10:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan: * WHAT...Life threatening waves of 3 to 5 feet and dangerous currents are expected. * WHERE...Sheboygan County. * WHEN...From 10 AM CDT Wednesday through Wednesday evening. * IMPACTS...Dangerous swimming conditions are expected due to high waves and onshore winds.",
+      "observedAt": "2026-09-29T22:56:00-05:00",
+      "retrievedAt": "2026-09-30T08:39:49.203Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-09-30T07:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117"
+        ],
+        "UGC": [
+          "WIZ052"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.2430e469348468cf64a8e8dcc52580aacbac7fc9.001.1",
       "sourceId": "nws-wi",
       "title": "Beach Hazards Statement issued September 29 at 4:02PM CDT until October 1 at 4:00AM CDT by NWS Green Bay WI",
@@ -704,29 +868,6 @@
           "WIZ022",
           "WIZ040",
           "WIZ050"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.02043728e34be9dceb115afaf22cf807e986d176.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued September 29 at 8:47PM CDT until October 1 at 1:00AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until late Wednesday night. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 PM CDT Tuesday the stage was 7.3 feet. - Forecast...The river is expected to fall below flood stage Wednesday evening. However, expectations for additional rainfall later this week may lead to river levels remaining near or rising back above flood stage. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-29T20:47:00-05:00",
-      "retrievedAt": "2026-09-30T02:09:53.870Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-30T15:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -812,32 +953,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-29T23:00:02.565Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-29T23:00:02.565Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "cisa-ics:page-change",
@@ -19811,9 +19926,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-09-30T02:09:53.870Z",
+  "collectedAt": "2026-09-30T08:39:49.203Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -30324,7 +30439,7 @@
     },
     {
       "date": "2026-09-30",
-      "asOf": "2026-09-30T02:09:54.204Z",
+      "asOf": "2026-09-30T08:39:50.600Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
