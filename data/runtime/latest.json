@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-01T14:33:40.870Z",
-      "hash": "15f3eb1c0934740621a6203a783187d1d7ef7b62a6272dd8ad22ed7cc44099e2",
-      "etag": "W/\"ba5de561140220ace3c1f9218a2ea52b:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 4,
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "47e0393aa100083ba23d04be7896915b1fdc2affe8c5f3a5a1101385f6a679b4",
+      "etag": "W/\"9278b1ded06f3daf761c31c959a90028:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 7,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-01T14:33:40.870Z",
-      "hash": "aceae90593bba77d5550424716add49034c1d23074ec72c5f30761d9cfc243d8",
-      "etag": "W/\"841f38856ddb628afc6e0e38fa163437:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "864bc2292e760a093ce2e6e316818643b6a99e93d0e4cafb4c7cb21823700310",
+      "etag": "W/\"7942ba31d5087ac0d547859507656adc:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 3,
       "changed": true
     },
@@ -57,8 +57,8 @@
     {
       "sourceId": "drought",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "613a113ea9b5b7087c0e663986dc6621cb0b8cbcd6eaccb3662b0aded41c1d2b",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "1f3aa4dd2de8014c608eb1dcc29997c65bba228b979504f9a26184eb31b1eda9",
       "etag": null,
       "count": 1,
       "changed": true
@@ -160,7 +160,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "sourceId": "bts",
       "status": "blocked"
     },
@@ -196,7 +196,7 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "sourceId": "port-la",
       "status": "error"
     },
@@ -283,8 +283,8 @@
     {
       "sourceId": "sqfi",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "345e952bec2b34c98ec1a54d6a5b8fba04456d74f487296dfab719494414b04c",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "37133913e96e81c31b11c6b25ea140de685f0fd47ca1a5602147beb23bf96496",
       "etag": null,
       "count": 1,
       "changed": true
@@ -343,8 +343,8 @@
     {
       "sourceId": "afpa",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "28ddaa83f45784fe04b2894529b438272678a8490aa5d4cccf53278dae81dbc1",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "da61884f20823535a7135f08b4a5f995ce528c3adb3b4f2c6bdbf07a8d13f80a",
       "etag": null,
       "count": 1,
       "changed": true
@@ -388,17 +388,17 @@
     {
       "sourceId": "appa",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "hash": "695987f60f3dc6aaaa753491331e65f0055cdea1ab1d54c2e8ac488cd2025029",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "plma",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "9884e0e6891d040cc44ed48226f1c40c90f6acfaa5932f46a1cf7e5cb51f6819",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "b6a38cdfcdadd93a2c1173342c5bb405edcdfb9caa5863c3cfe1ddedadefc175",
       "etag": null,
       "count": 1,
       "changed": true
@@ -406,7 +406,7 @@
     {
       "sourceId": "ws-careers",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "hash": "9f3241281d9466435a2c6a88e92fd66b5fdbfec7a22aaeb0e61f0d0161e9272d",
       "etag": null,
       "count": 0,
@@ -415,7 +415,7 @@
     {
       "sourceId": "ws-about",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "hash": "0e397faa2eb63ec463dafcdd45d8e690150f7c9d0c6aa7c06b977eea6f23d310",
       "etag": null,
       "count": 0,
@@ -424,9 +424,9 @@
     {
       "sourceId": "topfox",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "a979e6f0ec89a4c4e2ab7fee3e040ed1a3405070ff820692ad3332886a06ceed",
-      "etag": "\"page_cache:31738888237:IndexController:531950cc0c0ba8a22f89565589e9997d\"",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "ac1cde30b43d0f4d1417d43f4be948fab63510a74cb7db775574592bd2a4fd44",
+      "etag": "\"page_cache:31738888237:IndexController:db705f5d5ab48ce15d5d9c46988cdb2f\"",
       "count": 1,
       "changed": true
     },
@@ -450,8 +450,8 @@
     {
       "sourceId": "thrive",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "91cb0ddf2edfac41b4e22e7b7ed6d4f9d63aed615f87007cb575502fd08bb8ed",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "6c89a37fa2e451090d74c9b8cb01cb622164febe3fee9b06844259e1286339c8",
       "etag": null,
       "count": 1,
       "changed": true
@@ -459,26 +459,26 @@
     {
       "sourceId": "vdf",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "d941fdb91c00e20ec4438fe06a16269d72e491bec9b8d3955fcde5bc263c1747",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "ea2d16a9fb9e0f1c9dbb53131c0fcb54b93c3f845aed243bc8c2dc13cdc0bc73",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "efd",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "7cc4a9f9ea6c65d48682df957c9b6fe0e0458fcdb495e0b8997f8bf5fd2f4579",
-      "etag": "\"283-1790235216;br\"",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "ea788340caff96f146a249ebd82cfe671f6f1b58d1f5b491868509cebbcf1264",
+      "etag": "\"470-1790854097;br\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "barrett",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "93bf131a3dbcf07355fd111791d1258d85a7189546244d75a445662c7431fbeb",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "17cdb41e97def20bad64dbdc79336778ccbaec5e600ac59cddb84781b4de1be3",
       "etag": null,
       "count": 1,
       "changed": true
@@ -486,7 +486,7 @@
     {
       "sourceId": "weaver",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "hash": "5387ee0548ed188f748c48be20d6fb4db106b4e882b48c2944bd6bb4f1543874",
       "etag": null,
       "count": 0,
@@ -494,15 +494,15 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
       "sourceId": "flagstone",
       "status": "error"
     },
     {
       "sourceId": "pmmi",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "a5671586ec7ae8c7756454a4afc902f9b30035c913d3cec67598486289920755",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "f333f9f5bb3bc5d23daf9a890fc50bba8e4d133975d075ea9e32042975f64b46",
       "etag": null,
       "count": 1,
       "changed": true
@@ -510,9 +510,9 @@
     {
       "sourceId": "gea",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "db22dead30230a7c3a2b57e60af64204885eecc150e7d0675d1fe81bb0196c37",
-      "etag": "\"12r18ub1j5d4ge\"",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "541fc5be983daf5be689c03b85ee603ce2b2b650d856059719addd531e64c716",
+      "etag": "\"y42c9qarexd4k8\"",
       "count": 1,
       "changed": true
     },
@@ -543,8 +543,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-01T14:33:40.870Z",
-      "hash": "aea12c989c97a7c8517f92447ca8a6638c4665498293e9c3fedb757f6e68207a",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "cf73a43453515d07e3ae06ba5800fe4cd4e13abdd68c32ce5439bea02d27314d",
       "etag": null,
       "count": 1,
       "changed": true
@@ -573,8 +573,8 @@
     {
       "sourceId": "bls-paperboard-api",
       "status": "ok",
-      "fetchedAt": "2026-09-24T19:15:38.510Z",
-      "hash": "3db78e3b27c2273ab910ae434638d63ca123e2e842297a09b6b1ecaa29a5de45",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "8773a3adf0ceb0a48e865c2904579a60ffc3c964540f771a70efd14520cc89a4",
       "etag": null,
       "count": 1,
       "changed": true
@@ -618,14 +618,685 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-09-30T15:57:28.303Z",
-      "hash": "8ffa7e1853622d71bbd48b573df451e5a2d6244748ce2f660eb96ed5c4be2d12",
+      "fetchedAt": "2026-10-01T20:22:31.518Z",
+      "hash": "f5d78fd1aac9b3a1aeaf1c8f421f371c637150d532c893456b91cf72eec9e286",
       "etag": null,
       "count": 1,
       "changed": true
     }
   ],
   "candidates": [
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:23:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T21:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.24300a69bc57e2e569940ac2301ffe53fcf126a2.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 1 at 9:21AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 6.8 feet. - Forecast...The river is expected to rise above flood stage early Saturday morning and continue rising to a crest of 7.4 feet Sunday evening. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:21:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T03:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:23:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-01T21:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "bls-paperboard-api:WPU0914:2026-08",
+      "sourceId": "bls-paperboard-api",
+      "title": "Paperboard · 2026-08",
+      "summary": "United States: 373.349 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-08; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "measurement": {
+        "id": "WPU0914:2026-08",
+        "label": "Paperboard",
+        "seriesCode": "WPU0914",
+        "referencePeriod": "2026-08",
+        "unit": "index, 1982=100",
+        "value": 373.349,
+        "comparison": "index level; not a transaction price",
+        "seasonalAdjustment": "NSA",
+        "geography": "United States",
+        "preliminary": true,
+        "history": [
+          {
+            "period": "2026-08",
+            "value": 373.349,
+            "preliminary": true
+          },
+          {
+            "period": "2026-07",
+            "value": 365.103,
+            "preliminary": true
+          },
+          {
+            "period": "2026-06",
+            "value": 361.011,
+            "preliminary": true
+          },
+          {
+            "period": "2026-05",
+            "value": 360.182,
+            "preliminary": true
+          },
+          {
+            "period": "2026-04",
+            "value": 353.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-03",
+            "value": 353.904,
+            "preliminary": false
+          },
+          {
+            "period": "2026-02",
+            "value": 354.541,
+            "preliminary": false
+          },
+          {
+            "period": "2026-01",
+            "value": 356.681,
+            "preliminary": false
+          },
+          {
+            "period": "2025-12",
+            "value": 356.438,
+            "preliminary": false
+          },
+          {
+            "period": "2025-11",
+            "value": 356.324,
+            "preliminary": false
+          },
+          {
+            "period": "2025-10",
+            "value": 357.05,
+            "preliminary": false
+          },
+          {
+            "period": "2025-09",
+            "value": 354.549,
+            "preliminary": false
+          },
+          {
+            "period": "2025-08",
+            "value": 355.341,
+            "preliminary": false
+          },
+          {
+            "period": "2025-07",
+            "value": 355.658,
+            "preliminary": false
+          },
+          {
+            "period": "2025-06",
+            "value": 358.893,
+            "preliminary": false
+          },
+          {
+            "period": "2025-05",
+            "value": 353.878,
+            "preliminary": false
+          },
+          {
+            "period": "2025-04",
+            "value": 352.675,
+            "preliminary": false
+          },
+          {
+            "period": "2025-03",
+            "value": 348.748,
+            "preliminary": false
+          },
+          {
+            "period": "2025-02",
+            "value": 346.547,
+            "preliminary": false
+          },
+          {
+            "period": "2025-01",
+            "value": 346.383,
+            "preliminary": false
+          },
+          {
+            "period": "2024-12",
+            "value": 343.626,
+            "preliminary": false
+          },
+          {
+            "period": "2024-11",
+            "value": 343.856,
+            "preliminary": false
+          },
+          {
+            "period": "2024-10",
+            "value": 343.106,
+            "preliminary": false
+          },
+          {
+            "period": "2024-09",
+            "value": 340.929,
+            "preliminary": false
+          },
+          {
+            "period": "2024-08",
+            "value": 339.666,
+            "preliminary": false
+          },
+          {
+            "period": "2024-07",
+            "value": 334.017,
+            "preliminary": false
+          },
+          {
+            "period": "2024-06",
+            "value": 332.43,
+            "preliminary": false
+          },
+          {
+            "period": "2024-05",
+            "value": 330.954,
+            "preliminary": false
+          },
+          {
+            "period": "2024-04",
+            "value": 329.951,
+            "preliminary": false
+          },
+          {
+            "period": "2024-03",
+            "value": 328.448,
+            "preliminary": false
+          },
+          {
+            "period": "2024-02",
+            "value": 327.928,
+            "preliminary": false
+          },
+          {
+            "period": "2024-01",
+            "value": 328.547,
+            "preliminary": false
+          }
+        ]
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "thrive:page-change",
+      "sourceId": "thrive",
+      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.thrivefreezedry.com/",
+      "scope": "Group aliases de-duplicated; announcement is not commissioning"
+    },
+    {
+      "id": "plma:page-change",
+      "sourceId": "plma",
+      "title": "Private Label Manufacturers Association | PLMA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://plma.com/",
+      "scope": "Private label, retailer commentary; some data licensed"
+    },
+    {
+      "id": "topfox:page-change",
+      "sourceId": "topfox",
+      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://topfoxsnacks.com/",
+      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
+    },
+    {
+      "id": "drought:page-change",
+      "sourceId": "drought",
+      "title": "Current Map | U.S. Drought Monitor",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient availability",
+      "sourceUrl": "https://droughtmonitor.unl.edu/",
+      "scope": "Weekly; supplier-crop origin mapping required"
+    },
+    {
+      "id": "sqfi:page-change",
+      "sourceId": "sqfi",
+      "title": "SQFI | SQF Institute",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.sqfi.com/",
+      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
+    },
+    {
+      "id": "afpa:page-change",
+      "sourceId": "afpa",
+      "title": "Statistics and Resources | AF&amp;PA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://www.afandpa.org/statistics-resources",
+      "scope": "Paper/paperboard demand; some reports require license"
+    },
+    {
+      "id": "efd:page-change",
+      "sourceId": "efd",
+      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://europeanfreezedry.com/",
+      "scope": "International contract freeze-drying and pet products"
+    },
+    {
+      "id": "barrett:page-change",
+      "sourceId": "barrett",
+      "title": "Pet Food Manufacturer | Barrett Petfood",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://barrettpetfood.com/",
+      "scope": "Pet manufacturing and freeze-dried inclusions"
+    },
+    {
+      "id": "gea:page-change",
+      "sourceId": "gea",
+      "title": "GEA – engineering for a better world",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.gea.com/en/",
+      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
+    },
+    {
+      "id": "pmmi:page-change",
+      "sourceId": "pmmi",
+      "title": "PMMI, The Association for Packaging and Processing Technologies",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.pmmi.org/",
+      "scope": "Robotics, machine vision, equipment and workforce developments"
+    },
+    {
+      "id": "vdf:page-change",
+      "sourceId": "vdf",
+      "title": "Freeze Dried Food Manufacturers | Frozen Food Suppliers | Van Drunen Farms",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.vandrunenfarms.com/",
+      "scope": "Freeze-dried ingredients and powders"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b77383e13251044a775b341f749ca2a1974ccb38.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 2:44PM CDT until October 1 at 10:00PM CDT by NWS Chicago IL",
+      "summary": "Lake; Lee; De Kalb; Kane; DuPage; La Salle; Kendall; Grundy; Northern Cook; Central Cook; Southern Cook; Northern Will; Southern Will; Eastern Will; Lake: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of Illinois, including the following areas, Central Cook, De Kalb, DuPage, Eastern Will, Grundy, Kane, Kendall, La Salle, Lake IL, Lee, Northern Cook, Northern Will, Southern Cook and Southern Will and northwest Indiana, including the following area, Lake IN. * WHEN...Until 10 PM CDT this evening. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. * ADDITIONAL DETAILS... - Periods of soaking rain will continue through the afternoon and evening. Rainfall rates may reach 2 inches per hour in localized corridors. Such rainfall rates on sa",
+      "observedAt": "2026-10-01T14:44:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "017103",
+          "017037",
+          "017089",
+          "017043",
+          "017099",
+          "017093",
+          "017063",
+          "017031",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILZ006",
+          "ILZ010",
+          "ILZ011",
+          "ILZ012",
+          "ILZ013",
+          "ILZ019",
+          "ILZ020",
+          "ILZ021",
+          "ILZ103",
+          "ILZ104",
+          "ILZ105",
+          "ILZ106",
+          "ILZ107",
+          "ILZ108",
+          "INZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.e12d7100a9f95188100715893a9bd533eb8ae64f.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 1:31PM CDT until October 2 at 1:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Scott; Whiteside; Rock Island; Henry; Bureau; Putnam; Mercer: * WHAT...Flooding caused by excessive rainfall is possible. * WHERE...Portions of Illinois, including the following areas, Bureau, Henry IL, Mercer, Putnam, Rock Island and Whiteside and east central Iowa, including the following area, Scott. * WHEN...Until 1 AM CDT Friday. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Low-water crossings may be flooded. * ADDITIONAL DETAILS... - Additional rainfall between 0.5 to 1.5 inches is possible. The cumulative effects of this rainfall in recent days will result in rises along area rivers, along with the potential for areal flooding. The threat for flash flo",
+      "observedAt": "2026-10-01T13:31:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T01:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019163",
+          "017195",
+          "017161",
+          "017073",
+          "017011",
+          "017155",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ068",
+          "ILZ009",
+          "ILZ015",
+          "ILZ016",
+          "ILZ017",
+          "ILZ018",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.4339991ce83f7adc23698d777d4b205a1cba5b40.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 1 at 1:14PM CDT until October 1 at 7:15PM CDT by NWS Quad Cities IA IL",
+      "summary": "Henry, IL; Mercer, IL; Rock Island, IL; Whiteside, IL: * WHAT...Urban areas and small streams flooding caused by excessive rainfall is expected. * WHERE...Northwestern Henry IL County in northwestern Illinois... Mercer County in northwestern Illinois... Rock Island County in northwestern Illinois... Whiteside County in northwestern Illinois... * WHEN...Until 715 PM CDT Thursday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. Low-water crossings are inundated with water and may not be passable. Expect many areas of slow moving or standing water. * ADDITIONAL DETAILS... - At 114 PM CDT, Doppler radar indicated heavy rain. Flooding is ongoing or expected to begin shortly in the warned area. Between 1 and 2 inches of rain have fallen. - Additional rainfall amounts of 0.",
+      "observedAt": "2026-10-01T13:14:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T19:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017073",
+          "017131",
+          "017161",
+          "017195"
+        ],
+        "UGC": [
+          "ILC073",
+          "ILC131",
+          "ILC161",
+          "ILC195"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1ea2a67e0200cea2ec13daf6071b88b3b62a2ca0.001.1",
+      "sourceId": "nws-il",
+      "title": "Special Weather Statement issued October 1 at 12:51PM CDT by NWS Quad Cities IA IL",
+      "summary": "Whiteside; Rock Island; Henry; Mercer: An area of moderate rain over a saturated ground will continue over the next few hours, resulting in some ponding of water in poorly drained and low lying areas. Excessive runoff may cause elevated levels on small creeks and streams, and ponding of water on county roads and farmland along the banks of creeks and streams. If driving, be alert for standing water on roadways. Remember, never drive through flood roadways.",
+      "observedAt": "2026-10-01T12:51:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T17:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017195",
+          "017161",
+          "017073",
+          "017131"
+        ],
+        "UGC": [
+          "ILZ009",
+          "ILZ015",
+          "ILZ016",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.b3f66b76cf928b819b2e7f019193eb8afcc2614f.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 10:14AM CDT until October 3 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL zone. * WHAT...Flooding is possible. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...From Friday afternoon to Saturday evening. * ADDITIONAL DETAILS... - At 9:30 AM CDT Thursday the stage was 5.8 feet. - Forecast...Rises on the river are possible over the next few days. The river may reach flood stage. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T10:14:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T04:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ed9324dd8ad1bd481d31bc4d6e6aebc1ec3faa99.003.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 1 at 12:03PM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; North Itasca; South Itasca; Northern Aitkin; Douglas; Bayfield; Ashland; Iron; Washburn; Sawyer: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Aitkin, North Itasca, South Itasca, and Northern Cook and Lake Counties. In Wisconsin, Ashland, Bayfield, Douglas, Iron, Sawyer, and Washburn Counties. * WHEN...From midnight tonight to 9 AM CDT Friday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-01T12:03:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T00:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "027061",
+          "027001",
+          "055031",
+          "055007",
+          "055003",
+          "055051",
+          "055129",
+          "055113"
+        ],
+        "UGC": [
+          "MNZ012",
+          "MNZ018",
+          "MNZ026",
+          "MNZ035",
+          "WIZ001",
+          "WIZ002",
+          "WIZ003",
+          "WIZ004",
+          "WIZ007",
+          "WIZ008"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.ed9324dd8ad1bd481d31bc4d6e6aebc1ec3faa99.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 1 at 12:03PM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "North Cass; South Cass; Crow Wing; South Aitkin; Carlton/South St. Louis; Pine; Burnett; Price: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...In Minnesota, Crow Wing, Pine, South Aitkin, North Cass, South Cass, and Carlton and South St. Louis Counties. In Wisconsin, Price and Burnett Counties. * WHEN...From midnight tonight to 9 AM CDT Friday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-01T12:03:00-05:00",
+      "retrievedAt": "2026-10-01T20:22:31.518Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T00:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027021",
+          "027035",
+          "027001",
+          "027017",
+          "027137",
+          "027115",
+          "055013",
+          "055099"
+        ],
+        "UGC": [
+          "MNZ025",
+          "MNZ033",
+          "MNZ034",
+          "MNZ036",
+          "MNZ037",
+          "MNZ038",
+          "WIZ006",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -651,19 +1322,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-01T14:33:40.870Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.4365baa30859eb5dc956cffe64a7aefa4c443e3b.001.1",
@@ -743,54 +1401,6 @@
       "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-01T09:23:00-05:00",
-      "retrievedAt": "2026-10-01T14:33:40.870Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-01T21:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILZ006",
-          "WIZ072"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.24300a69bc57e2e569940ac2301ffe53fcf126a2.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 1 at 9:21AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 6.8 feet. - Forecast...The river is expected to rise above flood stage early Saturday morning and continue rising to a crest of 7.4 feet Sunday evening. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-01T09:21:00-05:00",
-      "retrievedAt": "2026-10-01T14:33:40.870Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-02T03:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.83b3fe889a7a653635027e766c5c91e7ae21a41d.001.1",
       "sourceId": "nws-il",
       "title": "Flood Watch issued October 1 at 4:23AM CDT until October 2 at 1:00AM CDT by NWS Quad Cities IA IL",
@@ -857,31 +1467,6 @@
           "ILZ015",
           "ILZ016",
           "ILZ024"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
-      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-01T09:23:00-05:00",
-      "retrievedAt": "2026-10-01T14:33:40.870Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-01T21:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097",
-          "055059"
-        ],
-        "UGC": [
-          "ILZ006",
-          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -2766,19 +3351,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
       "scope": "Category signals only until company/lot exposure is verified"
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-30T15:57:28.303Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.0a834a48edc1ab6adb64d1f307ac593d0f57cb90.001.1",
@@ -6525,311 +7097,6 @@
       "scope": "Mississippi/Illinois river; no assumed company barge use"
     },
     {
-      "id": "bls-paperboard-api:WPU0914:2026-08",
-      "sourceId": "bls-paperboard-api",
-      "title": "Paperboard · 2026-08",
-      "summary": "United States: 373.349 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-08; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
-      "measurement": {
-        "id": "WPU0914:2026-08",
-        "label": "Paperboard",
-        "seriesCode": "WPU0914",
-        "referencePeriod": "2026-08",
-        "unit": "index, 1982=100",
-        "value": 373.349,
-        "comparison": "index level; not a transaction price",
-        "seasonalAdjustment": "NSA",
-        "geography": "United States",
-        "preliminary": true,
-        "history": [
-          {
-            "period": "2026-08",
-            "value": 373.349,
-            "preliminary": true
-          },
-          {
-            "period": "2026-07",
-            "value": 365.103,
-            "preliminary": true
-          },
-          {
-            "period": "2026-06",
-            "value": 361.011,
-            "preliminary": true
-          },
-          {
-            "period": "2026-05",
-            "value": 360.182,
-            "preliminary": true
-          },
-          {
-            "period": "2026-04",
-            "value": 353.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-03",
-            "value": 353.904,
-            "preliminary": false
-          },
-          {
-            "period": "2026-02",
-            "value": 354.541,
-            "preliminary": false
-          },
-          {
-            "period": "2026-01",
-            "value": 356.681,
-            "preliminary": false
-          },
-          {
-            "period": "2025-12",
-            "value": 356.438,
-            "preliminary": false
-          },
-          {
-            "period": "2025-11",
-            "value": 356.324,
-            "preliminary": false
-          },
-          {
-            "period": "2025-10",
-            "value": 357.05,
-            "preliminary": false
-          },
-          {
-            "period": "2025-09",
-            "value": 354.549,
-            "preliminary": false
-          },
-          {
-            "period": "2025-08",
-            "value": 355.341,
-            "preliminary": false
-          },
-          {
-            "period": "2025-07",
-            "value": 355.658,
-            "preliminary": false
-          },
-          {
-            "period": "2025-06",
-            "value": 358.893,
-            "preliminary": false
-          },
-          {
-            "period": "2025-05",
-            "value": 353.878,
-            "preliminary": false
-          },
-          {
-            "period": "2025-04",
-            "value": 352.675,
-            "preliminary": false
-          },
-          {
-            "period": "2025-03",
-            "value": 348.748,
-            "preliminary": false
-          },
-          {
-            "period": "2025-02",
-            "value": 346.547,
-            "preliminary": false
-          },
-          {
-            "period": "2025-01",
-            "value": 346.383,
-            "preliminary": false
-          },
-          {
-            "period": "2024-12",
-            "value": 343.626,
-            "preliminary": false
-          },
-          {
-            "period": "2024-11",
-            "value": 343.856,
-            "preliminary": false
-          },
-          {
-            "period": "2024-10",
-            "value": 343.106,
-            "preliminary": false
-          },
-          {
-            "period": "2024-09",
-            "value": 340.929,
-            "preliminary": false
-          },
-          {
-            "period": "2024-08",
-            "value": 339.666,
-            "preliminary": false
-          },
-          {
-            "period": "2024-07",
-            "value": 334.017,
-            "preliminary": false
-          },
-          {
-            "period": "2024-06",
-            "value": 332.43,
-            "preliminary": false
-          },
-          {
-            "period": "2024-05",
-            "value": 330.954,
-            "preliminary": false
-          },
-          {
-            "period": "2024-04",
-            "value": 329.951,
-            "preliminary": false
-          },
-          {
-            "period": "2024-03",
-            "value": 328.448,
-            "preliminary": false
-          },
-          {
-            "period": "2024-02",
-            "value": 327.928,
-            "preliminary": false
-          },
-          {
-            "period": "2024-01",
-            "value": 328.547,
-            "preliminary": false
-          }
-        ]
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "thrive:page-change",
-      "sourceId": "thrive",
-      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.thrivefreezedry.com/",
-      "scope": "Group aliases de-duplicated; announcement is not commissioning"
-    },
-    {
-      "id": "plma:page-change",
-      "sourceId": "plma",
-      "title": "Private Label Manufacturers Association | PLMA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://plma.com/",
-      "scope": "Private label, retailer commentary; some data licensed"
-    },
-    {
-      "id": "topfox:page-change",
-      "sourceId": "topfox",
-      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://topfoxsnacks.com/",
-      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
-    },
-    {
-      "id": "drought:page-change",
-      "sourceId": "drought",
-      "title": "Current Map | U.S. Drought Monitor",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient availability",
-      "sourceUrl": "https://droughtmonitor.unl.edu/",
-      "scope": "Weekly; supplier-crop origin mapping required"
-    },
-    {
-      "id": "sqfi:page-change",
-      "sourceId": "sqfi",
-      "title": "SQFI | SQF Institute",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.sqfi.com/",
-      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
-    },
-    {
-      "id": "afpa:page-change",
-      "sourceId": "afpa",
-      "title": "Statistics and Resources | AF&amp;PA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://www.afandpa.org/statistics-resources",
-      "scope": "Paper/paperboard demand; some reports require license"
-    },
-    {
-      "id": "efd:page-change",
-      "sourceId": "efd",
-      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://europeanfreezedry.com/",
-      "scope": "International contract freeze-drying and pet products"
-    },
-    {
-      "id": "barrett:page-change",
-      "sourceId": "barrett",
-      "title": "Pet Food Manufacturer | Barrett Petfood",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://barrettpetfood.com/",
-      "scope": "Pet manufacturing and freeze-dried inclusions"
-    },
-    {
-      "id": "gea:page-change",
-      "sourceId": "gea",
-      "title": "GEA – engineering for a better world",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.gea.com/en/",
-      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
-    },
-    {
       "id": "appa:page-change",
       "sourceId": "appa",
       "title": "Pet Industry Market Size, Trends &amp; Pet Industry Statistics from APPA",
@@ -6841,19 +7108,6 @@
       "category": "Customer demand",
       "sourceUrl": "https://americanpetproducts.org/industry-trends-and-stats",
       "scope": "Annual estimates/projected value; not premium segment units"
-    },
-    {
-      "id": "pmmi:page-change",
-      "sourceId": "pmmi",
-      "title": "PMMI, The Association for Packaging and Processing Technologies",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-24T19:15:38.510Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.pmmi.org/",
-      "scope": "Robotics, machine vision, equipment and workforce developments"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.c58834d2a6ce0f05bdf9fe17609d5fec5249b275.001.1",
@@ -20524,19 +20778,6 @@
       "scope": "Local weather/emergency and public utility notices"
     },
     {
-      "id": "vdf:page-change",
-      "sourceId": "vdf",
-      "title": "Freeze Dried Food Manufacturers | Frozen Food Suppliers | Van Drunen Farms",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-17T17:38:36.618Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.vandrunenfarms.com/",
-      "scope": "Freeze-dried ingredients and powders"
-    },
-    {
       "id": "weaver:page-change",
       "sourceId": "weaver",
       "title": "Home | Weaver Popcorn Manufacturing, LLC",
@@ -20828,9 +21069,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 23,
   "remaining": 0,
-  "collectedAt": "2026-10-01T14:33:40.870Z",
+  "collectedAt": "2026-10-01T20:22:31.518Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -32150,7 +32391,7 @@
     },
     {
       "date": "2026-10-01",
-      "asOf": "2026-10-01T14:33:47.459Z",
+      "asOf": "2026-10-01T20:22:36.539Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
