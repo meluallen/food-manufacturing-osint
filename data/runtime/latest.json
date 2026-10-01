@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "a3cb6cf0fa315d428f9a5ad7736a88399f9f9cef5fffc05ba7e814e4685fd541",
-      "etag": "W/\"b320aaff73d7731f08e78828664a5925:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "15f3eb1c0934740621a6203a783187d1d7ef7b62a6272dd8ad22ed7cc44099e2",
+      "etag": "W/\"ba5de561140220ace3c1f9218a2ea52b:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 4,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "3c492cace5aa9e45c0cc2b3360df6b5caf7ad7b65182b4928433cba544f08f20",
-      "etag": "W/\"b07bae96544ce7ea87af0ff6310b3a6b:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 4,
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "aceae90593bba77d5550424716add49034c1d23074ec72c5f30761d9cfc243d8",
+      "etag": "W/\"841f38856ddb628afc6e0e38fa163437:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 3,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "hash": "7ee966628399b8a2fc128e660a8104d37eba9f7cd61dce067fab2fd4e72f756f",
       "etag": "W/\"20e6c-URm8f4bkGRqcFvw/QK3j8qCP1ZU\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "hash": "41a998d171e4b29a27c254d840737431429bccee581a9c84c79c355ea3ad9ce1",
       "etag": "\"1adda5-65cb6389188a8\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286899152-gzip\"",
+      "etag": "W/\"16346-1774286901967-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "dd0cd06c9e92083b8c3419d0d514d60243650f823017d45961114d678ee80f4b",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "89cd7cd73803dc55b9f2bbbf3ebfcf9e3fef6c7a383d363192bcd60407af0461",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "e5587e8f99f14f5db664a69d89507cbae13e1b26a6991b847e18ae3a6af3f63d",
-      "etag": "\"1790800674\"",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "04a70ae30efff2a72c9b85ef5380508f9b059a8cb9d8d35fd0a4bd9451142087",
+      "etag": "\"1790862169\"",
       "count": 1,
       "changed": true
     },
@@ -259,7 +259,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "hash": "deb5dfc5ffe455e08ec332f9a14d50603c31f240497e7b6bd59908086c3f6889",
       "etag": null,
       "count": 0,
@@ -267,7 +267,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -525,11 +525,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "aa62a5ac8c0cdab3ac3b43faf4ec07a589bbffe9e175a7b958ccc7704703f23a",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "99a4fe75c3c9ceb966a5b6e88e873fa56eff64974611ce849acbced91fa30313",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -543,8 +543,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-01T07:13:07.365Z",
-      "hash": "0c7ea88088cfd40850b5e8f8d31b7284d0e161144beb208acbdcfa1b2a1be3dd",
+      "fetchedAt": "2026-10-01T14:33:40.870Z",
+      "hash": "aea12c989c97a7c8517f92447ca8a6638c4665498293e9c3fedb757f6e68207a",
       "etag": null,
       "count": 1,
       "changed": true
@@ -627,6 +627,289 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.4365baa30859eb5dc956cffe64a7aefa4c443e3b.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued September 30 at 9:30PM CDT until October 3 at 7:00PM CDT by NWS Chicago IL",
+      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL zone. * WHAT...Flooding is possible. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...From Friday afternoon to Saturday evening. * ADDITIONAL DETAILS... - At 8:30 PM CDT Wednesday the stage was 6.0 feet. - Forecast...Rises on the river are possible over the next few days. The river may reach flood stage. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-09-30T21:30:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T15:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7d096785cbdfb1c1bc889993479f2c6417099efa.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued September 30 at 11:58PM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; North Itasca; South Itasca; Northern Aitkin; Douglas; Bayfield; Ashland; Iron; Washburn; Sawyer: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...In Minnesota, Northern Aitkin, North Itasca, South Itasca, and Northern Cook and Lake Counties. In Wisconsin, Ashland, Bayfield, Douglas, Iron, Sawyer, and Washburn Counties. * WHEN...From midnight Thursday Night to 9 AM CDT Friday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered. * ADDITIONAL DETAILS...Counties along the South Shore are mainly expected to see frost development a few miles or more away from Lake Superior shorelines and in Bayfield County south of US Highway 2.",
+      "observedAt": "2026-09-30T23:58:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-01T16:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "027061",
+          "027001",
+          "055031",
+          "055007",
+          "055003",
+          "055051",
+          "055129",
+          "055113"
+        ],
+        "UGC": [
+          "MNZ012",
+          "MNZ018",
+          "MNZ026",
+          "MNZ035",
+          "WIZ001",
+          "WIZ002",
+          "WIZ003",
+          "WIZ004",
+          "WIZ007",
+          "WIZ008"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:23:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-01T21:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.24300a69bc57e2e569940ac2301ffe53fcf126a2.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 1 at 9:21AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. At 8.0 feet, Agricultural and park land is inundated near the river. Residential property is threatened near the river. * ADDITIONAL DETAILS... - At 8:30 AM CDT Thursday the stage was 6.8 feet. - Forecast...The river is expected to rise above flood stage early Saturday morning and continue rising to a crest of 7.4 feet Sunday evening. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:21:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T03:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.83b3fe889a7a653635027e766c5c91e7ae21a41d.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 1 at 4:23AM CDT until October 2 at 1:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Buchanan; Delaware; Dubuque; Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Muscatine; Scott; Keokuk; Washington; Louisa; Jefferson; Henry; Des Moines; Van Buren; Carroll; Whiteside; Rock Island; Henry; Mercer: * WHAT...Flooding caused by excessive rainfall continues to be possible. * WHERE...Portions of northwest Illinois, including the following areas, Carroll, Henry IL, Mercer, Rock Island and Whiteside and Iowa, including the following areas, Benton, Buchanan, Cedar, Clinton, Delaware, Des Moines, Dubuque, Henry IA, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Muscatine, Scott, Van Buren and Washington. * WHEN...Through late tonight. * IMPACTS...Excessive runoff may result in flooding of rivers, creeks, streams, and other low-lying and flood-prone locations. Creeks and streams may rise out of their ban",
+      "observedAt": "2026-10-01T04:23:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T01:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019019",
+          "019055",
+          "019061",
+          "019011",
+          "019113",
+          "019105",
+          "019097",
+          "019095",
+          "019103",
+          "019031",
+          "019045",
+          "019139",
+          "019163",
+          "019107",
+          "019183",
+          "019115",
+          "019101",
+          "019087",
+          "019057",
+          "019177",
+          "017015",
+          "017195",
+          "017161",
+          "017073",
+          "017131"
+        ],
+        "UGC": [
+          "IAZ040",
+          "IAZ041",
+          "IAZ042",
+          "IAZ051",
+          "IAZ052",
+          "IAZ053",
+          "IAZ054",
+          "IAZ063",
+          "IAZ064",
+          "IAZ065",
+          "IAZ066",
+          "IAZ067",
+          "IAZ068",
+          "IAZ076",
+          "IAZ077",
+          "IAZ078",
+          "IAZ087",
+          "IAZ088",
+          "IAZ089",
+          "IAZ098",
+          "ILZ007",
+          "ILZ009",
+          "ILZ015",
+          "ILZ016",
+          "ILZ024"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued October 1 at 9:23AM CDT until October 7 at 7:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Watch for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Wednesday morning. * ADDITIONAL DETAILS... - At 8:00 AM CDT Thursday the stage was 8.2 feet. - Forecast...Flood stage may be reached late tonight. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-01T09:23:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-01T21:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.bb466892e77a036e8bf1e75213020db078da05c4.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Advisory issued October 1 at 7:08AM CDT until October 1 at 10:15AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Dane, WI: * WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Dane County in south central Wisconsin... * WHEN...Until 1015 AM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 707 AM CDT, Doppler radar indicated heavy rain due to thunderstorms. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 0.5 and 1.5 inches of rain have fallen. - Additional rainfall amounts of 0.5 to 1.5 inches are expected over the area. This additional rain will result in minor flooding. - Some locations that will experience flooding include... Madison, Sun Prairie, Fitchburg, Middleton, Stoughton, Verona, Oregon, McFarland, Monona, Mount Horeb, Cottage Grove, Belleville, Shorewood Hills, Brooklyn, Maple Bluff, Blue Mounds, Henry Vilas Zoo, Camp Randall Stadium, U",
+      "observedAt": "2026-10-01T07:08:00-05:00",
+      "retrievedAt": "2026-10-01T14:33:40.870Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-01T10:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055025"
+        ],
+        "UGC": [
+          "WIC025"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.335760ff227807adce52f5244c5dc82fedfc2a46.001.1",
       "sourceId": "nws-il",
       "title": "Hydrologic Outlook issued September 30 at 1:02PM CDT by NWS Chicago IL",
@@ -678,45 +961,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-01T07:13:07.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-01T07:13:07.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-01T07:13:07.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.8c536fdb729e7d0f4e767ccd69906861a5967f99.001.1",
@@ -785,29 +1029,6 @@
           "ILZ015",
           "ILZ016",
           "ILZ024"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.4365baa30859eb5dc956cffe64a7aefa4c443e3b.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 30 at 9:30PM CDT until October 3 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake: ...The Flood Watch continues for the following rivers in Illinois... Des Plaines River near Gurnee affecting Lake IL zone. * WHAT...Flooding is possible. * WHERE...Des Plaines River from US-41 in Gurnee downstream to Townline Road in Vernon Hills, including the Gurnee gauge. * WHEN...From Friday afternoon to Saturday evening. * ADDITIONAL DETAILS... - At 8:30 PM CDT Wednesday the stage was 6.0 feet. - Forecast...Rises on the river are possible over the next few days. The river may reach flood stage. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-09-30T21:30:00-05:00",
-      "retrievedAt": "2026-10-01T07:13:07.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-01T15:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -897,47 +1118,6 @@
           "WIZ026",
           "WIZ027",
           "WIZ028"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7d096785cbdfb1c1bc889993479f2c6417099efa.002.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued September 30 at 11:58PM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "Northern Cook/Northern Lake; North Itasca; South Itasca; Northern Aitkin; Douglas; Bayfield; Ashland; Iron; Washburn; Sawyer: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...In Minnesota, Northern Aitkin, North Itasca, South Itasca, and Northern Cook and Lake Counties. In Wisconsin, Ashland, Bayfield, Douglas, Iron, Sawyer, and Washburn Counties. * WHEN...From midnight Thursday Night to 9 AM CDT Friday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered. * ADDITIONAL DETAILS...Counties along the South Shore are mainly expected to see frost development a few miles or more away from Lake Superior shorelines and in Bayfield County south of US Highway 2.",
-      "observedAt": "2026-09-30T23:58:00-05:00",
-      "retrievedAt": "2026-10-01T07:13:07.365Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-01T16:00:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "027031",
-          "027075",
-          "027061",
-          "027001",
-          "055031",
-          "055007",
-          "055003",
-          "055051",
-          "055129",
-          "055113"
-        ],
-        "UGC": [
-          "MNZ012",
-          "MNZ018",
-          "MNZ026",
-          "MNZ035",
-          "WIZ001",
-          "WIZ002",
-          "WIZ003",
-          "WIZ004",
-          "WIZ007",
-          "WIZ008"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1083,19 +1263,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-01T00:35:33.838Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
       "id": "cisa-kev:CVE-2026-83549",
@@ -20663,7 +20830,7 @@
   ],
   "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-01T07:13:07.365Z",
+  "collectedAt": "2026-10-01T14:33:40.870Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -31983,7 +32150,7 @@
     },
     {
       "date": "2026-10-01",
-      "asOf": "2026-10-01T07:13:08.537Z",
+      "asOf": "2026-10-01T14:33:47.459Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
