@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-02T13:55:20.439Z",
-      "hash": "3e54df49bf043a5ef74ae9b75c449f0772aa3df50c0837d6e5b42e7687d8c8e3",
-      "etag": "W/\"7e9d04ba393a8d10d5c0f14c2e419c8a:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-02T19:22:44.948Z",
+      "hash": "628d0a1d76319e3a52df9fb9598f3f2ca3b78deacb8c53f0d5ac3cf72dc362c2",
+      "etag": "W/\"a6d6510b95ccdcc6125644f80eaea7d7:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 6,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-02T13:55:20.439Z",
-      "hash": "76d07bec6af9ce797a17dcc7bb66caf14f01117f02eb13a1d5fac7019e2c2d87",
-      "etag": "W/\"417ef110e0b675e447de3051ac409838:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 8,
+      "fetchedAt": "2026-10-02T19:22:44.948Z",
+      "hash": "dded7198da2de7fa2c7fff025f1c0d14ae6cc65e98c252009d2c9cdaef7ce1c2",
+      "etag": "W/\"364a9414f779e342c69ffb36ef80d808:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 7,
       "changed": true
     },
     {
@@ -541,11 +541,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "fetchedAt": "2026-10-02T19:22:44.948Z",
       "hash": "dfe8e3ff58eeff026667d2129ec3e44a5bf19e0fb241be4b750f62139487abf5",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -624,6 +624,338 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:35AM CDT until October 3 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "La Salle, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...Until Saturday morning. * IMPACTS...At 12.0 feet, Water overflows low-lying banks in Wedron and Sheridan. At 12.5 feet, 2062nd Road threatened in Wedron. Low-lying agricultural land inundated near Wedron. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 12.3 feet. - Forecast...The river is expected to crest near 12.6 feet this evening and fall below flood stage tomorrow morning. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:35:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T02:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017099"
+        ],
+        "UGC": [
+          "ILC099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:35AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 AM CDT Friday the stage was 7.1 feet. - Forecast...The river is expected to remain in minor flood stage into next week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:35:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T02:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.01c3b93387983a84e9b6041577e83f2d50dda480.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:23AM CDT until October 3 at 10:00PM CDT by NWS Lincoln IL",
+      "summary": "Fulton, IL; Knox, IL: ...The National Weather Service in Lincoln has issued a Flood Warning for the following rivers in Illinois... Spoon River at London Mills affecting Knox and Fulton Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is forecast. * WHERE...Spoon River at London Mills. * WHEN...Until Saturday evening. * IMPACTS...At 15.0 feet, Minor flooding begins to agricultural land near the river. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 13.6 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 16.9 feet just after midnight tonight. It will then fall below flood stage tomorrow afternoon. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:23:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017057",
+          "017095"
+        ],
+        "UGC": [
+          "ILC057",
+          "ILC095"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaf4792d46ec8f3614cb3bd7438eeb8874d20ebb.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 11:34AM CDT until October 8 at 1:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From late Saturday night to Thursday afternoon. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:00 AM CDT Friday the stage was 12.6 feet. - Forecast...The river is expected to rise above flood stage early Sunday morning to a crest of 15.6 feet early Monday morning. It will then fall below flood stage Wednesday morning. - Flood stage is 15.",
+      "observedAt": "2026-10-02T11:34:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T23:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eaf4792d46ec8f3614cb3bd7438eeb8874d20ebb.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 11:34AM CDT until October 9 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The National Weather Service in St Louis has issued a Flood Warning for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Sunday morning to late Thursday night. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 11:00 AM CDT Friday the stage was 21.8 feet. - Forecast...The river is expected to rise above flood stage Sunday morning to a crest of 25.9 feet early Monday afternoon. It will then fall below flood stage Wednesday evening. - Flood stage is 25.0 feet.",
+      "observedAt": "2026-10-02T11:34:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T23:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.39b7e7ec4298ab6737433e498bda9b81f20a0c78.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 9:53AM CDT until October 5 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Warning for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Monday morning. * IMPACTS...At 11.5 feet, Water is in the yards of some homes in the Village of Salem Lakes and Town of Wheatland areas, including Riverside Dr and Shorewood Dr. There are 3-4 inches of water over 77th Street in the Town of Wheatland. * ADDITIONAL DETAILS... - At 9:00 AM CDT Friday the stage was 10.1 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 11.6 feet tomorrow morning. It will then fall below flood stage",
+      "observedAt": "2026-10-02T09:53:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.9da35a3b1fcc1122b3304d25708ee1a9e00cd8cc.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 1:36PM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Oneida; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County: * WHAT...Temperatures in the lower 30s will result in frost formation. * WHERE...Langlade, Lincoln, Oneida, Menominee, Northern Oconto County, Southern Marinette County, and Southern Oconto counties. * WHEN...From 11 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost could kill sensitive outdoor vegetation if left uncovered.",
+      "observedAt": "2026-10-02T13:36:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T22:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055085",
+          "055069",
+          "055067",
+          "055078",
+          "055083",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ010",
+          "WIZ018",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.9da35a3b1fcc1122b3304d25708ee1a9e00cd8cc.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 1:36PM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Vilas; Forest; Florence; Northern Marinette County: * WHAT...Sub-freezing temperatures as low as 29 expected. * WHERE...Vilas, Florence, Forest, and Northern Marinette counties. * WHEN...From 11 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T13:36:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055125",
+          "055041",
+          "055037",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ005",
+          "WIZ011",
+          "WIZ012",
+          "WIZ013"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.388de9fe05f795dba43b7bc6970969152b70924c.004.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 11:05AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; Southern Cook/North Shore; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake and Southern Cook Counties. In Wisconsin, Price County. * WHEN...From 9 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T11:05:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T23:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "055099"
+        ],
+        "UGC": [
+          "MNZ012",
+          "MNZ021",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.388de9fe05f795dba43b7bc6970969152b70924c.003.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 11:05AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Bayfield; Sawyer: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...Bayfield and Sawyer Counties. * WHEN...From 9 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T11:05:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T23:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055007",
+          "055113"
+        ],
+        "UGC": [
+          "WIZ002",
+          "WIZ008"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.388de9fe05f795dba43b7bc6970969152b70924c.001.2",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 11:05AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Ashland: * WHAT...Sub-freezing temperatures as low as 28 expected. * WHERE...Ashland County. * WHEN...From 9 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T11:05:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T23:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055003"
+        ],
+        "UGC": [
+          "WIZ003"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.388de9fe05f795dba43b7bc6970969152b70924c.002.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 11:05AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Iron: * WHAT...Sub-freezing temperatures as low as 28 expected. * WHERE...Iron County. * WHEN...From 9 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T11:05:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T23:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.39b7e7ec4298ab6737433e498bda9b81f20a0c78.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued October 2 at 9:53AM CDT until October 5 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The National Weather Service in Milwaukee/Sullivan has issued a Flood Warning for the following rivers in Illinois...Wisconsin... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...From this morning to Monday morning. * IMPACTS...At 11.5 feet, Water is in the yards of some homes in the Village of Salem Lakes and Town of Wheatland areas, including Riverside Dr and Shorewood Dr. There are 3-4 inches of water over 77th Street in the Town of Wheatland. * ADDITIONAL DETAILS... - At 9:00 AM CDT Friday the stage was 10.1 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage late this afternoon to a crest of 11.6 feet tomorrow morning. It will then fall below flood stage",
+      "observedAt": "2026-10-02T09:53:00-05:00",
+      "retrievedAt": "2026-10-02T19:22:44.948Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -853,77 +1185,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
       "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 2 at 8:35AM CDT until October 3 at 10:00AM CDT by NWS Chicago IL",
-      "summary": "La Salle, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...Until Saturday morning. * IMPACTS...At 12.0 feet, Water overflows low-lying banks in Wedron and Sheridan. At 12.5 feet, 2062nd Road threatened in Wedron. Low-lying agricultural land inundated near Wedron. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 12.3 feet. - Forecast...The river is expected to crest near 12.6 feet this evening and fall below flood stage tomorrow morning. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-02T08:35:00-05:00",
-      "retrievedAt": "2026-10-02T13:55:20.439Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-03T02:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017099"
-        ],
-        "UGC": [
-          "ILC099"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 2 at 8:35AM CDT by NWS Chicago IL",
-      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 AM CDT Friday the stage was 7.1 feet. - Forecast...The river is expected to remain in minor flood stage into next week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-02T08:35:00-05:00",
-      "retrievedAt": "2026-10-02T13:55:20.439Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-03T02:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILC097"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.01c3b93387983a84e9b6041577e83f2d50dda480.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 2 at 8:23AM CDT until October 3 at 10:00PM CDT by NWS Lincoln IL",
-      "summary": "Fulton, IL; Knox, IL: ...The National Weather Service in Lincoln has issued a Flood Warning for the following rivers in Illinois... Spoon River at London Mills affecting Knox and Fulton Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is forecast. * WHERE...Spoon River at London Mills. * WHEN...Until Saturday evening. * IMPACTS...At 15.0 feet, Minor flooding begins to agricultural land near the river. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 13.6 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 16.9 feet just after midnight tonight. It will then fall below flood stage tomorrow afternoon. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
-      "observedAt": "2026-10-02T08:23:00-05:00",
-      "retrievedAt": "2026-10-02T13:55:20.439Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-02T20:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017057",
-          "017095"
-        ],
-        "UGC": [
-          "ILC057",
-          "ILC095"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.53c432e86d37f7cd92a8d934c30f07b48ef053c9.001.1",
@@ -21909,9 +22170,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-02T13:55:20.439Z",
+  "collectedAt": "2026-10-02T19:22:44.948Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -34040,7 +34301,7 @@
     },
     {
       "date": "2026-10-02",
-      "asOf": "2026-10-02T13:55:22.240Z",
+      "asOf": "2026-10-02T19:22:45.613Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
