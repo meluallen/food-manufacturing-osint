@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "f6e5b2956d034c9789b6b6c90ba086c8823ac146fe4af2f3a1e745796b005fe0",
-      "etag": "W/\"3c07cf032874ac4477d15c589bf9a9a9:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 5,
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "3e54df49bf043a5ef74ae9b75c449f0772aa3df50c0837d6e5b42e7687d8c8e3",
+      "etag": "W/\"7e9d04ba393a8d10d5c0f14c2e419c8a:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 6,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "fdf6a09f6c676331ae09893d5db343ccc1f743ce695427b31bae55594218d086",
-      "etag": "W/\"a82a13b82d025fe44bc684c20e4006ec:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 7,
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "76d07bec6af9ce797a17dcc7bb66caf14f01117f02eb13a1d5fac7019e2c2d87",
+      "etag": "W/\"417ef110e0b675e447de3051ac409838:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 8,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "hash": "7ee966628399b8a2fc128e660a8104d37eba9f7cd61dce067fab2fd4e72f756f",
       "etag": "W/\"20e6c-URm8f4bkGRqcFvw/QK3j8qCP1ZU\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "hash": "4e47d6936857ccf0994d2abe1d77d7421bf14e45ff908cc0d8973fe7adc35140",
       "etag": "\"1ae453-65cccc72dc408\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286899152-gzip\"",
+      "etag": "W/\"16346-1774286896958-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "3b6475e501d79c1c6c11642601e17ab4e97c604ad126f3427bab6e3a5c9ad551",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "9a0bf9902cdeba56aa6b3c31b67cdd4cafb97073e2cd3577f465c087dbbe2df5",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "99aa76132f789a9ddc86db12535709b16d44b532c0a363070fb73ebcb31c3a43",
-      "etag": "\"1790912305\"",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "6685d83ae44590e67e7650e17fbc29de1e32d2fd24bd29d54d1bd478eef602cc",
+      "etag": "\"1790921171\"",
       "count": 1,
       "changed": true
     },
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "hash": "deb5dfc5ffe455e08ec332f9a14d50603c31f240497e7b6bd59908086c3f6889",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -523,11 +523,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "d8cac474703da40fcb85576b6d13ac1b30a507518450e6e72534c83ec82a7da0",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "93add6702de245e746fc13ec24da506d682bfe20dbba52a7bbef68d503be1486",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-02T07:03:32.099Z",
-      "hash": "c19dc09bbda2b4601dc4cee267d1ce50b01b96692420e91d22ba0bc4ecb435c1",
+      "fetchedAt": "2026-10-02T13:55:20.439Z",
+      "hash": "dfe8e3ff58eeff026667d2129ec3e44a5bf19e0fb241be4b750f62139487abf5",
       "etag": null,
       "count": 1,
       "changed": true
@@ -630,7 +630,7 @@
       "title": "Midcontinent Independent System Operator (MISO)",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -643,7 +643,7 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
@@ -656,7 +656,7 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -669,7 +669,7 @@
       "title": "Flood Warning issued October 2 at 1:56AM CDT until October 2 at 1:00PM CDT by NWS Quad Cities IA IL",
       "summary": "Scott, IA; Henry, IL; Mercer, IL; Rock Island, IL: * WHAT...Urban areas and small streams flooding caused by excessive rainfall continues. * WHERE...Scott County in east central Iowa... Henry IL County in northwestern Illinois... Mercer County in northwestern Illinois... Rock Island County in northwestern Illinois... * WHEN...Until 100 PM CDT Friday. * IMPACTS...Flooding of rivers, creeks, streams, and other low-lying and flood-prone locations is imminent or occurring. * ADDITIONAL DETAILS... - At 150 AM CDT, Rainfall has diminished throughout the warned area. Total rainfall amounts of 2 to 5 inches have occurred across the warned area resulting in flooding. Law Enforcement and Emergency Management report several roads either partially inundated, or totally inundated with standing water and some are closed. Duck Creek is out of its banks ",
       "observedAt": "2026-10-02T01:56:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -688,6 +688,393 @@
           "ILC073",
           "ILC131",
           "ILC161"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.005.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "North Itasca; North Cass; South Itasca; South Cass; Crow Wing; Northern Aitkin; South Aitkin; Carlton/South St. Louis; Pine; Douglas; Bayfield; Burnett; Washburn; Sawyer: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...In Minnesota, Crow Wing, Northern Aitkin, Pine, South Aitkin, North Cass, North Itasca, South Cass, South Itasca, and Carlton and South St. Louis Counties. In Wisconsin, Bayfield, Burnett, Douglas, Sawyer, and Washburn Counties. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T00:19:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T09:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027061",
+          "027021",
+          "027035",
+          "027001",
+          "027017",
+          "027137",
+          "027115",
+          "055031",
+          "055007",
+          "055013",
+          "055129",
+          "055113"
+        ],
+        "UGC": [
+          "MNZ018",
+          "MNZ025",
+          "MNZ026",
+          "MNZ033",
+          "MNZ034",
+          "MNZ035",
+          "MNZ036",
+          "MNZ037",
+          "MNZ038",
+          "WIZ001",
+          "WIZ002",
+          "WIZ006",
+          "WIZ007",
+          "WIZ008"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.003.2",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; Ashland; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake County. In Wisconsin, Price and Ashland Counties. * WHEN...Two different time periods contain Frost Advisories over the next two days. For the first Frost Advisory, until 9 AM CDT Friday morning. For the second Frost Advisory, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T00:19:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T16:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "055003",
+          "055099"
+        ],
+        "UGC": [
+          "MNZ012",
+          "WIZ003",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.001.2",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Iron: * WHAT...For the Frost Advisory, temperatures as low as 32 will result in frost formation. For the Freeze Warning, sub-freezing temperatures as low as 28 expected. * WHERE...Iron County. * WHEN...For the Frost Advisory, until 9 AM CDT Friday morning. For the Freeze Warning, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T00:19:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T16:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.003.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; Ashland; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake County. In Wisconsin, Price and Ashland Counties. * WHEN...Two different time periods contain Frost Advisories over the next two days. For the first Frost Advisory, until 9 AM CDT Friday morning. For the second Frost Advisory, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T00:19:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T16:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "055003",
+          "055099"
+        ],
+        "UGC": [
+          "MNZ012",
+          "WIZ003",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 12:19AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Iron: * WHAT...For the Frost Advisory, temperatures as low as 32 will result in frost formation. For the Freeze Warning, sub-freezing temperatures as low as 28 expected. * WHERE...Iron County. * WHEN...For the Frost Advisory, until 9 AM CDT Friday morning. For the Freeze Warning, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T00:19:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T16:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:35AM CDT until October 3 at 10:00AM CDT by NWS Chicago IL",
+      "summary": "La Salle, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Fox River from Millington downstream to confluence with the Illinois River, including the Dayton gauge. * WHEN...Until Saturday morning. * IMPACTS...At 12.0 feet, Water overflows low-lying banks in Wedron and Sheridan. At 12.5 feet, 2062nd Road threatened in Wedron. Low-lying agricultural land inundated near Wedron. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 12.3 feet. - Forecast...The river is expected to crest near 12.6 feet this evening and fall below flood stage tomorrow morning. - Flood stage is 12.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:35:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T02:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017099"
+        ],
+        "UGC": [
+          "ILC099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:35AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning is extended for the following rivers in Illinois... Fox River at Dayton affecting La Salle County. Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 AM CDT Friday the stage was 7.1 feet. - Forecast...The river is expected to remain in minor flood stage into next week. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:35:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T02:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.01c3b93387983a84e9b6041577e83f2d50dda480.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:23AM CDT until October 3 at 10:00PM CDT by NWS Lincoln IL",
+      "summary": "Fulton, IL; Knox, IL: ...The National Weather Service in Lincoln has issued a Flood Warning for the following rivers in Illinois... Spoon River at London Mills affecting Knox and Fulton Counties. .The following forecasts are based on observed precipitation, soil moisture conditions, and forecast precipitation. * WHAT...Minor flooding is forecast. * WHERE...Spoon River at London Mills. * WHEN...Until Saturday evening. * IMPACTS...At 15.0 feet, Minor flooding begins to agricultural land near the river. * ADDITIONAL DETAILS... - At 7:45 AM CDT Friday the stage was 13.6 feet. - Forecast...The river is expected to rise above flood stage late this morning to a crest of 16.9 feet just after midnight tonight. It will then fall below flood stage tomorrow afternoon. - Flood stage is 15.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T08:23:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T20:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017057",
+          "017095"
+        ],
+        "UGC": [
+          "ILC057",
+          "ILC095"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.53c432e86d37f7cd92a8d934c30f07b48ef053c9.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued October 2 at 8:11AM CDT until October 2 at 1:15PM CDT by NWS Paducah KY",
+      "summary": "Hardin, IL; Massac, IL; Pope, IL; Ballard, KY; Crittenden, KY; Livingston, KY; McCracken, KY; Marshall, KY; Union, KY; Webster, KY: * WHAT...Urban area and small stream flooding caused by excessive rainfall is expected. * WHERE...Central Hardin County in southern Illinois... Massac County in southern Illinois... Southeastern Pope County in southern Illinois... Southern Union County in northwestern Kentucky... Webster County in northwestern Kentucky... Ballard County in western Kentucky... Crittenden County in western Kentucky... Livingston County in western Kentucky... McCracken County in western Kentucky... Northwestern Marshall County in western Kentucky... * WHEN...Until 115 PM CDT. * IMPACTS...Minor flooding in low-lying and poor drainage areas. * ADDITIONAL DETAILS... - At 811 AM CDT, Doppler radar indicated heavy rain due to thunder",
+      "observedAt": "2026-10-02T08:11:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T13:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017069",
+          "017127",
+          "017151",
+          "021007",
+          "021055",
+          "021139",
+          "021145",
+          "021157",
+          "021225",
+          "021233"
+        ],
+        "UGC": [
+          "ILC069",
+          "ILC127",
+          "ILC151",
+          "KYC007",
+          "KYC055",
+          "KYC139",
+          "KYC145",
+          "KYC157",
+          "KYC225",
+          "KYC233"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.fdcc28f810b34c1491103189844224ce8cd22133.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Watch issued October 2 at 5:22AM CDT until October 4 at 4:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The Flood Watch continues for the following rivers in Wisconsin... Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...Until Sunday afternoon. * ADDITIONAL DETAILS... - At 4:00 AM CDT Friday the stage was 9.8 feet. - Forecast...Flood stage may be reached this evening. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T05:22:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-02T17:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.0c2f185107a294f391f5fb965da559b18278cf80.001.2",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 7:35AM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Vilas; Forest; Florence; Northern Marinette County: * WHAT...Sub-freezing temperatures as low as 28 expected. * WHERE...Vilas, Florence, Forest, and Northern Marinette counties. * WHEN...From 11 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T07:35:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T17:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055125",
+          "055041",
+          "055037",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ005",
+          "WIZ011",
+          "WIZ012",
+          "WIZ013"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.0c2f185107a294f391f5fb965da559b18278cf80.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 7:35AM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Oneida; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...Langlade, Lincoln, Oneida, Menominee, Northern Oconto County, Southern Marinette County, and Southern Oconto counties. * WHEN...From 11 PM this evening to 7 AM CDT Saturday. * IMPACTS...Frost could kill sensitive outdoor vegetation if left uncovered.",
+      "observedAt": "2026-10-02T07:35:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T17:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055085",
+          "055069",
+          "055067",
+          "055078",
+          "055083",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ010",
+          "WIZ018",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.fdcc28f810b34c1491103189844224ce8cd22133.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Watch issued October 2 at 5:22AM CDT until October 4 at 4:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake; Kenosha: ...The Flood Watch continues for the following rivers in Wisconsin... Illinois... Fox River Lower Near New Munster affecting Lake and Kenosha Counties. * WHAT...Flooding is possible. * WHERE...Fox River Lower near New Munster. * WHEN...Until Sunday afternoon. * ADDITIONAL DETAILS... - At 4:00 AM CDT Friday the stage was 9.8 feet. - Forecast...Flood stage may be reached this evening. - Flood stage is 11.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-02T05:22:00-05:00",
+      "retrievedAt": "2026-10-02T13:55:20.439Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-02T17:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILZ006",
+          "WIZ072"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -835,155 +1222,6 @@
           "WIZ021",
           "WIZ073",
           "WIZ074"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.005.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "North Itasca; North Cass; South Itasca; South Cass; Crow Wing; Northern Aitkin; South Aitkin; Carlton/South St. Louis; Pine; Douglas; Bayfield; Burnett; Washburn; Sawyer: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...In Minnesota, Crow Wing, Northern Aitkin, Pine, South Aitkin, North Cass, North Itasca, South Cass, South Itasca, and Carlton and South St. Louis Counties. In Wisconsin, Bayfield, Burnett, Douglas, Sawyer, and Washburn Counties. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-02T00:19:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-02T09:00:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "027061",
-          "027021",
-          "027035",
-          "027001",
-          "027017",
-          "027137",
-          "027115",
-          "055031",
-          "055007",
-          "055013",
-          "055129",
-          "055113"
-        ],
-        "UGC": [
-          "MNZ018",
-          "MNZ025",
-          "MNZ026",
-          "MNZ033",
-          "MNZ034",
-          "MNZ035",
-          "MNZ036",
-          "MNZ037",
-          "MNZ038",
-          "WIZ001",
-          "WIZ002",
-          "WIZ006",
-          "WIZ007",
-          "WIZ008"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.003.2",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "Northern Cook/Northern Lake; Ashland; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake County. In Wisconsin, Price and Ashland Counties. * WHEN...Two different time periods contain Frost Advisories over the next two days. For the first Frost Advisory, until 9 AM CDT Friday morning. For the second Frost Advisory, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-02T00:19:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-02T16:15:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "027031",
-          "027075",
-          "055003",
-          "055099"
-        ],
-        "UGC": [
-          "MNZ012",
-          "WIZ003",
-          "WIZ009"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.001.2",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 2 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "Iron: * WHAT...For the Frost Advisory, temperatures as low as 32 will result in frost formation. For the Freeze Warning, sub-freezing temperatures as low as 28 expected. * WHERE...Iron County. * WHEN...For the Frost Advisory, until 9 AM CDT Friday morning. For the Freeze Warning, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
-      "observedAt": "2026-10-02T00:19:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-02T16:15:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "055051"
-        ],
-        "UGC": [
-          "WIZ004"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.003.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 2 at 12:19AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
-      "summary": "Northern Cook/Northern Lake; Ashland; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake County. In Wisconsin, Price and Ashland Counties. * WHEN...Two different time periods contain Frost Advisories over the next two days. For the first Frost Advisory, until 9 AM CDT Friday morning. For the second Frost Advisory, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-02T00:19:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-02T16:15:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "027031",
-          "027075",
-          "055003",
-          "055099"
-        ],
-        "UGC": [
-          "MNZ012",
-          "WIZ003",
-          "WIZ009"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4ec0d0943fc4af9cdec5c4e3ab64cfcf778ebe95.001.1",
-      "sourceId": "nws-wi",
-      "title": "Freeze Warning issued October 2 at 12:19AM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
-      "summary": "Iron: * WHAT...For the Frost Advisory, temperatures as low as 32 will result in frost formation. For the Freeze Warning, sub-freezing temperatures as low as 28 expected. * WHERE...Iron County. * WHEN...For the Frost Advisory, until 9 AM CDT Friday morning. For the Freeze Warning, from 9 PM Friday evening to 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
-      "observedAt": "2026-10-02T00:19:00-05:00",
-      "retrievedAt": "2026-10-02T07:03:32.099Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-02T16:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055051"
-        ],
-        "UGC": [
-          "WIZ004"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1218,19 +1456,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
       "id": "cisa-kev:CVE-2026-83549",
@@ -21686,7 +21911,7 @@
   ],
   "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-02T07:03:32.099Z",
+  "collectedAt": "2026-10-02T13:55:20.439Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -33815,7 +34040,7 @@
     },
     {
       "date": "2026-10-02",
-      "asOf": "2026-10-02T07:03:33.067Z",
+      "asOf": "2026-10-02T13:55:22.240Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
