@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
-      "hash": "85a6fd978d87af8eaf1cfc1c1e4d6dadd08e5c18c40932c2e0890b4d5640202c",
-      "etag": "W/\"e81a2efd3ef4b3007d226d08258f190d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 4,
+      "fetchedAt": "2026-10-03T16:27:41.879Z",
+      "hash": "2892afe9b9a7a4aa8f564ace6594bea199d7ce1501dc64d8ca7a94cae8c64ca5",
+      "etag": "W/\"85dbae6e5bd4b6aa50db74826a741be4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
-      "hash": "460bd9167d88cba5e19108aff175bd2f274e7d1f65a9e4b1e93b7fdbfe403216",
-      "etag": "W/\"add16120eb041e995a07219bd9e8ef21:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 6,
+      "fetchedAt": "2026-10-03T16:27:41.879Z",
+      "hash": "e2af912ad6a359b09f2da692124ab8f915a074cb56b1d5a07a64ecb560c6c02d",
+      "etag": "W/\"804b0eaeafc905a8971f850c1756a2c6:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 0,
       "changed": true
     },
     {
@@ -541,11 +541,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T16:27:41.879Z",
       "hash": "f24490fd410fe496487df1fef9dbb646867ee907b258e51a998f61ce60ca676f",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -626,6 +626,79 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9b130e5dee55a6866bca7277d45272b72e84841a.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 3 at 11:10AM CDT until October 7 at 7:00PM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From this evening to Wednesday evening. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:00 AM CDT Saturday the stage was 14.6 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 15.6 feet early tomorrow afternoon. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 15.0 feet.",
+      "observedAt": "2026-10-03T11:10:00-05:00",
+      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-04T23:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.9b130e5dee55a6866bca7277d45272b72e84841a.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 3 at 11:10AM CDT until October 8 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From this evening to late Wednesday night. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 11:00 AM CDT Saturday the stage was 24.2 feet. - Forecast...The river is expected to rise above flood stage late this evening to a crest of 25.7 feet Monday morning. It will then fall below flood stage Tuesday evening. - Flood stage is 25.0 feet.",
+      "observedAt": "2026-10-03T11:10:00-05:00",
+      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-04T23:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2866f9022b2f109516494c661ac851d027719c15.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 3 at 10:24AM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...Observed flooding changed from Minor to Moderate severity for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 7.2 feet. - Recent Activity...The river continues a gradual rise. - Forecast...The river is expected to crest tomorrow. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
+      "observedAt": "2026-10-03T10:24:00-05:00",
+      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-04T04:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.7e10e75d9a6cc607a8bb5230a6125fad6f6b8807.001.1",
       "sourceId": "nws-il",
@@ -22786,9 +22859,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-03T11:46:42.889Z",
+  "collectedAt": "2026-10-03T16:27:41.879Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -35726,7 +35799,7 @@
     },
     {
       "date": "2026-10-03",
-      "asOf": "2026-10-03T11:46:45.674Z",
+      "asOf": "2026-10-03T16:27:42.105Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
