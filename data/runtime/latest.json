@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-03T16:27:41.879Z",
-      "hash": "2892afe9b9a7a4aa8f564ace6594bea199d7ce1501dc64d8ca7a94cae8c64ca5",
-      "etag": "W/\"85dbae6e5bd4b6aa50db74826a741be4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
+      "hash": "c0093da947949fc108480db537d3751a1e494fc4b30086a322b0a400fcb5ee12",
+      "etag": "W/\"4d0f52b929cb5fa8b33263675d4a33d8:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-03T16:27:41.879Z",
-      "hash": "e2af912ad6a359b09f2da692124ab8f915a074cb56b1d5a07a64ecb560c6c02d",
-      "etag": "W/\"804b0eaeafc905a8971f850c1756a2c6:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
+      "hash": "e59404948579c6a0d10ff91a3071d0cbedec55370413ff03697bcfc8a593936c",
+      "etag": "W/\"328be18e557fccc8f0fc2fa4222cc713:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "7ee966628399b8a2fc128e660a8104d37eba9f7cd61dce067fab2fd4e72f756f",
       "etag": "W/\"20e6c-URm8f4bkGRqcFvw/QK3j8qCP1ZU\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "d2c8c6cb23291b46ff2b086197641a6b1fa35e6b746bba714cc280a1778f9e48",
       "etag": "\"1af212-65cdd0f885a50\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "c32ad88c44044c741dced67207690339430ccaed8c063c6a41bbc6af03a00f27",
-      "etag": "W/\"16346-1774286901967-gzip\"",
+      "etag": "W/\"16346-1774286899152-gzip\"",
       "count": 0,
       "changed": false
     },
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
-      "hash": "0f6dc02c6e58df3300d8c7c7d6a28d8b4003c1f67436e842d3e9e2c192fa56a0",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
+      "hash": "f7a59c9508a4c973e5a6996e88ef2e722719d55d7781d237e3dbd416be224b1e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
-      "hash": "2c0776535404d25ae67869417e9ad020be9d92028116fd208da8cfb835c64068",
-      "etag": "\"1790991204\"",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
+      "hash": "16ffe171d2a97772f9959669d53b8dce81591684950b5beef316981d2b999772",
+      "etag": "\"1791049718\"",
       "count": 1,
       "changed": true
     },
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "deb5dfc5ffe455e08ec332f9a14d50603c31f240497e7b6bd59908086c3f6889",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -523,7 +523,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-03T11:46:42.889Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "86eafe6d5c8f851b89503c83e91d528a39e0a92147b785eca0d884d89f91970e",
       "etag": null,
       "count": 0,
@@ -541,7 +541,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-03T16:27:41.879Z",
+      "fetchedAt": "2026-10-03T19:58:11.245Z",
       "hash": "f24490fd410fe496487df1fef9dbb646867ee907b258e51a998f61ce60ca676f",
       "etag": null,
       "count": 0,
@@ -632,7 +632,7 @@
       "title": "Flood Warning issued October 3 at 11:10AM CDT until October 7 at 7:00PM CDT by NWS St Louis MO",
       "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From this evening to Wednesday evening. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 11:00 AM CDT Saturday the stage was 14.6 feet. - Forecast...The river is expected to rise above flood stage this evening to a crest of 15.6 feet early tomorrow afternoon. It will then fall below flood stage early Tuesday afternoon. - Flood stage is 15.0 feet.",
       "observedAt": "2026-10-03T11:10:00-05:00",
-      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "retrievedAt": "2026-10-03T19:58:11.245Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -657,7 +657,7 @@
       "title": "Flood Warning issued October 3 at 11:10AM CDT until October 8 at 1:00AM CDT by NWS St Louis MO",
       "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From this evening to late Wednesday night. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 11:00 AM CDT Saturday the stage was 24.2 feet. - Forecast...The river is expected to rise above flood stage late this evening to a crest of 25.7 feet Monday morning. It will then fall below flood stage Tuesday evening. - Flood stage is 25.0 feet.",
       "observedAt": "2026-10-03T11:10:00-05:00",
-      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "retrievedAt": "2026-10-03T19:58:11.245Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -682,7 +682,7 @@
       "title": "Flood Warning issued October 3 at 10:24AM CDT by NWS Chicago IL",
       "summary": "Lake, IL: ...Observed flooding changed from Minor to Moderate severity for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 9:30 AM CDT Saturday the stage was 7.2 feet. - Recent Activity...The river continues a gradual rise. - Forecast...The river is expected to crest tomorrow. - Flood stage is 7.0 feet. - http://www.weather.gov/safety/flood",
       "observedAt": "2026-10-03T10:24:00-05:00",
-      "retrievedAt": "2026-10-03T16:27:41.879Z",
+      "retrievedAt": "2026-10-03T19:58:11.245Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -698,6 +698,32 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T19:58:11.245Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T19:58:11.245Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.7e10e75d9a6cc607a8bb5230a6125fad6f6b8807.001.1",
@@ -794,32 +820,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-03T11:46:42.889Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-03T11:46:42.889Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -22859,9 +22859,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-03T16:27:41.879Z",
+  "collectedAt": "2026-10-03T19:58:11.245Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -35799,7 +35799,7 @@
     },
     {
       "date": "2026-10-03",
-      "asOf": "2026-10-03T16:27:42.105Z",
+      "asOf": "2026-10-03T19:58:12.647Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
