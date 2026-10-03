@@ -3,26 +3,26 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-02T23:50:06.334Z",
-      "hash": "ce7ca6d4a451dd85fc106959ec4026b65cb3aecec119a3b4072b9540ccb81f90",
-      "etag": "W/\"3b7f6bff753f951513eb692a62deed86:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 6,
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "379d7b65027456dd172abae10d4d60b5ca0ce7ff5fbe98090ef255a54e257157",
+      "etag": "W/\"746809481f2b4ea61e41ab49826bf3ac:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 4,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-02T23:50:06.334Z",
-      "hash": "5616a71b50cff9d40ec62bf07c1b05ef79787dbca92d085ea0ead69f91715b4b",
-      "etag": "W/\"0c1f92e6eda65085824440429194597e:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 7,
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "4071e57a33abb0f2148f2773d910f6e6e826ad71e4f13c4fec85a37256ff373e",
+      "etag": "W/\"63f5d9816eda9b3848c4f8d34e6851a0:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 6,
       "changed": true
     },
     {
       "sourceId": "eia-diesel",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "c203ffa22a02bc1ddf3765b98b163ac96669ccb579f22b7f925760b918d6472e",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "2eab1816ded13853d791082502a990ddf9f48729a20a715c83668ce6fc220df0",
       "etag": null,
       "count": 1,
       "changed": true
@@ -39,9 +39,9 @@
     {
       "sourceId": "fda-trace",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "3cdc73592527d5f168079c1a20a8e61b75c2b252f9d5cd6a31e5be5d6dbdb662",
-      "etag": "\"1790878485\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "6c42e86b9f8572ae1f699815f6a4919bde7cdf60ed7bfe5e18b51661c269e8e4",
+      "etag": "\"1790943167\"",
       "count": 1,
       "changed": true
     },
@@ -66,7 +66,7 @@
     {
       "sourceId": "noaa-cpc",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "752d34b277adefcc5a43c09b2655a80bae69a0aa16fe4d5b6c5893b0420d0b34",
       "etag": null,
       "count": 0,
@@ -93,8 +93,8 @@
     {
       "sourceId": "ams-dairy",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "a27501bb7871241ba26114a2d5bcae013db8a553c817edaaff5e66dcd708c599",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "3dce9d2b4c5405d60e87bda01e3297af28d96aa3cc43ca18fb3eeb3c4a44bfc2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -102,8 +102,8 @@
     {
       "sourceId": "ams-specialty",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "f5466dcb28a1cb07954137dfc06a179b6c963f96b4185ef33540f3e3037407e1",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "3c2c1183cf10c3a134f4875b4de12273178bb74ab81587736b7ee08631eb9beb",
       "etag": null,
       "count": 1,
       "changed": true
@@ -111,29 +111,29 @@
     {
       "sourceId": "nass",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "3ee473aecfff30981af9511a830bcd5c60d37e7eb6e8936f1c3f6720b6d52eee",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "wasde",
       "status": "blocked"
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "fas",
       "status": "error"
     },
     {
       "sourceId": "eia-energy",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "a84f55dfe85a962d41028660e9068dbbe1618ceb9875d970fb28ccd896107e8a",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "9327e3cb720c3e420c76d027e6d74c9a26666915f3ff205304e7c068752790c7",
       "etag": null,
       "count": 1,
       "changed": true
@@ -150,8 +150,8 @@
     {
       "sourceId": "usda-transport",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "24501b8fae8fc3dbd5f486fd94b00225dd360971d630b8b767620643ea4b5dc9",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "03266d7aee4d6abeef97cbb563e838a0bba704fc71788e6b3adb77996fe566a3",
       "etag": null,
       "count": 1,
       "changed": true
@@ -165,15 +165,15 @@
     {
       "sourceId": "stb",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "09e4e5499dd4dd1a20662467d646bd1f971a94206c8797b8d80b0fc538b6e84b",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "edecd980215c5e9093400b1b748c5b89f5cbbdeab77208ad83121ee6875f8a3e",
       "etag": null,
       "count": 1,
       "changed": true
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "usace",
       "status": "blocked"
     },
@@ -186,8 +186,8 @@
     {
       "sourceId": "panama",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "4926290267ac3c3899f32b683a06de6a19364cbe8ec86e0b21150603780f2074",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "df32706d5492fcfb01afd8654852bf2a8f077fbd68ea6856fa5ecf258dbc35fc",
       "etag": null,
       "count": 1,
       "changed": true
@@ -210,16 +210,16 @@
     {
       "sourceId": "fda-warning",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "30d5cfbf7cfd5b891820bfcfe84963329abd7df37528a0b8cbc533bc7f1c9945",
-      "etag": "\"1790878974\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "dcef3394fcf7bbd0469a804908a445d5f4d4b515bf401341b6a07ff2a40e1e3d",
+      "etag": "\"1790956729\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-import",
       "status": "error",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "019e482fb6d18b343c574dd79446b5be8555ac24a40d3c576c0d8b010909eafb",
       "etag": "\"62736b64e46dd1:0\"",
       "count": 1,
@@ -230,27 +230,27 @@
     {
       "sourceId": "fda-fsma",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "a369565e20e8aa15fd5a57d64ddd42cd01254fa35625548f8bdff0429fe12b87",
-      "etag": "\"1790878982\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "8bbb13d0038241bd5c20dd8b431b011d5a5a6c65740e8b404f8b8efb2bb26b47",
+      "etag": "\"1790956999\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-cvm",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "62e3ecd41c085c862a97ffb583d513f6380ff170d854c2fdcb613790cea5e19f",
-      "etag": "\"1790881904\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "3d64005ee2621452cd3c75140f139d46f2d6887c5a5a3f0ba3106f0ac34837f8",
+      "etag": "\"1790960565\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-toddler",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "dbbf8c69f17723b6854900a0e61f209f88773d7f89f1a52544784347a9f6d6c6",
-      "etag": "\"1790879965\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "a1ab5580aa418d65e97d82918c75e19162881a0ffcfe04d43d25b11c323852a0",
+      "etag": "\"1790961569\"",
       "count": 1,
       "changed": true
     },
@@ -272,11 +272,11 @@
     {
       "sourceId": "idph",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "05bdeb5d4e0ada00e1c2c6aafddd7121bea23fe5fc20f1c308c7650d8e94455c",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "44431bad559402aed11012d24eaa4e02f00653d4f16651c902e5d1b01ede0cfd",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "sqfi",
@@ -290,8 +290,8 @@
     {
       "sourceId": "federal-register",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "207b1f9e3467ac4cd2b244526b8f119eec4ff7583c60b5dff2b371ba21092024",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "cdd708e9fec520c8bd0412176692352c4ab512daed6fe6e005cb0a04f3f0a2ce",
       "etag": null,
       "count": 40,
       "changed": true
@@ -299,17 +299,17 @@
     {
       "sourceId": "cbp",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "935de02763402e90f9e5bff86bd232bfea35ba20ab95455b4bd65b9a6235bef8",
-      "etag": "\"1790898799\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "8f3f973d53b19c81c8b98363ddaf55b38f12cc152d0d9bb5cb818fd1997729de",
+      "etag": "\"1791003574\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "usitc",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "462aa7d5b5916bc801c2c4b2e078fa2c38f790e4cbf8b218912b310ea86ce4be",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "2116e863da67d45a58c6a5bab8a02da9f29d7a21b0c5fe4f455aca7f0b6b77ab",
       "etag": null,
       "count": 1,
       "changed": true
@@ -317,17 +317,17 @@
     {
       "sourceId": "ustr",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "25ee5ca0ef631b775b07e06e344426568b1f74997186dcdb845497587cc1a1bd",
-      "etag": "\"1790902098-gzip\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "b6479fda938223ce3a274efd2b0455a532c1678bc59368050c70b28e8a2f4330",
+      "etag": "\"1791004716-gzip\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "ofac",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "79886d7d51415cfe3ae816d3fce3310e7e09df4c1e1f82ba60905ccc878f06d5",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "246f1c631ffc7c394a0371903df509851f5713c37d4d406a18f4cdb65db2634e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -335,7 +335,7 @@
     {
       "sourceId": "bls-ppi",
       "status": "blocked",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "error": "HTTP 403"
     },
     {
@@ -350,14 +350,14 @@
     {
       "sourceId": "bls-labor",
       "status": "blocked",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "error": "HTTP 403"
     },
     {
       "sourceId": "ides",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "8a8e94ad2df4b349e6b40e25a8b96c5977e005719b2be3c20ab412a501eb7ea1",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "93abd0578535ba7ce09a4b69e9eaebe0f16f84829b9153d8d3e9c95c6a82c142",
       "etag": null,
       "count": 1,
       "changed": true
@@ -365,21 +365,21 @@
     {
       "sourceId": "widwd",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "bae225df7a2d5aa850a1f1628c712c7107c4835d2122626eb2020de34316032b",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "7260cf879e81f907018ca167303bb1e61e05fb898122c8cdf5f4d2a676cbb577",
       "etag": null,
       "count": 1,
       "changed": true
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "dol",
       "status": "blocked"
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "sec",
       "status": "blocked"
     },
@@ -430,14 +430,14 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "deer-creek",
       "status": "error"
     },
     {
       "sourceId": "gridley-local",
       "status": "blocked",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "abf38ae7d58846e736b2fbbb0794da4303f12ec67969abf361acbe73574dfe54",
       "etag": null,
       "count": 1,
@@ -516,7 +516,7 @@
     },
     {
       "error": "Payload exceeds 3 MB safety limit",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "sourceId": "rockwell",
       "status": "error"
     },
@@ -532,8 +532,8 @@
     {
       "sourceId": "cisa-ransom",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "815f269ffda58a73509153216426e7f7cd13fc8e2cede63d9f4a77fd9ae06b82",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "7f59414fd5001117e29e22b558edbcd86aeb77aea7ced5ff6ef81a3e8673469f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -541,31 +541,31 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-02T23:50:06.334Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "2747fd76f3968a507ff1a4e78c36ba27a1feabea153ce63a855c78bbb888b4b4",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "d85a1aae956e44692c7d35231844ee68475d5c7ef1d118a2bbe366d4a986be99",
       "etag": null,
-      "count": 2,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "bls-peoria",
       "status": "blocked",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "error": "HTTP 403"
     },
     {
       "sourceId": "bls-milwaukee",
       "status": "blocked",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "error": "HTTP 403"
     },
     {
@@ -580,18 +580,18 @@
     {
       "sourceId": "eia-steo",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
       "hash": "40420203d070e0c05b8d400341a67fc59d392c60d65df9404202dce2c415bda7",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "gis-ir",
       "status": "ok",
-      "fetchedAt": "2026-10-02T00:51:35.534Z",
-      "hash": "2f54ce4e98fb38fe37f0deff93a402da499333fda9634e552c6129ef99376813",
-      "etag": "\"ff0f3f086e15b58b774a2b18921468cb\"",
+      "fetchedAt": "2026-10-03T05:25:11.198Z",
+      "hash": "5cebb16f42c7fb549814867311ca3d62ec92c79ead9ee2469b59e9b335c25b97",
+      "etag": "\"f4e8564e1504c68f4e8c4b1ac314a946\"",
       "count": 1,
       "changed": true
     },
@@ -626,6 +626,1064 @@
     }
   ],
   "candidates": [
+    {
+      "id": "gis-ir:page-change",
+      "sourceId": "gis-ir",
+      "title": "General Mills, Inc. - Financial News",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://investors.generalmills.com/press-releases/",
+      "scope": "Public CPG/cereal/snack/pet archetype; no Watershed account relationship asserted. Check organic volume, price/mix and divestiture effects."
+    },
+    {
+      "id": "fda-fsma:page-change",
+      "sourceId": "fda-fsma",
+      "title": "Food Safety Modernization Act (FSMA) | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
+      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
+    },
+    {
+      "id": "fda-cvm:page-change",
+      "sourceId": "fda-cvm",
+      "title": "Animal Foods &amp; Feeds | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
+      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
+    },
+    {
+      "id": "widwd:page-change",
+      "sourceId": "widwd",
+      "title": "Wisconsin Labor Market Information Release Dates",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Labor",
+      "sourceUrl": "https://dwd.wisconsin.gov/press/lmi-release-dates.htm",
+      "scope": "Greater Milwaukee employment/wages until municipality is verified"
+    },
+    {
+      "id": "ams-dairy:page-change",
+      "sourceId": "ams-dairy",
+      "title": "Dairy | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
+      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
+    },
+    {
+      "id": "ams-specialty:page-change",
+      "sourceId": "ams-specialty",
+      "title": "Specialty Crops | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
+      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
+    },
+    {
+      "id": "usda-transport:page-change",
+      "sourceId": "usda-transport",
+      "title": "Grain Transportation Report | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.ams.usda.gov/services/transportation-analysis/gtr",
+      "scope": "Weekly truck, rail, barge and ocean context, not Watershed lane pricing"
+    },
+    {
+      "id": "cbp:page-change",
+      "sourceId": "cbp",
+      "title": "Trade | U.S. Customs and Border Protection",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://www.cbp.gov/trade",
+      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
+    },
+    {
+      "id": "ustr:page-change",
+      "sourceId": "ustr",
+      "title": "Home | United States Trade Representative",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://ustr.gov/",
+      "scope": "Retaliation, import/export policy and official implementation details"
+    },
+    {
+      "id": "fda-trace:page-change",
+      "sourceId": "fda-trace",
+      "title": "FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+      "scope": "Separate proposed rules, enacted enforcement limits and final obligations"
+    },
+    {
+      "id": "stb:page-change",
+      "sourceId": "stb",
+      "title": "Surface Transportation Board",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.stb.gov/reports-data/rail-service-data/",
+      "scope": "Rail service conditions; facility use remains hypothesis"
+    },
+    {
+      "id": "fda-warning:page-change",
+      "sourceId": "fda-warning",
+      "title": "Warning Letters | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters",
+      "scope": "Firm identity and observation dates; a warning letter is not a recall"
+    },
+    {
+      "id": "usitc:page-change",
+      "sourceId": "usitc",
+      "title": "Harmonized Tariff Schedule",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://hts.usitc.gov/",
+      "scope": "Do not assign a tariff from an ingredient name alone"
+    },
+    {
+      "id": "ofac:page-change",
+      "sourceId": "ofac",
+      "title": "Recent Actions | Office of Foreign Assets Control",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://ofac.treasury.gov/recent-actions",
+      "scope": "Country/entity screening; no unsupported counterparty relationship"
+    },
+    {
+      "id": "eia-energy:page-change",
+      "sourceId": "eia-energy",
+      "title": "Opendata - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/opendata/",
+      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
+    },
+    {
+      "id": "panama:page-change",
+      "sourceId": "panama",
+      "title": "Maritime Services - Autoridad del Canal de Panamá",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://pancanal.com/en/maritime-services/",
+      "scope": "Transit capacity and restrictions; no assumed route"
+    },
+    {
+      "id": "fda-toddler:page-change",
+      "sourceId": "fda-toddler",
+      "title": "Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods",
+      "scope": "Product forms, age groups, state rules and guidance scope must be checked"
+    },
+    {
+      "id": "cisa-ransom:page-change",
+      "sourceId": "cisa-ransom",
+      "title": "Stop Ransomware | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/stopransomware",
+      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
+    },
+    {
+      "id": "federal-register:2026-19704",
+      "sourceId": "federal-register",
+      "title": "Robotically-Assisted Surgical Devices-Premarket Submissions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the draft guidance titled \"Robotically-Assisted Surgical Devices--Premarket Submissions.\" This draft guidance provides draft recommendations for premarket submissions for robotically- assisted surgical devices (RASDs). This draft guidance is not final nor is it for implementation at this time.",
+      "observedAt": "2026-09-25",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19700",
+      "sourceId": "federal-register",
+      "title": "Dermatologic and Ophthalmic Drugs Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-New Drug Application (NDA) 219694 for Atropine Sulfate Ophthalmic Solution, 0.01%",
+      "summary": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The meeting will be open to the public. FDA is establishing a docket for public comment on this document.",
+      "observedAt": "2026-09-25",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19700/dermatologic-and-ophthalmic-drugs-advisory-committee-notice-of-meeting-establishment-of-a-public",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19660",
+      "sourceId": "federal-register",
+      "title": "Reauthorization of the Biosimilar User Fee Act; Public Meeting; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is hosting a hybrid public meeting to discuss proposed recommendations for the reauthorization of the Biosimilar User Fee Act (BsUFA) for fiscal years (FYs) 2028 through 2032. The BsUFA authorizes FDA to collect user fees to support the process for the review of biosimilar biological product applications. The current legislative authority for BsUFA expires in September 2027. At that time, new legislation will be required for FDA to continue collecting user fees in future fiscal years. Following discussions with the regulated industry and periodic consultations with public stakeholders, the Federal Food, Drug, and Cosmetic Act (the FD&C Act) directs FDA to publish the recommendations for the reauthorized program in the Federal Register, hold a meeting at which the public may present",
+      "observedAt": "2026-09-25",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19660/reauthorization-of-the-biosimilar-user-fee-act-public-meeting-request-for-comments",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19801",
+      "sourceId": "federal-register",
+      "title": "Fisheries of the Caribbean, Gulf of America, and South Atlantic; Snapper-Grouper Fishery of the South Atlantic; Regulatory Amendment 36",
+      "summary": "NMFS issues regulations to implement Regulatory Amendment 36 under the Fishery Management Plan for the Snapper-Grouper Fishery of the South Atlantic (Snapper-Grouper FMP). This final rule revises the recreational vessel limits for gag and black grouper. Additionally, this final rule revises the transit storage requirements for commercial on-demand, also known as ropeless, black sea bass pots. The purpose of these regulatory changes is to increase biological benefits to the gag and black grouper stocks, and to allow more practical transit of vessels through certain gear restricted areas with on-demand black sea bass pots on board, consistent with mandates in the Magnuson-Stevens Fishery Conservation and Management Act (Magnuson-Stevens Act).",
+      "observedAt": "2026-09-28",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19801/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-snapper-grouper-fishery-of-the-south",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19792",
+      "sourceId": "federal-register",
+      "title": "Importer of Controlled Substances Application: Benuvia Operations, LLC",
+      "summary": "Benuvia Operations, LLC. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.",
+      "observedAt": "2026-09-28",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19792/importer-of-controlled-substances-application-benuvia-operations-llc",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19779",
+      "sourceId": "federal-register",
+      "title": "Certain Frozen Warmwater Shrimp From India: Rescission of Antidumping Duty Administrative Review, In Part; 2025-2026",
+      "summary": "On March 31, 2026, the U.S. Department of Commerce (Commerce) initiated an administrative review of the antidumping duty (AD) order on certain frozen warmwater shrimp (shrimp) from India for the period of review (POR) February 1, 2025, through January 31, 2026, for 393 companies. We are rescinding this administrative review with respect to certain companies because they had no reviewable entries of subject merchandise during the POR. For a list of the companies for which we are rescinding this review in the absence of suspended entries of subject merchandise during the POR, see Appendix I to this notice. For a list of the companies for which the review is continuing, see Appendix II to this notice.",
+      "observedAt": "2026-09-28",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19779/certain-frozen-warmwater-shrimp-from-india-rescission-of-antidumping-duty-administrative-review-in",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19758",
+      "sourceId": "federal-register",
+      "title": "Airworthiness Directives; Airbus Helicopters",
+      "summary": "The FAA is adopting a new airworthiness directive (AD) for certain Airbus Helicopters Model EC 130 T2 helicopters. This AD was prompted by the determination that helicopter operators received main rotor blades (MRB) that are not certified to be installed on their helicopters and thus, without instructions for continued airworthiness, cannot be properly maintained. This AD requires replacing the affected parts with serviceable parts and prohibits installing the affected MRBs on Airbus Helicopters Model EC 130 T2 helicopters. The FAA is issuing this AD to address the unsafe condition on these products.",
+      "observedAt": "2026-09-28",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19658",
+      "sourceId": "federal-register",
+      "title": "Filing of Color Additive Petition From Doehler GmbH; Request To Amend the Color Additive Regulations To Provide for the Safe Use of Calcium Sulfate in Various Foods at Levels Consistent With Good Manufacturing Practice",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a color additive petition, submitted by Doehler GmbH, c/o Hogan Lovells Cadwalader, proposing that we amend our color additive regulations to provide for the safe use of calcium sulfate in various foods at levels consistent with good manufacturing practice.",
+      "observedAt": "2026-09-25",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19658/filing-of-color-additive-petition-from-doehler-gmbh-request-to-amend-the-color-additive-regulations",
+      "ruleStage": "Proposed Rule"
+    },
+    {
+      "id": "federal-register:2026-19921",
+      "sourceId": "federal-register",
+      "title": "Determination That SULFADIAZINE (Sulfadiazine) Tablet, 500 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that SULFADIAZINE (sulfadiazine) tablet, 500 milligrams (mg), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for SULFADIAZINE (sulfadiazine) tablet, 500 mg, if all other legal and regulatory requirements are met.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19921/determination-that-sulfadiazine-sulfadiazine-tablet-500-milligrams-was-not-withdrawn-from-sale-for",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19912",
+      "sourceId": "federal-register",
+      "title": "FHTA LLC; Withdrawal of Approval of New Drug Application for MYSOLINE (Primidone) Suspension, 250 Milligrams/5 Milliliters",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of new drug application (NDA) 010401 for MYSOLINE (primidone) suspension, 250 milligrams (mg)/5 milliliters (mL), held by FHTA LLC (FHTA). FHTA agreed to withdrawal of approval of this application and has waived its opportunity for a hearing.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19912/fhta-llc-withdrawal-of-approval-of-new-drug-application-for-mysoline-primidone-suspension-250",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19903",
+      "sourceId": "federal-register",
+      "title": "Statement of Organization, Functions, and Delegations of Authority",
+      "summary": "This document revises and restates the Statement of Organization, Functions, and Delegations of Authority for the Department of Health and Human Services, Office of the General Counsel (OGC). Issuance of this Statement of Organization rescinds all prior Statements of Organization.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19903/statement-of-organization-functions-and-delegations-of-authority",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19887",
+      "sourceId": "federal-register",
+      "title": "Almonds Grown in California; Extension of Inedible Disposition Obligation Deadline",
+      "summary": "This final rule implements a recommendation from the Almond Board of California to extend the inedible disposition obligation deadline prescribed under the Federal marketing order for almonds grown in California from September 30 to November 30 indefinitely.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19887/almonds-grown-in-california-extension-of-inedible-disposition-obligation-deadline",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19884",
+      "sourceId": "federal-register",
+      "title": "Sodium Salt of Acifluorfen; Pesticide Tolerance",
+      "summary": "This regulation establishes a tolerance for residues of sodium salt of acifluorfen in or on sugar beet. UPL NA, Inc. requested this tolerance under the Federal Food, Drug, and Cosmetic Act (FFDCA).",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19884/sodium-salt-of-acifluorfen-pesticide-tolerance",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19850",
+      "sourceId": "federal-register",
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Submission of Petitions: Food Additive, Color Additive (Including Labeling), Submission of Information to a Master File in Sup",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19850/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19849",
+      "sourceId": "federal-register",
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Protection of Human Subjects and Institutional Review Boards",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits comments on information collection requirements for the tracking of medical devices.",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19849/agency-information-collection-activities-proposed-collection-comment-request-protection-of-human",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19842",
+      "sourceId": "federal-register",
+      "title": "JT Medical, LLC; Decision and Order",
+      "summary": "Notice",
+      "observedAt": "2026-09-29",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19842/jt-medical-llc-decision-and-order",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "eia-diesel:page-change",
+      "sourceId": "eia-diesel",
+      "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
+      "scope": "Weekly Midwest benchmark; fuel surcharge clauses are unknown"
+    },
+    {
+      "id": "federal-register:2026-20075",
+      "sourceId": "federal-register",
+      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Flushing and Storage Solution for Vascular Autografts at Room Temperature",
+      "summary": "The Food and Drug Administration (FDA) is classifying the flushing and storage solution for vascular autografts at room temperature into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the flushing and storage solution for vascular autografts at room temperature. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20075/medical-devices-gastroenterology-urology-devices-classification-of-the-flushing-and-storage-solution",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-20053",
+      "sourceId": "federal-register",
+      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes (Renewal)",
+      "summary": "The Environmental Protection Agency (EPA) has submitted an information collection request (ICR), Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes (EPA ICR Number 2722.03, OMB Control Number 2060-0749), to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act. This is a proposed extension of the ICR, which is currently approved through September 30, 2026. This notice allows for an additional 30 days for public comments.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20046",
+      "sourceId": "federal-register",
+      "title": "Commercial Driver's License Standards: Application for Exemption; Agri-Tech Aviation",
+      "summary": "FMCSA announces its decision to deny the application from Agri-Tech Aviation requesting an exemption to allow its commercial learner's permit (CLP) holders who have passed the commercial driver's license (CDL) skills test but not yet obtained a CDL license to drive its commercial motor vehicles (CMV) without being accompanied by a CDL holder in the passenger seat. FMCSA analyzed the application and public comments and determined there is insufficient basis to conclude the exemption would likely achieve a level of safety that is equivalent to, or greater than, the level that would be achieved absent such exemption.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20046/commercial-drivers-license-standards-application-for-exemption-agri-tech-aviation",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20015",
+      "sourceId": "federal-register",
+      "title": "Agency Information Collection Activities; National Park Service Concessions Forms",
+      "summary": "In accordance with the Paperwork Reduction Act of 1995, we, the National Park Service (NPS) are requesting an extension of a currently approved information collection.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20015/agency-information-collection-activities-national-park-service-concessions-forms",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-19978",
+      "sourceId": "federal-register",
+      "title": "Iranian Transactions and Sanctions Regulations",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is adopting a final rule amending the Iranian Transactions and Sanctions Regulations to implement certain provisions of a January 10, 2020 Iran-related Executive order. This amendment also revises an existing definition and an existing exemption, and incorporates two exemptions from the January 10, 2020 Iran-related Executive order.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19978/iranian-transactions-and-sanctions-regulations",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19977",
+      "sourceId": "federal-register",
+      "title": "Cuba Sanctions Regulations",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is adding regulations to implement a May 1, 2026 Cuba- related Executive order. OFAC intends to supplement these regulations with a more comprehensive set of regulations, which may include additional interpretive guidance and definitions, general licenses, and other regulatory provisions.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19977/cuba-sanctions-regulations",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-19968",
+      "sourceId": "federal-register",
+      "title": "Determination That ISTURISA (Osilodrostat) Tablets, 10 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that ISTURISA (osilodrostat) tablets, 10 milligrams (mg), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for osilodrostat tablets, 10 mg if all other legal and regulatory requirements are met.",
+      "observedAt": "2026-09-30",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19968/determination-that-isturisa-osilodrostat-tablets-10-milligrams-was-not-withdrawn-from-sale-for",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "ides:page-change",
+      "sourceId": "ides",
+      "title": "Labor Market Information",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Labor",
+      "sourceUrl": "https://ides.illinois.gov/resources/labor-market-information.html",
+      "scope": "Central Illinois employment, local wages and WARN notices"
+    },
+    {
+      "id": "federal-register:2026-20178",
+      "sourceId": "federal-register",
+      "title": "Unleashing American Energy and Economic Prosperity; Rural Energy for America Program (REAP)",
+      "summary": "The Rural Business-Cooperative Service (RBCS or the Agency), an agency of the Rural Development (RD) mission area within the U.S. Department of Agriculture (USDA) is issuing a final rule with comment period. Implementation of this action will simplify and streamline requirements and processes in the Rural Energy for America Program (REAP). Under the new REAP structure, projects must already be fully built and operational before the applicant ever applies. Applicants then apply, submitting actual energy production or savings data for the prior 12 months, alongside 12 months of pre-installation data. The Agency evaluates applications for completeness, eligibility, risk, and merit and will award grants subject to the availability of funds and criteria provided in an annual notice. This new approach changes the program to a post completion, p",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20178/unleashing-american-energy-and-economic-prosperity-rural-energy-for-america-program-reap",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-20168",
+      "sourceId": "federal-register",
+      "title": "Codex Alimentarius Commission: Meeting of the Codex Committee on Food Hygiene",
+      "summary": "The U.S Codex Office is sponsoring a public meeting on October 29, 2026. The objective of the public meeting is to provide information and receive public comments on agenda items to be discussed at the 56th Session of the Codex Committee on Food Hygiene (CCFH) of the Codex Alimentarius Commission (CAC). CCFH56 will be held in Scottsdale, Arizona, from November 16-20, 2026. The U.S. Executive Director for Codex Alimentarius and the Under Secretary for Trade and Foreign Agricultural Affairs recognize the importance of providing interested parties the opportunity to obtain background information on the 56th Session of the CCFH and to address items on the agenda.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20168/codex-alimentarius-commission-meeting-of-the-codex-committee-on-food-hygiene",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20160",
+      "sourceId": "federal-register",
+      "title": "Initiation of Antidumping and Countervailing Duty Administrative Reviews",
+      "summary": "The U.S. Department of Commerce (Commerce) has received requests to conduct administrative reviews of various antidumping duty (AD) and countervailing duty (CVD) orders with August anniversary dates. In accordance with Commerce's regulations, we are initiating those administrative reviews.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20160/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20142",
+      "sourceId": "federal-register",
+      "title": "Advisory Committee; Antimicrobial Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Antimicrobial Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Antimicrobial Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the October 7, 2028, expiration date.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20142/advisory-committee-antimicrobial-drugs-advisory-committee-renewal",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20141",
+      "sourceId": "federal-register",
+      "title": "Advisory Committee; Dermatologic and Ophthalmic Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Dermatologic and Ophthalmic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Dermatologic and Ophthalmic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the October 7, 2028, expiration date.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20141/advisory-committee-dermatologic-and-ophthalmic-drugs-advisory-committee-renewal",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20125",
+      "sourceId": "federal-register",
+      "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Application for an Exempted Fishing Permit",
+      "summary": "This notice announces NMFS' receipt of an application from SeaShare, Inc. and Glacier Fish Co. and the public comment period for an exempted fishing permit (EFP). If issued, this permit would allow the applicants to retain Pacific halibut up to a poundage limit and donate it through the Prohibited Species Donation (PSD) Program, after Pacific halibut deck sorting and after sampling by a fisheries observer. This EFP would exempt one catcher/processor vessel from complying with regulations that prohibit the retention of Pacific halibut and donation of Pacific halibut prohibited species. The EFP would place a poundage limit on the allowable retention of Pacific halibut. Effective dates of the EFP would be from May 1, 2027, to December 31, 2028. This experiment would allow retention of Pacific halibut to test an additional way to donate dead ",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20125/fisheries-of-the-exclusive-economic-zone-off-alaska-application-for-an-exempted-fishing-permit",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20085",
+      "sourceId": "federal-register",
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Voluntary Improvement Program",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20085/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20065",
+      "sourceId": "federal-register",
+      "title": "Request for Nominations for Individuals and Consumer Organizations for Advisory Committees",
+      "summary": "The Food and Drug Administration (FDA or Agency) is requesting that any consumer organizations interested in participating in the selection of voting and/or nonvoting consumer representatives to serve on its advisory committees or panels notify FDA in writing. FDA is also requesting nominations for voting and/or nonvoting consumer representatives to serve on advisory committees and/or panels for which vacancies currently exist or are expected to occur in the near future. Nominees recommended to serve as a voting or nonvoting consumer representative may be self-nominated or may be nominated by a consumer organization. FDA seeks to include the views of individuals on its advisory committees selected without regard to race, color, national origin, religion, age, or sex.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20065/request-for-nominations-for-individuals-and-consumer-organizations-for-advisory-committees",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20063",
+      "sourceId": "federal-register",
+      "title": "Request for Nominations for Voting Members of Food and Drug Administration Advisory Committees",
+      "summary": "The Food and Drug Administration (FDA or Agency) is requesting nominations for qualified individuals to serve as voting members of FDA's standing public advisory committees and panels (collectively, advisory committees). This notice covers scientific, technical, professional, and other voting-member positions in which appointees serve as individuals rather than as designated representatives; it does not solicit nominations for consumer representative or industry representative positions. FDA will consider nominations for current and future vacancies as they arise. FDA encourages nominations of all appropriately qualified candidates whose expertise and perspectives would contribute to the work and balanced composition of its advisory committees.",
+      "observedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20063/request-for-nominations-for-voting-members-of-food-and-drug-administration-advisory-committees",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "idph:page-change",
+      "sourceId": "idph",
+      "title": "Food Safety",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://dph.illinois.gov/topics-services/food-safety.html",
+      "scope": "State food protection and notices"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.7e10e75d9a6cc607a8bb5230a6125fad6f6b8807.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 10:23PM CDT until October 8 at 1:00AM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Louisiana. * WHEN...From Saturday evening to late Wednesday night. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 10:00 PM CDT Friday the stage was 13.4 feet. - Forecast...The river is expected to rise above flood stage tomorrow evening to a crest of 15.6 feet early Sunday afternoon. It will then fall below flood stage Tuesday evening. - Flood stage is 15.0 feet.",
+      "observedAt": "2026-10-02T22:23:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-04T10:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.7e10e75d9a6cc607a8bb5230a6125fad6f6b8807.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 10:23PM CDT until October 8 at 1:00PM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...From Saturday evening to Thursday afternoon. * IMPACTS...At 25.5 feet, State Route P east of Elsberry begins flooding just east of the levee. * ADDITIONAL DETAILS... - At 10:00 PM CDT Friday the stage was 23.0 feet. - Forecast...The river is expected to rise above flood stage late tomorrow evening to a crest of 25.7 feet Monday morning. It will then fall below flood stage Wednesday morning. - Flood stage is 25.0 feet.",
+      "observedAt": "2026-10-02T22:23:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-04T10:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1e831bb71c79c8686c7ea911a7d1abc28ef25abc.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 9:43PM CDT until October 4 at 1:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until Sunday afternoon. * IMPACTS...At 11.0 feet, Floodwaters begin to affect 77th St. in the Town of Wheatland. Floodwaters are near some homes along Riverside Dr, Shorewood Dr, and Highway W in the Village of Salem Lakes and Town of Wheatland areas. Fox River Park boat launch starts to flood. * ADDITIONAL DETAILS... - At 9:00 PM CDT Friday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a crest of 11.1 feet tomorrow evening. It will then fall below flood stage Sunday morning. - Fl",
+      "observedAt": "2026-10-02T21:43:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T09:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.903f13daa979d621a25ed9152acc6af5fc939581.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 2 at 8:19PM CDT by NWS Chicago IL",
+      "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 PM CDT Friday the stage was 7.2 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 7:30 PM CDT Friday was 7.2 feet. - Forecast...The river is expected to rise to a crest of 7.4 feet tomorrow evening. The river is then forecast to remain in flood stage through early next week. - Flood stage is 7.0 feet. - Flood History...This crest compares to a p",
+      "observedAt": "2026-10-02T20:19:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-03T14:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILC097"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.6a11bdc0e0344284b40980768c98ac2b3689656c.001.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 11:30PM CDT until October 3 at 7:00AM CDT by NWS La Crosse WI",
+      "summary": "Taylor: * WHAT...Temperatures as low as 35 will result in frost formation. * WHERE...Taylor County. * WHEN...Until 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T23:30:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T07:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055119"
+        ],
+        "UGC": [
+          "WIZ017"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.1e831bb71c79c8686c7ea911a7d1abc28ef25abc.001.1",
+      "sourceId": "nws-wi",
+      "title": "Flood Warning issued October 2 at 9:43PM CDT until October 4 at 1:00PM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Lake, IL; Kenosha, WI: ...The Flood Warning continues for the following rivers in Wisconsin...Illinois... Fox River Lower Near New Munster affecting Kenosha and Lake Counties. * WHAT...Minor flooding is forecast. * WHERE...Fox River Lower near New Munster. * WHEN...Until Sunday afternoon. * IMPACTS...At 11.0 feet, Floodwaters begin to affect 77th St. in the Town of Wheatland. Floodwaters are near some homes along Riverside Dr, Shorewood Dr, and Highway W in the Village of Salem Lakes and Town of Wheatland areas. Fox River Park boat launch starts to flood. * ADDITIONAL DETAILS... - At 9:00 PM CDT Friday the stage was 10.5 feet. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage early tomorrow afternoon to a crest of 11.1 feet tomorrow evening. It will then fall below flood stage Sunday morning. - Fl",
+      "observedAt": "2026-10-02T21:43:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T09:45:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017097",
+          "055059"
+        ],
+        "UGC": [
+          "ILC097",
+          "WIC059"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.66a2278f2f342fd221aabda30ddd08bc1754ac3e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 9:29PM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Vilas; Forest; Florence; Northern Marinette County: * WHAT...Sub-freezing temperatures as low as 28 expected. * WHERE...Vilas, Florence, Forest, and Northern Marinette counties. * WHEN...Until 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T21:29:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T05:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055125",
+          "055041",
+          "055037",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ005",
+          "WIZ011",
+          "WIZ012",
+          "WIZ013"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.66a2278f2f342fd221aabda30ddd08bc1754ac3e.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 9:29PM CDT until October 3 at 7:00AM CDT by NWS Green Bay WI",
+      "summary": "Oneida; Lincoln; Langlade; Menominee; Northern Oconto County; Southern Marinette County; Southern Oconto County: * WHAT...Temperatures in the lower to middle 30s will result in frost formation. * WHERE...Langlade, Lincoln, Oneida, Menominee, Northern Oconto County, Southern Marinette County, and Southern Oconto counties. * WHEN...Until 7 AM CDT Saturday. * IMPACTS...Frost could kill sensitive outdoor vegetation if left uncovered.",
+      "observedAt": "2026-10-02T21:29:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T05:30:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055085",
+          "055069",
+          "055067",
+          "055078",
+          "055083",
+          "055075"
+        ],
+        "UGC": [
+          "WIZ010",
+          "WIZ018",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.d6be3926f2d416f06924a00dd00822985186a41e.002.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 2 at 8:07PM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Northern Cook/Northern Lake; Southern Cook/North Shore; Bayfield; Sawyer; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In Minnesota, Northern Cook and Lake and Southern Cook Counties. In Wisconsin, Price, Bayfield, and Sawyer Counties. * WHEN...Until 7 AM CDT Saturday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-02T20:07:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T07:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027031",
+          "027075",
+          "055007",
+          "055113",
+          "055099"
+        ],
+        "UGC": [
+          "MNZ012",
+          "MNZ021",
+          "WIZ002",
+          "WIZ008",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.d6be3926f2d416f06924a00dd00822985186a41e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 2 at 8:07PM CDT until October 3 at 7:00AM CDT by NWS Duluth MN",
+      "summary": "Ashland; Iron: * WHAT...Sub-freezing temperatures as low as 28 expected. * WHERE...Ashland and Iron Counties. * WHEN...Until 7 AM CDT Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-02T20:07:00-05:00",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-03T07:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055003",
+          "055051"
+        ],
+        "UGC": [
+          "WIZ003",
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "federal-register:2026-20320",
+      "sourceId": "federal-register",
+      "title": "Eliminating Disease-Carrying Pests and Restoring Enjoyment of the Great Outdoors",
+      "summary": "Presidential Document",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20320/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors",
+      "ruleStage": "Presidential Document"
+    },
+    {
+      "id": "federal-register:2026-20281",
+      "sourceId": "federal-register",
+      "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
+      "summary": "This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating Medicare Part B drug inflation rebate amounts for certain separately payable Medicare Part B drugs and biological products reduces costs for Original Medicare (OM) beneficiaries and the Medicare program while preserving quality of care. The term OM has the same meaning as Medicare fee-for-service and the traditional Medicare program.",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-20278",
+      "sourceId": "federal-register",
+      "title": "Submission for OMB Review; Comment Request",
+      "summary": "Notice",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20278/submission-for-omb-review-comment-request",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20265",
+      "sourceId": "federal-register",
+      "title": "Proposed Information Collection Activity; U.S. Repatriation Forms",
+      "summary": "The Administration for Children and Families (ACF) is requesting a 3-year extension of the U.S. Repatriation Program forms (OMB #0970-0474, expiration 1/31/2027). There are several changes requested to the thirteen forms. Burden estimates have also been updated.",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20265/proposed-information-collection-activity-us-repatriation-forms",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20251",
+      "sourceId": "federal-register",
+      "title": "Big Cypress National Preserve; Off-Road Motor Vehicles",
+      "summary": "The National Park Service proposes to amend special regulations for Big Cypress National Preserve that regulate the use of motorized vehicles off roads. The current regulations refer to a map that identifies areas within the National Preserve where motorized vehicles can be used unless closed by the Superintendent. This map is outdated and does not depict the current boundary of the National Preserve, which was expanded in 1988 by approximately 147,000 acres. This rule would replace references to the outdated map with references to a map showing the current boundary of the National Preserve, with the effect of expanding the areas within the National Preserve where motorized vehicle use could occur, subject to the discretion of the Superintendent.",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20251/big-cypress-national-preserve-off-road-motor-vehicles",
+      "ruleStage": "Proposed Rule"
+    },
+    {
+      "id": "federal-register:2026-20237",
+      "sourceId": "federal-register",
+      "title": "Submission for OMB Review; Comment Request",
+      "summary": "Notice",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20237/submission-for-omb-review-comment-request",
+      "ruleStage": "Notice"
+    },
+    {
+      "id": "federal-register:2026-20219",
+      "sourceId": "federal-register",
+      "title": "Phosphatidylcholine in Pesticide Formulations; Exemption From the Requirement for a Tolerance",
+      "summary": "This regulation establishes an exemption from the requirement of a tolerance for residues of phosphatidylcholine (CAS Reg. No. 97281- 47-5) when used as an inert ingredient (adjuvant/carrier) in pesticide contraceptive formulations applied to cervid, porcine, raccoon, and bovine. Compliance Services International on behalf of SpayVac-for- Wildlife, Inc., submitted a petition to EPA under the Federal Food, Drug, and Cosmetic Act (FFDCA), requesting establishment of an exemption from the requirement of a tolerance. This regulation eliminates the need to establish a maximum permissible level for residues of phosphatidylcholine, when used in accordance with the terms of that exemption.",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20219/phosphatidylcholine-in-pesticide-formulations-exemption-from-the-requirement-for-a-tolerance",
+      "ruleStage": "Rule"
+    },
+    {
+      "id": "federal-register:2026-20211",
+      "sourceId": "federal-register",
+      "title": "Supplemental Nutrition Assistance Program: State of Nebraska SNAP Demonstration Project",
+      "summary": "This notice invites the public to comment on the State of Nebraska's proposed demonstration project under section 17(b) of the Food and Nutrition Act of 2008. The Food and Nutrition Administration (FNA) will take appropriate action as necessary in response to comments, including authorizing or refusing to authorize the proposed project.",
+      "observedAt": "2026-10-02",
+      "retrievedAt": "2026-10-03T05:25:11.198Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20211/supplemental-nutrition-assistance-program-state-of-nebraska-snap-demonstration-project",
+      "ruleStage": "Notice"
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.3a264cdf8102aa5fc9e3249f4bf654b1affca786.001.1",
       "sourceId": "nws-il",
@@ -2369,279 +3427,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "gis-ir:page-change",
-      "sourceId": "gis-ir",
-      "title": "General Mills, Inc. - Financial News",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://investors.generalmills.com/press-releases/",
-      "scope": "Public CPG/cereal/snack/pet archetype; no Watershed account relationship asserted. Check organic volume, price/mix and divestiture effects."
-    },
-    {
-      "id": "fda-fsma:page-change",
-      "sourceId": "fda-fsma",
-      "title": "Food Safety Modernization Act (FSMA) | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
-      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
-    },
-    {
-      "id": "fda-cvm:page-change",
-      "sourceId": "fda-cvm",
-      "title": "Animal Foods &amp; Feeds | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
-      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
-    },
-    {
-      "id": "widwd:page-change",
-      "sourceId": "widwd",
-      "title": "Wisconsin Labor Market Information Release Dates",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Labor",
-      "sourceUrl": "https://dwd.wisconsin.gov/press/lmi-release-dates.htm",
-      "scope": "Greater Milwaukee employment/wages until municipality is verified"
-    },
-    {
-      "id": "ams-dairy:page-change",
-      "sourceId": "ams-dairy",
-      "title": "Dairy | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
-      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
-    },
-    {
-      "id": "ams-specialty:page-change",
-      "sourceId": "ams-specialty",
-      "title": "Specialty Crops | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
-      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
-    },
-    {
-      "id": "usda-transport:page-change",
-      "sourceId": "usda-transport",
-      "title": "Grain Transportation Report | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.ams.usda.gov/services/transportation-analysis/gtr",
-      "scope": "Weekly truck, rail, barge and ocean context, not Watershed lane pricing"
-    },
-    {
-      "id": "cbp:page-change",
-      "sourceId": "cbp",
-      "title": "Trade | U.S. Customs and Border Protection",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://www.cbp.gov/trade",
-      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
-    },
-    {
-      "id": "ustr:page-change",
-      "sourceId": "ustr",
-      "title": "Home | United States Trade Representative",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://ustr.gov/",
-      "scope": "Retaliation, import/export policy and official implementation details"
-    },
-    {
-      "id": "fda-trace:page-change",
-      "sourceId": "fda-trace",
-      "title": "FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
-      "scope": "Separate proposed rules, enacted enforcement limits and final obligations"
-    },
-    {
-      "id": "stb:page-change",
-      "sourceId": "stb",
-      "title": "Surface Transportation Board",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.stb.gov/reports-data/rail-service-data/",
-      "scope": "Rail service conditions; facility use remains hypothesis"
-    },
-    {
-      "id": "fda-warning:page-change",
-      "sourceId": "fda-warning",
-      "title": "Warning Letters | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters",
-      "scope": "Firm identity and observation dates; a warning letter is not a recall"
-    },
-    {
-      "id": "usitc:page-change",
-      "sourceId": "usitc",
-      "title": "Harmonized Tariff Schedule",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://hts.usitc.gov/",
-      "scope": "Do not assign a tariff from an ingredient name alone"
-    },
-    {
-      "id": "ofac:page-change",
-      "sourceId": "ofac",
-      "title": "Recent Actions | Office of Foreign Assets Control",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://ofac.treasury.gov/recent-actions",
-      "scope": "Country/entity screening; no unsupported counterparty relationship"
-    },
-    {
-      "id": "eia-energy:page-change",
-      "sourceId": "eia-energy",
-      "title": "Opendata - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/opendata/",
-      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
-    },
-    {
-      "id": "panama:page-change",
-      "sourceId": "panama",
-      "title": "Maritime Services - Autoridad del Canal de Panamá",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://pancanal.com/en/maritime-services/",
-      "scope": "Transit capacity and restrictions; no assumed route"
-    },
-    {
-      "id": "fda-toddler:page-change",
-      "sourceId": "fda-toddler",
-      "title": "Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods",
-      "scope": "Product forms, age groups, state rules and guidance scope must be checked"
-    },
-    {
-      "id": "cisa-ransom:page-change",
-      "sourceId": "cisa-ransom",
-      "title": "Stop Ransomware | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/stopransomware",
-      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
-    },
-    {
-      "id": "federal-register:2026-19704",
-      "sourceId": "federal-register",
-      "title": "Robotically-Assisted Surgical Devices-Premarket Submissions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the draft guidance titled \"Robotically-Assisted Surgical Devices--Premarket Submissions.\" This draft guidance provides draft recommendations for premarket submissions for robotically- assisted surgical devices (RASDs). This draft guidance is not final nor is it for implementation at this time.",
-      "observedAt": "2026-09-25",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19704/robotically-assisted-surgical-devices-premarket-submissions-draft-guidance-for-industry-and-food-and",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19700",
-      "sourceId": "federal-register",
-      "title": "Dermatologic and Ophthalmic Drugs Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-New Drug Application (NDA) 219694 for Atropine Sulfate Ophthalmic Solution, 0.01%",
-      "summary": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The meeting will be open to the public. FDA is establishing a docket for public comment on this document.",
-      "observedAt": "2026-09-25",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19700/dermatologic-and-ophthalmic-drugs-advisory-committee-notice-of-meeting-establishment-of-a-public",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19660",
-      "sourceId": "federal-register",
-      "title": "Reauthorization of the Biosimilar User Fee Act; Public Meeting; Request for Comments",
-      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is hosting a hybrid public meeting to discuss proposed recommendations for the reauthorization of the Biosimilar User Fee Act (BsUFA) for fiscal years (FYs) 2028 through 2032. The BsUFA authorizes FDA to collect user fees to support the process for the review of biosimilar biological product applications. The current legislative authority for BsUFA expires in September 2027. At that time, new legislation will be required for FDA to continue collecting user fees in future fiscal years. Following discussions with the regulated industry and periodic consultations with public stakeholders, the Federal Food, Drug, and Cosmetic Act (the FD&C Act) directs FDA to publish the recommendations for the reauthorized program in the Federal Register, hold a meeting at which the public may present",
-      "observedAt": "2026-09-25",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19660/reauthorization-of-the-biosimilar-user-fee-act-public-meeting-request-for-comments",
-      "ruleStage": "Notice"
-    },
-    {
       "id": "federal-register:2026-19656",
       "sourceId": "federal-register",
       "title": "Food Additives Permitted for Direct Addition to Food for Human Consumption; Vitamin D2 Inactive Bakers Yeast",
@@ -2746,188 +3531,6 @@
       "ruleStage": "Notice"
     },
     {
-      "id": "federal-register:2026-19801",
-      "sourceId": "federal-register",
-      "title": "Fisheries of the Caribbean, Gulf of America, and South Atlantic; Snapper-Grouper Fishery of the South Atlantic; Regulatory Amendment 36",
-      "summary": "NMFS issues regulations to implement Regulatory Amendment 36 under the Fishery Management Plan for the Snapper-Grouper Fishery of the South Atlantic (Snapper-Grouper FMP). This final rule revises the recreational vessel limits for gag and black grouper. Additionally, this final rule revises the transit storage requirements for commercial on-demand, also known as ropeless, black sea bass pots. The purpose of these regulatory changes is to increase biological benefits to the gag and black grouper stocks, and to allow more practical transit of vessels through certain gear restricted areas with on-demand black sea bass pots on board, consistent with mandates in the Magnuson-Stevens Fishery Conservation and Management Act (Magnuson-Stevens Act).",
-      "observedAt": "2026-09-28",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19801/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-snapper-grouper-fishery-of-the-south",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19792",
-      "sourceId": "federal-register",
-      "title": "Importer of Controlled Substances Application: Benuvia Operations, LLC",
-      "summary": "Benuvia Operations, LLC. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to SUPPLEMENTARY INFORMATION listed below for further drug information.",
-      "observedAt": "2026-09-28",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19792/importer-of-controlled-substances-application-benuvia-operations-llc",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19779",
-      "sourceId": "federal-register",
-      "title": "Certain Frozen Warmwater Shrimp From India: Rescission of Antidumping Duty Administrative Review, In Part; 2025-2026",
-      "summary": "On March 31, 2026, the U.S. Department of Commerce (Commerce) initiated an administrative review of the antidumping duty (AD) order on certain frozen warmwater shrimp (shrimp) from India for the period of review (POR) February 1, 2025, through January 31, 2026, for 393 companies. We are rescinding this administrative review with respect to certain companies because they had no reviewable entries of subject merchandise during the POR. For a list of the companies for which we are rescinding this review in the absence of suspended entries of subject merchandise during the POR, see Appendix I to this notice. For a list of the companies for which the review is continuing, see Appendix II to this notice.",
-      "observedAt": "2026-09-28",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19779/certain-frozen-warmwater-shrimp-from-india-rescission-of-antidumping-duty-administrative-review-in",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19758",
-      "sourceId": "federal-register",
-      "title": "Airworthiness Directives; Airbus Helicopters",
-      "summary": "The FAA is adopting a new airworthiness directive (AD) for certain Airbus Helicopters Model EC 130 T2 helicopters. This AD was prompted by the determination that helicopter operators received main rotor blades (MRB) that are not certified to be installed on their helicopters and thus, without instructions for continued airworthiness, cannot be properly maintained. This AD requires replacing the affected parts with serviceable parts and prohibits installing the affected MRBs on Airbus Helicopters Model EC 130 T2 helicopters. The FAA is issuing this AD to address the unsafe condition on these products.",
-      "observedAt": "2026-09-28",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19658",
-      "sourceId": "federal-register",
-      "title": "Filing of Color Additive Petition From Doehler GmbH; Request To Amend the Color Additive Regulations To Provide for the Safe Use of Calcium Sulfate in Various Foods at Levels Consistent With Good Manufacturing Practice",
-      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a color additive petition, submitted by Doehler GmbH, c/o Hogan Lovells Cadwalader, proposing that we amend our color additive regulations to provide for the safe use of calcium sulfate in various foods at levels consistent with good manufacturing practice.",
-      "observedAt": "2026-09-25",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19658/filing-of-color-additive-petition-from-doehler-gmbh-request-to-amend-the-color-additive-regulations",
-      "ruleStage": "Proposed Rule"
-    },
-    {
-      "id": "federal-register:2026-19921",
-      "sourceId": "federal-register",
-      "title": "Determination That SULFADIAZINE (Sulfadiazine) Tablet, 500 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA or Agency) has determined that SULFADIAZINE (sulfadiazine) tablet, 500 milligrams (mg), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for SULFADIAZINE (sulfadiazine) tablet, 500 mg, if all other legal and regulatory requirements are met.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19921/determination-that-sulfadiazine-sulfadiazine-tablet-500-milligrams-was-not-withdrawn-from-sale-for",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19912",
-      "sourceId": "federal-register",
-      "title": "FHTA LLC; Withdrawal of Approval of New Drug Application for MYSOLINE (Primidone) Suspension, 250 Milligrams/5 Milliliters",
-      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of new drug application (NDA) 010401 for MYSOLINE (primidone) suspension, 250 milligrams (mg)/5 milliliters (mL), held by FHTA LLC (FHTA). FHTA agreed to withdrawal of approval of this application and has waived its opportunity for a hearing.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19912/fhta-llc-withdrawal-of-approval-of-new-drug-application-for-mysoline-primidone-suspension-250",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19903",
-      "sourceId": "federal-register",
-      "title": "Statement of Organization, Functions, and Delegations of Authority",
-      "summary": "This document revises and restates the Statement of Organization, Functions, and Delegations of Authority for the Department of Health and Human Services, Office of the General Counsel (OGC). Issuance of this Statement of Organization rescinds all prior Statements of Organization.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19903/statement-of-organization-functions-and-delegations-of-authority",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19887",
-      "sourceId": "federal-register",
-      "title": "Almonds Grown in California; Extension of Inedible Disposition Obligation Deadline",
-      "summary": "This final rule implements a recommendation from the Almond Board of California to extend the inedible disposition obligation deadline prescribed under the Federal marketing order for almonds grown in California from September 30 to November 30 indefinitely.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19887/almonds-grown-in-california-extension-of-inedible-disposition-obligation-deadline",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19884",
-      "sourceId": "federal-register",
-      "title": "Sodium Salt of Acifluorfen; Pesticide Tolerance",
-      "summary": "This regulation establishes a tolerance for residues of sodium salt of acifluorfen in or on sugar beet. UPL NA, Inc. requested this tolerance under the Federal Food, Drug, and Cosmetic Act (FFDCA).",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19884/sodium-salt-of-acifluorfen-pesticide-tolerance",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19850",
-      "sourceId": "federal-register",
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Submission of Petitions: Food Additive, Color Additive (Including Labeling), Submission of Information to a Master File in Sup",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19850/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19849",
-      "sourceId": "federal-register",
-      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Protection of Human Subjects and Institutional Review Boards",
-      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits comments on information collection requirements for the tracking of medical devices.",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19849/agency-information-collection-activities-proposed-collection-comment-request-protection-of-human",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19842",
-      "sourceId": "federal-register",
-      "title": "JT Medical, LLC; Decision and Order",
-      "summary": "Notice",
-      "observedAt": "2026-09-29",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/29/2026-19842/jt-medical-llc-decision-and-order",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "eia-diesel:page-change",
-      "sourceId": "eia-diesel",
-      "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
-      "scope": "Weekly Midwest benchmark; fuel surcharge clauses are unknown"
-    },
-    {
       "id": "eia-steo:page-change",
       "sourceId": "eia-steo",
       "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
@@ -2995,110 +3598,6 @@
       },
       "dateType": "Reference period is in the measurement; publication date not inferred",
       "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "federal-register:2026-20075",
-      "sourceId": "federal-register",
-      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Flushing and Storage Solution for Vascular Autografts at Room Temperature",
-      "summary": "The Food and Drug Administration (FDA) is classifying the flushing and storage solution for vascular autografts at room temperature into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the flushing and storage solution for vascular autografts at room temperature. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20075/medical-devices-gastroenterology-urology-devices-classification-of-the-flushing-and-storage-solution",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-20053",
-      "sourceId": "federal-register",
-      "title": "Agency Information Collection Activities; Proposed Information Collection Request; Comment Request; Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes (Renewal)",
-      "summary": "The Environmental Protection Agency (EPA) has submitted an information collection request (ICR), Renewable Fuel Standard (RFS) Program: Standards for 2023-2025 and Other Changes (EPA ICR Number 2722.03, OMB Control Number 2060-0749), to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act. This is a proposed extension of the ICR, which is currently approved through September 30, 2026. This notice allows for an additional 30 days for public comments.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20053/agency-information-collection-activities-proposed-information-collection-request-comment-request",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20046",
-      "sourceId": "federal-register",
-      "title": "Commercial Driver's License Standards: Application for Exemption; Agri-Tech Aviation",
-      "summary": "FMCSA announces its decision to deny the application from Agri-Tech Aviation requesting an exemption to allow its commercial learner's permit (CLP) holders who have passed the commercial driver's license (CDL) skills test but not yet obtained a CDL license to drive its commercial motor vehicles (CMV) without being accompanied by a CDL holder in the passenger seat. FMCSA analyzed the application and public comments and determined there is insufficient basis to conclude the exemption would likely achieve a level of safety that is equivalent to, or greater than, the level that would be achieved absent such exemption.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20046/commercial-drivers-license-standards-application-for-exemption-agri-tech-aviation",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20015",
-      "sourceId": "federal-register",
-      "title": "Agency Information Collection Activities; National Park Service Concessions Forms",
-      "summary": "In accordance with the Paperwork Reduction Act of 1995, we, the National Park Service (NPS) are requesting an extension of a currently approved information collection.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-20015/agency-information-collection-activities-national-park-service-concessions-forms",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-19978",
-      "sourceId": "federal-register",
-      "title": "Iranian Transactions and Sanctions Regulations",
-      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is adopting a final rule amending the Iranian Transactions and Sanctions Regulations to implement certain provisions of a January 10, 2020 Iran-related Executive order. This amendment also revises an existing definition and an existing exemption, and incorporates two exemptions from the January 10, 2020 Iran-related Executive order.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19978/iranian-transactions-and-sanctions-regulations",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19977",
-      "sourceId": "federal-register",
-      "title": "Cuba Sanctions Regulations",
-      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is adding regulations to implement a May 1, 2026 Cuba- related Executive order. OFAC intends to supplement these regulations with a more comprehensive set of regulations, which may include additional interpretive guidance and definitions, general licenses, and other regulatory provisions.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19977/cuba-sanctions-regulations",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-19968",
-      "sourceId": "federal-register",
-      "title": "Determination That ISTURISA (Osilodrostat) Tablets, 10 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that ISTURISA (osilodrostat) tablets, 10 milligrams (mg), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for osilodrostat tablets, 10 mg if all other legal and regulatory requirements are met.",
-      "observedAt": "2026-09-30",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/30/2026-19968/determination-that-isturisa-osilodrostat-tablets-10-milligrams-was-not-withdrawn-from-sale-for",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "ides:page-change",
-      "sourceId": "ides",
-      "title": "Labor Market Information",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Labor",
-      "sourceUrl": "https://ides.illinois.gov/resources/labor-market-information.html",
-      "scope": "Central Illinois employment, local wages and WARN notices"
     },
     {
       "id": "nass:page-change",
@@ -3249,123 +3748,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "federal-register:2026-20178",
-      "sourceId": "federal-register",
-      "title": "Unleashing American Energy and Economic Prosperity; Rural Energy for America Program (REAP)",
-      "summary": "The Rural Business-Cooperative Service (RBCS or the Agency), an agency of the Rural Development (RD) mission area within the U.S. Department of Agriculture (USDA) is issuing a final rule with comment period. Implementation of this action will simplify and streamline requirements and processes in the Rural Energy for America Program (REAP). Under the new REAP structure, projects must already be fully built and operational before the applicant ever applies. Applicants then apply, submitting actual energy production or savings data for the prior 12 months, alongside 12 months of pre-installation data. The Agency evaluates applications for completeness, eligibility, risk, and merit and will award grants subject to the availability of funds and criteria provided in an annual notice. This new approach changes the program to a post completion, p",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20178/unleashing-american-energy-and-economic-prosperity-rural-energy-for-america-program-reap",
-      "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-20168",
-      "sourceId": "federal-register",
-      "title": "Codex Alimentarius Commission: Meeting of the Codex Committee on Food Hygiene",
-      "summary": "The U.S Codex Office is sponsoring a public meeting on October 29, 2026. The objective of the public meeting is to provide information and receive public comments on agenda items to be discussed at the 56th Session of the Codex Committee on Food Hygiene (CCFH) of the Codex Alimentarius Commission (CAC). CCFH56 will be held in Scottsdale, Arizona, from November 16-20, 2026. The U.S. Executive Director for Codex Alimentarius and the Under Secretary for Trade and Foreign Agricultural Affairs recognize the importance of providing interested parties the opportunity to obtain background information on the 56th Session of the CCFH and to address items on the agenda.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20168/codex-alimentarius-commission-meeting-of-the-codex-committee-on-food-hygiene",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20160",
-      "sourceId": "federal-register",
-      "title": "Initiation of Antidumping and Countervailing Duty Administrative Reviews",
-      "summary": "The U.S. Department of Commerce (Commerce) has received requests to conduct administrative reviews of various antidumping duty (AD) and countervailing duty (CVD) orders with August anniversary dates. In accordance with Commerce's regulations, we are initiating those administrative reviews.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20160/initiation-of-antidumping-and-countervailing-duty-administrative-reviews",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20142",
-      "sourceId": "federal-register",
-      "title": "Advisory Committee; Antimicrobial Drugs Advisory Committee; Renewal",
-      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Antimicrobial Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Antimicrobial Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the October 7, 2028, expiration date.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20142/advisory-committee-antimicrobial-drugs-advisory-committee-renewal",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20141",
-      "sourceId": "federal-register",
-      "title": "Advisory Committee; Dermatologic and Ophthalmic Drugs Advisory Committee; Renewal",
-      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Dermatologic and Ophthalmic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Dermatologic and Ophthalmic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the October 7, 2028, expiration date.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20141/advisory-committee-dermatologic-and-ophthalmic-drugs-advisory-committee-renewal",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20125",
-      "sourceId": "federal-register",
-      "title": "Fisheries of the Exclusive Economic Zone Off Alaska; Application for an Exempted Fishing Permit",
-      "summary": "This notice announces NMFS' receipt of an application from SeaShare, Inc. and Glacier Fish Co. and the public comment period for an exempted fishing permit (EFP). If issued, this permit would allow the applicants to retain Pacific halibut up to a poundage limit and donate it through the Prohibited Species Donation (PSD) Program, after Pacific halibut deck sorting and after sampling by a fisheries observer. This EFP would exempt one catcher/processor vessel from complying with regulations that prohibit the retention of Pacific halibut and donation of Pacific halibut prohibited species. The EFP would place a poundage limit on the allowable retention of Pacific halibut. Effective dates of the EFP would be from May 1, 2027, to December 31, 2028. This experiment would allow retention of Pacific halibut to test an additional way to donate dead ",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20125/fisheries-of-the-exclusive-economic-zone-off-alaska-application-for-an-exempted-fishing-permit",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20085",
-      "sourceId": "federal-register",
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Voluntary Improvement Program",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20085/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20065",
-      "sourceId": "federal-register",
-      "title": "Request for Nominations for Individuals and Consumer Organizations for Advisory Committees",
-      "summary": "The Food and Drug Administration (FDA or Agency) is requesting that any consumer organizations interested in participating in the selection of voting and/or nonvoting consumer representatives to serve on its advisory committees or panels notify FDA in writing. FDA is also requesting nominations for voting and/or nonvoting consumer representatives to serve on advisory committees and/or panels for which vacancies currently exist or are expected to occur in the near future. Nominees recommended to serve as a voting or nonvoting consumer representative may be self-nominated or may be nominated by a consumer organization. FDA seeks to include the views of individuals on its advisory committees selected without regard to race, color, national origin, religion, age, or sex.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20065/request-for-nominations-for-individuals-and-consumer-organizations-for-advisory-committees",
-      "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-20063",
-      "sourceId": "federal-register",
-      "title": "Request for Nominations for Voting Members of Food and Drug Administration Advisory Committees",
-      "summary": "The Food and Drug Administration (FDA or Agency) is requesting nominations for qualified individuals to serve as voting members of FDA's standing public advisory committees and panels (collectively, advisory committees). This notice covers scientific, technical, professional, and other voting-member positions in which appointees serve as individuals rather than as designated representatives; it does not solicit nominations for consumer representative or industry representative positions. FDA will consider nominations for current and future vacancies as they arise. FDA encourages nominations of all appropriately qualified candidates whose expertise and perspectives would contribute to the work and balanced composition of its advisory committees.",
-      "observedAt": "2026-10-01",
-      "retrievedAt": "2026-10-02T00:51:35.534Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/01/2026-20063/request-for-nominations-for-voting-members-of-food-and-drug-administration-advisory-committees",
-      "ruleStage": "Notice"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.2d28125d7d92bc59af41e68ad4c303a67d1c8b4a.001.1",
@@ -4354,19 +4736,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "idph:page-change",
-      "sourceId": "idph",
-      "title": "Food Safety",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-09-30T20:50:59.235Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://dph.illinois.gov/topics-services/food-safety.html",
-      "scope": "State food protection and notices"
     },
     {
       "id": "federal-register:2026-19416",
@@ -22248,9 +22617,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 14,
+  "attempted": 42,
   "remaining": 0,
-  "collectedAt": "2026-10-02T23:50:06.334Z",
+  "collectedAt": "2026-10-03T05:25:11.198Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -34380,6 +34749,815 @@
     {
       "date": "2026-10-02",
       "asOf": "2026-10-02T23:50:18.709Z",
+      "modelVersion": "1.0.0",
+      "indicators": [
+        {
+          "category": "Ingredient availability",
+          "score": 3.7,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S02"
+          ]
+        },
+        {
+          "category": "Ingredient cost",
+          "score": 5.9,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S08"
+          ]
+        },
+        {
+          "category": "Customer demand",
+          "score": 2.8,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S12"
+          ]
+        },
+        {
+          "category": "Transportation / logistics",
+          "score": 49.9,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S01"
+          ]
+        },
+        {
+          "category": "Energy / utilities",
+          "score": 13.2,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S10"
+          ]
+        },
+        {
+          "category": "Packaging",
+          "score": 6.8,
+          "confidence": "Medium",
+          "direction": "Mixed",
+          "componentIds": [
+            "S11"
+          ]
+        },
+        {
+          "category": "Labor",
+          "score": 2.6,
+          "confidence": "Low",
+          "direction": "Mixed",
+          "componentIds": [
+            "S09"
+          ]
+        },
+        {
+          "category": "Food safety / regulatory",
+          "score": 11.2,
+          "confidence": "High",
+          "direction": "Mixed",
+          "componentIds": [
+            "S06",
+            "S03"
+          ]
+        },
+        {
+          "category": "Cyber / OT",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Facility / weather",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Geopolitical / trade",
+          "score": 21.3,
+          "confidence": "Medium",
+          "direction": "Threat",
+          "componentIds": [
+            "S13"
+          ]
+        },
+        {
+          "category": "Growth opportunity",
+          "score": 11.6,
+          "confidence": "Medium",
+          "direction": "Opportunity",
+          "componentIds": [
+            "S05",
+            "S04"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "S01",
+          "title": "Midwest diesel eases 2.3% but remains elevated",
+          "summary": "EIA’s 28 September Midwest diesel benchmark is $6.526/gal, down $0.154 (-2.3%) from the prior week’s $6.680 peak but still $0.580 (+9.8%) above 7 September. Momentum improved; Watershed’s actual carrier surcharge, lane mix and pass-through remain unknown.",
+          "category": "Transportation / logistics",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 75,
+            "severity": 80,
+            "confidence": 70,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 80,
+            "substitutability": 35
+          },
+          "factorRationale": "Exposure 75: public facility geography makes truck freight plausible, but mode and miles are unmeasured. Severity 80: $6.526/gal remains 9.8% above 7 September and only 2.3% below the prior peak. Confidence 70: primary EIA measurement, with no company contract or invoice. Persistence 80: the benchmark has remained at or above $6.250 for three weekly observations, supported by the separate EIA distillate-constraint scenario. Velocity falls from 80 to 65 because the latest weekly move reversed from +6.9% to -2.3%, while the three-week level remains materially higher. Dependency 80 and substitutability 35: road freight is operationally important and near-term fuel substitution is limited, but actual carrier terms are unknown.",
+          "causalPath": "Elevated regional retail diesel benchmark → applicable carrier fuel surcharge or freight quote → delivered input/outbound cost and conditional margin or service pressure.",
+          "verify": "Current carrier surcharge tables and invoices, contract lag, lane and mode mix, outbound miles, customer pass-through and any tender or service refusal.",
+          "action": "CFO and Supply Chain should continue reconciling current carrier surcharge tables and invoices, but should not treat the regional benchmark decline as realized savings until contract lag, invoices and customer pass-through are verified.",
+          "trigger": "A weekly rebound above 5%, a new benchmark above $6.680/gal, actual contracted transport cost more than 5% above plan, a tender or service refusal, or a verified customer-service impact.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO",
+            "Customer Experience"
+          ],
+          "observedAt": "2026-09-29",
+          "retrievedAt": "2026-09-29",
+          "reviewedAt": "2026-09-29",
+          "expiresAt": "2026-10-06",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Margin",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 3,
+          "dateNote": "EIA released the data on 29 September 2026; the price reference week is 28 September. This is a regional retail benchmark, not a Watershed freight rate, invoice or realized saving.",
+          "coverageChange": "The leading external benchmark improved 2.3% week over week after two increases above 5%. Velocity declines from 80 to 65 and the posture improves from High to Elevated; invoice and surcharge verification remains prudent because the level is still 9.8% above 7 September."
+        },
+        {
+          "id": "S02",
+          "title": "Grain outlook tightens; specialty basis still unknown",
+          "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+          "category": "Ingredient availability",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "wasde-sep"
+          ],
+          "facilityIds": [
+            "deer-creek",
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X07"
+          ],
+          "factors": {
+            "exposure": 45,
+            "severity": 55,
+            "confidence": 45,
+            "persistence": 80,
+            "velocity": 45,
+            "dependency": 55,
+            "substitutability": 60
+          },
+          "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+          "action": "Track supplier quotations before changing coverage or formulations.",
+          "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+          "roles": [
+            "Supply Chain",
+            "CFO"
+          ],
+          "observedAt": "2026-09-11",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-12",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient availability",
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "grain-balance",
+          "revision": 1
+        },
+        {
+          "id": "S03",
+          "title": "Traceability planning requires a product-form decision",
+          "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-trace"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 55,
+            "severity": 65,
+            "confidence": 65,
+            "persistence": 90,
+            "velocity": 25,
+            "dependency": 70,
+            "substitutability": 60
+          },
+          "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+          "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+          "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+          "roles": [
+            "Quality / Food Safety",
+            "CISO / IT",
+            "COO"
+          ],
+          "observedAt": "2026-06-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Regulatory",
+            "Quality / food safety"
+          ],
+          "status": "reviewed",
+          "group": "traceability",
+          "revision": 1
+        },
+        {
+          "id": "S04",
+          "title": "Pet formats offer a qualified commercial opening",
+          "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "appa",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X09",
+            "X13"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 60,
+            "confidence": 45,
+            "persistence": 85,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+          "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+          "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+          "roles": [
+            "Sales / Business Development",
+            "R&D / Innovation",
+            "CEO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "pet-demand",
+          "revision": 1,
+          "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day."
+        },
+        {
+          "id": "S05",
+          "title": "Popcorn expansion is an opportunity to verify",
+          "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "deer-directory",
+            "heartland-2026"
+          ],
+          "facilityIds": [
+            "deer-creek"
+          ],
+          "exposureIds": [
+            "X07",
+            "X10",
+            "X11",
+            "X15"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 65,
+            "confidence": 60,
+            "persistence": 85,
+            "velocity": 40,
+            "dependency": 75,
+            "substitutability": 60
+          },
+          "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+          "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+          "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+          "roles": [
+            "COO",
+            "Sales / Business Development",
+            "Engineering",
+            "CEO"
+          ],
+          "observedAt": "2026-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Production capacity",
+            "Revenue",
+            "Growth opportunity",
+            "Equipment / maintenance"
+          ],
+          "status": "reviewed",
+          "group": "popcorn-expansion",
+          "revision": 1
+        },
+        {
+          "id": "S06",
+          "title": "Baby-food lead guidance has a material scope exclusion",
+          "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "High",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-lead"
+          ],
+          "facilityIds": [
+            "gridley"
+          ],
+          "exposureIds": [
+            "X01",
+            "X02",
+            "X03"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 70,
+            "confidence": 85,
+            "persistence": 90,
+            "velocity": 20,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+          "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+          "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+          "roles": [
+            "Quality / Food Safety",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2025-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Quality / food safety",
+            "Regulatory",
+            "Customer demand"
+          ],
+          "status": "reviewed",
+          "group": "toddler-scope",
+          "revision": 1
+        },
+        {
+          "id": "S07",
+          "title": "Central Illinois storm risk is tapering; no facility-county alert matched",
+          "summary": "The 21 September NWS outlook includes McLean, Woodford and Tazewell counties, but says showers and thunderstorms are concentrated especially near and south of I-72, will taper by early afternoon, and are not expected to become severe. Lightning remains possible. The 14:16 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
+          "category": "Facility / weather",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "nws-ilx-20260921"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 60,
+            "severity": 35,
+            "confidence": 80,
+            "persistence": 25,
+            "velocity": 80,
+            "dependency": 70,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure falls from 85 to 60 because the county-zone outlook includes the three public municipalities while activity is concentrated especially near and south of I-72, south of the confirmed municipalities; severity falls from 55 to 35 because NWS says severe storms are not expected but lightning remains possible; confidence remains 80 because the primary outlook and SAME-code check are current while site impact is unknown; persistence falls from 40 to 25 because storms are expected to taper by early afternoon and no hazards are expected Tuesday through Sunday; velocity remains 80 because any effect is same-day; dependency and substitutability remain 70/70 pending actual shift, route and scheduling information. These are provisional judgments, not measured disruption.",
+          "causalPath": "County-zone showers and lightning → possible brief local road, workforce or outdoor-activity interruption → dispatch and production continuity. The forecast concentration is south of the confirmed municipalities, and actual route, utility and site effects remain unverified.",
+          "verify": "Current county warnings, lightning proximity, verified route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+          "action": "No additional response is supported beyond normal weather procedures and checking current site and route conditions before affected dispatch or outdoor work.",
+          "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+          "roles": [
+            "Plant Manager",
+            "Supply Chain",
+            "COO",
+            "HR / Talent"
+          ],
+          "observedAt": "2026-09-21",
+          "retrievedAt": "2026-09-21",
+          "reviewedAt": "2026-09-21",
+          "expiresAt": "2026-09-22",
+          "timeToImpact": "Immediate",
+          "impactDomains": [
+            "Transportation",
+            "Production capacity",
+            "Labor",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "central-il-weather",
+          "revision": 2,
+          "dateNote": "NWS issued 04:07 CDT on 21 September. The 14:16 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. Factors changed only where the new forecast supports lower exposure, severity and persistence; guidance is improving without an operating-clearance claim."
+        },
+        {
+          "id": "S08",
+          "title": "Ingredient benchmarks diverge: grains up, dairy down",
+          "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+          "category": "Ingredient cost",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X01",
+            "X04",
+            "X06",
+            "X07"
+          ],
+          "factors": {
+            "exposure": 60,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 50,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+          "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+          "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+          "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+          "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "ingredient-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S09",
+          "title": "Metro labor context remains mixed",
+          "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+          "category": "Labor",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-labor",
+            "bls-peoria",
+            "bls-milwaukee",
+            "ws-careers"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 45,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+          "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+          "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+          "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+          "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+          "roles": [
+            "HR / Talent",
+            "Plant Manager",
+            "COO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Labor",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "regional-labor",
+          "revision": 1,
+          "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S10",
+          "title": "National industrial electricity benchmark rises 4.7% year over year",
+          "summary": "EIA’s 24 September release reports a July 2026 U.S. industrial average revenue of 9.77 cents/kWh, 4.7% above July 2025. This national proxy replaces an expired June state snapshot for coverage; it is not a Watershed tariff, bill or state-level comparison.",
+          "category": "Energy / utilities",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-electricity-20260924",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 80,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 70,
+            "velocity": 35,
+            "dependency": 90,
+            "substitutability": 40
+          },
+          "factorRationale": "Exposure 80: Watershed advertises energy-dependent processing platforms, but kWh and tariffs are unknown. Severity 50: the national industrial benchmark is 4.7% higher year over year. Confidence 60: primary EIA data, discounted because a national average does not establish Illinois, Wisconsin or facility billing. Persistence 70: monthly cost-planning relevance without proof of contract reset. Velocity 35: lagged July data. Dependency 90: process energy is necessary. Substitutability 40: near-term process-energy alternatives may be limited, while tariff and efficiency options are unverified.",
+          "causalPath": "National industrial electricity benchmark ↑ → possible applicable tariff or supply-contract reset → conditional processing and handling cost for freeze-dried, baked, roasted and popped platforms.",
+          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, effective cents/kWh, kWh per product and reset dates; no utility provider is assumed.",
+          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; use the national series only as a screening benchmark.",
+          "trigger": "Actual effective energy cost exceeds plan by >10% for two billing periods or an applicable utility/grid notice creates a verified continuity concern.",
+          "roles": [
+            "Plant Manager",
+            "Engineering",
+            "CFO"
+          ],
+          "observedAt": "2026-09-24",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-25",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Energy",
+            "Margin",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "industrial-energy",
+          "revision": 2,
+          "dateNote": "EIA released July 2026 data on 24 September; national industrial average revenue per kWh is a price proxy. This revision is not directly comparable with the prior Illinois/Wisconsin June values.",
+          "coverageChange": "A new national July benchmark restores energy coverage after the state snapshot expired. The measurement basis changed, so the lower model score is not evidence that Watershed energy exposure improved."
+        },
+        {
+          "id": "S11",
+          "title": "Packaging signals split between paperboard and plastics",
+          "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+          "category": "Packaging",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "bls-paperboard-api"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X15"
+          ],
+          "factors": {
+            "exposure": 65,
+            "severity": 55,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 60
+          },
+          "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+          "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+          "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+          "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+          "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "Engineering"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Packaging",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "packaging-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S12",
+          "title": "Global CPG proxy shows mixed pet and snack demand with inventory pressure",
+          "summary": "General Mills’ 23 September quarter reported North America Pet sales flat: pet treats grew low single digits, cat food double digits, dog food fell high single digits, and retailer inventory was a modest headwind. North America Retail organic sales fell 3% and U.S. Snacks declined mid-single digits. The company retained a cautious annual outlook while emphasizing protein, fiber and pet humanization. This is one archetype, not a Watershed customer or order signal.",
+          "category": "Customer demand",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "gis-20260923",
+            "ws-markets"
+          ],
+          "facilityIds": [],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 50,
+            "severity": 45,
+            "confidence": 70,
+            "persistence": 70,
+            "velocity": 35,
+            "dependency": 50,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 50: a relevant global CPG/pet archetype with no established Watershed account relationship. Severity 45: mixed category results and inventory pressure, not a confirmed order change. Confidence 70: primary quarterly disclosure, discounted for single-company and portfolio mismatch. Persistence 70: full-year outlook and inventory commentary. Velocity 35: quarterly evidence. Dependency 50: actual customer mix is unknown. Substitutability 70: multiple customer segments and platforms may diversify demand. Factors remain intentionally low for company impact.",
+          "causalPath": "Archetype brand volumes, retailer inventories and innovation priorities → possible launch briefs, outsourcing appetite and order cadence → conditional Watershed sales pipeline.",
+          "verify": "Actual customer segmentation; qualified briefs by pet treats, dog food, snacks, protein/fiber and other formats; retailer-inventory effects; pipeline stage; capacity and margin fit.",
+          "action": "Sales and R&D should compare current qualified briefs with the mixed archetype signals, emphasizing validated pet-treat and protein/fiber problems while testing for snack or dog-food inventory drag before allocating capacity.",
+          "trigger": "A verified customer changes orders, two additional primary archetypes corroborate the same volume/inventory move, or a qualified launch brief matches available capacity and validated controls.",
+          "roles": [
+            "Sales / Business Development",
+            "CEO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-23",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-22",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "cpg-demand",
+          "revision": 2,
+          "dateNote": "General Mills reported results on 23 September for the quarter ended 30 August 2026. Reported sales, organic sales and segment commentary are company-specific; no current Watershed customer relationship is inferred.",
+          "coverageChange": "The scheduled quarterly recheck produced mixed demand evidence and specific innovation themes. Guidance changes from a generic cautious watch to category-by-category pipeline verification."
+        },
+        {
+          "id": "S13",
+          "title": "EIA’s export-constraint scenario supports a fuel watch",
+          "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+          "category": "Geopolitical / trade",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-steo",
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 70,
+            "confidence": 60,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+          "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+          "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+          "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+          "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO"
+          ],
+          "observedAt": "2026-09-09",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-07",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Energy",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1,
+          "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "asOf": "2026-10-03T05:25:32.601Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
