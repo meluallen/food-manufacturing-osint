@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-04T09:53:49.060Z",
-      "hash": "818ab7443a4a9b41f0bce5b80b7a9c6bff333bbfa5c16c19d4970a59ee4d2135",
-      "etag": "W/\"c5ee3b17b242cd7e83c23224afca2e15:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-04T15:24:32.893Z",
+      "hash": "f7e54be6362dfa8cb065490a41a2f9a64b92b4cd96653e2d4de1e2e42a76c60b",
+      "etag": "W/\"5f786c5def2df3e0c9423f8dc3f3d7b5:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-04T09:53:49.060Z",
-      "hash": "08a6b5aaaa8e8a214d985253526e63e2d1e945dcd6cf842a8ce338804dfeb001",
-      "etag": "W/\"649b4860818be9151e6b7d58d1e73425:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-04T15:24:32.893Z",
+      "hash": "1b45295ba2064720d25a0b6bbd1cf363f0275225fc8cc1e74185f95528371924",
+      "etag": "W/\"7c55b2903a8bec9cde21101e9dfad923:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 5,
       "changed": true
     },
@@ -541,11 +541,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-04T09:53:49.060Z",
+      "fetchedAt": "2026-10-04T15:24:32.893Z",
       "hash": "9a528f641d0c5f40895a93ec7fa43ac36b8b1a25678500a375caa014f894d262",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -627,25 +627,12 @@
   ],
   "candidates": [
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.de2d153d4df3b1a76c6ff82675202c470aa28493.001.1",
       "sourceId": "nws-il",
       "title": "Flood Warning issued October 3 at 8:03PM CDT by NWS Chicago IL",
       "summary": "Lake, IL: ...The Flood Warning continues for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. * WHAT...Minor flooding is occurring and minor flooding is forecast. * WHERE...Des Plaines River from IL/WI state line downstream to US-41 in Gurnee, including the Russell gauge. * WHEN...Until further notice. * IMPACTS...At 7.0 feet, Low-lying wetlands and agricultural land is inundated near the river. * ADDITIONAL DETAILS... - At 7:30 PM CDT Saturday the stage was 7.3 feet. - Recent Activity...The river continues to gradually rise. The maximum river stage in the 24 hours ending at 7:30 PM CDT Saturday was 7.3 feet. - Forecast...The river is expected to rise to a crest of 7.4 feet early tomorrow afternoon. The river is forecast to remain above flood stage through at least the middle of the week. - Floo",
       "observedAt": "2026-10-03T20:03:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -661,6 +648,248 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ed096a8d4d2558b3591ef9213052b541cd65fbd8.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 3 at 10:08PM CDT until October 7 at 7:00AM CDT by NWS St Louis MO",
+      "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is occurring and forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until Wednesday morning. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 9:30 PM CDT Saturday the stage was 15.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 9:30 PM CDT Saturday was 15.1 feet. - Forecast...The river is expected to rise to a crest of 15.3 feet tomorrow morning. It will then fall below flood stage early Tuesday morning. -",
+      "observedAt": "2026-10-03T22:08:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-05T10:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017149",
+          "029163"
+        ],
+        "UGC": [
+          "ILC149",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ed096a8d4d2558b3591ef9213052b541cd65fbd8.002.1",
+      "sourceId": "nws-il",
+      "title": "Flood Warning issued October 3 at 10:08PM CDT until October 7 at 7:00AM CDT by NWS St Louis MO",
+      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until Wednesday morning. * IMPACTS...At 25.3 feet, The road to Port Marmac, a riverside community of about 13 homes just south of Clarksville, begins flooding. * ADDITIONAL DETAILS... - At 9:30 PM CDT Saturday the stage was 24.8 feet. - Forecast...The river is expected to rise above flood stage late this evening to a crest of 25.2 feet tomorrow morning. It will then fall below flood stage early Tuesday morning. - Flood stage is 25.0 feet.",
+      "observedAt": "2026-10-03T22:08:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-05T10:15:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017013",
+          "029163"
+        ],
+        "UGC": [
+          "ILC013",
+          "MOC163"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.61db9c67ed4856adc1d9f8dc1bb5b14818e858f3.001.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 4 at 2:12AM CDT until October 5 at 9:00AM CDT by NWS La Crosse WI",
+      "summary": "Taylor; Clark; Jackson; Monroe; Juneau; Adams: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Adams, Clark, Juneau, Taylor, Jackson, and Monroe Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-04T02:12:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-04T13:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055119",
+          "055019",
+          "055053",
+          "055081",
+          "055057",
+          "055001"
+        ],
+        "UGC": [
+          "WIZ017",
+          "WIZ029",
+          "WIZ034",
+          "WIZ042",
+          "WIZ043",
+          "WIZ044"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.d84bbcac7cf8a2f8ed7b76af3071e8acfab50e17.001.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 4 at 1:35AM CDT until October 5 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+      "summary": "Todd; Morrison; Mille Lacs; Kanabec; Benton; Isanti; Chisago; Polk; Barron; Rusk; Chippewa; Eau Claire: * WHAT...Temperatures of 34 to 36 degrees will result in frost formation. * WHERE...In Minnesota, Benton, Morrison, Todd, Chisago, Isanti, Kanabec, and Mille Lacs Counties. In Wisconsin, Barron, Polk, Rusk, Chippewa, and Eau Claire Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-04T01:35:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-04T19:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "027153",
+          "027097",
+          "027095",
+          "027065",
+          "027009",
+          "027059",
+          "027025",
+          "055095",
+          "055005",
+          "055107",
+          "055017",
+          "055035"
+        ],
+        "UGC": [
+          "MNZ042",
+          "MNZ043",
+          "MNZ044",
+          "MNZ045",
+          "MNZ050",
+          "MNZ052",
+          "MNZ053",
+          "WIZ014",
+          "WIZ015",
+          "WIZ016",
+          "WIZ027",
+          "WIZ028"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2428a7e71e1f5e53cd03a5aad6904573fe4ecb70.002.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Warning issued October 4 at 1:19AM CDT until October 5 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Ashland; Iron: * WHAT...Sub-freezing temperatures as low as 29 expected. * WHERE...Ashland and Iron Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-04T01:19:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-04T13:30:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055003",
+          "055051"
+        ],
+        "UGC": [
+          "WIZ003",
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2428a7e71e1f5e53cd03a5aad6904573fe4ecb70.005.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 4 at 1:19AM CDT until October 5 at 9:00AM CDT by NWS Duluth MN",
+      "summary": "Douglas; Bayfield; Burnett; Washburn; Sawyer; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...Price, Bayfield, Burnett, Douglas, Sawyer, and Washburn Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-04T01:19:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-04T13:30:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055031",
+          "055007",
+          "055013",
+          "055129",
+          "055113",
+          "055099"
+        ],
+        "UGC": [
+          "WIZ001",
+          "WIZ002",
+          "WIZ006",
+          "WIZ007",
+          "WIZ008",
+          "WIZ009"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.cd0d5c289f02af7850f9eab62a2222ecaadc7735.001.1",
+      "sourceId": "nws-wi",
+      "title": "Frost Advisory issued October 4 at 9:48AM CDT until October 5 at 8:00AM CDT by NWS Green Bay WI",
+      "summary": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Marathon; Southern Marinette County; Southern Oconto County: * WHAT...Temperatures from 31 to 36 degrees will result in frost formation. * WHERE...Portions of central, north central, and northeast Wisconsin. * WHEN...From 2 AM to 8 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-04T09:48:00-05:00",
+      "retrievedAt": "2026-10-04T15:24:32.893Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-04T23:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "055125",
+          "055085",
+          "055041",
+          "055037",
+          "055075",
+          "055069",
+          "055067",
+          "055078",
+          "055083",
+          "055073"
+        ],
+        "UGC": [
+          "WIZ005",
+          "WIZ010",
+          "WIZ011",
+          "WIZ012",
+          "WIZ013",
+          "WIZ018",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ030",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-04T09:53:49.060Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -1415,192 +1644,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20211/supplemental-nutrition-assistance-program-state-of-nebraska-snap-demonstration-project",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.ed096a8d4d2558b3591ef9213052b541cd65fbd8.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 3 at 10:08PM CDT until October 7 at 7:00AM CDT by NWS St Louis MO",
-      "summary": "Pike, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is occurring and forecast. * WHERE...Mississippi River at Louisiana. * WHEN...Until Wednesday morning. * IMPACTS...At 15.0 feet, The first quarter mile of Edison Avenue beyond the railroad tracks begins flooding near this height. * ADDITIONAL DETAILS... - At 9:30 PM CDT Saturday the stage was 15.1 feet. - Recent Activity...The maximum river stage in the 24 hours ending at 9:30 PM CDT Saturday was 15.1 feet. - Forecast...The river is expected to rise to a crest of 15.3 feet tomorrow morning. It will then fall below flood stage early Tuesday morning. -",
-      "observedAt": "2026-10-03T22:08:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-05T10:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017149",
-          "029163"
-        ],
-        "UGC": [
-          "ILC149",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.ed096a8d4d2558b3591ef9213052b541cd65fbd8.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Warning issued October 3 at 10:08PM CDT until October 7 at 7:00AM CDT by NWS St Louis MO",
-      "summary": "Calhoun, IL; Pike, MO: ...The Flood Warning continues for the following rivers in Missouri...Illinois... Mississippi River at Louisiana. Mississippi River at Clarksville. River forecasts are based on observed precipitation and forecast precipitation for the next 48 hours. * WHAT...Minor flooding is forecast. * WHERE...Mississippi River at Clarksville. * WHEN...Until Wednesday morning. * IMPACTS...At 25.3 feet, The road to Port Marmac, a riverside community of about 13 homes just south of Clarksville, begins flooding. * ADDITIONAL DETAILS... - At 9:30 PM CDT Saturday the stage was 24.8 feet. - Forecast...The river is expected to rise above flood stage late this evening to a crest of 25.2 feet tomorrow morning. It will then fall below flood stage early Tuesday morning. - Flood stage is 25.0 feet.",
-      "observedAt": "2026-10-03T22:08:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-10-05T10:15:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017013",
-          "029163"
-        ],
-        "UGC": [
-          "ILC013",
-          "MOC163"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.61db9c67ed4856adc1d9f8dc1bb5b14818e858f3.001.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 4 at 2:12AM CDT until October 5 at 9:00AM CDT by NWS La Crosse WI",
-      "summary": "Taylor; Clark; Jackson; Monroe; Juneau; Adams: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Adams, Clark, Juneau, Taylor, Jackson, and Monroe Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-04T02:12:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-04T13:00:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "055119",
-          "055019",
-          "055053",
-          "055081",
-          "055057",
-          "055001"
-        ],
-        "UGC": [
-          "WIZ017",
-          "WIZ029",
-          "WIZ034",
-          "WIZ042",
-          "WIZ043",
-          "WIZ044"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.d84bbcac7cf8a2f8ed7b76af3071e8acfab50e17.001.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 4 at 1:35AM CDT until October 5 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
-      "summary": "Todd; Morrison; Mille Lacs; Kanabec; Benton; Isanti; Chisago; Polk; Barron; Rusk; Chippewa; Eau Claire: * WHAT...Temperatures of 34 to 36 degrees will result in frost formation. * WHERE...In Minnesota, Benton, Morrison, Todd, Chisago, Isanti, Kanabec, and Mille Lacs Counties. In Wisconsin, Barron, Polk, Rusk, Chippewa, and Eau Claire Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-04T01:35:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-04T19:00:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "027153",
-          "027097",
-          "027095",
-          "027065",
-          "027009",
-          "027059",
-          "027025",
-          "055095",
-          "055005",
-          "055107",
-          "055017",
-          "055035"
-        ],
-        "UGC": [
-          "MNZ042",
-          "MNZ043",
-          "MNZ044",
-          "MNZ045",
-          "MNZ050",
-          "MNZ052",
-          "MNZ053",
-          "WIZ014",
-          "WIZ015",
-          "WIZ016",
-          "WIZ027",
-          "WIZ028"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2428a7e71e1f5e53cd03a5aad6904573fe4ecb70.002.1",
-      "sourceId": "nws-wi",
-      "title": "Freeze Warning issued October 4 at 1:19AM CDT until October 5 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "Ashland; Iron: * WHAT...Sub-freezing temperatures as low as 29 expected. * WHERE...Ashland and Iron Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
-      "observedAt": "2026-10-04T01:19:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-04T13:30:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055003",
-          "055051"
-        ],
-        "UGC": [
-          "WIZ003",
-          "WIZ004"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2428a7e71e1f5e53cd03a5aad6904573fe4ecb70.005.1",
-      "sourceId": "nws-wi",
-      "title": "Frost Advisory issued October 4 at 1:19AM CDT until October 5 at 9:00AM CDT by NWS Duluth MN",
-      "summary": "Douglas; Bayfield; Burnett; Washburn; Sawyer; Price: * WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...Price, Bayfield, Burnett, Douglas, Sawyer, and Washburn Counties. * WHEN...From 1 AM to 9 AM CDT Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
-      "observedAt": "2026-10-04T01:19:00-05:00",
-      "retrievedAt": "2026-10-04T09:53:49.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-04T13:30:00-05:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "055031",
-          "055007",
-          "055013",
-          "055129",
-          "055113",
-          "055099"
-        ],
-        "UGC": [
-          "WIZ001",
-          "WIZ002",
-          "WIZ006",
-          "WIZ007",
-          "WIZ008",
-          "WIZ009"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.5865d6148d36db0c7c8ed1034e6077ddec3b3e96.001.1",
@@ -23150,9 +23193,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 52,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-04T09:53:49.060Z",
+  "collectedAt": "2026-10-04T15:24:32.893Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -36899,7 +36942,7 @@
     },
     {
       "date": "2026-10-04",
-      "asOf": "2026-10-04T09:54:09.753Z",
+      "asOf": "2026-10-04T15:24:33.293Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
