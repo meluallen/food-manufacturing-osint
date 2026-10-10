@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-10T20:08:01.896Z",
-      "hash": "e556a3c557611266192877c071a1a9fa008bed41991418b923177042267c3bad",
-      "etag": "W/\"129affafa0cb280958e8ec3d71f96200\"",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
+      "hash": "ceeee1d689e24aba084dc38dcf12d498d85b8f5b2d27b836feced0debd1db259",
+      "etag": "W/\"6e415f57860d0cda621644b90897a7e1\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-10T20:08:01.896Z",
-      "hash": "80f4db9c459217ac85a4c18bd47b287afae903c6f387704ad6ff407a851f1692",
-      "etag": "W/\"c9dda4932221de566172fc05a6013225\"",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
+      "hash": "9877e1b044e68ce0a1721f46cc00c437f9e2908bbd98945885ea8e2f3d9bcec8",
+      "etag": "W/\"3e98f702301b58b416663f2f086ef82d\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "ea35ad953ff2d84547999025f0a415c98e7398cd313ca1c633861549af0ab9c5",
       "etag": "W/\"20f3b-CDkwE2HOJu8JNQLNmC6/jGa2L7c\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "fb1621beec7db19d99c1f919dede3d4cc01ad88acd16f79f1592929c4826dfee",
       "etag": "\"1b1f96-65d59ce8c2338\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "46b44a1df45cf58618c4095793f681ac4d833a05537f6033c8e8dc579c08a455",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
       "etag": "W/\"16540-1791226223891-gzip\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "ams-dairy",
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
-      "hash": "4c7246293b5306d74c55516d396bb81c303924eaba1b598416d1f811f1e5e744",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
+      "hash": "b3c89c7e770d8d910e9dea752291b40fda29b63e3d6f4b1e61ff771b02106e7e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
-      "hash": "71453c2ca7041ff5bf7e1d6876fef866a294d54364231f0e70636bdc66b84151",
-      "etag": "\"1791574930\"",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
+      "hash": "8d35bd2d0e38739768dc392f83ce65b146163a166c367324c959c4c3f272e87f",
+      "etag": "\"1791653149\"",
       "count": 1,
       "changed": true
     },
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "4168969f82384c0bd9cb2e5ab45eab52403056b4bb75a0bbc3bd7a616c34ed8a",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -523,7 +523,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-10T15:26:06.718Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "fe277ba8ec7379d04984fb728327e6e5cca1b22d1ef1d732f42337783e7ec12a",
       "etag": null,
       "count": 0,
@@ -541,11 +541,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-10T20:08:01.896Z",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
       "hash": "e8e73286580dc198b80b5cf0148be88eb0fb97d6c61bdb3aad688f792937bcfb",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -615,37 +615,22 @@
     },
     {
       "sourceId": "widatcp",
-      "status": "error",
-      "fetchedAt": "2026-10-09T21:44:29.906Z",
-      "hash": "6928a9c008609ee28d89f4aecaf3d14d52f04a56a849fba5835a187ea9e1107b",
+      "status": "ok",
+      "fetchedAt": "2026-10-10T23:37:41.647Z",
+      "hash": "c0e96869936a4123eededad1b4301dfcfbe148a13916152f00652ff0fe247a45",
       "etag": null,
       "count": 1,
-      "changed": true,
-      "lastSuccessAt": "2026-10-08T16:34:59.924Z",
-      "error": "fetch failed"
+      "changed": true
     }
   ],
   "candidates": [
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-10T20:08:01.896Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "Midcontinent Independent System Operator (MISO)",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-10T15:26:06.718Z",
+      "retrievedAt": "2026-10-10T23:37:41.647Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -658,12 +643,38 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-10T15:26:06.718Z",
+      "retrievedAt": "2026-10-10T23:37:41.647Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-10T23:37:41.647Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-10T20:08:01.896Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "usgs:page-change",
@@ -2744,19 +2755,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T16:34:59.924Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "federal-register:2026-20075",
@@ -24651,9 +24649,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 3,
+  "attempted": 14,
   "remaining": 0,
-  "collectedAt": "2026-10-10T20:08:01.896Z",
+  "collectedAt": "2026-10-10T23:37:41.647Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -43244,7 +43242,7 @@
     },
     {
       "date": "2026-10-10",
-      "asOf": "2026-10-10T20:08:02.484Z",
+      "asOf": "2026-10-10T23:37:42.997Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
