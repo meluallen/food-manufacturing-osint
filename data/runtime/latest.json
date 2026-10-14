@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-14T01:57:41.797Z",
-      "hash": "6dae5d061cc73f28a4dd9a2275372b5e37d826e14022c3d7e8a5cb04aa76a108",
-      "etag": "W/\"ae2fc44ef6861ddc5d43770eb0c833cb\"",
+      "fetchedAt": "2026-10-14T07:44:45.670Z",
+      "hash": "586f83575f5b9c6e4f725549f3188226b90d3cbcecbf5c5e60cad414fef597da",
+      "etag": "W/\"e889d9d8832b16b7831b13261a95ebb9\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-14T01:57:41.797Z",
-      "hash": "d09124b635397de7fc77c6e31f26961059c26e8ec3bda34f4c10b4c5ed2635ef",
-      "etag": "W/\"d5f018600f9e352a33e1d6f56348a6ea\"",
+      "fetchedAt": "2026-10-14T07:44:45.670Z",
+      "hash": "be4eea0a65615f059e95fe94660c85a15d541f3935055b47fa189d95324ef0e7",
+      "etag": "W/\"09a58bc59ca0050cc5e6e8f126301661\"",
       "count": 0,
       "changed": true
     },
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-14T01:57:41.797Z",
-      "hash": "634c671ea3bb486509e1a1089b319879de7b9797afc86633007e896ca4839d6a",
+      "fetchedAt": "2026-10-14T07:44:45.670Z",
+      "hash": "1cdae27d1dd94652ff42f93c0b7101805fa930f292757c3c756b7d1bb9a97120",
       "etag": null,
       "count": 1,
       "changed": true
@@ -618,8 +618,8 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-10-13T02:04:52.217Z",
-      "hash": "4edaa4f40f066986cd8fdbc9c6cc97273be3b2e626236e66b8b8989ec5c3f308",
+      "fetchedAt": "2026-10-14T07:44:45.670Z",
+      "hash": "5d700c07ec33ef6298ee1820dbfe77d1405e947c5e277db0a3ce0ebfdfbff225",
       "etag": null,
       "count": 1,
       "changed": true
@@ -632,12 +632,25 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-14T01:57:41.797Z",
+      "retrievedAt": "2026-10-14T07:44:45.670Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-14T07:44:45.670Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "miso:page-change",
@@ -2177,19 +2190,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-13T02:04:52.217Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "fda-recalls:N/A",
@@ -25243,9 +25243,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-10-14T01:57:41.797Z",
+  "collectedAt": "2026-10-14T07:44:45.670Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -47030,7 +47030,7 @@
     },
     {
       "date": "2026-10-14",
-      "asOf": "2026-10-14T01:57:44.738Z",
+      "asOf": "2026-10-14T07:44:46.279Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
