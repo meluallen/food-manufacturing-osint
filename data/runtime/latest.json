@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-15T18:21:38.152Z",
-      "hash": "21d1fa17ab47350cb20b2d0a7e7db77205c56d7536b09bec368d1837e21ae3dd",
-      "etag": "W/\"5c422e973cbbdc0d229efff8afe6bf26\"",
-      "count": 0,
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "f54a78a768a1a513f9c16520327aa8697e53c7a6d15a54b91c559aaad43a14fd",
+      "etag": "W/\"1eadc09c0abe18375114e3ac9a78f093\"",
+      "count": 2,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-15T18:21:38.152Z",
-      "hash": "834e9d26b0c34c8f74aac34ba29743c39a42ecbc6f0638174ec1b8a4ba6845a9",
-      "etag": "W/\"e5c61b6d5477bcfd3066ff9ddccd8dfb\"",
-      "count": 2,
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "2b48d061ee3ed75d3a3403870337dc6d309812aa9a7f1d5526c272ae21a802a9",
+      "etag": "W/\"66cf14d597466ac3646a42b3197d2bb3\"",
+      "count": 5,
       "changed": true
     },
     {
@@ -57,8 +57,8 @@
     {
       "sourceId": "drought",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "bf99744bb98efe460cb306e832321cdf1a46674f7e0ef8cee652a12858c0f1d3",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "08a16e236fa0b55198b083735bac8106e039380ca00fdc24e8fbbf1f9623145f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -158,7 +158,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "sourceId": "bts",
       "status": "blocked"
     },
@@ -194,7 +194,7 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "sourceId": "port-la",
       "status": "error"
     },
@@ -281,8 +281,8 @@
     {
       "sourceId": "sqfi",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "23aa2145308138a764fa68d8c70b8ca21838e399972ef3437d4bcbe4c712dc09",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "be006b38825c9c377936aaee6ea2eb8ab8b07e9a880f2cd993a18fed997c4c59",
       "etag": null,
       "count": 1,
       "changed": true
@@ -341,8 +341,8 @@
     {
       "sourceId": "afpa",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "8bac908b463b0019837c8a0c9d738a00cc991d3522ca92216022e47aca034979",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "fd76058f3cd1ec00c9ff5f5862cabe9deba89888ef0ce0a0029e34006b345ce3",
       "etag": null,
       "count": 1,
       "changed": true
@@ -386,7 +386,7 @@
     {
       "sourceId": "appa",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "hash": "695987f60f3dc6aaaa753491331e65f0055cdea1ab1d54c2e8ac488cd2025029",
       "etag": null,
       "count": 0,
@@ -395,8 +395,8 @@
     {
       "sourceId": "plma",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "2ef34c7665d2fc02f81716f4f9f4f417ade867e4873858087aea113229c92f4b",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "2f8675a8670b0f0299f175b525dcfa39350d04ffb45fa69344290b412e9f0636",
       "etag": null,
       "count": 1,
       "changed": true
@@ -404,7 +404,7 @@
     {
       "sourceId": "ws-careers",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "hash": "9f3241281d9466435a2c6a88e92fd66b5fdbfec7a22aaeb0e61f0d0161e9272d",
       "etag": null,
       "count": 0,
@@ -413,7 +413,7 @@
     {
       "sourceId": "ws-about",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "hash": "0e397faa2eb63ec463dafcdd45d8e690150f7c9d0c6aa7c06b977eea6f23d310",
       "etag": null,
       "count": 0,
@@ -422,9 +422,9 @@
     {
       "sourceId": "topfox",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "1e8a5648ebef99b26d94fb5f0ffcf4297ac7ef29b8b9b076c75b605b34093708",
-      "etag": "\"page_cache:31738888237:IndexController:ac4549f910aa242e6f70ea51c8dfcb79\"",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "69a4690160b56a6b2a5adaa2ab33149e30ebec8eca1dc4b288ee57e32ab1c76e",
+      "etag": "\"page_cache:31738888237:IndexController:deaa6f5295ef86659d137620148b1617\"",
       "count": 1,
       "changed": true
     },
@@ -451,8 +451,8 @@
     {
       "sourceId": "thrive",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "8b0bade12d0ab624f886e704767743b8ad581c2fcb7f07fb7552b998263c1fd5",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "e2bf484241062a490705f7cd3b32877370c34f0ece409159226c7a549abe2591",
       "etag": null,
       "count": 1,
       "changed": true
@@ -460,26 +460,26 @@
     {
       "sourceId": "vdf",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "hash": "1d716dba0f849f00f38918cfece31953c26c7d202c3b509aaa7c2b4cfa7936a9",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "efd",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "43a5894e29eef6ae27cf2ba0252daee45853cbde3e155594ecdd26bef51c4a80",
-      "etag": "\"112-1791429448;br\"",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "8f74f1ad1eb2c0f2da8890dec0a21f53c16cf5ba1e468ee63bc07b7f3d34f48e",
+      "etag": "\"385-1792072841;br\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "barrett",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "bf829f32724f149dd9d016e0c218237405a351f3946a1b2c442e8ec5fcbe5326",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "e125dd1e32845ba41b477b37f6e9630afd695ae103a6a4658907ab1a2a979d1e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -487,23 +487,23 @@
     {
       "sourceId": "weaver",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "hash": "a9a4ad64a7ab56c6301d498372f787f3ccdc1fb22bc56747583b4b62f493b6a4",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
       "sourceId": "flagstone",
       "status": "error"
     },
     {
       "sourceId": "pmmi",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "211d9348a568538ed67f35d3293119caa941f5486944585de47708061af8d9f6",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "a381eae839362884e2a507ea57a9669f6e392cc3eece13b71a1b9abeecc36363",
       "etag": null,
       "count": 1,
       "changed": true
@@ -511,9 +511,9 @@
     {
       "sourceId": "gea",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "6dd0ab5c4e8f1671a31e0698936d0ba02b2b212f0649fe734f0c6bb7ff77e5db",
-      "etag": "\"oxgazosofwcwwi\"",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "e582b8276a1d21850188f2bb52b6cfb3cba2ba5201bf42af55b052a2c7790400",
+      "etag": "\"16dqxhks8bvcx5i\"",
       "count": 1,
       "changed": true
     },
@@ -544,8 +544,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-15T18:21:38.152Z",
-      "hash": "628871bca02ac79274d2a10d89db1a84faa8f570fa5b26f1f038ba37e1588fbb",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "78132ad789825fe1eeb6ae793beb270bfcf00653bdfd8f3aed920318d945f0fa",
       "etag": null,
       "count": 1,
       "changed": true
@@ -576,8 +576,8 @@
     {
       "sourceId": "bls-paperboard-api",
       "status": "ok",
-      "fetchedAt": "2026-10-08T22:09:23.167Z",
-      "hash": "319e8fae42c45e95d003ee36b4fb75eeb9cf09ae38de24003d3c4cd82c14dd34",
+      "fetchedAt": "2026-10-15T22:25:20.994Z",
+      "hash": "b65b2ee074a26cfa079f8e5ca0929bda50cf1de389a334c2dcf9d12841e926a3",
       "etag": null,
       "count": 1,
       "changed": true
@@ -639,12 +639,738 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-15T18:21:38.152Z",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.75aa7fc3eb0eb086329d4bcfc03ac43b6f74e872.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Watch issued October 15 at 12:55PM CDT until October 17 at 9:00AM CDT by NWS Green Bay WI",
+      "summary": "Menominee; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: * WHAT...Sub-freezing temperatures of 25 to 30 degrees possible. * WHERE...Portions of central, east central, and northeast Wisconsin. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T12:55:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-15T21:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055078",
+          "055073",
+          "055115",
+          "055141",
+          "055097",
+          "055135",
+          "055087",
+          "055009",
+          "055061",
+          "055137",
+          "055139",
+          "055015",
+          "055071",
+          "055075",
+          "055083"
+        ],
+        "UGC": [
+          "WIZ020",
+          "WIZ030",
+          "WIZ031",
+          "WIZ035",
+          "WIZ036",
+          "WIZ037",
+          "WIZ038",
+          "WIZ039",
+          "WIZ040",
+          "WIZ045",
+          "WIZ048",
+          "WIZ049",
+          "WIZ050",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "thrive:page-change",
+      "sourceId": "thrive",
+      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.thrivefreezedry.com/",
+      "scope": "Group aliases de-duplicated; announcement is not commissioning"
+    },
+    {
+      "id": "plma:page-change",
+      "sourceId": "plma",
+      "title": "Private Label Manufacturers Association | PLMA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://plma.com/",
+      "scope": "Private label, retailer commentary; some data licensed"
+    },
+    {
+      "id": "topfox:page-change",
+      "sourceId": "topfox",
+      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://topfoxsnacks.com/",
+      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
+    },
+    {
+      "id": "drought:page-change",
+      "sourceId": "drought",
+      "title": "Current Map | U.S. Drought Monitor",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient availability",
+      "sourceUrl": "https://droughtmonitor.unl.edu/",
+      "scope": "Weekly; supplier-crop origin mapping required"
+    },
+    {
+      "id": "sqfi:page-change",
+      "sourceId": "sqfi",
+      "title": "SQFI | SQF Institute",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.sqfi.com/",
+      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
+    },
+    {
+      "id": "afpa:page-change",
+      "sourceId": "afpa",
+      "title": "Statistics and Resources | AF&amp;PA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://www.afandpa.org/statistics-resources",
+      "scope": "Paper/paperboard demand; some reports require license"
+    },
+    {
+      "id": "efd:page-change",
+      "sourceId": "efd",
+      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://europeanfreezedry.com/",
+      "scope": "International contract freeze-drying and pet products"
+    },
+    {
+      "id": "barrett:page-change",
+      "sourceId": "barrett",
+      "title": "Pet Food Manufacturer | Barrett Petfood",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://barrettpetfood.com/",
+      "scope": "Pet manufacturing and freeze-dried inclusions"
+    },
+    {
+      "id": "gea:page-change",
+      "sourceId": "gea",
+      "title": "GEA – engineering for a better world",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.gea.com/en/",
+      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
+    },
+    {
+      "id": "pmmi:page-change",
+      "sourceId": "pmmi",
+      "title": "PMMI, The Association for Packaging and Processing Technologies",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.pmmi.org/",
+      "scope": "Robotics, machine vision, equipment and workforce developments"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.14fea440b79e1f8b7412e6c4808dd9be4bc0489f.002.1",
+      "sourceId": "nws-il",
+      "title": "Freeze Watch issued October 15 at 1:58PM CDT until October 17 at 9:00AM CDT by NWS Chicago IL",
+      "summary": "Winnebago; Boone; Ogle: * WHAT...Sub-freezing temperatures as low as 30 possible. * WHERE...Boone, Ogle, and Winnebago Counties. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:58:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-16T00:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017201",
+          "017007",
+          "017141"
+        ],
+        "UGC": [
+          "ILZ003",
+          "ILZ004",
+          "ILZ008"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.2a0e33fbfc2db2c62ad73bf23d1157ade7c6c703.001.1",
+      "sourceId": "nws-il",
+      "title": "Freeze Watch issued October 15 at 1:57PM CDT until October 17 at 9:00AM CDT by NWS Quad Cities IA IL",
+      "summary": "Buchanan; Delaware; Dubuque; Benton; Linn; Jones; Jackson; Iowa; Johnson; Cedar; Clinton; Keokuk; Jo Daviess; Stephenson; Carroll: * WHAT...Sub-freezing temperatures as low as 30 possible. * WHERE...Portions of northwest Illinois and east central, northeast, and southeast Iowa. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:57:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-15T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019019",
+          "019055",
+          "019061",
+          "019011",
+          "019113",
+          "019105",
+          "019097",
+          "019095",
+          "019103",
+          "019031",
+          "019045",
+          "019107",
+          "017085",
+          "017177",
+          "017015"
+        ],
+        "UGC": [
+          "IAZ040",
+          "IAZ041",
+          "IAZ042",
+          "IAZ051",
+          "IAZ052",
+          "IAZ053",
+          "IAZ054",
+          "IAZ063",
+          "IAZ064",
+          "IAZ065",
+          "IAZ066",
+          "IAZ076",
+          "ILZ001",
+          "ILZ002",
+          "ILZ007"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.e9fec53a535fff03dba9958b596c738921e7a20e.002.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Watch issued October 15 at 1:58PM CDT until October 17 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Marquette; Green Lake; Fond Du Lac; Sheboygan; Sauk; Columbia; Dodge; Washington; Dane; Jefferson; Waukesha: * WHAT...Sub-freezing temperatures as low as 27 possible. * WHERE...Portions of east central, south central, and southeast Wisconsin. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:58:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-15T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055077",
+          "055047",
+          "055039",
+          "055117",
+          "055111",
+          "055021",
+          "055027",
+          "055131",
+          "055025",
+          "055055",
+          "055133"
+        ],
+        "UGC": [
+          "WIZ046",
+          "WIZ047",
+          "WIZ051",
+          "WIZ052",
+          "WIZ056",
+          "WIZ057",
+          "WIZ058",
+          "WIZ059",
+          "WIZ063",
+          "WIZ064",
+          "WIZ065"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.e9fec53a535fff03dba9958b596c738921e7a20e.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Watch issued October 15 at 1:58PM CDT until October 17 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Iowa; Lafayette; Green; Rock; Walworth: * WHAT...Sub-freezing temperatures as low as 27 possible. * WHERE...Green, Iowa, Lafayette, Rock, and Walworth Counties. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:58:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-15T22:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "055049",
+          "055065",
+          "055045",
+          "055105",
+          "055127"
+        ],
+        "UGC": [
+          "WIZ062",
+          "WIZ067",
+          "WIZ068",
+          "WIZ069",
+          "WIZ070"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.9dd512ec9427da1b7e7074eeb53419f1deddad96.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Watch issued October 15 at 1:53PM CDT until October 17 at 9:00AM CDT by NWS La Crosse WI",
+      "summary": "Mitchell; Howard; Winneshiek; Allamakee; Floyd; Chickasaw; Fayette; Clayton; Wabasha; Dodge; Olmsted; Winona; Mower; Fillmore; Houston; Taylor; Clark; Buffalo; Trempealeau; Jackson; La Crosse; Monroe; Juneau; Adams; Vernon; Crawford; Richland; Grant: * WHAT...Sub-freezing temperatures as low as 27 possible. * WHERE...Northeast Iowa, southeast Minnesota, and southwest into west central Wisconsin. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:53:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-16T02:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "019131",
+          "019089",
+          "019191",
+          "019005",
+          "019067",
+          "019037",
+          "019065",
+          "019043",
+          "027157",
+          "027039",
+          "027109",
+          "027169",
+          "027099",
+          "027045",
+          "027055",
+          "055119",
+          "055019",
+          "055011",
+          "055121",
+          "055053",
+          "055063",
+          "055081",
+          "055057",
+          "055001",
+          "055123",
+          "055023",
+          "055103",
+          "055043"
+        ],
+        "UGC": [
+          "IAZ008",
+          "IAZ009",
+          "IAZ010",
+          "IAZ011",
+          "IAZ018",
+          "IAZ019",
+          "IAZ029",
+          "IAZ030",
+          "MNZ079",
+          "MNZ086",
+          "MNZ087",
+          "MNZ088",
+          "MNZ094",
+          "MNZ095",
+          "MNZ096",
+          "WIZ017",
+          "WIZ029",
+          "WIZ032",
+          "WIZ033",
+          "WIZ034",
+          "WIZ041",
+          "WIZ042",
+          "WIZ043",
+          "WIZ044",
+          "WIZ053",
+          "WIZ054",
+          "WIZ055",
+          "WIZ061"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.cd5c5df1824e4aea4fc722574e76eba36bac2338.001.1",
+      "sourceId": "nws-wi",
+      "title": "Freeze Watch issued October 15 at 1:38PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+      "summary": "Douglas; Todd; Morrison; Mille Lacs; Kanabec; Stevens; Pope; Stearns; Benton; Sherburne; Isanti; Chisago; Lac Qui Parle; Swift; Chippewa; Kandiyohi; Meeker; Wright; Hennepin; Anoka; Ramsey; Washington; Yellow Medicine; Renville; McLeod; Sibley; Carver; Scott; Dakota; Redwood; Brown; Nicollet; Le Sueur; Rice; Goodhue; Watonwan; Blue Earth; Waseca; Steele; Martin; Faribault; Freeborn; Polk; Barron; Rusk; St. Croix; Pierce; Dunn; Pepin; Chippewa; Eau Claire: * WHAT...Sub-freezing temperatures possible. * WHERE...Portions of central, east central, south central, southeast, southwest, and west central Minnesota and northwest and west central Wisconsin. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-10-15T13:38:00-05:00",
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-16T07:00:00-05:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "027041",
+          "027153",
+          "027097",
+          "027095",
+          "027065",
+          "027149",
+          "027121",
+          "027145",
+          "027009",
+          "027141",
+          "027059",
+          "027025",
+          "027073",
+          "027151",
+          "027023",
+          "027067",
+          "027093",
+          "027171",
+          "027053",
+          "027003",
+          "027123",
+          "027163",
+          "027173",
+          "027129",
+          "027085",
+          "027143",
+          "027019",
+          "027139",
+          "027037",
+          "027127",
+          "027015",
+          "027103",
+          "027079",
+          "027131",
+          "027049",
+          "027165",
+          "027013",
+          "027161",
+          "027147",
+          "027091",
+          "027043",
+          "027047",
+          "055095",
+          "055005",
+          "055107",
+          "055109",
+          "055093",
+          "055033",
+          "055091",
+          "055017",
+          "055035"
+        ],
+        "UGC": [
+          "MNZ041",
+          "MNZ042",
+          "MNZ043",
+          "MNZ044",
+          "MNZ045",
+          "MNZ047",
+          "MNZ048",
+          "MNZ049",
+          "MNZ050",
+          "MNZ051",
+          "MNZ052",
+          "MNZ053",
+          "MNZ054",
+          "MNZ055",
+          "MNZ056",
+          "MNZ057",
+          "MNZ058",
+          "MNZ059",
+          "MNZ060",
+          "MNZ061",
+          "MNZ062",
+          "MNZ063",
+          "MNZ064",
+          "MNZ065",
+          "MNZ066",
+          "MNZ067",
+          "MNZ068",
+          "MNZ069",
+          "MNZ070",
+          "MNZ073",
+          "MNZ074",
+          "MNZ075",
+          "MNZ076",
+          "MNZ077",
+          "MNZ078",
+          "MNZ082",
+          "MNZ083",
+          "MNZ084",
+          "MNZ085",
+          "MNZ091",
+          "MNZ092",
+          "MNZ093",
+          "WIZ014",
+          "WIZ015",
+          "WIZ016",
+          "WIZ023",
+          "WIZ024",
+          "WIZ025",
+          "WIZ026",
+          "WIZ027",
+          "WIZ028"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "bls-paperboard-api:WPU0914:2026-09",
+      "sourceId": "bls-paperboard-api",
+      "title": "Paperboard · 2026-09",
+      "summary": "United States: 379.475 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-09; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-15T22:25:20.994Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "measurement": {
+        "id": "WPU0914:2026-09",
+        "label": "Paperboard",
+        "seriesCode": "WPU0914",
+        "referencePeriod": "2026-09",
+        "unit": "index, 1982=100",
+        "value": 379.475,
+        "comparison": "index level; not a transaction price",
+        "seasonalAdjustment": "NSA",
+        "geography": "United States",
+        "preliminary": true,
+        "history": [
+          {
+            "period": "2026-09",
+            "value": 379.475,
+            "preliminary": true
+          },
+          {
+            "period": "2026-08",
+            "value": 373.729,
+            "preliminary": true
+          },
+          {
+            "period": "2026-07",
+            "value": 365.079,
+            "preliminary": true
+          },
+          {
+            "period": "2026-06",
+            "value": 361.177,
+            "preliminary": true
+          },
+          {
+            "period": "2026-05",
+            "value": 360.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-04",
+            "value": 353.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-03",
+            "value": 353.904,
+            "preliminary": false
+          },
+          {
+            "period": "2026-02",
+            "value": 354.541,
+            "preliminary": false
+          },
+          {
+            "period": "2026-01",
+            "value": 356.681,
+            "preliminary": false
+          },
+          {
+            "period": "2025-12",
+            "value": 356.438,
+            "preliminary": false
+          },
+          {
+            "period": "2025-11",
+            "value": 356.324,
+            "preliminary": false
+          },
+          {
+            "period": "2025-10",
+            "value": 357.05,
+            "preliminary": false
+          },
+          {
+            "period": "2025-09",
+            "value": 354.549,
+            "preliminary": false
+          },
+          {
+            "period": "2025-08",
+            "value": 355.341,
+            "preliminary": false
+          },
+          {
+            "period": "2025-07",
+            "value": 355.658,
+            "preliminary": false
+          },
+          {
+            "period": "2025-06",
+            "value": 358.893,
+            "preliminary": false
+          },
+          {
+            "period": "2025-05",
+            "value": 353.878,
+            "preliminary": false
+          },
+          {
+            "period": "2025-04",
+            "value": 352.675,
+            "preliminary": false
+          },
+          {
+            "period": "2025-03",
+            "value": 348.748,
+            "preliminary": false
+          },
+          {
+            "period": "2025-02",
+            "value": 346.547,
+            "preliminary": false
+          },
+          {
+            "period": "2025-01",
+            "value": 346.383,
+            "preliminary": false
+          },
+          {
+            "period": "2024-12",
+            "value": 343.626,
+            "preliminary": false
+          },
+          {
+            "period": "2024-11",
+            "value": 343.856,
+            "preliminary": false
+          },
+          {
+            "period": "2024-10",
+            "value": 343.106,
+            "preliminary": false
+          },
+          {
+            "period": "2024-09",
+            "value": 340.929,
+            "preliminary": false
+          },
+          {
+            "period": "2024-08",
+            "value": 339.666,
+            "preliminary": false
+          },
+          {
+            "period": "2024-07",
+            "value": 334.017,
+            "preliminary": false
+          },
+          {
+            "period": "2024-06",
+            "value": 332.43,
+            "preliminary": false
+          },
+          {
+            "period": "2024-05",
+            "value": 330.954,
+            "preliminary": false
+          },
+          {
+            "period": "2024-04",
+            "value": 329.951,
+            "preliminary": false
+          },
+          {
+            "period": "2024-03",
+            "value": 328.448,
+            "preliminary": false
+          },
+          {
+            "period": "2024-02",
+            "value": 327.928,
+            "preliminary": false
+          },
+          {
+            "period": "2024-01",
+            "value": 328.547,
+            "preliminary": false
+          }
+        ]
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
     },
     {
       "id": "miso:page-change",
@@ -1946,57 +2672,6 @@
           "WIZ063",
           "WIZ064",
           "WIZ065"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.75aa7fc3eb0eb086329d4bcfc03ac43b6f74e872.001.1",
-      "sourceId": "nws-wi",
-      "title": "Freeze Watch issued October 15 at 12:55PM CDT until October 17 at 9:00AM CDT by NWS Green Bay WI",
-      "summary": "Menominee; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: * WHAT...Sub-freezing temperatures of 25 to 30 degrees possible. * WHERE...Portions of central, east central, and northeast Wisconsin. * WHEN...From late Friday night through Saturday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
-      "observedAt": "2026-10-15T12:55:00-05:00",
-      "retrievedAt": "2026-10-15T18:21:38.152Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-15T21:00:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055078",
-          "055073",
-          "055115",
-          "055141",
-          "055097",
-          "055135",
-          "055087",
-          "055009",
-          "055061",
-          "055137",
-          "055139",
-          "055015",
-          "055071",
-          "055075",
-          "055083"
-        ],
-        "UGC": [
-          "WIZ020",
-          "WIZ030",
-          "WIZ031",
-          "WIZ035",
-          "WIZ036",
-          "WIZ037",
-          "WIZ038",
-          "WIZ039",
-          "WIZ040",
-          "WIZ045",
-          "WIZ048",
-          "WIZ049",
-          "WIZ050",
-          "WIZ073",
-          "WIZ074"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -4292,136 +4967,6 @@
       },
       "dateType": "Reference period is in the measurement; publication date not inferred",
       "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "thrive:page-change",
-      "sourceId": "thrive",
-      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.thrivefreezedry.com/",
-      "scope": "Group aliases de-duplicated; announcement is not commissioning"
-    },
-    {
-      "id": "plma:page-change",
-      "sourceId": "plma",
-      "title": "Private Label Manufacturers Association | PLMA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://plma.com/",
-      "scope": "Private label, retailer commentary; some data licensed"
-    },
-    {
-      "id": "topfox:page-change",
-      "sourceId": "topfox",
-      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://topfoxsnacks.com/",
-      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
-    },
-    {
-      "id": "drought:page-change",
-      "sourceId": "drought",
-      "title": "Current Map | U.S. Drought Monitor",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient availability",
-      "sourceUrl": "https://droughtmonitor.unl.edu/",
-      "scope": "Weekly; supplier-crop origin mapping required"
-    },
-    {
-      "id": "sqfi:page-change",
-      "sourceId": "sqfi",
-      "title": "SQFI | SQF Institute",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.sqfi.com/",
-      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
-    },
-    {
-      "id": "afpa:page-change",
-      "sourceId": "afpa",
-      "title": "Statistics and Resources | AF&amp;PA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://www.afandpa.org/statistics-resources",
-      "scope": "Paper/paperboard demand; some reports require license"
-    },
-    {
-      "id": "efd:page-change",
-      "sourceId": "efd",
-      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://europeanfreezedry.com/",
-      "scope": "International contract freeze-drying and pet products"
-    },
-    {
-      "id": "barrett:page-change",
-      "sourceId": "barrett",
-      "title": "Pet Food Manufacturer | Barrett Petfood",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://barrettpetfood.com/",
-      "scope": "Pet manufacturing and freeze-dried inclusions"
-    },
-    {
-      "id": "gea:page-change",
-      "sourceId": "gea",
-      "title": "GEA – engineering for a better world",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.gea.com/en/",
-      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
-    },
-    {
-      "id": "pmmi:page-change",
-      "sourceId": "pmmi",
-      "title": "PMMI, The Association for Packaging and Processing Technologies",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-08T22:09:23.167Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.pmmi.org/",
-      "scope": "Robotics, machine vision, equipment and workforce developments"
     },
     {
       "id": "vdf:page-change",
@@ -25707,9 +26252,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 52,
+  "attempted": 22,
   "remaining": 0,
-  "collectedAt": "2026-10-15T18:21:38.152Z",
+  "collectedAt": "2026-10-15T22:25:20.994Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -48291,7 +48836,7 @@
     },
     {
       "date": "2026-10-15",
-      "asOf": "2026-10-15T18:22:20.965Z",
+      "asOf": "2026-10-15T22:25:25.339Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
