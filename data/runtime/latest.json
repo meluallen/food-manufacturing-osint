@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-15T07:31:53.519Z",
-      "hash": "0461ca30939b6ea226f2de809333024698e78d04256fbd2e34513688c8589977",
-      "etag": "W/\"aaf9dd32a21a6c7b6962bcf0359cdae4\"",
-      "count": 1,
+      "fetchedAt": "2026-10-15T13:30:00.826Z",
+      "hash": "5538f7c0ba78927a7e8d2bafb897ab1ceee0f704b9ab59f7d34f295efba5f244",
+      "etag": "W/\"f721ba2974767d0bce98aeb15b3a5533\"",
+      "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-15T07:31:53.519Z",
-      "hash": "cd89c6f990aa216a44579ab54452d352306282ae9b487ae7b8fb94e486fa11c4",
-      "etag": "W/\"811dc6a5e5d97074dd8ece5c8ff7c2ab\"",
+      "fetchedAt": "2026-10-15T13:30:00.826Z",
+      "hash": "2ac8bb5e35f36d38e4fc16dfdc22a3190b54c0ecab5a745b2cf736310dff217c",
+      "etag": "W/\"fa2dd8ea11293636e8f61a8df4eb2d51\"",
       "count": 0,
       "changed": true
     },
@@ -541,8 +541,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-15T07:31:53.519Z",
-      "hash": "dc59aac4e485bef144c36ab0e289fa561710504ca998ce03a48616b323921edb",
+      "fetchedAt": "2026-10-15T13:30:00.826Z",
+      "hash": "b771e045a08feccf62c28387470187771918f3c17ff963dec07f0bd91b4adc42",
       "etag": null,
       "count": 1,
       "changed": true
@@ -617,12 +617,14 @@
     },
     {
       "sourceId": "widatcp",
-      "status": "ok",
-      "fetchedAt": "2026-10-14T07:44:45.670Z",
+      "status": "error",
+      "fetchedAt": "2026-10-15T13:30:00.826Z",
       "hash": "5d700c07ec33ef6298ee1820dbfe77d1405e947c5e277db0a3ce0ebfdfbff225",
       "etag": null,
       "count": 1,
-      "changed": true
+      "changed": true,
+      "lastSuccessAt": "2026-10-14T07:44:45.670Z",
+      "error": "fetch failed"
     }
   ],
   "candidates": [
@@ -632,7 +634,7 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-15T07:31:53.519Z",
+      "retrievedAt": "2026-10-15T13:30:00.826Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -25541,9 +25543,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-10-15T07:31:53.519Z",
+  "collectedAt": "2026-10-15T13:30:00.826Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -48125,7 +48127,7 @@
     },
     {
       "date": "2026-10-15",
-      "asOf": "2026-10-15T07:31:55.345Z",
+      "asOf": "2026-10-15T13:30:11.362Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
