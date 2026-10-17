@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-17T14:14:48.342Z",
-      "hash": "6afbe6cee5698a37a22043986ee8c4a1ed467bb0326da8444146c46f0fedcd19",
-      "etag": "W/\"557a95f825eadb3d0561949337f93c86\"",
+      "fetchedAt": "2026-10-17T17:18:39.812Z",
+      "hash": "471ed3f6aba41cdbf9a4afb0e39db7b9137d9e26530a5b3ecc57d86b27b8a845",
+      "etag": "W/\"2f815db8f956f62306df9174e8eeab2d\"",
       "count": 6,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-17T14:14:48.342Z",
-      "hash": "d7d6eda9fd0eca17de49c7d49b1d0c1f68761861643cfdcb058a6e3b51aaa63c",
-      "etag": "W/\"950f9a54d7b262ca7b0ea715306fbf86\"",
+      "fetchedAt": "2026-10-17T17:18:39.812Z",
+      "hash": "b2645fcf95c4cb7e6c2eef2f78f9fe8ac86911352761c2312fce6144000f342d",
+      "etag": "W/\"f0df43be868fe4ec5c9dc75e1b161ab7\"",
       "count": 0,
       "changed": true
     },
@@ -544,8 +544,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-17T14:14:48.342Z",
-      "hash": "1f64fd17728d3d5acb1be571c795a63c2656cbf4401cdbed783f33214b7ef836",
+      "fetchedAt": "2026-10-17T17:18:39.812Z",
+      "hash": "7d146ab853bf7650f30f120a6101c82fc47ea95b626877fc84f6c8441a76bbf5",
       "etag": null,
       "count": 1,
       "changed": true
@@ -635,7 +635,7 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -648,7 +648,7 @@
       "title": "Frost Advisory issued October 17 at 12:00AM CDT until October 18 at 8:00AM CDT by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...All of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...From 9 PM CDT /10 PM EDT/ this evening to 8 AM CDT /9 AM EDT/ Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor p",
       "observedAt": "2026-10-17T00:00:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -780,38 +780,12 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.826e7ea6bb9baca4797f1204dd7680b7e4e33c9b.003.1",
       "sourceId": "nws-il",
       "title": "Frost Advisory issued October 17 at 9:02AM CDT until October 18 at 9:00AM CDT by NWS St Louis MO",
       "summary": "Bond; Fayette; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Franklin; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Portions of south central and southwest Illinois and east central and southeast Missouri. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
       "observedAt": "2026-10-17T09:02:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -868,7 +842,7 @@
       "title": "Frost Advisory issued October 17 at 9:02AM CDT until October 18 at 9:00AM CDT by NWS St Louis MO",
       "summary": "Montgomery: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...Montgomery IL County. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
       "observedAt": "2026-10-17T09:02:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -891,7 +865,7 @@
       "title": "Frost Advisory issued October 17 at 8:41AM CDT until October 18 at 9:00AM CDT by NWS Lincoln IL",
       "summary": "Christian: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...A portion of central Illinois. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
       "observedAt": "2026-10-17T08:41:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -914,7 +888,7 @@
       "title": "Frost Advisory issued October 17 at 8:41AM CDT until October 18 at 9:00AM CDT by NWS Lincoln IL",
       "summary": "McLean; De Witt; Piatt; Champaign; Vermilion; Macon; Moultrie; Douglas; Coles; Edgar; Shelby; Cumberland; Clark; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Portions of central, east central, and southeast Illinois. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
       "observedAt": "2026-10-17T08:41:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -973,7 +947,7 @@
       "title": "Frost Advisory issued October 17 at 7:56AM CDT until October 18 at 8:00AM CDT by NWS Chicago IL",
       "summary": "Kankakee; Livingston; Iroquois; Ford; Eastern Will; Lake; Porter; Newton; Jasper; Benton: * WHAT...Low temperatures in the low to mid 30s will result in frost formation. * WHERE...In Illinois, Livingston, Ford, Iroquois, Eastern Will, and Kankakee Counties. In Indiana, Benton, Jasper, Lake IN, Newton, and Porter Counties. * WHEN...From 3 AM CDT /4 AM EDT/ to 8 AM CDT /9 AM EDT/ Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
       "observedAt": "2026-10-17T07:56:00-05:00",
-      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "retrievedAt": "2026-10-17T17:18:39.812Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -1007,6 +981,32 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.ab769ce7f072d930a9b79e0d7478690bb658d9f0.001.1",
@@ -29854,9 +29854,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-17T14:14:48.342Z",
+  "collectedAt": "2026-10-17T17:18:39.812Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -54032,7 +54032,7 @@
     },
     {
       "date": "2026-10-17",
-      "asOf": "2026-10-17T14:14:51.462Z",
+      "asOf": "2026-10-17T17:18:40.077Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
