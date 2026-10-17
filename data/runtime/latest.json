@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-17T10:52:44.621Z",
-      "hash": "4ddb95db2eb7542c86bec28fd23969e77e9b7a71de303166bb0a9629ed1264e8",
-      "etag": "W/\"2296a2c22582966aa27b8a13a4a3a3f0\"",
-      "count": 15,
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
+      "hash": "6afbe6cee5698a37a22043986ee8c4a1ed467bb0326da8444146c46f0fedcd19",
+      "etag": "W/\"557a95f825eadb3d0561949337f93c86\"",
+      "count": 6,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-17T10:52:44.621Z",
-      "hash": "36117b891068b0025e4b4be05300af6f4d4cfaee0a5938c10b765725fe46385e",
-      "etag": "W/\"5d95319718cec7a9c26ebdb0f1661e43\"",
-      "count": 6,
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
+      "hash": "d7d6eda9fd0eca17de49c7d49b1d0c1f68761861643cfdcb058a6e3b51aaa63c",
+      "etag": "W/\"950f9a54d7b262ca7b0ea715306fbf86\"",
+      "count": 0,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "d08abf43984ebd9ad9d16c83530c19860e2b83f854dfad648b17ab0ff4526841",
       "etag": "W/\"208bc-3qts+6GnjuZbmgbD4sZvlqo4jPo\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "b6e27975f6635ecfc546fbd4fd6e444ba63a07ab2abc8876229d77fe083d357d",
       "etag": "\"1b5ac9-65df850c86598\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "f5c1fabfad5c940ea72e933f3285eb3dfe3102bd6260cca818bb7c5052155143",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
+      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
+      "etag": "W/\"16538-1791226471116-gzip\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "ams-dairy",
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
-      "hash": "f0e432fb856f7c6c83b6eb072b1a4cd0b3956a619f9a9eecabb4cfab7a42df30",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
+      "hash": "702c6d84464f136e2ffa43ecab0cfe6fb2b843af9275e57f6e50685b60e43865",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,11 +201,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "5eacd9bd0c37f17778cd7d63ce310c884deb7aad6c1d77864ca9c4d131cb87b0",
       "etag": "\"1792195248\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "174f7b72cf136a5d8338cbf89c10e112e25ee6f17ffa98244611c50e7d76f467",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -526,11 +526,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-17T05:38:55.841Z",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
       "hash": "e392ae5e5704be2c5d46e424f6433a2b91811e66106eddda29e1d136abc62194",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -544,8 +544,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-17T10:52:44.621Z",
-      "hash": "46173c7d6a81a233377c4dc2b3732be193840aa2ad306ab4f1f54ec6bc24422e",
+      "fetchedAt": "2026-10-17T14:14:48.342Z",
+      "hash": "1f64fd17728d3d5acb1be571c795a63c2656cbf4401cdbed783f33214b7ef836",
       "etag": null,
       "count": 1,
       "changed": true
@@ -635,7 +635,7 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-17T10:52:44.621Z",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -648,7 +648,7 @@
       "title": "Frost Advisory issued October 17 at 12:00AM CDT until October 18 at 8:00AM CDT by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...All of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...From 9 PM CDT /10 PM EDT/ this evening to 8 AM CDT /9 AM EDT/ Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor p",
       "observedAt": "2026-10-17T00:00:00-05:00",
-      "retrievedAt": "2026-10-17T10:52:44.621Z",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -775,6 +775,235 @@
           "MOZ111",
           "MOZ112",
           "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.826e7ea6bb9baca4797f1204dd7680b7e4e33c9b.003.1",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued October 17 at 9:02AM CDT until October 18 at 9:00AM CDT by NWS St Louis MO",
+      "summary": "Bond; Fayette; Clinton; Marion; Washington; Randolph; Madison; St. Clair; Monroe; Franklin; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Portions of south central and southwest Illinois and east central and southeast Missouri. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-17T09:02:00-05:00",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-18T00:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017005",
+          "017051",
+          "017027",
+          "017121",
+          "017189",
+          "017157",
+          "017119",
+          "017163",
+          "017133",
+          "029071",
+          "029099",
+          "029055",
+          "029221",
+          "029187",
+          "029186",
+          "029093",
+          "029123",
+          "029179"
+        ],
+        "UGC": [
+          "ILZ064",
+          "ILZ065",
+          "ILZ069",
+          "ILZ070",
+          "ILZ074",
+          "ILZ079",
+          "ILZ100",
+          "ILZ101",
+          "ILZ102",
+          "MOZ062",
+          "MOZ065",
+          "MOZ072",
+          "MOZ073",
+          "MOZ074",
+          "MOZ075",
+          "MOZ084",
+          "MOZ085",
+          "MOZ099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.826e7ea6bb9baca4797f1204dd7680b7e4e33c9b.001.2",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued October 17 at 9:02AM CDT until October 18 at 9:00AM CDT by NWS St Louis MO",
+      "summary": "Montgomery: * WHAT...Temperatures as low as 33 will result in frost formation. * WHERE...Montgomery IL County. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-17T09:02:00-05:00",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-18T00:15:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017135"
+        ],
+        "UGC": [
+          "ILZ060"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f8eed668c5575e0c97a9d2482347ca591b543efc.001.2",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued October 17 at 8:41AM CDT until October 18 at 9:00AM CDT by NWS Lincoln IL",
+      "summary": "Christian: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...A portion of central Illinois. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-17T08:41:00-05:00",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-17T20:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017021"
+        ],
+        "UGC": [
+          "ILZ052"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.f8eed668c5575e0c97a9d2482347ca591b543efc.003.1",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued October 17 at 8:41AM CDT until October 18 at 9:00AM CDT by NWS Lincoln IL",
+      "summary": "McLean; De Witt; Piatt; Champaign; Vermilion; Macon; Moultrie; Douglas; Coles; Edgar; Shelby; Cumberland; Clark; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: * WHAT...Temperatures as low as 34 will result in frost formation. * WHERE...Portions of central, east central, and southeast Illinois. * WHEN...From 1 AM to 9 AM CDT Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-17T08:41:00-05:00",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-17T20:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017113",
+          "017039",
+          "017147",
+          "017019",
+          "017183",
+          "017115",
+          "017139",
+          "017041",
+          "017029",
+          "017045",
+          "017173",
+          "017035",
+          "017023",
+          "017049",
+          "017079",
+          "017033",
+          "017025",
+          "017159",
+          "017101"
+        ],
+        "UGC": [
+          "ILZ038",
+          "ILZ043",
+          "ILZ044",
+          "ILZ045",
+          "ILZ046",
+          "ILZ053",
+          "ILZ054",
+          "ILZ055",
+          "ILZ056",
+          "ILZ057",
+          "ILZ061",
+          "ILZ062",
+          "ILZ063",
+          "ILZ066",
+          "ILZ067",
+          "ILZ068",
+          "ILZ071",
+          "ILZ072",
+          "ILZ073"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d0d19063c2810bcaf292a102e5b15b5616c6ddc6.003.1",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued October 17 at 7:56AM CDT until October 18 at 8:00AM CDT by NWS Chicago IL",
+      "summary": "Kankakee; Livingston; Iroquois; Ford; Eastern Will; Lake; Porter; Newton; Jasper; Benton: * WHAT...Low temperatures in the low to mid 30s will result in frost formation. * WHERE...In Illinois, Livingston, Ford, Iroquois, Eastern Will, and Kankakee Counties. In Indiana, Benton, Jasper, Lake IN, Newton, and Porter Counties. * WHEN...From 3 AM CDT /4 AM EDT/ to 8 AM CDT /9 AM EDT/ Sunday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "observedAt": "2026-10-17T07:56:00-05:00",
+      "retrievedAt": "2026-10-17T14:14:48.342Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-17T18:00:00-05:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017091",
+          "017105",
+          "017075",
+          "017053",
+          "017197",
+          "018089",
+          "018127",
+          "018111",
+          "018073",
+          "018007"
+        ],
+        "UGC": [
+          "ILZ023",
+          "ILZ032",
+          "ILZ033",
+          "ILZ039",
+          "ILZ108",
+          "INZ001",
+          "INZ002",
+          "INZ010",
+          "INZ011",
+          "INZ019"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1913,19 +2142,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-17T05:38:55.841Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "fda-alerts:page-change",
       "sourceId": "fda-alerts",
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
@@ -2818,19 +3034,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-16T21:18:43.225Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "cisa-kev:CVE-2026-87886",
@@ -29651,9 +29854,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-17T10:52:44.621Z",
+  "collectedAt": "2026-10-17T14:14:48.342Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -53829,7 +54032,7 @@
     },
     {
       "date": "2026-10-17",
-      "asOf": "2026-10-17T10:52:46.958Z",
+      "asOf": "2026-10-17T14:14:51.462Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
