@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-18T18:40:57.936Z",
-      "hash": "02af5be9352254b7c1e71d4dd1bcb49d8e9bf1a9045690bd725d85ff9c8522c7",
-      "etag": "W/\"59cacd31fa7a95b33fb4d97a3a264a6a\"",
+      "fetchedAt": "2026-10-18T21:33:03.998Z",
+      "hash": "906b3419d12d2f7ff48f5b8e1c788d67015c5e018003a15b0e3682c8b94c0af6",
+      "etag": "W/\"7d9d1cfc60dba6c1c0b6dd78e6340f20\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-18T18:40:57.936Z",
-      "hash": "e9d0d37e98be380eb5dd54bb0221eaa02160ac544d4900d993f7bf0bb5c8e840",
-      "etag": "W/\"3f24d09d005c2d62ebcfb3ad82a58ec4\"",
+      "fetchedAt": "2026-10-18T21:33:03.998Z",
+      "hash": "f47b82155a002a49530d5508ac5f1e87d0d05eeba201080e74056e5d4c38bf30",
+      "etag": "W/\"b5b56b45e70cd7f83a4804eb277b9999\"",
       "count": 0,
       "changed": true
     },
@@ -544,8 +544,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-18T15:56:22.036Z",
-      "hash": "c4cd64374c4a553988649daf50affe546018fde5b3b83c16281f2aaaa6c8926c",
+      "fetchedAt": "2026-10-18T21:33:03.998Z",
+      "hash": "b9b0c0511f9ae65fd64f67c8bd05889600586b883902adae9d5b18a7132eed0d",
       "etag": null,
       "count": 1,
       "changed": true
@@ -625,8 +625,8 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-10-17T20:41:41.791Z",
-      "hash": "397aec3344077f13c0e83fa9ec9070f8f97914d4c571c761383e2aee1c71f666",
+      "fetchedAt": "2026-10-18T21:33:03.998Z",
+      "hash": "27c6afd33ed63766beec73e6a79c98844e6c4599054236e4e4587dcac6517eda",
       "etag": null,
       "count": 1,
       "changed": true
@@ -639,12 +639,25 @@
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-18T15:56:22.036Z",
+      "retrievedAt": "2026-10-18T21:33:03.998Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-18T21:33:03.998Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "miso:page-change",
@@ -2111,19 +2124,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/19/2026-21266/request-for-extension-of-an-information-collection-local-food-directories-and-survey",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-17T20:41:41.791Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.60cb798ac79f728675378e6a73c828fb61800da6.001.1",
@@ -30592,9 +30592,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 2,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-10-18T18:40:57.936Z",
+  "collectedAt": "2026-10-18T21:33:03.998Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -55567,7 +55567,7 @@
     },
     {
       "date": "2026-10-18",
-      "asOf": "2026-10-18T18:40:58.243Z",
+      "asOf": "2026-10-18T21:33:04.413Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
