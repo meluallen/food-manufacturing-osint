@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-19T17:32:30.334Z",
-      "hash": "00d61ad14ec104c61ed858d878f9651d221d60a0cad8b5a9d744cb02ea2e80cb",
-      "etag": "W/\"10f14845430137f310a27f3e8ee969a1\"",
+      "fetchedAt": "2026-10-19T22:26:18.996Z",
+      "hash": "b92f5335cdd05f4d07e5c8f9948108b6cd12ce166e11f5c618233205f6e2089c",
+      "etag": "W/\"3084c17d0cf8e93db0cf88a3e1afc6ac\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-19T17:32:30.334Z",
-      "hash": "c767f93a4071c00c9e7229f8cfec45c7bd2af23e8f046c8e3ddf43862c4238ef",
-      "etag": "W/\"b4a4fa3f7a3609b2616b1e0792f1d390\"",
+      "fetchedAt": "2026-10-19T22:26:18.996Z",
+      "hash": "087319f148a790e76532444bd95222d59e035143583d53ef3cbfd9c1f18051bb",
+      "etag": "W/\"0cf4c495455097feaa19c39ec63e6889\"",
       "count": 0,
       "changed": true
     },
@@ -544,11 +544,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-19T17:32:30.334Z",
+      "fetchedAt": "2026-10-19T22:26:18.996Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -625,14 +625,27 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-10-18T21:33:03.998Z",
-      "hash": "27c6afd33ed63766beec73e6a79c98844e6c4599054236e4e4587dcac6517eda",
+      "fetchedAt": "2026-10-19T22:26:18.996Z",
+      "hash": "2d3b21ff310722af3df33f65896f6dd9532458eea75feb925848ade9f99a93d8",
       "etag": null,
       "count": 1,
       "changed": true
     }
   ],
   "candidates": [
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-19T22:26:18.996Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -931,19 +944,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://dph.illinois.gov/topics-services/food-safety.html",
       "scope": "State food protection and notices"
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-18T21:33:03.998Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.423d6c5cf025b50ca0e96dde83e8c896b3f7d758.001.1",
@@ -30592,9 +30592,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-10-19T17:32:30.334Z",
+  "collectedAt": "2026-10-19T22:26:18.996Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -56362,7 +56362,7 @@
     },
     {
       "date": "2026-10-19",
-      "asOf": "2026-10-19T17:32:32.260Z",
+      "asOf": "2026-10-19T22:26:19.664Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
