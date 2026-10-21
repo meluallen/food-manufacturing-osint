@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-21T13:53:35.590Z",
-      "hash": "27d4d1bdde81d4eaba00a244bc3a76136748313a95e1f0e906b8cabe9eaf49b9",
-      "etag": "W/\"2b3e96b0b55973c8b6471f4dcdc9405d\"",
+      "fetchedAt": "2026-10-21T18:43:04.106Z",
+      "hash": "04dc9322c990d878f8cf2ca3c8afcee20aab9cef53cb5fbb578e51d4044906f7",
+      "etag": "W/\"fdf13a62361ecdb1d1a2ff0d6e64909f\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-21T13:53:35.590Z",
-      "hash": "75276d068e532bda251025b4cbeb6bb699db5d233939e407126ede2c012ff31e",
-      "etag": "W/\"f115205d7060755772432e222f163a58\"",
+      "fetchedAt": "2026-10-21T18:43:04.106Z",
+      "hash": "155d3de4a47372821bdee7a3e7ff73f0530abcb2dab8045352ed997a964fcba7",
+      "etag": "W/\"1d8143e94d3408603c9332f8294b0407\"",
       "count": 0,
       "changed": true
     },
@@ -548,8 +548,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-21T13:53:35.590Z",
-      "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
+      "fetchedAt": "2026-10-21T18:43:04.106Z",
+      "hash": "933d2583a502850e276587880ac4a8a1f5455af45ce3509730d0514b463680b0",
       "etag": null,
       "count": 1,
       "changed": true
@@ -638,6 +638,19 @@
   ],
   "candidates": [
     {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-21T18:43:04.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "Midcontinent Independent System Operator (MISO)",
@@ -662,19 +675,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-21T13:53:35.590Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "cisa-ics:page-change",
@@ -31264,9 +31264,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-21T13:53:35.590Z",
+  "collectedAt": "2026-10-21T18:43:04.106Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -58624,7 +58624,7 @@
     },
     {
       "date": "2026-10-21",
-      "asOf": "2026-10-21T13:53:38.057Z",
+      "asOf": "2026-10-21T18:43:04.928Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
