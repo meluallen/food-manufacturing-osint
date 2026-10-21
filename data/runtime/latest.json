@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "47782a189461ac845cc8a9f98d84e0531bfa350d64d2994c866cc158328ddb36",
-      "etag": "W/\"105c22c71b26ce18a16e2b68b2a527fd\"",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "27d4d1bdde81d4eaba00a244bc3a76136748313a95e1f0e906b8cabe9eaf49b9",
+      "etag": "W/\"2b3e96b0b55973c8b6471f4dcdc9405d\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "2b7d8aef7a6e98c26d4a3fc0b93b0b3e5c5fb4d4b39537b1260c3c34af8a4c44",
-      "etag": "W/\"93d177cc9f06ff3d11a7a9d5ea48f697\"",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "75276d068e532bda251025b4cbeb6bb699db5d233939e407126ede2c012ff31e",
+      "etag": "W/\"f115205d7060755772432e222f163a58\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "hash": "6f6d8144e2a480e38ac52d9b823407a8ba172ca6c5344cae44b524f546b9dfd3",
       "etag": "W/\"1fdc5-drAOdEsmddTVf9sgqJEpVKemnhM\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "hash": "a3591cd3f9b803d7ba43782fdbc9c89feb66bca6d6ae3dc73689667e77645a7f",
       "etag": "\"1b84bf-65e4a3ea5ebe0\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,7 +84,7 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
       "etag": "W/\"16540-1791226223891-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "e808bc4259ad314c1851c1502f663dfa4756ca2d5701ebf731fc3e55d50e17e6",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "3fcb26bc88895eb900dd36d7a6ae12024ae8e21ec10153a46e536a4b24c535b7",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -205,9 +205,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "7d47dc3a66bb6337a1ef6fbf58db5d817f8ade8e56622ed67a33e180c476ea71",
-      "etag": "\"1792530899\"",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "71c2a189d7ddf60ead6c27f3099359770ebb1bb2d3d8570fdab5a043c79abd99",
+      "etag": "\"1792589200\"",
       "count": 1,
       "changed": true
     },
@@ -261,15 +261,15 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "cad6c0988a05a220b6ad0ee866cecdc83bec204d058e763faa322b66330a1d38",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "f3e2077bbab120b68f90cf67a6ed85b611376a5535d56e7f0d6d5982e3c6a0d6",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -530,11 +530,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "d829c8aa599e6f46a0c294fd4cf9146f7090a7f750871e84f09c612d35406283",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "942b43a5a79e29313e2332341594943073a408ab52034bcdda7ce29d9917c4aa",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -548,8 +548,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-21T07:45:54.623Z",
-      "hash": "1fd72ccd32a690c8dad2ff104fc4093147634246135ee24052aef7da528f15a1",
+      "fetchedAt": "2026-10-21T13:53:35.590Z",
+      "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -643,7 +643,7 @@
       "title": "Midcontinent Independent System Operator (MISO)",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-21T07:45:54.623Z",
+      "retrievedAt": "2026-10-21T13:53:35.590Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -656,12 +656,51 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-21T07:45:54.623Z",
+      "retrievedAt": "2026-10-21T13:53:35.590Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-21T13:53:35.590Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-21T13:53:35.590Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "cdc:page-change",
+      "sourceId": "cdc",
+      "title": "Current Outbreaks | Foodborne Outbreaks | CDC",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-21T13:53:35.590Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
+      "scope": "Category signals only until company/lot exposure is verified"
     },
     {
       "id": "fda-fsma:page-change",
@@ -1314,19 +1353,6 @@
       "scope": "Central Illinois employment, local wages and WARN notices"
     },
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-21T07:45:54.623Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "idph:page-change",
       "sourceId": "idph",
       "title": "Food Safety",
@@ -1442,19 +1468,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
       "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-20T22:22:03.745Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
       "id": "cisa-kev:CVE-2026-7273",
@@ -1871,19 +1884,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cdc:page-change",
-      "sourceId": "cdc",
-      "title": "Current Outbreaks | Foodborne Outbreaks | CDC",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-20T22:22:03.745Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
-      "scope": "Category signals only until company/lot exposure is verified"
     },
     {
       "id": "fda-recalls:N/A",
@@ -31264,9 +31264,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 52,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-21T07:45:54.623Z",
+  "collectedAt": "2026-10-21T13:53:35.590Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -58624,7 +58624,7 @@
     },
     {
       "date": "2026-10-21",
-      "asOf": "2026-10-21T07:46:25.832Z",
+      "asOf": "2026-10-21T13:53:38.057Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
