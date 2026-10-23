@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-23T07:38:47.147Z",
-      "hash": "33b733acd78a84d8679dbfcc40dd9f26ebdc7970f3fbbd702f952391d3b44c20",
-      "etag": "W/\"8d7699dfd051c7dc85b4499550472205\"",
-      "count": 1,
+      "fetchedAt": "2026-10-23T13:32:38.985Z",
+      "hash": "d6e99cc69752242a683c953a4d0432f3576934f3444143a3a00518265b9d2ca9",
+      "etag": "W/\"5eaafe1e4921aabdbc1c914181502d1c\"",
+      "count": 2,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-23T07:38:47.147Z",
-      "hash": "fa7179ed6f20bce57ab93c77ca6e9df26de8c6ecd0b4e864f24251d223746d0e",
-      "etag": "W/\"f449aeeea98db649137322b55a4b39e7\"",
-      "count": 4,
+      "fetchedAt": "2026-10-23T13:32:38.985Z",
+      "hash": "df282e86ed7b9f452f5b8b533474e8b6335d8d96ec610e750f881eb5ffd8967e",
+      "etag": "W/\"99bf814e1ab1736643716b80b0870b87\"",
+      "count": 3,
       "changed": true
     },
     {
@@ -544,11 +544,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-23T07:38:47.147Z",
-      "hash": "e265f3515999eee497aa77db645f4205abd641f150ac34e706830f0fe0ac6bca",
+      "fetchedAt": "2026-10-23T13:32:38.985Z",
+      "hash": "102110466da93f8d810d04e12a899f531481ecd2abd8b9698871beebf3e2e9e4",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -625,14 +625,212 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-10-22T07:41:25.355Z",
-      "hash": "ccaea036a0a785d9735f3c01970c90dfed5717b75658b107243e9a67444653bb",
+      "fetchedAt": "2026-10-23T13:32:38.985Z",
+      "hash": "131fe54c982ce42f13bcdd9d25e1353531506e4f3b07c15c3d34ccdeba60619e",
       "etag": null,
       "count": 1,
       "changed": true
     }
   ],
   "candidates": [
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.065da937b3d2aacb1d498f2e41dc64555675b5bd.002.1",
+      "sourceId": "nws-il",
+      "title": "Dense Fog Advisory issued October 23 at 7:03AM CDT until October 23 at 9:00AM CDT by NWS Chicago IL",
+      "summary": "Lake: * WHAT...Visibility less than one mile in dense fog. * WHERE...Lake IL County. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T07:03:00-05:00",
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-23T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.065da937b3d2aacb1d498f2e41dc64555675b5bd.001.1",
+      "sourceId": "nws-il",
+      "title": "Dense Fog Advisory issued October 23 at 7:03AM CDT until October 23 at 9:00AM CDT by NWS Chicago IL",
+      "summary": "McHenry: * WHAT...Visibility less than one mile in dense fog. * WHERE...McHenry County. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T07:03:00-05:00",
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-23T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017111"
+        ],
+        "UGC": [
+          "ILZ005"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.888486ecd778ca33b1d4d21b7184d9ea39eb508c.002.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 6:11AM CDT until October 23 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Fond Du Lac; Sheboygan; Washington; Ozaukee; Waukesha; Milwaukee; Walworth; Racine; Kenosha: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Fond du Lac, Sheboygan, Kenosha, Milwaukee, Ozaukee, Racine, Walworth, Washington, and Waukesha Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T06:11:00-05:00",
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T10:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055039",
+          "055117",
+          "055131",
+          "055089",
+          "055133",
+          "055079",
+          "055127",
+          "055101",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ051",
+          "WIZ052",
+          "WIZ059",
+          "WIZ060",
+          "WIZ065",
+          "WIZ066",
+          "WIZ070",
+          "WIZ071",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.17a0a90f6ef944ce41bf1522b73ae3bf8a66bcf1.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 3:50AM CDT until October 23 at 9:00AM CDT by NWS Green Bay WI",
+      "summary": "Forest; Florence; Northern Marinette County; Langlade; Menominee; Northern Oconto County; Door; Shawano; Waupaca; Outagamie; Brown; Kewaunee; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: * WHAT...Visibility one quarter mile or less in dense fog. The most widespread dense fog will be overnight into early Friday morning. * WHERE...Portions of east central, north central, and northeast Wisconsin. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T03:50:00-05:00",
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055041",
+          "055037",
+          "055075",
+          "055067",
+          "055078",
+          "055083",
+          "055029",
+          "055115",
+          "055135",
+          "055087",
+          "055009",
+          "055061",
+          "055139",
+          "055015",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ011",
+          "WIZ012",
+          "WIZ013",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ022",
+          "WIZ031",
+          "WIZ037",
+          "WIZ038",
+          "WIZ039",
+          "WIZ040",
+          "WIZ048",
+          "WIZ049",
+          "WIZ050",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.82fb9183e42d2716458ea320c0bfd1ec3c80177e.002.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 3:35AM CDT until October 23 at 10:00AM CDT by NWS Duluth MN",
+      "summary": "Southern Lake/North Shore; Southern Cook/North Shore; Carlton/South St. Louis; Douglas; Bayfield; Ashland: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...In Minnesota, Carlton and South St. Louis, Southern Cook, and Southern Lake Counties. In Wisconsin, Ashland, Bayfield, and Douglas Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous. * ADDITIONAL DETAILS...The worst conditions will be found close to and around Lake Superior, as well as in the St. Louis River valley.",
+      "observedAt": "2026-10-23T03:35:00-05:00",
+      "retrievedAt": "2026-10-23T13:32:38.985Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T10:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027075",
+          "027137",
+          "027031",
+          "027017",
+          "055031",
+          "055007",
+          "055003"
+        ],
+        "UGC": [
+          "MNZ020",
+          "MNZ021",
+          "MNZ037",
+          "WIZ001",
+          "WIZ002",
+          "WIZ003"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.f30c21a24b84cf44ef686a853e3a9f91f9d53cf7.001.1",
       "sourceId": "nws-wi",
@@ -1263,19 +1461,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
       "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-22T18:36:16.084Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "fda-fsma:page-change",
@@ -2186,19 +2371,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/22/2026-21586/procurement-list-deletions",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-22T07:41:25.355Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
     },
     {
       "id": "cisa-kev:CVE-2026-7273",
@@ -31590,9 +31762,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 4,
   "remaining": 0,
-  "collectedAt": "2026-10-23T07:38:47.147Z",
+  "collectedAt": "2026-10-23T13:32:38.985Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -60540,7 +60712,7 @@
     },
     {
       "date": "2026-10-23",
-      "asOf": "2026-10-23T07:38:48.931Z",
+      "asOf": "2026-10-23T13:32:39.669Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
