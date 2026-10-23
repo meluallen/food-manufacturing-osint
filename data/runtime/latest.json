@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-23T01:35:44.745Z",
-      "hash": "da5f104accf57cc6be694e76c41e39eb49c9f80b6e6d553e2f0007981661e2d8",
-      "etag": "W/\"94f3f7c05373477bffd6fdf68d2f63b0\"",
-      "count": 0,
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
+      "hash": "33b733acd78a84d8679dbfcc40dd9f26ebdc7970f3fbbd702f952391d3b44c20",
+      "etag": "W/\"8d7699dfd051c7dc85b4499550472205\"",
+      "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-23T01:35:44.745Z",
-      "hash": "11b51f79695fa2a59954b03106f86f1bf6568f9a111f2d11155d68b25feb2291",
-      "etag": "W/\"c1ec2953e48f0e27eb5f7d0180ad014b\"",
-      "count": 3,
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
+      "hash": "fa7179ed6f20bce57ab93c77ca6e9df26de8c6ecd0b4e864f24251d223746d0e",
+      "etag": "W/\"f449aeeea98db649137322b55a4b39e7\"",
+      "count": 4,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "6f6d8144e2a480e38ac52d9b823407a8ba172ca6c5344cae44b524f546b9dfd3",
       "etag": "W/\"1fdc5-drAOdEsmddTVf9sgqJEpVKemnhM\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "ef8fffede5c472001da046c7751beb2a3242458896d0ce08da52b30968b8b56b",
       "etag": "\"1b84a4-65e5a3a633a28\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
-      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
-      "etag": "W/\"16538-1791226471116-gzip\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
+      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
+      "etag": "W/\"16540-1791226223891-gzip\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "ams-dairy",
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
-      "hash": "ed2a193e44bf669754040f0a2ea78c8c93995b4c0833c0248c7b2258ea92bea2",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
+      "hash": "9360b78084d4afbbfd10600c4c5fcac2462ec0f5f136e9374e766f0e013cdff1",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
-      "hash": "c2f60013f5550f6931cd026502e3ba8bcbb7e3d57cb1909a8b4a7abdf888061e",
-      "etag": "\"1792701075\"",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
+      "hash": "71391f06d8f40ec6cfa987de20c4b22376fe9cd99853bd951d657acb6cefdb35",
+      "etag": "\"1792711203\"",
       "count": 1,
       "changed": true
     },
@@ -257,7 +257,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "f3e2077bbab120b68f90cf67a6ed85b611376a5535d56e7f0d6d5982e3c6a0d6",
       "etag": null,
       "count": 0,
@@ -265,7 +265,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -526,11 +526,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-22T22:24:45.935Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "283fb39d551bf436aa3691b99c0bb60d13015a40340af9861df8e52f7dc4cbed",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -544,7 +544,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-23T01:35:44.745Z",
+      "fetchedAt": "2026-10-23T07:38:47.147Z",
       "hash": "e265f3515999eee497aa77db645f4205abd641f150ac34e706830f0fe0ac6bca",
       "etag": null,
       "count": 0,
@@ -633,6 +633,213 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f30c21a24b84cf44ef686a853e3a9f91f9d53cf7.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 22 at 8:11PM CDT until October 23 at 9:00AM CDT by NWS Green Bay WI",
+      "summary": "Forest; Florence; Northern Marinette County; Langlade; Menominee; Northern Oconto County; Door; Shawano; Waupaca; Outagamie; Brown; Kewaunee; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: * WHAT...Visibility one quarter mile or less in dense fog. The most widespread dense fog will be overnight into early Friday morning. * WHERE...Portions of east central, north central, and northeast Wisconsin. * WHEN...Until 9 AM CDT Friday. * IMPACTS...Low visibility could make driving conditions hazardous. * ADDITIONAL DETAILS...Low clouds are beginning to transition to areas of fog. The fog is expected to expand and become dense overnight into early Friday morning. The morning commute on Friday will be impacted.",
+      "observedAt": "2026-10-22T20:11:00-05:00",
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T05:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055041",
+          "055037",
+          "055075",
+          "055067",
+          "055078",
+          "055083",
+          "055029",
+          "055115",
+          "055135",
+          "055087",
+          "055009",
+          "055061",
+          "055139",
+          "055015",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ011",
+          "WIZ012",
+          "WIZ013",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ022",
+          "WIZ031",
+          "WIZ037",
+          "WIZ038",
+          "WIZ039",
+          "WIZ040",
+          "WIZ048",
+          "WIZ049",
+          "WIZ050",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d137374cac1d5cd1d337530847ec1e52d1f103b3.001.1",
+      "sourceId": "nws-il",
+      "title": "Dense Fog Advisory issued October 23 at 1:50AM CDT until October 23 at 9:00AM CDT by NWS Chicago IL",
+      "summary": "Lake: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Lake IL County. The worst conditions are expected in northeastern portions of the county and near the Wisconsin state line. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T01:50:00-05:00",
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-10-23T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017097"
+        ],
+        "UGC": [
+          "ILZ006"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.4cf84f2bddba3cf361896e5d1606380fc70cd6b2.002.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 12:59AM CDT until October 23 at 10:00AM CDT by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas; Bayfield; Ashland: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...In Minnesota, Carlton and South St. Louis County. In Wisconsin, Ashland, Bayfield, and Douglas Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous. * ADDITIONAL DETAILS...The worst conditions will be found close to and around Lake Superior, as well as in the St. Louis River valley.",
+      "observedAt": "2026-10-23T00:59:00-05:00",
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T10:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031",
+          "055007",
+          "055003"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001",
+          "WIZ002",
+          "WIZ003"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.95a047790e75e4fdb55d9ec58dcb883096309529.002.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 12:07AM CDT until October 23 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Washington; Ozaukee; Waukesha; Milwaukee; Racine: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Milwaukee, Ozaukee, Racine, Washington, and Waukesha Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T00:07:00-05:00",
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T08:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055131",
+          "055089",
+          "055133",
+          "055079",
+          "055101"
+        ],
+        "UGC": [
+          "WIZ059",
+          "WIZ060",
+          "WIZ065",
+          "WIZ066",
+          "WIZ071"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.95a047790e75e4fdb55d9ec58dcb883096309529.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 12:07AM CDT until October 23 at 10:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Fond Du Lac; Sheboygan; Dodge; Walworth; Kenosha: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Fond du Lac, Sheboygan, Dodge, Kenosha, and Walworth Counties. * WHEN...Until 10 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T00:07:00-05:00",
+      "retrievedAt": "2026-10-23T07:38:47.147Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-23T08:15:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055039",
+          "055117",
+          "055027",
+          "055127",
+          "055059"
+        ],
+        "UGC": [
+          "WIZ051",
+          "WIZ052",
+          "WIZ058",
+          "WIZ070",
+          "WIZ072"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "thrive:page-change",
       "sourceId": "thrive",
@@ -996,59 +1203,6 @@
       "scope": "Annual estimates/projected value; not premium segment units"
     },
     {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.f30c21a24b84cf44ef686a853e3a9f91f9d53cf7.001.1",
-      "sourceId": "nws-wi",
-      "title": "Dense Fog Advisory issued October 22 at 8:11PM CDT until October 23 at 9:00AM CDT by NWS Green Bay WI",
-      "summary": "Forest; Florence; Northern Marinette County; Langlade; Menominee; Northern Oconto County; Door; Shawano; Waupaca; Outagamie; Brown; Kewaunee; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: * WHAT...Visibility one quarter mile or less in dense fog. The most widespread dense fog will be overnight into early Friday morning. * WHERE...Portions of east central, north central, and northeast Wisconsin. * WHEN...Until 9 AM CDT Friday. * IMPACTS...Low visibility could make driving conditions hazardous. * ADDITIONAL DETAILS...Low clouds are beginning to transition to areas of fog. The fog is expected to expand and become dense overnight into early Friday morning. The morning commute on Friday will be impacted.",
-      "observedAt": "2026-10-22T20:11:00-05:00",
-      "retrievedAt": "2026-10-23T01:35:44.745Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-10-23T05:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055041",
-          "055037",
-          "055075",
-          "055067",
-          "055078",
-          "055083",
-          "055029",
-          "055115",
-          "055135",
-          "055087",
-          "055009",
-          "055061",
-          "055139",
-          "055015",
-          "055071"
-        ],
-        "UGC": [
-          "WIZ011",
-          "WIZ012",
-          "WIZ013",
-          "WIZ019",
-          "WIZ020",
-          "WIZ021",
-          "WIZ022",
-          "WIZ031",
-          "WIZ037",
-          "WIZ038",
-          "WIZ039",
-          "WIZ040",
-          "WIZ048",
-          "WIZ049",
-          "WIZ050",
-          "WIZ073",
-          "WIZ074"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.6b42b07b516ba5d83799669ea7881cf1fc56c032.001.1",
       "sourceId": "nws-wi",
       "title": "Special Weather Statement issued October 22 at 7:20PM CDT by NWS Milwaukee/Sullivan WI",
@@ -1096,32 +1250,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-22T22:24:45.935Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-22T22:24:45.935Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "cisa-ics:page-change",
@@ -2058,19 +2186,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/22/2026-21586/procurement-list-deletions",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-22T07:41:25.355Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "widatcp:page-change",
@@ -31475,9 +31590,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 22,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-23T01:35:44.745Z",
+  "collectedAt": "2026-10-23T07:38:47.147Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -60425,7 +60540,7 @@
     },
     {
       "date": "2026-10-23",
-      "asOf": "2026-10-23T01:35:48.954Z",
+      "asOf": "2026-10-23T07:38:48.931Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
