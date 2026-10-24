@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-24T07:22:44.180Z",
-      "hash": "1c228381fbbeab5ce0101ce7939a8aa21c3fde8fe3bee12ee02a4d91aa938014",
-      "etag": "W/\"350f82c6eec0b56e6a6c40445ecde93a\"",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
+      "hash": "c6dd3c6c384e1b3554e8f25a7dba06bdbd221113b9e6eb570accd40c65dedb0a",
+      "etag": "W/\"f9a9adb2005469a837f2648c778c2060\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-24T07:22:44.180Z",
-      "hash": "982d2d7596d8c05f3a627247f5e82522340fb6d036b1e35f57dba74dc206a302",
-      "etag": "W/\"889c54ac4dde35009436bebc559158d0\"",
-      "count": 3,
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
+      "hash": "91f5d545992e0f1647ea6f1637c97bc09b5931d61c129d5b86fd7d7f8fab98dc",
+      "etag": "W/\"c9dfd763a92d30635c6b7959e45a6fd6\"",
+      "count": 2,
       "changed": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "6f6d8144e2a480e38ac52d9b823407a8ba172ca6c5344cae44b524f546b9dfd3",
       "etag": "W/\"1fdc5-drAOdEsmddTVf9sgqJEpVKemnhM\"",
       "count": 60,
@@ -48,11 +48,11 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "97a6e54bc74c651ab3c55657191db9adec6c63b05ca54e4205327cfd97a8fb70",
       "etag": "\"1b92f2-65e8702af0b70\"",
-      "count": 35,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "drought",
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
       "etag": "W/\"16539-1791225934719-gzip\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "ams-dairy",
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
-      "hash": "e9f3034d54bc9aa11587821a3bd6f4b0fa3f45811691d2418e91ec4983ca5b44",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
+      "hash": "f365d674a135aef747c081662f7c7c8267a28a8186479f9df3b724a71ed5075f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
-      "hash": "d319651847ad06a4cb56883c3b8d83fc006d34e52315a3d29fc195eba4e8471e",
-      "etag": "\"1792782828\"",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
+      "hash": "5cc2c30b96ae2276519bbf376fe541b7324d74abf5669ca3e25e945027d278b0",
+      "etag": "\"1792782822\"",
       "count": 1,
       "changed": true
     },
@@ -259,7 +259,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "f3e2077bbab120b68f90cf67a6ed85b611376a5535d56e7f0d6d5982e3c6a0d6",
       "etag": null,
       "count": 0,
@@ -267,7 +267,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -528,11 +528,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
       "hash": "b8d3cd6a0059515ee664addbeb3898c605dce79c265aa6349ada47f715c9af73",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -546,11 +546,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-24T07:22:44.180Z",
-      "hash": "102110466da93f8d810d04e12a899f531481ecd2abd8b9698871beebf3e2e9e4",
+      "fetchedAt": "2026-10-24T12:44:28.153Z",
+      "hash": "08ae3b9469ef767e9fdda02d9c01831af393cc1894ee204756ca959a2f6eb679",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -636,6 +636,99 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "Midcontinent Independent System Operator (MISO)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-24T12:44:28.153Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-24T12:44:28.153Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-24T12:44:28.153Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.8e37265243847cbf06c9a1a6e468a1fbcb116b33.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 24 at 5:53AM CDT until October 24 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan; Washington; Ozaukee: * WHAT...Patchy dense fog. Visibility one quarter mile or less. * WHERE...Sheboygan, Ozaukee, and Washington Counties. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-24T05:53:00-05:00",
+      "retrievedAt": "2026-10-24T12:44:28.153Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-24T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117",
+          "055131",
+          "055089"
+        ],
+        "UGC": [
+          "WIZ052",
+          "WIZ059",
+          "WIZ060"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c89179868145296a7846a251438866f7f8ba8b1a.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 24 at 3:43AM CDT until October 24 at 9:00AM CDT by NWS Green Bay WI",
+      "summary": "Door; Kewaunee; Manitowoc: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Manitowoc, Door, and Kewaunee Counties. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-24T03:43:00-05:00",
+      "retrievedAt": "2026-10-24T12:44:28.153Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-24T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055029",
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ022",
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.07bed1d81ef76075844b645de32ceaa5042b0d8d.001.1",
       "sourceId": "nws-wi",
       "title": "Dense Fog Advisory issued October 24 at 1:14AM CDT until October 24 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
@@ -709,32 +802,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "Midcontinent Independent System Operator (MISO)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-24T01:39:28.363Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-24T01:39:28.363Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "cisa-ics:page-change",
@@ -2068,19 +2135,6 @@
       },
       "dateType": "Reference period is in the measurement; publication date not inferred",
       "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-23T13:32:38.985Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "widatcp:page-change",
@@ -32067,9 +32121,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-24T07:22:44.180Z",
+  "collectedAt": "2026-10-24T12:44:28.153Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -61810,7 +61864,7 @@
     },
     {
       "date": "2026-10-24",
-      "asOf": "2026-10-24T07:22:44.539Z",
+      "asOf": "2026-10-24T12:44:29.771Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
