@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
-      "hash": "5c0ba24a9265b3226bf4b270ef76e8196769b436d64fe73159d160ecb615f5d8",
-      "etag": "W/\"a7d535c9005f5e67c0e61c23b2fa0771\"",
+      "fetchedAt": "2026-10-24T07:22:44.180Z",
+      "hash": "1c228381fbbeab5ce0101ce7939a8aa21c3fde8fe3bee12ee02a4d91aa938014",
+      "etag": "W/\"350f82c6eec0b56e6a6c40445ecde93a\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
-      "hash": "0e424cd2e7ef556f8ffb7c6d73f37239e7aa518cc2a32f8a59f58c9f6dcd98d8",
-      "etag": "W/\"99d55f6fc95583c6103b7849158b7f2b\"",
-      "count": 0,
+      "fetchedAt": "2026-10-24T07:22:44.180Z",
+      "hash": "982d2d7596d8c05f3a627247f5e82522340fb6d036b1e35f57dba74dc206a302",
+      "etag": "W/\"889c54ac4dde35009436bebc559158d0\"",
+      "count": 3,
       "changed": true
     },
     {
@@ -546,7 +546,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-24T01:39:28.363Z",
+      "fetchedAt": "2026-10-24T07:22:44.180Z",
       "hash": "102110466da93f8d810d04e12a899f531481ecd2abd8b9698871beebf3e2e9e4",
       "etag": null,
       "count": 0,
@@ -635,6 +635,81 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.07bed1d81ef76075844b645de32ceaa5042b0d8d.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 24 at 1:14AM CDT until October 24 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Washington; Ozaukee: * WHAT...Visibility less than one mile in dense fog. * WHERE...Ozaukee and Washington Counties. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-24T01:14:00-05:00",
+      "retrievedAt": "2026-10-24T07:22:44.180Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-24T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055131",
+          "055089"
+        ],
+        "UGC": [
+          "WIZ059",
+          "WIZ060"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.07bed1d81ef76075844b645de32ceaa5042b0d8d.002.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 24 at 1:14AM CDT until October 24 at 9:00AM CDT by NWS Milwaukee/Sullivan WI",
+      "summary": "Sheboygan: * WHAT...Visibility one quarter to one half mile in dense fog. * WHERE...Sheboygan County. * WHEN...Until 9 AM CDT this morning. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-24T01:14:00-05:00",
+      "retrievedAt": "2026-10-24T07:22:44.180Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-24T09:00:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055117"
+        ],
+        "UGC": [
+          "WIZ052"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.2eb08c8de5dabbe20bc3d297b4e9d0b7c6670251.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued October 23 at 9:03PM CDT until October 24 at 9:00AM CDT by NWS Green Bay WI",
+      "summary": "Door; Kewaunee; Manitowoc: * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...Manitowoc, Door, and Kewaunee Counties. * WHEN...Until 9 AM CDT Saturday. * IMPACTS...Low visibility could make driving conditions hazardous.",
+      "observedAt": "2026-10-23T21:03:00-05:00",
+      "retrievedAt": "2026-10-24T07:22:44.180Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-10-24T05:30:00-05:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055029",
+          "055061",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ022",
+          "WIZ040",
+          "WIZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -31992,9 +32067,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-10-24T01:39:28.363Z",
+  "collectedAt": "2026-10-24T07:22:44.180Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -61735,7 +61810,7 @@
     },
     {
       "date": "2026-10-24",
-      "asOf": "2026-10-24T01:39:29.841Z",
+      "asOf": "2026-10-24T07:22:44.539Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
