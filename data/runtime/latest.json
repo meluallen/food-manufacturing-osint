@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-25T01:15:24.726Z",
-      "hash": "8dbd526e1e3fbc792a6b3f62356288f29d508b2583773bf3c0f50981ce6919f0",
-      "etag": "W/\"fe65049a280276870be098867aaa9fa3\"",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
+      "hash": "addafa52d7eb115fe91ebd4bc8303574c06e46c45afc4fdb6fc2fd08bc75017e",
+      "etag": "W/\"d699d7cdc97adc51261a5d790eb893e4\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-25T01:15:24.726Z",
-      "hash": "0bdf17e13459cfd708a265b53356f39c6ca85a80465b5066a3e598c21ca9c3ec",
-      "etag": "W/\"a16e73391213e6f722d281d0ce2bbd68\"",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
+      "hash": "1b2d1b3b2ec3d172291b4dd5a594d1058faced9ee23b2c49ca5220d478c15204",
+      "etag": "W/\"f8f414ce9f7d5755e32642a41827fdf5\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "6f6d8144e2a480e38ac52d9b823407a8ba172ca6c5344cae44b524f546b9dfd3",
       "etag": "W/\"1fdc5-drAOdEsmddTVf9sgqJEpVKemnhM\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "97a6e54bc74c651ab3c55657191db9adec6c63b05ca54e4205327cfd97a8fb70",
       "etag": "\"1b92f2-65e8702af0b70\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
       "etag": "W/\"16540-1791226223891-gzip\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "ams-dairy",
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
-      "hash": "9efca46424ac67cec23fabf358c21d0eb1df38af60b37dd6bd6571d4173fee64",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
+      "hash": "95971c2fb3a92258b395f0892fa25e5a183ab28c4bc1413162ddb2b0d81b24b6",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,9 +201,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
-      "hash": "20735d0b6dd3b94fbea382ad868a78665597c05554dc3ec7dd49f88aea84a01a",
-      "etag": "\"1792862419\"",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
+      "hash": "5c229cecb4ad2b4eab9420dd2bdbe7c442611ca1b9cdc7e6a9b1593c4470df45",
+      "etag": "\"1792872022\"",
       "count": 1,
       "changed": true
     },
@@ -259,7 +259,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "f3e2077bbab120b68f90cf67a6ed85b611376a5535d56e7f0d6d5982e3c6a0d6",
       "etag": null,
       "count": 0,
@@ -267,7 +267,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -528,7 +528,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-24T19:32:02.339Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "b8d3cd6a0059515ee664addbeb3898c605dce79c265aa6349ada47f715c9af73",
       "etag": null,
       "count": 0,
@@ -546,7 +546,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-24T22:32:48.336Z",
+      "fetchedAt": "2026-10-25T06:16:53.044Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 0,
@@ -641,7 +641,7 @@
       "title": "Midcontinent Independent System Operator (MISO)",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-24T19:32:02.339Z",
+      "retrievedAt": "2026-10-25T06:16:53.044Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -654,7 +654,7 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-24T19:32:02.339Z",
+      "retrievedAt": "2026-10-25T06:16:53.044Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
@@ -32199,9 +32199,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 2,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-25T01:15:24.726Z",
+  "collectedAt": "2026-10-25T06:16:53.044Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -62735,7 +62735,7 @@
     },
     {
       "date": "2026-10-25",
-      "asOf": "2026-10-25T01:15:25.049Z",
+      "asOf": "2026-10-25T06:16:56.818Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
