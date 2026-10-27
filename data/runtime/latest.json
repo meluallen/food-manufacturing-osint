@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "38639fb26d7fa730452d545c716a57c94dc48d909b4a6a9c9b5bae9167a68d12",
-      "etag": "W/\"3127feb300ed700c39770a43a78c85ac\"",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "efe982f2936e2cb440658ffc101e5618ec8a768da4ab9076d049be78e4f00353",
+      "etag": "W/\"3d0f79e7fd321814b1cb756b9799403c:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "7bcd4ef1dee5d8064b983546ea02b8e40f5d32bea6d4da8cd929ad5cdb8a4441",
-      "etag": "W/\"9c77dc80cf81f925e6e14acaa84107d2\"",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "4f6794ff72e4c422660a053c24c4f639e26364bc330e3b4660fc88337cc4b760",
+      "etag": "W/\"4f9db7f4a8ab31941294f2fc14309833:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "hash": "9c4dde8c48378bcca7da25495528be15ac514e1478cde9e79da8602c511c0732",
       "etag": "W/\"1fbc6-xJslbOd2Xkn4HtgLNLiFrOq3+cg\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "hash": "653c72ea869cbca7a9198b5e17b97bef516b67494e89bb919a9639d4eedbfa13",
       "etag": "\"1ba1f0-65ec5cad317c0\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
-      "etag": "W/\"16538-1791226471116-gzip\"",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
+      "etag": "W/\"16540-1791226223891-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -141,8 +141,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "0419fcc99fba105dc691da82b84f3da2bcd5536a362d6c952e18988400ff560d",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "5550f53a8f2d962c4ce1b69259795eb6e157410bca39ae54c877343cee2663c7",
       "etag": null,
       "count": 1,
       "changed": true
@@ -179,7 +179,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -201,11 +201,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "d3dce2500e5cd190b5252d5f50f8a9ecb661d461545a77063944e47b34333352",
-      "etag": "\"1793039080\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "17b6216af5b724db53dd078416f918944a995afec3607281d7a9153fa8b8d69e",
+      "etag": "\"1793125961\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "fda-warning",
@@ -259,7 +259,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "hash": "f3e2077bbab120b68f90cf67a6ed85b611376a5535d56e7f0d6d5982e3c6a0d6",
       "etag": null,
       "count": 0,
@@ -267,7 +267,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -528,11 +528,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
-      "hash": "0e95eeeb583be75c17bc14b7f1b49db729259fa19b9a28b50072e92adedac6fa",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
+      "hash": "be5ddff013d01bd5c232a7c9abe6a7796dadd0ac0c3333d6a30f979ffe7bd67c",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -546,7 +546,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-27T13:19:01.653Z",
+      "fetchedAt": "2026-10-27T19:27:54.553Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 0,
@@ -641,7 +641,7 @@
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-27T13:19:01.653Z",
+      "retrievedAt": "2026-10-27T19:27:54.553Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -654,7 +654,7 @@
       "title": "Water Services Web",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-27T13:19:01.653Z",
+      "retrievedAt": "2026-10-27T19:27:54.553Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Transportation / logistics",
@@ -667,7 +667,7 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-27T06:22:49.194Z",
+      "retrievedAt": "2026-10-27T19:27:54.553Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
@@ -680,7 +680,7 @@
       "title": "ICS Advisories | CISA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-27T06:22:49.194Z",
+      "retrievedAt": "2026-10-27T19:27:54.553Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Cyber / OT",
@@ -32332,7 +32332,7 @@
   ],
   "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-27T13:19:01.653Z",
+  "collectedAt": "2026-10-27T19:27:54.553Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -64450,7 +64450,7 @@
     },
     {
       "date": "2026-10-27",
-      "asOf": "2026-10-27T13:19:03.731Z",
+      "asOf": "2026-10-27T19:27:56.357Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
