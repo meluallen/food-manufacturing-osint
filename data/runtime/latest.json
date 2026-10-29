@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "2e91d45c1054e44d7a9e9ae19c596d7cb7f03ba0360975fdea249d7204a554d2",
-      "etag": "W/\"5aadb12b48ef28ca3474f45933464008:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "02aa0881ebb2ba651bf509844e14af04422f5784180b176e268acfaa9aa45f45",
+      "etag": "W/\"49693fed427ecd98ddf45f9682ce32c0:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "768e8bcc9067f36f0151b584aca1acb36cf05b083108c279ec745265817411a0",
-      "etag": "W/\"172649a7e93c4566bafeca9a980e2303:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "71b9b355b831840cfa8c09d587492765493c5e16401350aa9611155b415b177c",
+      "etag": "W/\"2ac83df48daa69e7167bd85137b47a5e:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "hash": "9c4dde8c48378bcca7da25495528be15ac514e1478cde9e79da8602c511c0732",
       "etag": "W/\"1fbc6-xJslbOd2Xkn4HtgLNLiFrOq3+cg\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "hash": "c72e8b7751209e7575ed777439e3f4e9295ba86b4edf5d52730959d8bf9bfe64",
       "etag": "\"1bc151-65eeb2bc3d9c8\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "hash": "bde096ef334bbac289a8d2b9dc61f7066c516e3833e10129be2330b19a51b216",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
-      "etag": "W/\"16539-1791225934719-gzip\"",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
+      "etag": "W/\"16538-1791226471116-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "42f8ebaef316a48d2f98780cb748702fc978fe4aa7448ae4e4e1b0bbbbcbe61c",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "62ffee28514f389fa13708b68e387dbbe89770dc529ce07cdaa131e26258fc57",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,8 +203,8 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "db34d427105aa50e7d96356ffc6bcae82e0daa11ce05c5126e9daef4d99c8aba",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "08979ee638dc680a98dbc269c3b66d075df6bd22bf68f1b7dd53a968b2890a1a",
       "etag": "\"1793216712\"",
       "count": 1,
       "changed": true
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "hash": "6adee777fc6b4e678db2afd451e137e10c2521b87271dcb5c9ccd43825fe7609",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -532,11 +532,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "aeb0963ce7b04c9c3d87db9915945f0fcba28069c7d23837414ddf59fddb27d5",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "db4b49500f0d6e41bc1a8a325af8ee0dba4e6d095a08cca88285a72d4acd75f8",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -550,11 +550,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-10-29T05:56:17.962Z",
-      "hash": "02394b5b079d42d8d36f7a338febbf8cf78ec2c702e4cd2ac76224534abef51d",
+      "fetchedAt": "2026-10-29T13:13:33.456Z",
+      "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -645,7 +645,7 @@
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-29T05:56:17.962Z",
+      "retrievedAt": "2026-10-29T13:13:33.456Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -658,7 +658,7 @@
       "title": "Water Services Web",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-29T05:56:17.962Z",
+      "retrievedAt": "2026-10-29T13:13:33.456Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Transportation / logistics",
@@ -671,12 +671,38 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-10-29T05:56:17.962Z",
+      "retrievedAt": "2026-10-29T13:13:33.456Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-29T13:13:33.456Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-10-29T13:13:33.456Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "fda-fsma:page-change",
@@ -1446,19 +1472,6 @@
       "ruleStage": "Notice"
     },
     {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-28T23:17:08.528Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
       "id": "cisa-kev:CVE-2026-86950",
       "sourceId": "cisa-kev",
       "title": "CVE-2026-86950 · Apple Multiple Products",
@@ -2008,19 +2021,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-28T13:07:32.922Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "cdc:page-change",
@@ -32781,9 +32781,9 @@
       "scope": "Role/capability changes; vacancies alone do not establish shortage"
     }
   ],
-  "attempted": 53,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-10-29T05:56:17.962Z",
+  "collectedAt": "2026-10-29T13:13:33.456Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -66483,7 +66483,7 @@
     },
     {
       "date": "2026-10-29",
-      "asOf": "2026-10-29T05:56:41.613Z",
+      "asOf": "2026-10-29T13:13:35.241Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
