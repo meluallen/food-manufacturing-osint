@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-01T19:44:28.954Z",
-      "hash": "1eec440c784c3ebb157846b566254576f574dbf52ddc82fe8d6ce21ab9ab3d15",
-      "etag": "W/\"c4a94a6bad0358675c72bd43b528f44d:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
+      "hash": "a880fd2987151e654a289b464ad0b350476dc8dbf2ca13a2fa9ed0a642af0e5f",
+      "etag": "W/\"5b702117d81c34e02e1637f04a07f2d4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-01T19:44:28.954Z",
-      "hash": "0b1084b267f1b926aed53473646894ce0b548b39df346116541361de57fb136f",
-      "etag": "W/\"843d3f606ab58f1786c0c49e1157327e:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
+      "hash": "8937e2d48141a1571d3842d76d8a2fece4069e8eef73155e943531a583bc5115",
+      "etag": "W/\"7eb9a8b79b7a4bad43f8bba7f21f53b4:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "9c4dde8c48378bcca7da25495528be15ac514e1478cde9e79da8602c511c0732",
       "etag": "W/\"1fbc6-xJslbOd2Xkn4HtgLNLiFrOq3+cg\"",
       "count": 60,
@@ -50,7 +50,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "3aa9cf3c01f116362a29d111702979175453c425e3733bde80fc4f6f8e2294e5",
       "etag": "\"1bdfc3-65f11c3dc2438\"",
       "count": 0,
@@ -77,7 +77,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "5a2cc069f5f83cb671668e2cc4de895a819769b28a6d8e518ccbf3ae8206511f",
       "etag": null,
       "count": 0,
@@ -86,7 +86,7 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
       "etag": "W/\"16540-1791226223891-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
-      "hash": "16e0eb4ef35e1eaed0732a5f528aa4221bc20f3451b90dd1cabc1c5d5a91ae3d",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
+      "hash": "af625b518c8fe0c49ef1032a74b4e0901412dbeb1b1eadf4d686ff6267106334",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
-      "hash": "259c1e0770b7fae5f126ce57476b2a0bd2ca2d9d5fdb956999bb5627b8a27d08",
-      "etag": "\"1793519873\"",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
+      "hash": "458fb6d7305d60f1305adfce5008be2f8850fe0437defe45c4b28836643536b4",
+      "etag": "\"1793559108\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "58e0be726be03fb6ca77b4920696ac60a760f7e5da6f43c8c27657c537d50383",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-01T14:19:06.225Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "39054d4c7d6e452c641bcba632d7a6169a3146d9795aaa8885a49cee98ab118b",
       "etag": null,
       "count": 0,
@@ -552,7 +552,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-01T19:44:28.954Z",
+      "fetchedAt": "2026-11-01T23:39:49.485Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 0,
@@ -647,7 +647,7 @@
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-01T14:19:06.225Z",
+      "retrievedAt": "2026-11-01T23:39:49.485Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -660,7 +660,7 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-01T14:19:06.225Z",
+      "retrievedAt": "2026-11-01T23:39:49.485Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
@@ -33173,9 +33173,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-11-01T19:44:28.954Z",
+  "collectedAt": "2026-11-01T23:39:49.485Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -69248,7 +69248,7 @@
     },
     {
       "date": "2026-11-01",
-      "asOf": "2026-11-01T19:44:29.345Z",
+      "asOf": "2026-11-01T23:39:50.800Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
