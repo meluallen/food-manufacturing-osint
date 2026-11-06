@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-06T02:31:11.433Z",
-      "hash": "fc0b8df0168c2fa21f8fe0528e4157bc1aa674e4164fa5390b180ba4f6eab5c9",
-      "etag": "W/\"b20045b27c6c352bdd982dfcb9010f13:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
-      "count": 0,
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "7415f4a672b820f576d336c8bb11f5d4b79f56f6288b27060f7d9a37526479bb",
+      "etag": "W/\"3a97a0f689307340f26319f5ffb77429:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "count": 5,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-06T02:31:11.433Z",
-      "hash": "34716080396e49fb143ef74433d1e7221cbb258676c37bd6e4afe545df20b4f6",
-      "etag": "W/\"f8a9589ed4e42c873e019a97a573d073:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "1cd5a79f7fa771e625cc97beb0897691d1ad0a9f39f67a0834d6e14d95a458aa",
+      "etag": "W/\"916952dad3c2bf72e4cb253a87582f6f:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "d4951d979ea861e65cdf54b699e5f32f6919fe8712880b816e464db91f53da96",
       "etag": "W/\"1e5d4-CvhEVECqQjgstZzHoacgDvKJdLM\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "273b7e449828f0af92e012bf03270a6a6c3deb21dc7a50b46ebe0447ea196bff",
       "etag": "\"1beeae-65f78d3498548\"",
       "count": 0,
@@ -57,8 +57,8 @@
     {
       "sourceId": "drought",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "55825f1906b7e0885128d81531bd49755bea7c9bd7fe61955678cef102d3a55c",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "1aec72b1978c4f6201ced0632950f5ce202c154a332363f4d52037cec4493edb",
       "etag": null,
       "count": 1,
       "changed": true
@@ -75,16 +75,16 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "2a92d53abcc1c2d1438cc59d38c8e082930c36e89be1544fd07ac3ce7cc88f86",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
       "etag": "W/\"16538-1791226471116-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
-      "hash": "5061b9994fda40e045c770b6f42aa367e7bd861588687e64036543690f86cc5f",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "4444154ce8ae463ca96dfc3614fd9794f2aefbc543a729adc0946fc25e8538fd",
       "etag": null,
       "count": 1,
       "changed": true
@@ -160,7 +160,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "sourceId": "bts",
       "status": "blocked"
     },
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -196,16 +196,16 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "sourceId": "port-la",
       "status": "error"
     },
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
-      "hash": "77e78d80ec1db519e037fa740399ed18007d43424d7b16f68d7b93156267964a",
-      "etag": "\"1793913284\"",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "41c502d17bc5633077ffb2506e3cb63021ad192a2a27657db83c68f75ed16992",
+      "etag": "\"1793923247\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "39cb8792b2278bb533cd02eb3eb6fbaceca7d0660dec79804289d69637089fe9",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -285,8 +285,8 @@
     {
       "sourceId": "sqfi",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "95ba917e270e82ad09ce57df905cb65691b9700278192eb96d50fbfeb1e5a225",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "0301dc28c0ffc0af2fe456db0e7d3fdb1b367c4335c53d5839c7842e96f09f63",
       "etag": null,
       "count": 1,
       "changed": true
@@ -345,8 +345,8 @@
     {
       "sourceId": "afpa",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "0923c6aaf2488061fcec161998c19dd63cdffcce91423a896559f96390db4257",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "52fe9677f04d20e267166ef74092f2ed38262f32d980938ec1fab16b7267c84a",
       "etag": null,
       "count": 1,
       "changed": true
@@ -390,8 +390,8 @@
     {
       "sourceId": "appa",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "22f294d32383dc156bfa0818c35898108bbf40edc7c9c0c33f04186d0afbad66",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "ee772c33ce7780763b386e68dc95d876140910c9d9244cbc9e755081d2be8527",
       "etag": null,
       "count": 1,
       "changed": true
@@ -399,8 +399,8 @@
     {
       "sourceId": "plma",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "0cde40bf1f2cf3c862944bf2f38662ec62443e71993b21cf8e42e0f329014022",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "033198308d74e17ba5784d60bdbe4bbadff6ebdc3ed474f19daae3b17d427328",
       "etag": null,
       "count": 1,
       "changed": true
@@ -408,27 +408,27 @@
     {
       "sourceId": "ws-careers",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "d2cff1910e50f08cd32ccd36719962c47158c21c0a56419ed221a70a6c738f20",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "ws-about",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "5f7dfcad8b0cfc5e6a76bed0b9f05c86be6b149d1936d384b86bc9d61a1ff693",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "topfox",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "a6e5e58763169831129a6fca9d6b1f017ded4d880d1130879983e8c398cbc56f",
-      "etag": "\"page_cache:31738888237:IndexController:11b1a60ec9d4042b2ca6c55b63d19e65\"",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "fe32edcffd8ec9ad2bc0a9477238f296b4fe0f01dcc7d3543b6bed1ffac57739",
+      "etag": "\"page_cache:31738888237:IndexController:8df4e37ef71dfed6e4caa858dbe48b20\"",
       "count": 1,
       "changed": true
     },
@@ -457,8 +457,8 @@
     {
       "sourceId": "thrive",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "db7a103a549a2754db6d9b8f7e5152f8f5a804363ae9c06b91514c80297e69ad",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "b524a25fb253a6b83f086a590c3f45baa62f08b761e80704404ef7f87a3de958",
       "etag": null,
       "count": 1,
       "changed": true
@@ -466,7 +466,7 @@
     {
       "sourceId": "vdf",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "90e57bdbde9d486518c525f6511aa6e417ca6777175eced4fa6a17642000bf35",
       "etag": null,
       "count": 0,
@@ -475,43 +475,41 @@
     {
       "sourceId": "efd",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "a8454eaf3a4155419887ff308389f6043ab4b24e4db3ad10e6ddf435b7cde26b",
-      "etag": "\"476-1793252096;br\"",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "dd63b02d9f3f6fef0c8bed1df840a9d42cf1a9726db41133af1821e31dd67be3",
+      "etag": "\"40-1793769876;br\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "barrett",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "cce1c7edb7f4c3ea9f0f3250ebb4af7644afc2df552143dc9f1145d9ed1eed5e",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "809bfb09df3358b0a17088c9fec18c03fc28fea441c4231f19d3c15421f08797",
       "etag": null,
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "weaver",
-      "status": "blocked",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "status": "ok",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "hash": "5cad16560ef3b3ddb5f99acc49de217488b483a461be3bb761c1464d958098fc",
       "etag": null,
-      "count": 1,
-      "changed": true,
-      "lastSuccessAt": "2026-10-23T01:35:44.745Z",
-      "error": "HTTP 403"
+      "count": 0,
+      "changed": false
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
       "sourceId": "flagstone",
       "status": "error"
     },
     {
       "sourceId": "pmmi",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "9b744250401927cc78cdf97951693243824d28cca17bf6dd06bf5aaa7abb8b4f",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "4ebf41cac37a7212b72ca4207c6d9bb214f3da1ed6389a409ea38eb86d441247",
       "etag": null,
       "count": 1,
       "changed": true
@@ -519,9 +517,9 @@
     {
       "sourceId": "gea",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "0310439488f7227405979fd339fffa1d75802c6a7d0e88e0747208f0bf642dcf",
-      "etag": "\"150tl33dje9cwis\"",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "41efec842c0c80bb786075b68ffea87fbe32c316bbd37a2240b7212dfe7b4d45",
+      "etag": "\"bj58czks0gctbo\"",
       "count": 1,
       "changed": true
     },
@@ -533,14 +531,12 @@
     },
     {
       "sourceId": "cisa-ics",
-      "status": "blocked",
-      "fetchedAt": "2026-11-05T22:04:28.775Z",
-      "hash": "c820444eefe5312b7165eabfdd08847e5dedbde07f8efe2bfe94bf1b3d98a6ab",
+      "status": "ok",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "274a6f4c41b14d877bc3987131b44c621ff782aa0263f85122ea0f0aea2389a7",
       "etag": null,
-      "count": 0,
-      "changed": false,
-      "lastSuccessAt": "2026-11-04T09:25:22.021Z",
-      "error": "HTTP 403"
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "cisa-ransom",
@@ -554,11 +550,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-06T02:31:11.433Z",
-      "hash": "87a7ca0cb3c01ce75b22a4178fd3ec8aa44af60156d7b18a27618a93cf5e69fc",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "16540b9ad51222bb69eb9a5958d570d0e00fb9dfefa5b42608a2bc62f9becdec",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -584,8 +580,8 @@
     {
       "sourceId": "bls-paperboard-api",
       "status": "ok",
-      "fetchedAt": "2026-10-30T05:57:22.021Z",
-      "hash": "7061b090825664a97598a26845a30c5b4792868a18fdfd0d583810df67ad1ce3",
+      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "hash": "e192305399612f981f05e15000131458a2555c85e6321a035fa03adbfb09e5ef",
       "etag": null,
       "count": 1,
       "changed": true
@@ -645,6 +641,823 @@
     }
   ],
   "candidates": [
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "thrive:page-change",
+      "sourceId": "thrive",
+      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.thrivefreezedry.com/",
+      "scope": "Group aliases de-duplicated; announcement is not commissioning"
+    },
+    {
+      "id": "plma:page-change",
+      "sourceId": "plma",
+      "title": "Private Label Manufacturers Association | PLMA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://plma.com/",
+      "scope": "Private label, retailer commentary; some data licensed"
+    },
+    {
+      "id": "topfox:page-change",
+      "sourceId": "topfox",
+      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://topfoxsnacks.com/",
+      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
+    },
+    {
+      "id": "drought:page-change",
+      "sourceId": "drought",
+      "title": "Current Map | U.S. Drought Monitor",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient availability",
+      "sourceUrl": "https://droughtmonitor.unl.edu/",
+      "scope": "Weekly; supplier-crop origin mapping required"
+    },
+    {
+      "id": "sqfi:page-change",
+      "sourceId": "sqfi",
+      "title": "SQFI | SQF Institute",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.sqfi.com/",
+      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
+    },
+    {
+      "id": "afpa:page-change",
+      "sourceId": "afpa",
+      "title": "Statistics and Resources | AF&amp;PA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://www.afandpa.org/statistics-resources",
+      "scope": "Paper/paperboard demand; some reports require license"
+    },
+    {
+      "id": "efd:page-change",
+      "sourceId": "efd",
+      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://europeanfreezedry.com/",
+      "scope": "International contract freeze-drying and pet products"
+    },
+    {
+      "id": "barrett:page-change",
+      "sourceId": "barrett",
+      "title": "Pet Food Manufacturer | Barrett Petfood",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://barrettpetfood.com/",
+      "scope": "Pet manufacturing and freeze-dried inclusions"
+    },
+    {
+      "id": "gea:page-change",
+      "sourceId": "gea",
+      "title": "GEA – engineering for a better world",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.gea.com/en/",
+      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
+    },
+    {
+      "id": "pmmi:page-change",
+      "sourceId": "pmmi",
+      "title": "PMMI, The Association for Packaging and Processing Technologies",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.pmmi.org/",
+      "scope": "Robotics, machine vision, equipment and workforce developments"
+    },
+    {
+      "id": "bls-paperboard-api:WPU0914:2026-09",
+      "sourceId": "bls-paperboard-api",
+      "title": "Paperboard · 2026-09",
+      "summary": "United States: 379.475 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-09; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "measurement": {
+        "id": "WPU0914:2026-09",
+        "label": "Paperboard",
+        "seriesCode": "WPU0914",
+        "referencePeriod": "2026-09",
+        "unit": "index, 1982=100",
+        "value": 379.475,
+        "comparison": "index level; not a transaction price",
+        "seasonalAdjustment": "NSA",
+        "geography": "United States",
+        "preliminary": true,
+        "history": [
+          {
+            "period": "2026-09",
+            "value": 379.475,
+            "preliminary": true
+          },
+          {
+            "period": "2026-08",
+            "value": 373.729,
+            "preliminary": true
+          },
+          {
+            "period": "2026-07",
+            "value": 365.079,
+            "preliminary": true
+          },
+          {
+            "period": "2026-06",
+            "value": 361.177,
+            "preliminary": true
+          },
+          {
+            "period": "2026-05",
+            "value": 360.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-04",
+            "value": 353.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-03",
+            "value": 353.904,
+            "preliminary": false
+          },
+          {
+            "period": "2026-02",
+            "value": 354.541,
+            "preliminary": false
+          },
+          {
+            "period": "2026-01",
+            "value": 356.681,
+            "preliminary": false
+          },
+          {
+            "period": "2025-12",
+            "value": 356.438,
+            "preliminary": false
+          },
+          {
+            "period": "2025-11",
+            "value": 356.324,
+            "preliminary": false
+          },
+          {
+            "period": "2025-10",
+            "value": 357.05,
+            "preliminary": false
+          },
+          {
+            "period": "2025-09",
+            "value": 354.549,
+            "preliminary": false
+          },
+          {
+            "period": "2025-08",
+            "value": 355.341,
+            "preliminary": false
+          },
+          {
+            "period": "2025-07",
+            "value": 355.658,
+            "preliminary": false
+          },
+          {
+            "period": "2025-06",
+            "value": 358.893,
+            "preliminary": false
+          },
+          {
+            "period": "2025-05",
+            "value": 353.878,
+            "preliminary": false
+          },
+          {
+            "period": "2025-04",
+            "value": 352.675,
+            "preliminary": false
+          },
+          {
+            "period": "2025-03",
+            "value": 348.748,
+            "preliminary": false
+          },
+          {
+            "period": "2025-02",
+            "value": 346.547,
+            "preliminary": false
+          },
+          {
+            "period": "2025-01",
+            "value": 346.383,
+            "preliminary": false
+          },
+          {
+            "period": "2024-12",
+            "value": 343.626,
+            "preliminary": false
+          },
+          {
+            "period": "2024-11",
+            "value": 343.856,
+            "preliminary": false
+          },
+          {
+            "period": "2024-10",
+            "value": 343.106,
+            "preliminary": false
+          },
+          {
+            "period": "2024-09",
+            "value": 340.929,
+            "preliminary": false
+          },
+          {
+            "period": "2024-08",
+            "value": 339.666,
+            "preliminary": false
+          },
+          {
+            "period": "2024-07",
+            "value": 334.017,
+            "preliminary": false
+          },
+          {
+            "period": "2024-06",
+            "value": 332.43,
+            "preliminary": false
+          },
+          {
+            "period": "2024-05",
+            "value": 330.954,
+            "preliminary": false
+          },
+          {
+            "period": "2024-04",
+            "value": 329.951,
+            "preliminary": false
+          },
+          {
+            "period": "2024-03",
+            "value": 328.448,
+            "preliminary": false
+          },
+          {
+            "period": "2024-02",
+            "value": 327.928,
+            "preliminary": false
+          },
+          {
+            "period": "2024-01",
+            "value": 328.547,
+            "preliminary": false
+          }
+        ]
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "appa:page-change",
+      "sourceId": "appa",
+      "title": "Pet Industry Market Size, Trends &amp; Pet Industry Statistics from APPA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://americanpetproducts.org/industry-trends-and-stats",
+      "scope": "Annual estimates/projected value; not premium segment units"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.547511610404dea99dbc946554a7227478f66a0c.001.1",
+      "sourceId": "nws-il",
+      "title": "Freeze Warning issued November 6 at 1:59AM CST until November 7 at 8:00AM CST by NWS St Louis MO",
+      "summary": "Greene; Macoupin; Montgomery; Bond; Fayette; Clinton; Marion; Washington; Randolph; Adams; Brown; Pike; Calhoun; Jersey; Madison; St. Clair; Monroe; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Pike; Boone; Audrain; Moniteau; Cole; Osage; Callaway; Montgomery; Lincoln; Gasconade; Warren; St. Charles; Franklin; St. Louis; St. Louis City; Jefferson; Crawford; Washington; St. Francois; Ste. Genevieve; Iron; Madison; Reynolds: * WHAT...Sub-freezing temperatures as low as the upper 20s expected. * WHERE...Portions of south central, southwest, and west central Illinois and central, east central, northeast, and southeast Missouri. * WHEN...From midnight tonight to 8 AM CST Saturday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing.",
+      "observedAt": "2026-11-06T01:59:00-06:00",
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-06T17:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017061",
+          "017117",
+          "017135",
+          "017005",
+          "017051",
+          "017027",
+          "017121",
+          "017189",
+          "017157",
+          "017001",
+          "017009",
+          "017149",
+          "017013",
+          "017083",
+          "017119",
+          "017163",
+          "017133",
+          "029103",
+          "029111",
+          "029205",
+          "029127",
+          "029137",
+          "029173",
+          "029163",
+          "029019",
+          "029007",
+          "029135",
+          "029051",
+          "029151",
+          "029027",
+          "029139",
+          "029113",
+          "029073",
+          "029219",
+          "029183",
+          "029071",
+          "029189",
+          "029510",
+          "029099",
+          "029055",
+          "029221",
+          "029187",
+          "029186",
+          "029093",
+          "029123",
+          "029179"
+        ],
+        "UGC": [
+          "ILZ058",
+          "ILZ059",
+          "ILZ060",
+          "ILZ064",
+          "ILZ065",
+          "ILZ069",
+          "ILZ070",
+          "ILZ074",
+          "ILZ079",
+          "ILZ095",
+          "ILZ096",
+          "ILZ097",
+          "ILZ098",
+          "ILZ099",
+          "ILZ100",
+          "ILZ101",
+          "ILZ102",
+          "MOZ018",
+          "MOZ019",
+          "MOZ026",
+          "MOZ027",
+          "MOZ034",
+          "MOZ035",
+          "MOZ036",
+          "MOZ041",
+          "MOZ042",
+          "MOZ047",
+          "MOZ048",
+          "MOZ049",
+          "MOZ050",
+          "MOZ051",
+          "MOZ052",
+          "MOZ059",
+          "MOZ060",
+          "MOZ061",
+          "MOZ062",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065",
+          "MOZ072",
+          "MOZ073",
+          "MOZ074",
+          "MOZ075",
+          "MOZ084",
+          "MOZ085",
+          "MOZ099"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.001.1",
+      "sourceId": "nws-il",
+      "title": "Freeze Warning issued November 6 at 12:11AM CST until November 7 at 8:00AM CST by NWS Paducah KY",
+      "summary": "Jefferson; Wayne; Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Union; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard: * WHAT...For the Freeze Warning, sub-freezing temperatures as low as 30 expected. For the Freeze Watch, sub-freezing temperatures as low as 29 possible. * WHERE...Portions of the Ozark Foothills of southeast Missouri and south and southwest Illinois. * WHEN...For the Freeze Warning, from 11 PM this evening to 8 AM CST Saturday. For the Freeze Watch, from Saturday evening through Sunday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. * ADDITIONAL DETAILS...The hard freezes will bring the growing season to an end.",
+      "observedAt": "2026-11-06T00:11:00-06:00",
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-06T16:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017081",
+          "017191",
+          "017145",
+          "017055",
+          "017065",
+          "017077",
+          "017199",
+          "017165",
+          "017181",
+          "029157",
+          "029017",
+          "029031",
+          "029223",
+          "029035",
+          "029181",
+          "029023",
+          "029207"
+        ],
+        "UGC": [
+          "ILZ075",
+          "ILZ076",
+          "ILZ080",
+          "ILZ081",
+          "ILZ082",
+          "ILZ084",
+          "ILZ085",
+          "ILZ086",
+          "ILZ088",
+          "MOZ076",
+          "MOZ086",
+          "MOZ087",
+          "MOZ100",
+          "MOZ107",
+          "MOZ108",
+          "MOZ109",
+          "MOZ110"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.002.1",
+      "sourceId": "nws-il",
+      "title": "Frost Advisory issued November 6 at 12:11AM CST until November 7 at 8:00AM CST by NWS Paducah KY",
+      "summary": "Edwards; Wabash; White; Gallatin; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Scott; Mississippi; New Madrid: * WHAT...For the Frost Advisory, temperatures as low as 33 will result in frost formation. For the Freeze Watch, sub-freezing temperatures as low as 31 possible. * WHERE...Portions of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...For the Frost Advisory, from 11 PM CST /midnight EST/ this evening to 8 AM CST /9 AM EST/ Saturday. For the Freeze Watch, from Saturday evening through Sunday morning. * IMPACTS...Frost and freeze conditi",
+      "observedAt": "2026-11-06T00:11:00-06:00",
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-06T16:00:00-06:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017047",
+          "017185",
+          "017193",
+          "017059",
+          "017087",
+          "017151",
+          "017069",
+          "017003",
+          "017153",
+          "017127",
+          "018051",
+          "018125",
+          "018129",
+          "018163",
+          "018173",
+          "018147",
+          "021075",
+          "021105",
+          "021039",
+          "021007",
+          "021145",
+          "021083",
+          "021139",
+          "021157",
+          "021035",
+          "021055",
+          "021143",
+          "021221",
+          "021033",
+          "021225",
+          "021233",
+          "021107",
+          "021047",
+          "021101",
+          "021059",
+          "021149",
+          "021177",
+          "021219",
+          "029201",
+          "029133",
+          "029143"
+        ],
+        "UGC": [
+          "ILZ077",
+          "ILZ078",
+          "ILZ083",
+          "ILZ087",
+          "ILZ089",
+          "ILZ090",
+          "ILZ091",
+          "ILZ092",
+          "ILZ093",
+          "ILZ094",
+          "INZ081",
+          "INZ082",
+          "INZ085",
+          "INZ086",
+          "INZ087",
+          "INZ088",
+          "KYZ001",
+          "KYZ002",
+          "KYZ003",
+          "KYZ004",
+          "KYZ005",
+          "KYZ006",
+          "KYZ007",
+          "KYZ008",
+          "KYZ009",
+          "KYZ010",
+          "KYZ011",
+          "KYZ012",
+          "KYZ013",
+          "KYZ014",
+          "KYZ015",
+          "KYZ016",
+          "KYZ017",
+          "KYZ018",
+          "KYZ019",
+          "KYZ020",
+          "KYZ021",
+          "KYZ022",
+          "MOZ111",
+          "MOZ112",
+          "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.002.2",
+      "sourceId": "nws-il",
+      "title": "Freeze Watch issued November 6 at 12:11AM CST until November 8 at 8:00AM CST by NWS Paducah KY",
+      "summary": "Edwards; Wabash; White; Gallatin; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Scott; Mississippi; New Madrid: * WHAT...For the Frost Advisory, temperatures as low as 33 will result in frost formation. For the Freeze Watch, sub-freezing temperatures as low as 31 possible. * WHERE...Portions of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...For the Frost Advisory, from 11 PM CST /midnight EST/ this evening to 8 AM CST /9 AM EST/ Saturday. For the Freeze Watch, from Saturday evening through Sunday morning. * IMPACTS...Frost and freeze conditi",
+      "observedAt": "2026-11-06T00:11:00-06:00",
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-06T16:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017047",
+          "017185",
+          "017193",
+          "017059",
+          "017087",
+          "017151",
+          "017069",
+          "017003",
+          "017153",
+          "017127",
+          "018051",
+          "018125",
+          "018129",
+          "018163",
+          "018173",
+          "018147",
+          "021075",
+          "021105",
+          "021039",
+          "021007",
+          "021145",
+          "021083",
+          "021139",
+          "021157",
+          "021035",
+          "021055",
+          "021143",
+          "021221",
+          "021033",
+          "021225",
+          "021233",
+          "021107",
+          "021047",
+          "021101",
+          "021059",
+          "021149",
+          "021177",
+          "021219",
+          "029201",
+          "029133",
+          "029143"
+        ],
+        "UGC": [
+          "ILZ077",
+          "ILZ078",
+          "ILZ083",
+          "ILZ087",
+          "ILZ089",
+          "ILZ090",
+          "ILZ091",
+          "ILZ092",
+          "ILZ093",
+          "ILZ094",
+          "INZ081",
+          "INZ082",
+          "INZ085",
+          "INZ086",
+          "INZ087",
+          "INZ088",
+          "KYZ001",
+          "KYZ002",
+          "KYZ003",
+          "KYZ004",
+          "KYZ005",
+          "KYZ006",
+          "KYZ007",
+          "KYZ008",
+          "KYZ009",
+          "KYZ010",
+          "KYZ011",
+          "KYZ012",
+          "KYZ013",
+          "KYZ014",
+          "KYZ015",
+          "KYZ016",
+          "KYZ017",
+          "KYZ018",
+          "KYZ019",
+          "KYZ020",
+          "KYZ021",
+          "KYZ022",
+          "MOZ111",
+          "MOZ112",
+          "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.90979a6cb7f742a0e6c47a804d0ca6d6e6366213.001.2",
+      "sourceId": "nws-il",
+      "title": "Freeze Watch issued November 6 at 12:11AM CST until November 8 at 8:00AM CST by NWS Paducah KY",
+      "summary": "Jefferson; Wayne; Perry; Franklin; Hamilton; Jackson; Williamson; Saline; Union; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard: * WHAT...For the Freeze Warning, sub-freezing temperatures as low as 30 expected. For the Freeze Watch, sub-freezing temperatures as low as 29 possible. * WHERE...Portions of the Ozark Foothills of southeast Missouri and south and southwest Illinois. * WHEN...For the Freeze Warning, from 11 PM this evening to 8 AM CST Saturday. For the Freeze Watch, from Saturday evening through Sunday morning. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetation and possibly damage unprotected outdoor plumbing. * ADDITIONAL DETAILS...The hard freezes will bring the growing season to an end.",
+      "observedAt": "2026-11-06T00:11:00-06:00",
+      "retrievedAt": "2026-11-06T11:03:33.489Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-06T16:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017081",
+          "017191",
+          "017145",
+          "017055",
+          "017065",
+          "017077",
+          "017199",
+          "017165",
+          "017181",
+          "029157",
+          "029017",
+          "029031",
+          "029223",
+          "029035",
+          "029181",
+          "029023",
+          "029207"
+        ],
+        "UGC": [
+          "ILZ075",
+          "ILZ076",
+          "ILZ080",
+          "ILZ081",
+          "ILZ082",
+          "ILZ084",
+          "ILZ085",
+          "ILZ086",
+          "ILZ088",
+          "MOZ076",
+          "MOZ086",
+          "MOZ087",
+          "MOZ100",
+          "MOZ107",
+          "MOZ108",
+          "MOZ109",
+          "MOZ110"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "fda-fsma:page-change",
       "sourceId": "fda-fsma",
@@ -1400,32 +2213,6 @@
       "ruleStage": "Notice"
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-05T22:04:28.775Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-05T22:04:28.775Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
       "id": "river:page-change",
       "sourceId": "river",
       "title": "National Water Prediction Service - NOAA",
@@ -1437,19 +2224,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://water.noaa.gov/",
       "scope": "Mississippi/Illinois river; no assumed company barge use"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-05T15:33:53.221Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "cisa-kev:CVE-2015-3306",
@@ -2078,19 +2852,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-04T01:27:05.427Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
       "id": "federal-register:2026-21992",
@@ -3502,342 +4263,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/10/27/2026-21838/us-origin-statements-on-seafood-draft-guidance-for-industry-availability",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "thrive:page-change",
-      "sourceId": "thrive",
-      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.thrivefreezedry.com/",
-      "scope": "Group aliases de-duplicated; announcement is not commissioning"
-    },
-    {
-      "id": "plma:page-change",
-      "sourceId": "plma",
-      "title": "Private Label Manufacturers Association | PLMA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://plma.com/",
-      "scope": "Private label, retailer commentary; some data licensed"
-    },
-    {
-      "id": "topfox:page-change",
-      "sourceId": "topfox",
-      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://topfoxsnacks.com/",
-      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
-    },
-    {
-      "id": "drought:page-change",
-      "sourceId": "drought",
-      "title": "Current Map | U.S. Drought Monitor",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient availability",
-      "sourceUrl": "https://droughtmonitor.unl.edu/",
-      "scope": "Weekly; supplier-crop origin mapping required"
-    },
-    {
-      "id": "sqfi:page-change",
-      "sourceId": "sqfi",
-      "title": "SQFI | SQF Institute",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.sqfi.com/",
-      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
-    },
-    {
-      "id": "afpa:page-change",
-      "sourceId": "afpa",
-      "title": "Statistics and Resources | AF&amp;PA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://www.afandpa.org/statistics-resources",
-      "scope": "Paper/paperboard demand; some reports require license"
-    },
-    {
-      "id": "efd:page-change",
-      "sourceId": "efd",
-      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://europeanfreezedry.com/",
-      "scope": "International contract freeze-drying and pet products"
-    },
-    {
-      "id": "barrett:page-change",
-      "sourceId": "barrett",
-      "title": "Pet Food Manufacturer | Barrett Petfood",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://barrettpetfood.com/",
-      "scope": "Pet manufacturing and freeze-dried inclusions"
-    },
-    {
-      "id": "gea:page-change",
-      "sourceId": "gea",
-      "title": "GEA – engineering for a better world",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.gea.com/en/",
-      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
-    },
-    {
-      "id": "pmmi:page-change",
-      "sourceId": "pmmi",
-      "title": "PMMI, The Association for Packaging and Processing Technologies",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.pmmi.org/",
-      "scope": "Robotics, machine vision, equipment and workforce developments"
-    },
-    {
-      "id": "bls-paperboard-api:WPU0914:2026-09",
-      "sourceId": "bls-paperboard-api",
-      "title": "Paperboard · 2026-09",
-      "summary": "United States: 379.475 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-09; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
-      "measurement": {
-        "id": "WPU0914:2026-09",
-        "label": "Paperboard",
-        "seriesCode": "WPU0914",
-        "referencePeriod": "2026-09",
-        "unit": "index, 1982=100",
-        "value": 379.475,
-        "comparison": "index level; not a transaction price",
-        "seasonalAdjustment": "NSA",
-        "geography": "United States",
-        "preliminary": true,
-        "history": [
-          {
-            "period": "2026-09",
-            "value": 379.475,
-            "preliminary": true
-          },
-          {
-            "period": "2026-08",
-            "value": 373.729,
-            "preliminary": true
-          },
-          {
-            "period": "2026-07",
-            "value": 365.079,
-            "preliminary": true
-          },
-          {
-            "period": "2026-06",
-            "value": 361.177,
-            "preliminary": true
-          },
-          {
-            "period": "2026-05",
-            "value": 360.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-04",
-            "value": 353.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-03",
-            "value": 353.904,
-            "preliminary": false
-          },
-          {
-            "period": "2026-02",
-            "value": 354.541,
-            "preliminary": false
-          },
-          {
-            "period": "2026-01",
-            "value": 356.681,
-            "preliminary": false
-          },
-          {
-            "period": "2025-12",
-            "value": 356.438,
-            "preliminary": false
-          },
-          {
-            "period": "2025-11",
-            "value": 356.324,
-            "preliminary": false
-          },
-          {
-            "period": "2025-10",
-            "value": 357.05,
-            "preliminary": false
-          },
-          {
-            "period": "2025-09",
-            "value": 354.549,
-            "preliminary": false
-          },
-          {
-            "period": "2025-08",
-            "value": 355.341,
-            "preliminary": false
-          },
-          {
-            "period": "2025-07",
-            "value": 355.658,
-            "preliminary": false
-          },
-          {
-            "period": "2025-06",
-            "value": 358.893,
-            "preliminary": false
-          },
-          {
-            "period": "2025-05",
-            "value": 353.878,
-            "preliminary": false
-          },
-          {
-            "period": "2025-04",
-            "value": 352.675,
-            "preliminary": false
-          },
-          {
-            "period": "2025-03",
-            "value": 348.748,
-            "preliminary": false
-          },
-          {
-            "period": "2025-02",
-            "value": 346.547,
-            "preliminary": false
-          },
-          {
-            "period": "2025-01",
-            "value": 346.383,
-            "preliminary": false
-          },
-          {
-            "period": "2024-12",
-            "value": 343.626,
-            "preliminary": false
-          },
-          {
-            "period": "2024-11",
-            "value": 343.856,
-            "preliminary": false
-          },
-          {
-            "period": "2024-10",
-            "value": 343.106,
-            "preliminary": false
-          },
-          {
-            "period": "2024-09",
-            "value": 340.929,
-            "preliminary": false
-          },
-          {
-            "period": "2024-08",
-            "value": 339.666,
-            "preliminary": false
-          },
-          {
-            "period": "2024-07",
-            "value": 334.017,
-            "preliminary": false
-          },
-          {
-            "period": "2024-06",
-            "value": 332.43,
-            "preliminary": false
-          },
-          {
-            "period": "2024-05",
-            "value": 330.954,
-            "preliminary": false
-          },
-          {
-            "period": "2024-04",
-            "value": 329.951,
-            "preliminary": false
-          },
-          {
-            "period": "2024-03",
-            "value": 328.448,
-            "preliminary": false
-          },
-          {
-            "period": "2024-02",
-            "value": 327.928,
-            "preliminary": false
-          },
-          {
-            "period": "2024-01",
-            "value": 328.547,
-            "preliminary": false
-          }
-        ]
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "appa:page-change",
-      "sourceId": "appa",
-      "title": "Pet Industry Market Size, Trends &amp; Pet Industry Statistics from APPA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-10-30T05:57:22.021Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://americanpetproducts.org/industry-trends-and-stats",
-      "scope": "Annual estimates/projected value; not premium segment units"
     },
     {
       "id": "ws-about:page-change",
@@ -34380,9 +34805,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 43,
+  "attempted": 32,
   "remaining": 0,
-  "collectedAt": "2026-11-06T02:31:11.433Z",
+  "collectedAt": "2026-11-06T11:03:33.489Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -74410,7 +74835,7 @@
     },
     {
       "date": "2026-11-06",
-      "asOf": "2026-11-06T02:31:44.022Z",
+      "asOf": "2026-11-06T11:03:39.026Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
