@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-07T16:52:41.431Z",
-      "hash": "fa3c38bd29ea5f04ee80e058063639041915bffeb475706c4e1f80e4f66dee28",
-      "etag": "W/\"751105984e976e1e8c45fbb72322e999:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-07T20:56:50.477Z",
+      "hash": "454fc85a48b57a7e45875ec128b73312f27095c0ba746fa77d45dce2f3e0f8ad",
+      "etag": "W/\"6916af4d599c90d3894a3ba739a7c6a9:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-07T16:52:41.431Z",
-      "hash": "82892443bd426a8dbd3f3a05aed335d81f29b88b70fb5b828b581df3236d09e4",
-      "etag": "W/\"b1ecc6acf3826e5c37db607837c50a86:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-07T20:56:50.477Z",
+      "hash": "d949f1c519a8d8b5d340016fc0ac49eaf7cacd862502a38354439721b5a810b0",
+      "etag": "W/\"72a70c2d988ff8c7d4e3ee5748f6f78f:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -550,8 +550,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-07T16:52:41.431Z",
-      "hash": "4eafd99ae3dc7498fadc525b4add8226e798d7fa63e88fc0e6aa20654775edbb",
+      "fetchedAt": "2026-11-07T20:56:50.477Z",
+      "hash": "39eeaa6172b5faaf05688d9d76808d6d45532d42da13815c91041ee1d221310b",
       "etag": null,
       "count": 1,
       "changed": true
@@ -640,25 +640,12 @@
   ],
   "candidates": [
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-07T16:52:41.431Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-07T16:52:41.431Z",
+      "retrievedAt": "2026-11-07T20:56:50.477Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -666,25 +653,12 @@
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-07T16:52:41.431Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.63128d6bfb394597214f7f153083510c49ba95e0.001.1",
       "sourceId": "nws-il",
       "title": "Freeze Warning issued November 7 at 10:30AM CST until November 8 at 8:00AM CST by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: * WHAT...Sub-freezing temperatures as low as 31 expected. * WHERE...All of southern Illinois, southwest Indiana, western Kentucky, and southeast Missouri. * WHEN...From 11 PM CST /midnight EST/ this evening to 8 AM CST /9 AM EST/ Sunday. * IMPACTS...Frost and freeze conditions could kill crops, other sensitive vegetatio",
       "observedAt": "2026-11-07T10:30:00-06:00",
-      "retrievedAt": "2026-11-07T16:52:41.431Z",
+      "retrievedAt": "2026-11-07T20:56:50.477Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -814,6 +788,32 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-07T16:52:41.431Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-07T16:52:41.431Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.ca1fc2dffe07516651b858de841aee4a43ebad1e.001.1",
@@ -35815,9 +35815,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-07T16:52:41.431Z",
+  "collectedAt": "2026-11-07T20:56:50.477Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -76636,7 +76636,7 @@
     },
     {
       "date": "2026-11-07",
-      "asOf": "2026-11-07T16:52:42.334Z",
+      "asOf": "2026-11-07T20:56:50.699Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
