@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-08T15:19:36.996Z",
-      "hash": "9c9053343ba832c05b9f72de41525d4128b245d149d5a7be16a906a93b48c2d0",
-      "etag": "W/\"9071c0b7d6a87a6aa1912fe645b727ad:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-08T20:32:44.225Z",
+      "hash": "20a4992afc3e23e0dac5f606ab27b714d08b60a3883ab0f2d9e79680274b9f00",
+      "etag": "W/\"31a172b804678735f574dc80d113b276:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-08T15:19:36.996Z",
-      "hash": "23df12ea6d39bac2dd715e0652e92ab043d827dc72cca489c8539ab9cf5d3ab0",
-      "etag": "W/\"c43d3c0a88bfc4ada1597d215cf0c799:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
+      "fetchedAt": "2026-11-08T20:32:44.225Z",
+      "hash": "0696d03e60f8a301149110f1b489219d0ba0fcaee5ae2864ecc2d00ae4eb7df2",
+      "etag": "W/\"7e52c702c07ba2004c33ad98fcc80386:dtagent10337260504112723F6xZ:dtagent10337260504112723F6xZ\"",
       "count": 0,
       "changed": true
     },
@@ -550,8 +550,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-08T15:19:36.996Z",
-      "hash": "0513cf4b491b23a90bf2b19613ea2f42c68e50a4bf04743ef3a2fecabfe14a0b",
+      "fetchedAt": "2026-11-08T20:32:44.225Z",
+      "hash": "67b8a0ba106061fba77f872798c51da55c12c0296823c3ec7b3b1ed10afa659a",
       "etag": null,
       "count": 1,
       "changed": true
@@ -640,6 +640,19 @@
   ],
   "candidates": [
     {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-08T20:32:44.225Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
@@ -664,19 +677,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-08T15:19:36.996Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "fda-fsma:page-change",
@@ -35952,9 +35952,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 13,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-08T15:19:36.996Z",
+  "collectedAt": "2026-11-08T20:32:44.225Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -77564,7 +77564,7 @@
     },
     {
       "date": "2026-11-08",
-      "asOf": "2026-11-08T15:19:38.103Z",
+      "asOf": "2026-11-08T20:32:44.618Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
