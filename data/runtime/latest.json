@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-10T23:28:28.387Z",
-      "hash": "1494aa7a33fe1782b1e9be444df13dddf4f1ffd250777afb32a206ac99b7b76c",
-      "etag": "W/\"d8df14caebb4395605cb6ad420b3a154\"",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "3476143d0df9ab9f5337052f7ce2d78f595e420ac96142a0d14e5b88ae05a501",
+      "etag": "W/\"252d5f080ceacadcceaebd9c09e8fefa\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-10T23:28:28.387Z",
-      "hash": "1953adf68771117eef9ed8cc7ef6d1f90ed604a953152de83532af808e7fec3f",
-      "etag": "W/\"9c1e60f5c72b13f5ce3e7d413f622b40\"",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "d27354731f6e6041156455c88f4252b9e514bf1862e3957c48ae8a9eaac8b5ee",
+      "etag": "W/\"cc8789397c8c5a8dc5c9c30c222e1e45\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,11 +48,11 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
-      "hash": "4372c54ba169d113742974d9e0c68b3523d8e4374c9b2bdcf28712b68565d5cf",
-      "etag": "\"1c12cd-65fdd54ecdfc8\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "41c8091ad62d508d6f8906ad5cd26b20efe551f7d51b95ecc8a6981fa640b4ea",
+      "etag": "\"1c3dcf-65ff0bbebda90\"",
+      "count": 40,
+      "changed": true
     },
     {
       "sourceId": "drought",
@@ -75,16 +75,16 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
       "etag": "W/\"16538-1791226471116-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
-      "hash": "0d708ee5668f9a90ec38d59b2e8be28136fb8134cf64330946b4d105b7533047",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "e85e63900752587ce2d760546869cc2c0fc0be871339fbf9e16146f28f5bec9f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
-      "hash": "4eb9e16391a3ffb42379b48285e7e541d7616608340ea32f60e2cac30bce0bfe",
-      "etag": "\"1794327950\"",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "623665e4036ccd9adf19a29aa38b9d8548fbaae932f95951451cfca9b0e12443",
+      "etag": "\"1794352318\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "hash": "39cb8792b2278bb533cd02eb3eb6fbaceca7d0660dec79804289d69637089fe9",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -532,8 +532,8 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-10T17:55:18.300Z",
-      "hash": "630aec9001f782c2fbe81f8bf174a078851ab685f94e4d59e2da3c1b03aa6fef",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
+      "hash": "826865fc9c391cb230a31960d1b5a07e0bccb3b1ae57f10fb813a71885d8aac2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -550,11 +550,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-10T23:28:28.387Z",
+      "fetchedAt": "2026-11-11T06:38:45.963Z",
       "hash": "c4fcf3b1eda206316e798d96a88011ab5d69bd6a0690e5453e01e2f89f0e473b",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -640,6 +640,565 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "cisa-kev:CVE-2026-104935",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-104935 · Ivanti Connect Secure",
+      "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-13",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-96951",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-96951 · Microsoft Windows",
+      "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-13",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-0322",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-0322 · Palo Alto Networks PAN-OS",
+      "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-14",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-105133",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-105133 · Ahsay AhsayCBS",
+      "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-14",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-76519",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-76519 · Cisco Secure Email Gateway",
+      "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-14",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-105134",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-105134 · Ahsay AhsayCBS",
+      "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-14",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-21589",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-21589 · Atlassian Multiple Products",
+      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's interne",
+      "observedAt": "2026-10-15",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2025-61624",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2025-61624 · Fortinet Multiple Products",
+      "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-16",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-102764",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-102764 · BeyondTrust Remote Support",
+      "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-16",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-110936",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-110936 · Siemens Software Center",
+      "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-96652",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-96652 · Plex Media Server",
+      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidel",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-96654",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-96654 · Plex Media Server",
+      "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-96655",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-96655 · Plex Media Server",
+      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-96656",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-96656 · Plex Media Server",
+      "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-106931",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-106931 · EG Secure Solutions SiteGuard Server Edition",
+      "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-20",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-114625",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-114625 · Arista VeloCloud Orchestrator",
+      "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-23",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-110447",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-110447 · Collabora Collabora Online – Built-in CODE Server",
+      "summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-23",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-109619",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-109619 · PHP Group PHP",
+      "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-26",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-109618",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-109618 · PHP Group PHP",
+      "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-26",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-111497",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-111497 · Google Brotli",
+      "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-27",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-48356",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-48356 · Adobe Commerce and Magento",
+      "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-27",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-46300",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-46300 · Linux Kernel",
+      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asse",
+      "observedAt": "2026-10-28",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-41709",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-41709 · Broadcom VMware ESX",
+      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-28",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-76418",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-76418 · Cisco Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-29",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-97229",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-97229 · GitLab Community Edition and Enterprise Edition",
+      "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-29",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-111357",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-111357 · Ivanti Connect Secure",
+      "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-30",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-118527",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-118527 · Ivanti Connect Secure",
+      "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-10-30",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-119977",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-119977 · WordPress WordPress Core",
+      "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-03",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2024-27834",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2024-27834 · Apple Multiple Products",
+      "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-04",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-19868",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-19868 · SonicWall SonicOS SSLVPN",
+      "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA). Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-06",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-116779",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-116779 · SignalWire FreeSwitch",
+      "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-09",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-123158",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-123158 · OpenBSD OpenSSH",
+      "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-09",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-102895",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-102895 · GPUStack GPUStack",
+      "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-09",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-123218",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-123218 · IBM Aspera Faspex",
+      "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-09",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-125350",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-125350 · Google Chromium",
+      "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-116606",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-116606 · Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-111560",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-111560 · Barracuda Networks Multiple Products",
+      "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606 Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigation",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-20320",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-20320 · Cisco BroadWorks",
+      "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-111793",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-111793 · Openwave Messaging Limited Webtop Media Transcoder",
+      "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
+      "id": "cisa-kev:CVE-2026-124194",
+      "sourceId": "cisa-kev",
+      "title": "CVE-2026-124194 · Microsoft Office",
+      "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "observedAt": "2026-11-10",
+      "retrievedAt": "2026-11-11T06:38:45.963Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "scope": "Inventory match required. No Watershed installed technology asserted."
+    },
+    {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
@@ -653,32 +1212,6 @@
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-10T17:55:18.300Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-10T17:55:18.300Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
       "id": "river:page-change",
       "sourceId": "river",
       "title": "National Water Prediction Service - NOAA",
@@ -690,19 +1223,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://water.noaa.gov/",
       "scope": "Mississippi/Illinois river; no assumed company barge use"
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-10T17:55:18.300Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
     },
     {
       "id": "fda-fsma:page-change",
@@ -2385,435 +2905,6 @@
       "scope": "Industry recall; report date is not recall initiation. No Watershed product/customer relationship asserted."
     },
     {
-      "id": "cisa-kev:CVE-2026-104935",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-104935 · Ivanti Connect Secure",
-      "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-13",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-96951",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-96951 · Microsoft Windows",
-      "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-13",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-0322",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-0322 · Palo Alto Networks PAN-OS",
-      "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-14",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-105133",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-105133 · Ahsay AhsayCBS",
-      "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-14",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-76519",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-76519 · Cisco Secure Email Gateway",
-      "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-14",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-105134",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-105134 · Ahsay AhsayCBS",
-      "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-14",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-21589",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-21589 · Atlassian Multiple Products",
-      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's interne",
-      "observedAt": "2026-10-15",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2025-61624",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2025-61624 · Fortinet Multiple Products",
-      "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-16",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-102764",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-102764 · BeyondTrust Remote Support",
-      "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-16",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-110936",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-110936 · Siemens Software Center",
-      "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-96652",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-96652 · Plex Media Server",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidel",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-96654",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-96654 · Plex Media Server",
-      "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-96655",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-96655 · Plex Media Server",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-96656",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-96656 · Plex Media Server",
-      "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-106931",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-106931 · EG Secure Solutions SiteGuard Server Edition",
-      "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-20",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-114625",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-114625 · Arista VeloCloud Orchestrator",
-      "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-23",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-110447",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-110447 · Collabora Collabora Online – Built-in CODE Server",
-      "summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-23",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-109619",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-109619 · PHP Group PHP",
-      "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-26",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-109618",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-109618 · PHP Group PHP",
-      "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-26",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-111497",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-111497 · Google Brotli",
-      "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-27",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-48356",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-48356 · Adobe Commerce and Magento",
-      "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-27",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-46300",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-46300 · Linux Kernel",
-      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asse",
-      "observedAt": "2026-10-28",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-41709",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-41709 · Broadcom VMware ESX",
-      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-28",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-76418",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-76418 · Cisco Secure Firewall ASA Software and Cisco Secure FTD Software",
-      "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-29",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-97229",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-97229 · GitLab Community Edition and Enterprise Edition",
-      "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-29",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-111357",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-111357 · Ivanti Connect Secure",
-      "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-30",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-118527",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-118527 · Ivanti Connect Secure",
-      "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-10-30",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-119977",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-119977 · WordPress WordPress Core",
-      "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-03",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2024-27834",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2024-27834 · Apple Multiple Products",
-      "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-04",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-19868",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-19868 · SonicWall SonicOS SSLVPN",
-      "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA). Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-06",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-116779",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-116779 · SignalWire FreeSwitch",
-      "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-09",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-123158",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-123158 · OpenBSD OpenSSH",
-      "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-09",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "cisa-kev:CVE-2026-102895",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-102895 · GPUStack GPUStack",
-      "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-09",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
       "id": "usgs:page-change",
       "sourceId": "usgs",
       "title": "Water Services Web",
@@ -2825,19 +2916,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://waterservices.usgs.gov/",
       "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "cisa-kev:CVE-2026-123218",
-      "sourceId": "cisa-kev",
-      "title": "CVE-2026-123218 · IBM Aspera Faspex",
-      "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations. Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "observedAt": "2026-11-09",
-      "retrievedAt": "2026-11-10T02:13:48.246Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "scope": "Inventory match required. No Watershed installed technology asserted."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.8a8be440e14d77a6bb44a32baa25106a58f2b42d.001.1",
@@ -36223,9 +36301,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-11-10T23:28:28.387Z",
+  "collectedAt": "2026-11-11T06:38:45.963Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -79418,6 +79496,797 @@
     {
       "date": "2026-11-10",
       "asOf": "2026-11-10T23:28:28.783Z",
+      "modelVersion": "1.0.0",
+      "indicators": [
+        {
+          "category": "Ingredient availability",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Ingredient cost",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Customer demand",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Transportation / logistics",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Energy / utilities",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Packaging",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Labor",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Food safety / regulatory",
+          "score": 11.2,
+          "confidence": "High",
+          "direction": "Mixed",
+          "componentIds": [
+            "S06"
+          ]
+        },
+        {
+          "category": "Cyber / OT",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Facility / weather",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Geopolitical / trade",
+          "score": null,
+          "confidence": "Unassessed",
+          "direction": null,
+          "componentIds": []
+        },
+        {
+          "category": "Growth opportunity",
+          "score": 7.2,
+          "confidence": "Low",
+          "direction": "Opportunity",
+          "componentIds": [
+            "S04"
+          ]
+        }
+      ],
+      "signals": [
+        {
+          "id": "S01",
+          "title": "Midwest diesel eases 2.3% but remains elevated",
+          "summary": "EIA’s 28 September Midwest diesel benchmark is $6.526/gal, down $0.154 (-2.3%) from the prior week’s $6.680 peak but still $0.580 (+9.8%) above 7 September. Momentum improved; Watershed’s actual carrier surcharge, lane mix and pass-through remain unknown.",
+          "category": "Transportation / logistics",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 75,
+            "severity": 80,
+            "confidence": 70,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 80,
+            "substitutability": 35
+          },
+          "factorRationale": "Exposure 75: public facility geography makes truck freight plausible, but mode and miles are unmeasured. Severity 80: $6.526/gal remains 9.8% above 7 September and only 2.3% below the prior peak. Confidence 70: primary EIA measurement, with no company contract or invoice. Persistence 80: the benchmark has remained at or above $6.250 for three weekly observations, supported by the separate EIA distillate-constraint scenario. Velocity falls from 80 to 65 because the latest weekly move reversed from +6.9% to -2.3%, while the three-week level remains materially higher. Dependency 80 and substitutability 35: road freight is operationally important and near-term fuel substitution is limited, but actual carrier terms are unknown.",
+          "causalPath": "Elevated regional retail diesel benchmark → applicable carrier fuel surcharge or freight quote → delivered input/outbound cost and conditional margin or service pressure.",
+          "verify": "Current carrier surcharge tables and invoices, contract lag, lane and mode mix, outbound miles, customer pass-through and any tender or service refusal.",
+          "action": "CFO and Supply Chain should continue reconciling current carrier surcharge tables and invoices, but should not treat the regional benchmark decline as realized savings until contract lag, invoices and customer pass-through are verified.",
+          "trigger": "A weekly rebound above 5%, a new benchmark above $6.680/gal, actual contracted transport cost more than 5% above plan, a tender or service refusal, or a verified customer-service impact.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO",
+            "Customer Experience"
+          ],
+          "observedAt": "2026-09-29",
+          "retrievedAt": "2026-09-29",
+          "reviewedAt": "2026-09-29",
+          "expiresAt": "2026-10-06",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Margin",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 3,
+          "dateNote": "EIA released the data on 29 September 2026; the price reference week is 28 September. This is a regional retail benchmark, not a Watershed freight rate, invoice or realized saving.",
+          "coverageChange": "The leading external benchmark improved 2.3% week over week after two increases above 5%. Velocity declines from 80 to 65 and the posture improves from High to Elevated; invoice and surcharge verification remains prudent because the level is still 9.8% above 7 September."
+        },
+        {
+          "id": "S02",
+          "title": "Grain outlook tightens; specialty basis still unknown",
+          "summary": "September WASDE projects U.S. total-grain ending stocks of 62.92 Mt versus 65.03 Mt in August. That is a broad context signal, not a popcorn forecast.",
+          "category": "Ingredient availability",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "wasde-sep"
+          ],
+          "facilityIds": [
+            "deer-creek",
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X07"
+          ],
+          "factors": {
+            "exposure": 45,
+            "severity": 55,
+            "confidence": 45,
+            "persistence": 80,
+            "velocity": 45,
+            "dependency": 55,
+            "substitutability": 60
+          },
+          "factorRationale": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "causalPath": "Broad grain balance → potential feed/grain pricing → formula costs. All seven factors are uncalibrated proxies (45/55/45/80/45/55/60); popping-grade corn and food-grade contracts can diverge materially.",
+          "verify": "Actual grains, specification basis, origin, contracts and inventory cover.",
+          "action": "Track supplier quotations before changing coverage or formulations.",
+          "trigger": "Two relevant supplier quotes worsen >10%, or verified cover falls below the approved operating threshold.",
+          "roles": [
+            "Supply Chain",
+            "CFO"
+          ],
+          "observedAt": "2026-09-11",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-12",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient availability",
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "grain-balance",
+          "revision": 1
+        },
+        {
+          "id": "S03",
+          "title": "Traceability planning requires a product-form decision",
+          "summary": "FDA describes a proposed extension and a congressional direction not to enforce the rule before 20 July 2028. Applicability still depends on covered food and form.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-trace"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 55,
+            "severity": 65,
+            "confidence": 65,
+            "persistence": 90,
+            "velocity": 25,
+            "dependency": 70,
+            "substitutability": 60
+          },
+          "factorRationale": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "causalPath": "Covered receiving/transformation → KDE/CTE obligations → systems and partner coordination. Scope is not established for Watershed; factors 55/65/65/90/25/70/60 reflect planning exposure rather than a violation.",
+          "verify": "Food Traceability List applicability at each process stage; exemptions; customer contractual dates.",
+          "action": "Quality and IT should map covered inputs and data exchanges, retaining product-specific legal review.",
+          "trigger": "Final regulatory change, customer deadline, or a confirmed gap in an applicable traceability process.",
+          "roles": [
+            "Quality / Food Safety",
+            "CISO / IT",
+            "COO"
+          ],
+          "observedAt": "2026-06-15",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Regulatory",
+            "Quality / food safety"
+          ],
+          "status": "reviewed",
+          "group": "traceability",
+          "revision": 1
+        },
+        {
+          "id": "S04",
+          "title": "Pet formats offer a qualified commercial opening",
+          "summary": "APPA projects $69.7bn of pet-food and treat sales for 2026. This does not establish unit growth or freeze-dried segment growth.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "appa",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X09",
+            "X13"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 60,
+            "confidence": 45,
+            "persistence": 85,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "causalPath": "Pet-category spending → candidate launch budgets → topper/inclusion projects suited to advertised capabilities. Factors 70/60/45/85/45/65/65 reflect an unvalidated sales hypothesis, not Watershed revenue.",
+          "verify": "Premium segment units, brand launch plans, current capacity and qualified process fit.",
+          "action": "Build a small list of qualified topper/inclusion prospects and test demand before reserving capacity.",
+          "trigger": "Documented customer briefs and trial conversion, with confirmed available capacity and validated safety controls.",
+          "roles": [
+            "Sales / Business Development",
+            "R&D / Innovation",
+            "CEO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Strategic",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "pet-demand",
+          "revision": 1,
+          "dateNote": "APPA projection publication date unverified; baseline evidence, not a new event on retrieval day."
+        },
+        {
+          "id": "S05",
+          "title": "Popcorn expansion is an opportunity to verify",
+          "summary": "Deer Creek’s public directory now lists Aunt Em’s / Heartland together. The reported equipment transition remains unverified as completed.",
+          "category": "Growth opportunity",
+          "direction": "Opportunity",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "deer-directory",
+            "heartland-2026"
+          ],
+          "facilityIds": [
+            "deer-creek"
+          ],
+          "exposureIds": [
+            "X07",
+            "X10",
+            "X11",
+            "X15"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 65,
+            "confidence": 60,
+            "persistence": 85,
+            "velocity": 40,
+            "dependency": 75,
+            "substitutability": 60
+          },
+          "factorRationale": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "causalPath": "Announced process additions → possible new formats → private-label prospects. Factors 70/65/60/85/40/75/60 assume qualification work; no incremental capacity is counted as operational.",
+          "verify": "Equipment ownership, commissioning, production qualification and available slots.",
+          "action": "Confirm the production milestone before offering new formats or delivery commitments.",
+          "trigger": "Verified commissioned capacity plus a qualified customer opportunity.",
+          "roles": [
+            "COO",
+            "Sales / Business Development",
+            "Engineering",
+            "CEO"
+          ],
+          "observedAt": "2026-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Production capacity",
+            "Revenue",
+            "Growth opportunity",
+            "Equipment / maintenance"
+          ],
+          "status": "reviewed",
+          "group": "popcorn-expansion",
+          "revision": 1
+        },
+        {
+          "id": "S06",
+          "title": "Baby-food lead guidance has a material scope exclusion",
+          "summary": "The FDA final guidance excludes grain-based and freeze-dried snacks. It must not be applied automatically to every toddler product.",
+          "category": "Food safety / regulatory",
+          "direction": "Mixed",
+          "confidence": "High",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "fda-lead"
+          ],
+          "facilityIds": [
+            "gridley"
+          ],
+          "exposureIds": [
+            "X01",
+            "X02",
+            "X03"
+          ],
+          "factors": {
+            "exposure": 70,
+            "severity": 70,
+            "confidence": 85,
+            "persistence": 90,
+            "velocity": 20,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "causalPath": "SKU classification → applicable contaminant requirements/customer specifications → testing and release criteria. Low velocity 20 reflects an existing rule, not new contamination. Other factors are analytical prioritization.",
+          "verify": "Each SKU’s form, age positioning, state rules and customer specifications.",
+          "action": "Keep contaminant controls; have Quality document the correct guidance scope by SKU.",
+          "trigger": "Changed FDA/state requirements or an actual out-of-spec result; then use the approved food-safety response process.",
+          "roles": [
+            "Quality / Food Safety",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2025-01-06",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-12-17",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Quality / food safety",
+            "Regulatory",
+            "Customer demand"
+          ],
+          "status": "reviewed",
+          "group": "toddler-scope",
+          "revision": 1
+        },
+        {
+          "id": "S07",
+          "title": "Central Illinois storm risk is tapering; no facility-county alert matched",
+          "summary": "The 21 September NWS outlook includes McLean, Woodford and Tazewell counties, but says showers and thunderstorms are concentrated especially near and south of I-72, will taper by early afternoon, and are not expected to become severe. Lightning remains possible. The 14:16 UTC collector snapshot contained no active alert matched to the three Illinois county SAME codes, and no facility disruption is established.",
+          "category": "Facility / weather",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "nws-ilx-20260921"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 60,
+            "severity": 35,
+            "confidence": 80,
+            "persistence": 25,
+            "velocity": 80,
+            "dependency": 70,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure falls from 85 to 60 because the county-zone outlook includes the three public municipalities while activity is concentrated especially near and south of I-72, south of the confirmed municipalities; severity falls from 55 to 35 because NWS says severe storms are not expected but lightning remains possible; confidence remains 80 because the primary outlook and SAME-code check are current while site impact is unknown; persistence falls from 40 to 25 because storms are expected to taper by early afternoon and no hazards are expected Tuesday through Sunday; velocity remains 80 because any effect is same-day; dependency and substitutability remain 70/70 pending actual shift, route and scheduling information. These are provisional judgments, not measured disruption.",
+          "causalPath": "County-zone showers and lightning → possible brief local road, workforce or outdoor-activity interruption → dispatch and production continuity. The forecast concentration is south of the confirmed municipalities, and actual route, utility and site effects remain unverified.",
+          "verify": "Current county warnings, lightning proximity, verified route closures, dispatch timing and site conditions. The exact Top Fox production allocation remains unknown.",
+          "action": "No additional response is supported beyond normal weather procedures and checking current site and route conditions before affected dispatch or outdoor work.",
+          "trigger": "A warning matching an operating location, verified route closure, utility interruption or reported site impact warrants immediate reassessment and the approved continuity response.",
+          "roles": [
+            "Plant Manager",
+            "Supply Chain",
+            "COO",
+            "HR / Talent"
+          ],
+          "observedAt": "2026-09-21",
+          "retrievedAt": "2026-09-21",
+          "reviewedAt": "2026-09-21",
+          "expiresAt": "2026-09-22",
+          "timeToImpact": "Immediate",
+          "impactDomains": [
+            "Transportation",
+            "Production capacity",
+            "Labor",
+            "Customer service / OTIF"
+          ],
+          "status": "reviewed",
+          "group": "central-il-weather",
+          "revision": 2,
+          "dateNote": "NWS issued 04:07 CDT on 21 September. The 14:16 UTC collector snapshot contained no active alert matching Illinois SAME codes 017113, 017203 or 017179. Factors changed only where the new forecast supports lower exposure, severity and persistence; guidance is improving without an operating-clearance claim."
+        },
+        {
+          "id": "S08",
+          "title": "Ingredient benchmarks diverge: grains up, dairy down",
+          "summary": "August BLS PPI: grains +4.3% and oilseeds +3.9% month over month (SA); dairy products -1.0% (NSA). These broad benchmarks cannot be netted into a Watershed cost change without actual purchasing weights.",
+          "category": "Ingredient cost",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X01",
+            "X04",
+            "X06",
+            "X07"
+          ],
+          "factors": {
+            "exposure": 60,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 50,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 60: advertised platforms imply plausible input channels, not measured spend. Severity 50: material benchmark moves with offsets. Confidence 60: primary data but unknown purchase basis. Persistence 65: possible contract lag; velocity 50: one monthly observation. Dependency 65: ingredient relevance; substitutability 65: broad alternatives subject to quality/customer approval. All factors are provisional judgments.",
+          "causalPath": "Grain/oilseed and dairy benchmark divergence → category-specific vendor quotes and contract resets → conditional product margins.",
+          "verify": "Actual ingredient basket, food-grade specifications, quote dates, contract basis, inventory cover and customer pass-through.",
+          "action": "Compare the next quotes for grain, seed and dairy categories separately; quantify net effect only after purchasing weights are supplied.",
+          "trigger": "A relevant delivered quote rises >5% against plan or confirmed pass-through fails to offset a sustained input increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Ingredient cost",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "ingredient-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026; July-to-August changes. Preliminary. Oilseeds are not a pumpkin-seed quote; grains are not a food-grade popcorn quote.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S09",
+          "title": "Metro labor context remains mixed",
+          "summary": "July preliminary NSA unemployment: Bloomington 3.3% (June 4.0%), Peoria 3.8% (4.5%), Milwaukee-Waukesha 3.8% (3.8%). Bloomington and Peoria manufacturing employment was 1.2% and 0.9% below a year earlier. This does not establish a Watershed shortage.",
+          "category": "Labor",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-labor",
+            "bls-peoria",
+            "bls-milwaukee",
+            "ws-careers"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 45,
+            "confidence": 45,
+            "persistence": 65,
+            "velocity": 30,
+            "dependency": 65,
+            "substitutability": 65
+          },
+          "factorRationale": "Exposure 65: relevant regional operating presence. Severity 45: labor-market context without company vacancies. Confidence 45 in the conditional channel, reduced by metro aggregation and seasonality. Persistence 65 and velocity 30: lagged monthly data. Dependency 65: manufacturing staffing. Substitutability 65: unmeasured local alternatives. These are judgments, not a shortage estimate.",
+          "causalPath": "Regional hiring conditions → conditional recruitment and retention difficulty → staffing, throughput and overtime.",
+          "verify": "Time to fill by trade and site, accepted wage rates, overtime, turnover, vacancy counts and actual recruiting catchments.",
+          "action": "Use metro data to frame a hiring review; compare it with actual recruiting results before changing staffing or pay assumptions.",
+          "trigger": "Critical maintenance/production roles remain unfilled >45 days or persistent overtime exceeds the approved site plan.",
+          "roles": [
+            "HR / Talent",
+            "Plant Manager",
+            "COO"
+          ],
+          "observedAt": null,
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Labor",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "regional-labor",
+          "revision": 1,
+          "dateNote": "Reference July 2026, preliminary and not seasonally adjusted. Exact release day unverified; retrieved September 17. Monthly declines can be seasonal.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S10",
+          "title": "National industrial electricity benchmark rises 4.7% year over year",
+          "summary": "EIA’s 24 September release reports a July 2026 U.S. industrial average revenue of 9.77 cents/kWh, 4.7% above July 2025. This national proxy replaces an expired June state snapshot for coverage; it is not a Watershed tariff, bill or state-level comparison.",
+          "category": "Energy / utilities",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-electricity-20260924",
+            "ws-capabilities"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 80,
+            "severity": 50,
+            "confidence": 60,
+            "persistence": 70,
+            "velocity": 35,
+            "dependency": 90,
+            "substitutability": 40
+          },
+          "factorRationale": "Exposure 80: Watershed advertises energy-dependent processing platforms, but kWh and tariffs are unknown. Severity 50: the national industrial benchmark is 4.7% higher year over year. Confidence 60: primary EIA data, discounted because a national average does not establish Illinois, Wisconsin or facility billing. Persistence 70: monthly cost-planning relevance without proof of contract reset. Velocity 35: lagged July data. Dependency 90: process energy is necessary. Substitutability 40: near-term process-energy alternatives may be limited, while tariff and efficiency options are unverified.",
+          "causalPath": "National industrial electricity benchmark ↑ → possible applicable tariff or supply-contract reset → conditional processing and handling cost for freeze-dried, baked, roasted and popped platforms.",
+          "verify": "Facility tariffs, demand charges, supply contracts, interval usage, effective cents/kWh, kWh per product and reset dates; no utility provider is assumed.",
+          "action": "Finance and operations should compare actual effective cents/kWh and process energy use with plan; use the national series only as a screening benchmark.",
+          "trigger": "Actual effective energy cost exceeds plan by >10% for two billing periods or an applicable utility/grid notice creates a verified continuity concern.",
+          "roles": [
+            "Plant Manager",
+            "Engineering",
+            "CFO"
+          ],
+          "observedAt": "2026-09-24",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-25",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Energy",
+            "Margin",
+            "Production capacity"
+          ],
+          "status": "reviewed",
+          "group": "industrial-energy",
+          "revision": 2,
+          "dateNote": "EIA released July 2026 data on 24 September; national industrial average revenue per kWh is a price proxy. This revision is not directly comparable with the prior Illinois/Wisconsin June values.",
+          "coverageChange": "A new national July benchmark restores energy coverage after the state snapshot expired. The measurement basis changed, so the lower model score is not evidence that Watershed energy exposure improved."
+        },
+        {
+          "id": "S11",
+          "title": "Packaging signals split between paperboard and plastics",
+          "summary": "August PPI: paperboard +2.3% month over month (NSA) and +5.1% year over year; plastic resins -0.8% (SA); unsupported plastic film, sheet, and other shapes -0.5% (NSA), still +12.5% year over year. These categories are broader than food packaging.",
+          "category": "Packaging",
+          "direction": "Mixed",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "bls-ppi",
+            "bls-paperboard-api"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [
+            "X15"
+          ],
+          "factors": {
+            "exposure": 65,
+            "severity": 55,
+            "confidence": 60,
+            "persistence": 65,
+            "velocity": 45,
+            "dependency": 65,
+            "substitutability": 60
+          },
+          "factorRationale": "Exposure 65: plausible film/carton dependence with specifications unknown. Severity 55: paperboard increase amid plastic monthly relief. Confidence 60: public indices but uncertain conversion into quotes. Persistence 65 and velocity 45: monthly changes and potential contract lag. Dependency 65: packaging requirement; substitutability 60: specification and customer approvals. Provisional analyst judgments.",
+          "causalPath": "Paperboard/resin/converting cost changes → packaging vendor quotes and resets → conditional unit packaging cost and margins.",
+          "verify": "Film structure, basis weight, print/conversion charges, carton specifications, resin/paperboard index clauses and contracted price lags.",
+          "action": "Separate carton and film quote reviews; request evidence for index-linked adjustments rather than applying a blended packaging inflation rate.",
+          "trigger": "Delivered packaging quotes exceed plan by >5% or a qualified vendor reports a material lead-time increase.",
+          "roles": [
+            "Supply Chain",
+            "CFO",
+            "Engineering"
+          ],
+          "observedAt": "2026-09-10",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-09",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Packaging",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "packaging-benchmark",
+          "revision": 1,
+          "dateNote": "Reference August 2026, preliminary. Annual and monthly changes are separate; the film series includes non-food shapes. Paperboard API is the same economic series, not independent corroboration.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        },
+        {
+          "id": "S12",
+          "title": "Global CPG proxy shows mixed pet and snack demand with inventory pressure",
+          "summary": "General Mills’ 23 September quarter reported North America Pet sales flat: pet treats grew low single digits, cat food double digits, dog food fell high single digits, and retailer inventory was a modest headwind. North America Retail organic sales fell 3% and U.S. Snacks declined mid-single digits. The company retained a cautious annual outlook while emphasizing protein, fiber and pet humanization. This is one archetype, not a Watershed customer or order signal.",
+          "category": "Customer demand",
+          "direction": "Mixed",
+          "confidence": "Low",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "gis-20260923",
+            "ws-markets"
+          ],
+          "facilityIds": [],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 50,
+            "severity": 45,
+            "confidence": 70,
+            "persistence": 70,
+            "velocity": 35,
+            "dependency": 50,
+            "substitutability": 70
+          },
+          "factorRationale": "Exposure 50: a relevant global CPG/pet archetype with no established Watershed account relationship. Severity 45: mixed category results and inventory pressure, not a confirmed order change. Confidence 70: primary quarterly disclosure, discounted for single-company and portfolio mismatch. Persistence 70: full-year outlook and inventory commentary. Velocity 35: quarterly evidence. Dependency 50: actual customer mix is unknown. Substitutability 70: multiple customer segments and platforms may diversify demand. Factors remain intentionally low for company impact.",
+          "causalPath": "Archetype brand volumes, retailer inventories and innovation priorities → possible launch briefs, outsourcing appetite and order cadence → conditional Watershed sales pipeline.",
+          "verify": "Actual customer segmentation; qualified briefs by pet treats, dog food, snacks, protein/fiber and other formats; retailer-inventory effects; pipeline stage; capacity and margin fit.",
+          "action": "Sales and R&D should compare current qualified briefs with the mixed archetype signals, emphasizing validated pet-treat and protein/fiber problems while testing for snack or dog-food inventory drag before allocating capacity.",
+          "trigger": "A verified customer changes orders, two additional primary archetypes corroborate the same volume/inventory move, or a qualified launch brief matches available capacity and validated controls.",
+          "roles": [
+            "Sales / Business Development",
+            "CEO",
+            "R&D / Innovation"
+          ],
+          "observedAt": "2026-09-23",
+          "retrievedAt": "2026-09-26",
+          "reviewedAt": "2026-09-26",
+          "expiresAt": "2026-10-22",
+          "timeToImpact": "Tactical",
+          "impactDomains": [
+            "Customer demand",
+            "Revenue",
+            "Growth opportunity"
+          ],
+          "status": "reviewed",
+          "group": "cpg-demand",
+          "revision": 2,
+          "dateNote": "General Mills reported results on 23 September for the quarter ended 30 August 2026. Reported sales, organic sales and segment commentary are company-specific; no current Watershed customer relationship is inferred.",
+          "coverageChange": "The scheduled quarterly recheck produced mixed demand evidence and specific innovation themes. Guidance changes from a generic cautious watch to category-by-category pipeline verification."
+        },
+        {
+          "id": "S13",
+          "title": "EIA’s export-constraint scenario supports a fuel watch",
+          "summary": "EIA’s September outlook assumes Middle East export constraints through year-end and forecasts tight distillate inventories. This provides a conditional explanation for fuel exposure already tracked in S01, not a second independent loss estimate.",
+          "category": "Geopolitical / trade",
+          "direction": "Threat",
+          "confidence": "Medium",
+          "evidenceClass": "INFERRED",
+          "sourceIds": [
+            "eia-steo",
+            "eia-diesel"
+          ],
+          "facilityIds": [
+            "gridley",
+            "congerville",
+            "deer-creek",
+            "wisconsin"
+          ],
+          "exposureIds": [],
+          "factors": {
+            "exposure": 65,
+            "severity": 70,
+            "confidence": 60,
+            "persistence": 80,
+            "velocity": 65,
+            "dependency": 75,
+            "substitutability": 50
+          },
+          "factorRationale": "Exposure 65: global petroleum can affect domestic trucking without direct imports. Severity 70: distillate constraint scenario. Confidence 60: agency forecast, uncertain evolution. Persistence 80: year-end scenario; velocity 65: recent fuel moves. Dependency 75: conditional freight channel; substitutability 50: route/carrier choices do not fully replace diesel. Same fuel-cost issue group as S01; never added to it.",
+          "causalPath": "Export/chokepoint constraints → global petroleum and distillate balance → domestic diesel benchmark → applicable carrier surcharge → delivered cost.",
+          "verify": "Carrier surcharge formulas and lag, contractual pass-through, current EIA inventory releases and the assumptions behind the agency forecast; no Watershed import lane is asserted.",
+          "action": "Use the same logistics/finance review as S01; run a conditional fuel-surcharge sensitivity instead of issuing a separate geopolitical alarm.",
+          "trigger": "The observed relevant diesel benchmark or a contracted surcharge breaches the S01 trigger, or verified lane exposure changes.",
+          "roles": [
+            "CFO",
+            "Supply Chain",
+            "COO"
+          ],
+          "observedAt": "2026-09-09",
+          "retrievedAt": "2026-09-17",
+          "reviewedAt": "2026-09-17",
+          "expiresAt": "2026-10-07",
+          "timeToImpact": "Near",
+          "impactDomains": [
+            "Transportation",
+            "Energy",
+            "Margin"
+          ],
+          "status": "reviewed",
+          "group": "fuel-cost",
+          "revision": 1,
+          "dateNote": "EIA forecast completed September 3 and released September 9. Projected inventories and export constraints are attributed scenarios, not realized measurements. No own forecast probability is created.",
+          "coverageChange": "Newly assessed coverage; not evidence that the event began on retrieval day."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "asOf": "2026-11-11T06:38:48.126Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
