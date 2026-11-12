@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-12T21:22:01.283Z",
-      "hash": "92d79aa5b19e77448026a400df15c1fadb14d2d4e6c1c3883c1c5a4de4a5b08a",
-      "etag": "W/\"c87e25b307728bba251b3453ee0e221b\"",
+      "fetchedAt": "2026-11-12T23:21:56.990Z",
+      "hash": "c2dc32eb123fb09584d65be02999ba2e4d7a4b3d9497e047d075425d53d21fb3",
+      "etag": "W/\"ad9021526e4d783355f7cf8e60ab35e6\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-12T21:22:01.283Z",
-      "hash": "cbd873cd633c78819ae15964c411b6889cb3c283459f472de85ce44f139a842c",
-      "etag": "W/\"c560c096b74beb5095dcd2f1bcbf7daa\"",
+      "fetchedAt": "2026-11-12T23:21:56.990Z",
+      "hash": "6956ecc1cd99f9800967c0868a7ade5a5eb883b0f2a91f6ab5d6772cc22c04a0",
+      "etag": "W/\"6f5eeaf435a6b628231adae330dec550\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-12T20:21:38.866Z",
+      "fetchedAt": "2026-11-12T23:21:56.990Z",
       "hash": "48f93fff5c2392195708ae3cedd27a52cba6b36b36614d9f92902d249f8c388f",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -647,7 +647,7 @@
       "title": "Winter Weather Advisory issued November 12 at 12:31PM CST until November 13 at 10:00AM CST by NWS Chicago IL",
       "summary": "Southern Cook; Eastern Will: * WHAT...Lake effect snow expected. Accumulating wet snow likely away from the lakeshore especially near the Illinois-Indiana state line. Localized snowfall totals of 3 inches or greater possible. * WHERE...Eastern Will and Southern Cook Counties. * WHEN...From midnight tonight to 10 AM CST Friday. * IMPACTS...Plan on slippery road conditions, especially on bridges and overpasses. The hazardous conditions will impact the Friday morning commute.",
       "observedAt": "2026-11-12T12:31:00-06:00",
-      "retrievedAt": "2026-11-12T21:22:01.283Z",
+      "retrievedAt": "2026-11-12T23:21:56.990Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -36707,9 +36707,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-12T22:21:55.226Z",
+  "collectedAt": "2026-11-12T23:21:56.990Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -81483,7 +81483,7 @@
     },
     {
       "date": "2026-11-12",
-      "asOf": "2026-11-12T22:21:55.227Z",
+      "asOf": "2026-11-12T23:21:57.482Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
