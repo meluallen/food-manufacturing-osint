@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-12T11:22:17.873Z",
-      "hash": "b0a26c5aaa57fac046bce9ecf4c1db5b8380143eb32fe40e96b3adbdfcdc8370",
-      "etag": "W/\"2dafcc6168256627f70a70dd297047c3\"",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
+      "hash": "cc9f3f04e51653f3a6035dfb7798ebc7aab9a2aa6d1baac8ff35739a773c1c12",
+      "etag": "W/\"15e83636f151445e1cc7fb211ee1c2bc\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-12T11:22:17.873Z",
-      "hash": "580fee313d3808ee3fc23deb22a42aa70069038e5dc81c2d1fcdd40e859fbf0b",
-      "etag": "W/\"933da642eaf88719c63871f6ef5c03ec\"",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
+      "hash": "39d197439fcb4b738067958d07210d4e086472f9ecc6d98902cebe6051ecc546",
+      "etag": "W/\"9bb8f44eab0cb266f2a60b47c150aa02\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "hash": "41c8091ad62d508d6f8906ad5cd26b20efe551f7d51b95ecc8a6981fa640b4ea",
       "etag": "\"1c3dcf-65ff0bbebda90\"",
       "count": 0,
@@ -75,8 +75,8 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
-      "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
+      "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
       "etag": null,
       "count": 1,
       "changed": true
@@ -84,7 +84,7 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
       "etag": "W/\"16539-1791225934719-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
-      "hash": "804da22a463f7bf487eeb771974be9cd0ef44d31c37d80e01a6089411d6733f3",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
+      "hash": "37d6e4919e15116422313b8e6978e26bef126cfb2d02cc71d51b1a3220df00c9",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
-      "hash": "6dd199cad18a401679f6d94ca6d39004abf83a8c215dc5686293f482fc31cfda",
-      "etag": "\"1794431604\"",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
+      "hash": "6c85b4d762e99227c8faebf34ff78598d034eb48c34cbf67b09316b58d2f7091",
+      "etag": "\"1794418365\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "hash": "39cb8792b2278bb533cd02eb3eb6fbaceca7d0660dec79804289d69637089fe9",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,11 +534,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-12T05:22:28.496Z",
+      "fetchedAt": "2026-11-12T12:28:26.707Z",
       "hash": "63f2bb14cc8861fd0e2755f5aa3428a4b3ba0fecb56e4acdd5699ff9a3bd2ba7",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -647,7 +647,7 @@
       "title": "Special Weather Statement issued November 12 at 4:31AM CST by NWS Chicago IL",
       "summary": "Kankakee; Central Cook; Southern Cook; Eastern Will; Porter; Newton; Jasper: Rain in a band of lake effect showers will transition to snow tonight, which will continue through Friday morning. Localized slushy snow accumulations may occur wherever the band is most persistent in portions of northwest Indiana and far northeastern Illinois north of the Kankakee River and roughly near and east of I-57. The Friday morning commute may be affected. Those driving late tonight through Friday morning should allow for extra travel time and plan for potentially slick roads and sudden sharp visibility reductions.",
       "observedAt": "2026-11-12T04:31:00-06:00",
-      "retrievedAt": "2026-11-12T11:22:17.873Z",
+      "retrievedAt": "2026-11-12T12:28:26.707Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -676,25 +676,12 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T10:22:15.758Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-12T05:22:28.496Z",
+      "retrievedAt": "2026-11-12T12:28:26.707Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -707,7 +694,7 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-12T05:22:28.496Z",
+      "retrievedAt": "2026-11-12T12:28:26.707Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
@@ -720,12 +707,25 @@
       "title": "National Water Prediction Service - NOAA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-12T05:22:28.496Z",
+      "retrievedAt": "2026-11-12T12:28:26.707Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Transportation / logistics",
       "sourceUrl": "https://water.noaa.gov/",
       "scope": "Mississippi/Illinois river; no assumed company barge use"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-12T10:22:15.758Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "cisa-ics:page-change",
@@ -36648,9 +36648,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 12,
   "remaining": 0,
-  "collectedAt": "2026-11-12T11:22:17.873Z",
+  "collectedAt": "2026-11-12T12:28:26.707Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -81424,7 +81424,7 @@
     },
     {
       "date": "2026-11-12",
-      "asOf": "2026-11-12T11:22:18.103Z",
+      "asOf": "2026-11-12T12:28:28.099Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
