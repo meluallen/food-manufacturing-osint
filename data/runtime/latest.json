@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-12T10:22:15.758Z",
-      "hash": "3912d2a7125fb6543b221891425e220c1a7fde1e388de8334d609eea90df1898",
-      "etag": "W/\"3df611a637b70e9d47d5fed19889d0ab\"",
-      "count": 0,
+      "fetchedAt": "2026-11-12T11:22:17.873Z",
+      "hash": "b0a26c5aaa57fac046bce9ecf4c1db5b8380143eb32fe40e96b3adbdfcdc8370",
+      "etag": "W/\"2dafcc6168256627f70a70dd297047c3\"",
+      "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-12T10:22:15.758Z",
-      "hash": "4d4b934d2cc2b8071f305fa4a2e78a8d5f4d744c83fad3bd77f045ca09b08c4d",
-      "etag": "W/\"7b682f64f439b93724653a0722da529c\"",
+      "fetchedAt": "2026-11-12T11:22:17.873Z",
+      "hash": "580fee313d3808ee3fc23deb22a42aa70069038e5dc81c2d1fcdd40e859fbf0b",
+      "etag": "W/\"933da642eaf88719c63871f6ef5c03ec\"",
       "count": 0,
       "changed": true
     },
@@ -641,6 +641,40 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.606612c6cde2cd16ab6ea59aed2dff7aaed23b50.001.1",
+      "sourceId": "nws-il",
+      "title": "Special Weather Statement issued November 12 at 4:31AM CST by NWS Chicago IL",
+      "summary": "Kankakee; Central Cook; Southern Cook; Eastern Will; Porter; Newton; Jasper: Rain in a band of lake effect showers will transition to snow tonight, which will continue through Friday morning. Localized slushy snow accumulations may occur wherever the band is most persistent in portions of northwest Indiana and far northeastern Illinois north of the Kankakee River and roughly near and east of I-57. The Friday morning commute may be affected. Those driving late tonight through Friday morning should allow for extra travel time and plan for potentially slick roads and sudden sharp visibility reductions.",
+      "observedAt": "2026-11-12T04:31:00-06:00",
+      "retrievedAt": "2026-11-12T11:22:17.873Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-12T10:15:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017091",
+          "017031",
+          "017197",
+          "018127",
+          "018111",
+          "018073"
+        ],
+        "UGC": [
+          "ILZ023",
+          "ILZ104",
+          "ILZ105",
+          "ILZ108",
+          "INZ002",
+          "INZ010",
+          "INZ011"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
@@ -36614,9 +36648,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-12T10:22:15.758Z",
+  "collectedAt": "2026-11-12T11:22:17.873Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -81390,7 +81424,7 @@
     },
     {
       "date": "2026-11-12",
-      "asOf": "2026-11-12T10:22:16.057Z",
+      "asOf": "2026-11-12T11:22:18.103Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
