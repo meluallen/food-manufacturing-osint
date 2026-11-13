@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-13T20:22:59.459Z",
-      "hash": "80afa79495c6d05386909c5bf6a0fe5dcdfeb5813406448c6928cee055d8e5ec",
-      "etag": "W/\"2cb20a3c16f57669fd03dbb19175f0db\"",
+      "fetchedAt": "2026-11-13T22:22:11.733Z",
+      "hash": "225afb40a935074e452630636e79ce1aec633981c3e33aa003931913ba9a70d5",
+      "etag": "W/\"8cee4744dd80b6b0c2e1b596a1d54dda\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-13T20:22:59.459Z",
-      "hash": "b58eb2b6b7a4e8409a59b6af534d9e01417ec93acfb87e9d6a7302a47ec06bae",
-      "etag": "W/\"e7c14eb582b265e180b27f8c6ff3baf7\"",
+      "fetchedAt": "2026-11-13T22:22:11.733Z",
+      "hash": "de6faa5cdc143121e0a99f0f8b3b3f5dfd54f496ba6326f5919d3a87aecf162a",
+      "etag": "W/\"5cde30b914474037538156b296b0486f\"",
       "count": 0,
       "changed": true
     },
@@ -642,6 +642,31 @@
   ],
   "candidates": [
     {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.98af337ef423bde5724e8b674a64565e3c697b79.001.1",
+      "sourceId": "nws-il",
+      "title": "Flood Advisory issued November 13 at 1:53PM CST until November 14 at 9:00AM CST by NWS Chicago IL",
+      "summary": "Cook, IL; Lake, IN: * WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Extreme Southeast Central Cook County in northeastern Illinois... Central Lake IN County in northwestern Indiana... * WHEN...Until 900 AM CST Saturday. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Storm drains and ditches may be clogged with debris, increasing the risk of flooding. * ADDITIONAL DETAILS... - At 153 PM CST, Doppler radar indicated lake effect rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain has fallen since Thursday evening. Several creeks and streams are rising, including the Turkey Creek near Merrillville which has recently risen above bankfull. - Additional rainfall amounts up to 1 inch are expected ov",
+      "observedAt": "2026-11-13T13:53:00-06:00",
+      "retrievedAt": "2026-11-13T22:22:11.733Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-14T09:00:00-06:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "018089"
+        ],
+        "UGC": [
+          "ILC031",
+          "INC089"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
@@ -1238,31 +1263,6 @@
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.98af337ef423bde5724e8b674a64565e3c697b79.001.1",
-      "sourceId": "nws-il",
-      "title": "Flood Advisory issued November 13 at 1:53PM CST until November 14 at 9:00AM CST by NWS Chicago IL",
-      "summary": "Cook, IL; Lake, IN: * WHAT...Flooding caused by excessive rainfall is expected. * WHERE...Extreme Southeast Central Cook County in northeastern Illinois... Central Lake IN County in northwestern Indiana... * WHEN...Until 900 AM CST Saturday. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Storm drains and ditches may be clogged with debris, increasing the risk of flooding. * ADDITIONAL DETAILS... - At 153 PM CST, Doppler radar indicated lake effect rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Between 1 and 2 inches of rain has fallen since Thursday evening. Several creeks and streams are rising, including the Turkey Creek near Merrillville which has recently risen above bankfull. - Additional rainfall amounts up to 1 inch are expected ov",
-      "observedAt": "2026-11-13T13:53:00-06:00",
-      "retrievedAt": "2026-11-13T20:22:59.459Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-14T09:00:00-06:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "017031",
-          "018089"
-        ],
-        "UGC": [
-          "ILC031",
-          "INC089"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "fda-fsma:page-change",
@@ -36877,9 +36877,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 10,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-13T21:21:45.682Z",
+  "collectedAt": "2026-11-13T22:22:11.733Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82444,7 +82444,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T21:21:46.554Z",
+      "asOf": "2026-11-13T22:22:12.004Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
