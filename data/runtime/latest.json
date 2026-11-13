@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-13T00:41:42.112Z",
-      "hash": "719c86912305e60826b083776d2b4b16b1c1cba37f684e21800d53ba83f94cef",
-      "etag": "W/\"c1787d42a8159072bf134fdcf44600ba\"",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "44a0a3aad86fdc284548465a5984f43caae7da6e226c993904b62fca195b962b",
+      "etag": "W/\"409b66fe1e45eb97cc79e64db25c7f8f\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-13T00:41:42.112Z",
-      "hash": "a7af0555720139339d149543a68e46412ee35ee24ce3352a23b7c6d4b38b5489",
-      "etag": "W/\"2503201e0fc8ff426368a354ff4e6441\"",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "2d6195de37cdfa2c5cb0c0b4b3dbd2e6cf3504c1d8e9af0063cc5be364d8163a",
+      "etag": "W/\"0313a4a56980cc209a9e24919583b24e\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "hash": "41c8091ad62d508d6f8906ad5cd26b20efe551f7d51b95ecc8a6981fa640b4ea",
       "etag": "\"1c3dcf-65ff0bbebda90\"",
       "count": 0,
@@ -75,18 +75,18 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
+      "etag": "W/\"16539-1791225934719-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
-      "hash": "cf8cb363994b3904b7ec4446762510b3daa51b0f6aea9eb635f198c3654a27d2",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "2f1677e895b62f15fd36287c3308cba8dd41c00080b47aa1f6071b7fb2efe2a2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
-      "hash": "5e3d1252b3aaf25b845b7cf12dc6ddab8e09a791ae512dbd8b7f302aed43eb07",
-      "etag": "\"1794504197\"",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "4d9e5beed7e6cf8422ba4ae5aa63c524ad421f03a2ba7370b1b46068fd100810",
+      "etag": "\"1794503432\"",
       "count": 1,
       "changed": true
     },
@@ -261,15 +261,15 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "hash": "ad97e0f820ea600f2ec910c372dff442fe6a8c7bb16fbb279932e7d203c96824",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,8 +534,8 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-12T19:21:51.816Z",
-      "hash": "4cef4b641d3312f14815b27d5ae10eb6497460e3bb55cb5c57ed08be914a5faa",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
+      "hash": "52e5c481a74c86e28e1d08d90c6cb164dc27ce422ea17933b0f915d23ca78ed7",
       "etag": null,
       "count": 1,
       "changed": true
@@ -552,7 +552,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-12T23:21:56.990Z",
+      "fetchedAt": "2026-11-13T02:23:06.112Z",
       "hash": "48f93fff5c2392195708ae3cedd27a52cba6b36b36614d9f92902d249f8c388f",
       "etag": null,
       "count": 0,
@@ -642,6 +642,85 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T02:23:06.112Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T02:23:06.112Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "cisa-ics:page-change",
+      "sourceId": "cisa-ics",
+      "title": "ICS Advisories | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T02:23:06.112Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
+      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T02:23:06.112Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.1effa692d02d3c49a0eec1c1f1038b3106d60151.001.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 12 at 7:30PM CST until November 13 at 10:00AM CST by NWS Chicago IL",
+      "summary": "Southern Cook; Eastern Will; Lake: * WHAT...Locally slippery travel due to lake effect snow expected. Localized snow totals in excess of 3 inches expected. * WHERE...In Illinois, Eastern Will and Southern Cook Counties. In Indiana, Lake IN County. * WHEN...From midnight tonight to 10 AM CST Friday. * IMPACTS...Plan on locally slippery road conditions including during the Friday morning commute. * ADDITIONAL DETAILS...Impacts from snow during lake effect snow are often highly variable across short distances. Conditions may vary from wet roads to snow-covered roads across just a mile. In addition, snow will struggle to stick within a few miles of the Lake Michigan shoreline.",
+      "observedAt": "2026-11-12T19:30:00-06:00",
+      "retrievedAt": "2026-11-13T02:23:06.112Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-13T05:30:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILZ105",
+          "ILZ108",
+          "INZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.81a6f5c21447377ab91ef5612372a27fec510248.001.1",
       "sourceId": "nws-il",
       "title": "Winter Weather Advisory issued November 12 at 12:31PM CST until November 13 at 10:00AM CST by NWS Chicago IL",
@@ -680,32 +759,6 @@
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T19:21:51.816Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T19:21:51.816Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
       "id": "river:page-change",
       "sourceId": "river",
       "title": "National Water Prediction Service - NOAA",
@@ -717,32 +770,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://water.noaa.gov/",
       "scope": "Mississippi/Illinois river; no assumed company barge use"
-    },
-    {
-      "id": "cisa-ics:page-change",
-      "sourceId": "cisa-ics",
-      "title": "ICS Advisories | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T19:21:51.816Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
-      "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T19:21:51.816Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "cdc:page-change",
@@ -36707,9 +36734,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 13,
   "remaining": 0,
-  "collectedAt": "2026-11-13T01:21:34.657Z",
+  "collectedAt": "2026-11-13T02:23:06.112Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82274,7 +82301,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T01:21:34.658Z",
+      "asOf": "2026-11-13T02:23:07.905Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
