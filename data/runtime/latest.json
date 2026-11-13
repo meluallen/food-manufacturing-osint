@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-13T12:27:18.195Z",
-      "hash": "ba6fc68e82505ffb9a08e095d55f7b7ef8e6ee1df706549f31900454e8e1dd43",
-      "etag": "W/\"4b04048050e0e994b66f6067f67c74d2\"",
+      "fetchedAt": "2026-11-13T14:22:30.382Z",
+      "hash": "f4634ff9a739231507a95160ba4d4a6188a24994ff7543f26a04c60d3c25ace3",
+      "etag": "W/\"421e919a8efbd8acac0c468fda67aeb8\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-13T12:27:18.195Z",
-      "hash": "6bd83b303f99da3a38d8cf6ba42b743217f668bef772b69181013791e1e5b5b8",
-      "etag": "W/\"0b5d4bcb27820705efeace1dc18a4f0f\"",
+      "fetchedAt": "2026-11-13T14:22:30.382Z",
+      "hash": "0f7c0025d9ca337db3e22803fb0afdbd54a674ab0c9e01711d5971d36f663fa1",
+      "etag": "W/\"f7baacbf1c12b558f2d03b105888806e\"",
       "count": 0,
       "changed": true
     },
@@ -642,25 +642,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T13:22:30.068Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6183af3667d980cf254c9584c416b70df4079377.001.1",
       "sourceId": "nws-il",
       "title": "Winter Weather Advisory issued November 13 at 1:19AM CST until November 13 at 12:00PM CST by NWS Chicago IL",
       "summary": "Southern Cook; Eastern Will; Lake: * WHAT...Locally slippery travel due to lake effect snow expected. Localized snow totals in excess of 3 inches expected. * WHERE...In Illinois, Eastern Will and Southern Cook Counties. In Indiana, Lake IN County. * WHEN...Until noon CST today. * IMPACTS...Plan on locally slippery road conditions including during this morning's commute. * ADDITIONAL DETAILS...Impacts from snow during lake effect snow are often highly variable across short distances. Conditions may vary from wet roads to snow-covered roads across just a mile. In addition, snow will struggle to stick within a few miles of the Lake Michigan shoreline.",
       "observedAt": "2026-11-13T01:19:00-06:00",
-      "retrievedAt": "2026-11-13T12:27:18.195Z",
+      "retrievedAt": "2026-11-13T14:22:30.382Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -680,6 +667,19 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T13:22:30.068Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "thrive:page-change",
@@ -36761,9 +36761,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 1,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-13T13:22:30.068Z",
+  "collectedAt": "2026-11-13T14:22:30.382Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82328,7 +82328,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T13:22:30.292Z",
+      "asOf": "2026-11-13T14:22:30.647Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
