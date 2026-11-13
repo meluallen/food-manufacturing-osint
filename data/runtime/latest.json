@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-13T08:24:32.280Z",
-      "hash": "f405f8ff63ba695ad6aae4d0c95678da2d71424131b7fe746cf8abeaf1c807fd",
-      "etag": "W/\"9f66d2fc23ffdf0c95ec26bd5783bb3c\"",
+      "fetchedAt": "2026-11-13T10:22:00.966Z",
+      "hash": "6d1033587421bcad4c179176b7548f6e0125b09b17e6f1dd1dbb86c42625d8d3",
+      "etag": "W/\"cc3802b2c4d58db2b7154aa90a77fc2e\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-13T08:24:32.280Z",
-      "hash": "ca42e17e22a838f1bceda937b9760d7e89b714a8ed37b310342e5425ee233287",
-      "etag": "W/\"2784474a43babcc26e032768acaec2a5\"",
+      "fetchedAt": "2026-11-13T10:22:00.966Z",
+      "hash": "48a4326681f36f414c98e7fd9e9d18c7100d85e8fa271406471f225cb1ead4ff",
+      "etag": "W/\"3fee404c908ae24fba9e3199addf8da6\"",
       "count": 0,
       "changed": true
     },
@@ -552,7 +552,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-13T06:30:26.987Z",
+      "fetchedAt": "2026-11-13T10:22:00.966Z",
       "hash": "48f93fff5c2392195708ae3cedd27a52cba6b36b36614d9f92902d249f8c388f",
       "etag": null,
       "count": 0,
@@ -642,6 +642,33 @@
   ],
   "candidates": [
     {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.6183af3667d980cf254c9584c416b70df4079377.001.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 13 at 1:19AM CST until November 13 at 12:00PM CST by NWS Chicago IL",
+      "summary": "Southern Cook; Eastern Will; Lake: * WHAT...Locally slippery travel due to lake effect snow expected. Localized snow totals in excess of 3 inches expected. * WHERE...In Illinois, Eastern Will and Southern Cook Counties. In Indiana, Lake IN County. * WHEN...Until noon CST today. * IMPACTS...Plan on locally slippery road conditions including during this morning's commute. * ADDITIONAL DETAILS...Impacts from snow during lake effect snow are often highly variable across short distances. Conditions may vary from wet roads to snow-covered roads across just a mile. In addition, snow will struggle to stick within a few miles of the Lake Michigan shoreline.",
+      "observedAt": "2026-11-13T01:19:00-06:00",
+      "retrievedAt": "2026-11-13T10:22:00.966Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-13T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017031",
+          "017197",
+          "018089"
+        ],
+        "UGC": [
+          "ILZ105",
+          "ILZ108",
+          "INZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
@@ -666,33 +693,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.6183af3667d980cf254c9584c416b70df4079377.001.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 13 at 1:19AM CST until November 13 at 12:00PM CST by NWS Chicago IL",
-      "summary": "Southern Cook; Eastern Will; Lake: * WHAT...Locally slippery travel due to lake effect snow expected. Localized snow totals in excess of 3 inches expected. * WHERE...In Illinois, Eastern Will and Southern Cook Counties. In Indiana, Lake IN County. * WHEN...Until noon CST today. * IMPACTS...Plan on locally slippery road conditions including during this morning's commute. * ADDITIONAL DETAILS...Impacts from snow during lake effect snow are often highly variable across short distances. Conditions may vary from wet roads to snow-covered roads across just a mile. In addition, snow will struggle to stick within a few miles of the Lake Michigan shoreline.",
-      "observedAt": "2026-11-13T01:19:00-06:00",
-      "retrievedAt": "2026-11-13T08:24:32.280Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-13T12:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017031",
-          "017197",
-          "018089"
-        ],
-        "UGC": [
-          "ILZ105",
-          "ILZ108",
-          "INZ001"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.1effa692d02d3c49a0eec1c1f1038b3106d60151.001.1",
@@ -36761,9 +36761,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-13T09:23:33.001Z",
+  "collectedAt": "2026-11-13T10:22:00.966Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82328,7 +82328,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T09:23:33.002Z",
+      "asOf": "2026-11-13T10:22:01.464Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
