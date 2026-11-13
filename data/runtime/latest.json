@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-13T10:22:00.966Z",
-      "hash": "48f93fff5c2392195708ae3cedd27a52cba6b36b36614d9f92902d249f8c388f",
+      "fetchedAt": "2026-11-13T13:22:30.068Z",
+      "hash": "7b89c52e0514e367c71943c2eb847634fa35cd50f7ed5b699465d5d354d052e9",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -641,6 +641,19 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T13:22:30.068Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6183af3667d980cf254c9584c416b70df4079377.001.1",
       "sourceId": "nws-il",
@@ -1094,19 +1107,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-12T20:21:38.866Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "river:page-change",
@@ -36761,9 +36761,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 1,
   "remaining": 0,
-  "collectedAt": "2026-11-13T12:27:18.195Z",
+  "collectedAt": "2026-11-13T13:22:30.068Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82328,7 +82328,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T12:27:18.543Z",
+      "asOf": "2026-11-13T13:22:30.292Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
