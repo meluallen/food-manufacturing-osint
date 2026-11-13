@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-13T10:22:00.966Z",
-      "hash": "6d1033587421bcad4c179176b7548f6e0125b09b17e6f1dd1dbb86c42625d8d3",
-      "etag": "W/\"cc3802b2c4d58db2b7154aa90a77fc2e\"",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "b6032b2f92390882818b7b30caf8c7a9db96f75b05cff5896674352a593852c9",
+      "etag": "W/\"674c943bbbdb3a31b6a962e91afd4ce7\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-13T10:22:00.966Z",
-      "hash": "48a4326681f36f414c98e7fd9e9d18c7100d85e8fa271406471f225cb1ead4ff",
-      "etag": "W/\"3fee404c908ae24fba9e3199addf8da6\"",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "7c74f9742bf529cb84b3a061d71ad3b25047adf67c233f5e3be192c226e4f263",
+      "etag": "W/\"a7fcfc36ab9eef71278601ac85acfefb\"",
       "count": 0,
       "changed": true
     },
@@ -57,8 +57,8 @@
     {
       "sourceId": "drought",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "1aec72b1978c4f6201ced0632950f5ce202c154a332363f4d52037cec4493edb",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "b2dad254dd916f7ee996a028fb66b51a910397db0c7945ff11b8d211bbcf6e15",
       "etag": null,
       "count": 1,
       "changed": true
@@ -160,7 +160,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "sourceId": "bts",
       "status": "blocked"
     },
@@ -196,7 +196,7 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "sourceId": "port-la",
       "status": "error"
     },
@@ -285,8 +285,8 @@
     {
       "sourceId": "sqfi",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "0301dc28c0ffc0af2fe456db0e7d3fdb1b367c4335c53d5839c7842e96f09f63",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "a73be5bc34936ca8fabe57fda71ae1e4cad21a641fec54d9ae71da8bbac37507",
       "etag": null,
       "count": 1,
       "changed": true
@@ -345,8 +345,8 @@
     {
       "sourceId": "afpa",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "52fe9677f04d20e267166ef74092f2ed38262f32d980938ec1fab16b7267c84a",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "9874077b3f1346f8f1305606439029bf7749d04fec2ec9831099b1a4a609a2ce",
       "etag": null,
       "count": 1,
       "changed": true
@@ -392,17 +392,17 @@
     {
       "sourceId": "appa",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "hash": "ee772c33ce7780763b386e68dc95d876140910c9d9244cbc9e755081d2be8527",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "plma",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "033198308d74e17ba5784d60bdbe4bbadff6ebdc3ed474f19daae3b17d427328",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "7239cfa91e79108559c46ecbfaa6f0d1ee32c4f338a1042f79026c29f620edb3",
       "etag": null,
       "count": 1,
       "changed": true
@@ -410,7 +410,7 @@
     {
       "sourceId": "ws-careers",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "hash": "d2cff1910e50f08cd32ccd36719962c47158c21c0a56419ed221a70a6c738f20",
       "etag": null,
       "count": 0,
@@ -419,7 +419,7 @@
     {
       "sourceId": "ws-about",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "hash": "5f7dfcad8b0cfc5e6a76bed0b9f05c86be6b149d1936d384b86bc9d61a1ff693",
       "etag": null,
       "count": 0,
@@ -428,9 +428,9 @@
     {
       "sourceId": "topfox",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "fe32edcffd8ec9ad2bc0a9477238f296b4fe0f01dcc7d3543b6bed1ffac57739",
-      "etag": "\"page_cache:31738888237:IndexController:8df4e37ef71dfed6e4caa858dbe48b20\"",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "6211cd010894095a011f42e7969ead10b359548590739e21185e633f0715c71e",
+      "etag": "\"page_cache:31738888237:IndexController:5b4916dd7e7b04684b064850a38d008e\"",
       "count": 1,
       "changed": true
     },
@@ -459,8 +459,8 @@
     {
       "sourceId": "thrive",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "b524a25fb253a6b83f086a590c3f45baa62f08b761e80704404ef7f87a3de958",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "861010d7eddc7f29c6a668fffa0ed2d8e39c3225818c2e4174b42e604c1f3dc1",
       "etag": null,
       "count": 1,
       "changed": true
@@ -468,7 +468,7 @@
     {
       "sourceId": "vdf",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "hash": "90e57bdbde9d486518c525f6511aa6e417ca6777175eced4fa6a17642000bf35",
       "etag": null,
       "count": 0,
@@ -477,17 +477,17 @@
     {
       "sourceId": "efd",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "dd63b02d9f3f6fef0c8bed1df840a9d42cf1a9726db41133af1821e31dd67be3",
-      "etag": "\"40-1793769876;br\"",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "9814e5c035a16e4398abe22b5404cac1e4164ce90096d63849a57af4fcb982d7",
+      "etag": "\"40-1794560528;br\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "barrett",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "809bfb09df3358b0a17088c9fec18c03fc28fea441c4231f19d3c15421f08797",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "1e530ca300f60ebf37163a69bc8cfc11d63c8dd6769bb945ed54e45a4725a02f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -495,7 +495,7 @@
     {
       "sourceId": "weaver",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "hash": "5cad16560ef3b3ddb5f99acc49de217488b483a461be3bb761c1464d958098fc",
       "etag": null,
       "count": 0,
@@ -503,15 +503,15 @@
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
       "sourceId": "flagstone",
       "status": "error"
     },
     {
       "sourceId": "pmmi",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "4ebf41cac37a7212b72ca4207c6d9bb214f3da1ed6389a409ea38eb86d441247",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "94d836f3d655f2454b04bf4da6e0486410aae8c5245a1584589b6a7361ea7990",
       "etag": null,
       "count": 1,
       "changed": true
@@ -519,9 +519,9 @@
     {
       "sourceId": "gea",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "41efec842c0c80bb786075b68ffea87fbe32c316bbd37a2240b7212dfe7b4d45",
-      "etag": "\"bj58czks0gctbo\"",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "53da90981dfd73dd51186a66f1bfd68c81251609accf8daed20c5756c1096535",
+      "etag": "\"15awxywchqqcz2m\"",
       "count": 1,
       "changed": true
     },
@@ -582,8 +582,8 @@
     {
       "sourceId": "bls-paperboard-api",
       "status": "ok",
-      "fetchedAt": "2026-11-06T11:03:33.489Z",
-      "hash": "e192305399612f981f05e15000131458a2555c85e6321a035fa03adbfb09e5ef",
+      "fetchedAt": "2026-11-13T11:22:15.644Z",
+      "hash": "0aea89e7a96290acbc9bcb6bf6eaf274bae18790b443e0a2528e4a3e22340052",
       "etag": null,
       "count": 1,
       "changed": true
@@ -647,7 +647,7 @@
       "title": "Winter Weather Advisory issued November 13 at 1:19AM CST until November 13 at 12:00PM CST by NWS Chicago IL",
       "summary": "Southern Cook; Eastern Will; Lake: * WHAT...Locally slippery travel due to lake effect snow expected. Localized snow totals in excess of 3 inches expected. * WHERE...In Illinois, Eastern Will and Southern Cook Counties. In Indiana, Lake IN County. * WHEN...Until noon CST today. * IMPACTS...Plan on locally slippery road conditions including during this morning's commute. * ADDITIONAL DETAILS...Impacts from snow during lake effect snow are often highly variable across short distances. Conditions may vary from wet roads to snow-covered roads across just a mile. In addition, snow will struggle to stick within a few miles of the Lake Michigan shoreline.",
       "observedAt": "2026-11-13T01:19:00-06:00",
-      "retrievedAt": "2026-11-13T10:22:00.966Z",
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -667,6 +667,329 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "thrive:page-change",
+      "sourceId": "thrive",
+      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.thrivefreezedry.com/",
+      "scope": "Group aliases de-duplicated; announcement is not commissioning"
+    },
+    {
+      "id": "plma:page-change",
+      "sourceId": "plma",
+      "title": "Private Label Manufacturers Association | PLMA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://plma.com/",
+      "scope": "Private label, retailer commentary; some data licensed"
+    },
+    {
+      "id": "topfox:page-change",
+      "sourceId": "topfox",
+      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Customer demand",
+      "sourceUrl": "https://topfoxsnacks.com/",
+      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
+    },
+    {
+      "id": "drought:page-change",
+      "sourceId": "drought",
+      "title": "Current Map | U.S. Drought Monitor",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient availability",
+      "sourceUrl": "https://droughtmonitor.unl.edu/",
+      "scope": "Weekly; supplier-crop origin mapping required"
+    },
+    {
+      "id": "sqfi:page-change",
+      "sourceId": "sqfi",
+      "title": "SQFI | SQF Institute",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.sqfi.com/",
+      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
+    },
+    {
+      "id": "afpa:page-change",
+      "sourceId": "afpa",
+      "title": "Statistics and Resources | AF&amp;PA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://www.afandpa.org/statistics-resources",
+      "scope": "Paper/paperboard demand; some reports require license"
+    },
+    {
+      "id": "efd:page-change",
+      "sourceId": "efd",
+      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://europeanfreezedry.com/",
+      "scope": "International contract freeze-drying and pet products"
+    },
+    {
+      "id": "barrett:page-change",
+      "sourceId": "barrett",
+      "title": "Pet Food Manufacturer | Barrett Petfood",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://barrettpetfood.com/",
+      "scope": "Pet manufacturing and freeze-dried inclusions"
+    },
+    {
+      "id": "gea:page-change",
+      "sourceId": "gea",
+      "title": "GEA – engineering for a better world",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.gea.com/en/",
+      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
+    },
+    {
+      "id": "pmmi:page-change",
+      "sourceId": "pmmi",
+      "title": "PMMI, The Association for Packaging and Processing Technologies",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Growth opportunity",
+      "sourceUrl": "https://www.pmmi.org/",
+      "scope": "Robotics, machine vision, equipment and workforce developments"
+    },
+    {
+      "id": "bls-paperboard-api:WPU0914:2026-09",
+      "sourceId": "bls-paperboard-api",
+      "title": "Paperboard · 2026-09",
+      "summary": "United States: 379.475 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-09; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-13T11:22:15.644Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Packaging",
+      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
+      "measurement": {
+        "id": "WPU0914:2026-09",
+        "label": "Paperboard",
+        "seriesCode": "WPU0914",
+        "referencePeriod": "2026-09",
+        "unit": "index, 1982=100",
+        "value": 379.475,
+        "comparison": "index level; not a transaction price",
+        "seasonalAdjustment": "NSA",
+        "geography": "United States",
+        "preliminary": true,
+        "history": [
+          {
+            "period": "2026-09",
+            "value": 379.475,
+            "preliminary": true
+          },
+          {
+            "period": "2026-08",
+            "value": 373.729,
+            "preliminary": true
+          },
+          {
+            "period": "2026-07",
+            "value": 365.079,
+            "preliminary": true
+          },
+          {
+            "period": "2026-06",
+            "value": 361.177,
+            "preliminary": true
+          },
+          {
+            "period": "2026-05",
+            "value": 360.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-04",
+            "value": 353.107,
+            "preliminary": false
+          },
+          {
+            "period": "2026-03",
+            "value": 353.904,
+            "preliminary": false
+          },
+          {
+            "period": "2026-02",
+            "value": 354.541,
+            "preliminary": false
+          },
+          {
+            "period": "2026-01",
+            "value": 356.681,
+            "preliminary": false
+          },
+          {
+            "period": "2025-12",
+            "value": 356.438,
+            "preliminary": false
+          },
+          {
+            "period": "2025-11",
+            "value": 356.324,
+            "preliminary": false
+          },
+          {
+            "period": "2025-10",
+            "value": 357.05,
+            "preliminary": false
+          },
+          {
+            "period": "2025-09",
+            "value": 354.549,
+            "preliminary": false
+          },
+          {
+            "period": "2025-08",
+            "value": 355.341,
+            "preliminary": false
+          },
+          {
+            "period": "2025-07",
+            "value": 355.658,
+            "preliminary": false
+          },
+          {
+            "period": "2025-06",
+            "value": 358.893,
+            "preliminary": false
+          },
+          {
+            "period": "2025-05",
+            "value": 353.878,
+            "preliminary": false
+          },
+          {
+            "period": "2025-04",
+            "value": 352.675,
+            "preliminary": false
+          },
+          {
+            "period": "2025-03",
+            "value": 348.748,
+            "preliminary": false
+          },
+          {
+            "period": "2025-02",
+            "value": 346.547,
+            "preliminary": false
+          },
+          {
+            "period": "2025-01",
+            "value": 346.383,
+            "preliminary": false
+          },
+          {
+            "period": "2024-12",
+            "value": 343.626,
+            "preliminary": false
+          },
+          {
+            "period": "2024-11",
+            "value": 343.856,
+            "preliminary": false
+          },
+          {
+            "period": "2024-10",
+            "value": 343.106,
+            "preliminary": false
+          },
+          {
+            "period": "2024-09",
+            "value": 340.929,
+            "preliminary": false
+          },
+          {
+            "period": "2024-08",
+            "value": 339.666,
+            "preliminary": false
+          },
+          {
+            "period": "2024-07",
+            "value": 334.017,
+            "preliminary": false
+          },
+          {
+            "period": "2024-06",
+            "value": 332.43,
+            "preliminary": false
+          },
+          {
+            "period": "2024-05",
+            "value": 330.954,
+            "preliminary": false
+          },
+          {
+            "period": "2024-04",
+            "value": 329.951,
+            "preliminary": false
+          },
+          {
+            "period": "2024-03",
+            "value": 328.448,
+            "preliminary": false
+          },
+          {
+            "period": "2024-02",
+            "value": 327.928,
+            "preliminary": false
+          },
+          {
+            "period": "2024-01",
+            "value": 328.547,
+            "preliminary": false
+          }
+        ]
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
     },
     {
       "id": "miso:page-change",
@@ -4707,329 +5030,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "thrive:page-change",
-      "sourceId": "thrive",
-      "title": "Thrive Freeze Dry &#8211; Freeze Dry Food Manufacturing",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.thrivefreezedry.com/",
-      "scope": "Group aliases de-duplicated; announcement is not commissioning"
-    },
-    {
-      "id": "plma:page-change",
-      "sourceId": "plma",
-      "title": "Private Label Manufacturers Association | PLMA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://plma.com/",
-      "scope": "Private label, retailer commentary; some data licensed"
-    },
-    {
-      "id": "topfox:page-change",
-      "sourceId": "topfox",
-      "title": "Top Fox Snacks | Pop-Roasted Snacking Seeds",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Customer demand",
-      "sourceUrl": "https://topfoxsnacks.com/",
-      "scope": "Seeds, flavors and retail expansion; listings do not establish direct customer contracts"
-    },
-    {
-      "id": "drought:page-change",
-      "sourceId": "drought",
-      "title": "Current Map | U.S. Drought Monitor",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient availability",
-      "sourceUrl": "https://droughtmonitor.unl.edu/",
-      "scope": "Weekly; supplier-crop origin mapping required"
-    },
-    {
-      "id": "sqfi:page-change",
-      "sourceId": "sqfi",
-      "title": "SQFI | SQF Institute",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.sqfi.com/",
-      "scope": "SQF/GFSI scheme developments; verify certificate scope separately"
-    },
-    {
-      "id": "afpa:page-change",
-      "sourceId": "afpa",
-      "title": "Statistics and Resources | AF&amp;PA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://www.afandpa.org/statistics-resources",
-      "scope": "Paper/paperboard demand; some reports require license"
-    },
-    {
-      "id": "efd:page-change",
-      "sourceId": "efd",
-      "title": "European Freeze Dry &#8211; Market Leading Freeze Dry Experts",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://europeanfreezedry.com/",
-      "scope": "International contract freeze-drying and pet products"
-    },
-    {
-      "id": "barrett:page-change",
-      "sourceId": "barrett",
-      "title": "Pet Food Manufacturer | Barrett Petfood",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://barrettpetfood.com/",
-      "scope": "Pet manufacturing and freeze-dried inclusions"
-    },
-    {
-      "id": "gea:page-change",
-      "sourceId": "gea",
-      "title": "GEA – engineering for a better world",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.gea.com/en/",
-      "scope": "Freeze-drying and food processing; no Watershed vendor attribution"
-    },
-    {
-      "id": "pmmi:page-change",
-      "sourceId": "pmmi",
-      "title": "PMMI, The Association for Packaging and Processing Technologies",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Growth opportunity",
-      "sourceUrl": "https://www.pmmi.org/",
-      "scope": "Robotics, machine vision, equipment and workforce developments"
-    },
-    {
-      "id": "bls-paperboard-api:WPU0914:2026-09",
-      "sourceId": "bls-paperboard-api",
-      "title": "Paperboard · 2026-09",
-      "summary": "United States: 379.475 index, 1982=100. index level; not a transaction price; NSA. Reference period 2026-09; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-06T11:03:33.489Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Packaging",
-      "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/WPU0914",
-      "measurement": {
-        "id": "WPU0914:2026-09",
-        "label": "Paperboard",
-        "seriesCode": "WPU0914",
-        "referencePeriod": "2026-09",
-        "unit": "index, 1982=100",
-        "value": 379.475,
-        "comparison": "index level; not a transaction price",
-        "seasonalAdjustment": "NSA",
-        "geography": "United States",
-        "preliminary": true,
-        "history": [
-          {
-            "period": "2026-09",
-            "value": 379.475,
-            "preliminary": true
-          },
-          {
-            "period": "2026-08",
-            "value": 373.729,
-            "preliminary": true
-          },
-          {
-            "period": "2026-07",
-            "value": 365.079,
-            "preliminary": true
-          },
-          {
-            "period": "2026-06",
-            "value": 361.177,
-            "preliminary": true
-          },
-          {
-            "period": "2026-05",
-            "value": 360.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-04",
-            "value": 353.107,
-            "preliminary": false
-          },
-          {
-            "period": "2026-03",
-            "value": 353.904,
-            "preliminary": false
-          },
-          {
-            "period": "2026-02",
-            "value": 354.541,
-            "preliminary": false
-          },
-          {
-            "period": "2026-01",
-            "value": 356.681,
-            "preliminary": false
-          },
-          {
-            "period": "2025-12",
-            "value": 356.438,
-            "preliminary": false
-          },
-          {
-            "period": "2025-11",
-            "value": 356.324,
-            "preliminary": false
-          },
-          {
-            "period": "2025-10",
-            "value": 357.05,
-            "preliminary": false
-          },
-          {
-            "period": "2025-09",
-            "value": 354.549,
-            "preliminary": false
-          },
-          {
-            "period": "2025-08",
-            "value": 355.341,
-            "preliminary": false
-          },
-          {
-            "period": "2025-07",
-            "value": 355.658,
-            "preliminary": false
-          },
-          {
-            "period": "2025-06",
-            "value": 358.893,
-            "preliminary": false
-          },
-          {
-            "period": "2025-05",
-            "value": 353.878,
-            "preliminary": false
-          },
-          {
-            "period": "2025-04",
-            "value": 352.675,
-            "preliminary": false
-          },
-          {
-            "period": "2025-03",
-            "value": 348.748,
-            "preliminary": false
-          },
-          {
-            "period": "2025-02",
-            "value": 346.547,
-            "preliminary": false
-          },
-          {
-            "period": "2025-01",
-            "value": 346.383,
-            "preliminary": false
-          },
-          {
-            "period": "2024-12",
-            "value": 343.626,
-            "preliminary": false
-          },
-          {
-            "period": "2024-11",
-            "value": 343.856,
-            "preliminary": false
-          },
-          {
-            "period": "2024-10",
-            "value": 343.106,
-            "preliminary": false
-          },
-          {
-            "period": "2024-09",
-            "value": 340.929,
-            "preliminary": false
-          },
-          {
-            "period": "2024-08",
-            "value": 339.666,
-            "preliminary": false
-          },
-          {
-            "period": "2024-07",
-            "value": 334.017,
-            "preliminary": false
-          },
-          {
-            "period": "2024-06",
-            "value": 332.43,
-            "preliminary": false
-          },
-          {
-            "period": "2024-05",
-            "value": 330.954,
-            "preliminary": false
-          },
-          {
-            "period": "2024-04",
-            "value": 329.951,
-            "preliminary": false
-          },
-          {
-            "period": "2024-03",
-            "value": 328.448,
-            "preliminary": false
-          },
-          {
-            "period": "2024-02",
-            "value": 327.928,
-            "preliminary": false
-          },
-          {
-            "period": "2024-01",
-            "value": 328.547,
-            "preliminary": false
-          }
-        ]
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
     },
     {
       "id": "appa:page-change",
@@ -36761,9 +36761,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 21,
   "remaining": 0,
-  "collectedAt": "2026-11-13T10:22:00.966Z",
+  "collectedAt": "2026-11-13T11:22:15.644Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -82328,7 +82328,7 @@
     },
     {
       "date": "2026-11-13",
-      "asOf": "2026-11-13T10:22:01.464Z",
+      "asOf": "2026-11-13T11:22:19.618Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
