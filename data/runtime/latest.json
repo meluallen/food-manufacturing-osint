@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,11 +48,11 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "4028ec035856331a717d3305e87e45be37d400fc500da34a5464f05fc2773764",
       "etag": "\"1c4bab-6602e367089b8\"",
-      "count": 40,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "drought",
@@ -75,20 +75,20 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
       "etag": "W/\"16539-1791225934719-gzip\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "ams-dairy",
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
-      "hash": "82616af9a7b967a57cf28581784f3bbf1e52e2f0a423f779d6c4b63472a4ecbc",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "hash": "da282cd39295e5f9a1756758a23588ee145f20fba8799deba3c27bff22fe113f",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
-      "hash": "52e2dcfd001fb40ade95eab69411deadcfd2eaf3d4562759a6a9aff598e34f5c",
-      "etag": "\"1794602400\"",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "hash": "f4be090c23005a17617d3eac202dd1a736cb187505a5f5a539d0208d2ed190a8",
+      "etag": "\"1794615161\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "ad97e0f820ea600f2ec910c372dff442fe6a8c7bb16fbb279932e7d203c96824",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,11 +534,11 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-13T21:21:45.682Z",
+      "fetchedAt": "2026-11-14T03:23:09.230Z",
       "hash": "e276ca4e721713076437014152fde93f7583c3ab9ba197b696642dd5d0e60fe7",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cisa-ransom",
@@ -642,6 +642,32 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-14T03:23:09.230Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-14T03:23:09.230Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.45d53adb8ed82f8bd50f5bea5254e2656953c951.001.1",
       "sourceId": "nws-il",
       "title": "Flood Advisory issued November 13 at 5:31PM CST until November 14 at 9:00AM CST by NWS Chicago IL",
@@ -690,32 +716,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T21:21:45.682Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T21:21:45.682Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "cisa-ics:page-change",
@@ -36902,9 +36902,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 10,
   "remaining": 0,
-  "collectedAt": "2026-11-14T02:24:09.645Z",
+  "collectedAt": "2026-11-14T03:23:09.230Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -83260,7 +83260,7 @@
     },
     {
       "date": "2026-11-14",
-      "asOf": "2026-11-14T02:24:10.011Z",
+      "asOf": "2026-11-14T03:23:10.295Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
