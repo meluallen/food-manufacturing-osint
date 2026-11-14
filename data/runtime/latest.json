@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-14T08:22:40.321Z",
-      "hash": "1df7baf110e463d2f079b9d06ceeb0fba9ac68a987868865e5386526f13b09b2",
-      "etag": "W/\"3c9b41cc10c3b865b71c9043f7f70c24\"",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
+      "hash": "1048fb3890f2b297bcca86253b42e6d06149cffa8dc33c4aa19fcaf2ca68f48b",
+      "etag": "W/\"b23aa15950e3fb94ab38c63c6fe89d01\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-14T08:22:40.321Z",
-      "hash": "2ace5489e9915382973540bced096c8b7a341c0d97a63ad6dae9b83609db5b2f",
-      "etag": "W/\"ba28a9286b6b3f6f28463c146fc6202a\"",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
+      "hash": "9eb855d7245c0a405832498a04ded7b3f1210f503292c886480c6114c951f91a",
+      "etag": "W/\"d3054472f6bbe8df1d7697fab4ac3a25\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "hash": "4028ec035856331a717d3305e87e45be37d400fc500da34a5464f05fc2773764",
       "etag": "\"1c4bab-6602e367089b8\"",
       "count": 0,
@@ -75,20 +75,20 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
-      "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
+      "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
-      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
-      "etag": "W/\"16539-1791225934719-gzip\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
+      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
+      "etag": "W/\"16540-1791226223891-gzip\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "ams-dairy",
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
-      "hash": "da282cd39295e5f9a1756758a23588ee145f20fba8799deba3c27bff22fe113f",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
+      "hash": "17acf0722cada16c2e6a7155ab894eae0e495af8308ebb3271a77e573c00073e",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,11 +203,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "hash": "f4be090c23005a17617d3eac202dd1a736cb187505a5f5a539d0208d2ed190a8",
-      "etag": "\"1794615161\"",
-      "count": 1,
-      "changed": true
+      "etag": "\"1794615158\"",
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "hash": "ad97e0f820ea600f2ec910c372dff442fe6a8c7bb16fbb279932e7d203c96824",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-14T03:23:09.230Z",
+      "fetchedAt": "2026-11-14T10:22:00.331Z",
       "hash": "e276ca4e721713076437014152fde93f7583c3ab9ba197b696642dd5d0e60fe7",
       "etag": null,
       "count": 0,
@@ -647,7 +647,7 @@
       "title": "Flood Advisory issued November 13 at 5:31PM CST until November 14 at 9:00AM CST by NWS Chicago IL",
       "summary": "Cook, IL; Lake, IN: * WHAT...Flooding caused by excessive rainfall continues. * WHERE...Extreme Southeast Central Cook County in northeastern Illinois... Central Lake IN County in northwestern Indiana... * WHEN...Until 900 AM CST Saturday. * IMPACTS...Creeks and streams may rise out of their banks. Flooding may occur in poor drainage and urban areas. Storm drains and ditches may be clogged with leaf debris increasing the risk of flooding. * ADDITIONAL DETAILS... - At 530 PM CST, Doppler radar indicated lake effect rain. Minor flooding is ongoing or expected to begin shortly in the advisory area. Several creeks and streams are rising, including the Turkey Creek near Merrillville which has recently risen above bankfull. - Some locations that will experience flooding include... Chicago, Hammond, Gary, Calumet City, Merrillville, South Shore,",
       "observedAt": "2026-11-13T17:31:00-06:00",
-      "retrievedAt": "2026-11-14T08:22:40.321Z",
+      "retrievedAt": "2026-11-14T10:22:00.331Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -672,12 +672,38 @@
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-14T03:23:09.230Z",
+      "retrievedAt": "2026-11-14T10:22:00.331Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
       "sourceUrl": "https://www.misoenergy.org/",
       "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-14T10:22:00.331Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "river:page-change",
+      "sourceId": "river",
+      "title": "National Water Prediction Service - NOAA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-14T10:22:00.331Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://water.noaa.gov/",
+      "scope": "Mississippi/Illinois river; no assumed company barge use"
     },
     {
       "id": "fda-alerts:page-change",
@@ -729,32 +755,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
       "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T21:21:45.682Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "river:page-change",
-      "sourceId": "river",
-      "title": "National Water Prediction Service - NOAA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T21:21:45.682Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://water.noaa.gov/",
-      "scope": "Mississippi/Illinois river; no assumed company barge use"
     },
     {
       "id": "cisa-kev:CVE-2026-0322",
@@ -36902,9 +36902,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 12,
   "remaining": 0,
-  "collectedAt": "2026-11-14T09:22:09.874Z",
+  "collectedAt": "2026-11-14T10:22:00.331Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -83260,7 +83260,7 @@
     },
     {
       "date": "2026-11-14",
-      "asOf": "2026-11-14T09:22:09.875Z",
+      "asOf": "2026-11-14T10:22:01.644Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
