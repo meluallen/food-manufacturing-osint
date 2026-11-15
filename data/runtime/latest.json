@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-15T21:21:59.969Z",
-      "hash": "90096f0a022a22bb264fdcdaad74e0009ff19aa935f861045839c97e38051928",
-      "etag": "W/\"7617b412e7303b353eb448615024fb14\"",
+      "fetchedAt": "2026-11-15T23:26:08.315Z",
+      "hash": "5ad361bb61ef08e49aa735dcf9542498b6dc35ea6636c4f9494ca2af3f775b98",
+      "etag": "W/\"03f314d19f0e4be8bb76014e214e1600\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-15T21:21:59.969Z",
-      "hash": "c61dc3f562d8a5fd0d5fcb34092d41001545bcb2d48a5f10fb836ce1a08e8bce",
-      "etag": "W/\"064f9252994a0ed8c1bcc110e908945d\"",
+      "fetchedAt": "2026-11-15T23:26:08.315Z",
+      "hash": "9e0eefdc406a844d0e784d9228b5ec9be8664907cbabb0fc712252a311029d42",
+      "etag": "W/\"540f21fb75f8129f201079421fc3a23e\"",
       "count": 0,
       "changed": true
     },
@@ -554,11 +554,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-15T20:21:43.955Z",
+      "fetchedAt": "2026-11-15T23:26:08.315Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -37067,9 +37067,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-15T22:21:57.957Z",
+  "collectedAt": "2026-11-15T23:26:08.315Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -84216,7 +84216,7 @@
     },
     {
       "date": "2026-11-15",
-      "asOf": "2026-11-15T22:21:57.958Z",
+      "asOf": "2026-11-15T23:26:08.706Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
