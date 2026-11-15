@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-15T12:25:17.993Z",
-      "hash": "e5b11f683bc7b08d9ae2f6db92580057e8244001865f281d5955045099680435",
-      "etag": "W/\"48f7b2f9b7a2d469d9fd832aa543ee39\"",
-      "count": 1,
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
+      "hash": "c566ac3714be2866be28203fc3f6f9881196ddd0363317d38febc72ca007ff42",
+      "etag": "W/\"6f16dd62391aa5b257e42f2c7b5e2410\"",
+      "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-15T12:25:17.993Z",
-      "hash": "e0617954b4a831c213bf5750bb49c5cce7a4338853929d442c6fd10b0a0bd721",
-      "etag": "W/\"1cc963ea279ab26ab0824dfc7691d49f\"",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
+      "hash": "0023ee88bb83ab4483a4e6e8648236c929f18207fa816bd457cadd88408eb6c6",
+      "etag": "W/\"1854b049b7b5baa7ff32709a2ccf1df0\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "4028ec035856331a717d3305e87e45be37d400fc500da34a5464f05fc2773764",
       "etag": "\"1c4bab-6602e367089b8\"",
       "count": 0,
@@ -75,18 +75,18 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
+      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
+      "etag": "W/\"16538-1791226471116-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
-      "hash": "1982b9a2c2cbdf86a67047edbbc7c47011b30e039d4a3b7f7fa88a74d4ecc5df",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
+      "hash": "4ff397ae4305b02068c6d9d049abb18c1db18138162729b2ab80f7878878f076",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,11 +203,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "d2ceb6b05aef63261c11f510fb6f12b44f3088faaea7c370cd1b9ae5adee1547",
       "etag": "\"1794694724\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "ad97e0f820ea600f2ec910c372dff442fe6a8c7bb16fbb279932e7d203c96824",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-15T07:22:17.873Z",
+      "fetchedAt": "2026-11-15T14:21:59.091Z",
       "hash": "e276ca4e721713076437014152fde93f7583c3ab9ba197b696642dd5d0e60fe7",
       "etag": null,
       "count": 0,
@@ -641,6 +641,32 @@
     }
   ],
   "candidates": [
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-15T14:21:59.091Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-15T14:21:59.091Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.b6e65897cecf82665a8fa0fdb8359ce4b4ca748e.001.1",
       "sourceId": "nws-il",
@@ -792,19 +818,6 @@
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T07:22:17.873Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "fda-alerts:page-change",
       "sourceId": "fda-alerts",
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
@@ -816,19 +829,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T07:22:17.873Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "river:page-change",
@@ -37065,9 +37065,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 12,
   "remaining": 0,
-  "collectedAt": "2026-11-15T13:21:57.814Z",
+  "collectedAt": "2026-11-15T14:21:59.091Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -84214,7 +84214,7 @@
     },
     {
       "date": "2026-11-15",
-      "asOf": "2026-11-15T13:21:57.815Z",
+      "asOf": "2026-11-15T14:22:04.103Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
