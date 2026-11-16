@@ -554,11 +554,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-16T17:23:26.266Z",
+      "fetchedAt": "2026-11-16T21:21:55.567Z",
       "hash": "6ca991212c3c7798f9b758af99e225e18fcf12b9940eb6132b1d77ab7e6acec8",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -613,24 +613,24 @@
     {
       "sourceId": "osm-illinois-corridors",
       "status": "error",
-      "fetchedAt": "2026-10-17T20:41:41.791Z",
+      "fetchedAt": "2026-11-16T21:21:55.567Z",
       "hash": "849bebf1486c69e00e3853b3f6c5f0f58bd7bde33ae84db597190588f35c3bff",
       "count": 1,
       "changed": true,
       "retrievalMethod": "Reviewed direct public API request",
       "lastSuccessAt": "2026-09-17T18:07:04.086760+00:00",
-      "error": "This operation was aborted"
+      "error": "HTTP 502"
     },
     {
       "sourceId": "osm-wisconsin-corridors",
       "status": "error",
-      "fetchedAt": "2026-10-17T20:41:41.791Z",
+      "fetchedAt": "2026-11-16T21:21:55.567Z",
       "hash": "82723e57d014371fac55d6bd4e112d641e9002ab1f9b173668e55d658710ce4d",
       "count": 1,
       "changed": true,
       "retrievalMethod": "Reviewed direct public API request",
       "lastSuccessAt": "2026-09-17T18:07:04.086760+00:00",
-      "error": "This operation was aborted"
+      "error": "HTTP 502"
     },
     {
       "sourceId": "widatcp",
@@ -37245,9 +37245,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-16T20:22:01.696Z",
+  "collectedAt": "2026-11-16T21:21:55.567Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -85185,7 +85185,7 @@
     },
     {
       "date": "2026-11-16",
-      "asOf": "2026-11-16T20:22:02.019Z",
+      "asOf": "2026-11-16T21:21:56.306Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
