@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:26:27.701Z",
-      "hash": "0297334a1263aa8aa65afec0d208d822bd85f92fd0063ddf98dd18f0b2021687",
-      "etag": "W/\"6551b2da88f72195c548016cc33778ef\"",
+      "fetchedAt": "2026-11-16T12:36:12.071Z",
+      "hash": "c50c21e848ec5f23891c65ff7317a0a50c2c7eb9a9518ab7eb51e0a4c670d053",
+      "etag": "W/\"4a72a9a710e2610b84e82c595643feed\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:26:27.701Z",
-      "hash": "7af240555cf122cacc708ee1126e4b126644bc6e446e326b78e9401f20a0457e",
-      "etag": "W/\"73872f363c728449610537b682aeab4e\"",
+      "fetchedAt": "2026-11-16T12:36:12.071Z",
+      "hash": "b7303a6b7ab01ad6904c8d79f0ccb09c8ab246a8d44edf877f93b43556425b18",
+      "etag": "W/\"05f2e35b2c1eb63d43c3511ce844c9dc\"",
       "count": 0,
       "changed": true
     },
@@ -642,25 +642,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-16T10:26:27.701Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.a04e190dfb766ac4bed9fe5719b0ce06de6635c2.001.1",
       "sourceId": "nws-il",
       "title": "Special Weather Statement issued November 16 at 3:02AM CST by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: Patchy fog has developed along rivers and other water bodies early this morning. With temperatures below freezing, this may lead to some slick spots on roads, especially elevated surfaces like bridges. If traveling this morning, use caution as visibilities may be reduced to a quarter mile or less at times and there may ",
       "observedAt": "2026-11-16T03:02:00-06:00",
-      "retrievedAt": "2026-11-16T10:26:27.701Z",
+      "retrievedAt": "2026-11-16T12:36:12.071Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -790,6 +777,19 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T10:26:27.701Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "miso:page-change",
@@ -37202,9 +37202,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-16T11:26:27.453Z",
+  "collectedAt": "2026-11-16T12:36:12.071Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -85142,7 +85142,7 @@
     },
     {
       "date": "2026-11-16",
-      "asOf": "2026-11-16T11:26:27.454Z",
+      "asOf": "2026-11-16T12:36:12.415Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
