@@ -3,26 +3,26 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-16T17:23:26.266Z",
-      "hash": "6fd8e8ff9fb9737e0aaf2312777521113f4507ec92abde49e8e1b934a2930842",
-      "etag": "W/\"3bc06ee000d04f201cca4625d7626416\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "0ebef2beb55578cfc4925ff497a8cdc981af12d8a6939576ffc5bf6ab26113db",
+      "etag": "W/\"4fc574d996145edfc0658ed4dc7f36fd\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-16T17:23:26.266Z",
-      "hash": "89a7dace5f61c42aa2f5009b56a3352ec643b6fe5041c8ebeac596b038c4f51a",
-      "etag": "W/\"db9b2972dfbfea6ded289ae365551aaa\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "0500ebc738e21f2cb3b561429944f00920887c3992e675f7bf88f7d8527e895c",
+      "etag": "W/\"ef0ab3988075288e096ba8ff5f1c8139\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "eia-diesel",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "6740d3fb02b800ac1cd5d55cde3ddc02aad878aba4d3f87c10356d5744f59794",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "11a91da4cb7971b4315abd9b3ef9e8ef81fd6b610c14ef06addde0a06d26ed90",
       "etag": null,
       "count": 1,
       "changed": true
@@ -39,9 +39,9 @@
     {
       "sourceId": "fda-trace",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "d8b0a7e1a40a4657ec82769d619e78603c8c12c926f17e27c7229ade1f8c9807",
-      "etag": "\"1794735607\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "771d06827e487084d873c18b571de18af918ec49e97754f1db936148c7470efd",
+      "etag": "\"1794834060\"",
       "count": 1,
       "changed": true
     },
@@ -66,7 +66,7 @@
     {
       "sourceId": "noaa-cpc",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "735b1530e057ed874c55178ab4bfcacabeea05e8a41de3abd6d387509dbc3024",
       "etag": null,
       "count": 0,
@@ -93,8 +93,8 @@
     {
       "sourceId": "ams-dairy",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "8d726f21ced85c17cda936db6ece540a60dd2e99d86b1a208cc5e167e4a7a731",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "ec7b7413f1249ffbcd2f7eb555902dc64475dc494449b21f2114e49c9582da49",
       "etag": null,
       "count": 1,
       "changed": true
@@ -102,8 +102,8 @@
     {
       "sourceId": "ams-specialty",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "f35128f0dfa8d8d074300672a565ae766b7d9aed7cb2700cf66ba19cf81f6898",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "65adbcb2bcb18fa3fe45d5830f3ed9da640ea6b06b2bf4dbb5834343cda709d2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -111,7 +111,7 @@
     {
       "sourceId": "nass",
       "status": "error",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "19844ef4863af37fb3e3b9b736e8763ca3b53bb857ae202782749fc875cdc107",
       "etag": null,
       "count": 0,
@@ -121,21 +121,21 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "wasde",
       "status": "blocked"
     },
     {
       "error": "fetch failed",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "fas",
       "status": "error"
     },
     {
       "sourceId": "eia-energy",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "1576f857972dff85e029f0759a067b237a1c85c9fa702cc42e0e59e01dc21fd4",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "30630d894d8324b42009ebb19d239a3c079239a95093e305d2d3d57b714251b8",
       "etag": null,
       "count": 1,
       "changed": true
@@ -151,12 +151,14 @@
     },
     {
       "sourceId": "usda-transport",
-      "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "status": "blocked",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "eeb92200f4cadd558d94b31aa0ed533101b49a4d04e8f4962ff604a43d042400",
       "etag": null,
       "count": 1,
-      "changed": true
+      "changed": true,
+      "lastSuccessAt": "2026-11-15T18:22:52.765Z",
+      "error": "HTTP 403"
     },
     {
       "error": "HTTP 403",
@@ -167,15 +169,15 @@
     {
       "sourceId": "stb",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "7da562f2fddd9225bfe5a5f85a6c0a68aef340fa4bbd0e9b423a59dee2a5016f",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "f07c01b1bcd32f5d8cec8a50aacf6a8c04a947901a06e9eb7bf3ddff7a0d2597",
       "etag": null,
       "count": 1,
       "changed": true
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "usace",
       "status": "blocked"
     },
@@ -188,8 +190,8 @@
     {
       "sourceId": "panama",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "d81c6c960ded5d4a509b4aa2b089f0ade355176515a0c169a48e155de6081111",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "b0128701141bc53a192f59d6d826d3d4a7f974a5ac765f7df0909515474d3e9d",
       "etag": null,
       "count": 1,
       "changed": true
@@ -212,16 +214,16 @@
     {
       "sourceId": "fda-warning",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "95a8603bebd9ac9d1031a5da5ff0e49829c00d6f5d325c5e8500990c82b36dab",
-      "etag": "\"1794764631\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "4471098f2d39145e3147fddadb275a990bc319df17964d07fed6caef32006ff3",
+      "etag": "\"1794842703\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-import",
       "status": "error",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "019e482fb6d18b343c574dd79446b5be8555ac24a40d3c576c0d8b010909eafb",
       "etag": "\"62736b64e46dd1:0\"",
       "count": 1,
@@ -232,25 +234,25 @@
     {
       "sourceId": "fda-fsma",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "2cc81928f28b3cd84a36a8eb1aaebc063ffa4256f8491ed4152d0d8c3ebcc684",
-      "etag": "\"1794761817\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "fe3457b8548061b3ddcf1ea285ca8fcd4579ca6d037ce32d3fd1a0cbe2be2417",
+      "etag": "\"1794833533\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-cvm",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "48dfaa9056df1aaad74bcdad42e944ee7b9cdbb8a640a0cf2176c73827f529f4",
-      "etag": "\"1794760846\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "c8547652738e69e9d0c99629d3ab7c2069a85aeaf839002444dd40492c34744f",
+      "etag": "\"1794837885\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "fda-toddler",
       "status": "error",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "80f033a160dc2a9903416e925ea98b5fd1bbf1af1ab531258930342477c99db3",
       "etag": "\"1792661408\"",
       "count": 1,
@@ -276,11 +278,11 @@
     {
       "sourceId": "idph",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "3496b78b422880172a2c3c1cd7a270df9ba1b61bc1af18c5450e7de5250430f7",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "5a0253137825e4f479edbc2b660d2bb3fe1b9a55d80c4e3c8dba79fa757113a4",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "sqfi",
@@ -294,26 +296,26 @@
     {
       "sourceId": "federal-register",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "7a45e43357a11fbca8e11b6f9cf87739f1e8bfa81fb20fb990fc946b5b6f89c0",
       "etag": null,
-      "count": 40,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "cbp",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "97264eb2d4eb7ea30348d48a6a955bbfc1a4f38f570805ff16c31858c2e8d7a6",
-      "etag": "\"1794764266\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "2757d493b2ac2696bdb2a58fe9a69233030a01bca12f94e084e65e0910a51eee",
+      "etag": "\"1794850878\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "usitc",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "72d8eb44e9cfd60eee16b31b00d630e60966df6907027470bb2cefd8714617c8",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "83623bc8e9ed7d156d0c4cb0bb2b8fa3572eddb345751324353caba2e575a584",
       "etag": null,
       "count": 1,
       "changed": true
@@ -321,17 +323,17 @@
     {
       "sourceId": "ustr",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "bbb1cb7f42831591f6ce0417c8e8512be2d928f4c623bbb0df00efb1e6482675",
-      "etag": "\"1794766923-gzip\"",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "b36a2e9f2b11318e73c66366177a81a89872b9c13c433d35c73dad880518cd01",
+      "etag": "\"1794852963-gzip\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "ofac",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "70bb89c951cb1f007610a9bfd4d6d0d0e9a454a664c02ff455cc5800b8dc9344",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "2c2e946e890f9609b1bc730992df20b6dc5b86743d14f97b7823e5dae5a000af",
       "etag": null,
       "count": 1,
       "changed": true
@@ -339,7 +341,7 @@
     {
       "sourceId": "bls-ppi",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "error": "HTTP 403"
     },
     {
@@ -354,14 +356,14 @@
     {
       "sourceId": "bls-labor",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "error": "HTTP 403"
     },
     {
       "sourceId": "ides",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "e964fd78b99bee2cba3da5cd6d8bc5358a84e183e8cf114c7d24f88a399dd1fd",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "90574150df7bd99215dfb80258fd52032bd1f1105224608419a6288815e150e2",
       "etag": null,
       "count": 1,
       "changed": true
@@ -369,7 +371,7 @@
     {
       "sourceId": "widwd",
       "status": "error",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "ce7beff136c43e95b356540ef3d51862985e6a9def98cfb4da6112f6417ec78a",
       "etag": null,
       "count": 1,
@@ -379,13 +381,13 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "dol",
       "status": "blocked"
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "sec",
       "status": "blocked"
     },
@@ -437,7 +439,7 @@
     {
       "sourceId": "deer-creek",
       "status": "error",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "dc5176ff4c4a438f89bb57cd273c77099548223cf1e1f87061a1c193354e9a54",
       "etag": null,
       "count": 0,
@@ -448,7 +450,7 @@
     {
       "sourceId": "gridley-local",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "abf38ae7d58846e736b2fbbb0794da4303f12ec67969abf361acbe73574dfe54",
       "etag": null,
       "count": 1,
@@ -527,7 +529,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "sourceId": "rockwell",
       "status": "blocked"
     },
@@ -543,11 +545,11 @@
     {
       "sourceId": "cisa-ransom",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "2736bccbfc26b051c075450cce14ea8d21f2d58601b6a710f254d519fd48fac8",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "a3856724b7e42a1dad95a45c1f766fb6826edb32664abb9d2717ff548cefe5a6",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "nws-ilx-outlook",
@@ -561,22 +563,22 @@
     {
       "sourceId": "eia-industrial",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "4d18753e24b8770104fb246373b6897ef434122b4bebdd293484f651e0d64cf3",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "6b5cb5867ba3748fca6d255ae5cb7bfbf249d87103294366020817e97501f80b",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 2,
+      "changed": true
     },
     {
       "sourceId": "bls-peoria",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "error": "HTTP 403"
     },
     {
       "sourceId": "bls-milwaukee",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "error": "HTTP 403"
     },
     {
@@ -591,16 +593,16 @@
     {
       "sourceId": "eia-steo",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "94b5531f6838650f1bd88c6c57df548f255997ec66071107e0135ee357f68f6c",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "1f1970c2c72d564f3e54b8554ecc2325eee834dce11f5bc02f31b6e85efcc362",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "gis-ir",
       "status": "blocked",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
       "hash": "a0c815413011d762630d255ce21f5e0fa67764a19cdd463c54e95b76108d92c6",
       "etag": "\"4f1fb70b397fbc4fd34f608228b27faf\"",
       "count": 1,
@@ -633,14 +635,317 @@
     {
       "sourceId": "widatcp",
       "status": "ok",
-      "fetchedAt": "2026-11-15T18:22:52.765Z",
-      "hash": "856e850939bc7856403520536603fa7fe6b182e5504af450194699ff729f162e",
+      "fetchedAt": "2026-11-16T18:25:13.866Z",
+      "hash": "a9db4c79b2b2189cbd46f0489e9a628fa6c446bcb846e547eeeb3d12029cc95d",
       "etag": null,
       "count": 1,
       "changed": true
     }
   ],
   "candidates": [
+    {
+      "id": "fda-fsma:page-change",
+      "sourceId": "fda-fsma",
+      "title": "Food Safety Modernization Act (FSMA) | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
+      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
+    },
+    {
+      "id": "fda-cvm:page-change",
+      "sourceId": "fda-cvm",
+      "title": "Animal Foods &amp; Feeds | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
+      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
+    },
+    {
+      "id": "ustr:page-change",
+      "sourceId": "ustr",
+      "title": "Home | United States Trade Representative",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://ustr.gov/",
+      "scope": "Retaliation, import/export policy and official implementation details"
+    },
+    {
+      "id": "fda-trace:page-change",
+      "sourceId": "fda-trace",
+      "title": "FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+      "scope": "Separate proposed rules, enacted enforcement limits and final obligations"
+    },
+    {
+      "id": "stb:page-change",
+      "sourceId": "stb",
+      "title": "Surface Transportation Board",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.stb.gov/reports-data/rail-service-data/",
+      "scope": "Rail service conditions; facility use remains hypothesis"
+    },
+    {
+      "id": "fda-warning:page-change",
+      "sourceId": "fda-warning",
+      "title": "Warning Letters | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters",
+      "scope": "Firm identity and observation dates; a warning letter is not a recall"
+    },
+    {
+      "id": "ofac:page-change",
+      "sourceId": "ofac",
+      "title": "Recent Actions | Office of Foreign Assets Control",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://ofac.treasury.gov/recent-actions",
+      "scope": "Country/entity screening; no unsupported counterparty relationship"
+    },
+    {
+      "id": "eia-energy:page-change",
+      "sourceId": "eia-energy",
+      "title": "Opendata - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/opendata/",
+      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
+    },
+    {
+      "id": "eia-diesel:page-change",
+      "sourceId": "eia-diesel",
+      "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
+      "scope": "Weekly Midwest benchmark; fuel surcharge clauses are unknown"
+    },
+    {
+      "id": "panama:page-change",
+      "sourceId": "panama",
+      "title": "Maritime Services - Autoridad del Canal de Panamá",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://pancanal.com/en/maritime-services/",
+      "scope": "Transit capacity and restrictions; no assumed route"
+    },
+    {
+      "id": "ams-dairy:page-change",
+      "sourceId": "ams-dairy",
+      "title": "Dairy | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
+      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
+    },
+    {
+      "id": "ams-specialty:page-change",
+      "sourceId": "ams-specialty",
+      "title": "Specialty Crops | Agricultural Marketing Service",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Ingredient cost",
+      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
+      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
+    },
+    {
+      "id": "cbp:page-change",
+      "sourceId": "cbp",
+      "title": "Trade | U.S. Customs and Border Protection",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://www.cbp.gov/trade",
+      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
+    },
+    {
+      "id": "usitc:page-change",
+      "sourceId": "usitc",
+      "title": "Harmonized Tariff Schedule",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://hts.usitc.gov/",
+      "scope": "Do not assign a tariff from an ingredient name alone"
+    },
+    {
+      "id": "widatcp:page-change",
+      "sourceId": "widatcp",
+      "title": "DATCP Home News Releases",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
+      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
+    },
+    {
+      "id": "ides:page-change",
+      "sourceId": "ides",
+      "title": "Labor Market Information",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Labor",
+      "sourceUrl": "https://ides.illinois.gov/resources/labor-market-information.html",
+      "scope": "Central Illinois employment, local wages and WARN notices"
+    },
+    {
+      "id": "idph:page-change",
+      "sourceId": "idph",
+      "title": "Food Safety",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://dph.illinois.gov/topics-services/food-safety.html",
+      "scope": "State food protection and notices"
+    },
+    {
+      "id": "eia-steo:page-change",
+      "sourceId": "eia-steo",
+      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Geopolitical / trade",
+      "sourceUrl": "https://www.eia.gov/outlooks/steo/",
+      "scope": "Distinguish agency forecasts and assumptions from observed conditions. Connect chokepoints through oil/distillates to fuel costs; actual routes unknown."
+    },
+    {
+      "id": "eia-industrial:Illinois:2026-08",
+      "sourceId": "eia-industrial",
+      "title": "Industrial electricity average price · 2026-08",
+      "summary": "Illinois: 11.33 cents/kWh. same month previous year; NSA. Reference period 2026-08; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "measurement": {
+        "id": "Illinois:2026-08",
+        "label": "Industrial electricity average price",
+        "referencePeriod": "2026-08",
+        "previousPeriod": "2025-08",
+        "unit": "cents/kWh",
+        "value": 11.33,
+        "previousValue": 10.18,
+        "yearOverYear": 11.296660117878199,
+        "comparison": "same month previous year",
+        "seasonalAdjustment": "NSA",
+        "geography": "Illinois",
+        "preliminary": true
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "eia-industrial:Wisconsin:2026-08",
+      "sourceId": "eia-industrial",
+      "title": "Industrial electricity average price · 2026-08",
+      "summary": "Wisconsin: 10.88 cents/kWh. same month previous year; NSA. Reference period 2026-08; company applicability requires review.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "measurement": {
+        "id": "Wisconsin:2026-08",
+        "label": "Industrial electricity average price",
+        "referencePeriod": "2026-08",
+        "previousPeriod": "2025-08",
+        "unit": "cents/kWh",
+        "value": 10.88,
+        "previousValue": 9.58,
+        "yearOverYear": 13.569937369519835,
+        "comparison": "same month previous year",
+        "seasonalAdjustment": "NSA",
+        "geography": "Wisconsin",
+        "preliminary": true
+      },
+      "dateType": "Reference period is in the measurement; publication date not inferred",
+      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
+    },
+    {
+      "id": "cisa-ransom:page-change",
+      "sourceId": "cisa-ransom",
+      "title": "Stop Ransomware | CISA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T18:25:13.866Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Cyber / OT",
+      "sourceUrl": "https://www.cisa.gov/stopransomware",
+      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
+    },
     {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
@@ -885,162 +1190,6 @@
       "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
-      "id": "fda-fsma:page-change",
-      "sourceId": "fda-fsma",
-      "title": "Food Safety Modernization Act (FSMA) | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/guidance-regulation-food-and-dietary-supplements/food-safety-modernization-act-fsma",
-      "scope": "Human food, animal food, sanitation, FSVP and traceability applicability"
-    },
-    {
-      "id": "fda-cvm:page-change",
-      "sourceId": "fda-cvm",
-      "title": "Animal Foods &amp; Feeds | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/animal-veterinary/products/animal-foods-feeds",
-      "scope": "Pet labeling, claims, pathogens and animal-food preventive controls"
-    },
-    {
-      "id": "ustr:page-change",
-      "sourceId": "ustr",
-      "title": "Home | United States Trade Representative",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://ustr.gov/",
-      "scope": "Retaliation, import/export policy and official implementation details"
-    },
-    {
-      "id": "fda-trace:page-change",
-      "sourceId": "fda-trace",
-      "title": "FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
-      "scope": "Separate proposed rules, enacted enforcement limits and final obligations"
-    },
-    {
-      "id": "stb:page-change",
-      "sourceId": "stb",
-      "title": "Surface Transportation Board",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.stb.gov/reports-data/rail-service-data/",
-      "scope": "Rail service conditions; facility use remains hypothesis"
-    },
-    {
-      "id": "fda-warning:page-change",
-      "sourceId": "fda-warning",
-      "title": "Warning Letters | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters",
-      "scope": "Firm identity and observation dates; a warning letter is not a recall"
-    },
-    {
-      "id": "ofac:page-change",
-      "sourceId": "ofac",
-      "title": "Recent Actions | Office of Foreign Assets Control",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://ofac.treasury.gov/recent-actions",
-      "scope": "Country/entity screening; no unsupported counterparty relationship"
-    },
-    {
-      "id": "eia-energy:page-change",
-      "sourceId": "eia-energy",
-      "title": "Opendata - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/opendata/",
-      "scope": "Daily/weekly gas and petroleum; monthly industrial electricity prices"
-    },
-    {
-      "id": "eia-diesel:page-change",
-      "sourceId": "eia-diesel",
-      "title": "Gasoline and Diesel Fuel Update - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
-      "scope": "Weekly Midwest benchmark; fuel surcharge clauses are unknown"
-    },
-    {
-      "id": "panama:page-change",
-      "sourceId": "panama",
-      "title": "Maritime Services - Autoridad del Canal de Panamá",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://pancanal.com/en/maritime-services/",
-      "scope": "Transit capacity and restrictions; no assumed route"
-    },
-    {
-      "id": "ams-dairy:page-change",
-      "sourceId": "ams-dairy",
-      "title": "Dairy | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/dairy",
-      "scope": "Milk, yogurt solids, butter, cheese and dry dairy products; weekly reports"
-    },
-    {
-      "id": "ams-specialty:page-change",
-      "sourceId": "ams-specialty",
-      "title": "Specialty Crops | Agricultural Marketing Service",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Ingredient cost",
-      "sourceUrl": "https://www.ams.usda.gov/market-news/fruits-vegetables",
-      "scope": "Fruit, vegetables, nuts and seeds; report-specific grade and region"
-    },
-    {
       "id": "usda-transport:page-change",
       "sourceId": "usda-transport",
       "title": "Grain Transportation Report | Agricultural Marketing Service",
@@ -1052,58 +1201,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://www.ams.usda.gov/services/transportation-analysis/gtr",
       "scope": "Weekly truck, rail, barge and ocean context, not Watershed lane pricing"
-    },
-    {
-      "id": "cbp:page-change",
-      "sourceId": "cbp",
-      "title": "Trade | U.S. Customs and Border Protection",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://www.cbp.gov/trade",
-      "scope": "Tariffs, enforcement and customs systems; HTS plus country plus entry date"
-    },
-    {
-      "id": "usitc:page-change",
-      "sourceId": "usitc",
-      "title": "Harmonized Tariff Schedule",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://hts.usitc.gov/",
-      "scope": "Do not assign a tariff from an ingredient name alone"
-    },
-    {
-      "id": "widatcp:page-change",
-      "sourceId": "widatcp",
-      "title": "DATCP Home News Releases",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
-      "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
-    },
-    {
-      "id": "ides:page-change",
-      "sourceId": "ides",
-      "title": "Labor Market Information",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T18:22:52.765Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Labor",
-      "sourceUrl": "https://ides.illinois.gov/resources/labor-market-information.html",
-      "scope": "Central Illinois employment, local wages and WARN notices"
     },
     {
       "id": "federal-register:2026-22739",
@@ -1776,19 +1873,6 @@
       "scope": "Mississippi/Illinois river; no assumed company barge use"
     },
     {
-      "id": "idph:page-change",
-      "sourceId": "idph",
-      "title": "Food Safety",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-14T17:21:37.412Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://dph.illinois.gov/topics-services/food-safety.html",
-      "scope": "State food protection and notices"
-    },
-    {
       "id": "noaa-cpc:page-change",
       "sourceId": "noaa-cpc",
       "title": "Climate Prediction Center",
@@ -2372,75 +2456,6 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     },
     {
-      "id": "eia-steo:page-change",
-      "sourceId": "eia-steo",
-      "title": "Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T16:22:19.573Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Geopolitical / trade",
-      "sourceUrl": "https://www.eia.gov/outlooks/steo/",
-      "scope": "Distinguish agency forecasts and assumptions from observed conditions. Connect chokepoints through oil/distillates to fuel costs; actual routes unknown."
-    },
-    {
-      "id": "eia-industrial:Illinois:2026-08",
-      "sourceId": "eia-industrial",
-      "title": "Industrial electricity average price · 2026-08",
-      "summary": "Illinois: 11.33 cents/kWh. same month previous year; NSA. Reference period 2026-08; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T16:22:19.573Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
-      "measurement": {
-        "id": "Illinois:2026-08",
-        "label": "Industrial electricity average price",
-        "referencePeriod": "2026-08",
-        "previousPeriod": "2025-08",
-        "unit": "cents/kWh",
-        "value": 11.33,
-        "previousValue": 10.18,
-        "yearOverYear": 11.296660117878199,
-        "comparison": "same month previous year",
-        "seasonalAdjustment": "NSA",
-        "geography": "Illinois",
-        "preliminary": true
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
-      "id": "eia-industrial:Wisconsin:2026-08",
-      "sourceId": "eia-industrial",
-      "title": "Industrial electricity average price · 2026-08",
-      "summary": "Wisconsin: 10.88 cents/kWh. same month previous year; NSA. Reference period 2026-08; company applicability requires review.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T16:22:19.573Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
-      "measurement": {
-        "id": "Wisconsin:2026-08",
-        "label": "Industrial electricity average price",
-        "referencePeriod": "2026-08",
-        "previousPeriod": "2025-08",
-        "unit": "cents/kWh",
-        "value": 10.88,
-        "previousValue": 9.58,
-        "yearOverYear": 13.569937369519835,
-        "comparison": "same month previous year",
-        "seasonalAdjustment": "NSA",
-        "geography": "Wisconsin",
-        "preliminary": true
-      },
-      "dateType": "Reference period is in the measurement; publication date not inferred",
-      "scope": "Public benchmark, not a Watershed price, volume, contract or operational fact."
-    },
-    {
       "id": "federal-register:2026-22649",
       "sourceId": "federal-register",
       "title": "Cost Standards and Procedures; Purchasing and Property Management",
@@ -2465,19 +2480,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22657/medical-devices-ear-nose-and-throat-devices-classification-of-the-external-mechanical-stimulator-for",
       "ruleStage": "Rule"
-    },
-    {
-      "id": "cisa-ransom:page-change",
-      "sourceId": "cisa-ransom",
-      "title": "Stop Ransomware | CISA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-13T16:22:19.573Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Cyber / OT",
-      "sourceUrl": "https://www.cisa.gov/stopransomware",
-      "scope": "Food-sector, ERP/cloud/identity and supply-chain incidents with explicit pathways"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6183af3667d980cf254c9584c416b70df4079377.001.1",
@@ -37243,9 +37245,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 42,
   "remaining": 0,
-  "collectedAt": "2026-11-16T17:23:26.266Z",
+  "collectedAt": "2026-11-16T18:25:13.866Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -85183,7 +85185,7 @@
     },
     {
       "date": "2026-11-16",
-      "asOf": "2026-11-16T17:23:26.644Z",
+      "asOf": "2026-11-16T18:25:34.684Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
