@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "hash": "b003b1a451f5af5847c964b4bd1d026b7e28d66a6563d5af4c4b58eea196be74",
       "etag": "W/\"1e877-X8JdLIAaiprixyN2/nSDauT4fP8\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "hash": "4028ec035856331a717d3305e87e45be37d400fc500da34a5464f05fc2773764",
       "etag": "\"1c4bab-6602e367089b8\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
       "etag": null,
       "count": 0,
@@ -84,11 +84,11 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
-      "hash": "cb8ff101cc1998afece04c756a07c0280793f3f617ad80c94dbc7f90acc39a55",
-      "etag": "W/\"16538-1791226471116-gzip\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
+      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
+      "etag": "W/\"16539-1791225934719-gzip\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "ams-dairy",
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
-      "hash": "29e95d5cdfb2a51c550a7e1d72a510a12d559f03015d481b604c7c3cbe1061ae",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
+      "hash": "068d1017cfbb7245603408db6ee9a5d71c39a6d2494ececb95680d2604337f51",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
-      "hash": "7e58ba5d98a989241939f757619d197cf0508f79bfec2184da5c8c16a490f8b0",
-      "etag": "\"1794778157\"",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
+      "hash": "974a232735fbf87b1c954eaca37601b47890a5dadc1de9f24c09e05c0b670e32",
+      "etag": "\"1794775703\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "hash": "ad97e0f820ea600f2ec910c372dff442fe6a8c7bb16fbb279932e7d203c96824",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-16T03:30:49.677Z",
+      "fetchedAt": "2026-11-16T09:33:04.673Z",
       "hash": "e276ca4e721713076437014152fde93f7583c3ab9ba197b696642dd5d0e60fe7",
       "etag": null,
       "count": 0,
@@ -647,7 +647,7 @@
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-16T03:30:49.677Z",
+      "retrievedAt": "2026-11-16T09:33:04.673Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -660,12 +660,25 @@
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-16T03:30:49.677Z",
+      "retrievedAt": "2026-11-16T09:33:04.673Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-16T09:33:04.673Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -1420,19 +1433,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/16/2026-23257/certain-frozen-fish-fillets-from-the-socialist-republic-of-vietnam-preliminary-results-and",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-15T14:21:59.091Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.b6e65897cecf82665a8fa0fdb8359ce4b4ca748e.001.1",
@@ -37065,9 +37065,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 10,
   "remaining": 0,
-  "collectedAt": "2026-11-16T08:40:25.498Z",
+  "collectedAt": "2026-11-16T09:33:04.673Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -85005,7 +85005,7 @@
     },
     {
       "date": "2026-11-16",
-      "asOf": "2026-11-16T08:40:25.875Z",
+      "asOf": "2026-11-16T09:33:05.776Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
