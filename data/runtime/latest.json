@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-16T12:36:12.071Z",
-      "hash": "c50c21e848ec5f23891c65ff7317a0a50c2c7eb9a9518ab7eb51e0a4c670d053",
-      "etag": "W/\"4a72a9a710e2610b84e82c595643feed\"",
-      "count": 1,
+      "fetchedAt": "2026-11-16T13:44:02.745Z",
+      "hash": "15df204712cb10b473ea861e08e597668b6334b71e6f1a84076713e95714053a",
+      "etag": "W/\"e3670d327739b1e99fcc0feeac6745b7\"",
+      "count": 2,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-16T12:36:12.071Z",
-      "hash": "b7303a6b7ab01ad6904c8d79f0ccb09c8ab246a8d44edf877f93b43556425b18",
-      "etag": "W/\"05f2e35b2c1eb63d43c3511ce844c9dc\"",
+      "fetchedAt": "2026-11-16T13:44:02.745Z",
+      "hash": "5982b5c81e576918a63ed62a3dfbba1b6ec30a0f2fe24f17b37474eaab455f14",
+      "etag": "W/\"3dff66f6354e18b93bc3341d176354ab\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-16T10:26:27.701Z",
+      "fetchedAt": "2026-11-16T13:44:02.745Z",
       "hash": "32c236a69e4c946edc98cccf82351541f8179e9ed4fba3d31f5f3a721b49e154",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -647,7 +647,7 @@
       "title": "Special Weather Statement issued November 16 at 3:02AM CST by NWS Paducah KY",
       "summary": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Union; Johnson; Pope; Hardin; Alexander; Pulaski; Massac; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Fulton; Hickman; Carlisle; Ballard; McCracken; Graves; Livingston; Marshall; Calloway; Crittenden; Lyon; Trigg; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd; Perry; Bollinger; Cape Girardeau; Wayne; Carter; Ripley; Butler; Stoddard; Scott; Mississippi; New Madrid: Patchy fog has developed along rivers and other water bodies early this morning. With temperatures below freezing, this may lead to some slick spots on roads, especially elevated surfaces like bridges. If traveling this morning, use caution as visibilities may be reduced to a quarter mile or less at times and there may ",
       "observedAt": "2026-11-16T03:02:00-06:00",
-      "retrievedAt": "2026-11-16T12:36:12.071Z",
+      "retrievedAt": "2026-11-16T13:44:02.745Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -774,6 +774,47 @@
           "MOZ111",
           "MOZ112",
           "MOZ114"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.90610ec1b407cab77c463b7afb1c41bc6d008d41.001.1",
+      "sourceId": "nws-il",
+      "title": "Special Weather Statement issued November 16 at 6:51AM CST by NWS Lincoln IL",
+      "summary": "Coles; Edgar; Cumberland; Clark; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: Patchy fog has developed early this morning. With temperatures below freezing, this may lead to some slick spots on roads, especially elevated surfaces like bridges and overpasses. If traveling this morning, use caution as visibilities may be reduced to a quarter mile or less at times and there may be icy spots on roads. Use low beam headlights in areas of fog.",
+      "observedAt": "2026-11-16T06:51:00-06:00",
+      "retrievedAt": "2026-11-16T13:44:02.745Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-16T08:30:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017029",
+          "017045",
+          "017035",
+          "017023",
+          "017049",
+          "017079",
+          "017033",
+          "017025",
+          "017159",
+          "017101"
+        ],
+        "UGC": [
+          "ILZ056",
+          "ILZ057",
+          "ILZ062",
+          "ILZ063",
+          "ILZ066",
+          "ILZ067",
+          "ILZ068",
+          "ILZ071",
+          "ILZ072",
+          "ILZ073"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -37202,9 +37243,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 2,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-16T12:36:12.071Z",
+  "collectedAt": "2026-11-16T13:44:02.745Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -85142,7 +85183,7 @@
     },
     {
       "date": "2026-11-16",
-      "asOf": "2026-11-16T12:36:12.415Z",
+      "asOf": "2026-11-16T13:44:03.414Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
