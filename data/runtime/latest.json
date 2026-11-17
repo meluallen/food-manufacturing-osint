@@ -2,21 +2,25 @@
   "states": [
     {
       "sourceId": "nws-il",
-      "status": "ok",
-      "fetchedAt": "2026-11-17T14:22:59.696Z",
+      "status": "error",
+      "fetchedAt": "2026-11-17T16:23:45.992Z",
       "hash": "a30ff58b4b0042be4e4621037628e9b99ca1cb923d71e78bb1fbbbc923f8bea8",
       "etag": "W/\"e779db901e7b03bb561cdb6550fbbdd7\"",
       "count": 1,
-      "changed": true
+      "changed": true,
+      "lastSuccessAt": "2026-11-17T14:22:59.696Z",
+      "error": "HTTP 503"
     },
     {
       "sourceId": "nws-wi",
-      "status": "ok",
-      "fetchedAt": "2026-11-17T14:22:59.696Z",
+      "status": "error",
+      "fetchedAt": "2026-11-17T16:23:45.992Z",
       "hash": "7509596eb8ba9053de8fa40dd0f12df4ae9a007f61bb59cf557068f36750106a",
       "etag": "W/\"3d0536d2c85b080401e9d6d13ad920a9\"",
       "count": 0,
-      "changed": true
+      "changed": true,
+      "lastSuccessAt": "2026-11-17T14:22:59.696Z",
+      "error": "HTTP 503"
     },
     {
       "sourceId": "eia-diesel",
@@ -553,12 +557,14 @@
     },
     {
       "sourceId": "nws-ilx-outlook",
-      "status": "ok",
-      "fetchedAt": "2026-11-17T12:28:18.318Z",
+      "status": "error",
+      "fetchedAt": "2026-11-17T16:23:45.992Z",
       "hash": "5790a850aecbe350226a435a4bac20e9c87c393efab2a935a1083cdc186094c7",
       "etag": null,
       "count": 0,
-      "changed": false
+      "changed": false,
+      "lastSuccessAt": "2026-11-17T12:28:18.318Z",
+      "error": "This operation was aborted"
     },
     {
       "sourceId": "eia-industrial",
@@ -37363,9 +37369,9 @@
       "dateType": "FDA enforcement report date"
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-17T15:22:39.761Z",
+  "collectedAt": "2026-11-17T16:23:45.992Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -86094,7 +86100,7 @@
     },
     {
       "date": "2026-11-17",
-      "asOf": "2026-11-17T15:22:39.762Z",
+      "asOf": "2026-11-17T16:24:06.026Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
