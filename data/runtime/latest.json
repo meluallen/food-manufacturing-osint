@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-17T18:24:49.235Z",
-      "hash": "d868b8045af35af614d91ac168ed62c29bb1895336974c488ff6b79fddec95f4",
-      "etag": "W/\"e96622e498420d4e90b73f49834b0f7b\"",
+      "fetchedAt": "2026-11-17T20:22:21.614Z",
+      "hash": "bd434706f1daa5433ad3a02c549b8a0da20d95a7f9067580ddcb7dd5e75b5189",
+      "etag": "W/\"720ce4e793ff0cd3d3326b1b19a1a1d3\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-17T18:24:49.235Z",
-      "hash": "b61fa57c7dbcb6aa8f93ea37ecb762dc0931e26ed74e3449d726a42895e8838e",
-      "etag": "W/\"5446cbb9b2a99b943277805524b5bd4e\"",
+      "fetchedAt": "2026-11-17T20:22:21.614Z",
+      "hash": "bc8b35f943ed606186d116b9453391fa61d7d965ed5f19a6b0bbfc88aa4df2d2",
+      "etag": "W/\"c6855651db67c7da8f074b69e9572bb9\"",
       "count": 0,
       "changed": true
     },
@@ -551,14 +551,12 @@
     },
     {
       "sourceId": "nws-ilx-outlook",
-      "status": "error",
-      "fetchedAt": "2026-11-17T16:23:45.992Z",
+      "status": "ok",
+      "fetchedAt": "2026-11-17T20:22:21.614Z",
       "hash": "5790a850aecbe350226a435a4bac20e9c87c393efab2a935a1083cdc186094c7",
       "etag": null,
       "count": 0,
-      "changed": false,
-      "lastSuccessAt": "2026-11-17T12:28:18.318Z",
-      "error": "This operation was aborted"
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -37314,9 +37312,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 50,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-17T19:22:20.597Z",
+  "collectedAt": "2026-11-17T20:22:21.614Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -86045,7 +86043,7 @@
     },
     {
       "date": "2026-11-17",
-      "asOf": "2026-11-17T19:22:45.166Z",
+      "asOf": "2026-11-17T20:22:21.986Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
