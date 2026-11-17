@@ -2,25 +2,21 @@
   "states": [
     {
       "sourceId": "nws-il",
-      "status": "error",
-      "fetchedAt": "2026-11-17T16:23:45.992Z",
-      "hash": "a30ff58b4b0042be4e4621037628e9b99ca1cb923d71e78bb1fbbbc923f8bea8",
-      "etag": "W/\"e779db901e7b03bb561cdb6550fbbdd7\"",
-      "count": 1,
-      "changed": true,
-      "lastSuccessAt": "2026-11-17T14:22:59.696Z",
-      "error": "HTTP 503"
+      "status": "ok",
+      "fetchedAt": "2026-11-17T18:24:49.235Z",
+      "hash": "d868b8045af35af614d91ac168ed62c29bb1895336974c488ff6b79fddec95f4",
+      "etag": "W/\"e96622e498420d4e90b73f49834b0f7b\"",
+      "count": 0,
+      "changed": true
     },
     {
       "sourceId": "nws-wi",
-      "status": "error",
-      "fetchedAt": "2026-11-17T16:23:45.992Z",
-      "hash": "7509596eb8ba9053de8fa40dd0f12df4ae9a007f61bb59cf557068f36750106a",
-      "etag": "W/\"3d0536d2c85b080401e9d6d13ad920a9\"",
+      "status": "ok",
+      "fetchedAt": "2026-11-17T18:24:49.235Z",
+      "hash": "b61fa57c7dbcb6aa8f93ea37ecb762dc0931e26ed74e3449d726a42895e8838e",
+      "etag": "W/\"5446cbb9b2a99b943277805524b5bd4e\"",
       "count": 0,
-      "changed": true,
-      "lastSuccessAt": "2026-11-17T14:22:59.696Z",
-      "error": "HTTP 503"
+      "changed": true
     },
     {
       "sourceId": "eia-diesel",
@@ -37369,9 +37365,9 @@
       "dateType": "FDA enforcement report date"
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-17T17:22:02.571Z",
+  "collectedAt": "2026-11-17T18:24:49.235Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -86100,7 +86096,7 @@
     },
     {
       "date": "2026-11-17",
-      "asOf": "2026-11-17T17:22:02.572Z",
+      "asOf": "2026-11-17T18:24:51.701Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
