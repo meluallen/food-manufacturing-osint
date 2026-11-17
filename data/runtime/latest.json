@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-17T12:28:18.318Z",
-      "hash": "ee92851d218df71b791cb6523e46dbdf0cc16ca853fcf5c92ae5b6cd79d3f850",
-      "etag": "W/\"4215ac3dfb453d36919592894856c0ba\"",
+      "fetchedAt": "2026-11-17T14:22:59.696Z",
+      "hash": "a30ff58b4b0042be4e4621037628e9b99ca1cb923d71e78bb1fbbbc923f8bea8",
+      "etag": "W/\"e779db901e7b03bb561cdb6550fbbdd7\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-17T12:28:18.318Z",
-      "hash": "e2e7fade97c2247ab0f5bd728b3d167afe414b2874f47801fe2b9600350329e8",
-      "etag": "W/\"0cb89a44c9f53959c90cb7e1ead41d4b\"",
+      "fetchedAt": "2026-11-17T14:22:59.696Z",
+      "hash": "7509596eb8ba9053de8fa40dd0f12df4ae9a007f61bb59cf557068f36750106a",
+      "etag": "W/\"3d0536d2c85b080401e9d6d13ad920a9\"",
       "count": 0,
       "changed": true
     },
@@ -644,6 +644,53 @@
   ],
   "candidates": [
     {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.3d4015c1752e92ee9ae7086a3f000a52de1d08cb.001.1",
+      "sourceId": "nws-il",
+      "title": "Special Weather Statement issued November 17 at 5:47AM CST by NWS Lincoln IL",
+      "summary": "Champaign; Vermilion; Douglas; Coles; Edgar; Cumberland; Clark; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: Patchy dense fog has developed early this morning. With temperatures below freezing, this may lead to some slick spots on roads, especially elevated surfaces like bridges and overpasses. If traveling this morning, use caution as visibilities may be reduced to a quarter mile or less at times and there may be icy spots on roads. Use low beam headlights in areas of fog.",
+      "observedAt": "2026-11-17T05:47:00-06:00",
+      "retrievedAt": "2026-11-17T14:22:59.696Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-17T08:30:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017019",
+          "017183",
+          "017041",
+          "017029",
+          "017045",
+          "017035",
+          "017023",
+          "017049",
+          "017079",
+          "017033",
+          "017025",
+          "017159",
+          "017101"
+        ],
+        "UGC": [
+          "ILZ045",
+          "ILZ046",
+          "ILZ055",
+          "ILZ056",
+          "ILZ057",
+          "ILZ062",
+          "ILZ063",
+          "ILZ066",
+          "ILZ067",
+          "ILZ068",
+          "ILZ071",
+          "ILZ072",
+          "ILZ073"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
@@ -694,53 +741,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://water.noaa.gov/",
       "scope": "Mississippi/Illinois river; no assumed company barge use"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.3d4015c1752e92ee9ae7086a3f000a52de1d08cb.001.1",
-      "sourceId": "nws-il",
-      "title": "Special Weather Statement issued November 17 at 5:47AM CST by NWS Lincoln IL",
-      "summary": "Champaign; Vermilion; Douglas; Coles; Edgar; Cumberland; Clark; Effingham; Jasper; Crawford; Clay; Richland; Lawrence: Patchy dense fog has developed early this morning. With temperatures below freezing, this may lead to some slick spots on roads, especially elevated surfaces like bridges and overpasses. If traveling this morning, use caution as visibilities may be reduced to a quarter mile or less at times and there may be icy spots on roads. Use low beam headlights in areas of fog.",
-      "observedAt": "2026-11-17T05:47:00-06:00",
-      "retrievedAt": "2026-11-17T12:28:18.318Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-17T08:30:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017019",
-          "017183",
-          "017041",
-          "017029",
-          "017045",
-          "017035",
-          "017023",
-          "017049",
-          "017079",
-          "017033",
-          "017025",
-          "017159",
-          "017101"
-        ],
-        "UGC": [
-          "ILZ045",
-          "ILZ046",
-          "ILZ055",
-          "ILZ056",
-          "ILZ057",
-          "ILZ062",
-          "ILZ063",
-          "ILZ066",
-          "ILZ067",
-          "ILZ068",
-          "ILZ071",
-          "ILZ072",
-          "ILZ073"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -37363,9 +37363,9 @@
       "dateType": "FDA enforcement report date"
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-17T13:22:30.043Z",
+  "collectedAt": "2026-11-17T14:22:59.696Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -86094,7 +86094,7 @@
     },
     {
       "date": "2026-11-17",
-      "asOf": "2026-11-17T13:22:30.044Z",
+      "asOf": "2026-11-17T14:22:59.984Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
