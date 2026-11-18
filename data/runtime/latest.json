@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-18T02:25:51.372Z",
-      "hash": "a5425f8e9bba978f11fe584720734dde9cf15a0c2447164df9b853617ac7d5a0",
-      "etag": "W/\"8e84abecbb85b3c60af520516f5e5177\"",
+      "fetchedAt": "2026-11-18T04:23:30.822Z",
+      "hash": "2b658d19e6a403526de57f76196409cc9d647892afe96bb70fec795cc09b7f0b",
+      "etag": "W/\"3c3e18212ab7fb7c4e5b0944b5f5b535\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-18T02:25:51.372Z",
-      "hash": "812e0373761811b8a0d4c7d8b71e340e47bc8b90a80b6803d9023793a8980c30",
-      "etag": "W/\"e7662d669ac8345c966608ae36c7767c\"",
+      "fetchedAt": "2026-11-18T04:23:30.822Z",
+      "hash": "8daf767f6763581c5ef8bfdb7b2789a094910b4c58f1911a859fd2da07bb2360",
+      "etag": "W/\"06d639922339fe2e5f244efbd4c9bc13\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-18T00:42:35.632Z",
+      "fetchedAt": "2026-11-18T04:23:30.822Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -37312,9 +37312,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-18T03:25:16.726Z",
+  "collectedAt": "2026-11-18T04:23:30.822Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -86834,7 +86834,7 @@
     },
     {
       "date": "2026-11-18",
-      "asOf": "2026-11-18T03:25:16.727Z",
+      "asOf": "2026-11-18T04:23:31.145Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
