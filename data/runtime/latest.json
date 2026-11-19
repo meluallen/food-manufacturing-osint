@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
       "hash": "c9cb01ff8736d24c4c1889c1ee51f13e01709b3e92bab9ba796020c648e6725a",
       "etag": "W/\"1ea18-yEvxf/DpKsmW5g8jBX0MRYRUBic\"",
       "count": 60,
@@ -50,11 +50,11 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
       "hash": "ad618e404a43d72ac6435b6e5a8d75000778b9245a6b70dbde46530152f2eef3",
       "etag": "\"1c70eb-66091dd613278\"",
-      "count": 38,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "drought",
@@ -77,20 +77,20 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
-      "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
+      "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
-      "count": 0,
-      "changed": false
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
+      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
+      "etag": "W/\"16539-1791225934719-gzip\"",
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "ams-dairy",
@@ -145,8 +145,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
-      "hash": "5dde75ac60c4ddcd326a7df460d8a3322189cd064928824ad497a7045f568ef3",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
+      "hash": "74a20823e31b0c06e8d8cb7a80ee5752cc8a688f8ff73985427a0aedda79d0df",
       "etag": null,
       "count": 1,
       "changed": true
@@ -183,7 +183,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -204,14 +204,12 @@
     },
     {
       "sourceId": "fda-alerts",
-      "status": "error",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
-      "hash": "f05d75b28f81c87c5d0ab70d157b5c97559d94611a28f20eeed999f1180f41b4",
-      "etag": "\"1794942666\"",
+      "status": "ok",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
+      "hash": "9a326cc92034cb9f1d6e0d96a139ce72408c931281e3f59be5b8bb6bbacf0233",
+      "etag": "\"1795053011\"",
       "count": 1,
-      "changed": true,
-      "lastSuccessAt": "2026-11-18T14:23:06.774Z",
-      "error": "fetch failed"
+      "changed": true
     },
     {
       "sourceId": "fda-warning",
@@ -271,7 +269,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
       "hash": "236e8199b6919122311bff5ca2334fba1149047e61d3bb522e37576567fad7d9",
       "etag": null,
       "count": 0,
@@ -279,7 +277,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -544,8 +542,8 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-18T21:22:20.687Z",
-      "hash": "0931192f0061746219c762b027972819bf30f03b963d8871997ed823d5b2a70f",
+      "fetchedAt": "2026-11-19T03:24:56.517Z",
+      "hash": "5a00298d39133dd45332d6dd72d47d8154a0f3ae837c6e5363eb98dbcb76e579",
       "etag": null,
       "count": 1,
       "changed": true
@@ -652,25 +650,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-19T02:25:52.936Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-18T21:22:20.687Z",
+      "retrievedAt": "2026-11-19T03:24:56.517Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Energy / utilities",
@@ -683,12 +668,64 @@
       "title": "ICS Advisories | CISA",
       "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
       "observedAt": null,
-      "retrievedAt": "2026-11-18T21:22:20.687Z",
+      "retrievedAt": "2026-11-19T03:24:56.517Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/news-events/ics-advisories",
       "scope": "ICS/OT, PLC, HMI, SCADA and vendor compromise; no scanning of facilities"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-19T03:24:56.517Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
+    {
+      "id": "river:page-change",
+      "sourceId": "river",
+      "title": "National Water Prediction Service - NOAA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-19T03:24:56.517Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://water.noaa.gov/",
+      "scope": "Mississippi/Illinois river; no assumed company barge use"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-19T03:24:56.517Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-19T02:25:52.936Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "cisa-kev:CVE-2026-110936",
@@ -1887,32 +1924,6 @@
       "ruleStage": "Notice"
     },
     {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-18T14:23:06.774Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "river:page-change",
-      "sourceId": "river",
-      "title": "National Water Prediction Service - NOAA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-18T14:23:06.774Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://water.noaa.gov/",
-      "scope": "Mississippi/Illinois river; no assumed company barge use"
-    },
-    {
       "id": "cdc:page-change",
       "sourceId": "cdc",
       "title": "Current Outbreaks | Foodborne Outbreaks | CDC",
@@ -1924,19 +1935,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
       "scope": "Category signals only until company/lot exposure is verified"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-18T07:23:57.186Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
     },
     {
       "id": "fda-fsma:page-change",
@@ -37272,9 +37270,9 @@
       "scope": "OpenStreetMap community observations. Nearby roads or rail do not establish company use, legal truck access, current condition or route independence."
     }
   ],
-  "attempted": 3,
+  "attempted": 10,
   "remaining": 0,
-  "collectedAt": "2026-11-19T02:25:52.936Z",
+  "collectedAt": "2026-11-19T03:24:56.517Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -87585,7 +87583,7 @@
     },
     {
       "date": "2026-11-19",
-      "asOf": "2026-11-19T02:25:53.315Z",
+      "asOf": "2026-11-19T03:25:08.330Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
