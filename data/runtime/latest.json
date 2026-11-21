@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "hash": "c9cb01ff8736d24c4c1889c1ee51f13e01709b3e92bab9ba796020c648e6725a",
       "etag": "W/\"1ea18-yEvxf/DpKsmW5g8jBX0MRYRUBic\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "hash": "12c9ca4c5350ecacdf22bdce91b4ffcf06b8c8dc9c69b8bfb4c1a21be7a5fe50",
       "etag": "\"1c8d17-660b8daa9ec10\"",
       "count": 0,
@@ -75,7 +75,7 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "hash": "944a32b20b12e11d65b14f4b0452b3755d92ad29d1bf08db8de95d14b5f8c9ae",
       "etag": null,
       "count": 0,
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
+      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
+      "etag": "W/\"16539-1791225934719-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
-      "hash": "57e55ff26eb20807f11248ba491d0702911f86196114bbc149bdee7e070663ef",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
+      "hash": "83fbf9c7e1a3c8007b41808b3078c816e4a5333cbf2bbfd1db5525005c5649c5",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,9 +203,9 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
-      "hash": "9e1997f1ada3b6a064760e24b2f4ca238b1611ea403e2870deba79a6cefc40f5",
-      "etag": "\"1795217201\"",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
+      "hash": "8702c68eded8d2dcedc90912b63b9adc72d64d3ab9e4b8e5cc76456fc4490b66",
+      "etag": "\"1795295497\"",
       "count": 1,
       "changed": true
     },
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "hash": "236e8199b6919122311bff5ca2334fba1149047e61d3bb522e37576567fad7d9",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-21T16:21:51.931Z",
+      "fetchedAt": "2026-11-21T22:22:02.087Z",
       "hash": "ed743238ca99c990cc5132fcd53169aee0886df532d35899aed622166d5dc2a5",
       "etag": null,
       "count": 0,
@@ -641,6 +641,45 @@
     }
   ],
   "candidates": [
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-21T22:22:02.087Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-21T22:22:02.087Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "fda-alerts:page-change",
+      "sourceId": "fda-alerts",
+      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-21T22:22:02.087Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "Human and animal products; public notices complement enforcement data"
+    },
     {
       "id": "ustr:page-change",
       "sourceId": "ustr",
@@ -1437,45 +1476,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/23/2026-23740/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-21T16:21:51.931Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-21T16:21:51.931Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "fda-alerts:page-change",
-      "sourceId": "fda-alerts",
-      "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-21T16:21:51.931Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
-      "scope": "Human and animal products; public notices complement enforcement data"
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -36706,9 +36706,9 @@
       "ruleStage": "Notice"
     }
   ],
-  "attempted": 42,
+  "attempted": 10,
   "remaining": 0,
-  "collectedAt": "2026-11-21T21:22:27.819Z",
+  "collectedAt": "2026-11-21T22:22:02.087Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -88601,7 +88601,7 @@
     },
     {
       "date": "2026-11-21",
-      "asOf": "2026-11-21T21:22:48.297Z",
+      "asOf": "2026-11-21T22:22:13.574Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
