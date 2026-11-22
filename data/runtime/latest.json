@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-22T11:22:09.697Z",
-      "hash": "0445988ff9f4073286f31448ed006f4e8b308e1dcf59e7a8ca86135faad0f3ab",
-      "etag": "W/\"e8e4d9ecca83dc292da26148c140c666\"",
+      "fetchedAt": "2026-11-22T12:25:45.172Z",
+      "hash": "067e75b2835441f92f64076ff2127596ecd5ae02657c0730c55956787fcc9d64",
+      "etag": "W/\"2977654f46c7d8867295dcabe0995da6\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-22T11:22:09.697Z",
-      "hash": "85dc2812c1778dfe0dfd8eeb4c1fef1c4affb864b439b43898cd3166068a01a1",
-      "etag": "W/\"3767cf564d18b66c66e9cecbe60eb610\"",
+      "fetchedAt": "2026-11-22T12:25:45.172Z",
+      "hash": "899a8d4dbff2abf98b6f1fb098ed85fe7424b2a72e53aa8323a851d5af6e0258",
+      "etag": "W/\"e02914e2889b3bccdc8125a0f68e53de\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-22T08:24:03.798Z",
+      "fetchedAt": "2026-11-22T12:25:45.172Z",
       "hash": "953a39327d6e64654d77d4db25691b42a761fd413a3e60699d4ce60fa2242bfc",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -36706,9 +36706,9 @@
       "ruleStage": "Notice"
     }
   ],
-  "attempted": 12,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-22T11:22:09.697Z",
+  "collectedAt": "2026-11-22T12:25:45.172Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -89392,7 +89392,7 @@
     },
     {
       "date": "2026-11-22",
-      "asOf": "2026-11-22T11:22:21.349Z",
+      "asOf": "2026-11-22T12:25:45.508Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
