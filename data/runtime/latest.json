@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-22T18:23:17.963Z",
-      "hash": "95d95a0e5290ff7ba47b289876ba01b9d3e5718a9052fb8aa68db4fc17ddd5be",
-      "etag": "W/\"3e96478a547f6f415f218d475a7a92b2\"",
+      "fetchedAt": "2026-11-22T20:21:55.096Z",
+      "hash": "7c8c8776e12d5f16ebde0cd9170495b0881ad0738e5d494d3e9ee218b943c2ab",
+      "etag": "W/\"3e31d57b615b5637a0f75ccd6f0890b5\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-22T18:23:17.963Z",
-      "hash": "8ff94607fdec6f4487ee03d035a4e9aabc5f2ed970300f2ac63cdfe2bc5a0949",
-      "etag": "W/\"b21125b73c798bc472031c18a322a874\"",
-      "count": 0,
+      "fetchedAt": "2026-11-22T20:21:55.096Z",
+      "hash": "7298ca462936d5b8bfdcdb5259469234bba699c86ffbabfda15c6decc7f0d80c",
+      "etag": "W/\"8157d2e19450dcf2c4fc3845ff465461\"",
+      "count": 1,
       "changed": true
     },
     {
@@ -641,6 +641,29 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c387171739fa26e5a2a75b475bbc04cc080b0466.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 22 at 12:48PM CST until November 23 at 10:00AM CST by NWS Duluth MN",
+      "summary": "Iron: * WHAT...Lake effect snow expected. Total snow accumulations up to 2 to 5 inches for northeastern Iron County. 1 to 2 inches elsewhere across Iron County. * WHERE...Iron County. * WHEN...From 9 PM this evening to 10 AM CST Monday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
+      "observedAt": "2026-11-22T12:48:00-06:00",
+      "retrievedAt": "2026-11-22T20:21:55.096Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T01:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
@@ -36691,24 +36714,11 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/14/2026-18757/importer-of-controlled-substances-application-irvine-labs-inc",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-18731",
-      "sourceId": "federal-register",
-      "title": "Notice of Request for Extension of a Currently Approved Information Collection",
-      "summary": "In accordance with the Paperwork Reduction Act of 1995, this notice announces the Agricultural Marketing Service's (AMS) intention to request approval from the Office of Management and Budget for an extension of, and revision to, the currently approved information collection National Bioengineered Food Disclosure Standard (the Standard).",
-      "observedAt": "2026-09-14",
-      "retrievedAt": "2026-09-18T19:41:21.869Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/14/2026-18731/notice-of-request-for-extension-of-a-currently-approved-information-collection",
-      "ruleStage": "Notice"
     }
   ],
-  "attempted": 1,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-22T19:22:12.620Z",
+  "collectedAt": "2026-11-22T20:21:55.096Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -89392,7 +89402,7 @@
     },
     {
       "date": "2026-11-22",
-      "asOf": "2026-11-22T19:22:13.017Z",
+      "asOf": "2026-11-22T20:21:55.324Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
