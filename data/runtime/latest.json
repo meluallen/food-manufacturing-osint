@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-22T10:21:58.489Z",
-      "hash": "d0c4700f6815cf63f436260b62c9a5e7db2e7d5df71486e6d138ff34242020a6",
-      "etag": "W/\"710346685021788dfd7006caae9f7a3a\"",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
+      "hash": "0445988ff9f4073286f31448ed006f4e8b308e1dcf59e7a8ca86135faad0f3ab",
+      "etag": "W/\"e8e4d9ecca83dc292da26148c140c666\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-22T10:21:58.489Z",
-      "hash": "50ae5a46a98a931d9fbfafbae74fb5292dc437ea88c5d04df5bb3ae1b1c048df",
-      "etag": "W/\"4f5385266799243bccfc87546e7b6649\"",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
+      "hash": "85dc2812c1778dfe0dfd8eeb4c1fef1c4affb864b439b43898cd3166068a01a1",
+      "etag": "W/\"3767cf564d18b66c66e9cecbe60eb610\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "c9cb01ff8736d24c4c1889c1ee51f13e01709b3e92bab9ba796020c648e6725a",
       "etag": "W/\"1ea18-yEvxf/DpKsmW5g8jBX0MRYRUBic\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "12c9ca4c5350ecacdf22bdce91b4ffcf06b8c8dc9c69b8bfb4c1a21be7a5fe50",
       "etag": "\"1c8d17-660b8daa9ec10\"",
       "count": 0,
@@ -75,16 +75,16 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "150de30a1d277eda7ccb58ad59004160ea3234735795802cde76b10f14cc2cdf",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
       "etag": "W/\"16539-1791225934719-gzip\"",
       "count": 0,
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
-      "hash": "a05103be379cf60f7593c88f6eff332a21610766f45c84b8f834c1923783126a",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
+      "hash": "0d561bf257562c9bc055d7d123a2ea1404b20d7ec7209da8d33648dfeb0364ec",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,11 +203,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "d451f719f44aca6560014c81aa87cf92a0b278849ecb6be81fd28abb6a94a5cd",
       "etag": "\"1795295438\"",
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -261,7 +261,7 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "236e8199b6919122311bff5ca2334fba1149047e61d3bb522e37576567fad7d9",
       "etag": null,
       "count": 0,
@@ -269,7 +269,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-22T04:23:52.530Z",
+      "fetchedAt": "2026-11-22T11:22:09.697Z",
       "hash": "ed743238ca99c990cc5132fcd53169aee0886df532d35899aed622166d5dc2a5",
       "etag": null,
       "count": 0,
@@ -642,6 +642,19 @@
   ],
   "candidates": [
     {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-22T11:22:09.697Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
       "id": "nws-ilx-outlook:page-change",
       "sourceId": "nws-ilx-outlook",
       "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
@@ -653,19 +666,6 @@
       "category": "Facility / weather",
       "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
       "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-22T04:23:52.530Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
     },
     {
       "id": "fda-alerts:page-change",
@@ -36706,9 +36706,9 @@
       "ruleStage": "Notice"
     }
   ],
-  "attempted": 2,
+  "attempted": 12,
   "remaining": 0,
-  "collectedAt": "2026-11-22T10:21:58.489Z",
+  "collectedAt": "2026-11-22T11:22:09.697Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -89392,7 +89392,7 @@
     },
     {
       "date": "2026-11-22",
-      "asOf": "2026-11-22T10:21:58.884Z",
+      "asOf": "2026-11-22T11:22:21.349Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
