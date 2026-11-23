@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-23T08:28:52.997Z",
-      "hash": "83c44937bc750dc83204233b6fbafd21792f7faab5cb681dd4935507fe9470dd",
-      "etag": "W/\"aebf850a95ee4d374bc48812263ec4f1\"",
+      "fetchedAt": "2026-11-23T10:23:12.625Z",
+      "hash": "295a9b52d0ff2b41ec4587860f0fa683fd1f79aa657861bbf64bd43627471a8e",
+      "etag": "W/\"e55fef79aff331ef0bdbae916f6ef9df\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-23T08:28:52.997Z",
-      "hash": "d36f459e447fa568043a14695aa9c0219111e9a14fd603b0ff60d5de808a9089",
-      "etag": "W/\"fc9a109eee6bc0121e85a229f7d29261\"",
+      "fetchedAt": "2026-11-23T10:23:12.625Z",
+      "hash": "17478192be73a89eb6a91d79eeb416f75ead437643784c8d54b168583df47ba3",
+      "etag": "W/\"0e98a8848051b72cc146ebe8e6da039b\"",
       "count": 2,
       "changed": true
     },
@@ -552,7 +552,7 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-23T06:42:08.993Z",
+      "fetchedAt": "2026-11-23T10:23:12.625Z",
       "hash": "b35534494c7bff0db510d4f7d84836ba2183e24984d5b3e0346250a89caa499e",
       "etag": null,
       "count": 0,
@@ -644,6 +644,52 @@
   ],
   "candidates": [
     {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7b0246869fcc02b555da7710bd548945da9084d9.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 23 at 1:46AM CST until November 23 at 10:00AM CST by NWS Green Bay WI",
+      "summary": "Vilas: * WHAT...Snow. Total snow accumulations of 2 to 5 inches across the northern portion of the county, with 1 to 2 inches over the south. * WHERE...Vilas County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute.",
+      "observedAt": "2026-11-23T01:46:00-06:00",
+      "retrievedAt": "2026-11-23T10:23:12.625Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T10:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055125"
+        ],
+        "UGC": [
+          "WIZ005"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.042f13567324553d002e592548900910d0f05963.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 23 at 3:29AM CST until November 23 at 10:00AM CST by NWS Duluth MN",
+      "summary": "Iron: * WHAT...Lake effect snow. Additional snow accumulations up to two inches. * WHERE...Iron County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
+      "observedAt": "2026-11-23T03:29:00-06:00",
+      "retrievedAt": "2026-11-23T10:23:12.625Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T10:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.8b2dec672fa2ab3704f77e78b10e52e7c96afb58.001.1",
       "sourceId": "nws-wi",
       "title": "Winter Weather Advisory issued November 22 at 10:05PM CST until November 23 at 10:00AM CST by NWS Duluth MN",
@@ -662,29 +708,6 @@
         ],
         "UGC": [
           "WIZ004"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7b0246869fcc02b555da7710bd548945da9084d9.001.1",
-      "sourceId": "nws-wi",
-      "title": "Winter Weather Advisory issued November 23 at 1:46AM CST until November 23 at 10:00AM CST by NWS Green Bay WI",
-      "summary": "Vilas: * WHAT...Snow. Total snow accumulations of 2 to 5 inches across the northern portion of the county, with 1 to 2 inches over the south. * WHERE...Vilas County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute.",
-      "observedAt": "2026-11-23T01:46:00-06:00",
-      "retrievedAt": "2026-11-23T08:28:52.997Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-11-23T10:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055125"
-        ],
-        "UGC": [
-          "WIZ005"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -36723,24 +36746,11 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18879/supplemental-nutrition-assistance-program-state-of-north-dakota-snap-demonstration-project",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-18830",
-      "sourceId": "federal-register",
-      "title": "Bacillus amyloliquefaciens strain AT-332; Exemption From the Requirement of a Pesticide Tolerance",
-      "summary": "This regulation establishes an exemption from the requirement of a tolerance for residues of Bacillus amyloliquefaciens strain AT-332 in or on all food and feed commodities when used in accordance with label directions and good agricultural practices. Under the Federal Food, Drug, and Cosmetic Act (FFDCA), Gowan Company, in cooperation with SDS Biotech K.K., c/o Landis International, Inc., submitted a petition to EPA requesting an exemption from the requirement of a tolerance. This regulation eliminates the need to establish a maximum permissible level for residues of this pesticide when used in accordance with the terms of the exemption.",
-      "observedAt": "2026-09-15",
-      "retrievedAt": "2026-09-18T19:41:21.869Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18830/bacillus-amyloliquefaciens-strain-at-332-exemption-from-the-requirement-of-a-pesticide-tolerance",
-      "ruleStage": "Rule"
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-23T09:28:04.015Z",
+  "collectedAt": "2026-11-23T10:23:12.625Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -90215,7 +90225,7 @@
     },
     {
       "date": "2026-11-23",
-      "asOf": "2026-11-23T09:28:04.016Z",
+      "asOf": "2026-11-23T10:23:12.872Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
