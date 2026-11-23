@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-23T06:42:08.993Z",
-      "hash": "bbc0cf9406a0166faf5b8c2d6d8cb9f1c3f498235c49fdbc97825052f67c2a6e",
-      "etag": "W/\"1fa88cc3cbb0a4e91ae10a515316c744\"",
+      "fetchedAt": "2026-11-23T08:28:52.997Z",
+      "hash": "83c44937bc750dc83204233b6fbafd21792f7faab5cb681dd4935507fe9470dd",
+      "etag": "W/\"aebf850a95ee4d374bc48812263ec4f1\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-23T06:42:08.993Z",
-      "hash": "fe217a47a2d713bbe1b19faef719a36535920761ead3674fcfb28df396b23a32",
-      "etag": "W/\"e2708c72317e057bb8c9690d0b483a1e\"",
-      "count": 1,
+      "fetchedAt": "2026-11-23T08:28:52.997Z",
+      "hash": "d36f459e447fa568043a14695aa9c0219111e9a14fd603b0ff60d5de808a9089",
+      "etag": "W/\"fc9a109eee6bc0121e85a229f7d29261\"",
+      "count": 2,
       "changed": true
     },
     {
@@ -644,6 +644,52 @@
   ],
   "candidates": [
     {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.8b2dec672fa2ab3704f77e78b10e52e7c96afb58.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 22 at 10:05PM CST until November 23 at 10:00AM CST by NWS Duluth MN",
+      "summary": "Iron: * WHAT...Lake effect snow expected. Total snow accumulations up to 2 to 5 inches for northeastern Iron County. 1 to 2 inches elsewhere across Iron County. * WHERE...Iron County. * WHEN...Until 10 AM CST Monday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
+      "observedAt": "2026-11-22T22:05:00-06:00",
+      "retrievedAt": "2026-11-23T08:28:52.997Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T10:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.7b0246869fcc02b555da7710bd548945da9084d9.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 23 at 1:46AM CST until November 23 at 10:00AM CST by NWS Green Bay WI",
+      "summary": "Vilas: * WHAT...Snow. Total snow accumulations of 2 to 5 inches across the northern portion of the county, with 1 to 2 inches over the south. * WHERE...Vilas County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute.",
+      "observedAt": "2026-11-23T01:46:00-06:00",
+      "retrievedAt": "2026-11-23T08:28:52.997Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T10:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055125"
+        ],
+        "UGC": [
+          "WIZ005"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
       "id": "miso:page-change",
       "sourceId": "miso",
       "title": "MISO |Midcontinent Independent System Operator",
@@ -694,29 +740,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://waterservices.usgs.gov/",
       "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.8b2dec672fa2ab3704f77e78b10e52e7c96afb58.001.1",
-      "sourceId": "nws-wi",
-      "title": "Winter Weather Advisory issued November 22 at 10:05PM CST until November 23 at 10:00AM CST by NWS Duluth MN",
-      "summary": "Iron: * WHAT...Lake effect snow expected. Total snow accumulations up to 2 to 5 inches for northeastern Iron County. 1 to 2 inches elsewhere across Iron County. * WHERE...Iron County. * WHEN...Until 10 AM CST Monday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
-      "observedAt": "2026-11-22T22:05:00-06:00",
-      "retrievedAt": "2026-11-23T06:42:08.993Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-11-23T10:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "055051"
-        ],
-        "UGC": [
-          "WIZ004"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.c387171739fa26e5a2a75b475bbc04cc080b0466.001.1",
@@ -36713,24 +36736,11 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18830/bacillus-amyloliquefaciens-strain-at-332-exemption-from-the-requirement-of-a-pesticide-tolerance",
       "ruleStage": "Rule"
-    },
-    {
-      "id": "federal-register:2026-18805",
-      "sourceId": "federal-register",
-      "title": "Statistical Considerations for the Design of Rare Disease Clinical Investigations; Establishment of a Public Docket; Request for Information and Comments",
-      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is establishing a public docket to collect feedback on statistical considerations for rare disease clinical investigations. This docket is open in conjunction with a Rare disease Innovation, Science, and Exploration (RISE) Workshop on the same topic. Feedback is welcome both on the attached pre-read documents and on the content covered in the Workshop itself.",
-      "observedAt": "2026-09-15",
-      "retrievedAt": "2026-09-18T19:41:21.869Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18805/statistical-considerations-for-the-design-of-rare-disease-clinical-investigations-establishment-of-a",
-      "ruleStage": "Notice"
     }
   ],
-  "attempted": 10,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-23T07:25:24.371Z",
+  "collectedAt": "2026-11-23T08:28:52.997Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -90205,7 +90215,7 @@
     },
     {
       "date": "2026-11-23",
-      "asOf": "2026-11-23T07:25:36.752Z",
+      "asOf": "2026-11-23T08:28:53.394Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
