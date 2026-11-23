@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-23T16:23:19.602Z",
-      "hash": "a922331ad85d164437716f6211b199325f9da11d3ffdc8171759f0b79da2aadc",
-      "etag": "W/\"d724a501fbfd21244cb9734e7921c797\"",
+      "fetchedAt": "2026-11-23T18:24:18.627Z",
+      "hash": "9abe51418d348a385e6116d168492d5ff44f0f5853881d4549810721d37df224",
+      "etag": "W/\"56bff657569c2f552b62b90600f96dad\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-23T16:23:19.602Z",
-      "hash": "19448c34ea3a43c9f7ec4c297cad3233e4a5c07ad26996141e56733046433ae0",
-      "etag": "W/\"152739ef06fd4738e679ada24e3c0f7f\"",
-      "count": 0,
+      "fetchedAt": "2026-11-23T18:24:18.627Z",
+      "hash": "3b194ae2d8aa9b3ccae9476ff47f267b27c660b692e01521ce982ef967f5fcd9",
+      "etag": "W/\"57d66f68290e1e0c57f62fcdfb26feb8\"",
+      "count": 1,
       "changed": true
     },
     {
@@ -643,6 +643,57 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.00cd8ec8608711140d7d82be4dd17df396fba619.001.1",
+      "sourceId": "nws-wi",
+      "title": "Special Weather Statement issued November 23 at 11:47AM CST by NWS Green Bay WI",
+      "summary": "Forest; Florence; Northern Marinette County; Langlade; Menominee; Northern Oconto County; Door; Shawano; Waupaca; Outagamie; Brown; Kewaunee; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County: Scattered moderate snow showers moving southeast around 20 mph will continue to impact northeast Wisconsin through early this afternoon. Visibilities could briefly drop down to around a half mile and winds may gust to around 25 mph. Minor snow accumulations mainly on grassy and elevated surfaces. Be alert for rapidly changing visibility and road conditions.",
+      "observedAt": "2026-11-23T11:47:00-06:00",
+      "retrievedAt": "2026-11-23T18:24:18.627Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T15:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055041",
+          "055037",
+          "055075",
+          "055067",
+          "055078",
+          "055083",
+          "055029",
+          "055115",
+          "055135",
+          "055087",
+          "055009",
+          "055061",
+          "055015",
+          "055071"
+        ],
+        "UGC": [
+          "WIZ011",
+          "WIZ012",
+          "WIZ013",
+          "WIZ019",
+          "WIZ020",
+          "WIZ021",
+          "WIZ022",
+          "WIZ031",
+          "WIZ037",
+          "WIZ038",
+          "WIZ039",
+          "WIZ040",
+          "WIZ049",
+          "WIZ050",
+          "WIZ073",
+          "WIZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.7b0246869fcc02b555da7710bd548945da9084d9.001.1",
       "sourceId": "nws-wi",
@@ -36733,24 +36784,11 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18880/supplemental-nutrition-assistance-program-state-of-virginia-snap-demonstration-project",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-18879",
-      "sourceId": "federal-register",
-      "title": "Supplemental Nutrition Assistance Program: State of North Dakota SNAP Demonstration Project",
-      "summary": "This notice invites the public to comment on the State of North Dakota's demonstration project authorized under section 17(b) of the Food and Nutrition Act of 2008, 7 U.S.C. 2026(b). The Food and Nutrition Administration (FNA) will take appropriate action as necessary in response to comments.",
-      "observedAt": "2026-09-15",
-      "retrievedAt": "2026-09-18T19:41:21.869Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18879/supplemental-nutrition-assistance-program-state-of-north-dakota-snap-demonstration-project",
-      "ruleStage": "Notice"
     }
   ],
-  "attempted": 1,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-23T17:21:57.356Z",
+  "collectedAt": "2026-11-23T18:24:18.627Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -90225,7 +90263,7 @@
     },
     {
       "date": "2026-11-23",
-      "asOf": "2026-11-23T17:21:57.681Z",
+      "asOf": "2026-11-23T18:24:19.011Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
