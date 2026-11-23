@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-23T02:28:09.059Z",
-      "hash": "b5d32e6642b96c6a272892264193f64d55b77d8d6c56fa42c53f75790142ac4f",
-      "etag": "W/\"cdb0ca1b758d79b9c6dab6dd9466b4b0\"",
+      "fetchedAt": "2026-11-23T04:26:38.179Z",
+      "hash": "02c01403498e3578b6a4824f43b435e684ddb5ee1ffbf8bbde205f253c681241",
+      "etag": "W/\"5736f872fdcdc25964bd16ec0b6842f8\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-23T02:28:09.059Z",
-      "hash": "aae7b0e9a300faa98f01782856a4e19c9f7a395675502a26da34b2bc2496b463",
-      "etag": "W/\"0b0926d26c41ac74c9f65732889c133b\"",
+      "fetchedAt": "2026-11-23T04:26:38.179Z",
+      "hash": "6d0d1acafc6273f80a03d1a1de2f538411f39502d97acda84a928cef364b00ca",
+      "etag": "W/\"9f72e2e78377d88dfe6600087645b387\"",
       "count": 1,
       "changed": true
     },
@@ -643,6 +643,29 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.8b2dec672fa2ab3704f77e78b10e52e7c96afb58.001.1",
+      "sourceId": "nws-wi",
+      "title": "Winter Weather Advisory issued November 22 at 10:05PM CST until November 23 at 10:00AM CST by NWS Duluth MN",
+      "summary": "Iron: * WHAT...Lake effect snow expected. Total snow accumulations up to 2 to 5 inches for northeastern Iron County. 1 to 2 inches elsewhere across Iron County. * WHERE...Iron County. * WHEN...Until 10 AM CST Monday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
+      "observedAt": "2026-11-22T22:05:00-06:00",
+      "retrievedAt": "2026-11-23T04:26:38.179Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-23T10:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "055051"
+        ],
+        "UGC": [
+          "WIZ004"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.c387171739fa26e5a2a75b475bbc04cc080b0466.001.1",
       "sourceId": "nws-wi",
@@ -36703,24 +36726,11 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/09/15/2026-18805/statistical-considerations-for-the-design-of-rare-disease-clinical-investigations-establishment-of-a",
       "ruleStage": "Notice"
-    },
-    {
-      "id": "federal-register:2026-18757",
-      "sourceId": "federal-register",
-      "title": "Importer of Controlled Substances Application: Irvine Labs, Inc.",
-      "summary": "Irvine Labs, Inc. has applied to be registered as an importer of basic class(es) of controlled substance(s). Refer to Supplementary Information listed below for further drug information.",
-      "observedAt": "2026-09-14",
-      "retrievedAt": "2026-09-18T19:41:21.869Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/14/2026-18757/importer-of-controlled-substances-application-irvine-labs-inc",
-      "ruleStage": "Notice"
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-23T03:27:24.459Z",
+  "collectedAt": "2026-11-23T04:26:38.179Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -90195,7 +90205,7 @@
     },
     {
       "date": "2026-11-23",
-      "asOf": "2026-11-23T03:27:24.460Z",
+      "asOf": "2026-11-23T04:26:38.628Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
