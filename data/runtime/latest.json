@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-23T10:23:12.625Z",
-      "hash": "295a9b52d0ff2b41ec4587860f0fa683fd1f79aa657861bbf64bd43627471a8e",
-      "etag": "W/\"e55fef79aff331ef0bdbae916f6ef9df\"",
+      "fetchedAt": "2026-11-23T12:29:42.570Z",
+      "hash": "47504893414e94c8b0134123d27a4b60e9dcebbeedcd8c83509eaacf09f1747a",
+      "etag": "W/\"440368c16e3b5558546f3f360a6c2890\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-23T10:23:12.625Z",
-      "hash": "17478192be73a89eb6a91d79eeb416f75ead437643784c8d54b168583df47ba3",
-      "etag": "W/\"0e98a8848051b72cc146ebe8e6da039b\"",
+      "fetchedAt": "2026-11-23T12:29:42.570Z",
+      "hash": "6e386f795189dce8936fc28bd027da9190763f770aa1157b916ed9fbfb99f011",
+      "etag": "W/\"e34e3beaa84966e058e89681ba945731\"",
       "count": 2,
       "changed": true
     },
@@ -649,7 +649,7 @@
       "title": "Winter Weather Advisory issued November 23 at 1:46AM CST until November 23 at 10:00AM CST by NWS Green Bay WI",
       "summary": "Vilas: * WHAT...Snow. Total snow accumulations of 2 to 5 inches across the northern portion of the county, with 1 to 2 inches over the south. * WHERE...Vilas County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute.",
       "observedAt": "2026-11-23T01:46:00-06:00",
-      "retrievedAt": "2026-11-23T10:23:12.625Z",
+      "retrievedAt": "2026-11-23T12:29:42.570Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -672,7 +672,7 @@
       "title": "Winter Weather Advisory issued November 23 at 3:29AM CST until November 23 at 10:00AM CST by NWS Duluth MN",
       "summary": "Iron: * WHAT...Lake effect snow. Additional snow accumulations up to two inches. * WHERE...Iron County. * WHEN...Until 10 AM CST this morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Monday morning commute. * ADDITIONAL DETAILS...Blustery northwest winds gusting 20 to 25 mph combined with falling snow may cause visibility to fall below 1 mile at times during the Monday morning commute.",
       "observedAt": "2026-11-23T03:29:00-06:00",
-      "retrievedAt": "2026-11-23T10:23:12.625Z",
+      "retrievedAt": "2026-11-23T12:29:42.570Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -36748,9 +36748,9 @@
       "ruleStage": "Notice"
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-23T11:22:14.031Z",
+  "collectedAt": "2026-11-23T12:29:42.570Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -90225,7 +90225,7 @@
     },
     {
       "date": "2026-11-23",
-      "asOf": "2026-11-23T11:22:14.031Z",
+      "asOf": "2026-11-23T12:29:42.950Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
