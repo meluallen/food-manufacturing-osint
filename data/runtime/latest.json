@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-24T20:21:48.799Z",
-      "hash": "6afbb2c4b0d40b4e753e2e19d6f33966867563461914888bcdadcf642f8a5de2",
-      "etag": "W/\"52d2df84965e06dbdccce06fac0264bd\"",
+      "fetchedAt": "2026-11-24T21:22:34.300Z",
+      "hash": "318d2b6b8484c55d326673ed0460a484e926cb6f66439e06e651ef450f7f0170",
+      "etag": "W/\"fcdb12e7711a30dfa410d6980b9a697f\"",
       "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-24T20:21:48.799Z",
-      "hash": "7734abc14dfab754e91092c0250a516431d01bb98b70d123c7a11163eac33123",
-      "etag": "W/\"e22a5b1c933eb6b76be36a3d406f7f81\"",
+      "fetchedAt": "2026-11-24T21:22:34.300Z",
+      "hash": "23f0e8f1a0d20c72a3bc5414361325d9ea7fa206d8460eadedd21e2010d0c26c",
+      "etag": "W/\"680826595c7cd7bb0b9253fa3899dada\"",
       "count": 0,
       "changed": true
     },
@@ -642,25 +642,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-24T20:21:48.799Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.bc110977aba7fe4274dada867ed75d30b6ca40f9.001.1",
       "sourceId": "nws-il",
       "title": "Winter Storm Watch issued November 24 at 12:38PM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
       "summary": "Cass; Menard; Scott; Morgan; Sangamon; Christian: * WHAT...Heavy, wet snow possible. Total snow accumulations between 3 and 6 inches with locally higher amounts possible. * WHERE...Portions of central and west central Illinois. * WHEN...From Wednesday afternoon through Thursday afternoon. * IMPACTS...Travel could be very difficult. The hazardous conditions could impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-24T12:38:00-06:00",
-      "retrievedAt": "2026-11-24T20:21:48.799Z",
+      "retrievedAt": "2026-11-24T21:22:34.300Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -693,7 +680,7 @@
       "title": "Winter Storm Watch issued November 24 at 12:34PM CST until November 26 at 12:00PM CST by NWS Paducah KY",
       "summary": "Jefferson; Perry; Franklin; Jackson; Williamson; Union; Perry; Bollinger; Cape Girardeau: An approaching system is showing an increased risk of producing a quick bout of heavy wet snow late Wednesday night into Thursday. This heavy snow could produce substantial impacts to travel for a period of time on Thanksgiving Day. * WHAT...Heavy wet snow possible. Total snow accumulations between 3 and 5 inches possible. * WHERE...Portions of southern Illinois and southeast Missouri. * WHEN...From Wednesday afternoon through Thursday morning. * IMPACTS...Plan on slippery road conditions. The hazardous conditions could impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-24T12:34:00-06:00",
-      "retrievedAt": "2026-11-24T20:21:48.799Z",
+      "retrievedAt": "2026-11-24T21:22:34.300Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -732,7 +719,7 @@
       "title": "Winter Storm Watch issued November 24 at 12:33PM CST until November 26 at 6:00PM CST by NWS St Louis MO",
       "summary": "Greene; Macoupin; Montgomery; Bond; Fayette; Clinton; Marion; Washington; Randolph; Brown; Pike; Calhoun; Jersey; Madison; St. Clair; Monroe; Lincoln; St. Charles; St. Louis; St. Louis City; Jefferson; St. Francois; Ste. Genevieve: * WHAT...Heavy snow possible. Total snow accumulations between 4 and 6 inches, with heavier amounts possible. * WHERE...Portions of south central, southwest, and west central Illinois and east central and southeast Missouri. * WHEN...From Wednesday afternoon through Thursday afternoon. * IMPACTS...Travel could be very difficult. The hazardous conditions could impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-24T12:33:00-06:00",
-      "retrievedAt": "2026-11-24T20:21:48.799Z",
+      "retrievedAt": "2026-11-24T21:22:34.300Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -792,6 +779,19 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-24T20:21:48.799Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "miso:page-change",
@@ -36747,9 +36747,9 @@
       "scope": "Inventory match required. No Watershed installed technology asserted."
     }
   ],
-  "attempted": 3,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-24T20:21:48.799Z",
+  "collectedAt": "2026-11-24T21:22:34.300Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91015,7 +91015,7 @@
     },
     {
       "date": "2026-11-24",
-      "asOf": "2026-11-24T20:21:49.194Z",
+      "asOf": "2026-11-24T21:22:34.615Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
