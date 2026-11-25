@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-25T10:23:41.383Z",
-      "hash": "20baae5249d98efdd46c2134a3daa126faf9353765c45b4618e8aa335dd2f2b0",
-      "etag": "W/\"e789fd6bb3482d11bc8c6b724bd8f400\"",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "3c4a3cd0f0da0ab71d6c4605643d7ee8882f434664533fde186afc4ce7a6eac1",
+      "etag": "W/\"ff7a46c58bac6571f00ee30811d6b38a\"",
       "count": 8,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-25T10:23:41.383Z",
-      "hash": "25a9ab1660a7ac5c309092f3c6c18ca1763097fbdee83e65cca6afdb4e8822e2",
-      "etag": "W/\"6116a2c47900ffa040860343a52cab31\"",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "6f0be5ac3584720490ee5227eefa6f3563c30e98ae6b96763f1e6add778b7b33",
+      "etag": "W/\"2a672bd02b0b8b22d3eed4705a0dad32\"",
       "count": 0,
       "changed": true
     },
@@ -30,7 +30,7 @@
     {
       "sourceId": "fda-recalls",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "hash": "ef1d67feb24e02c013eb14782c609851ce437ff8d1d93318b06dc2dcb235b4e1",
       "etag": "W/\"1f0a3-KuhwhlvFYuKasihfpa5WOwzr2Wk\"",
       "count": 60,
@@ -48,7 +48,7 @@
     {
       "sourceId": "cisa-kev",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "hash": "17dfaace755c075c10757f20687eaa588181ed9663de80e82936a08ba08e8a1f",
       "etag": "\"1cb165-661094ee04ef8\"",
       "count": 0,
@@ -75,8 +75,8 @@
     {
       "sourceId": "river",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
-      "hash": "e3e241b4b35b7e967c536579144d4701e7f482ac5a9b7b93f54e190f7e1efdd7",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "d0c5fd986c41d15b147c9b27c0005a8de854c86909ce79124b1abd60969a12da",
       "etag": null,
       "count": 1,
       "changed": true
@@ -84,9 +84,9 @@
     {
       "sourceId": "usgs",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
-      "hash": "4fab17ed13c7b21b212ba742c35e7f0192c0c9817300b1f4c9eaed49b06cb22a",
-      "etag": "W/\"16540-1791226223891-gzip\"",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "c6f9d528e14785bfd53437d376f1b85aecd0b0e13aa02be2004d0d4e3216be86",
+      "etag": "W/\"16539-1791225934719-gzip\"",
       "count": 1,
       "changed": true
     },
@@ -143,8 +143,8 @@
     {
       "sourceId": "miso",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
-      "hash": "1ac7b9aa04f443edeb5b2736e9ae8e51919d0931ce6c80e94ce17be33f721c5f",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "72b6cf05a441b77a38446c5c763b95acaca8fd4b70e6b4b405ec929bc905b4bf",
       "etag": null,
       "count": 1,
       "changed": true
@@ -181,7 +181,7 @@
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "sourceId": "marad",
       "status": "blocked"
     },
@@ -203,11 +203,11 @@
     {
       "sourceId": "fda-alerts",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "hash": "bc8cf06e895212640405c33ce507cb1eca345b0a48cd3d00ef64365f72ba15e3",
-      "etag": "\"1795561580\"",
-      "count": 1,
-      "changed": true
+      "etag": "\"1795561629\"",
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "fda-warning",
@@ -261,15 +261,15 @@
     {
       "sourceId": "cdc",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
-      "hash": "236e8199b6919122311bff5ca2334fba1149047e61d3bb522e37576567fad7d9",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
+      "hash": "7aba869f2892ea05fc8c600e9218d3ac2a4a741ba25e794310bd1bfc67239223",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "sourceId": "fsis",
       "status": "blocked"
     },
@@ -534,7 +534,7 @@
     {
       "sourceId": "cisa-ics",
       "status": "ok",
-      "fetchedAt": "2026-11-25T05:23:40.184Z",
+      "fetchedAt": "2026-11-25T12:29:34.288Z",
       "hash": "64fb764976baed7932c9824e7716fa4e97137c5f81ae9c11be8fd3970bc07509",
       "etag": null,
       "count": 0,
@@ -649,7 +649,7 @@
       "title": "Winter Weather Advisory issued November 25 at 1:03AM CST until November 26 at 6:00PM CST by NWS St Louis MO",
       "summary": "Macoupin; Madison; St. Clair: * WHAT...Snow expected. Total snow accumulations between 3 and 5 inches. * WHERE...Macoupin IL, Madison IL, and Saint Clair IL Counties. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
       "observedAt": "2026-11-25T01:03:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -676,7 +676,7 @@
       "title": "Winter Storm Warning issued November 25 at 1:03AM CST until November 26 at 6:00PM CST by NWS St Louis MO",
       "summary": "Greene; Randolph; Pike; Calhoun; Jersey; Monroe; Lincoln; St. Charles; St. Louis; St. Louis City; Jefferson; St. Francois; Ste. Genevieve: * WHAT...Heavy snow expected. Total snow accumulations between 3 and 9 inches. * WHERE...Portions of southwest and west central Illinois and east central and southeast Missouri. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous. The weight of snow on tree limbs may down power lines and could cause sporadic power outages.",
       "observedAt": "2026-11-25T01:03:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -723,7 +723,7 @@
       "title": "Winter Weather Advisory issued November 25 at 1:03AM CST until November 26 at 6:00PM CST by NWS St Louis MO",
       "summary": "Montgomery; Bond; Clinton; Washington: * WHAT...Wet snow expected. Total snow accumulations up to two inches. * WHERE...Bond IL, Clinton IL, Montgomery IL, and Washington IL Counties. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
       "observedAt": "2026-11-25T01:03:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -752,7 +752,7 @@
       "title": "Winter Weather Advisory issued November 25 at 1:03AM CST until November 26 at 6:00PM CST by NWS St Louis MO",
       "summary": "Adams; Brown; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Boone; Audrain; Moniteau; Cole; Osage; Callaway; Montgomery: * WHAT...Snow expected. Total snow accumulations between 1 and 5 inches. * WHERE...Portions of west central Illinois and central, east central, and northeast Missouri. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
       "observedAt": "2026-11-25T01:03:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -803,7 +803,7 @@
       "title": "Winter Weather Advisory issued November 25 at 12:51AM CST until November 26 at 12:00PM CST by NWS Paducah KY",
       "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season is set to impact portions of our region as we head into the Thanksgiving holiday. A sharp gradient between very little snow and impactful snow amounts is expected. That sharp cutoff appears likely to setup within 25 miles of the Mississippi River, with latest trends shifting further west with the heavier axis. * WHAT...Wet snow expected. Total snow accumulations of 1 to 2 inches with the highest totals potentially approaching 3 inches near the Mississippi River. * WHERE...Alexander, Jackson, Perry IL, and Union Counties in southern Illinois. * WHEN...From 3 PM this afternoon to noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-25T00:51:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -827,25 +827,12 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.7aae060214ee30967d0f3c6c467971155babf542.001.1",
       "sourceId": "nws-il",
       "title": "Winter Weather Advisory issued November 25 at 3:41AM CST until November 26 at 6:00PM CST by NWS Quad Cities IA IL",
       "summary": "Lee; Hancock; McDonough; Scotland; Clark: * WHAT...Snow expected. Total snow accumulations between 1 and 3 inches. * WHERE...In Illinois, Hancock and McDonough Counties. In Iowa, Lee County. In Missouri, Clark and Scotland Counties. * WHEN...From 6 PM this evening to 6 PM CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning travel.",
       "observedAt": "2026-11-25T03:41:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -876,7 +863,7 @@
       "title": "Winter Weather Advisory issued November 25 at 2:55AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
       "summary": "Fulton; Schuyler; Mason; Cass; Menard; Sangamon: * WHAT...Snow expected. Total snow accumulations 1 to 3 inches from Canton to Petersburg to Springfield southwest. * WHERE...Portions of central and west central Illinois. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Plan on slippery road conditions to develop during the afternoon and continue tonight into Thursday morning. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-25T02:55:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -909,7 +896,7 @@
       "title": "Winter Storm Warning issued November 25 at 2:55AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
       "summary": "Scott; Morgan: * WHAT...Heavy wet snow expected. Total snow accumulations between 3 and 6 inches, with the heaviest amounts southwest of Jacksonville. * WHERE...A portion of west central Illinois. * WHEN...From noon today to 6 PM CST Thursday. * IMPACTS...Travel could be very difficult especially late this afternoon and evening when moderate snows are likely. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
       "observedAt": "2026-11-25T02:55:00-06:00",
-      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -927,6 +914,71 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "miso:page-change",
+      "sourceId": "miso",
+      "title": "MISO |Midcontinent Independent System Operator",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Energy / utilities",
+      "sourceUrl": "https://www.misoenergy.org/",
+      "scope": "Regional grid conditions; site balancing area and utility unverified"
+    },
+    {
+      "id": "usgs:page-change",
+      "sourceId": "usgs",
+      "title": "Water Services Web",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://waterservices.usgs.gov/",
+      "scope": "Select relevant gauges only after route exposure is validated"
+    },
+    {
+      "id": "river:page-change",
+      "sourceId": "river",
+      "title": "National Water Prediction Service - NOAA",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Transportation / logistics",
+      "sourceUrl": "https://water.noaa.gov/",
+      "scope": "Mississippi/Illinois river; no assumed company barge use"
+    },
+    {
+      "id": "cdc:page-change",
+      "sourceId": "cdc",
+      "title": "Current Outbreaks | Foodborne Outbreaks | CDC",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-25T12:29:34.288Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Food safety / regulatory",
+      "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
+      "scope": "Category signals only until company/lot exposure is verified"
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-25T10:23:41.383Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.337ec74b656be98cdcf765bacdd0376ce111822e.001.1",
@@ -1228,19 +1280,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "miso:page-change",
-      "sourceId": "miso",
-      "title": "MISO |Midcontinent Independent System Operator",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-25T05:23:40.184Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Energy / utilities",
-      "sourceUrl": "https://www.misoenergy.org/",
-      "scope": "Regional grid conditions; site balancing area and utility unverified"
-    },
-    {
       "id": "fda-alerts:page-change",
       "sourceId": "fda-alerts",
       "title": "Recalls, Market Withdrawals, &amp; Safety Alerts | FDA",
@@ -1252,32 +1291,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "usgs:page-change",
-      "sourceId": "usgs",
-      "title": "Water Services Web",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-25T05:23:40.184Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://waterservices.usgs.gov/",
-      "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "river:page-change",
-      "sourceId": "river",
-      "title": "National Water Prediction Service - NOAA",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-25T05:23:40.184Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Transportation / logistics",
-      "sourceUrl": "https://water.noaa.gov/",
-      "scope": "Mississippi/Illinois river; no assumed company barge use"
     },
     {
       "id": "fda-recalls:H-0130-2027",
@@ -4794,19 +4807,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/11/10/2026-22865/color-additive-petition-from-environmental-defense-fund-et-al-request-to-amend-the-color-additive",
       "ruleStage": "Rule"
-    },
-    {
-      "id": "cdc:page-change",
-      "sourceId": "cdc",
-      "title": "Current Outbreaks | Foodborne Outbreaks | CDC",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-18T14:23:06.774Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Food safety / regulatory",
-      "sourceUrl": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/index.html",
-      "scope": "Category signals only until company/lot exposure is verified"
     },
     {
       "id": "federal-register:2026-22739",
@@ -36293,9 +36293,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 12,
   "remaining": 0,
-  "collectedAt": "2026-11-25T11:22:53.044Z",
+  "collectedAt": "2026-11-25T12:29:34.288Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91352,7 +91352,7 @@
     },
     {
       "date": "2026-11-25",
-      "asOf": "2026-11-25T11:22:53.045Z",
+      "asOf": "2026-11-25T12:29:46.447Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
