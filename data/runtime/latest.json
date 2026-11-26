@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-26T00:41:32.492Z",
-      "hash": "fdae344681bbfa768970b77e70c40852960bcbf92c23f182c42f15e462ed9f90",
-      "etag": "W/\"98783de5fb06577d7467da926f4b0815\"",
+      "fetchedAt": "2026-11-26T02:26:37.106Z",
+      "hash": "82e428595f24f60efae5a57a2718ad619c74b6200c62604110098f07f26869bd",
+      "etag": "W/\"b9ed03ebc379f998d2ba8954db0a560f\"",
       "count": 8,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-26T00:41:32.492Z",
-      "hash": "8a6b5d5e403b11d4d47b673e8372fedbd3c8b2170232aff7dee38a8a41a6f668",
-      "etag": "W/\"62b30f5c0b13f72ff9fa087a71cdd02b\"",
+      "fetchedAt": "2026-11-26T02:26:37.106Z",
+      "hash": "d9d69eb76b968af618298f823724957aab3a1b05eb9683bf123ee0d31307cce1",
+      "etag": "W/\"9ed07a6e434e8d64135db0ed98b787a1\"",
       "count": 0,
       "changed": true
     },
@@ -641,6 +641,276 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Storm Warning issued November 25 at 11:16AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
+      "summary": "Scott; Morgan: * WHAT...Heavy snow expected. Total snow accumulations between 2 and 5 inches. * WHERE...A portion of west central Illinois. * WHEN...Until 6 PM CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
+      "observedAt": "2026-11-25T11:16:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T04:15:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017171",
+          "017137"
+        ],
+        "UGC": [
+          "ILZ049",
+          "ILZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.003.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 11:16AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
+      "summary": "Schuyler; Cass; Menard; Sangamon: * WHAT...Snow expected. Total snow accumulations up to 3 inches. The highest totals will be in portions of southern Schuyler, southern Cass, western Menard, and western Sangamon counties. * WHERE...Portions of central and west central Illinois. * WHEN...Until 6 PM CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
+      "observedAt": "2026-11-25T11:16:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T04:15:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017169",
+          "017017",
+          "017129",
+          "017167"
+        ],
+        "UGC": [
+          "ILZ040",
+          "ILZ047",
+          "ILZ048",
+          "ILZ051"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.001.1",
+      "sourceId": "nws-il",
+      "title": "The Winter Weather Advisory has been cancelled.",
+      "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
+      "observedAt": "2026-11-25T11:16:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-25T11:31:18-06:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017057",
+          "017125"
+        ],
+        "UGC": [
+          "ILZ036",
+          "ILZ041"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.216f13704ffc676d9d4a96a7ec7fbbe0b7bad672.001.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 11:07AM CST until November 26 at 12:00PM CST by NWS Quad Cities IA IL",
+      "summary": "Lee; Hancock; McDonough; Scotland; Clark: * WHAT...Snow expected. Total snow accumulations up to two inches. * WHERE...In Illinois, Hancock and McDonough Counties. In Iowa, Lee County. In Missouri, Clark and Scotland Counties. * WHEN...From 6 PM this evening to noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact overnight and Thanksgiving morning travel.",
+      "observedAt": "2026-11-25T11:07:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-25T19:15:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "019111",
+          "017067",
+          "017109",
+          "029199",
+          "029045"
+        ],
+        "UGC": [
+          "IAZ099",
+          "ILZ034",
+          "ILZ035",
+          "MOZ009",
+          "MOZ010"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.006.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Adams; Brown; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Boone; Audrain; Moniteau; Cole; Osage; Callaway; Montgomery: * WHAT...Snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Portions of west central Illinois and central, east central, and northeast Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
+      "observedAt": "2026-11-25T18:25:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T09:30:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017001",
+          "017009",
+          "029103",
+          "029111",
+          "029205",
+          "029127",
+          "029137",
+          "029173",
+          "029019",
+          "029007",
+          "029135",
+          "029051",
+          "029151",
+          "029027",
+          "029139"
+        ],
+        "UGC": [
+          "ILZ095",
+          "ILZ096",
+          "MOZ018",
+          "MOZ019",
+          "MOZ026",
+          "MOZ027",
+          "MOZ034",
+          "MOZ035",
+          "MOZ041",
+          "MOZ042",
+          "MOZ047",
+          "MOZ048",
+          "MOZ049",
+          "MOZ050",
+          "MOZ051"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.005.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Macoupin; Montgomery; Bond; Clinton; Washington; Madison: * WHAT...Wet snow. Additional snow accumulations up to 4 inches. * WHERE...Portions of south central and southwest Illinois. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
+      "observedAt": "2026-11-25T18:25:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T09:30:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017117",
+          "017135",
+          "017005",
+          "017027",
+          "017189",
+          "017119"
+        ],
+        "UGC": [
+          "ILZ059",
+          "ILZ060",
+          "ILZ064",
+          "ILZ069",
+          "ILZ074",
+          "ILZ100"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.001.1",
+      "sourceId": "nws-il",
+      "title": "Winter Storm Warning issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Greene; Randolph; Pike; Calhoun; Jersey; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson: * WHAT...Heavy snow. Additional snow accumulations between 3 and 9 inches. * WHERE...Portions of southwest and west central Illinois and east central Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
+      "observedAt": "2026-11-25T18:25:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T09:30:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017061",
+          "017157",
+          "017149",
+          "017013",
+          "017083",
+          "017163",
+          "017133",
+          "029113",
+          "029073",
+          "029183",
+          "029189",
+          "029510",
+          "029099"
+        ],
+        "UGC": [
+          "ILZ058",
+          "ILZ079",
+          "ILZ097",
+          "ILZ098",
+          "ILZ099",
+          "ILZ101",
+          "ILZ102",
+          "MOZ052",
+          "MOZ059",
+          "MOZ061",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.cd56f3303dc53e732e841e65a07c3e2da04e1241.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 5:06PM CST until November 26 at 12:00PM CST by NWS Paducah KY",
+      "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season is underway as we head into the Thanksgiving holiday. A sharp gradient between very little snow and impactful snow amounts is expected. * WHAT...Wet snow. Additional snow accumulations up to two inches. * WHERE...Alexander, Jackson, Perry, and Union Counties in Illinois. * WHEN...Until noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
+      "observedAt": "2026-11-25T17:06:00-06:00",
+      "retrievedAt": "2026-11-26T02:26:37.106Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T02:15:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017145",
+          "017077",
+          "017181",
+          "017003"
+        ],
+        "UGC": [
+          "ILZ080",
+          "ILZ084",
+          "ILZ088",
+          "ILZ092"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -1303,116 +1573,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.002.1",
-      "sourceId": "nws-il",
-      "title": "Winter Storm Warning issued November 25 at 11:16AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
-      "summary": "Scott; Morgan: * WHAT...Heavy snow expected. Total snow accumulations between 2 and 5 inches. * WHERE...A portion of west central Illinois. * WHEN...Until 6 PM CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
-      "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T04:15:00-06:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017171",
-          "017137"
-        ],
-        "UGC": [
-          "ILZ049",
-          "ILZ050"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.003.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 11:16AM CST until November 26 at 6:00PM CST by NWS Lincoln IL",
-      "summary": "Schuyler; Cass; Menard; Sangamon: * WHAT...Snow expected. Total snow accumulations up to 3 inches. The highest totals will be in portions of southern Schuyler, southern Cass, western Menard, and western Sangamon counties. * WHERE...Portions of central and west central Illinois. * WHEN...Until 6 PM CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
-      "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T04:15:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017169",
-          "017017",
-          "017129",
-          "017167"
-        ],
-        "UGC": [
-          "ILZ040",
-          "ILZ047",
-          "ILZ048",
-          "ILZ051"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.001.1",
-      "sourceId": "nws-il",
-      "title": "The Winter Weather Advisory has been cancelled.",
-      "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
-      "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-25T11:31:18-06:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "017057",
-          "017125"
-        ],
-        "UGC": [
-          "ILZ036",
-          "ILZ041"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.216f13704ffc676d9d4a96a7ec7fbbe0b7bad672.001.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 11:07AM CST until November 26 at 12:00PM CST by NWS Quad Cities IA IL",
-      "summary": "Lee; Hancock; McDonough; Scotland; Clark: * WHAT...Snow expected. Total snow accumulations up to two inches. * WHERE...In Illinois, Hancock and McDonough Counties. In Iowa, Lee County. In Missouri, Clark and Scotland Counties. * WHEN...From 6 PM this evening to noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact overnight and Thanksgiving morning travel.",
-      "observedAt": "2026-11-25T11:07:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-25T19:15:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "019111",
-          "017067",
-          "017109",
-          "029199",
-          "029045"
-        ],
-        "UGC": [
-          "IAZ099",
-          "ILZ034",
-          "ILZ035",
-          "MOZ009",
-          "MOZ010"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "nws-ilx-outlook:page-change",
@@ -2132,166 +2292,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://datcp.wi.gov/Pages/News_Media/NewsReleases.aspx",
       "scope": "Wisconsin agency news including food alerts, agricultural grants and animal-disease notices; actual operator, ingredient and facility applicability must be resolved"
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.006.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Adams; Brown; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Boone; Audrain; Moniteau; Cole; Osage; Callaway; Montgomery: * WHAT...Snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Portions of west central Illinois and central, east central, and northeast Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
-      "observedAt": "2026-11-25T18:25:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T09:30:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017001",
-          "017009",
-          "029103",
-          "029111",
-          "029205",
-          "029127",
-          "029137",
-          "029173",
-          "029019",
-          "029007",
-          "029135",
-          "029051",
-          "029151",
-          "029027",
-          "029139"
-        ],
-        "UGC": [
-          "ILZ095",
-          "ILZ096",
-          "MOZ018",
-          "MOZ019",
-          "MOZ026",
-          "MOZ027",
-          "MOZ034",
-          "MOZ035",
-          "MOZ041",
-          "MOZ042",
-          "MOZ047",
-          "MOZ048",
-          "MOZ049",
-          "MOZ050",
-          "MOZ051"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.005.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Macoupin; Montgomery; Bond; Clinton; Washington; Madison: * WHAT...Wet snow. Additional snow accumulations up to 4 inches. * WHERE...Portions of south central and southwest Illinois. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
-      "observedAt": "2026-11-25T18:25:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T09:30:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017117",
-          "017135",
-          "017005",
-          "017027",
-          "017189",
-          "017119"
-        ],
-        "UGC": [
-          "ILZ059",
-          "ILZ060",
-          "ILZ064",
-          "ILZ069",
-          "ILZ074",
-          "ILZ100"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.eb6a6dc717e9164d34365f6629b078bf01a7dab7.001.1",
-      "sourceId": "nws-il",
-      "title": "Winter Storm Warning issued November 25 at 6:25PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Greene; Randolph; Pike; Calhoun; Jersey; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson: * WHAT...Heavy snow. Additional snow accumulations between 3 and 9 inches. * WHERE...Portions of southwest and west central Illinois and east central Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
-      "observedAt": "2026-11-25T18:25:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T09:30:00-06:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017061",
-          "017157",
-          "017149",
-          "017013",
-          "017083",
-          "017163",
-          "017133",
-          "029113",
-          "029073",
-          "029183",
-          "029189",
-          "029510",
-          "029099"
-        ],
-        "UGC": [
-          "ILZ058",
-          "ILZ079",
-          "ILZ097",
-          "ILZ098",
-          "ILZ099",
-          "ILZ101",
-          "ILZ102",
-          "MOZ052",
-          "MOZ059",
-          "MOZ061",
-          "MOZ063",
-          "MOZ064",
-          "MOZ065"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.cd56f3303dc53e732e841e65a07c3e2da04e1241.002.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 5:06PM CST until November 26 at 12:00PM CST by NWS Paducah KY",
-      "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season is underway as we head into the Thanksgiving holiday. A sharp gradient between very little snow and impactful snow amounts is expected. * WHAT...Wet snow. Additional snow accumulations up to two inches. * WHERE...Alexander, Jackson, Perry, and Union Counties in Illinois. * WHEN...Until noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Wednesday evening and Thursday morning commutes.",
-      "observedAt": "2026-11-25T17:06:00-06:00",
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T02:15:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017145",
-          "017077",
-          "017181",
-          "017003"
-        ],
-        "UGC": [
-          "ILZ080",
-          "ILZ084",
-          "ILZ088",
-          "ILZ092"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
       "id": "federal-register:2026-24015",
@@ -35755,9 +35755,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 10,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-26T01:22:38.214Z",
+  "collectedAt": "2026-11-26T02:26:37.106Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91605,7 +91605,7 @@
     },
     {
       "date": "2026-11-26",
-      "asOf": "2026-11-26T01:22:49.758Z",
+      "asOf": "2026-11-26T02:26:37.363Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
