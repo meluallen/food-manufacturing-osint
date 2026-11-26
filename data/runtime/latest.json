@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-26T06:33:42.060Z",
-      "hash": "9f71a980b5011451a3cbd3bd5922786e46eb2772d1778a58fa890e3ecd33a00c",
-      "etag": "W/\"2ba213c90bf97d90755b0d1bd9210616\"",
+      "fetchedAt": "2026-11-26T08:26:30.065Z",
+      "hash": "b6771e522d576d95a8282e5db79dfa74a23c54f3be6a8e2e65c2a2ec0ec02e6d",
+      "etag": "W/\"df7287e8140f53c8990031269f41ff2a\"",
       "count": 9,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-26T06:33:42.060Z",
-      "hash": "3ab41136eb76c1ec639707adf7ee08ffdc311e4d315eac11232b2ceaab57cccc",
-      "etag": "W/\"a38ff05b1566d1632bd7ab025467f8a3\"",
+      "fetchedAt": "2026-11-26T08:26:30.065Z",
+      "hash": "fe2f173267f994c0547f9303bb1633772c5b89d3c4815ad949d8d4bf7201c579",
+      "etag": "W/\"5a66fe57411e54eda26c277b32e88e38\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-26T04:25:05.035Z",
-      "hash": "40ab8326ec16956de9b18443835930f58133f82e96397da7cf5e4011b9e7a689",
+      "fetchedAt": "2026-11-26T08:26:30.065Z",
+      "hash": "b186d7c50dff90251af7d249131a836e8b7b1026c7386edde2e1ad49cfcb8531",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -641,6 +641,302 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.001.1",
+      "sourceId": "nws-il",
+      "title": "The Winter Weather Advisory has been cancelled.",
+      "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
+      "observedAt": "2026-11-25T11:16:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-25T11:31:18-06:00",
+      "severity": "Minor",
+      "geocodes": {
+        "SAME": [
+          "017057",
+          "017125"
+        ],
+        "UGC": [
+          "ILZ036",
+          "ILZ041"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.003.1",
+      "sourceId": "nws-il",
+      "title": "Winter Storm Warning issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Greene; Randolph; Pike; Calhoun; Jersey; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson: * WHAT...Heavy snow. Additional snow accumulations between 3 and 6 inches. * WHERE...Portions of southwest and west central Illinois and east central Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-25T22:27:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017061",
+          "017157",
+          "017149",
+          "017013",
+          "017083",
+          "017163",
+          "017133",
+          "029113",
+          "029073",
+          "029183",
+          "029189",
+          "029510",
+          "029099"
+        ],
+        "UGC": [
+          "ILZ058",
+          "ILZ079",
+          "ILZ097",
+          "ILZ098",
+          "ILZ099",
+          "ILZ101",
+          "ILZ102",
+          "MOZ052",
+          "MOZ059",
+          "MOZ061",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.001.2",
+      "sourceId": "nws-il",
+      "title": "Winter Storm Warning issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Macoupin; Madison: * WHAT...Heavy wet snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Macoupin IL and Madison IL Counties. * WHEN...Until noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-25T22:27:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017117",
+          "017119"
+        ],
+        "UGC": [
+          "ILZ059",
+          "ILZ100"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.008.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Adams; Brown; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Boone; Moniteau; Cole: * WHAT...Snow. Additional snow accumulations between 1 and 3 inches. * WHERE...Portions of west central Illinois and central and northeast Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
+      "observedAt": "2026-11-25T22:27:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017001",
+          "017009",
+          "029103",
+          "029111",
+          "029205",
+          "029127",
+          "029137",
+          "029173",
+          "029019",
+          "029135",
+          "029051"
+        ],
+        "UGC": [
+          "ILZ095",
+          "ILZ096",
+          "MOZ018",
+          "MOZ019",
+          "MOZ026",
+          "MOZ027",
+          "MOZ034",
+          "MOZ035",
+          "MOZ041",
+          "MOZ047",
+          "MOZ048"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.007.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Montgomery; Bond; Clinton; Washington: * WHAT...Wet snow. Additional snow accumulations up to two inches. * WHERE...Bond IL, Clinton IL, Montgomery IL, and Washington IL Counties. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
+      "observedAt": "2026-11-25T22:27:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017135",
+          "017005",
+          "017027",
+          "017189"
+        ],
+        "UGC": [
+          "ILZ060",
+          "ILZ064",
+          "ILZ069",
+          "ILZ074"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ae2efb6fc825bc334e43cd016f825eff8544c41c.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 26 at 2:02AM CST until November 26 at 12:00PM CST by NWS Lincoln IL",
+      "summary": "Schuyler; Cass; Menard; Sangamon: * WHAT...Wet snow. Additional snow accumulations up to one inch. * WHERE...Portions of central and west central Illinois. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-26T02:02:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017169",
+          "017017",
+          "017129",
+          "017167"
+        ],
+        "UGC": [
+          "ILZ040",
+          "ILZ047",
+          "ILZ048",
+          "ILZ051"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ae2efb6fc825bc334e43cd016f825eff8544c41c.001.2",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 26 at 2:02AM CST until November 26 at 12:00PM CST by NWS Lincoln IL",
+      "summary": "Scott; Morgan: * WHAT...Wet snow. Additional snow accumulations up to one inch. * WHERE...A portion of west central Illinois. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning and evening commutes. Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
+      "observedAt": "2026-11-26T02:02:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017171",
+          "017137"
+        ],
+        "UGC": [
+          "ILZ049",
+          "ILZ050"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ffb4f26e6c149f76500fafdd1b649a1a8f1e4152.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 26 at 1:40AM CST until November 26 at 12:00PM CST by NWS Paducah KY",
+      "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season continues into Thanksgiving morning. A sharp gradient between very little snow and impactful snow amounts exists with additional snowfall occurring early this morning. * WHAT...Wet snow. Additional snow accumulations between 1 to 2 inches. * WHERE...Alexander, Jackson, Perry IL, and Union Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-26T01:40:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017145",
+          "017077",
+          "017181",
+          "017003"
+        ],
+        "UGC": [
+          "ILZ080",
+          "ILZ084",
+          "ILZ088",
+          "ILZ092"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.771e1fce3e1e3c1fc65a3d78e7e34b0b089efd57.001.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 26 at 12:54AM CST until November 26 at 12:00PM CST by NWS Quad Cities IA IL",
+      "summary": "Lee; Hancock; McDonough; Scotland; Clark: * WHAT...Snow. Additional snow accumulations up to one inch. * WHERE...In Illinois, Hancock and McDonough Counties. In Iowa, Lee County. In Missouri, Clark and Scotland Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact overnight and Thanksgiving morning travel.",
+      "observedAt": "2026-11-26T00:54:00-06:00",
+      "retrievedAt": "2026-11-26T08:26:30.065Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T09:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "019111",
+          "017067",
+          "017109",
+          "029199",
+          "029045"
+        ],
+        "UGC": [
+          "IAZ099",
+          "ILZ034",
+          "ILZ035",
+          "MOZ009",
+          "MOZ010"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "miso:page-change",
       "sourceId": "miso",
@@ -735,31 +1031,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.d9351e34b4dfe644738213fa38f7f5b8c231b2fc.001.1",
-      "sourceId": "nws-il",
-      "title": "The Winter Weather Advisory has been cancelled.",
-      "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
-      "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T06:33:42.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-25T11:31:18-06:00",
-      "severity": "Minor",
-      "geocodes": {
-        "SAME": [
-          "017057",
-          "017125"
-        ],
-        "UGC": [
-          "ILZ036",
-          "ILZ041"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.cd56f3303dc53e732e841e65a07c3e2da04e1241.002.1",
       "sourceId": "nws-il",
       "title": "Winter Weather Advisory issued November 25 at 5:06PM CST until November 26 at 12:00PM CST by NWS Paducah KY",
@@ -815,150 +1086,6 @@
           "ILZ035",
           "MOZ009",
           "MOZ010"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.003.1",
-      "sourceId": "nws-il",
-      "title": "Winter Storm Warning issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Greene; Randolph; Pike; Calhoun; Jersey; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson: * WHAT...Heavy snow. Additional snow accumulations between 3 and 6 inches. * WHERE...Portions of southwest and west central Illinois and east central Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Travel could be very difficult. The hazardous conditions will impact the Thursday morning commute.",
-      "observedAt": "2026-11-25T22:27:00-06:00",
-      "retrievedAt": "2026-11-26T06:33:42.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T12:00:00-06:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017061",
-          "017157",
-          "017149",
-          "017013",
-          "017083",
-          "017163",
-          "017133",
-          "029113",
-          "029073",
-          "029183",
-          "029189",
-          "029510",
-          "029099"
-        ],
-        "UGC": [
-          "ILZ058",
-          "ILZ079",
-          "ILZ097",
-          "ILZ098",
-          "ILZ099",
-          "ILZ101",
-          "ILZ102",
-          "MOZ052",
-          "MOZ059",
-          "MOZ061",
-          "MOZ063",
-          "MOZ064",
-          "MOZ065"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.001.2",
-      "sourceId": "nws-il",
-      "title": "Winter Storm Warning issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Macoupin; Madison: * WHAT...Heavy wet snow. Additional snow accumulations between 2 and 4 inches. * WHERE...Macoupin IL and Madison IL Counties. * WHEN...Until noon CST Thursday. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
-      "observedAt": "2026-11-25T22:27:00-06:00",
-      "retrievedAt": "2026-11-26T06:33:42.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T12:00:00-06:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017117",
-          "017119"
-        ],
-        "UGC": [
-          "ILZ059",
-          "ILZ100"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.008.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Adams; Brown; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Boone; Moniteau; Cole: * WHAT...Snow. Additional snow accumulations between 1 and 3 inches. * WHERE...Portions of west central Illinois and central and northeast Missouri. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
-      "observedAt": "2026-11-25T22:27:00-06:00",
-      "retrievedAt": "2026-11-26T06:33:42.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T12:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017001",
-          "017009",
-          "029103",
-          "029111",
-          "029205",
-          "029127",
-          "029137",
-          "029173",
-          "029019",
-          "029135",
-          "029051"
-        ],
-        "UGC": [
-          "ILZ095",
-          "ILZ096",
-          "MOZ018",
-          "MOZ019",
-          "MOZ026",
-          "MOZ027",
-          "MOZ034",
-          "MOZ035",
-          "MOZ041",
-          "MOZ047",
-          "MOZ048"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.007.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 25 at 10:27PM CST until November 26 at 12:00PM CST by NWS St Louis MO",
-      "summary": "Montgomery; Bond; Clinton; Washington: * WHAT...Wet snow. Additional snow accumulations up to two inches. * WHERE...Bond IL, Clinton IL, Montgomery IL, and Washington IL Counties. * WHEN...Until noon CST Thursday. * IMPACTS...Roads, and especially bridges and overpasses, will likely become slick and hazardous.",
-      "observedAt": "2026-11-25T22:27:00-06:00",
-      "retrievedAt": "2026-11-26T06:33:42.060Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T12:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017135",
-          "017005",
-          "017027",
-          "017189"
-        ],
-        "UGC": [
-          "ILZ060",
-          "ILZ064",
-          "ILZ069",
-          "ILZ074"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -1748,19 +1875,6 @@
       "category": "Cyber / OT",
       "sourceUrl": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "scope": "Inventory match required. No Watershed installed technology asserted."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-26T00:41:32.492Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "ustr:page-change",
@@ -35713,103 +35827,11 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.003.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 22 at 5:00AM CDT by NWS La Crosse WI",
-      "summary": "Vernon, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Readstown. * WHEN...From late tonight to late Monday night. * IMPACTS...At 12.0 feet, The park along the river experiences significant flooding. * ADDITIONAL DETAILS... - There is no current observed data. - Bankfull stage is 10.0 feet. - Forecast...The river is expected to rise above flood stage late tonight to a crest of 11.5 feet tomorrow evening.",
-      "observedAt": "2026-09-19T09:34:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T00:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055123"
-        ],
-        "UGC": [
-          "WIC123"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.001.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 23 at 2:00PM CDT by NWS La Crosse WI",
-      "summary": "Crawford, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Gays Mills. * WHEN...From this morning to Wednesday afternoon. * IMPACTS...At 13.0 feet, Water begins to cover roads near the river, including Sand Hill Road near Bell Center. Minor flooding occurs in areas adjacent to the river, including Robb Park in Gays Mills. * ADDITIONAL DETAILS... - At 8:00 AM CDT Saturday the stage was 12.8 feet. - Bankfull",
-      "observedAt": "2026-09-19T09:34:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T00:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055023"
-        ],
-        "UGC": [
-          "WIC023"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-wi:urn:oid:2.49.0.1.840.0.c8079876531af6f9c9f92dbaeeb1e11285bd3f7a.002.1",
-      "sourceId": "nws-wi",
-      "title": "Flood Warning issued September 19 at 9:34AM CDT until September 24 at 3:00AM CDT by NWS La Crosse WI",
-      "summary": "Crawford, WI: ...The National Weather Service in La Crosse has issued a Flood Warning for the following rivers in Wisconsin... Kickapoo River at Gays Mills affecting Crawford County. Kickapoo River at Steuben affecting Crawford County. Kickapoo River at Readstown affecting Vernon County. Additional river and weather information is available at www.weather.gov/lacrosse. The next statement will be issued late tonight by 1245 AM CDT. * WHAT...Minor flooding is forecast. * WHERE...Kickapoo River at Steuben. * WHEN...From late tonight to late Wednesday night. * IMPACTS...At 12.5 feet, Water reaches the bottom support beams of the bridge. * ADDITIONAL DETAILS... - At 8:45 AM CDT Saturday the stage was 8.9 feet. - Bankfull stage is 10.0 feet. - Forecast...The river will rise above flood stage late tonight to 12.3 feet early Monday morning. It wi",
-      "observedAt": "2026-09-19T09:34:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
-      "expiresAt": "2026-09-20T00:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "055023"
-        ],
-        "UGC": [
-          "WIC023"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.10a485a6e88f5d21391e967144cb58bfc90c5c54.002.1",
-      "sourceId": "nws-il",
-      "title": "Beach Hazards Statement issued September 19 at 2:50PM CDT until September 22 at 7:00PM CDT by NWS Chicago IL",
-      "summary": "Lake: * WHAT...For the first Beach Hazards Statement, lingering dangerous currents expected. Waves 2 to 5 feet expected. For the second Beach Hazards Statement, High wave action and dangerous currents expected at Lake Michigan beaches. Waves 7 to 10 ft expected. * WHERE...Lake County IL. * WHEN...For the first Beach Hazards Statement, until 7 PM CDT this evening. For the second Beach Hazards Statement, from Sunday morning through Tuesday evening. * IMPACTS...Swimming conditions will be life threatening, especially for inexperienced swimmers.",
-      "observedAt": "2026-09-19T14:50:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-19T23:00:00-05:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 10,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-26T07:24:25.933Z",
+  "collectedAt": "2026-11-26T08:26:30.065Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91657,7 +91679,7 @@
     },
     {
       "date": "2026-11-26",
-      "asOf": "2026-11-26T07:24:35.470Z",
+      "asOf": "2026-11-26T08:26:30.330Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
