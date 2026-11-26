@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-26T18:25:25.583Z",
-      "hash": "3e05005505ca8555243ac4c1a14e9bc4811e390c72f6e3073df96cf6830b07cc",
-      "etag": "W/\"3781ca9252e9441abee578983379d8c3\"",
+      "fetchedAt": "2026-11-26T20:22:39.290Z",
+      "hash": "d6bd2629e1527eb10acdf84478fe6e48298435eba174b5bc8e5b98b30b185102",
+      "etag": "W/\"3effcab75b21a012d2375606df5c1fe0\"",
       "count": 1,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-26T18:25:25.583Z",
-      "hash": "c64a031f5ce974243d3d0271083fb58ac1fb0ceea5126413a4e3bd85047628a0",
-      "etag": "W/\"a3d31050f5abb3f12564f6012c034aec\"",
+      "fetchedAt": "2026-11-26T20:22:39.290Z",
+      "hash": "9cdc0eb3951b8337f85c7b4ae42597ed08ebe6e88e1f8f6ff04654db892ae218",
+      "etag": "W/\"b7e7e48323319cea4f9ac52d0933fe80\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-26T16:24:07.158Z",
-      "hash": "efc7a2f951575dd09f746c3ca45453fd9abc8a3516476a2737427520227e0464",
+      "fetchedAt": "2026-11-26T20:22:39.290Z",
+      "hash": "ab06b07b900cb542cccf7021f2a0fb56e586fce56f62a79f98666b8dd1bd73eb",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -647,7 +647,7 @@
       "title": "The Winter Weather Advisory has been cancelled.",
       "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
       "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T18:25:25.583Z",
+      "retrievedAt": "2026-11-26T20:22:39.290Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -665,6 +665,19 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-26T20:22:39.290Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.ffb4f26e6c149f76500fafdd1b649a1a8f1e4152.002.1",
@@ -759,19 +772,6 @@
       "category": "Food safety / regulatory",
       "sourceUrl": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
       "scope": "Human and animal products; public notices complement enforcement data"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-26T12:29:08.577Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.5ffff647c85f23ef6ecab73c488ae02703a11155.003.1",
@@ -35855,9 +35855,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-26T19:22:15.348Z",
+  "collectedAt": "2026-11-26T20:22:39.290Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91705,7 +91705,7 @@
     },
     {
       "date": "2026-11-26",
-      "asOf": "2026-11-26T19:22:15.349Z",
+      "asOf": "2026-11-26T20:22:39.753Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
