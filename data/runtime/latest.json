@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-26T14:23:41.280Z",
-      "hash": "743a4bc8929354edbb7a5c56a54a9bb5424ea4a5dd05d3fa77fd76b7df95e6ee",
-      "etag": "W/\"23670c572eb4953e846324f4a147bd1b\"",
-      "count": 3,
+      "fetchedAt": "2026-11-26T16:24:07.158Z",
+      "hash": "936ebf5ef3b43cf20eee6ccbddf1914b920ac31371d1f581f2616a2599c57aab",
+      "etag": "W/\"a5171e4507a3f8f68b2eebbafe638fa3\"",
+      "count": 2,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-26T14:23:41.280Z",
-      "hash": "03c6aa39058a50072ad3dff4ff882f8adcfc21c15727bf7e36c77372be2e0a23",
-      "etag": "W/\"4df2b4e865667c7d42fc8b1fe22743fd\"",
+      "fetchedAt": "2026-11-26T16:24:07.158Z",
+      "hash": "57fb047f613f350a6f86627f6c1130b2a84da57ca425e426dd676016b12e4ab4",
+      "etag": "W/\"13b3234a0fb415d71027f535b5668a6f\"",
       "count": 0,
       "changed": true
     },
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-26T12:29:08.577Z",
+      "fetchedAt": "2026-11-26T16:24:07.158Z",
       "hash": "efc7a2f951575dd09f746c3ca45453fd9abc8a3516476a2737427520227e0464",
       "etag": null,
-      "count": 1,
-      "changed": true
+      "count": 0,
+      "changed": false
     },
     {
       "sourceId": "eia-industrial",
@@ -647,7 +647,7 @@
       "title": "The Winter Weather Advisory has been cancelled.",
       "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
       "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T14:23:41.280Z",
+      "retrievedAt": "2026-11-26T16:24:07.158Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -672,7 +672,7 @@
       "title": "Winter Weather Advisory issued November 26 at 1:40AM CST until November 26 at 12:00PM CST by NWS Paducah KY",
       "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season continues into Thanksgiving morning. A sharp gradient between very little snow and impactful snow amounts exists with additional snowfall occurring early this morning. * WHAT...Wet snow. Additional snow accumulations between 1 to 2 inches. * WHERE...Alexander, Jackson, Perry IL, and Union Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
       "observedAt": "2026-11-26T01:40:00-06:00",
-      "retrievedAt": "2026-11-26T14:23:41.280Z",
+      "retrievedAt": "2026-11-26T16:24:07.158Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -35855,9 +35855,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-26T15:22:54.181Z",
+  "collectedAt": "2026-11-26T16:24:07.158Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91705,7 +91705,7 @@
     },
     {
       "date": "2026-11-26",
-      "asOf": "2026-11-26T15:22:54.182Z",
+      "asOf": "2026-11-26T16:24:07.455Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
