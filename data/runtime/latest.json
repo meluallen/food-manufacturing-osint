@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-26T10:23:14.036Z",
-      "hash": "8ccf626263ec950b2720ebe5a1df42ee73d4f8c67468f3296a49a230b44ab0d9",
-      "etag": "W/\"83d4aed948564d0a6a59e5997b5b1f3b\"",
-      "count": 7,
+      "fetchedAt": "2026-11-26T12:29:08.577Z",
+      "hash": "b0988a1be5048e3fa233d5d00f4e2a6333f5008f7e4e59b3b5b8e1ed51547f1b",
+      "etag": "W/\"b18da2549eeaf2e3d7f9e4d8eaccda43\"",
+      "count": 3,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-26T10:23:14.036Z",
-      "hash": "291b3b2f6c3cf67433eeeec3dcbf9d341b3b75cadb58e04cda9b86564c455024",
-      "etag": "W/\"25a51242ddfe04a8165c0fab76ebb4a0\"",
+      "fetchedAt": "2026-11-26T12:29:08.577Z",
+      "hash": "dd06382a8aab5bf7874f53130ffde30cf0162206122c871507c9eda5e2010cfa",
+      "etag": "W/\"cf1f7651a1739cb37e9a3d60701e271b\"",
       "count": 0,
       "changed": true
     },
@@ -552,8 +552,8 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-26T08:26:30.065Z",
-      "hash": "b186d7c50dff90251af7d249131a836e8b7b1026c7386edde2e1ad49cfcb8531",
+      "fetchedAt": "2026-11-26T12:29:08.577Z",
+      "hash": "efc7a2f951575dd09f746c3ca45453fd9abc8a3516476a2737427520227e0464",
       "etag": null,
       "count": 1,
       "changed": true
@@ -647,7 +647,7 @@
       "title": "The Winter Weather Advisory has been cancelled.",
       "summary": "Fulton; Mason: The Winter Weather Advisory has been cancelled and is no longer in effect.",
       "observedAt": "2026-11-25T11:16:00-06:00",
-      "retrievedAt": "2026-11-26T10:23:14.036Z",
+      "retrievedAt": "2026-11-26T12:29:08.577Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -662,6 +662,87 @@
         "UGC": [
           "ILZ036",
           "ILZ041"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.ffb4f26e6c149f76500fafdd1b649a1a8f1e4152.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Weather Advisory issued November 26 at 1:40AM CST until November 26 at 12:00PM CST by NWS Paducah KY",
+      "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season continues into Thanksgiving morning. A sharp gradient between very little snow and impactful snow amounts exists with additional snowfall occurring early this morning. * WHAT...Wet snow. Additional snow accumulations between 1 to 2 inches. * WHERE...Alexander, Jackson, Perry IL, and Union Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-26T01:40:00-06:00",
+      "retrievedAt": "2026-11-26T12:29:08.577Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "017145",
+          "017077",
+          "017181",
+          "017003"
+        ],
+        "UGC": [
+          "ILZ080",
+          "ILZ084",
+          "ILZ088",
+          "ILZ092"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-26T12:29:08.577Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-il:urn:oid:2.49.0.1.840.0.5bcd466135206f78f99b5c8a01c58d185ecc6900.002.1",
+      "sourceId": "nws-il",
+      "title": "Winter Storm Warning issued November 26 at 6:02AM CST until November 26 at 12:00PM CST by NWS St Louis MO",
+      "summary": "Randolph; St. Clair; Monroe; Lincoln; Gasconade; St. Charles; St. Louis; St. Louis City; Jefferson: * WHAT...Heavy wet snow. Additional snow accumulations up to one inch. * WHERE...Portions of southwest Illinois and east central Missouri. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
+      "observedAt": "2026-11-26T06:02:00-06:00",
+      "retrievedAt": "2026-11-26T12:29:08.577Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
+      "expiresAt": "2026-11-26T12:00:00-06:00",
+      "severity": "Severe",
+      "geocodes": {
+        "SAME": [
+          "017157",
+          "017163",
+          "017133",
+          "029113",
+          "029073",
+          "029183",
+          "029189",
+          "029510",
+          "029099"
+        ],
+        "UGC": [
+          "ILZ079",
+          "ILZ101",
+          "ILZ102",
+          "MOZ052",
+          "MOZ059",
+          "MOZ061",
+          "MOZ063",
+          "MOZ064",
+          "MOZ065"
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
@@ -811,35 +892,6 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     },
     {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.ffb4f26e6c149f76500fafdd1b649a1a8f1e4152.002.1",
-      "sourceId": "nws-il",
-      "title": "Winter Weather Advisory issued November 26 at 1:40AM CST until November 26 at 12:00PM CST by NWS Paducah KY",
-      "summary": "Perry; Jackson; Union; Alexander: Our first winter storm of the season continues into Thanksgiving morning. A sharp gradient between very little snow and impactful snow amounts exists with additional snowfall occurring early this morning. * WHAT...Wet snow. Additional snow accumulations between 1 to 2 inches. * WHERE...Alexander, Jackson, Perry IL, and Union Counties. * WHEN...Until noon CST today. * IMPACTS...Plan on slippery road conditions. The hazardous conditions will impact the Thursday morning commute.",
-      "observedAt": "2026-11-26T01:40:00-06:00",
-      "retrievedAt": "2026-11-26T10:23:14.036Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-11-26T12:00:00-06:00",
-      "severity": "Moderate",
-      "geocodes": {
-        "SAME": [
-          "017145",
-          "017077",
-          "017181",
-          "017003"
-        ],
-        "UGC": [
-          "ILZ080",
-          "ILZ084",
-          "ILZ088",
-          "ILZ092"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.6155b95829885938dc82962c651dc8e3bd52661e.001.1",
       "sourceId": "nws-il",
       "title": "Winter Weather Advisory issued November 26 at 2:36AM CST until November 26 at 12:00PM CST by NWS Lincoln IL",
@@ -871,19 +923,6 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-26T08:26:30.065Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "nws-il:urn:oid:2.49.0.1.840.0.ae2efb6fc825bc334e43cd016f825eff8544c41c.002.1",
@@ -35814,34 +35853,11 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.b8e9befef8f951fb27438f5071453db7e503f01a.003.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 9:38AM CDT by NWS Chicago IL",
-      "summary": "Lake: ...The National Weather Service in Chicago has issued a Flood Watch for the following rivers in Illinois... Des Plaines River near Russell affecting Lake IL County. Des Plaines River near Gurnee affecting Lake IL County. Des Plaines River at Lincolnshire affecting Cook and Lake IL County. Des Plaines River near Des Plaines affecting Cook County. Des Plaines River at Riverside affecting Cook County. .The combination of heavy rain this morning and expected additional thunderstorms with heavy rain tonight may lead to river flooding along the Des Plaines River basin as early as Sunday morning. The heavy rain tonight is expected to occur along a roughly west to east axis across northern Illinois, though the exact location across the river basin remains uncertain. Flooding severity may be higher or lower over the basin depending on the ul",
-      "observedAt": "2026-09-19T09:38:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T03:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017097"
-        ],
-        "UGC": [
-          "ILZ006"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-26T11:22:19.534Z",
+  "collectedAt": "2026-11-26T12:29:08.577Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -91689,7 +91705,7 @@
     },
     {
       "date": "2026-11-26",
-      "asOf": "2026-11-26T11:22:19.534Z",
+      "asOf": "2026-11-26T12:29:08.819Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
