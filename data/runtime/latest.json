@@ -3,18 +3,18 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-27T12:28:45.289Z",
-      "hash": "21cae8a797fdbe7c353584bdb39b9d84d02f04c8e709123b21c9c3eb6f750d36",
-      "etag": "W/\"e2d2824ba21827744cb55579b8419def\"",
+      "fetchedAt": "2026-11-27T14:22:51.274Z",
+      "hash": "5fb56fecaebf91df6c90233d6cb9fa86460cf16a7f84ff833cc4330d72e29667",
+      "etag": "W/\"a5b354596fc827ebe6fc6d07420ebf2d\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-27T12:28:45.289Z",
-      "hash": "e5c7e66cd26ae72b6d052610cc7075e4437be89d9ad1bea96b9e3660cec19006",
-      "etag": "W/\"98e801098c9edcb8b5be90c4016fa8a3\"",
+      "fetchedAt": "2026-11-27T14:22:51.274Z",
+      "hash": "52a8757cfe52112d6b2a294a5d7c1157586feda609816982b2f80be2c012ecd4",
+      "etag": "W/\"a1ef698496d9fdd6b6a182e3b6cc363c\"",
       "count": 1,
       "changed": true
     },
@@ -642,25 +642,12 @@
   ],
   "candidates": [
     {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-27T12:28:45.289Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
-    },
-    {
       "id": "nws-wi:urn:oid:2.49.0.1.840.0.1e57568c1ca6b809e3e775fe70029031bc73d52d.001.1",
       "sourceId": "nws-wi",
       "title": "Dense Fog Advisory issued November 27 at 6:07AM CST until November 27 at 9:00AM CST by NWS Duluth MN",
       "summary": "Carlton/South St. Louis; Douglas: * WHAT...Visibility less than one mile in dense fog. * WHERE...In Minnesota, Carlton and South St. Louis County. In Wisconsin, Douglas County. * WHEN...Until 9 AM CST this morning. * IMPACTS...Low visibility could make driving conditions hazardous. In areas where temperatures are near or below freezing, the fog could result in icy roads, sidewalks, and other surfaces.",
       "observedAt": "2026-11-27T06:07:00-06:00",
-      "retrievedAt": "2026-11-27T12:28:45.289Z",
+      "retrievedAt": "2026-11-27T14:22:51.274Z",
       "evidenceClass": "INFERRED",
       "status": "candidate",
       "category": "Facility / weather",
@@ -679,6 +666,19 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
+    },
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-27T12:28:45.289Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "thrive:page-change",
@@ -35799,9 +35799,9 @@
       "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 0,
+  "attempted": 2,
   "remaining": 0,
-  "collectedAt": "2026-11-27T13:22:44.742Z",
+  "collectedAt": "2026-11-27T14:22:51.274Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -92440,7 +92440,7 @@
     },
     {
       "date": "2026-11-27",
-      "asOf": "2026-11-27T13:22:44.743Z",
+      "asOf": "2026-11-27T14:22:51.571Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
