@@ -3,19 +3,19 @@
     {
       "sourceId": "nws-il",
       "status": "ok",
-      "fetchedAt": "2026-11-27T10:22:54.000Z",
-      "hash": "aa23e98b8cee013c883d9c1d609d3acc7a4ce9e6d626c3e205f88e9b51b14ddd",
-      "etag": "W/\"f56b1c3819bcb4015057ebc019130ce7\"",
+      "fetchedAt": "2026-11-27T12:28:45.289Z",
+      "hash": "21cae8a797fdbe7c353584bdb39b9d84d02f04c8e709123b21c9c3eb6f750d36",
+      "etag": "W/\"e2d2824ba21827744cb55579b8419def\"",
       "count": 0,
       "changed": true
     },
     {
       "sourceId": "nws-wi",
       "status": "ok",
-      "fetchedAt": "2026-11-27T10:22:54.000Z",
-      "hash": "4193d7c3eb08ba7089ae174a1239126601b16273a46c239ecde2c25188fb503b",
-      "etag": "W/\"e8f1b9c543d7b8f0d7158411cf5d385a\"",
-      "count": 0,
+      "fetchedAt": "2026-11-27T12:28:45.289Z",
+      "hash": "e5c7e66cd26ae72b6d052610cc7075e4437be89d9ad1bea96b9e3660cec19006",
+      "etag": "W/\"98e801098c9edcb8b5be90c4016fa8a3\"",
+      "count": 1,
       "changed": true
     },
     {
@@ -552,11 +552,11 @@
     {
       "sourceId": "nws-ilx-outlook",
       "status": "ok",
-      "fetchedAt": "2026-11-27T08:26:27.855Z",
-      "hash": "6ab9e17656abbf454f007061ac07eb0b90af5d6b83887ed8aa4d54d14ba53c0c",
+      "fetchedAt": "2026-11-27T12:28:45.289Z",
+      "hash": "96cd6fa36fbf08d19cddc98c3f2a4bd6b5d0f62f85b9f5e9d76e7ecc427eff48",
       "etag": null,
-      "count": 0,
-      "changed": false
+      "count": 1,
+      "changed": true
     },
     {
       "sourceId": "eia-industrial",
@@ -641,6 +641,45 @@
     }
   ],
   "candidates": [
+    {
+      "id": "nws-ilx-outlook:page-change",
+      "sourceId": "nws-ilx-outlook",
+      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
+      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
+      "observedAt": null,
+      "retrievedAt": "2026-11-27T12:28:45.289Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
+      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
+    },
+    {
+      "id": "nws-wi:urn:oid:2.49.0.1.840.0.1e57568c1ca6b809e3e775fe70029031bc73d52d.001.1",
+      "sourceId": "nws-wi",
+      "title": "Dense Fog Advisory issued November 27 at 6:07AM CST until November 27 at 9:00AM CST by NWS Duluth MN",
+      "summary": "Carlton/South St. Louis; Douglas: * WHAT...Visibility less than one mile in dense fog. * WHERE...In Minnesota, Carlton and South St. Louis County. In Wisconsin, Douglas County. * WHEN...Until 9 AM CST this morning. * IMPACTS...Low visibility could make driving conditions hazardous. In areas where temperatures are near or below freezing, the fog could result in icy roads, sidewalks, and other surfaces.",
+      "observedAt": "2026-11-27T06:07:00-06:00",
+      "retrievedAt": "2026-11-27T12:28:45.289Z",
+      "evidenceClass": "INFERRED",
+      "status": "candidate",
+      "category": "Facility / weather",
+      "sourceUrl": "https://api.weather.gov/alerts/active?area=WI",
+      "expiresAt": "2026-11-27T09:00:00-06:00",
+      "severity": "Moderate",
+      "geocodes": {
+        "SAME": [
+          "027017",
+          "027137",
+          "055031"
+        ],
+        "UGC": [
+          "MNZ037",
+          "WIZ001"
+        ]
+      },
+      "scope": "Regional alert. County and timing match required before facility attribution."
+    },
     {
       "id": "thrive:page-change",
       "sourceId": "thrive",
@@ -1033,19 +1072,6 @@
       "category": "Transportation / logistics",
       "sourceUrl": "https://waterservices.usgs.gov/",
       "scope": "Select relevant gauges only after route exposure is validated"
-    },
-    {
-      "id": "nws-ilx-outlook:page-change",
-      "sourceId": "nws-ilx-outlook",
-      "title": "WWA Summary for Hazardous Weather Outlook Issued by ILX",
-      "summary": "Source content changed. Open the primary source and verify release date, units, scope and materiality before assessment.",
-      "observedAt": null,
-      "retrievedAt": "2026-11-27T00:42:27.654Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=ILX&wwa=hazardous+weather+outlook",
-      "scope": "Match Illinois McLean, Woodford and Tazewell zones; outlooks supplement active alerts and are not warnings."
     },
     {
       "id": "ustr:page-change",
@@ -35771,36 +35797,11 @@
         ]
       },
       "scope": "Regional alert. County and timing match required before facility attribution."
-    },
-    {
-      "id": "nws-il:urn:oid:2.49.0.1.840.0.a09c9b21cf0177f8e36571499aa3f5764017e97b.002.1",
-      "sourceId": "nws-il",
-      "title": "Flood Watch issued September 19 at 9:41AM CDT until September 24 at 9:00PM CDT by NWS Quad Cities IA IL",
-      "summary": "Rock Island; Henry: ...The National Weather Service in Quad Cities has issued a Flood Watch for the following rivers in Illinois... Rock River near Joslin affecting Henry IL, Rock Island and Whiteside zones. Rock River at Moline affecting Rock Island and Henry IL zones. * WHAT...Flooding is possible. * WHERE...Rock River at Moline. * WHEN...From Tuesday evening to Thursday evening. * ADDITIONAL DETAILS... - At 8:30 AM CDT Saturday the stage was 9.0 feet and steady. - Forecast...Flood stage may be reached late Tuesday evening. - Flood stage is 12.0 feet.",
-      "observedAt": "2026-09-19T09:41:00-05:00",
-      "retrievedAt": "2026-09-20T01:15:14.950Z",
-      "evidenceClass": "INFERRED",
-      "status": "candidate",
-      "category": "Facility / weather",
-      "sourceUrl": "https://api.weather.gov/alerts/active?area=IL",
-      "expiresAt": "2026-09-20T09:45:00-05:00",
-      "severity": "Severe",
-      "geocodes": {
-        "SAME": [
-          "017161",
-          "017073"
-        ],
-        "UGC": [
-          "ILZ015",
-          "ILZ016"
-        ]
-      },
-      "scope": "Regional alert. County and timing match required before facility attribution."
     }
   ],
-  "attempted": 19,
+  "attempted": 3,
   "remaining": 0,
-  "collectedAt": "2026-11-27T11:22:48.208Z",
+  "collectedAt": "2026-11-27T12:28:45.289Z",
   "history": [
     {
       "date": "2026-09-17",
@@ -92439,7 +92440,7 @@
     },
     {
       "date": "2026-11-27",
-      "asOf": "2026-11-27T11:22:52.212Z",
+      "asOf": "2026-11-27T12:28:45.665Z",
       "modelVersion": "1.0.0",
       "indicators": [
         {
